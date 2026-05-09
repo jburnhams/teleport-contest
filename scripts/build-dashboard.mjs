@@ -82,7 +82,14 @@ const docs = [
     'plan.md', 
     'learnings.md', 
     'docs/guide/history.md', 
-    'docs/guide/project.md'
+    'docs/guide/project.md',
+    'tasks.md',
+    'tasks/A-data-tables.md',
+    'tasks/B-rng-foundation.md',
+    'tasks/C-display.md',
+    'tasks/D-object-system.md',
+    'tasks/E-monster-system.md',
+    'tasks/F-hero-init.md'
 ];
 const docContents = {};
 for (const doc of docs) {
@@ -91,6 +98,13 @@ for (const doc of docs) {
     } catch {
         docContents[doc] = `*${doc} not found*`;
     }
+
+    // Count tasks for progress display
+    const content = docContents[doc];
+    const totalTasks = (content.match(/- \[[ x\/]\]/g) || []).length;
+    const doneTasks = (content.match(/- \[x\]/g) || []).length;
+    docContents[doc + ':total'] = totalTasks;
+    docContents[doc + ':done'] = doneTasks;
 }
 
 const html = `<!DOCTYPE html>
@@ -275,6 +289,38 @@ const html = `<!DOCTYPE html>
       background: transparent;
       padding: 0;
   }
+  .doc-content input[type="checkbox"] {
+      margin-right: 0.5em;
+      accent-color: var(--pass);
+      transform: scale(1.2);
+      vertical-align: middle;
+  }
+  .doc-content input[type="checkbox"].in-progress {
+      accent-color: #f59e0b;
+  }
+  .doc-content li { margin-bottom: 0.25rem; list-style: none; }
+  .doc-content table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+      font-size: 0.85rem;
+  }
+  .doc-content th, .doc-content td {
+      padding: 0.5rem 0.75rem;
+      border: 1px solid var(--card-border);
+      text-align: left;
+  }
+  .doc-content th {
+      background: rgba(0,0,0,0.3);
+      font-weight: 600;
+      color: #f8fafc;
+  }
+  .doc-content tr:nth-child(even) { background: rgba(0,0,0,0.1); }
+  .doc-content hr {
+      border: none;
+      border-top: 1px solid var(--card-border);
+      margin: 1.5rem 0;
+  }
   .doc-content ul, .doc-content ol { padding-left: 1.5rem; }
   .doc-content blockquote {
       border-left: 4px solid var(--card-border);
@@ -434,6 +480,15 @@ const html = `<!DOCTYPE html>
             <button class="doc-tab" onclick="showDoc('plan')">plan</button>
             <button class="doc-tab" onclick="showDoc('learnings')">learnings</button>
         </div>
+        <div class="doc-tabs" style="border-top: none; background: rgba(0,0,0,0.15);">
+            <button class="doc-tab" style="font-size: 0.8rem; padding: 0.5rem;" onclick="showDoc('tasks')">Tasks</button>
+            <button class="doc-tab" style="font-size: 0.8rem; padding: 0.5rem;" onclick="showDoc('task-a')">A</button>
+            <button class="doc-tab" style="font-size: 0.8rem; padding: 0.5rem;" onclick="showDoc('task-b')">B</button>
+            <button class="doc-tab" style="font-size: 0.8rem; padding: 0.5rem;" onclick="showDoc('task-c')">C</button>
+            <button class="doc-tab" style="font-size: 0.8rem; padding: 0.5rem;" onclick="showDoc('task-d')">D</button>
+            <button class="doc-tab" style="font-size: 0.8rem; padding: 0.5rem;" onclick="showDoc('task-e')">E</button>
+            <button class="doc-tab" style="font-size: 0.8rem; padding: 0.5rem;" onclick="showDoc('task-f')">F</button>
+        </div>
         <div class="doc-tabs" style="border-top: none; background: rgba(0,0,0,0.3);">
             <button class="doc-tab" style="font-size: 0.8rem; padding: 0.5rem;" onclick="showDoc('guide-history')">History</button>
             <button class="doc-tab" style="font-size: 0.8rem; padding: 0.5rem;" onclick="showDoc('guide-project')">Project</button>
@@ -442,6 +497,14 @@ const html = `<!DOCTYPE html>
         <div class="doc-content" id="doc-diary">${docContents['diary.md'].replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\`/g, '&#96;').replace(/\\$/g, '&#36;')}</div>
         <div class="doc-content" id="doc-plan" style="display:none;">${docContents['plan.md'].replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\`/g, '&#96;').replace(/\\$/g, '&#36;')}</div>
         <div class="doc-content" id="doc-learnings" style="display:none;">${docContents['learnings.md'].replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\`/g, '&#96;').replace(/\\$/g, '&#36;')}</div>
+        
+        <div class="doc-content" id="doc-tasks" style="display:none;">${docContents['tasks.md'].replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\`/g, '&#96;').replace(/\\$/g, '&#36;')}</div>
+        <div class="doc-content" id="doc-task-a" style="display:none;">${docContents['tasks/A-data-tables.md'].replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\`/g, '&#96;').replace(/\\$/g, '&#36;')}</div>
+        <div class="doc-content" id="doc-task-b" style="display:none;">${docContents['tasks/B-rng-foundation.md'].replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\`/g, '&#96;').replace(/\\$/g, '&#36;')}</div>
+        <div class="doc-content" id="doc-task-c" style="display:none;">${docContents['tasks/C-display.md'].replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\`/g, '&#96;').replace(/\\$/g, '&#36;')}</div>
+        <div class="doc-content" id="doc-task-d" style="display:none;">${docContents['tasks/D-object-system.md'].replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\`/g, '&#96;').replace(/\\$/g, '&#36;')}</div>
+        <div class="doc-content" id="doc-task-e" style="display:none;">${docContents['tasks/E-monster-system.md'].replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\`/g, '&#96;').replace(/\\$/g, '&#36;')}</div>
+        <div class="doc-content" id="doc-task-f" style="display:none;">${docContents['tasks/F-hero-init.md'].replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\`/g, '&#96;').replace(/\\$/g, '&#36;')}</div>
         
         <div class="doc-content" id="doc-guide-history" style="display:none;">${docContents['docs/guide/history.md'].replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\`/g, '&#96;').replace(/\\$/g, '&#36;')}</div>
         <div class="doc-content" id="doc-guide-project" style="display:none;">${docContents['docs/guide/project.md'].replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\`/g, '&#96;').replace(/\\$/g, '&#36;')}</div>
@@ -455,9 +518,23 @@ const html = `<!DOCTYPE html>
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script>
   function renderDocs() {
-      ['diary', 'plan', 'learnings', 'guide-history', 'guide-project'].forEach(id => {
+      // Enable GFM for task lists
+      if (typeof marked.setOptions === 'function') {
+          marked.setOptions({ gfm: true, breaks: false });
+      }
+      ['diary', 'plan', 'learnings', 'tasks', 'task-a', 'task-b', 'task-c', 'task-d', 'task-e', 'task-f', 'guide-history', 'guide-project'].forEach(id => {
           const el = document.getElementById('doc-' + id);
-          if (el) el.innerHTML = marked.parse(el.textContent);
+          if (el) {
+              // Get raw markdown text, convert [/] to [x] with a marker before parsing
+              let md = el.textContent;
+              // Replace - [/] with a marker that survives marked processing
+              md = md.replace(/^(\\s*)- \\[\\/\\]/gm, '$1- [x] ‣IN_PROGRESS‣');
+              let html = marked.parse(md);
+              // Now convert the marked IN_PROGRESS checkboxes to amber style
+              html = html.replace(/checked(?=[^>]*>\\s*‣IN_PROGRESS‣)/g, 'checked class="in-progress"');
+              html = html.replace(/‣IN_PROGRESS‣/g, '');
+              el.innerHTML = html;
+          }
       });
   }
   renderDocs();
