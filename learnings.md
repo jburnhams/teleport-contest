@@ -80,8 +80,8 @@ Role `allow` masks (indices 0–12):
 4  Kni: MH_HUMAN                   | ROLE_MALE|ROLE_FEMALE | ROLE_LAWFUL
 5  Mon: MH_HUMAN                   | ROLE_MALE|ROLE_FEMALE | ROLE_LAWFUL|ROLE_NEUTRAL|ROLE_CHAOTIC
 6  Pri: MH_HUMAN|MH_ELF            | ROLE_MALE|ROLE_FEMALE | ROLE_LAWFUL|ROLE_NEUTRAL|ROLE_CHAOTIC
-7  Ran: MH_HUMAN|MH_ORC            | ROLE_MALE|ROLE_FEMALE | ROLE_CHAOTIC
-8  Rog: MH_HUMAN|MH_ELF|MH_GNOME|MH_ORC | ROLE_MALE|ROLE_FEMALE | ROLE_NEUTRAL|ROLE_CHAOTIC
+7  Rog: MH_HUMAN|MH_ORC            | ROLE_MALE|ROLE_FEMALE | ROLE_CHAOTIC
+8  Ran: MH_HUMAN|MH_ELF|MH_GNOME|MH_ORC | ROLE_MALE|ROLE_FEMALE | ROLE_NEUTRAL|ROLE_CHAOTIC
 9  Sam: MH_HUMAN                   | ROLE_MALE|ROLE_FEMALE | ROLE_LAWFUL
 10 Tou: MH_HUMAN                   | ROLE_MALE|ROLE_FEMALE | ROLE_NEUTRAL
 11 Val: MH_HUMAN|MH_DWARF          | ROLE_FEMALE           | ROLE_LAWFUL|ROLE_NEUTRAL
@@ -98,3 +98,34 @@ Race `allow` masks:
 ```
 
 Gender indices: 0=male, 1=female. Align indices: 0=chaotic, 1=neutral, 2=lawful.
+
+## role_init() RNG pattern (C ref: role.c lines 2022–2078)
+
+Three sequential checks, all at init time, in this order:
+
+1. **Leader gender**: `is_neuter→2, is_female→1, is_male→0, else rn2(100)<50`. ALL quest leaders have explicit M2_MALE or M2_FEMALE, so NO rn2(100) calls here for any role.
+
+2. **Nemesis gender**: same logic. Only two nemeses lack explicit gender flags → rn2(100):
+   - Arc (0): MINION_OF_HUHETOTL — no M2_MALE/M2_FEMALE/M2_NEUTER
+   - Wiz (12): DARK_ONE — no M2_MALE/M2_FEMALE/M2_NEUTER
+   - All other nemeses: explicit gender → no rn2
+
+3. **Priest pantheon**: `while (!roles[pantheon].lgod && ++trycnt < 100) pantheon = randrole(FALSE)`. Only Priest has `lgod=NULL`, so only Priest calls `rn2(13)` here. One call usually suffices (the first non-Priest result exits the loop). In practice rn2(13)=11 (Valkyrie, which has lgod) for seed0367.
+
+## Role index order (C ref: role.c roles[] array)
+
+**Rogue (7) precedes Ranger (8)** — this is intentional in NetHack (comment in role.c: "Rogue precedes Ranger so that use of `-R' on the command line retains its traditional meaning"). Do not swap them.
+
+## init_dungeons mode (wizard/debug vs normal)
+
+- **Debug mode** (`playmode:debug` in OPTIONS): skips ALL chance rn2(100) calls (both dungeon and level), skips dungeon-level chance checks. Only calls: first Lua shuffle (rn2(3)+rn2(2)), depth rn2 for ranged dungeons, parent_dlevel rn2, place_level rn2.
+- **Normal mode**: adds 9 dungeon chance rn2(100) + 37 level chance rn2(100) calls = 46 extra rn2 calls.
+- Default chance=100 for all dungeons and levels (from `dungeon.c:1014`: `get_table_int_opt(L, "chance", 100)`). A chance check only skips if `chance <= rn2(100)` AND chance is <100 (bigrm has chance=40).
+
+## Nemesis/leader monster gender flags summary
+
+All quest leaders: LORD_CARNARVON, PELIAS, SHAMAN_KARNOV, HIPPOCRATES, KING_ARTHUR, GRAND_MASTER, ARCH_PRIEST, MASTER_OF_THIEVES (Rog), ORION (Ran), LORD_SATO, TWOFLOWER, NORN (Val, female), NEFERET_THE_GREEN (Wiz, female) — all have explicit M2_MALE or M2_FEMALE.
+
+Nemeses with explicit gender: THOTH_AMON (M), CHROMATIC_DRAGON (F), CYCLOPS (M), IXOTH (M), MASTER_KAEN (M), NALZOK (M), MASTER_ASSASSIN (M), SCORPIUS (M), ASHIKAGA_TAKAUJI (M), MASTER_OF_THIEVES (M/Tou), LORD_SURTUR (M).
+
+Nemeses with NO gender (random → rn2(100)): MINION_OF_HUHETOTL (Arc), DARK_ONE (Wiz).
