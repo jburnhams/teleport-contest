@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Concise reference for AI agents working in this repository.
+Concise reference for AI agents working in this repository. See and update diary.md, learnings.md and plan.md as you go
 
 ## What this is
 
