@@ -1,77 +1,214 @@
 # Plan
 
-Ordered implementation roadmap. Complete items top-to-bottom — each unlocks RNG parity for more sessions.
+High-level roadmap for porting NetHack 5.0 from C to JavaScript, bit-exact.
+
+**Scope: port ALL of NetHack 5.0.** The 44 public sessions (and 44 held-out) are a scoring thermometer — they sample a fraction of the game's surface. A faithful, complete port will score well on both pools. An incomplete port that games the public sessions will fail on held-out and on Phase 2's "5.1" diff.
+
+**Architecture principle: stay structurally faithful to the C original.** Same function names, same parameter order, same branching logic. Every JS file should name the C file it ports (`// C ref: filename.c`). This makes cross-referencing easy, reduces bugs, and prepares us for Phase 2 where a C diff must map cleanly onto our JS.
+
+See `tasks.md` for the current granular checklist of work items.
 
 ---
 
-## Phase 1 — RNG parity foundation (unblocks all sessions)
+## The Core Constraint: RNG Cascade
 
-The fastforward.js scaffolding must be replaced with real implementations, in order:
+Every single RNG call must match C's, in order, or all subsequent screens fail. Progress is strictly sequential:
 
-1. **Chargen RNG** (`nethack-c/upstream/src/role.c` → `js/chargen.js`)  [PREREQUISITE — happens before o_init]
-   - `pick_role(racenum, gendnum, alignnum, pickhow)` — counts valid roles, calls rn2(count)
-   - `pick_race(rolenum, gendnum, alignnum, pickhow)` — same pattern for races
-   - `pick_gend(rolenum, racenum, alignnum, pickhow)` — same for genders
-   - `pick_align(rolenum, racenum, gendnum, pickhow)` — same for alignments
-   - For RANDOM selections, all four run in order: role→race→gend→align (tty_player_selection order)
-   - Bitmask compatibility matrices extracted from role.c — see learnings.md
-
-2. **`o_init` — object shuffle** (`nethack-c/upstream/src/o_init.c` → `js/o_init.js`)
-   - Shuffles: randomize_gem_colors (3 calls), then AMULET(11), POTION(25), RING(28), SCROLL(41), SPBOOK(41), WAND(28), VENOM(2), sub-ranges HELMET(4), GLOVES(4), CLOAK(4), BOOTS(7), WAN_NOTHING(1)
-   - Fisher-Yates: `do { i = j + rn2(range-j); } while (objects[i].oc_name_known)` — no name_known objects at init, so exactly one rn2 per position
-   - Total: ~193 RNG calls; sizes are constant across all seeds
-
-3. **mklev `themerooms_generate` early-exit** (high leverage — unblocks ALL non-seed8000 sessions)
-   - Root cause: `themerooms_generate()` runs 30 reservoir-sampling rn2() calls before checking if the rect fits any room. C exits with 0 RNG for small rects.
-   - Fix: add size check at top of `themerooms_generate()` BEFORE reservoir sampling; return false immediately if rect is too small (< MIN_ROOM_SIZE on either axis).
-   - Verified for seed0360: would align 102 rnd_rect calls at positions 1217–1318.
-
-4. **Dungeon init** — replace fastforward_pre_mklev dungeon portion
-   - `init_dungeons()` consumes a block of rn2(100) calls and per-dungeon setup
-   - Still needs analysis; for now keep fastforward for dungeon init, implement 1+2 above first
-
-4. **`u_init` — hero initialization** (`nethack-c/upstream/src/u_init.c`)
-   - Sets hero stats, starting inventory, role/race/gender/align from parsed nethackrc.
-   - Depends on role tables (`js/roles.js` — partially present).
-
-5. **Monster init** (`nethack-c/upstream/src/monst.c`, `mkmon.c`)
-   - `makemon`, `newmonst` — needed for `mklev` fill phase and per-step monster movement.
-
-6. **Per-step RNG calls** — replace `fastforward_step()`
-   - Monster movement, regeneration, sound events, hunger tick.
-   - C ref: `allmain.c:moveloop_core` → `movemon`, `regen`, `gethungry`.
+1. **Pre-mklev init** (chargen → o_init → dungeon_init) — ~200–400 RNG calls
+2. **mklev** (rooms → corridors → fill → populate) — ~1,000–2,000 RNG calls
+3. **Post-mklev** (u_init → ini_inv → moveloop preamble) — ~100–200 RNG calls
+4. **Per-step game loop** (monsters → regen → sounds → hunger → command) — ~8–15 RNG calls/step
+5. **Screen rendering** — earns actual points if all the above matched
 
 ---
 
-## Phase 2 — Screen parity (unlocks screen points)
+## Phase 0 — Foundation Fixes (Immediate, high leverage)
 
-Once RNG is aligned, screens can start matching. Work through these roughly in order of session coverage:
+**Goal:** Get RNG aligned past mklev for multiple sessions. Currently ALL non-seed8000 diverge in mklev.
 
-7. **Welcome / chargen screens** — character selection prompts, lore `--More--`, welcome message.
-8. **Status line (`bot`)** — HP, gold, AC, Dlvl, time, hunger, status effects.
-9. **Map rendering (`docrt`, `newsym`)** — terrain, monsters, items visible to player.
-10. **Message window** — `pline`, `--More--` prompts, multi-line message handling.
-11. **Command dispatch (`cmd.js`)** — all movement, `s` search, `e` eat, `d` drop, `i` inventory, `z` zap, `r` read, `q` quaff, `w` wield, `W` wear, `t` throw, `#` extended commands.
-    - ✅ Ctrl+X (`show_attributes`) — implemented, +2 screens for seed8000 (screens[17] and [18])
-    - Next: `i` inventory list (screen[11] in seed8000), `\` discoveries list (screen[15] in seed8000)
-12. **Inventory menus** — `invent.c` item lists, letter assignment, object naming.
-13. **Shop handling** — price display, buy/sell, shopkeeper dialogue.
+| Task | C ref | Status |
+|------|-------|--------|
+| Fix `themerooms_generate` early-exit before reservoir sampling | mklev.c | TODO |
+| Implement `chargen.js` — `pick_role/race/gend/align` | role.c | TODO |
+| Verify pre-mklev RNG match across multiple seeds | — | TODO |
 
 ---
 
-## Phase 3 — Coverage hardening
+## Phase 1 — mklev Completion (Critical path)
 
-14. Special levels (Lua context, `sp_lev.c`).
-15. Save / restore (`save.c`, `restore.c`) — multi-segment sessions.
-16. Bones files.
-17. Quest levels, Oracle, Sokoban, Castle, Gehennom.
+**Goal:** Complete level generation — rooms, objects, monsters, traps placed with correct RNG.
+
+| Task | C ref | Dependencies |
+|------|-------|--------------|
+| `objects[]` array — full object data table | objects.c, objclass.h | — |
+| `mons[]` array — full monster data table | monst.c, mondata.h | — |
+| `mkobj` — object creation with correct RNG | mkobj.c | objects[] |
+| `makemon` — monster creation with correct RNG | makemon.c | mons[] |
+| mklev fill phase — `fill_rooms`, `mkroom_contents` | mklev.c, mkroom.c | mkobj, makemon |
+| `mineralize` — gold/gem deposits | mklev.c | mkobj |
+| Traps — `maketrap`, trap types, placement | trap.c | — |
+| Special rooms — shops, altars, etc. | mkroom.c | mkobj, makemon |
+
+**Outcome:** Delete `fastforward_fill_mineralize()`. mklev RNG matches for multiple seeds.
 
 ---
 
-## Notes
+## Phase 2 — Post-mklev Init & Hero Setup
 
-- Always check RNG match % before and after each change: `node frozen/ps_test_runner.mjs sessions/<file>.session.json`.
-- Start debugging with small sessions first: `seed0016` (36 screens), `seed0009` (73 screens), `seed0006` (123 screens).
-- Cross-check against C recorder output if a divergence is subtle: build with `bash nethack-c/build-recorder.sh` (requires clang, make, bison, flex).
-- Chargen happens BEFORE o_init — sessions without fully-specified OPTIONS consume role/race/gend/align rn2() calls first.
-- The seed8000 session (Tourist, fully specified OPTIONS) skips chargen RNG; other seeds need it.
+**Goal:** Get from mklev → first screen with correct game state.
+
+| Task | C ref | Dependencies |
+|------|-------|--------------|
+| `u_init` — role-specific hero setup, stats, skills | u_init.c | objects[], role tables |
+| `ini_inv` — starting inventory generation | u_init.c | mkobj |
+| `init_attr` / `initattributes` — stat init | attrib.c | role tables |
+| `newpw` — energy calculation (generalised) | exper.c | role tables |
+| Moveloop preamble — `findgold`, `vision_reset` etc. | allmain.c | u_init, ini_inv |
+
+**Outcome:** Delete `fastforward_post_mklev()`. Hero state correct for any role/seed.
+
+---
+
+## Phase 3 — Display & Status (First real screen points)
+
+**Goal:** First screen of each session matches — welcome screen + map + status line.
+
+| Task | C ref |
+|------|-------|
+| `botl.js` — proper status line rendering | botl.c |
+| `newsym` — monsters, objects, traps on map | display.c |
+| Welcome message — role-specific greeting | allmain.c |
+| `docrt` — full map redraw with remembered glyphs | display.c |
+| Cursor position — correct placement after each action | display.c |
+| Terminal output format — exact ANSI/DEC matching | wintty.c |
+
+**Outcome:** Screen 0 (welcome) matches for multiple sessions. Points start climbing.
+
+---
+
+## Phase 4 — Per-Step Game Loop (Turns working)
+
+**Goal:** Replace `fastforward_step()` with real per-turn logic.
+
+| Task | C ref |
+|------|-------|
+| `movemon` — monster movement each turn | mon.c, monmove.c |
+| `mcalcmove` — monster speed system | mon.c |
+| `regen` — HP/energy regeneration | allmain.c |
+| `gethungry` — hunger system | eat.c |
+| `dosounds` — random ambient sounds | sounds.c |
+| `moveloop_core` — proper turn sequencing | allmain.c |
+
+**Outcome:** Delete `fastforward_step()`. Turns advance correctly for all sessions.
+
+---
+
+## Phase 5 — Command Dispatch (All ~70 commands)
+
+**Goal:** Port the complete `cmd.c` dispatch table. All of it — not just what sessions exercise.
+
+Priority by RNG impact, then code complexity:
+
+- **P0:** Movement, wait, search (core loop)
+- **P1:** Inventory, pickup, drop, eat, quaff, read, wield, wear, takeoff, open, close
+- **P2:** Zap, cast, throw, kick, apply, pay, engrave, put on
+- **P3:** All extended commands, stairs, pray, offer, look, call, name, etc.
+
+---
+
+## Phase 6 — Inventory, Objects & Menus
+
+| Task | C ref |
+|------|-------|
+| Inventory letter assignment | invent.c |
+| Object naming/identification | objnam.c |
+| Menu system (pick-one, pick-many) | wintty.c |
+| Item descriptions | — |
+
+---
+
+## Phase 7 — Combat & Damage
+
+| Task | C ref |
+|------|-------|
+| `uhitm` — player attacks monster | uhitm.c |
+| `mhitu` — monster attacks player | mhitu.c |
+| `mhitm` — monster vs monster | mhitm.c |
+| Death handling | end.c |
+| Weapon/armor effects | weapon.c, worn.c |
+
+---
+
+## Phase 8 — Multi-level & Special Features
+
+| Task | C ref |
+|------|-------|
+| `goto_level` — level change | do.c |
+| Level memory / per-level state | — |
+| `sp_lev` — Lua special levels | sp_lev.c |
+| Mines, Sokoban, Oracle | sp_lev.c |
+| Save/restore | save.c, restore.c |
+| Bones files | bones.c |
+
+---
+
+## Target JS Module Map
+
+Mirrors the C source structure. Each JS file ports the corresponding C file.
+
+```
+js/
+├── jsmain.js          ← entry point (unixmain.c)           [EXISTS]
+├── allmain.js          ← newgame, moveloop                  [EXISTS, partial]
+├── cmd.js             ← rhack, command dispatch             [EXISTS, minimal]
+├── hack.js            ← domove, domovemon                   [NEW]
+├── display.js         ← newsym, docrt, flush_screen         [EXISTS, partial]
+├── botl.js            ← bot, status line rendering          [NEW]
+├── pline.js           ← message handling, --More--          [NEW]
+├── mklev.js           ← level generation                   [EXISTS, partial]
+├── mkobj.js           ← object creation                     [NEW]
+├── mkmon.js           ← monster creation (makemon.c)        [NEW]
+├── mon.js             ← monster movement, AI                [NEW]
+├── mondata.js         ← monster data helpers                [NEW]
+├── monst.js           ← mons[] array                        [NEW]
+├── objects.js         ← objects[] array                     [NEW]
+├── objnam.js          ← object naming                       [NEW]
+├── invent.js          ← inventory management                [NEW]
+├── u_init.js          ← hero initialization                 [NEW]
+├── chargen.js         ← tty_player_selection                [NEW]
+├── role.js            ← role/race data tables               [NEW — expand roles.js]
+├── dog.js             ← pet behavior                        [NEW]
+├── eat.js, do_wear.js, trap.js, shk.js, ...                 [NEW]
+├── sp_lev.js, save.js, dungeon.js, attrib.js, ...           [NEW]
+├── o_init.js          ← object init                         [EXISTS]
+├── dungeon_init.js    ← dungeon structure init              [EXISTS]
+├── role_init.js       ← role init extras                    [EXISTS]
+├── rng.js             ← PRNG wrappers                      [EXISTS]
+├── const.js           ← constants                           [EXISTS]
+├── gstate.js          ← global state                        [EXISTS]
+├── options.js         ← nethackrc parsing                   [EXISTS]
+└── fastforward.js     ← SHRINKING — delete as replaced     [EXISTS]
+```
+
+---
+
+## Key Decisions
+
+### Data tables
+The `mons[]` and `objects[]` arrays are ~5,000+ lines of structured data each. We should **auto-extract** from C headers with a script, not hand-port. This saves weeks and avoids transcription errors.
+
+### Lua special levels
+NetHack 5.0 uses Lua for special levels. Options: embed a JS Lua interpreter, or hand-translate the level definitions. Decision deferred to Phase 8 — most sessions don't reach special levels early.
+
+### Phase 2 readiness
+The contest has a Phase 2 where a "5.1" diff is applied. Our structural fidelity to C means C-side diffs can be mechanically applied to our JS. This is a major strategic advantage.
+
+---
+
+## Scoring Notes
+
+- `npm run score:check` — must not regress, ever
+- `node frozen/ps_test_runner.mjs sessions/<file>.session.json` — test individual sessions
+- RNG match % is the leading indicator before screens match
+- Push to `main` via PR only — CI score gate enforces no-regression
+- Judge re-scores every 2 hours on the leaderboard
