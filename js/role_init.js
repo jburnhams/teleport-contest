@@ -28,9 +28,9 @@ const ROLE_NAME_TO_IDX = {
     'wizard': 12,      'wiz': 12,
 };
 
-const ROLE_ARC    = 0;
-const ROLE_PRIEST = 6;
-const ROLE_WIZ    = 12;
+export const ROLE_ARC    = 0;
+export const ROLE_PRIEST = 6;
+export const ROLE_WIZ    = 12;
 
 // Convert a role name string (from OPTIONS=role:X) to a role index 0-12.
 // Returns -1 if not recognized.

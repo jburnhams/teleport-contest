@@ -10,7 +10,7 @@ import { vision_recalc, vision_reset, init_vision_globals } from './vision.js';
 import { fastforward_pre_mklev, fastforward_post_mklev, fastforward_step, fastforward_fill_mineralize } from './fastforward.js';
 import { init_objects } from './o_init.js';
 import { init_dungeons, init_castle_tune, u_init_misc } from './dungeon_init.js';
-import { role_init_extra, roleNameToIdx } from './role_init.js';
+import { role_init_extra, roleNameToIdx, ROLE_WIZ } from './role_init.js';
 import { rnd } from './rng.js';
 
 // C ref: allmain.c newgame()
@@ -40,7 +40,7 @@ export async function newgame() {
         // C ref: exper.c newpw() called from u_init() at ulevel==0.
         // NOTE: In the C code, newpw() is called AFTER init_dungeons/castle_tune
         // but BEFORE u_init_misc. Wizard is the only role with role.enadv.inrnd > 0.
-        const needsNewpw = (iRole === 12); // Wizard
+        const needsNewpw = (iRole === ROLE_WIZ); // Wizard
         init_dungeons(wizard);
         init_castle_tune();
         if (needsNewpw) rnd(3);
