@@ -52,7 +52,7 @@ For each checklist item in `tasks/{STREAM_LETTER}-{STREAM_NAME}.md`:
    - Never mock the PRNG — import and use the real `rng.js` with a known seed
 4. **Run the scorer** — `npm run score:check` — must not regress. If it does, fix before proceeding.
 5. **Tick the checklist** — edit `tasks/{STREAM_LETTER}-{STREAM_NAME}.md` and mark the item `[x]`.
-6. **Commit** — one commit per sub-task, message format: `feat(stream-{A}): <what was done>`
+6. **Commit** — one commit per sub-task, message format: feat(stream-{STREAM_LETTER}): <what was done>
 
 Only move to the next checklist item after the scorer passes.
 
