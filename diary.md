@@ -75,3 +75,22 @@ Investigated why non-seed8000 sessions diverge in mklev. For seed0360:
 - After the 102 rnd_rects: `rn2(7)=5 @ generate_stairs_find_room`
 
 Root cause hypothesis: C's `makerooms` loop continues attempting `rnd_rect()` for small-rect failures with 0 extra RNG, while our code unconditionally calls `themerooms_generate()` which consumes 30+ RNG calls (reservoir sampling) before discovering the rect is too small. Fix: add early-exit in `themerooms_generate()` before any RNG is consumed when the candidate rect is too small to hold any room.
+
+### Vault fallback fix (+106 RNG calls for seed0360)
+
+Root cause identified and fixed: the vault fallback in `makelevel` (`js/mklev.js:507`) was `else if (rnd_rect()) { // simplified }` — it called `rnd_rect()` but not `create_vault()`. In C, `else if (rnd_rect() && create_vault())` means `create_vault()` is always called when `rnd_rect()` succeeds; `create_vault()` has an internal do-while loop that retries up to 101 times, each calling `rnd_rect()`. For seed0360, all 101 retries fail (rect too small for vault), producing 102 consecutive `rnd_rect → rn2(2)` calls (1 outer + 101 inner). Fixed by calling `create_vault()` in the fallback branch. seed0360 improved: 1217 → 1323 matched RNG calls.
+
+### newpw fix: all roles with enadv.inrnd > 0
+
+`newpw()` (called from `u_init()` at ulevel=0) calls `rnd(urole.enadv.inrnd)` for any role with inrnd > 0. Our code only handled Wizard (inrnd=3). The full table from role.c:
+- Arc=0, Bar=0, Cav=0, **Hea=4**, **Kni=4**, **Mon=2**, **Pri=3**, Rog=0, Ran=0, Sam=0, Tou=0, Val=0, **Wiz=3**
+
+All race inrnd values are 0. Fixed by storing `ROLE_ENADV_INRND` array in `allmain.js` and calling `rnd(newpwInrnd)` for any role. Result: seed0016 (Healer) jumped from 371 → ~1281 matched RNG calls. seed0017 (Samurai, inrnd=0) unchanged.
+
+### Current bottleneck: fill phase
+
+After vault fix + newpw fix, most fully-specified sessions now diverge in the fill phase:
+- `rn2(fillable_room_count)` at `makelevel:1402` — `fastforward_fill_mineralize` hardcodes `rn2(8)` but sessions have 6-9 fillable rooms
+- `fill_ordinary_room` / `fill_special_room` — require `makemon` and full monster selection logic
+
+Next: implement real fill phase (replace `fastforward_fill_mineralize` for non-seed8000).
