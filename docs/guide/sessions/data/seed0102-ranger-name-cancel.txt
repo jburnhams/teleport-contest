@@ -1,0 +1,68 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 4440 calls
+  Msg: It is written in the Book of Mars:
+  Status: Ricky the Tenderfoot           St:14 Dx:11 Co:13 In:13 Wi:14 Ch:10 Chaotic | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:0 Xp:1
+[Step 1] Key:   | PRNG: 2 calls
+  Msg: Hello ricky, welcome to NetHack!  You are a chaotic female human Ranger.
+  Map updated (17 rows changed)
+  Status update: Ricky the Tenderfoot           St:14 Dx:11 Co:13 In:13 Wi:14 Ch:10 Chaotic | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:7 Xp:1
+[Step 2] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+  Map updated (5 rows changed)
+[Step 3] Key: n | PRNG: 0 calls
+  Map updated (4 rows changed)
+[Step 4] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 5] Key: n | PRNG: 0 calls
+  Msg: # name
+[Step 6] Key: a | PRNG: 0 calls
+  Msg: # name
+[Step 7] Key: m | PRNG: 0 calls
+  Msg: # name
+[Step 8] Key: e | PRNG: 0 calls
+  Msg: # name
+[Step 9] Key: \r (Enter) | PRNG: 0 calls
+  Msg: What do you want to name?
+  Map updated (7 rows changed)
+[Step 10] Key: ESC | PRNG: 0 calls
+  Map updated (7 rows changed)
+[Step 11] Key: f | PRNG: 0 calls
+  Msg: b - a +1 bow (weapon in right hand).--More--
+[Step 12] Key: l | PRNG: 0 calls
+  Msg: b - a +1 bow (weapon in right hand).--More--
+[Step 13] Key: i | PRNG: 0 calls
+  Msg: b - a +1 bow (weapon in right hand).--More--
+[Step 14] Key: ESC | PRNG: 6 calls
+  Msg: In what direction?
+[Step 15] Key: + | PRNG: 0 calls
+  Msg: cmdassist: Invalid direction key!
+  Map updated (12 rows changed)
+  Status update:  | --More--
+[Step 16] Key: ESC | PRNG: 0 calls
+  Map updated (12 rows changed)
+  Status update: Ricky the Tenderfoot           St:14 Dx:11 Co:13 In:13 Wi:14 Ch:10 Chaotic | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:7 Xp:1
+[Step 17] Key: \ | PRNG: 0 calls
+  Msg: Discoveries, by order of discovery within each class
+  Map updated (13 rows changed)
+  Status update:  | --More--
+[Step 18] Key: ESC | PRNG: 0 calls
+  Map updated (13 rows changed)
+  Status update: Ricky the Tenderfoot           St:14 Dx:11 Co:13 In:13 Wi:14 Ch:10 Chaotic | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:7 Xp:1
+[Step 19] Key:  | PRNG: 0 calls
+  Msg: Ricky the Ranger's attributes:
+  Map updated (19 rows changed)
+  Status update: Your intelligence is 13. | (1 of 2)
+[Step 20] Key:   | PRNG: 0 calls
+  Msg: Your wisdom is 14.
+  Map updated (20 rows changed)
+  Status update:  | 
+[Step 21] Key: ESC | PRNG: 0 calls
+  Map updated (11 rows changed)
+  Status update: Ricky the Tenderfoot           St:14 Dx:11 Co:13 In:13 Wi:14 Ch:10 Chaotic | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:7 Xp:1
+[Step 22] Key: s | PRNG: 18 calls
+  Map updated (1 rows changed)
+[Step 23] Key: s | PRNG: 19 calls
+  Map updated (2 rows changed)
+[Step 24] Key: : | PRNG: 0 calls
+  Msg: There is a staircase up out of the dungeon here.

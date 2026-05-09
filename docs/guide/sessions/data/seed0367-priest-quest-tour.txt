@@ -1,0 +1,814 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 1846 calls
+  Msg: It is written in the Book of Loki:
+  Status: Wizard the Aspirant            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Dlvl:1 $:0 HP:14(14) Pw:7(7) AC:0 Xp:1
+[Step 1] Key:   | PRNG: 2 calls
+  Msg: Hello wizard, welcome to NetHack!  You are a chaotic human Priestess.--More--
+  Map updated (14 rows changed)
+  Status update: Wizard the Aspirant            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Dlvl:1 $:0 HP:14(14) Pw:7(7) AC:7 Xp:1
+[Step 2] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+  Map updated (4 rows changed)
+[Step 3] Key: n | PRNG: 0 calls
+  Map updated (4 rows changed)
+[Step 4] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 5] Key: l | PRNG: 0 calls
+  Msg: # l
+[Step 6] Key: e | PRNG: 0 calls
+  Msg: # levelchange
+[Step 7] Key: v | PRNG: 0 calls
+  Msg: # levelchange
+[Step 8] Key: e | PRNG: 0 calls
+  Msg: # levelchange
+[Step 9] Key: l | PRNG: 0 calls
+  Msg: # levelchange
+[Step 10] Key: c | PRNG: 0 calls
+  Msg: # levelchange
+[Step 11] Key: h | PRNG: 0 calls
+  Msg: # levelchange
+[Step 12] Key: a | PRNG: 0 calls
+  Msg: # levelchange
+[Step 13] Key: n | PRNG: 0 calls
+  Msg: # levelchange
+[Step 14] Key: g | PRNG: 0 calls
+  Msg: # levelchange
+[Step 15] Key: e | PRNG: 0 calls
+  Msg: # levelchange
+[Step 16] Key: 
+ | PRNG: 0 calls
+  Msg: To what experience level do you want to be set?
+[Step 17] Key: 2 | PRNG: 0 calls
+  Msg: To what experience level do you want to be set? 2
+[Step 18] Key: 0 | PRNG: 0 calls
+  Msg: To what experience level do you want to be set? 20
+[Step 19] Key: 
+ | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 2.--More--
+  Status update: Wizard the Aspirant            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Dlvl:1 $:0 HP:16(16) Pw:11(11) AC:7 Xp:2
+[Step 20] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 3.--More--
+  Status update: Wizard the Acolyte             St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Dlvl:1 $:0 HP:24(24) Pw:29(29) AC:7 Xp:3
+[Step 21] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 4.--More--
+  Status update: Wizard the Acolyte             St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Dlvl:1 $:0 HP:27(27) Pw:41(41) AC:7 Xp:4
+[Step 22] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 5.--More--
+  Status update: Wizard the Acolyte             St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Dlvl:1 $:0 HP:34(34) Pw:47(47) AC:7 Xp:5
+[Step 23] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 6.--More--
+  Status update: Wizard the Adept               St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Dlvl:1 $:0 HP:41(41) Pw:61(61) AC:7 Xp:6
+[Step 24] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 7.--More--
+  Status update: Wizard the Adept               St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Dlvl:1 $:0 HP:45(45) Pw:77(77) AC:7 Xp:7
+[Step 25] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 8.--More--
+  Status update: Wizard the Adept               St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Dlvl:1 $:0 HP:54(54) Pw:81(81) AC:7 Xp:8
+[Step 26] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 9.--More--
+  Status update: Wizard the Adept               St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Dlvl:1 $:0 HP:57(57) Pw:85(85) AC:7 Xp:9
+[Step 27] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 10.--More--
+  Status update: Wizard the Priestess           St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Dlvl:1 $:0 HP:60(60) Pw:107(107) AC:7 Xp:10
+[Step 28] Key:   | PRNG: 1 calls
+  Msg: You feel more experienced.  Welcome to experience level 11.--More--
+  Status update: Wizard the Priestess           St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Dlvl:1 $:0 HP:62(62) Pw:127(127) AC:7 Xp:11
+[Step 29] Key:   | PRNG: 1 calls
+  Msg: You feel more experienced.  Welcome to experience level 12.--More--
+  Status update: Wizard the Priestess           St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Dlvl:1 $:0 HP:64(64) Pw:135(135) AC:7 Xp:12
+[Step 30] Key:   | PRNG: 1 calls
+  Msg: You feel more experienced.  Welcome to experience level 13.--More--
+  Status update: Wizard the Priestess           St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Dlvl:1 $:0 HP:66(66) Pw:153(153) AC:7 Xp:13
+[Step 31] Key:   | PRNG: 1 calls
+  Msg: You feel more experienced.  Welcome to experience level 14.--More--
+  Status update: Wizard the Curate              St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Dlvl:1 $:0 HP:68(68) Pw:169(169) AC:7 Xp:14
+[Step 32] Key:   | PRNG: 1 calls
+  Msg: You feel more experienced.  Welcome to experience level 15.--More--
+  Status update: Wizard the Curate              St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Dlvl:1 $:0 HP:70(70) Pw:191(191) AC:7 Xp:15
+[Step 33] Key:   | PRNG: 1 calls
+  Msg: You feel sensitive!  You feel more experienced.--More--
+  Status update: Wizard the Curate              St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Dlvl:1 $:0 HP:72(72) Pw:197(197) AC:7 Xp:16
+[Step 34] Key:   | PRNG: 1 calls
+  Msg: Welcome to experience level 16.  You feel more experienced.--More--
+  Status update: Wizard the Curate              St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Dlvl:1 $:0 HP:74(74) Pw:207(207) AC:7 Xp:17
+[Step 35] Key:   | PRNG: 1 calls
+  Msg: Welcome to experience level 17.  You feel more experienced.--More--
+  Status update: Wizard the Canoness            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Dlvl:1 $:0 HP:76(76) Pw:229(229) AC:7 Xp:18
+[Step 36] Key:   | PRNG: 1 calls
+  Msg: Welcome to experience level 18.  You feel more experienced.--More--
+  Status update: Wizard the Canoness            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Dlvl:1 $:0 HP:78(78) Pw:239(239) AC:7 Xp:19
+[Step 37] Key:   | PRNG: 1 calls
+  Msg: Welcome to experience level 19.  You feel more experienced.--More--
+  Status update: Wizard the Canoness            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Dlvl:1 $:0 HP:80(80) Pw:243(243) AC:7 Xp:20
+[Step 38] Key:   | PRNG: 0 calls
+  Msg: Welcome to experience level 20.  You feel cool!
+[Step 39] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 40] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 41] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 42] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 43] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 44] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 45] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 46] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 47] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 48] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 49] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 50] Key: . | PRNG: 9 calls
+[Step 51] Key: T | PRNG: 0 calls
+  Msg: What do you want to take off? [bc or ?*]
+[Step 52] Key:  | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 53] Key:   | PRNG: 0 calls
+  Msg: What do you want to take off? [bc or ?*]
+[Step 54] Key: b | PRNG: 35 calls
+  Msg: You were wearing a +0 robe.
+  Map updated (2 rows changed)
+  Status update: Wizard the Canoness            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Dlvl:1 $:0 HP:80(80) Pw:243(243) AC:9 Xp:20
+[Step 55] Key: l | PRNG: 46 calls
+  Map updated (3 rows changed)
+[Step 56] Key: e | PRNG: 0 calls
+  Msg: What do you want to eat? [ef or ?*]
+[Step 57] Key: s | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 58] Key:   | PRNG: 0 calls
+  Msg: What do you want to eat? [ef or ?*]
+[Step 59] Key: s | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 60] Key:   | PRNG: 0 calls
+  Msg: What do you want to eat? [ef or ?*]
+[Step 61] Key: e | PRNG: 22 calls
+  Msg: This clove of garlic is delicious!
+  Map updated (2 rows changed)
+[Step 62] Key: d | PRNG: 0 calls
+  Msg: What do you want to drop? [a-df-h or ?*]
+[Step 63] Key:   | PRNG: 0 calls
+  Msg: Never mind.
+[Step 64] Key: + | PRNG: 0 calls
+  Msg: Currently known spells
+  Map updated (5 rows changed)
+[Step 65] Key: 5 | PRNG: 0 calls
+  Msg: Currently known spells
+[Step 66] Key:   | PRNG: 0 calls
+  Map updated (5 rows changed)
+[Step 67] Key: S | PRNG: 0 calls
+  Msg: Really save? [yn] (n)
+[Step 68] Key: u | PRNG: 0 calls
+  Msg: Really save? [yn] (n)
+[Step 69] Key: n | PRNG: 0 calls
+[Step 70] Key: s | PRNG: 0 calls
+  Msg: You already found a monster.  Use 'm' prefix to force another search.
+[Step 71] Key: w | PRNG: 0 calls
+  Msg: What do you want to wield? [- a or ?*]
+[Step 72] Key: o | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 73] Key:   | PRNG: 0 calls
+  Msg: What do you want to wield? [- a or ?*]
+[Step 74] Key: r | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 75] Key:   | PRNG: 0 calls
+  Msg: What do you want to wield? [- a or ?*]
+[Step 76] Key: d | PRNG: 37 calls
+  Msg: d - 4 potions of holy water (wielded).  The kitten misses the kobold.--More--
+[Step 77] Key:   | PRNG: 12 calls
+  Msg: The kitten misses the kobold.
+[Step 78] Key: 
+ | PRNG: 0 calls
+[Step 79] Key:  | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 80] Key: b | PRNG: 0 calls
+  Msg: For what do you wish? b
+[Step 81] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? bl
+[Step 82] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? ble
+[Step 83] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? bles
+[Step 84] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? bless
+[Step 85] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? blesse
+[Step 86] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? blessed
+[Step 87] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? blessed
+[Step 88] Key: + | PRNG: 0 calls
+  Msg: For what do you wish? blessed +
+[Step 89] Key: 5 | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5
+[Step 90] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5
+[Step 91] Key: b | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 b
+[Step 92] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 bl
+[Step 93] Key: u | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 blu
+[Step 94] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 blue
+[Step 95] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 blue
+[Step 96] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 blue d
+[Step 97] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 blue dr
+[Step 98] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 blue dra
+[Step 99] Key: g | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 blue drag
+[Step 100] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 blue drago
+[Step 101] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 blue dragon
+[Step 102] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 blue dragon
+[Step 103] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 blue dragon s
+[Step 104] Key: c | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 blue dragon sc
+[Step 105] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 blue dragon sca
+[Step 106] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 blue dragon scal
+[Step 107] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 blue dragon scale
+[Step 108] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 blue dragon scale
+[Step 109] Key: m | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 blue dragon scale m
+[Step 110] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 blue dragon scale ma
+[Step 111] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 blue dragon scale mai
+[Step 112] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 blue dragon scale mail
+[Step 113] Key: 
+ | PRNG: 11 calls
+  Msg: i - a blessed blue dragon scale mail.
+[Step 114] Key:  | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 115] Key: b | PRNG: 0 calls
+  Msg: For what do you wish? b
+[Step 116] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? bl
+[Step 117] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? ble
+[Step 118] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? bles
+[Step 119] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? bless
+[Step 120] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? blesse
+[Step 121] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? blessed
+[Step 122] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? blessed
+[Step 123] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? blessed a
+[Step 124] Key: m | PRNG: 0 calls
+  Msg: For what do you wish? blessed am
+[Step 125] Key: u | PRNG: 0 calls
+  Msg: For what do you wish? blessed amu
+[Step 126] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? blessed amul
+[Step 127] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? blessed amule
+[Step 128] Key: t | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet
+[Step 129] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet
+[Step 130] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet o
+[Step 131] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet of
+[Step 132] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet of
+[Step 133] Key: E | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet of E
+[Step 134] Key: S | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet of ES
+[Step 135] Key: P | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet of ESP
+[Step 136] Key: 
+ | PRNG: 5 calls
+  Msg: j - a blessed pyramidal amulet.
+[Step 137] Key: w | PRNG: 0 calls
+  Msg: What do you want to wield? [- a or ?*]
+[Step 138] Key: h | PRNG: 27 calls
+  Msg: h - a blessed spellbook of clairvoyance (wielded).--More--
+[Step 139] Key:   | PRNG: 32 calls
+  Msg: The kitten bites the kobold.  The kobold is killed!
+  Map updated (2 rows changed)
+[Step 140] Key: W | PRNG: 0 calls
+  Msg: What do you want to wear? [bi or ?*]
+[Step 141] Key: i | PRNG: 183 calls
+  Msg: You finish your dressing maneuver.  You speed up.
+  Map updated (2 rows changed)
+  Status update: Wizard the Canoness            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Dlvl:1 $:0 HP:80(80) Pw:243(243) AC:-5 Xp:20
+[Step 142] Key: P | PRNG: 0 calls
+  Msg: What do you want to put on? [j or ?*]
+[Step 143] Key: j | PRNG: 31 calls
+  Msg: j - a blessed pyramidal amulet (being worn).
+  Map updated (1 rows changed)
+[Step 144] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 145] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 146] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   orcus: 42 | (1 of 3)
+[Step 147] Key:   | PRNG: 0 calls
+  Msg: t -   fakewiz1: 44
+  Map updated (21 rows changed)
+  Status update: J -   astral: -5 | (2 of 3)
+[Step 148] Key: y | PRNG: 947 calls
+  Msg: You materialize on a different level!--More--
+  Map updated (21 rows changed)
+  Status update: Wizard the Canoness            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Home 1 $:0 HP:80(80) Pw:243(243) AC:-5 Xp:20
+[Step 149] Key:   | PRNG: 0 calls
+  Msg: You find yourself standing in sight of the Great Temple.  Something
+  Map updated (20 rows changed)
+  Status update:  | --More--
+[Step 150] Key:   | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Wizard the Canoness            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Home 1 $:0 HP:80(80) Pw:243(243) AC:-5 Xp:20
+[Step 151] Key:  | PRNG: 0 calls
+  Msg: Where do you want to be teleported?--More--
+[Step 152] Key:   | PRNG: 0 calls
+  Msg: Tip: Farlooking or selecting a map location
+  Map updated (8 rows changed)
+[Step 153] Key:   | PRNG: 0 calls
+  Msg: (For instructions type a '?')  Move cursor to the desired position:
+  Map updated (8 rows changed)
+[Step 154] Key:   | PRNG: 0 calls
+  Msg: human priestess called wizard
+[Step 155] Key: h | PRNG: 0 calls
+  Msg: tree
+[Step 156] Key: h | PRNG: 0 calls
+  Msg: unexplored area
+[Step 157] Key: h | PRNG: 0 calls
+  Msg: unexplored area
+[Step 158] Key: h | PRNG: 0 calls
+  Msg: unexplored area
+[Step 159] Key: h | PRNG: 0 calls
+  Msg: unexplored area
+[Step 160] Key: h | PRNG: 0 calls
+  Msg: unexplored area
+[Step 161] Key: h | PRNG: 0 calls
+  Msg: unexplored area
+[Step 162] Key: h | PRNG: 0 calls
+  Msg: unexplored area
+[Step 163] Key: h | PRNG: 0 calls
+  Msg: unexplored area
+[Step 164] Key: h | PRNG: 0 calls
+  Msg: unexplored area
+[Step 165] Key: h | PRNG: 0 calls
+  Msg: unexplored area
+[Step 166] Key: h | PRNG: 0 calls
+  Msg: unexplored area
+[Step 167] Key: h | PRNG: 0 calls
+  Msg: unexplored area
+[Step 168] Key: h | PRNG: 0 calls
+  Msg: unexplored area
+[Step 169] Key: h | PRNG: 0 calls
+  Msg: unexplored area
+[Step 170] Key: h | PRNG: 0 calls
+  Msg: unexplored area
+[Step 171] Key: h | PRNG: 0 calls
+  Msg: unexplored area
+[Step 172] Key: h | PRNG: 0 calls
+  Msg: unexplored area
+[Step 173] Key: h | PRNG: 0 calls
+  Msg: unexplored area
+[Step 174] Key: h | PRNG: 0 calls
+  Msg: unexplored area
+[Step 175] Key: h | PRNG: 0 calls
+  Msg: unexplored area
+[Step 176] Key: h | PRNG: 0 calls
+  Msg: unexplored area
+[Step 177] Key: h | PRNG: 0 calls
+  Msg: unexplored area
+[Step 178] Key: k | PRNG: 0 calls
+  Msg: unexplored area
+[Step 179] Key: k | PRNG: 0 calls
+  Msg: unexplored area
+[Step 180] Key: k | PRNG: 0 calls
+  Msg: unexplored area
+[Step 181] Key: k | PRNG: 0 calls
+  Msg: unexplored area
+[Step 182] Key: k | PRNG: 0 calls
+  Msg: unexplored area
+[Step 183] Key: k | PRNG: 0 calls
+  Msg: unexplored area
+[Step 184] Key: k | PRNG: 0 calls
+  Msg: unexplored area
+[Step 185] Key: . | PRNG: 1 calls
+  Msg: You materialize in a different location!--More--
+  Map updated (12 rows changed)
+[Step 186] Key:   | PRNG: 1 calls
+  Msg: You feel like you are being watched.
+[Step 187] Key: . | PRNG: 26 calls
+[Step 188] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 189] Key: c | PRNG: 0 calls
+  Msg: # c
+[Step 190] Key: h | PRNG: 0 calls
+  Msg: # ch
+[Step 191] Key: a | PRNG: 0 calls
+  Msg: # chat
+[Step 192] Key: t | PRNG: 0 calls
+  Msg: # chat
+[Step 193] Key: 
+ | PRNG: 0 calls
+  Msg: Talk to whom? (in what direction)
+[Step 194] Key: l | PRNG: 2 calls
+  Msg: "Ah, wizard, my daughter.  You have returned to us at last.
+  Map updated (20 rows changed)
+  Status update:  | --More--
+[Step 195] Key:   | PRNG: 0 calls
+  Msg: You are currently 0 and require 20.--More--
+  Map updated (20 rows changed)
+  Status update: Wizard the Canoness            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Home 1 $:0 HP:80(80) Pw:243(243) AC:-5 Xp:20
+[Step 196] Key:   | PRNG: 0 calls
+  Msg: adjust?
+[Step 197] Key: y | PRNG: 2 calls
+  Msg: "Yes, wizard.  You are truly ready now.  Attend to me and I shall
+  Map updated (20 rows changed)
+  Status update:  | --More--
+[Step 198] Key:   | PRNG: 123 calls
+  Map updated (20 rows changed)
+  Status update: Wizard the Canoness            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Home 1 $:0 HP:80(80) Pw:243(243) AC:-5 Xp:20
+[Step 199] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 200] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 201] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (21 rows changed)
+  Status update: s -   orcus: 42 | (1 of 3)
+[Step 202] Key:   | PRNG: 0 calls
+  Msg: t -   fakewiz1: 44
+  Map updated (21 rows changed)
+  Status update: J -   astral: -5 | (2 of 3)
+[Step 203] Key: z | PRNG: 11734 calls
+  Msg: You materialize on a different level!--More--
+  Map updated (21 rows changed)
+  Status update: Wizard the Canoness            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Home 3 $:0 HP:80(80) Pw:243(243) AC:-5 Xp:20
+[Step 204] Key:   | PRNG: 0 calls
+  Msg: You stand facing a large graveyard.  The sky above is filled with clouds
+  Map updated (21 rows changed)
+  Status update:  | --More--
+[Step 205] Key:   | PRNG: 0 calls
+  Map updated (21 rows changed)
+  Status update: Wizard the Canoness            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Home 3 $:0 HP:80(80) Pw:243(243) AC:-5 Xp:20
+[Step 206] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 207] Key: 1 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 1
+[Step 208] Key: 3 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 13
+[Step 209] Key: 
+ | PRNG: 2276 calls
+  Msg: You materialize on a different level!--More--
+  Map updated (21 rows changed)
+  Status update: Wizard the Canoness            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Home 6 $:0 HP:80(80) Pw:243(243) AC:-5 Xp:20
+[Step 210] Key:   | PRNG: 0 calls
+  Msg: The stench of brimstone is all about you, and the shrieks and moans
+  Map updated (20 rows changed)
+  Status update:  | --More--
+[Step 211] Key:   | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Wizard the Canoness            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Home 6 $:0 HP:80(80) Pw:243(243) AC:-5 Xp:20
+[Step 212] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 213] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 214] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   orcus: 42 | (1 of 3)
+[Step 215] Key:   | PRNG: 0 calls
+  Msg: t -   fakewiz1: 44
+  Map updated (21 rows changed)
+  Status update: J -   astral: -5 | (2 of 3)
+[Step 216] Key: A | PRNG: 0 calls
+  Map updated (21 rows changed)
+  Status update: Wizard the Canoness            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Home 6 $:0 HP:80(80) Pw:243(243) AC:-5 Xp:20
+[Step 217] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 218] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 219] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   orcus: 42 | (1 of 3)
+[Step 220] Key:   | PRNG: 0 calls
+  Msg: t -   fakewiz1: 44
+  Map updated (21 rows changed)
+  Status update: J -   astral: -5 | (2 of 3)
+[Step 221] Key: w | PRNG: 1450 calls
+  Msg: You materialize on a different level!
+  Map updated (21 rows changed)
+  Status update: Wizard the Canoness            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Dlvl:7 $:0 HP:80(80) Pw:243(243) AC:-5 Xp:20
+[Step 222] Key: k | PRNG: 0 calls
+  Map updated (2 rows changed)
+[Step 223] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 224] Key: s | PRNG: 25 calls
+[Step 225] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 226] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 227] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   orcus: 42 | (1 of 3)
+[Step 228] Key:   | PRNG: 0 calls
+  Msg: t -   fakewiz1: 44
+  Map updated (21 rows changed)
+  Status update: J -   astral: -5 | (2 of 3)
+[Step 229] Key: x | PRNG: 954 calls
+  Msg: You materialize on a different level!
+  Map updated (21 rows changed)
+  Status update: Wizard the Canoness            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Dlvl:12 $:0 HP:80(80) Pw:243(243) AC:-5 Xp:20
+[Step 230] Key: l | PRNG: 31 calls
+  Msg: You see here a whistle.
+  Map updated (3 rows changed)
+[Step 231] Key: s | PRNG: 85 calls
+  Map updated (4 rows changed)
+[Step 232] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 233] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 234] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   orcus: 42 | (1 of 3)
+[Step 235] Key: f | PRNG: 6697 calls
+  Msg: You materialize on a different level!--More--
+  Map updated (20 rows changed)
+  Status update: Wizard the Canoness            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Dlvl:12 $:0 HP:80(80) Pw:243(243) AC:-5 Xp:20
+[Step 236] Key:   | PRNG: 0 calls
+  Msg: You receive a faint telepathic message from the Arch Priest:--More--
+[Step 237] Key:   | PRNG: 0 calls
+  Msg: Your help is urgently needed at the Great Temple!--More--
+[Step 238] Key:   | PRNG: 0 calls
+  Msg: Look for a ...ic transporter.--More--
+[Step 239] Key:   | PRNG: 0 calls
+  Msg: You couldn't quite make out that last message.
+[Step 240] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 241] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 242] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   orcus: 42 | (1 of 3)
+[Step 243] Key: h | PRNG: 6353 calls
+  Msg: You materialize on a different level!
+  Map updated (20 rows changed)
+  Status update: Wizard the Canoness            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Dlvl:24 $:0 HP:80(80) Pw:243(243) AC:-5 Xp:20
+[Step 244] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 245] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 246] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   orcus: 42 | (1 of 3)
+[Step 247] Key:   | PRNG: 0 calls
+  Msg: t -   fakewiz1: 44
+  Map updated (21 rows changed)
+  Status update: J -   astral: -5 | (2 of 3)
+[Step 248] Key: y | PRNG: 25 calls
+  Msg: You materialize on a different level!--More--
+  Map updated (21 rows changed)
+  Status update: Wizard the Canoness            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Home 1 $:0 HP:80(80) Pw:243(243) AC:-5 Xp:20
+[Step 249] Key:   | PRNG: 0 calls
+  Msg: Once again, you stand before the Great Temple.
+[Step 250] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 251] Key: 2 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 2
+[Step 252] Key: 
+ | PRNG: 2153 calls
+  Msg: You materialize on a different level!
+  Map updated (20 rows changed)
+  Status update: Wizard the Canoness            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Home 2 $:0 HP:80(80) Pw:243(243) AC:-5 Xp:20
+[Step 253] Key: b | PRNG: 0 calls
+  Map updated (3 rows changed)
+[Step 254] Key: s | PRNG: 29 calls
+[Step 255] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 256] Key: 3 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 3
+[Step 257] Key: 
+ | PRNG: 290 calls
+  Msg: You materialize on a different level!--More--
+  Map updated (21 rows changed)
+  Status update: Wizard the Canoness            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Home 3 $:0 HP:80(80) Pw:243(243) AC:-5 Xp:20
+[Step 258] Key:   | PRNG: 1 calls
+  Msg: Again, you stand before the Temple of Nalzok.  A nearby voice intones:--More--
+[Step 259] Key:  | PRNG: 0 calls
+  Msg: Again, you stand before the Temple of Nalzok.  A nearby voice intones:--More--
+[Step 260] Key: 4 | PRNG: 0 calls
+  Msg: Again, you stand before the Temple of Nalzok.  A nearby voice intones:--More--
+[Step 261] Key: 
+ | PRNG: 2 calls
+  Msg: "Pilgrim, you enter a sacred place!"  You have a forbidding feeling...
+[Step 262] Key: u | PRNG: 3 calls
+  Map updated (14 rows changed)
+[Step 263] Key: s | PRNG: 295 calls
+[Step 264] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 265] Key: 5 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 5
+[Step 266] Key: 
+ | PRNG: 2048 calls
+  Msg: You materialize on a different level!
+  Map updated (21 rows changed)
+  Status update: Wizard the Canoness            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Home 5 $:0 HP:80(80) Pw:243(243) AC:-5 Xp:20
+[Step 267] Key: u | PRNG: 1 calls
+  Map updated (2 rows changed)
+[Step 268] Key: s | PRNG: 42 calls
+  Msg: You find a trap door.
+  Map updated (1 rows changed)
+[Step 269] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 270] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 271] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   orcus: 42 | (1 of 3)
+[Step 272] Key:   | PRNG: 0 calls
+  Msg: t -   fakewiz1: 44
+  Map updated (21 rows changed)
+  Status update: J -   astral: -5 | (2 of 3)
+[Step 273] Key: y | PRNG: 23 calls
+  Msg: You materialize on a different level!
+  Map updated (21 rows changed)
+  Status update: Wizard the Canoness            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Home 1 $:0 HP:80(80) Pw:243(243) AC:-5 Xp:20
+[Step 274] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 275] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 276] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (21 rows changed)
+  Status update: s -   orcus: 42 | (1 of 3)
+[Step 277] Key:   | PRNG: 0 calls
+  Msg: t -   fakewiz1: 44
+  Map updated (21 rows changed)
+  Status update: J -   astral: -5 | (2 of 3)
+[Step 278] Key: G | PRNG: 324 calls
+  Msg: You materialize on a different level!
+  Map updated (21 rows changed)
+  Status update: Wizard the Canoness            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Dlvl:34 $:0 HP:80(80) Pw:243(243) AC:-5 Xp:20
+[Step 279] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 280] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 281] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   orcus: 42 | (1 of 3)
+[Step 282] Key:   | PRNG: 0 calls
+  Msg: t -   fakewiz1: 44
+  Map updated (21 rows changed)
+  Status update: J -   astral: -5 | (2 of 3)
+[Step 283] Key: z | PRNG: 288 calls
+  Msg: You materialize on a different level!--More--
+  Map updated (21 rows changed)
+  Status update: Wizard the Canoness            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Home 3 $:0 HP:80(80) Pw:243(243) AC:-5 Xp:20
+[Step 284] Key:   | PRNG: 0 calls
+  Msg: Again, you stand before the Temple of Nalzok.--More--
+[Step 285] Key:  | PRNG: 0 calls
+  Msg: Again, you stand before the Temple of Nalzok.--More--
+[Step 286] Key: 2 | PRNG: 0 calls
+  Msg: Again, you stand before the Temple of Nalzok.--More--
+[Step 287] Key: 
+ | PRNG: 0 calls
+  Msg: You have an uncanny feeling...
+[Step 288] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 289] Key: 4 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 4
+[Step 290] Key: 
+ | PRNG: 3980 calls
+  Msg: You materialize on a different level!
+  Map updated (21 rows changed)
+  Status update: Wizard the Canoness            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Home 4 $:0 HP:80(80) Pw:243(243) AC:-5 Xp:20
+[Step 291] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 292] Key: 5 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 5
+[Step 293] Key: 
+ | PRNG: 14 calls
+  Msg: You materialize on a different level!
+  Map updated (10 rows changed)
+  Status update: Wizard the Canoness            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Home 5 $:0 HP:80(80) Pw:243(243) AC:-5 Xp:20
+[Step 294] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 295] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 296] Key: 1 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 1
+[Step 297] Key: 
+ | PRNG: 2 calls
+  Msg: You materialize on a different level!
+  Map updated (20 rows changed)
+  Status update: Wizard the Canoness            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Home 1 $:0 HP:80(80) Pw:243(243) AC:-5 Xp:20
+[Step 298] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 299] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 300] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (21 rows changed)
+  Status update: s -   orcus: 42 | (1 of 3)
+[Step 301] Key: e | PRNG: 30 calls
+  Msg: You materialize on a different level!
+  Map updated (20 rows changed)
+  Status update: Wizard the Canoness            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Dlvl:12 $:0 HP:80(80) Pw:243(243) AC:-5 Xp:20
+[Step 302] Key: h | PRNG: 1 calls
+  Map updated (6 rows changed)
+[Step 303] Key: s | PRNG: 32 calls
+[Step 304] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 305] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 306] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   orcus: 42 | (1 of 3)
+[Step 307] Key:   | PRNG: 0 calls
+  Msg: t -   fakewiz1: 44
+  Map updated (21 rows changed)
+  Status update: J -   astral: -5 | (2 of 3)
+[Step 308] Key: B | PRNG: 7422 calls
+  Msg: You materialize on a different level!
+  Map updated (21 rows changed)
+  Status update: Wizard the Canoness            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Dlvl:3 $:0 HP:80(80) Pw:243(243) AC:-5 Xp:20
+[Step 309] Key: k | PRNG: 0 calls
+  Msg: You try to move the boulder, but in vain.
+[Step 310] Key: s | PRNG: 39 calls
+[Step 311] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 312] Key: i | PRNG: 0 calls
+  Msg: Amulets
+  Map updated (15 rows changed)
+[Step 313] Key: ESC | PRNG: 0 calls
+  Map updated (15 rows changed)
+[Step 314] Key: + | PRNG: 0 calls
+  Msg: Currently known spells
+  Map updated (5 rows changed)
+[Step 315] Key: ESC | PRNG: 0 calls
+  Map updated (5 rows changed)
+[Step 316] Key: \ | PRNG: 0 calls
+  Msg: Discoveries, by order of discovery within each class
+  Map updated (20 rows changed)
+  Status update: Gems/Stones | --More--
+[Step 317] Key: ESC | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Wizard the Canoness            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Dlvl:3 $:0 HP:80(80) Pw:243(243) AC:-5 Xp:20
+[Step 318] Key:  | PRNG: 0 calls
+  Msg: Wizard the Priestess's attributes:
+  Map updated (20 rows changed)
+  Status update: Your intelligence is 11. | (1 of 3)
+[Step 319] Key:   | PRNG: 0 calls
+  Msg: Your wisdom is 17.
+  Map updated (21 rows changed)
+  Status update: You haven't encountered any bones levels. | (2 of 3)
+[Step 320] Key: ESC | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Wizard the Canoness            St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14 Chaotic | Dlvl:3 $:0 HP:80(80) Pw:243(243) AC:-5 Xp:20
+[Step 321] Key: s | PRNG: 0 calls
+[Step 322] Key: s | PRNG: 39 calls
+[Step 323] Key: : | PRNG: 0 calls
+  Msg: You see no objects here.

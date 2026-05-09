@@ -1,0 +1,532 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 2448 calls
+  Msg: It is written in the Book of Thoth:
+  Status: Wizard the Evoker              St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:1 $:0 HP:12(12) Pw:8(8) AC:0 Xp:1
+[Step 1] Key:   | PRNG: 2 calls
+  Msg: Hello wizard, welcome to NetHack!  You are a neutral male human Wizard.--More--
+  Map updated (15 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:1 $:0 HP:12(12) Pw:8(8) AC:9 Xp:1
+[Step 2] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+  Map updated (5 rows changed)
+[Step 3] Key: n | PRNG: 0 calls
+  Map updated (5 rows changed)
+[Step 4] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 5] Key: l | PRNG: 0 calls
+  Msg: # l
+[Step 6] Key: e | PRNG: 0 calls
+  Msg: # levelchange
+[Step 7] Key: v | PRNG: 0 calls
+  Msg: # levelchange
+[Step 8] Key: e | PRNG: 0 calls
+  Msg: # levelchange
+[Step 9] Key: l | PRNG: 0 calls
+  Msg: # levelchange
+[Step 10] Key: c | PRNG: 0 calls
+  Msg: # levelchange
+[Step 11] Key: h | PRNG: 0 calls
+  Msg: # levelchange
+[Step 12] Key: a | PRNG: 0 calls
+  Msg: # levelchange
+[Step 13] Key: n | PRNG: 0 calls
+  Msg: # levelchange
+[Step 14] Key: g | PRNG: 0 calls
+  Msg: # levelchange
+[Step 15] Key: e | PRNG: 0 calls
+  Msg: # levelchange
+[Step 16] Key: 
+ | PRNG: 0 calls
+  Msg: To what experience level do you want to be set?
+[Step 17] Key: 2 | PRNG: 0 calls
+  Msg: To what experience level do you want to be set? 2
+[Step 18] Key: 0 | PRNG: 0 calls
+  Msg: To what experience level do you want to be set? 20
+[Step 19] Key: 
+ | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 2.--More--
+  Status update: Wizard the Evoker              St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:1 $:0 HP:19(19) Pw:24(24) AC:9 Xp:2
+[Step 20] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 3.--More--
+  Status update: Wizard the Conjurer            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:1 $:0 HP:24(24) Pw:30(30) AC:9 Xp:3
+[Step 21] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 4.--More--
+  Status update: Wizard the Conjurer            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:1 $:0 HP:33(33) Pw:36(36) AC:9 Xp:4
+[Step 22] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 5.--More--
+  Status update: Wizard the Conjurer            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:1 $:0 HP:42(42) Pw:44(44) AC:9 Xp:5
+[Step 23] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 6.--More--
+  Status update: Wizard the Thaumaturge         St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:1 $:0 HP:48(48) Pw:50(50) AC:9 Xp:6
+[Step 24] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 7.--More--
+  Status update: Wizard the Thaumaturge         St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:1 $:0 HP:56(56) Pw:66(66) AC:9 Xp:7
+[Step 25] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 8.--More--
+  Status update: Wizard the Thaumaturge         St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:1 $:0 HP:63(63) Pw:76(76) AC:9 Xp:8
+[Step 26] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 9.--More--
+  Status update: Wizard the Thaumaturge         St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:1 $:0 HP:68(68) Pw:80(80) AC:9 Xp:9
+[Step 27] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 10.--More--
+  Status update: Wizard the Magician            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:1 $:0 HP:72(72) Pw:92(92) AC:9 Xp:10
+[Step 28] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 11.--More--
+  Status update: Wizard the Magician            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:1 $:0 HP:81(81) Pw:102(102) AC:9 Xp:11
+[Step 29] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 12.--More--
+  Status update: Wizard the Magician            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:1 $:0 HP:90(90) Pw:116(116) AC:9 Xp:12
+[Step 30] Key:   | PRNG: 1 calls
+  Msg: You feel more experienced.  Welcome to experience level 13.--More--
+  Status update: Wizard the Magician            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:1 $:0 HP:92(92) Pw:126(126) AC:9 Xp:13
+[Step 31] Key:   | PRNG: 1 calls
+  Msg: You feel more experienced.  Welcome to experience level 14.--More--
+  Status update: Wizard the Enchanter           St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:1 $:0 HP:94(94) Pw:140(140) AC:9 Xp:14
+[Step 32] Key:   | PRNG: 1 calls
+  Msg: You feel more experienced.  Welcome to experience level 15.--More--
+  Status update: Wizard the Enchanter           St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:1 $:0 HP:96(96) Pw:146(146) AC:9 Xp:15
+[Step 33] Key:   | PRNG: 1 calls
+  Msg: You feel sensitive!  You feel more experienced.--More--
+  Status update: Wizard the Enchanter           St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:1 $:0 HP:98(98) Pw:162(162) AC:9 Xp:16
+[Step 34] Key:   | PRNG: 1 calls
+  Msg: Welcome to experience level 16.  You feel more experienced.--More--
+  Status update: Wizard the Enchanter           St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:1 $:0 HP:100(100) Pw:170(170) AC:9 Xp:17
+[Step 35] Key:   | PRNG: 0 calls
+  Msg: Welcome to experience level 17.  You feel controlled!--More--
+[Step 36] Key:   | PRNG: 1 calls
+  Msg: You feel more experienced.  Welcome to experience level 18.--More--
+  Status update: Wizard the Sorcerer            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:1 $:0 HP:102(102) Pw:176(176) AC:9 Xp:18
+[Step 37] Key:   | PRNG: 1 calls
+  Msg: You feel more experienced.  Welcome to experience level 19.--More--
+  Status update: Wizard the Sorcerer            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:1 $:0 HP:104(104) Pw:188(188) AC:9 Xp:19
+[Step 38] Key:   | PRNG: 1 calls
+  Msg: You feel more experienced.  Welcome to experience level 20.
+  Status update: Wizard the Sorcerer            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:1 $:0 HP:106(106) Pw:196(196) AC:9 Xp:20
+[Step 39] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 40] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 41] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   wizard3: 44 | (1 of 3)
+[Step 42] Key: e | PRNG: 7158 calls
+  Msg: You materialize on a different level!
+  Map updated (20 rows changed)
+  Status update: Wizard the Sorcerer            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:12 $:0 HP:106(106) Pw:196(196) AC:9 Xp:20
+[Step 43] Key:  | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 44] Key: b | PRNG: 0 calls
+  Msg: For what do you wish? b
+[Step 45] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? bl
+[Step 46] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? ble
+[Step 47] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? bles
+[Step 48] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? bless
+[Step 49] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? blesse
+[Step 50] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? blessed
+[Step 51] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? blessed
+[Step 52] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? blessed a
+[Step 53] Key: m | PRNG: 0 calls
+  Msg: For what do you wish? blessed am
+[Step 54] Key: u | PRNG: 0 calls
+  Msg: For what do you wish? blessed amu
+[Step 55] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? blessed amul
+[Step 56] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? blessed amule
+[Step 57] Key: t | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet
+[Step 58] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet
+[Step 59] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet o
+[Step 60] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet of
+[Step 61] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet of
+[Step 62] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet of l
+[Step 63] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet of li
+[Step 64] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet of lif
+[Step 65] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet of life
+[Step 66] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet of life
+[Step 67] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet of life s
+[Step 68] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet of life sa
+[Step 69] Key: v | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet of life sav
+[Step 70] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet of life savi
+[Step 71] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet of life savin
+[Step 72] Key: g | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet of life saving
+[Step 73] Key: 
+ | PRNG: 5 calls
+  Msg: n - a hexagonal amulet.
+[Step 74] Key:  | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 75] Key: b | PRNG: 0 calls
+  Msg: For what do you wish? b
+[Step 76] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? bl
+[Step 77] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? ble
+[Step 78] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? bles
+[Step 79] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? bless
+[Step 80] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? blesse
+[Step 81] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? blessed
+[Step 82] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? blessed
+[Step 83] Key: + | PRNG: 0 calls
+  Msg: For what do you wish? blessed +
+[Step 84] Key: 3 | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3
+[Step 85] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3
+[Step 86] Key: g | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 g
+[Step 87] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 gr
+[Step 88] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 gra
+[Step 89] Key: y | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 gray
+[Step 90] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 gray
+[Step 91] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 gray d
+[Step 92] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 gray dr
+[Step 93] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 gray dra
+[Step 94] Key: g | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 gray drag
+[Step 95] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 gray drago
+[Step 96] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 gray dragon
+[Step 97] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 gray dragon
+[Step 98] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 gray dragon s
+[Step 99] Key: c | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 gray dragon sc
+[Step 100] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 gray dragon sca
+[Step 101] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 gray dragon scal
+[Step 102] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 gray dragon scale
+[Step 103] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 gray dragon scale
+[Step 104] Key: m | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 gray dragon scale m
+[Step 105] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 gray dragon scale ma
+[Step 106] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 gray dragon scale mai
+[Step 107] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 gray dragon scale mail
+[Step 108] Key: 
+ | PRNG: 7 calls
+  Msg: o - a gray dragon scale mail.
+[Step 109] Key:  | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 110] Key: b | PRNG: 0 calls
+  Msg: For what do you wish? b
+[Step 111] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? bl
+[Step 112] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? ble
+[Step 113] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? bles
+[Step 114] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? bless
+[Step 115] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? blesse
+[Step 116] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? blessed
+[Step 117] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? blessed
+[Step 118] Key: + | PRNG: 0 calls
+  Msg: For what do you wish? blessed +
+[Step 119] Key: 3 | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3
+[Step 120] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3
+[Step 121] Key: w | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 w
+[Step 122] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 wa
+[Step 123] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 wan
+[Step 124] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 wand
+[Step 125] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 wand
+[Step 126] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 wand o
+[Step 127] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 wand of
+[Step 128] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 wand of
+[Step 129] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 wand of f
+[Step 130] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 wand of fi
+[Step 131] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 wand of fir
+[Step 132] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? blessed +3 wand of fire
+[Step 133] Key: 
+ | PRNG: 5 calls
+  Msg: p - a curved wand.
+[Step 134] Key: T | PRNG: 40 calls
+  Msg: You were wearing an uncursed +0 cloak of magic resistance.
+  Status update: Wizard the Sorcerer            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:12 $:0 HP:106(106) Pw:196(196) AC:10 Xp:20
+[Step 135] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 136] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 137] Key: P | PRNG: 0 calls
+  Msg: What do you want to put on? [den or ?*]
+[Step 138] Key: o | PRNG: 231 calls
+  Msg: The kitten misses the gnome.  The kitten bites the gnome.--More--
+  Map updated (15 rows changed)
+  Status update: Wizard the Sorcerer            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:12 $:0 HP:106(106) Pw:196(196) AC:-2 Xp:20
+[Step 139] Key:   | PRNG: 279 calls
+  Msg: The gnome is killed!  The genetic engineer picks up a potion.--More--
+  Map updated (12 rows changed)
+[Step 140] Key:   | PRNG: 67 calls
+  Msg: The ape hits!  The ape hits again!  The ape bites!--More--
+  Map updated (5 rows changed)
+  Status update: Wizard the Sorcerer            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:12 $:0 HP:102(106) Pw:196(196) AC:-2 Xp:20
+[Step 141] Key:   | PRNG: 0 calls
+  Msg: The ice vortex engulfs you!--More--
+[Step 142] Key:   | PRNG: 200 calls
+  Msg: You are freezing to death!  You are freezing to death!--More--
+  Map updated (19 rows changed)
+  Status update: Wizard the Sorcerer            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:12 $:0 HP:94(106) Pw:196(196) AC:-2 Xp:20
+[Step 143] Key:   | PRNG: 0 calls
+  Msg: You finish your dressing maneuver.
+[Step 144] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 145] Key: W | PRNG: 0 calls
+  Msg: What do you want to wear? [b or ?*]
+[Step 146] Key: n | PRNG: 125 calls
+  Msg: n - a hexagonal amulet (being worn).
+[Step 147] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 148] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 149] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 150] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 151] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 152] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 153] Key: i | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 154] Key: n | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 155] Key: t | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 156] Key: r | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 157] Key: i | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 158] Key: n | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 159] Key: s | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 160] Key: i | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 161] Key: c | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 162] Key: 
+ | PRNG: 0 calls
+  Msg: Which intrinsics?
+  Map updated (20 rows changed)
+  Status update: t - monster detection | (1 of 4)
+[Step 163] Key: h | PRNG: 0 calls
+  Msg: Which intrinsics?
+  Map updated (1 rows changed)
+[Step 164] Key: 
+ | PRNG: 0 calls
+  Msg: Oh wow!  Everything looks so cosmic!--More--
+  Map updated (20 rows changed)
+  Status update: Wizard the Sorcerer            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:12 $:0 HP:94(106) Pw:196(196) AC:-2 Xp:20 Hallu
+[Step 165] Key:   | PRNG: 0 calls
+[Step 166] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 167] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 168] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 169] Key: h | PRNG: 111 calls
+  Msg: You hit the acid blog.  You are freezing to death!
+  Status update: Wizard the Sorcerer            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:12 $:0 HP:91(106) Pw:196(196) AC:-2 Xp:20 Hallu
+[Step 170] Key: j | PRNG: 126 calls
+  Msg: You hit the giant beetle.
+  Status update: Wizard the Sorcerer            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:12 $:0 HP:92(106) Pw:196(196) AC:-2 Xp:20 Hallu
+[Step 171] Key: k | PRNG: 71 calls
+  Msg: You hit the monkey.  You are freezing to death!  You get expelled!--More--
+  Status update: Wizard the Sorcerer            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:12 $:0 HP:87(106) Pw:196(196) AC:-2 Xp:20 Hallu
+[Step 172] Key:   | PRNG: 87 calls
+  Map updated (19 rows changed)
+  Status update: Wizard the Sorcerer            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:12 $:0 HP:88(106) Pw:196(196) AC:-2 Xp:20 Hallu
+[Step 173] Key: l | PRNG: 48 calls
+  Msg: You hit the black pudding.  The bat engulfs you!--More--
+  Map updated (8 rows changed)
+[Step 174] Key:   | PRNG: 104 calls
+  Map updated (19 rows changed)
+[Step 175] Key: y | PRNG: 120 calls
+  Msg: You hit the spotted jelly.  You are freezing to death!--More--
+  Status update: Wizard the Sorcerer            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:12 $:0 HP:82(106) Pw:196(196) AC:-2 Xp:20 Hallu
+[Step 176] Key:   | PRNG: 0 calls
+  Msg: You get expelled!--More--
+[Step 177] Key:   | PRNG: 92 calls
+  Map updated (19 rows changed)
+[Step 178] Key: u | PRNG: 10 calls
+  Msg: The quasit rattles!  You kill the poor titan!--More--
+  Map updated (1 rows changed)
+[Step 179] Key:   | PRNG: 26 calls
+  Msg: You hear the studio audience applaud!  The mumak touches you!--More--
+  Map updated (5 rows changed)
+[Step 180] Key:   | PRNG: 44 calls
+  Msg: You're covered in frost!  The hill orc bites!--More--
+  Map updated (6 rows changed)
+  Status update: Wizard the Sorcerer            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:12 $:0 HP:79(106) Pw:196(196) AC:-2 Xp:20 Hallu
+[Step 181] Key:   | PRNG: 2 calls
+  Msg: The one-eyed one-horned flying purple people eater misses!--More--
+[Step 182] Key:   | PRNG: 20 calls
+  Msg: The guardian naga hatchling hits!  The fox just misses!--More--
+  Map updated (3 rows changed)
+  Status update: Wizard the Sorcerer            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:12 $:0 HP:77(106) Pw:196(196) AC:-2 Xp:20 Hallu
+[Step 183] Key: b | PRNG: 0 calls
+  Msg: The guardian naga hatchling hits!  The fox just misses!--More--
+[Step 184] Key:   | PRNG: 55 calls
+  Msg: The chickatrice touches you!  You're covered in frost!
+  Map updated (12 rows changed)
+  Status update: Wizard the Sorcerer            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:12 $:0 HP:76(106) Pw:196(196) AC:-2 Xp:20 Hallu
+[Step 185] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+  Map updated (11 rows changed)
+[Step 186] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+  Map updated (11 rows changed)
+[Step 187] Key: n | PRNG: 0 calls
+  Msg: You avoid stepping into the pool of purified water.--More--
+[Step 188] Key:   | PRNG: 0 calls
+  Msg: (Tip: use 'm' prefix to step in if you really want to.)
+  Map updated (11 rows changed)
+[Step 189] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+  Map updated (11 rows changed)
+[Step 190] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+  Map updated (11 rows changed)
+[Step 191] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+  Map updated (9 rows changed)
+[Step 192] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 193] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 194] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   wizard3: 44 | (1 of 3)
+[Step 195] Key: c | PRNG: 4939 calls
+  Msg: You materialize on a different level!
+  Map updated (20 rows changed)
+  Status update: Wizard the Sorcerer            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:8 $:0 HP:76(106) Pw:196(196) AC:-2 Xp:20 Hallu
+[Step 196] Key: h | PRNG: 261 calls
+  Map updated (2 rows changed)
+[Step 197] Key: j | PRNG: 0 calls
+  Map updated (2 rows changed)
+[Step 198] Key: k | PRNG: 25 calls
+  Msg: Barney the dinosaur picks up a sprig of wolfsbane.
+  Map updated (3 rows changed)
+  Status update: Wizard the Sorcerer            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:8 $:0 HP:77(106) Pw:196(196) AC:-2 Xp:20 Hallu
+[Step 199] Key: l | PRNG: 29 calls
+  Map updated (2 rows changed)
+[Step 200] Key: y | PRNG: 23 calls
+  Map updated (3 rows changed)
+[Step 201] Key: u | PRNG: 0 calls
+  Map updated (2 rows changed)
+[Step 202] Key: b | PRNG: 25 calls
+  Msg: The basement cat wields a short sword!
+  Map updated (3 rows changed)
+[Step 203] Key: n | PRNG: 31 calls
+  Msg: The Grey-elf picks up 6 poisoned darts.  You hear a distant explosion.
+  Map updated (2 rows changed)
+[Step 204] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+  Map updated (1 rows changed)
+[Step 205] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+  Map updated (1 rows changed)
+[Step 206] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+  Map updated (1 rows changed)
+[Step 207] Key: i | PRNG: 0 calls
+  Msg: Amulets
+  Map updated (21 rows changed)
+  Status update: p - a curved wand | (1 of 2)
+[Step 208] Key: ESC | PRNG: 0 calls
+  Map updated (21 rows changed)
+  Status update: Wizard the Sorcerer            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:8 $:0 HP:77(106) Pw:196(196) AC:-2 Xp:20 Hallu
+[Step 209] Key: + | PRNG: 0 calls
+  Msg: Currently known spells
+  Map updated (5 rows changed)
+[Step 210] Key: ESC | PRNG: 0 calls
+  Map updated (6 rows changed)
+[Step 211] Key: \ | PRNG: 0 calls
+  Msg: Discoveries, by order of discovery within each class
+  Map updated (20 rows changed)
+  Status update: * spellbook of slow monster (cloth) | --More--
+[Step 212] Key: ESC | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Wizard the Sorcerer            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:8 $:0 HP:77(106) Pw:196(196) AC:-2 Xp:20 Hallu
+[Step 213] Key:  | PRNG: 0 calls
+  Msg: Wizard the Wizard's attributes:
+  Map updated (18 rows changed)
+  Status update: Your intelligence is 15. | (1 of 3)
+[Step 214] Key:   | PRNG: 0 calls
+  Msg: Your wisdom is 12.
+  Map updated (21 rows changed)
+  Status update: You haven't encountered any bones levels. | (2 of 3)
+[Step 215] Key: ESC | PRNG: 0 calls
+  Map updated (19 rows changed)
+  Status update: Wizard the Sorcerer            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:8 $:0 HP:77(106) Pw:196(196) AC:-2 Xp:20 Hallu
+[Step 216] Key: s | PRNG: 26 calls
+  Map updated (1 rows changed)
+[Step 217] Key: s | PRNG: 32 calls
+  Map updated (1 rows changed)
+[Step 218] Key: : | PRNG: 0 calls
+  Msg: You see no objects here.
+  Map updated (1 rows changed)

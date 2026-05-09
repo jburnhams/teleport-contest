@@ -1,0 +1,310 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 2968 calls
+  Msg: It is written in the Book of Thoth:
+  Status: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:1 $:0 HP:12(12) Pw:8(8) AC:0 Xp:1/0 T:1
+[Step 1] Key:   | PRNG: 2 calls
+  Msg: Hello wizard, welcome to NetHack!  You are a neutral male human Wizard.--More--
+  Map updated (14 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:1 $:0 HP:12(12) Pw:8(8) AC:9 Xp:1/0 T:1
+[Step 2] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+  Map updated (5 rows changed)
+[Step 3] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+  Map updated (2 rows changed)
+[Step 4] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+[Step 5] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+[Step 6] Key: n | PRNG: 0 calls
+  Map updated (6 rows changed)
+[Step 7] Key: . | PRNG: 8 calls
+  Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:1 $:0 HP:12(12) Pw:8(8) AC:9 Xp:1/0 T:2
+[Step 8] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 9] Key: 2 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 2
+[Step 10] Key: 
+ | PRNG: 2538 calls
+  Msg: You materialize on a different level!
+  Map updated (11 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:2 $:0 HP:12(12) Pw:8(8) AC:9 Xp:1/0 T:2
+[Step 11] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 12] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 13] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 14] Key: W | PRNG: 0 calls
+  Msg: What do you want to wear? [*]
+[Step 15] Key: b | PRNG: 0 calls
+  Msg: You are already wearing that!
+[Step 16] Key: T | PRNG: 35 calls
+  Msg: You were wearing an uncursed +0 cloak of magic resistance.
+  Map updated (2 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:2 $:0 HP:12(12) Pw:8(8) AC:10 Xp:1/0 T:3
+[Step 17] Key: L | PRNG: 120 calls
+  Map updated (2 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:2 $:0 HP:12(12) Pw:8(8) AC:10 Xp:1/0 T:7
+[Step 18] Key: j | PRNG: 38 calls
+  Map updated (2 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:2 $:0 HP:12(12) Pw:8(8) AC:10 Xp:1/0 T:8
+[Step 19] Key: j | PRNG: 0 calls
+[Step 20] Key: l | PRNG: 0 calls
+[Step 21] Key: , | PRNG: 0 calls
+  Msg: There is nothing here to pick up.
+[Step 22] Key: y | PRNG: 32 calls
+  Map updated (2 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:2 $:0 HP:12(12) Pw:8(8) AC:10 Xp:1/0 T:9
+[Step 23] Key: . | PRNG: 22 calls
+  Map updated (2 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:2 $:0 HP:12(12) Pw:8(8) AC:10 Xp:1/0 T:10
+[Step 24] Key: p | PRNG: 0 calls
+  Msg: There appears to be no shopkeeper here to receive your payment.
+[Step 25] Key: y | PRNG: 37 calls
+  Map updated (2 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:2 $:0 HP:12(12) Pw:8(8) AC:10 Xp:1/0 T:11
+[Step 26] Key: d | PRNG: 0 calls
+  Msg: What do you want to drop? [a-n or ?*]
+[Step 27] Key: a | PRNG: 24 calls
+  Msg: You drop a blessed +1 quarterstaff.
+  Map updated (2 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:2 $:0 HP:12(12) Pw:8(8) AC:10 Xp:1/0 T:12
+[Step 28] Key: h | PRNG: 25 calls
+  Map updated (2 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:2 $:0 HP:12(12) Pw:8(8) AC:10 Xp:1/0 T:13
+[Step 29] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 30] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 31] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 32] Key:  | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 33] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? r
+[Step 34] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? ri
+[Step 35] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? rin
+[Step 36] Key: g | PRNG: 0 calls
+  Msg: For what do you wish? ring
+[Step 37] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? ring
+[Step 38] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? ring o
+[Step 39] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? ring of
+[Step 40] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? ring of
+[Step 41] Key: t | PRNG: 0 calls
+  Msg: For what do you wish? ring of t
+[Step 42] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? ring of te
+[Step 43] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? ring of tel
+[Step 44] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? ring of tele
+[Step 45] Key: p | PRNG: 0 calls
+  Msg: For what do you wish? ring of telep
+[Step 46] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? ring of telepo
+[Step 47] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? ring of telepor
+[Step 48] Key: t | PRNG: 0 calls
+  Msg: For what do you wish? ring of teleport
+[Step 49] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? ring of teleport
+[Step 50] Key: c | PRNG: 0 calls
+  Msg: For what do you wish? ring of teleport c
+[Step 51] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? ring of teleport co
+[Step 52] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? ring of teleport con
+[Step 53] Key: t | PRNG: 0 calls
+  Msg: For what do you wish? ring of teleport cont
+[Step 54] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? ring of teleport contr
+[Step 55] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? ring of teleport contro
+[Step 56] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? ring of teleport control
+[Step 57] Key: 
+ | PRNG: 5 calls
+  Msg: o - an ivory ring.
+[Step 58] Key: P | PRNG: 0 calls
+  Msg: What do you want to put on? [deo or ?*]
+[Step 59] Key: o | PRNG: 0 calls
+  Msg: Which ring-finger, Right or Left? [rl]
+[Step 60] Key: r | PRNG: 50 calls
+  Msg: o - an ivory ring (on right hand).
+  Map updated (2 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:2 $:0 HP:12(12) Pw:8(8) AC:10 Xp:1/0 T:14
+[Step 61] Key:  | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 62] Key: w | PRNG: 0 calls
+  Msg: For what do you wish? w
+[Step 63] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? wa
+[Step 64] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? wan
+[Step 65] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? wand
+[Step 66] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? wand
+[Step 67] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? wand o
+[Step 68] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? wand of
+[Step 69] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? wand of
+[Step 70] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? wand of d
+[Step 71] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? wand of di
+[Step 72] Key: g | PRNG: 0 calls
+  Msg: For what do you wish? wand of dig
+[Step 73] Key: g | PRNG: 0 calls
+  Msg: For what do you wish? wand of digg
+[Step 74] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? wand of diggi
+[Step 75] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? wand of diggin
+[Step 76] Key: g | PRNG: 0 calls
+  Msg: For what do you wish? wand of digging
+[Step 77] Key: 
+ | PRNG: 5 calls
+  Msg: p - a curved wand.
+[Step 78] Key: z | PRNG: 0 calls
+  Msg: What do you want to zap? [cp or ?*]
+[Step 79] Key: p | PRNG: 0 calls
+  Msg: In what direction?
+[Step 80] Key: j | PRNG: 32 calls
+  Map updated (3 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:2 $:0 HP:12(12) Pw:8(8) AC:10 Xp:1/0 T:15
+[Step 81] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 82] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 83] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 84] Key: . | PRNG: 27 calls
+  Map updated (2 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:2 $:0 HP:12(12) Pw:8(8) AC:10 Xp:1/0 T:16
+[Step 85] Key: . | PRNG: 37 calls
+  Msg: The kitten picks up a blessed +1 quarterstaff.
+  Map updated (2 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:2 $:0 HP:12(12) Pw:8(8) AC:10 Xp:1/0 T:17
+[Step 86] Key: . | PRNG: 53 calls
+  Msg: The kitten drops a blessed +1 quarterstaff.
+  Map updated (2 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:2 $:0 HP:12(12) Pw:8(8) AC:10 Xp:1/0 T:18
+[Step 87] Key: F | PRNG: 0 calls
+[Step 88] Key: k | PRNG: 33 calls
+  Msg: You harmlessly attack the wall.
+  Map updated (2 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:2 $:0 HP:12(12) Pw:8(8) AC:10 Xp:1/0 T:19
+[Step 89] Key: y | PRNG: 0 calls
+[Step 90] Key: F | PRNG: 0 calls
+[Step 91] Key: k | PRNG: 52 calls
+  Msg: You harmlessly attack the wall.
+  Map updated (2 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:2 $:0 HP:12(12) Pw:8(8) AC:10 Xp:1/0 T:20
+[Step 92] Key: y | PRNG: 0 calls
+[Step 93] Key: F | PRNG: 0 calls
+[Step 94] Key: k | PRNG: 34 calls
+  Msg: You harmlessly attack the wall.
+  Map updated (2 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:2 $:0 HP:12(12) Pw:8(8) AC:10 Xp:1/0 T:21
+[Step 95] Key: y | PRNG: 0 calls
+[Step 96] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 97] Key: p | PRNG: 0 calls
+  Msg: # p
+[Step 98] Key: r | PRNG: 0 calls
+  Msg: # pray
+[Step 99] Key: a | PRNG: 0 calls
+  Msg: # pray
+[Step 100] Key: y | PRNG: 0 calls
+  Msg: # pray
+[Step 101] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Are you sure you want to pray? [yn] (n)
+[Step 102] Key: y | PRNG: 0 calls
+  Msg: You begin praying to Thoth.--More--
+[Step 103] Key:   | PRNG: 0 calls
+  Msg: Force the gods to be pleased? [yn] (n)
+[Step 104] Key: y | PRNG: 190 calls
+  Msg: You are surrounded by a shimmering light.  You finish your prayer.--More--
+  Map updated (1 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:2 $:0 HP:12(12) Pw:8(8) AC:10 Xp:1/0 T:24
+[Step 105] Key:   | PRNG: 6 calls
+  Msg: You feel that Thoth is satisfied.
+[Step 106] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 107] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 108] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   wizard3: 44 | (1 of 3)
+[Step 109] Key: e | PRNG: 2976 calls
+  Msg: You materialize on a different level!
+  Map updated (20 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:10 $:0 HP:12(12) Pw:8(8) AC:10 Xp:1/0 T:24
+[Step 110] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 111] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 112] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   wizard3: 44 | (1 of 3)
+[Step 113] Key:   | PRNG: 0 calls
+  Msg: t -   fakewiz2: 47
+  Map updated (21 rows changed)
+  Status update: J -   astral: -5 | (2 of 3)
+[Step 114] Key: B | PRNG: 3043 calls
+  Msg: You materialize on a different level!
+  Map updated (21 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:2 $:0 HP:12(12) Pw:8(8) AC:10 Xp:1/0 T:24
+[Step 115] Key: i | PRNG: 0 calls
+  Msg: Armor
+  Map updated (21 rows changed)
+  Status update: Wizard the Evoker              St (end) | Dlvl:2 $:0 HP:12(12) Pw:8(8) AC:10 Xp:1/0 T:24
+[Step 116] Key: ESC | PRNG: 0 calls
+  Map updated (21 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:2 $:0 HP:12(12) Pw:8(8) AC:10 Xp:1/0 T:24
+[Step 117] Key: + | PRNG: 0 calls
+  Msg: Currently known spells
+  Map updated (5 rows changed)
+[Step 118] Key: ESC | PRNG: 0 calls
+  Map updated (5 rows changed)
+[Step 119] Key: \ | PRNG: 0 calls
+  Msg: Discoveries, by order of discovery within each class
+  Map updated (20 rows changed)
+  Status update: * spellbook of protection (plaid) | --More--
+[Step 120] Key: ESC | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:2 $:0 HP:12(12) Pw:8(8) AC:10 Xp:1/0 T:24
+[Step 121] Key:  | PRNG: 0 calls
+  Msg: Wizard the Wizard's attributes:
+  Map updated (20 rows changed)
+  Status update: Your intelligence is 18. | (1 of 2)
+[Step 122] Key:   | PRNG: 0 calls
+  Msg: Your wisdom is 13.
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 123] Key: ESC | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:2 $:0 HP:12(12) Pw:8(8) AC:10 Xp:1/0 T:24
+[Step 124] Key: s | PRNG: 109 calls
+  Map updated (1 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:2 $:0 HP:12(12) Pw:8(8) AC:10 Xp:1/0 T:25
+[Step 125] Key: s | PRNG: 61 calls
+  Map updated (1 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:2 $:0 HP:12(12) Pw:8(8) AC:10 Xp:1/0 T:26
+[Step 126] Key: : | PRNG: 0 calls
+  Msg: You see no objects here.

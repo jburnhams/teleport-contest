@@ -1,0 +1,110 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 2664 calls
+  Msg: It is written in the Book of Amaterasu Omikami:
+  Status: Akira the Hatamoto             St:15 Dx:18 Co:18 In:8 Wi:9 Ch:9 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:0 Xp:1
+[Step 1] Key:   | PRNG: 2 calls
+  Msg: Konnichi wa Akira, welcome to NetHack!  You are a lawful male human Samurai.
+  Map updated (14 rows changed)
+  Status update: Akira the Hatamoto             St:15 Dx:18 Co:18 In:8 Wi:9 Ch:9 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:4 Xp:1
+[Step 2] Key: L | PRNG: 79 calls
+  Map updated (3 rows changed)
+[Step 3] Key: L | PRNG: 125 calls
+  Map updated (6 rows changed)
+[Step 4] Key: l | PRNG: 0 calls
+[Step 5] Key: k | PRNG: 0 calls
+[Step 6] Key: L | PRNG: 0 calls
+[Step 7] Key: L | PRNG: 0 calls
+[Step 8] Key: H | PRNG: 177 calls
+  Map updated (9 rows changed)
+[Step 9] Key: j | PRNG: 11 calls
+  Map updated (3 rows changed)
+[Step 10] Key: j | PRNG: 12 calls
+  Msg: You swap places with Hachi.
+  Map updated (2 rows changed)
+[Step 11] Key: j | PRNG: 32 calls
+  Map updated (3 rows changed)
+[Step 12] Key: L | PRNG: 0 calls
+[Step 13] Key: L | PRNG: 0 calls
+[Step 14] Key: L | PRNG: 0 calls
+[Step 15] Key: L | PRNG: 0 calls
+[Step 16] Key: . | PRNG: 15 calls
+[Step 17] Key: . | PRNG: 11 calls
+[Step 18] Key: . | PRNG: 29 calls
+[Step 19] Key: . | PRNG: 15 calls
+[Step 20] Key: . | PRNG: 12 calls
+[Step 21] Key: . | PRNG: 26 calls
+[Step 22] Key: H | PRNG: 0 calls
+[Step 23] Key: H | PRNG: 0 calls
+[Step 24] Key: H | PRNG: 0 calls
+[Step 25] Key: H | PRNG: 0 calls
+[Step 26] Key: H | PRNG: 0 calls
+[Step 27] Key: k | PRNG: 15 calls
+  Map updated (2 rows changed)
+[Step 28] Key: k | PRNG: 11 calls
+  Map updated (3 rows changed)
+[Step 29] Key: k | PRNG: 12 calls
+  Map updated (2 rows changed)
+[Step 30] Key: k | PRNG: 0 calls
+[Step 31] Key: k | PRNG: 0 calls
+[Step 32] Key: k | PRNG: 0 calls
+[Step 33] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 34] Key: p | PRNG: 0 calls
+  Msg: # pray
+[Step 35] Key: r | PRNG: 0 calls
+  Msg: # pray
+[Step 36] Key: a | PRNG: 0 calls
+  Msg: # pray
+[Step 37] Key: y | PRNG: 0 calls
+  Msg: # pray
+[Step 38] Key: 
+ | PRNG: 0 calls
+  Msg: Are you sure you want to pray? [yn] (n)
+[Step 39] Key: y | PRNG: 85 calls
+  Msg: You begin praying to Amaterasu Omikami.  You finish your prayer.--More--
+[Step 40] Key:   | PRNG: 6 calls
+  Msg: You feel that Amaterasu Omikami is displeased.
+[Step 41] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 42] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 43] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 44] Key: . | PRNG: 32 calls
+  Map updated (1 rows changed)
+[Step 45] Key: . | PRNG: 32 calls
+  Map updated (2 rows changed)
+[Step 46] Key: . | PRNG: 31 calls
+  Map updated (2 rows changed)
+[Step 47] Key: i | PRNG: 0 calls
+  Msg: Weapons
+  Map updated (7 rows changed)
+[Step 48] Key: ESC | PRNG: 0 calls
+  Map updated (7 rows changed)
+[Step 49] Key: + | PRNG: 0 calls
+  Msg: You don't know any spells right now.
+[Step 50] Key: ESC | PRNG: 0 calls
+[Step 51] Key: \ | PRNG: 0 calls
+  Msg: Discoveries, by order of discovery within each class
+  Map updated (20 rows changed)
+  Status update: katana (samurai sword) | --More--
+[Step 52] Key: ESC | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Akira the Hatamoto             St:15 Dx:18 Co:18 In:8 Wi:9 Ch:9 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:4 Xp:1
+[Step 53] Key:  | PRNG: 0 calls
+  Msg: Akira the Samurai's attributes:
+  Map updated (20 rows changed)
+  Status update: Your intelligence is 8. | (1 of 2)
+[Step 54] Key:   | PRNG: 0 calls
+  Msg: Your wisdom is 9.
+  Map updated (20 rows changed)
+  Status update:  | 
+[Step 55] Key: ESC | PRNG: 0 calls
+  Map updated (17 rows changed)
+  Status update: Akira the Hatamoto             St:15 Dx:18 Co:18 In:8 Wi:9 Ch:9 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:4 Xp:1
+[Step 56] Key: s | PRNG: 20 calls
+  Map updated (1 rows changed)
+[Step 57] Key: s | PRNG: 11 calls
+[Step 58] Key: : | PRNG: 0 calls
+  Msg: You see no objects here.

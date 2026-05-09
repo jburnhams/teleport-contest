@@ -1,0 +1,4234 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 2776 calls
+  Msg: Salutations wizard, welcome to NetHack!  You are a lawful male human Knight.
+  Status: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/0 T:1
+[Step 1] Key: j | PRNG: 0 calls
+  Msg: Salutations wizard, welcome to NetHack!  You are a lawful male human Knight.
+[Step 2] Key:   | PRNG: 2 calls
+  Msg: Be careful!  New moon tonight.
+  Map updated (1 rows changed)
+[Step 3] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 4] Key: j | PRNG: 0 calls
+  Msg: # jump
+[Step 5] Key: u | PRNG: 0 calls
+  Msg: # jump
+[Step 6] Key: m | PRNG: 0 calls
+  Msg: # jump
+[Step 7] Key: p | PRNG: 0 calls
+  Msg: # jump
+[Step 8] Key: 
+ | PRNG: 0 calls
+  Msg: Where do you want to jump?--More--
+[Step 9] Key:   | PRNG: 0 calls
+  Msg: Tip: Farlooking or selecting a map location
+  Map updated (6 rows changed)
+[Step 10] Key: j | PRNG: 0 calls
+  Msg: Tip: Farlooking or selecting a map location
+[Step 11] Key: . | PRNG: 0 calls
+  Msg: Tip: Farlooking or selecting a map location
+[Step 12] Key: j | PRNG: 0 calls
+  Msg: Tip: Farlooking or selecting a map location
+[Step 13] Key: j | PRNG: 0 calls
+  Msg: Tip: Farlooking or selecting a map location
+[Step 14] Key: l | PRNG: 0 calls
+  Msg: Tip: Farlooking or selecting a map location
+[Step 15] Key: . | PRNG: 0 calls
+  Msg: Tip: Farlooking or selecting a map location
+[Step 16] Key:   | PRNG: 0 calls
+  Msg: Move cursor to the desired position:
+  Map updated (6 rows changed)
+[Step 17] Key: j | PRNG: 0 calls
+  Msg: floor of a room (invalid target)
+[Step 18] Key: j | PRNG: 0 calls
+  Msg: wall (invalid target)
+[Step 19] Key: h | PRNG: 0 calls
+  Msg: wall (invalid target)
+[Step 20] Key: . | PRNG: 0 calls
+  Msg: There is an obstacle preventing that jump.
+[Step 21] Key: h | PRNG: 7 calls
+  Map updated (1 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/0 T:2
+[Step 22] Key: h | PRNG: 9 calls
+  Map updated (1 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/0 T:3
+[Step 23] Key: h | PRNG: 7 calls
+  Map updated (2 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/0 T:4
+[Step 24] Key: h | PRNG: 11 calls
+  Map updated (1 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/0 T:5
+[Step 25] Key: h | PRNG: 14 calls
+  Map updated (1 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/0 T:6
+[Step 26] Key: h | PRNG: 7 calls
+  Map updated (1 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/0 T:7
+[Step 27] Key: h | PRNG: 7 calls
+  Map updated (1 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/0 T:8
+[Step 28] Key: h | PRNG: 10 calls
+  Map updated (1 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/0 T:9
+[Step 29] Key: h | PRNG: 11 calls
+  Map updated (2 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/0 T:10
+[Step 30] Key: h | PRNG: 7 calls
+  Map updated (1 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/0 T:11
+[Step 31] Key: h | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 32] Key: h | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 33] Key: h | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 34] Key: h | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 35] Key: h | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 36] Key: h | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 37] Key: h | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 38] Key: h | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 39] Key: h | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 40] Key: h | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 41] Key: j | PRNG: 13 calls
+  Map updated (3 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/0 T:12
+[Step 42] Key: j | PRNG: 10 calls
+  Map updated (3 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/0 T:13
+[Step 43] Key: j | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 44] Key: j | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 45] Key: j | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 46] Key: j | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 47] Key: j | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 48] Key: j | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 49] Key: j | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 50] Key: j | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 51] Key: j | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 52] Key: h | PRNG: 13 calls
+  Map updated (1 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/0 T:14
+[Step 53] Key: h | PRNG: 8 calls
+  Map updated (3 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/0 T:15
+[Step 54] Key: h | PRNG: 13 calls
+  Map updated (3 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/0 T:16
+[Step 55] Key: h | PRNG: 13 calls
+  Map updated (3 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/0 T:17
+[Step 56] Key: h | PRNG: 13 calls
+  Msg: You kill the kobold!
+  Map updated (1 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/6 T:18
+[Step 57] Key: h | PRNG: 12 calls
+  Msg: You see here 8 darts.
+  Map updated (3 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/6 T:19
+[Step 58] Key: h | PRNG: 10 calls
+  Map updated (4 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/6 T:20
+[Step 59] Key: h | PRNG: 6 calls
+  Map updated (2 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/6 T:21
+[Step 60] Key: y | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 61] Key: y | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 62] Key: y | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 63] Key: y | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 64] Key: y | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 65] Key: y | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 66] Key: k | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 67] Key: k | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 68] Key: k | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 69] Key: k | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 70] Key: h | PRNG: 7 calls
+  Msg: You see here a large box.
+  Map updated (1 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/6 T:22
+[Step 71] Key: h | PRNG: 13 calls
+  Map updated (1 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/6 T:23
+[Step 72] Key: h | PRNG: 9 calls
+  Map updated (1 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/6 T:24
+[Step 73] Key: h | PRNG: 12 calls
+  Map updated (1 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/6 T:25
+[Step 74] Key: k | PRNG: 0 calls
+  Msg: This door is locked.
+[Step 75] Key: h | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 76] Key:  | PRNG: 0 calls
+  Msg: In what direction?
+[Step 77] Key: k | PRNG: 13 calls
+  Msg: As you kick the door, it crashes open!
+  Map updated (1 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/6 T:26
+[Step 78] Key: k | PRNG: 6 calls
+  Map updated (3 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/6 T:27
+[Step 79] Key: k | PRNG: 6 calls
+  Map updated (3 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/6 T:28
+[Step 80] Key: k | PRNG: 9 calls
+  Map updated (3 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/6 T:29
+[Step 81] Key: k | PRNG: 7 calls
+  Map updated (3 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/6 T:30
+[Step 82] Key: k | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 83] Key: h | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 84] Key: h | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 85] Key: h | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 86] Key: h | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 87] Key: h | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 88] Key: h | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 89] Key: h | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 90] Key: h | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 91] Key: h | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 92] Key: h | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 93] Key: h | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 94] Key: h | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 95] Key: l | PRNG: 9 calls
+  Map updated (8 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/6 T:31
+[Step 96] Key: l | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 97] Key: l | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 98] Key: l | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 99] Key: l | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 100] Key: l | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 101] Key: l | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 102] Key: l | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 103] Key: l | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 104] Key: l | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 105] Key: l | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 106] Key: l | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 107] Key: l | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 108] Key: l | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 109] Key: l | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 110] Key: l | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 111] Key: l | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 112] Key: l | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 113] Key: l | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 114] Key: l | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 115] Key: k | PRNG: 12 calls
+  Map updated (4 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/6 T:32
+[Step 116] Key: k | PRNG: 12 calls
+  Map updated (4 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/6 T:33
+[Step 117] Key: k | PRNG: 12 calls
+  Map updated (6 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/6 T:34
+[Step 118] Key: k | PRNG: 12 calls
+  Map updated (8 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/6 T:35
+[Step 119] Key: k | PRNG: 9 calls
+  Map updated (5 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/6 T:36
+[Step 120] Key: k | PRNG: 9 calls
+  Map updated (2 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/6 T:37
+[Step 121] Key: k | PRNG: 12 calls
+  Map updated (3 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/6 T:38
+[Step 122] Key: k | PRNG: 12 calls
+  Map updated (2 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/6 T:39
+[Step 123] Key: k | PRNG: 10 calls
+  Map updated (2 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/6 T:40
+[Step 124] Key: k | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 125] Key: h | PRNG: 6 calls
+  Map updated (1 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/6 T:41
+[Step 126] Key: h | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 127] Key: h | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 128] Key: h | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 129] Key: h | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 130] Key: h | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 131] Key: h | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 132] Key: j | PRNG: 12 calls
+  Map updated (2 rows changed)
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/6 T:42
+[Step 133] Key: h | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 134] Key:  | PRNG: 0 calls
+  Msg: Where do you want to be teleported?
+[Step 135] Key: 4 | PRNG: 0 calls
+  Msg: Unknown direction: '4' (use 'h', 'j', 'k', 'l' or '.').
+[Step 136] Key: 0 | PRNG: 0 calls
+  Msg: Can't find dungeon feature '0'.
+[Step 137] Key:   | PRNG: 0 calls
+  Msg: human knight called wizard
+[Step 138] Key: 1 | PRNG: 0 calls
+  Msg: Unknown direction: '1' (use 'h', 'j', 'k', 'l' or '.').
+[Step 139] Key: 0 | PRNG: 0 calls
+  Msg: Can't find dungeon feature '0'.
+[Step 140] Key: 
+ | PRNG: 0 calls
+  Msg: corridor
+[Step 141] Key: ESC | PRNG: 9 calls
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/6 T:43
+[Step 142] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 143] Key: l | PRNG: 0 calls
+  Msg: # l
+[Step 144] Key: e | PRNG: 0 calls
+  Msg: # levelchange
+[Step 145] Key: v | PRNG: 0 calls
+  Msg: # levelchange
+[Step 146] Key: e | PRNG: 0 calls
+  Msg: # levelchange
+[Step 147] Key: l | PRNG: 0 calls
+  Msg: # levelchange
+[Step 148] Key: c | PRNG: 0 calls
+  Msg: # levelchange
+[Step 149] Key: h | PRNG: 0 calls
+  Msg: # levelchange
+[Step 150] Key: a | PRNG: 0 calls
+  Msg: # levelchange
+[Step 151] Key: n | PRNG: 0 calls
+  Msg: # levelchange
+[Step 152] Key: g | PRNG: 0 calls
+  Msg: # levelchange
+[Step 153] Key: e | PRNG: 0 calls
+  Msg: # levelchange
+[Step 154] Key: 
+ | PRNG: 0 calls
+  Msg: To what experience level do you want to be set?
+[Step 155] Key: 1 | PRNG: 0 calls
+  Msg: To what experience level do you want to be set? 1
+[Step 156] Key: 0 | PRNG: 0 calls
+  Msg: To what experience level do you want to be set? 10
+[Step 157] Key: 
+ | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 2.--More--
+  Status update: Wizard the Gallant             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:26(26) Pw:16(16) AC:3 Xp:2/20 T:43
+[Step 158] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 3.--More--
+  Status update: Wizard the Esquire             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:31(31) Pw:19(19) AC:3 Xp:3/40 T:43
+[Step 159] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 4.--More--
+  Status update: Wizard the Esquire             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:34(34) Pw:32(32) AC:3 Xp:4/80 T:43
+[Step 160] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 5.--More--
+  Status update: Wizard the Esquire             St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:40(40) Pw:42(42) AC:3 Xp:5/160 T:43
+[Step 161] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 6.--More--
+  Status update: Wizard the Bachelor            St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:45(45) Pw:55(55) AC:3 Xp:6/320 T:43
+[Step 162] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 7.--More--
+  Status update: Wizard the Bachelor            St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:53(53) Pw:62(62) AC:3 Xp:7/640 T:43
+[Step 163] Key:   | PRNG: 3 calls
+  Msg: You feel quick!  You feel more experienced.--More--
+  Status update: Wizard the Bachelor            St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:58(58) Pw:69(69) AC:3 Xp:8/1280 T:43
+[Step 164] Key:   | PRNG: 3 calls
+  Msg: Welcome to experience level 8.  You feel more experienced.--More--
+  Status update: Wizard the Bachelor            St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:60(60) Pw:82(82) AC:3 Xp:9/2560 T:43
+[Step 165] Key:   | PRNG: 3 calls
+  Msg: Welcome to experience level 9.  You feel more experienced.--More--
+  Status update: Wizard the Sergeant            St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:65(65) Pw:92(92) AC:3 Xp:10/5120 T:43
+[Step 166] Key:   | PRNG: 0 calls
+  Msg: Welcome to experience level 10.
+[Step 167] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 168] Key: l | PRNG: 0 calls
+  Msg: # l
+[Step 169] Key: e | PRNG: 0 calls
+  Msg: # levelchange
+[Step 170] Key: v | PRNG: 0 calls
+  Msg: # levelchange
+[Step 171] Key: e | PRNG: 0 calls
+  Msg: # levelchange
+[Step 172] Key: l | PRNG: 0 calls
+  Msg: # levelchange
+[Step 173] Key: c | PRNG: 0 calls
+  Msg: # levelchange
+[Step 174] Key: h | PRNG: 0 calls
+  Msg: # levelchange
+[Step 175] Key: a | PRNG: 0 calls
+  Msg: # levelchange
+[Step 176] Key: n | PRNG: 0 calls
+  Msg: # levelchange
+[Step 177] Key: g | PRNG: 0 calls
+  Msg: # levelchange
+[Step 178] Key: e | PRNG: 0 calls
+  Msg: # levelchange
+[Step 179] Key: 
+ | PRNG: 0 calls
+  Msg: To what experience level do you want to be set?
+[Step 180] Key: 1 | PRNG: 0 calls
+  Msg: To what experience level do you want to be set? 1
+[Step 181] Key: 5 | PRNG: 0 calls
+  Msg: To what experience level do you want to be set? 15
+[Step 182] Key: 
+ | PRNG: 1 calls
+  Msg: You feel more experienced.  Welcome to experience level 11.--More--
+  Status update: Wizard the Sergeant            St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:68(68) Pw:101(101) AC:3 Xp:11/10000 T:43
+[Step 183] Key:   | PRNG: 1 calls
+  Msg: You feel more experienced.  Welcome to experience level 12.--More--
+  Status update: Wizard the Sergeant            St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:71(71) Pw:105(105) AC:3 Xp:12/20000 T:43
+[Step 184] Key:   | PRNG: 1 calls
+  Msg: You feel more experienced.  Welcome to experience level 13.--More--
+  Status update: Wizard the Sergeant            St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:74(74) Pw:109(109) AC:3 Xp:13/40000 T:43
+[Step 185] Key:   | PRNG: 1 calls
+  Msg: You feel more experienced.  Welcome to experience level 14.--More--
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:77(77) Pw:121(121) AC:3 Xp:14/80000 T:43
+[Step 186] Key:   | PRNG: 1 calls
+  Msg: You feel more experienced.  Welcome to experience level 15.
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:80(80) Pw:128(128) AC:3 Xp:15/160000 T:43
+[Step 187] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 188] Key: 5 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 5
+[Step 189] Key: 
+ | PRNG: 4585 calls
+  Map updated (17 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:5 $:0 HP:80(80) Pw:128(128) AC:3 Xp:15/160000 T:43
+[Step 190] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 191] Key: j | PRNG: 0 calls
+  Msg: # jump
+[Step 192] Key: u | PRNG: 0 calls
+  Msg: # jump
+[Step 193] Key: m | PRNG: 0 calls
+  Msg: # jump
+[Step 194] Key: p | PRNG: 0 calls
+  Msg: # jump
+[Step 195] Key: 
+ | PRNG: 0 calls
+  Msg: Where do you want to jump?
+[Step 196] Key:   | PRNG: 0 calls
+  Msg: human knight called wizard (invalid target)
+[Step 197] Key: l | PRNG: 0 calls
+  Msg: wall (invalid target)
+[Step 198] Key: l | PRNG: 0 calls
+  Msg: unexplored area (invalid target)
+[Step 199] Key: j | PRNG: 0 calls
+  Msg: floor of a room (invalid target)
+[Step 200] Key: . | PRNG: 0 calls
+  Msg: There is an obstacle preventing that jump.
+[Step 201] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 202] Key: j | PRNG: 0 calls
+  Msg: # jump
+[Step 203] Key: u | PRNG: 0 calls
+  Msg: # jump
+[Step 204] Key: m | PRNG: 0 calls
+  Msg: # jump
+[Step 205] Key: p | PRNG: 0 calls
+  Msg: # jump
+[Step 206] Key: 
+ | PRNG: 0 calls
+  Msg: Where do you want to jump?
+[Step 207] Key:   | PRNG: 0 calls
+  Msg: human knight called wizard (invalid target)
+[Step 208] Key: h | PRNG: 0 calls
+  Msg: floor of a room (invalid target)
+[Step 209] Key: k | PRNG: 0 calls
+  Msg: floor of a room (invalid target)
+[Step 210] Key: k | PRNG: 0 calls
+  Msg: floor of a room
+[Step 211] Key: . | PRNG: 15 calls
+  Msg: floor of a room
+  Map updated (5 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:5 $:0 HP:80(80) Pw:128(128) AC:3 Xp:15/160000 T:44
+[Step 212] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 213] Key: j | PRNG: 0 calls
+  Msg: # jump
+[Step 214] Key: u | PRNG: 0 calls
+  Msg: # jump
+[Step 215] Key: m | PRNG: 0 calls
+  Msg: # jump
+[Step 216] Key: p | PRNG: 0 calls
+  Msg: # jump
+[Step 217] Key: 
+ | PRNG: 0 calls
+  Msg: Where do you want to jump?
+[Step 218] Key:   | PRNG: 0 calls
+  Msg: human knight called wizard (invalid target)
+[Step 219] Key: k | PRNG: 0 calls
+  Msg: floor of a room (invalid target)
+[Step 220] Key: k | PRNG: 0 calls
+  Msg: floor of a room (invalid target)
+[Step 221] Key: l | PRNG: 0 calls
+  Msg: floor of a room
+[Step 222] Key: . | PRNG: 30 calls
+  Msg: floor of a room
+  Map updated (5 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:5 $:0 HP:80(80) Pw:128(128) AC:3 Xp:15/160000 T:45
+[Step 223] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 224] Key: j | PRNG: 0 calls
+  Msg: # jump
+[Step 225] Key: u | PRNG: 0 calls
+  Msg: # jump
+[Step 226] Key: m | PRNG: 0 calls
+  Msg: # jump
+[Step 227] Key: p | PRNG: 0 calls
+  Msg: # jump
+[Step 228] Key: 
+ | PRNG: 0 calls
+  Msg: Where do you want to jump?
+[Step 229] Key:   | PRNG: 0 calls
+  Msg: human knight called wizard (invalid target)
+[Step 230] Key: j | PRNG: 0 calls
+  Msg: floor of a room (invalid target)
+[Step 231] Key: j | PRNG: 0 calls
+  Msg: a statue of a plains centaur (invalid target)
+[Step 232] Key: h | PRNG: 0 calls
+  Msg: floor of a room
+[Step 233] Key: . | PRNG: 34 calls
+  Msg: floor of a room
+  Map updated (3 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:5 $:0 HP:80(80) Pw:128(128) AC:3 Xp:15/160000 T:46
+[Step 234] Key: O | PRNG: 0 calls
+  Msg: Options
+  Map updated (19 rows changed)
+  Status update: p - pushweapon              [X] | (1 of 2)
+[Step 235] Key: d | PRNG: 0 calls
+  Msg: Options
+  Map updated (1 rows changed)
+[Step 236] Key: f | PRNG: 0 calls
+  Msg: Options
+  Map updated (1 rows changed)
+[Step 237] Key: a | PRNG: 0 calls
+  Msg: Set fruit to what?
+  Map updated (19 rows changed)
+  Status update:  | 
+[Step 238] Key: m | PRNG: 0 calls
+  Msg: Set fruit to what? m
+[Step 239] Key: a | PRNG: 0 calls
+  Msg: Set fruit to what? ma
+[Step 240] Key: n | PRNG: 0 calls
+  Msg: Set fruit to what? man
+[Step 241] Key: g | PRNG: 0 calls
+  Msg: Set fruit to what? mang
+[Step 242] Key: o | PRNG: 0 calls
+  Msg: Set fruit to what? mango
+[Step 243] Key: 
+ | PRNG: 0 calls
+  Msg: Options
+  Map updated (19 rows changed)
+  Status update: p - pushweapon              [X] | (1 of 2)
+[Step 244] Key: > | PRNG: 0 calls
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 245] Key: e | PRNG: 0 calls
+  Msg: Options
+  Map updated (21 rows changed)
+  Status update: p - pushweapon              [X] | (1 of 2)
+[Step 246] Key: f | PRNG: 0 calls
+  Msg: Options
+  Map updated (1 rows changed)
+[Step 247] Key: j | PRNG: 0 calls
+  Msg: Options
+  Map updated (1 rows changed)
+[Step 248] Key: q | PRNG: 0 calls
+  Msg: Options
+[Step 249] Key: ESC | PRNG: 0 calls
+  Map updated (19 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:5 $:0 HP:80(80) Pw:128(128) AC:3 Xp:15/160000 T:46
+[Step 250] Key: l | PRNG: 40 calls
+  Msg: You see here a statue of a plains centaur.
+  Map updated (1 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:5 $:0 HP:80(80) Pw:128(128) AC:3 Xp:15/160000 T:47
+[Step 251] Key: l | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 252] Key: l | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 253] Key: k | PRNG: 17 calls
+  Map updated (2 rows changed)
+[Step 254] Key: k | PRNG: 14 calls
+  Map updated (2 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:5 $:0 HP:80(80) Pw:128(128) AC:3 Xp:15/160000 T:48
+[Step 255] Key: k | PRNG: 21 calls
+  Map updated (4 rows changed)
+[Step 256] Key: h | PRNG: 18 calls
+  Map updated (1 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:5 $:0 HP:80(80) Pw:128(128) AC:3 Xp:15/160000 T:49
+[Step 257] Key: h | PRNG: 36 calls
+  Map updated (1 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:5 $:0 HP:80(80) Pw:128(128) AC:3 Xp:15/160000 T:50
+[Step 258] Key: j | PRNG: 38 calls
+  Map updated (2 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:5 $:0 HP:80(80) Pw:128(128) AC:3 Xp:15/160000 T:51
+[Step 259] Key: j | PRNG: 14 calls
+  Map updated (3 rows changed)
+[Step 260] Key: j | PRNG: 19 calls
+  Map updated (2 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:5 $:0 HP:80(80) Pw:128(128) AC:3 Xp:15/160000 T:52
+[Step 261] Key: k | PRNG: 14 calls
+  Map updated (4 rows changed)
+[Step 262] Key: k | PRNG: 18 calls
+  Map updated (2 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:5 $:0 HP:80(80) Pw:128(128) AC:3 Xp:15/160000 T:53
+[Step 263] Key: k | PRNG: 36 calls
+  Map updated (3 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:5 $:0 HP:80(80) Pw:128(128) AC:3 Xp:15/160000 T:54
+[Step 264] Key: k | PRNG: 24 calls
+  Msg: You see here a statue of a plains centaur.
+  Map updated (4 rows changed)
+[Step 265] Key: k | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 266] Key: l | PRNG: 22 calls
+  Msg: The cobra bites!
+  Map updated (1 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:5 $:0 HP:76(80) Pw:128(128) AC:3 Xp:15/160000 T:55
+[Step 267] Key: j | PRNG: 47 calls
+  Msg: You hit it.  The cobra bites!
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:5 $:0 HP:71(80) Pw:128(128) AC:3 Xp:15/160000 T:56
+[Step 268] Key: j | PRNG: 54 calls
+  Msg: You hit it.  The earth elemental hits!  The cobra bites!
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:5 $:0 HP:54(80) Pw:128(128) AC:3 Xp:15/160000 T:57
+[Step 269] Key: j | PRNG: 47 calls
+  Msg: You kill the earth elemental!  The cobra misses!  The cobra bites!
+  Map updated (1 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:5 $:0 HP:47(80) Pw:128(128) AC:3 Xp:15/160078 T:58
+[Step 270] Key: j | PRNG: 51 calls
+  Msg: The cobra bites!  The cobra bites!
+  Map updated (2 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:5 $:0 HP:38(80) Pw:128(128) AC:3 Xp:15/160078 T:59
+[Step 271] Key: j | PRNG: 37 calls
+  Msg: The cobra bites!  The cobra bites!
+  Map updated (2 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:5 $:0 HP:25(80) Pw:128(128) AC:3 Xp:15/160078 T:60
+[Step 272] Key: j | PRNG: 47 calls
+  Map updated (4 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:5 $:0 HP:25(80) Pw:128(128) AC:3 Xp:15/160078 T:61
+[Step 273] Key: j | PRNG: 37 calls
+  Map updated (4 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:5 $:0 HP:25(80) Pw:128(128) AC:3 Xp:15/160078 T:62
+[Step 274] Key: j | PRNG: 39 calls
+  Msg: The cobra spits venom!  It misses.
+  Map updated (4 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:5 $:0 HP:25(80) Pw:128(128) AC:3 Xp:15/160078 T:63
+[Step 275] Key: j | PRNG: 39 calls
+  Map updated (7 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:5 $:0 HP:25(80) Pw:128(128) AC:3 Xp:15/160078 T:64
+[Step 276] Key: j | PRNG: 36 calls
+  Map updated (6 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:5 $:0 HP:26(80) Pw:128(128) AC:3 Xp:15/160078 T:65
+[Step 277] Key: j | PRNG: 32 calls
+  Map updated (5 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:5 $:0 HP:27(80) Pw:128(128) AC:3 Xp:15/160078 T:66
+[Step 278] Key: j | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 279] Key: j | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 280] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 281] Key: p | PRNG: 0 calls
+  Msg: # p
+[Step 282] Key: r | PRNG: 0 calls
+  Msg: # pray
+[Step 283] Key: a | PRNG: 0 calls
+  Msg: # pray
+[Step 284] Key: y | PRNG: 0 calls
+  Msg: # pray
+[Step 285] Key: 
+ | PRNG: 0 calls
+  Msg: Are you sure you want to pray? [yn] (n)
+[Step 286] Key: y | PRNG: 0 calls
+  Msg: You begin praying to Lugh.--More--
+[Step 287] Key:   | PRNG: 0 calls
+  Msg: Force the gods to be pleased? [yn] (n)
+[Step 288] Key: . | PRNG: 0 calls
+  Msg: Force the gods to be pleased? [yn] (n)
+[Step 289] Key: . | PRNG: 0 calls
+  Msg: Force the gods to be pleased? [yn] (n)
+[Step 290] Key: . | PRNG: 0 calls
+  Msg: Force the gods to be pleased? [yn] (n)
+[Step 291] Key: . | PRNG: 0 calls
+  Msg: Force the gods to be pleased? [yn] (n)
+[Step 292] Key: y | PRNG: 18 calls
+  Msg: You are surrounded by a shimmering light.--More--
+  Map updated (2 rows changed)
+[Step 293] Key:   | PRNG: 82 calls
+  Msg: You see the cobra slither under a statue.  You finish your prayer.--More--
+  Map updated (2 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:5 $:0 HP:27(80) Pw:128(128) AC:3 Xp:15/160078 T:69
+[Step 294] Key:   | PRNG: 7 calls
+  Msg: You feel that Lugh is pleased.
+[Step 295] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 296] Key: 1 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 1
+[Step 297] Key: 0 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 10
+[Step 298] Key: 
+ | PRNG: 3079 calls
+  Map updated (12 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:10 $:0 HP:27(80) Pw:128(128) AC:3 Xp:15/160078 T:69
+[Step 299] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 300] Key: g | PRNG: 0 calls
+  Msg: # genocided
+[Step 301] Key: o | PRNG: 0 calls
+  Msg: # go
+[Step 302] Key: t | PRNG: 0 calls
+  Msg: # got
+[Step 303] Key: o | PRNG: 0 calls
+  Msg: # goto
+[Step 304] Key: 
+ | PRNG: 0 calls
+  Msg: #goto: unknown extended command.
+[Step 305] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 306] Key: 2 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 2
+[Step 307] Key: 0 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 20
+[Step 308] Key: 
+ | PRNG: 3483 calls
+  Map updated (15 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:20 $:0 HP:27(80) Pw:128(128) AC:3 Xp:15/160078 T:69
+[Step 309] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 310] Key: 2 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 2
+[Step 311] Key: 5 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 25
+[Step 312] Key: 
+ | PRNG: 2791 calls
+  Map updated (6 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:25 $:0 HP:27(80) Pw:128(128) AC:3 Xp:15/160078 T:69
+[Step 313] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 314] Key: 3 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 3
+[Step 315] Key: 0 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 30
+[Step 316] Key: 
+ | PRNG: 14387 calls
+  Msg: You arrive at the Valley of the Dead...--More--
+  Map updated (9 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:27 $:0 HP:27(80) Pw:128(128) AC:3 Xp:15/160078 T:69
+[Step 317] Key:   | PRNG: 0 calls
+  Msg: The odor of burnt flesh and decay pervades the air.--More--
+[Step 318] Key:   | PRNG: 0 calls
+  Msg: You hear groans and moans everywhere.
+[Step 319] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 320] Key: 3 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 3
+[Step 321] Key: 5 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 35
+[Step 322] Key: 
+ | PRNG: 3147 calls
+  Msg: It is hot here.  You smell smoke...
+  Map updated (6 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:35 $:0 HP:27(80) Pw:128(128) AC:3 Xp:15/160078 T:69
+[Step 323] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 324] Key: 4 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 4
+[Step 325] Key: 0 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 40
+[Step 326] Key: 
+ | PRNG: 14047 calls
+  Map updated (5 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:40 $:0 HP:27(80) Pw:128(128) AC:3 Xp:15/160078 T:69
+[Step 327] Key: 
+ | PRNG: 0 calls
+  Msg: You avoid stepping into the molten lava.--More--
+[Step 328] Key:   | PRNG: 0 calls
+  Msg: (Tip: use 'm' prefix to step in if you really want to.)
+[Step 329] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 330] Key: 1 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 1
+[Step 331] Key: 
+ | PRNG: 28 calls
+  Msg: The heat and smoke are gone.
+  Map updated (18 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:27(80) Pw:128(128) AC:3 Xp:15/160078 T:69
+[Step 332] Key: i | PRNG: 0 calls
+  Msg: Weapons
+  Map updated (11 rows changed)
+[Step 333] Key: ESC | PRNG: 0 calls
+  Map updated (11 rows changed)
+[Step 334] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 335] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 336] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 337] Key: s | PRNG: 0 calls
+  Msg: # wis
+[Step 338] Key: h | PRNG: 0 calls
+  Msg: # wish
+[Step 339] Key: 
+ | PRNG: 0 calls
+  Msg: #wish: unknown extended command.
+[Step 340] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 341] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 342] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 343] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 344] Key: w | PRNG: 0 calls
+  Msg: # wizwhere
+[Step 345] Key: i | PRNG: 0 calls
+  Msg: # wizwi
+[Step 346] Key: s | PRNG: 0 calls
+  Msg: # wizwis
+[Step 347] Key: h | PRNG: 0 calls
+  Msg: # wizwish
+[Step 348] Key: 
+ | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 349] Key: 3 | PRNG: 0 calls
+  Msg: For what do you wish? 3
+[Step 350] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? 3
+[Step 351] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? 3 s
+[Step 352] Key: c | PRNG: 0 calls
+  Msg: For what do you wish? 3 sc
+[Step 353] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? 3 scr
+[Step 354] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? 3 scro
+[Step 355] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? 3 scrol
+[Step 356] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? 3 scroll
+[Step 357] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? 3 scrolls
+[Step 358] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? 3 scrolls
+[Step 359] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? 3 scrolls o
+[Step 360] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? 3 scrolls of
+[Step 361] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? 3 scrolls of
+[Step 362] Key: p | PRNG: 0 calls
+  Msg: For what do you wish? 3 scrolls of p
+[Step 363] Key: u | PRNG: 0 calls
+  Msg: For what do you wish? 3 scrolls of pu
+[Step 364] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? 3 scrolls of pun
+[Step 365] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? 3 scrolls of puni
+[Step 366] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? 3 scrolls of punis
+[Step 367] Key: h | PRNG: 0 calls
+  Msg: For what do you wish? 3 scrolls of punish
+[Step 368] Key: m | PRNG: 0 calls
+  Msg: For what do you wish? 3 scrolls of punishm
+[Step 369] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? 3 scrolls of punishme
+[Step 370] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? 3 scrolls of punishmen
+[Step 371] Key: t | PRNG: 0 calls
+  Msg: For what do you wish? 3 scrolls of punishment
+[Step 372] Key: 
+ | PRNG: 4 calls
+  Msg: i - 3 scrolls labeled KIRJE.
+[Step 373] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 374] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 375] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 376] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 377] Key: w | PRNG: 0 calls
+  Msg: # wizwhere
+[Step 378] Key: i | PRNG: 0 calls
+  Msg: # wizwi
+[Step 379] Key: s | PRNG: 0 calls
+  Msg: # wizwis
+[Step 380] Key: h | PRNG: 0 calls
+  Msg: # wizwish
+[Step 381] Key: 
+ | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 382] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? s
+[Step 383] Key: p | PRNG: 0 calls
+  Msg: For what do you wish? sp
+[Step 384] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? spe
+[Step 385] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? spel
+[Step 386] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? spell
+[Step 387] Key: b | PRNG: 0 calls
+  Msg: For what do you wish? spellb
+[Step 388] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? spellbo
+[Step 389] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? spellboo
+[Step 390] Key: k | PRNG: 0 calls
+  Msg: For what do you wish? spellbook
+[Step 391] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? spellbook
+[Step 392] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? spellbook o
+[Step 393] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? spellbook of
+[Step 394] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? spellbook of
+[Step 395] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? spellbook of d
+[Step 396] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? spellbook of de
+[Step 397] Key: t | PRNG: 0 calls
+  Msg: For what do you wish? spellbook of det
+[Step 398] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? spellbook of dete
+[Step 399] Key: c | PRNG: 0 calls
+  Msg: For what do you wish? spellbook of detec
+[Step 400] Key: t | PRNG: 0 calls
+  Msg: For what do you wish? spellbook of detect
+[Step 401] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? spellbook of detect
+[Step 402] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? spellbook of detect f
+[Step 403] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? spellbook of detect fo
+[Step 404] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? spellbook of detect foo
+[Step 405] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? spellbook of detect food
+[Step 406] Key: 
+ | PRNG: 4 calls
+  Msg: j - a dark brown spellbook.
+[Step 407] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 408] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 409] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 410] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 411] Key: w | PRNG: 0 calls
+  Msg: # wizwhere
+[Step 412] Key: i | PRNG: 0 calls
+  Msg: # wizwi
+[Step 413] Key: s | PRNG: 0 calls
+  Msg: # wizwis
+[Step 414] Key: h | PRNG: 0 calls
+  Msg: # wizwish
+[Step 415] Key: 
+ | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 416] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? s
+[Step 417] Key: p | PRNG: 0 calls
+  Msg: For what do you wish? sp
+[Step 418] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? spe
+[Step 419] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? spel
+[Step 420] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? spell
+[Step 421] Key: b | PRNG: 0 calls
+  Msg: For what do you wish? spellb
+[Step 422] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? spellbo
+[Step 423] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? spellboo
+[Step 424] Key: k | PRNG: 0 calls
+  Msg: For what do you wish? spellbook
+[Step 425] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? spellbook
+[Step 426] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? spellbook o
+[Step 427] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? spellbook of
+[Step 428] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? spellbook of
+[Step 429] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? spellbook of d
+[Step 430] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? spellbook of de
+[Step 431] Key: t | PRNG: 0 calls
+  Msg: For what do you wish? spellbook of det
+[Step 432] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? spellbook of dete
+[Step 433] Key: c | PRNG: 0 calls
+  Msg: For what do you wish? spellbook of detec
+[Step 434] Key: t | PRNG: 0 calls
+  Msg: For what do you wish? spellbook of detect
+[Step 435] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? spellbook of detect
+[Step 436] Key: m | PRNG: 0 calls
+  Msg: For what do you wish? spellbook of detect m
+[Step 437] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? spellbook of detect mo
+[Step 438] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? spellbook of detect mon
+[Step 439] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? spellbook of detect mons
+[Step 440] Key: t | PRNG: 0 calls
+  Msg: For what do you wish? spellbook of detect monst
+[Step 441] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? spellbook of detect monste
+[Step 442] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? spellbook of detect monster
+[Step 443] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? spellbook of detect monsters
+[Step 444] Key: 
+ | PRNG: 4 calls
+  Msg: k - a thin spellbook.
+[Step 445] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 446] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 447] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 448] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 449] Key: w | PRNG: 0 calls
+  Msg: # wizwhere
+[Step 450] Key: i | PRNG: 0 calls
+  Msg: # wizwi
+[Step 451] Key: s | PRNG: 0 calls
+  Msg: # wizwis
+[Step 452] Key: h | PRNG: 0 calls
+  Msg: # wizwish
+[Step 453] Key: 
+ | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 454] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? s
+[Step 455] Key: c | PRNG: 0 calls
+  Msg: For what do you wish? sc
+[Step 456] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? scr
+[Step 457] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? scro
+[Step 458] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? scrol
+[Step 459] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? scroll
+[Step 460] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? scroll
+[Step 461] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? scroll o
+[Step 462] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? scroll of
+[Step 463] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? scroll of
+[Step 464] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? scroll of i
+[Step 465] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? scroll of id
+[Step 466] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? scroll of ide
+[Step 467] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? scroll of iden
+[Step 468] Key: t | PRNG: 0 calls
+  Msg: For what do you wish? scroll of ident
+[Step 469] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? scroll of identi
+[Step 470] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? scroll of identif
+[Step 471] Key: y | PRNG: 0 calls
+  Msg: For what do you wish? scroll of identify
+[Step 472] Key: 
+ | PRNG: 4 calls
+  Msg: l - a scroll labeled DAIYEN FOOELS.
+[Step 473] Key: r | PRNG: 0 calls
+  Msg: What do you want to read? [ijkl or ?*]
+[Step 474] Key: j | PRNG: 37 calls
+  Msg: You begin to memorize the runes.  You learn the "detect food" spell.
+  Map updated (2 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:27(80) Pw:128(128) AC:3 Xp:15/160078 T:72
+[Step 475] Key: r | PRNG: 0 calls
+  Msg: What do you want to read? [ijkl or ?*]
+[Step 476] Key: k | PRNG: 26 calls
+  Msg: You begin to memorize the runes.--More--
+  Map updated (2 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:27(80) Pw:128(128) AC:3 Xp:15/160078 T:74
+[Step 477] Key:   | PRNG: 12 calls
+  Msg: You add the "detect monsters" spell to your repertoire, as 'b'.
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:27(80) Pw:128(128) AC:3 Xp:15/160078 T:75
+[Step 478] Key: Z | PRNG: 0 calls
+  Msg: Choose which spell to cast
+  Map updated (4 rows changed)
+[Step 479] Key: a | PRNG: 3 calls
+  Msg: You fail to cast the spell correctly.  The newt misses!
+  Map updated (4 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:27(80) Pw:123(128) AC:3 Xp:15/160078 T:75
+[Step 480] Key: Z | PRNG: 0 calls
+  Msg: Choose which spell to cast
+  Map updated (4 rows changed)
+[Step 481] Key: b | PRNG: 9 calls
+  Msg: You fail to cast the spell correctly.
+  Map updated (4 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:28(80) Pw:121(128) AC:3 Xp:15/160078 T:76
+[Step 482] Key: Z | PRNG: 0 calls
+  Msg: Choose which spell to cast
+  Map updated (4 rows changed)
+[Step 483] Key: a | PRNG: 17 calls
+  Msg: You fail to cast the spell correctly.  The newt bites!
+  Map updated (4 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:26(80) Pw:116(128) AC:3 Xp:15/160078 T:77
+[Step 484] Key: Z | PRNG: 0 calls
+  Msg: Choose which spell to cast
+  Map updated (4 rows changed)
+[Step 485] Key: a | PRNG: 12 calls
+  Msg: You fail to cast the spell correctly.
+  Map updated (4 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:27(80) Pw:111(128) AC:3 Xp:15/160078 T:78
+[Step 486] Key: Z | PRNG: 0 calls
+  Msg: Choose which spell to cast
+  Map updated (4 rows changed)
+[Step 487] Key: b | PRNG: 11 calls
+  Msg: You fail to cast the spell correctly.  The newt misses!
+  Map updated (4 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:28(80) Pw:109(128) AC:3 Xp:15/160078 T:79
+[Step 488] Key: Z | PRNG: 0 calls
+  Msg: Choose which spell to cast
+  Map updated (4 rows changed)
+[Step 489] Key: b | PRNG: 12 calls
+  Msg: You fail to cast the spell correctly.  The newt misses!
+  Map updated (4 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:29(80) Pw:107(128) AC:3 Xp:15/160078 T:80
+[Step 490] Key: r | PRNG: 0 calls
+  Msg: What do you want to read? [ijkl or ?*]
+[Step 491] Key: i | PRNG: 1 calls
+  Msg: As you read the scroll, it disappears.--More--
+[Step 492] Key:   | PRNG: 15 calls
+  Msg: You are being punished for your misbehavior!  The newt misses!
+[Step 493] Key: r | PRNG: 0 calls
+  Msg: What do you want to read? [ijkl or ?*]
+[Step 494] Key: l | PRNG: 4 calls
+  Msg: As you read the scroll, it disappears.  This is an identify scroll.--More--
+[Step 495] Key:   | PRNG: 0 calls
+  Msg: i - 2 uncursed scrolls of punishment.--More--
+[Step 496] Key:   | PRNG: 0 calls
+  Msg: j - an uncursed spellbook of detect food.--More--
+[Step 497] Key:   | PRNG: 8 calls
+  Msg: k - an uncursed spellbook of detect monsters.
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:29(80) Pw:107(128) AC:3 Xp:15/160078 T:81
+[Step 498] Key: r | PRNG: 0 calls
+  Msg: What do you want to read? [ijk or ?*]
+[Step 499] Key: i | PRNG: 1 calls
+  Msg: As you read the scroll, it disappears.--More--
+[Step 500] Key:   | PRNG: 0 calls
+  Msg: You are being punished for your misbehavior!--More--
+[Step 501] Key:   | PRNG: 3 calls
+  Msg: Your iron ball gets heavier.
+[Step 502] Key: Z | PRNG: 0 calls
+  Msg: Choose which spell to cast
+  Map updated (4 rows changed)
+[Step 503] Key: a | PRNG: 9 calls
+  Msg: You fail to cast the spell correctly.
+  Map updated (4 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:29(80) Pw:102(128) AC:3 Xp:15/160078 T:82
+[Step 504] Key: Z | PRNG: 0 calls
+  Msg: Choose which spell to cast
+  Map updated (4 rows changed)
+[Step 505] Key: a | PRNG: 1 calls
+  Msg: You fail to cast the spell correctly.
+  Map updated (4 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:29(80) Pw:97(128) AC:3 Xp:15/160078 T:82
+[Step 506] Key: Z | PRNG: 0 calls
+  Msg: Choose which spell to cast
+  Map updated (4 rows changed)
+[Step 507] Key: a | PRNG: 9 calls
+  Msg: You fail to cast the spell correctly.
+  Map updated (4 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:29(80) Pw:92(128) AC:3 Xp:15/160078 T:83
+[Step 508] Key: Z | PRNG: 0 calls
+  Msg: Choose which spell to cast
+  Map updated (4 rows changed)
+[Step 509] Key: a | PRNG: 14 calls
+  Msg: You fail to cast the spell correctly.  The newt misses!
+  Map updated (4 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:30(80) Pw:87(128) AC:3 Xp:15/160078 T:84
+[Step 510] Key: Z | PRNG: 0 calls
+  Msg: Choose which spell to cast
+  Map updated (4 rows changed)
+[Step 511] Key: a | PRNG: 17 calls
+  Msg: You fail to cast the spell correctly.  The newt bites!
+  Map updated (4 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:29(80) Pw:82(128) AC:3 Xp:15/160078 T:85
+[Step 512] Key: l | PRNG: 12 calls
+  Msg: You hear someone counting gold coins.
+  Map updated (1 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:29(80) Pw:82(128) AC:3 Xp:15/160078 T:86
+[Step 513] Key: l | PRNG: 11 calls
+  Map updated (1 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:30(80) Pw:82(128) AC:3 Xp:15/160078 T:87
+[Step 514] Key: l | PRNG: 27 calls
+  Msg: The newt bites!
+  Map updated (2 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:29(80) Pw:82(128) AC:3 Xp:15/160078 T:89
+[Step 515] Key: l | PRNG: 27 calls
+  Map updated (1 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:30(80) Pw:84(128) AC:3 Xp:15/160078 T:91
+[Step 516] Key: h | PRNG: 19 calls
+  Msg: You kill the newt!
+  Map updated (1 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:30(80) Pw:84(128) AC:3 Xp:15/160079 T:92
+[Step 517] Key: h | PRNG: 12 calls
+  Map updated (1 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:30(80) Pw:84(128) AC:3 Xp:15/160079 T:93
+[Step 518] Key: h | PRNG: 0 calls
+  Msg: You see here a very heavy iron ball (chained to you).
+  Map updated (1 rows changed)
+[Step 519] Key: h | PRNG: 7 calls
+  Map updated (1 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:31(80) Pw:84(128) AC:3 Xp:15/160079 T:94
+[Step 520] Key: \ | PRNG: 0 calls
+  Msg: Discoveries, by order of discovery within each class
+  Map updated (20 rows changed)
+  Status update: * partisan (vulgar polearm) | --More--
+[Step 521] Key:   | PRNG: 0 calls
+  Msg: * ranseur (hilted polearm)
+  Map updated (21 rows changed)
+  Status update: * orcish chain mail (crude chain mail) | --More--
+[Step 522] Key:   | PRNG: 0 calls
+  Msg: * orcish ring mail (crude ring mail)
+  Map updated (21 rows changed)
+  Status update:  | --More--
+[Step 523] Key:   | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:31(80) Pw:84(128) AC:3 Xp:15/160079 T:94
+[Step 524] Key: e | PRNG: 0 calls
+  Msg: What do you want to eat? [gh or ?*]
+[Step 525] Key: g | PRNG: 31 calls
+  Msg: Blecch!  Rotten food!  The world spins and goes dark.--More--
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:33(80) Pw:84(128) AC:3 Xp:15/160079 T:97
+[Step 526] Key:   | PRNG: 1 calls
+  Msg: You are conscious again.
+[Step 527] Key: e | PRNG: 0 calls
+  Msg: What do you want to eat? [ghm or ?*]
+[Step 528] Key: h | PRNG: 7 calls
+  Msg: This carrot is delicious!
+[Step 529] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 530] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 531] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 532] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 533] Key: i | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 534] Key: d | PRNG: 0 calls
+  Msg: # wizid
+[Step 535] Key: e | PRNG: 0 calls
+  Msg: # wizide
+[Step 536] Key: n | PRNG: 0 calls
+  Msg: # wiziden
+[Step 537] Key: t | PRNG: 0 calls
+  Msg: # wizident
+[Step 538] Key: i | PRNG: 0 calls
+  Msg: # wizidenti
+[Step 539] Key: f | PRNG: 0 calls
+  Msg: # wizidentif
+[Step 540] Key: y | PRNG: 0 calls
+  Msg: # wizidentify
+[Step 541] Key: 
+ | PRNG: 0 calls
+  Msg: Debug Identify
+  Map updated (2 rows changed)
+[Step 542] Key: ESC | PRNG: 0 calls
+  Map updated (2 rows changed)
+[Step 543] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 544] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 545] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 546] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 547] Key: i | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 548] Key: n | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 549] Key: t | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 550] Key: r | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 551] Key: i | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 552] Key: n | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 553] Key: s | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 554] Key: i | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 555] Key: c | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 556] Key: 
+ | PRNG: 0 calls
+  Msg: Which intrinsics?
+  Map updated (20 rows changed)
+  Status update: u - see invisible | (1 of 4)
+[Step 557] Key: a | PRNG: 0 calls
+  Msg: Which intrinsics?
+  Map updated (1 rows changed)
+[Step 558] Key: r | PRNG: 0 calls
+  Msg: Which intrinsics?
+  Map updated (1 rows changed)
+[Step 559] Key: . | PRNG: 0 calls
+  Msg: Which intrinsics?
+  Map updated (18 rows changed)
+  Status update: u + see invisible | (1 of 4)
+[Step 560] Key: ESC | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:33(80) Pw:84(128) AC:3 Xp:15/160079 T:97
+[Step 561] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 562] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 563] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 564] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 565] Key: i | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 566] Key: n | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 567] Key: t | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 568] Key: r | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 569] Key: i | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 570] Key: n | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 571] Key: s | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 572] Key: i | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 573] Key: c | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 574] Key: 
+ | PRNG: 0 calls
+  Msg: Which intrinsics?
+  Map updated (20 rows changed)
+  Status update: u - see invisible | (1 of 4)
+[Step 575] Key: a | PRNG: 0 calls
+  Msg: Which intrinsics?
+  Map updated (1 rows changed)
+[Step 576] Key: r | PRNG: 0 calls
+  Msg: Which intrinsics?
+  Map updated (1 rows changed)
+[Step 577] Key: 
+ | PRNG: 0 calls
+  Msg: Timeout for invulnerable set to 30.  Timeout for very fast set to 30.--More--
+  Map updated (20 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:33(80) Pw:84(128) AC:3 Xp:15/160079 T:97
+[Step 578] Key:   | PRNG: 0 calls
+[Step 579] Key: k | PRNG: 7 calls
+  Map updated (2 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:33(80) Pw:84(128) AC:3 Xp:15/160079 T:98
+[Step 580] Key: k | PRNG: 5 calls
+  Map updated (3 rows changed)
+[Step 581] Key: k | PRNG: 18 calls
+  Map updated (4 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:33(80) Pw:84(128) AC:3 Xp:15/160079 T:100
+[Step 582] Key: k | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 583] Key: h | PRNG: 12 calls
+  Map updated (1 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:34(80) Pw:84(128) AC:3 Xp:15/160079 T:101
+[Step 584] Key: h | PRNG: 14 calls
+  Map updated (3 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:34(80) Pw:84(128) AC:3 Xp:15/160079 T:103
+[Step 585] Key: h | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 586] Key: h | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 587] Key: j | PRNG: 0 calls
+  Map updated (2 rows changed)
+[Step 588] Key: j | PRNG: 7 calls
+  Map updated (3 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:34(80) Pw:84(128) AC:3 Xp:15/160079 T:104
+[Step 589] Key: h | PRNG: 20 calls
+  Map updated (2 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:35(80) Pw:86(128) AC:3 Xp:15/160079 T:106
+[Step 590] Key: k | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 591] Key: l | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 592] Key: k | PRNG: 7 calls
+  Map updated (2 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:36(80) Pw:86(128) AC:3 Xp:15/160079 T:107
+[Step 593] Key: k | PRNG: 0 calls
+  Map updated (3 rows changed)
+[Step 594] Key: l | PRNG: 7 calls
+  Map updated (1 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:36(80) Pw:86(128) AC:3 Xp:15/160079 T:108
+[Step 595] Key: l | PRNG: 3 calls
+  Map updated (2 rows changed)
+[Step 596] Key: j | PRNG: 8 calls
+  Map updated (2 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:36(80) Pw:86(128) AC:3 Xp:15/160079 T:109
+[Step 597] Key: j | PRNG: 13 calls
+  Map updated (3 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:36(80) Pw:86(128) AC:3 Xp:15/160079 T:110
+[Step 598] Key: j | PRNG: 0 calls
+  Map updated (3 rows changed)
+[Step 599] Key: k | PRNG: 7 calls
+  Map updated (2 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:36(80) Pw:86(128) AC:3 Xp:15/160079 T:111
+[Step 600] Key: k | PRNG: 5 calls
+  Map updated (2 rows changed)
+[Step 601] Key: y | PRNG: 7 calls
+  Map updated (3 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:36(80) Pw:86(128) AC:3 Xp:15/160079 T:112
+[Step 602] Key: k | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 603] Key: y | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 604] Key: y | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 605] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 606] Key: o | PRNG: 0 calls
+  Msg: # o
+[Step 607] Key: v | PRNG: 0 calls
+  Msg: # overview
+[Step 608] Key: e | PRNG: 0 calls
+  Msg: # overview
+[Step 609] Key: r | PRNG: 0 calls
+  Msg: # overview
+[Step 610] Key: v | PRNG: 0 calls
+  Msg: # overview
+[Step 611] Key: i | PRNG: 0 calls
+  Msg: # overview
+[Step 612] Key: e | PRNG: 0 calls
+  Msg: # overview
+[Step 613] Key: w | PRNG: 0 calls
+  Msg: # overview
+[Step 614] Key: 
+ | PRNG: 0 calls
+  Msg: The Dungeons of Doom: levels 1 to 25
+  Map updated (5 rows changed)
+[Step 615] Key: ESC | PRNG: 0 calls
+  Map updated (5 rows changed)
+[Step 616] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 617] Key: d | PRNG: 0 calls
+  Msg: # dip
+[Step 618] Key: i | PRNG: 0 calls
+  Msg: # dip
+[Step 619] Key: p | PRNG: 0 calls
+  Msg: # dip
+[Step 620] Key: 
+ | PRNG: 0 calls
+  Msg: What do you want to dip? [a-km or ?*]
+[Step 621] Key: ESC | PRNG: 0 calls
+  Msg: What do you want to dip? [a-km or ?*]
+[Step 622] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 623] Key: e | PRNG: 0 calls
+  Msg: # enhance
+[Step 624] Key: n | PRNG: 0 calls
+  Msg: # enhance
+[Step 625] Key: h | PRNG: 0 calls
+  Msg: # enhance
+[Step 626] Key: a | PRNG: 0 calls
+  Msg: # enhance
+[Step 627] Key: n | PRNG: 0 calls
+  Msg: # enhance
+[Step 628] Key: c | PRNG: 0 calls
+  Msg: # enhance
+[Step 629] Key: e | PRNG: 0 calls
+  Msg: # enhance
+[Step 630] Key: 
+ | PRNG: 0 calls
+  Msg: Advance skills without practice? [yn] (n)
+[Step 631] Key: y | PRNG: 0 calls
+  Msg: Pick a skill to advance:
+  Map updated (20 rows changed)
+  Status update: s -  spear              Unskilled        0(  20) | (1 of 2)
+[Step 632] Key: j | PRNG: 0 calls
+  Msg: You are now more skilled in long sword.--More--
+  Map updated (20 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:36(80) Pw:86(128) AC:3 Xp:15/160079 T:112
+[Step 633] Key:   | PRNG: 0 calls
+  Msg: Pick a skill to advance:
+  Map updated (20 rows changed)
+  Status update: s -  spear              Unskilled        0(  20) | (1 of 2)
+[Step 634] Key: r | PRNG: 0 calls
+  Msg: You are now more skilled in polearms.--More--
+  Map updated (20 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:36(80) Pw:86(128) AC:3 Xp:15/160079 T:112
+[Step 635] Key:   | PRNG: 0 calls
+  Msg: Pick a skill to advance:
+  Map updated (20 rows changed)
+  Status update: s -  spear              Unskilled        0(  20) | (1 of 2)
+[Step 636] Key: 
+ | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:36(80) Pw:86(128) AC:3 Xp:15/160079 T:112
+[Step 637] Key: ESC | PRNG: 0 calls
+[Step 638] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 639] Key: t | PRNG: 0 calls
+  Msg: # t
+[Step 640] Key: u | PRNG: 0 calls
+  Msg: # turn
+[Step 641] Key: r | PRNG: 0 calls
+  Msg: # turn
+[Step 642] Key: n | PRNG: 0 calls
+  Msg: # turn
+[Step 643] Key: 
+ | PRNG: 25 calls
+  Msg: Calling upon Lugh, you chant an arcane formula.  You can move again.
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:37(80) Pw:86(128) AC:3 Xp:15/160079 T:115
+[Step 644] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 645] Key: c | PRNG: 0 calls
+  Msg: # c
+[Step 646] Key: h | PRNG: 0 calls
+  Msg: # ch
+[Step 647] Key: a | PRNG: 0 calls
+  Msg: # chat
+[Step 648] Key: t | PRNG: 0 calls
+  Msg: # chat
+[Step 649] Key: 
+ | PRNG: 0 calls
+  Msg: Talk to whom? (in what direction)
+[Step 650] Key: . | PRNG: 0 calls
+  Msg: Talking to yourself is a bad habit for a dungeoneer.
+[Step 651] Key: : | PRNG: 0 calls
+  Msg: You see no objects here.
+[Step 652] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 653] Key: r | PRNG: 0 calls
+  Msg: # r
+[Step 654] Key: i | PRNG: 0 calls
+  Msg: # ride
+[Step 655] Key: d | PRNG: 0 calls
+  Msg: # ride
+[Step 656] Key: e | PRNG: 0 calls
+  Msg: # ride
+[Step 657] Key: 
+ | PRNG: 0 calls
+  Msg: In what direction?
+[Step 658] Key: ESC | PRNG: 0 calls
+[Step 659] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 660] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 661] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 662] Key: p | PRNG: 0 calls
+  Msg: # wipe
+[Step 663] Key: e | PRNG: 0 calls
+  Msg: # wipe
+[Step 664] Key: 
+ | PRNG: 0 calls
+  Msg: Your face is already clean.
+[Step 665] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 666] Key: s | PRNG: 0 calls
+  Msg: # s
+[Step 667] Key: i | PRNG: 0 calls
+  Msg: # sit
+[Step 668] Key: t | PRNG: 0 calls
+  Msg: # sit
+[Step 669] Key: 
+ | PRNG: 7 calls
+  Msg: Having fun sitting on the floor?
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:37(80) Pw:86(128) AC:3 Xp:15/160079 T:116
+[Step 670] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 671] Key: m | PRNG: 0 calls
+  Msg: # m
+[Step 672] Key: o | PRNG: 0 calls
+  Msg: # monster
+[Step 673] Key: n | PRNG: 0 calls
+  Msg: # monster
+[Step 674] Key: s | PRNG: 0 calls
+  Msg: # monster
+[Step 675] Key: t | PRNG: 0 calls
+  Msg: # monster
+[Step 676] Key: e | PRNG: 0 calls
+  Msg: # monster
+[Step 677] Key: r | PRNG: 0 calls
+  Msg: # monster
+[Step 678] Key: 
+ | PRNG: 0 calls
+  Msg: You don't have a special ability in your normal form!
+[Step 679] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 680] Key: n | PRNG: 0 calls
+  Msg: # name
+[Step 681] Key: a | PRNG: 0 calls
+  Msg: # name
+[Step 682] Key: m | PRNG: 0 calls
+  Msg: # name
+[Step 683] Key: e | PRNG: 0 calls
+  Msg: # name
+[Step 684] Key: 
+ | PRNG: 0 calls
+  Msg: What do you want to name?
+  Map updated (7 rows changed)
+[Step 685] Key: a | PRNG: 0 calls
+  Msg: What do you want to call this dungeon level?
+  Map updated (7 rows changed)
+[Step 686] Key: s | PRNG: 0 calls
+  Msg: What do you want to call this dungeon level? s
+[Step 687] Key: t | PRNG: 0 calls
+  Msg: What do you want to call this dungeon level? st
+[Step 688] Key: a | PRNG: 0 calls
+  Msg: What do you want to call this dungeon level? sta
+[Step 689] Key: r | PRNG: 0 calls
+  Msg: What do you want to call this dungeon level? star
+[Step 690] Key: t | PRNG: 0 calls
+  Msg: What do you want to call this dungeon level? start
+[Step 691] Key: i | PRNG: 0 calls
+  Msg: What do you want to call this dungeon level? starti
+[Step 692] Key: n | PRNG: 0 calls
+  Msg: What do you want to call this dungeon level? startin
+[Step 693] Key: g | PRNG: 0 calls
+  Msg: What do you want to call this dungeon level? starting
+[Step 694] Key:   | PRNG: 0 calls
+  Msg: What do you want to call this dungeon level? starting
+[Step 695] Key: l | PRNG: 0 calls
+  Msg: What do you want to call this dungeon level? starting l
+[Step 696] Key: e | PRNG: 0 calls
+  Msg: What do you want to call this dungeon level? starting le
+[Step 697] Key: v | PRNG: 0 calls
+  Msg: What do you want to call this dungeon level? starting lev
+[Step 698] Key: e | PRNG: 0 calls
+  Msg: What do you want to call this dungeon level? starting leve
+[Step 699] Key: l | PRNG: 0 calls
+  Msg: What do you want to call this dungeon level? starting level
+[Step 700] Key: 
+ | PRNG: 0 calls
+[Step 701] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 702] Key: n | PRNG: 0 calls
+  Msg: # name
+[Step 703] Key: a | PRNG: 0 calls
+  Msg: # name
+[Step 704] Key: m | PRNG: 0 calls
+  Msg: # name
+[Step 705] Key: e | PRNG: 0 calls
+  Msg: # name
+[Step 706] Key: 
+ | PRNG: 0 calls
+  Msg: What do you want to name?
+  Map updated (7 rows changed)
+[Step 707] Key: i | PRNG: 0 calls
+  Msg: What do you want to name? [a-km or ?*]
+  Map updated (7 rows changed)
+[Step 708] Key: a | PRNG: 0 calls
+  Msg: What do you want to name this long sword?
+[Step 709] Key: S | PRNG: 0 calls
+  Msg: What do you want to name this long sword? S
+[Step 710] Key: w | PRNG: 0 calls
+  Msg: What do you want to name this long sword? Sw
+[Step 711] Key: o | PRNG: 0 calls
+  Msg: What do you want to name this long sword? Swo
+[Step 712] Key: r | PRNG: 0 calls
+  Msg: What do you want to name this long sword? Swor
+[Step 713] Key: d | PRNG: 0 calls
+  Msg: What do you want to name this long sword? Sword
+[Step 714] Key:   | PRNG: 0 calls
+  Msg: What do you want to name this long sword? Sword
+[Step 715] Key: o | PRNG: 0 calls
+  Msg: What do you want to name this long sword? Sword o
+[Step 716] Key: f | PRNG: 0 calls
+  Msg: What do you want to name this long sword? Sword of
+[Step 717] Key:   | PRNG: 0 calls
+  Msg: What do you want to name this long sword? Sword of
+[Step 718] Key: J | PRNG: 0 calls
+  Msg: What do you want to name this long sword? Sword of J
+[Step 719] Key: u | PRNG: 0 calls
+  Msg: What do you want to name this long sword? Sword of Ju
+[Step 720] Key: s | PRNG: 0 calls
+  Msg: What do you want to name this long sword? Sword of Jus
+[Step 721] Key: t | PRNG: 0 calls
+  Msg: What do you want to name this long sword? Sword of Just
+[Step 722] Key: i | PRNG: 0 calls
+  Msg: What do you want to name this long sword? Sword of Justi
+[Step 723] Key: c | PRNG: 0 calls
+  Msg: What do you want to name this long sword? Sword of Justic
+[Step 724] Key: e | PRNG: 0 calls
+  Msg: What do you want to name this long sword? Sword of Justice
+[Step 725] Key: 
+ | PRNG: 0 calls
+[Step 726] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 727] Key: a | PRNG: 0 calls
+  Msg: # a
+[Step 728] Key: d | PRNG: 0 calls
+  Msg: # adjust
+[Step 729] Key: j | PRNG: 0 calls
+  Msg: # adjust
+[Step 730] Key: u | PRNG: 0 calls
+  Msg: # adjust
+[Step 731] Key: s | PRNG: 0 calls
+  Msg: # adjust
+[Step 732] Key: t | PRNG: 0 calls
+  Msg: # adjust
+[Step 733] Key: 
+ | PRNG: 0 calls
+  Msg: What do you want to adjust? [a-km or ?*]
+[Step 734] Key: a | PRNG: 0 calls
+  Msg: Adjust letter to what [aln-zA-Z] (? see used letters)?
+[Step 735] Key: z | PRNG: 0 calls
+  Msg: Moving: z - a +1 long sword named Sword of Justice (weapon in right hand).
+[Step 736] Key: t | PRNG: 0 calls
+  Msg: What do you want to throw? [b or ?*]
+[Step 737] Key: i | PRNG: 0 calls
+  Msg: In what direction?
+[Step 738] Key: k | PRNG: 8 calls
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:38(80) Pw:86(128) AC:3 Xp:15/160079 T:117
+[Step 739] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 740] Key: t | PRNG: 0 calls
+  Msg: # t
+[Step 741] Key: w | PRNG: 0 calls
+  Msg: # tw
+[Step 742] Key: o | PRNG: 0 calls
+  Msg: # two
+[Step 743] Key: w | PRNG: 0 calls
+  Msg: # twow
+[Step 744] Key: e | PRNG: 0 calls
+  Msg: # twowe
+[Step 745] Key: a | PRNG: 0 calls
+  Msg: # twowea
+[Step 746] Key: p | PRNG: 0 calls
+  Msg: # twoweap
+[Step 747] Key: o | PRNG: 0 calls
+  Msg: # twoweapo
+[Step 748] Key: n | PRNG: 0 calls
+  Msg: # twoweapon
+[Step 749] Key: 
+ | PRNG: 0 calls
+  Msg: You can't use two weapons while wearing a shield.
+[Step 750] Key: T | PRNG: 0 calls
+  Msg: What do you want to take off? [cdef or ?*]
+[Step 751] Key: e | PRNG: 7 calls
+  Msg: What do you want to take off? [cdef or ?*]
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:39(80) Pw:86(128) AC:4 Xp:15/160079 T:118
+[Step 752] Key: ESC | PRNG: 0 calls
+[Step 753] Key: i | PRNG: 0 calls
+  Msg: Weapons
+  Map updated (15 rows changed)
+[Step 754] Key: ESC | PRNG: 0 calls
+  Map updated (15 rows changed)
+[Step 755] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 756] Key: t | PRNG: 0 calls
+  Msg: # t
+[Step 757] Key: w | PRNG: 0 calls
+  Msg: # tw
+[Step 758] Key: o | PRNG: 0 calls
+  Msg: # two
+[Step 759] Key: w | PRNG: 0 calls
+  Msg: # twow
+[Step 760] Key: e | PRNG: 0 calls
+  Msg: # twowe
+[Step 761] Key: a | PRNG: 0 calls
+  Msg: # twowea
+[Step 762] Key: p | PRNG: 0 calls
+  Msg: # twoweap
+[Step 763] Key: o | PRNG: 0 calls
+  Msg: # twoweapo
+[Step 764] Key: n | PRNG: 0 calls
+  Msg: # twoweapon
+[Step 765] Key: 
+ | PRNG: 1 calls
+  Msg: You begin two-weapon combat.
+[Step 766] Key: x | PRNG: 0 calls
+  Msg: b - a +1 lance (weapon in right hand).--More--
+[Step 767] Key:   | PRNG: 5 calls
+  Msg: z - a +1 long sword named Sword of Justice (alternate weapon; not wielded).
+[Step 768] Key: x | PRNG: 0 calls
+  Msg: z - a +1 long sword named Sword of Justice (weapon in right hand).--More--
+[Step 769] Key:   | PRNG: 7 calls
+  Msg: b - a +1 lance (alternate weapon; not wielded).
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:39(80) Pw:86(128) AC:4 Xp:15/160079 T:119
+[Step 770] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 771] Key: 3 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 3
+[Step 772] Key: 
+ | PRNG: 2248 calls
+  Msg: Things that are here:
+  Map updated (20 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:39(80) Pw:86(128) AC:4 Xp:15/160079 T:119
+[Step 773] Key:   | PRNG: 0 calls
+  Map updated (3 rows changed)
+[Step 774] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 775] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 776] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 777] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 778] Key: m | PRNG: 0 calls
+  Msg: # wizmondiff
+[Step 779] Key: a | PRNG: 0 calls
+  Msg: # wizma
+[Step 780] Key: p | PRNG: 0 calls
+  Msg: # wizmap
+[Step 781] Key: 
+ | PRNG: 1 calls
+  Map updated (18 rows changed)
+[Step 782] Key: _ | PRNG: 0 calls
+  Msg: Where do you want to travel to?
+[Step 783] Key: > | PRNG: 0 calls
+  Msg: staircase down
+[Step 784] Key: . | PRNG: 43 calls
+  Msg: staircase down
+  Map updated (4 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:41(80) Pw:88(128) AC:4 Xp:15/160079 T:122
+[Step 785] Key: . | PRNG: 16 calls
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:41(80) Pw:88(128) AC:4 Xp:15/160079 T:123
+[Step 786] Key:  | PRNG: 0 calls
+  Msg: Where do you want to be teleported?
+[Step 787] Key:   | PRNG: 0 calls
+  Msg: human knight called wizard, chained to a heavy iron ball
+[Step 788] Key: < | PRNG: 0 calls
+  Msg: staircase up
+[Step 789] Key: . | PRNG: 0 calls
+  Msg: staircase up                            There is a staircase up here.
+  Map updated (10 rows changed)
+[Step 790] Key:   | PRNG: 5 calls
+  Msg: staircase up
+  Map updated (4 rows changed)
+[Step 791] Key:  | PRNG: 0 calls
+  Msg: Where do you want to be teleported?
+[Step 792] Key:   | PRNG: 0 calls
+  Msg: human knight called wizard, chained to a heavy iron ball
+[Step 793] Key: > | PRNG: 0 calls
+  Msg: staircase down
+[Step 794] Key: . | PRNG: 0 calls
+  Msg: staircase down                          There is a staircase down here.
+  Map updated (8 rows changed)
+[Step 795] Key:   | PRNG: 11 calls
+  Msg: staircase down
+  Map updated (4 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:41(80) Pw:88(128) AC:4 Xp:15/160079 T:124
+[Step 796] Key: > | PRNG: 3316 calls
+  Msg: You fall down the stairs.--More--
+[Step 797] Key:   | PRNG: 5 calls
+  Msg: The iron ball smacks into you!--More--
+  Map updated (18 rows changed)
+  Status update:  | 
+[Step 798] Key:   | PRNG: 0 calls
+  Msg: There is a staircase up to level 3 here.
+  Map updated (8 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:4 $:0 HP:24(80) Pw:88(128) AC:4 Xp:15/160079 T:124
+[Step 799] Key:   | PRNG: 12 calls
+  Map updated (4 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:4 $:0 HP:24(80) Pw:88(128) AC:4 Xp:15/160079 T:125
+[Step 800] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 801] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 802] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 803] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 804] Key: m | PRNG: 0 calls
+  Msg: # wizmondiff
+[Step 805] Key: a | PRNG: 0 calls
+  Msg: # wizma
+[Step 806] Key: p | PRNG: 0 calls
+  Msg: # wizmap
+[Step 807] Key: 
+ | PRNG: 1 calls
+  Map updated (19 rows changed)
+[Step 808] Key:  | PRNG: 0 calls
+  Msg: Where do you want to be teleported?
+[Step 809] Key:   | PRNG: 0 calls
+  Msg: human knight called wizard, chained to a heavy iron ball
+[Step 810] Key: > | PRNG: 0 calls
+  Msg: staircase down
+[Step 811] Key: . | PRNG: 0 calls
+  Msg: staircase down                          There is a staircase down here.
+  Map updated (6 rows changed)
+[Step 812] Key:   | PRNG: 16 calls
+  Msg: staircase down
+  Map updated (4 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:4 $:0 HP:25(80) Pw:88(128) AC:4 Xp:15/160079 T:126
+[Step 813] Key: > | PRNG: 2620 calls
+  Msg: You fall down the stairs.--More--
+[Step 814] Key:   | PRNG: 3 calls
+  Msg: There is a branch staircase up to the Dungeons of Doom here.
+  Map updated (20 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:5 $:0 HP:24(80) Pw:88(128) AC:4 Xp:15/160079 T:126
+[Step 815] Key:   | PRNG: 19 calls
+  Msg: You feel yourself slow down a bit.
+  Map updated (4 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:5 $:0 HP:24(80) Pw:88(128) AC:4 Xp:15/160079 T:127
+[Step 816] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 817] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 818] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 819] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 820] Key: m | PRNG: 0 calls
+  Msg: # wizmondiff
+[Step 821] Key: a | PRNG: 0 calls
+  Msg: # wizma
+[Step 822] Key: p | PRNG: 0 calls
+  Msg: # wizmap
+[Step 823] Key: 
+ | PRNG: 1 calls
+  Map updated (21 rows changed)
+[Step 824] Key:  | PRNG: 0 calls
+  Msg: Where do you want to be teleported?
+[Step 825] Key:   | PRNG: 0 calls
+  Msg: human knight called wizard, chained to a heavy iron ball
+[Step 826] Key: > | PRNG: 0 calls
+  Msg: staircase down
+[Step 827] Key: . | PRNG: 0 calls
+  Msg: staircase down                          There is a staircase down here.
+  Map updated (11 rows changed)
+[Step 828] Key:   | PRNG: 50 calls
+  Msg: staircase down
+  Map updated (7 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:5 $:0 HP:24(80) Pw:88(128) AC:4 Xp:15/160079 T:128
+[Step 829] Key: > | PRNG: 2615 calls
+  Msg: You fall down the stairs.--More--
+[Step 830] Key:   | PRNG: 5 calls
+  Msg: The iron ball smacks into you!--More--
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 831] Key:   | PRNG: 0 calls
+  Msg: You hear the howling of the CwnAnnwn...--More--
+[Step 832] Key:   | PRNG: 0 calls
+  Msg: There is a staircase up to level 5 here.
+  Map updated (4 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:6 $:0 HP:7(80) Pw:88(128) AC:4 Xp:15/160079 T:128
+[Step 833] Key:   | PRNG: 19 calls
+  Map updated (4 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:6 $:0 HP:7(80) Pw:88(128) AC:4 Xp:15/160079 T:129
+[Step 834] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 835] Key: p | PRNG: 0 calls
+  Msg: # p
+[Step 836] Key: r | PRNG: 0 calls
+  Msg: # pray
+[Step 837] Key: a | PRNG: 0 calls
+  Msg: # pray
+[Step 838] Key: y | PRNG: 0 calls
+  Msg: # pray
+[Step 839] Key: 
+ | PRNG: 0 calls
+  Msg: Are you sure you want to pray? [yn] (n)
+[Step 840] Key: y | PRNG: 0 calls
+  Msg: You begin praying to Lugh.--More--
+[Step 841] Key:   | PRNG: 0 calls
+  Msg: Force the gods to be pleased? [yn] (n)
+[Step 842] Key:   | PRNG: 162 calls
+  Msg: It misses.  You finish your prayer.  You feel that Lugh is displeased.
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:6 $:0 HP:9(80) Pw:88(128) AC:4 Xp:15/160079 T:132
+[Step 843] Key: y | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 844] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 845] Key: p | PRNG: 0 calls
+  Msg: # p
+[Step 846] Key: r | PRNG: 0 calls
+  Msg: # pray
+[Step 847] Key: a | PRNG: 0 calls
+  Msg: # pray
+[Step 848] Key: y | PRNG: 0 calls
+  Msg: # pray
+[Step 849] Key: 
+ | PRNG: 0 calls
+  Msg: Are you sure you want to pray? [yn] (n)
+[Step 850] Key: y | PRNG: 0 calls
+  Msg: You begin praying to Lugh.--More--
+[Step 851] Key:   | PRNG: 0 calls
+  Msg: Force the gods to be pleased? [yn] (n)
+[Step 852] Key: y | PRNG: 170 calls
+  Msg: You are surrounded by a shimmering light.  You finish your prayer.--More--
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:6 $:0 HP:9(80) Pw:89(128) AC:4 Xp:15/160079 T:135
+[Step 853] Key:   | PRNG: 7 calls
+  Msg: You feel that Lugh is pleased.  You feel much better.
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:6 $:0 HP:83(83) Pw:89(128) AC:4 Xp:15/160079 T:135
+[Step 854] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 855] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 856] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 857] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 858] Key: m | PRNG: 0 calls
+  Msg: # wizmondiff
+[Step 859] Key: a | PRNG: 0 calls
+  Msg: # wizma
+[Step 860] Key: p | PRNG: 0 calls
+  Msg: # wizmap
+[Step 861] Key: 
+ | PRNG: 1 calls
+  Map updated (21 rows changed)
+[Step 862] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 863] Key: 8 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 8
+[Step 864] Key: 
+ | PRNG: 1813 calls
+  Msg: Things that are here:
+  Map updated (21 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:8 $:0 HP:83(83) Pw:89(128) AC:4 Xp:15/160079 T:135
+[Step 865] Key:   | PRNG: 0 calls
+  Map updated (3 rows changed)
+[Step 866] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 867] Key: 1 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 1
+[Step 868] Key: 0 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 10
+[Step 869] Key: 
+ | PRNG: 3062 calls
+  Msg: Things that are here:
+  Map updated (19 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:10 $:0 HP:83(83) Pw:89(128) AC:4 Xp:15/160079 T:135
+[Step 870] Key:   | PRNG: 0 calls
+  Map updated (3 rows changed)
+[Step 871] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 872] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 873] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 874] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 875] Key: m | PRNG: 0 calls
+  Msg: # wizmondiff
+[Step 876] Key: a | PRNG: 0 calls
+  Msg: # wizma
+[Step 877] Key: p | PRNG: 0 calls
+  Msg: # wizmap
+[Step 878] Key: 
+ | PRNG: 1 calls
+  Map updated (21 rows changed)
+[Step 879] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 880] Key: 1 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 1
+[Step 881] Key: 3 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 13
+[Step 882] Key: 
+ | PRNG: 1567 calls
+  Msg: Things that are here:
+  Map updated (21 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:12 $:0 HP:83(83) Pw:89(128) AC:4 Xp:15/160079 T:135
+[Step 883] Key:   | PRNG: 0 calls
+  Map updated (3 rows changed)
+[Step 884] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 885] Key: o | PRNG: 0 calls
+  Msg: # o
+[Step 886] Key: v | PRNG: 0 calls
+  Msg: # overview
+[Step 887] Key: e | PRNG: 0 calls
+  Msg: # overview
+[Step 888] Key: r | PRNG: 0 calls
+  Msg: # overview
+[Step 889] Key: v | PRNG: 0 calls
+  Msg: # overview
+[Step 890] Key: i | PRNG: 0 calls
+  Msg: # overview
+[Step 891] Key: e | PRNG: 0 calls
+  Msg: # overview
+[Step 892] Key: w | PRNG: 0 calls
+  Msg: # overview
+[Step 893] Key: 
+ | PRNG: 0 calls
+  Msg: The Dungeons of Doom: levels 1 to 25
+  Map updated (12 rows changed)
+[Step 894] Key: ESC | PRNG: 0 calls
+  Map updated (12 rows changed)
+[Step 895] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 896] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 897] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 898] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 899] Key: m | PRNG: 0 calls
+  Msg: # wizmondiff
+[Step 900] Key: a | PRNG: 0 calls
+  Msg: # wizma
+[Step 901] Key: p | PRNG: 0 calls
+  Msg: # wizmap
+[Step 902] Key: 
+ | PRNG: 1 calls
+  Map updated (18 rows changed)
+[Step 903] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 904] Key: 5 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 5
+[Step 905] Key: 
+ | PRNG: 16 calls
+  Msg: Things that are here:
+  Map updated (21 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:5 $:0 HP:83(83) Pw:89(128) AC:4 Xp:15/160079 T:135
+[Step 906] Key:   | PRNG: 0 calls
+  Map updated (3 rows changed)
+[Step 907] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 908] Key: 1 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 1
+[Step 909] Key: 
+ | PRNG: 15 calls
+  Msg: You remember this level as starting level.--More--
+  Map updated (21 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:83(83) Pw:89(128) AC:4 Xp:15/160079 T:135
+[Step 910] Key:   | PRNG: 0 calls
+  Msg: Things that are here:
+  Map updated (3 rows changed)
+[Step 911] Key:   | PRNG: 0 calls
+  Map updated (3 rows changed)
+[Step 912] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 913] Key: 7 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 7
+[Step 914] Key: 
+ | PRNG: 3047 calls
+  Msg: Things that are here:
+  Map updated (20 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:7 $:0 HP:83(83) Pw:89(128) AC:4 Xp:15/160079 T:135
+[Step 915] Key:   | PRNG: 0 calls
+  Map updated (3 rows changed)
+[Step 916] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 917] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 918] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 919] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 920] Key: m | PRNG: 0 calls
+  Msg: # wizmondiff
+[Step 921] Key: a | PRNG: 0 calls
+  Msg: # wizma
+[Step 922] Key: p | PRNG: 0 calls
+  Msg: # wizmap
+[Step 923] Key: 
+ | PRNG: 1 calls
+  Map updated (19 rows changed)
+[Step 924] Key:  | PRNG: 0 calls
+  Msg: Where do you want to be teleported?
+[Step 925] Key:   | PRNG: 0 calls
+  Msg: human knight called wizard, chained to a heavy iron ball
+[Step 926] Key: < | PRNG: 0 calls
+  Msg: staircase up
+[Step 927] Key: . | PRNG: 0 calls
+  Msg: staircase up                            There is a staircase up here.
+  Map updated (5 rows changed)
+[Step 928] Key:   | PRNG: 7 calls
+  Msg: staircase up
+  Map updated (4 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:7 $:0 HP:83(83) Pw:89(128) AC:4 Xp:15/160079 T:136
+[Step 929] Key: < | PRNG: 6911 calls
+  Msg: With great effort, you climb up the stairs.--More--
+[Step 930] Key:   | PRNG: 0 calls
+  Msg: There is a staircase down to level 7 here.
+  Map updated (19 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:6 $:0 HP:83(83) Pw:89(128) AC:4 Xp:15/160079 T:136
+[Step 931] Key:   | PRNG: 14 calls
+  Map updated (4 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:6 $:0 HP:83(83) Pw:89(128) AC:4 Xp:15/160079 T:137
+[Step 932] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 933] Key: o | PRNG: 0 calls
+  Msg: # o
+[Step 934] Key: v | PRNG: 0 calls
+  Msg: # overview
+[Step 935] Key: e | PRNG: 0 calls
+  Msg: # overview
+[Step 936] Key: r | PRNG: 0 calls
+  Msg: # overview
+[Step 937] Key: v | PRNG: 0 calls
+  Msg: # overview
+[Step 938] Key: i | PRNG: 0 calls
+  Msg: # overview
+[Step 939] Key: e | PRNG: 0 calls
+  Msg: # overview
+[Step 940] Key: w | PRNG: 0 calls
+  Msg: # overview
+[Step 941] Key: 
+ | PRNG: 0 calls
+  Msg: The Dungeons of Doom: levels 1 to 25
+  Map updated (14 rows changed)
+[Step 942] Key: ESC | PRNG: 0 calls
+  Map updated (14 rows changed)
+[Step 943] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 944] Key: 2 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 2
+[Step 945] Key: 4 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 24
+[Step 946] Key: 
+ | PRNG: 4274 calls
+  Msg: Things that are here:
+  Map updated (21 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:24 $:0 HP:83(83) Pw:89(128) AC:4 Xp:15/160079 T:137
+[Step 947] Key:   | PRNG: 0 calls
+  Map updated (3 rows changed)
+[Step 948] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 949] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 950] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 951] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 952] Key: m | PRNG: 0 calls
+  Msg: # wizmondiff
+[Step 953] Key: a | PRNG: 0 calls
+  Msg: # wizma
+[Step 954] Key: p | PRNG: 0 calls
+  Msg: # wizmap
+[Step 955] Key: 
+ | PRNG: 1 calls
+  Map updated (20 rows changed)
+[Step 956] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 957] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 958] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 959] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 960] Key: g | PRNG: 0 calls
+  Msg: # wizg
+[Step 961] Key: e | PRNG: 0 calls
+  Msg: # wizge
+[Step 962] Key: n | PRNG: 0 calls
+  Msg: # wizgen
+[Step 963] Key: e | PRNG: 0 calls
+  Msg: # wizgene
+[Step 964] Key: s | PRNG: 0 calls
+  Msg: # wizgenes
+[Step 965] Key: i | PRNG: 0 calls
+  Msg: # wizgenesi
+[Step 966] Key: s | PRNG: 0 calls
+  Msg: # wizgenesis
+[Step 967] Key: 
+ | PRNG: 0 calls
+  Msg: Create what kind of monster?
+[Step 968] Key: r | PRNG: 0 calls
+  Msg: Create what kind of monster? r
+[Step 969] Key: e | PRNG: 0 calls
+  Msg: Create what kind of monster? re
+[Step 970] Key: d | PRNG: 0 calls
+  Msg: Create what kind of monster? red
+[Step 971] Key:   | PRNG: 0 calls
+  Msg: Create what kind of monster? red
+[Step 972] Key: d | PRNG: 0 calls
+  Msg: Create what kind of monster? red d
+[Step 973] Key: r | PRNG: 0 calls
+  Msg: Create what kind of monster? red dr
+[Step 974] Key: a | PRNG: 0 calls
+  Msg: Create what kind of monster? red dra
+[Step 975] Key: g | PRNG: 0 calls
+  Msg: Create what kind of monster? red drag
+[Step 976] Key: o | PRNG: 0 calls
+  Msg: Create what kind of monster? red drago
+[Step 977] Key: n | PRNG: 0 calls
+  Msg: Create what kind of monster? red dragon
+[Step 978] Key: 
+ | PRNG: 52 calls
+  Msg: A red dragon appears next to you.
+  Map updated (1 rows changed)
+[Step 979] Key: h | PRNG: 46 calls
+  Msg: You see here a statue of a chameleon.
+  Map updated (5 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:24 $:0 HP:83(83) Pw:89(128) AC:4 Xp:15/160079 T:138
+[Step 980] Key: h | PRNG: 0 calls
+  Msg: It's a tree.
+[Step 981] Key: h | PRNG: 0 calls
+  Msg: It's a tree.
+[Step 982] Key: h | PRNG: 0 calls
+  Msg: It's a tree.
+[Step 983] Key: h | PRNG: 0 calls
+  Msg: It's a tree.
+[Step 984] Key: h | PRNG: 0 calls
+  Msg: It's a tree.
+[Step 985] Key: j | PRNG: 5 calls
+  Msg: You caitiff!  You hit it.  The wood nymph wakes up!--More--
+[Step 986] Key:   | PRNG: 265 calls
+  Msg: The wood nymph screams!  The water nymph wakes up.--More--
+  Map updated (14 rows changed)
+[Step 987] Key:   | PRNG: 0 calls
+  Msg: The wood nymph disarms your +1 lance.  She stole a +1 lance.--More--
+[Step 988] Key:   | PRNG: 208 calls
+  Msg: A mysterious force prevents the wood nymph from teleporting!
+  Map updated (8 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:24 $:0 HP:83(83) Pw:89(128) AC:4 Xp:15/160079 T:139
+[Step 989] Key: j | PRNG: 927 calls
+  Msg: You kill the wood nymph!
+  Map updated (11 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:24 $:0 HP:83(83) Pw:89(128) AC:4 Xp:15/160104 T:140
+[Step 990] Key: j | PRNG: 0 calls
+  Msg: Things that are here:
+  Map updated (14 rows changed)
+[Step 991] Key:   | PRNG: 517 calls
+  Map updated (17 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:24 $:0 HP:83(83) Pw:89(128) AC:4 Xp:15/160104 T:141
+[Step 992] Key: j | PRNG: 0 calls
+  Msg: It's a tree.
+[Step 993] Key: k | PRNG: 420 calls
+  Msg: You see here a statue of a chameleon.
+  Map updated (16 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:24 $:0 HP:83(83) Pw:89(128) AC:4 Xp:15/160104 T:142
+[Step 994] Key: k | PRNG: 526 calls
+  Msg: The raven misses!  The raven blinds you!  It bites!
+  Map updated (10 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:24 $:0 HP:82(83) Pw:89(128) AC:4 Xp:15/160104 T:143 Blind
+[Step 995] Key: k | PRNG: 547 calls
+  Msg: You hit it.  It bites!
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:24 $:0 HP:76(83) Pw:89(128) AC:4 Xp:15/160104 T:144 Blind
+[Step 996] Key: k | PRNG: 513 calls
+  Msg: You hit it.  It bites!  It misses!  It bites!  It bites!
+  Map updated (2 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:24 $:0 HP:68(83) Pw:89(128) AC:4 Xp:15/160104 T:145 Blind
+[Step 997] Key: k | PRNG: 235 calls
+  Msg: You kill it!  You hear hissing gas.  The blast of fire hits it!--More--
+  Map updated (1 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:24 $:0 HP:68(83) Pw:89(128) AC:4 Xp:15/160152 T:145 Blind
+[Step 998] Key:   | PRNG: 12 calls
+  Msg: The blast of fire hits you!  Your gloves smoulder!--More--
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:24 $:0 HP:56(83) Pw:89(128) AC:4 Xp:15/160152 T:145 Blind
+[Step 999] Key:   | PRNG: 191 calls
+  Msg: You hear hissing gas.  The blast of fire hits it!  It bites!--More--
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:24 $:0 HP:50(83) Pw:89(128) AC:4 Xp:15/160152 T:145 Blind
+[Step 1000] Key:   | PRNG: 328 calls
+  Msg: It bites!  It bites!  It misses!  It bites!  It bites!  It bites!
+  Map updated (1 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:24 $:0 HP:29(83) Pw:89(128) AC:5 Xp:15/160152 T:146 Blind
+[Step 1001] Key: k | PRNG: 0 calls
+  Msg: You avoid stepping into the shallow sea.
+[Step 1002] Key: k | PRNG: 0 calls
+  Msg: You avoid stepping into the shallow sea.
+[Step 1003] Key: j | PRNG: 177 calls
+  Msg: Wait!  There's something there you can't see!  It bites!  It bites!--More--
+  Map updated (1 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:24 $:0 HP:22(83) Pw:89(128) AC:5 Xp:15/160152 T:146 Blind
+[Step 1004] Key:   | PRNG: 125 calls
+  Msg: It bites!  It bites!  It bites!
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:24 $:0 HP:11(83) Pw:89(128) AC:5 Xp:15/160152 T:146 Blind
+[Step 1005] Key: j | PRNG: 108 calls
+  Msg: You hit it.  It bites!  It bites!  It misses!  It bites!--More--
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:24 $:0 HP:0(83) Pw:89(128) AC:5 Xp:15/160152 T:146 Blind
+[Step 1006] Key:   | PRNG: 0 calls
+  Msg: You die...--More--
+[Step 1007] Key:   | PRNG: 0 calls
+  Msg: Die? [yn] (n)
+[Step 1008] Key: j | PRNG: 0 calls
+  Msg: Die? [yn] (n)
+[Step 1009] Key: l | PRNG: 0 calls
+  Msg: Die? [yn] (n)
+[Step 1010] Key: l | PRNG: 0 calls
+  Msg: Die? [yn] (n)
+[Step 1011] Key: l | PRNG: 0 calls
+  Msg: Die? [yn] (n)
+[Step 1012] Key: n | PRNG: 123 calls
+  Msg: OK, so you don't die.  It misses!--More--
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:24 $:0 HP:83(83) Pw:89(128) AC:5 Xp:15/160152 T:147 Blind
+[Step 1013] Key:   | PRNG: 0 calls
+  Msg: You survived that attempt on your life.
+[Step 1014] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 1015] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 1016] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 1017] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 1018] Key: g | PRNG: 0 calls
+  Msg: # wizg
+[Step 1019] Key: e | PRNG: 0 calls
+  Msg: # wizge
+[Step 1020] Key: n | PRNG: 0 calls
+  Msg: # wizgen
+[Step 1021] Key: e | PRNG: 0 calls
+  Msg: # wizgene
+[Step 1022] Key: s | PRNG: 0 calls
+  Msg: # wizgenes
+[Step 1023] Key: i | PRNG: 0 calls
+  Msg: # wizgenesi
+[Step 1024] Key: s | PRNG: 0 calls
+  Msg: # wizgenesis
+[Step 1025] Key: 
+ | PRNG: 0 calls
+  Msg: Create what kind of monster?
+[Step 1026] Key: m | PRNG: 0 calls
+  Msg: Create what kind of monster? m
+[Step 1027] Key: i | PRNG: 0 calls
+  Msg: Create what kind of monster? mi
+[Step 1028] Key: n | PRNG: 0 calls
+  Msg: Create what kind of monster? min
+[Step 1029] Key: o | PRNG: 0 calls
+  Msg: Create what kind of monster? mino
+[Step 1030] Key: t | PRNG: 0 calls
+  Msg: Create what kind of monster? minot
+[Step 1031] Key: a | PRNG: 0 calls
+  Msg: Create what kind of monster? minota
+[Step 1032] Key: u | PRNG: 0 calls
+  Msg: Create what kind of monster? minotau
+[Step 1033] Key: r | PRNG: 0 calls
+  Msg: Create what kind of monster? minotaur
+[Step 1034] Key: 
+ | PRNG: 52 calls
+[Step 1035] Key: F | PRNG: 0 calls
+[Step 1036] Key: # | PRNG: 0 calls
+  Msg: The 'F' prefix should be followed by a movement command.
+[Step 1037] Key: w | PRNG: 0 calls
+  Msg: What do you want to wield? [- z or ?*]
+[Step 1038] Key: i | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 1039] Key:   | PRNG: 0 calls
+  Msg: What do you want to wield? [- z or ?*]
+[Step 1040] Key: z | PRNG: 0 calls
+  Msg: You are already wielding that!
+[Step 1041] Key: w | PRNG: 0 calls
+  Msg: What do you want to wield? [- z or ?*]
+[Step 1042] Key: h | PRNG: 247 calls
+  Msg: h - 11 uncursed carrots (wielded).  It bites!  It bites!  It bites!--More--
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:24 $:0 HP:73(83) Pw:89(128) AC:5 Xp:15/160152 T:147 Blind
+[Step 1043] Key:   | PRNG: 315 calls
+  Msg: It bites!  It bites!  It bites!  It bites!
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:24 $:0 HP:57(83) Pw:89(128) AC:5 Xp:15/160152 T:148 Blind
+[Step 1044] Key: e | PRNG: 0 calls
+  Msg: What do you want to eat? [ghm or ?*]
+[Step 1045] Key: r | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 1046] Key:   | PRNG: 0 calls
+  Msg: What do you want to eat? [ghm or ?*]
+[Step 1047] Key: e | PRNG: 0 calls
+  Msg: You cannot eat that!
+[Step 1048] Key: 
+ | PRNG: 36 calls
+  Msg: You attack thin air.  You hear hissing gas.--More--
+  Map updated (1 rows changed)
+[Step 1049] Key:   | PRNG: 406 calls
+  Msg: The blast of fire hits you!  It bites!  It bites!  It bites!--More--
+  Map updated (1 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:24 $:0 HP:14(83) Pw:89(128) AC:5 Xp:15/160152 T:148 Blind
+[Step 1050] Key:   | PRNG: 137 calls
+  Msg: It bites!  It bites!
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:24 $:0 HP:8(83) Pw:89(128) AC:5 Xp:15/160152 T:149 Blind
+[Step 1051] Key: w | PRNG: 0 calls
+  Msg: What do you want to wield? [- z or ?*]
+[Step 1052] Key: z | PRNG: 0 calls
+  Msg: z - a +1 long sword named Sword of Justice (weapon in right hand).--More--
+[Step 1053] Key:   | PRNG: 169 calls
+  Msg: h - 11 uncursed carrots (alternate weapons; not wielded).  It bites!--More--
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:24 $:0 HP:3(83) Pw:89(128) AC:5 Xp:15/160152 T:149 Blind
+[Step 1054] Key:   | PRNG: 33 calls
+  Msg: It bites!  It bites!--More--
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:24 $:0 HP:0(83) Pw:89(128) AC:5 Xp:15/160152 T:149 Blind
+[Step 1055] Key:   | PRNG: 0 calls
+  Msg: You die...--More--
+[Step 1056] Key:   | PRNG: 0 calls
+  Msg: Die? [yn] (n)
+[Step 1057] Key: n | PRNG: 557 calls
+  Msg: OK, so you don't die.  It bites!  It bites!  It bites!--More--
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:24 $:0 HP:80(83) Pw:90(128) AC:5 Xp:15/160152 T:150 Blind
+[Step 1058] Key:   | PRNG: 0 calls
+  Msg: You survived that attempt on your life.
+[Step 1059] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 1060] Key: 1 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 1
+[Step 1061] Key: 
+ | PRNG: 13 calls
+  Msg: You remember this level as starting level.--More--
+  Map updated (20 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:80(83) Pw:90(128) AC:5 Xp:15/160152 T:150 Blind
+[Step 1062] Key:   | PRNG: 0 calls
+  Msg: You try to feel what is lying here on the floor.--More--
+[Step 1063] Key:   | PRNG: 0 calls
+  Msg: Things that you feel here:
+  Map updated (3 rows changed)
+[Step 1064] Key:   | PRNG: 0 calls
+  Map updated (3 rows changed)
+[Step 1065] Key: 2 | PRNG: 0 calls
+[Step 1066] Key: 0 | PRNG: 0 calls
+  Msg: Count: 20
+[Step 1067] Key: . | PRNG: 55 calls
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:83(83) Pw:90(128) AC:5 Xp:15/160152 T:156 Blind
+[Step 1068] Key: 2 | PRNG: 0 calls
+[Step 1069] Key: 0 | PRNG: 0 calls
+  Msg: Count: 20
+[Step 1070] Key: . | PRNG: 122 calls
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:83(83) Pw:91(128) AC:5 Xp:15/160152 T:170 Blind
+[Step 1071] Key: 5 | PRNG: 0 calls
+[Step 1072] Key: 0 | PRNG: 0 calls
+  Msg: Count: 50
+[Step 1073] Key: . | PRNG: 324 calls
+  Msg: It hits!  You stop waiting.  It hits again!  It bites!
+  Map updated (1 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:71(83) Pw:93(128) AC:5 Xp:15/160152 T:189 Blind
+[Step 1074] Key: 9 | PRNG: 0 calls
+  Msg: It hits!  You stop waiting.  It hits again!  It bites!
+[Step 1075] Key: 9 | PRNG: 0 calls
+  Msg: Count: 99
+[Step 1076] Key: . | PRNG: 25 calls
+  Msg: It hits!  You stop waiting.  It hits again!  It bites!
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:59(83) Pw:93(128) AC:5 Xp:15/160152 T:190 Blind
+[Step 1077] Key: F | PRNG: 0 calls
+[Step 1078] Key: h | PRNG: 33 calls
+  Msg: You hit it.  It hits!  It hits again!  It bites!
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:48(83) Pw:93(128) AC:5 Xp:15/160152 T:191 Blind
+[Step 1079] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 1080] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 1081] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 1082] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 1083] Key: i | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 1084] Key: n | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 1085] Key: t | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 1086] Key: r | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 1087] Key: i | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 1088] Key: n | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 1089] Key: s | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 1090] Key: i | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 1091] Key: c | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 1092] Key: 
+ | PRNG: 0 calls
+  Msg: Which intrinsics?
+  Map updated (20 rows changed)
+  Status update: u - see invisible | (1 of 4)
+[Step 1093] Key: i | PRNG: 0 calls
+  Msg: Which intrinsics?
+  Map updated (1 rows changed)
+[Step 1094] Key: 
+ | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:48(83) Pw:93(128) AC:5 Xp:15/160152 T:191 Blind
+[Step 1095] Key: h | PRNG: 22 calls
+  Msg: You hit it.  It hits!  It hits again!  It misses!
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:35(83) Pw:93(128) AC:5 Xp:15/160152 T:191 Blind
+[Step 1096] Key: h | PRNG: 19 calls
+  Msg: You hit it.
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:35(83) Pw:93(128) AC:5 Xp:15/160152 T:192 Blind
+[Step 1097] Key: h | PRNG: 169 calls
+  Msg: You caitiff!  You kill it!
+  Map updated (1 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:35(83) Pw:93(128) AC:5 Xp:15/160202 T:192 Blind
+[Step 1098] Key: h | PRNG: 0 calls
+  Msg: You try to feel what is lying here on the floor.--More--
+  Map updated (1 rows changed)
+[Step 1099] Key:   | PRNG: 7 calls
+  Msg: You feel here a tiger corpse.
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:35(83) Pw:93(128) AC:5 Xp:15/160202 T:193 Blind
+[Step 1100] Key: h | PRNG: 3 calls
+  Map updated (1 rows changed)
+[Step 1101] Key: h | PRNG: 15 calls
+  Map updated (1 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:36(83) Pw:94(128) AC:5 Xp:15/160202 T:195 Blind
+[Step 1102] Key: e | PRNG: 0 calls
+  Msg: What do you want to eat? [ghm or ?*]
+[Step 1103] Key: , | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 1104] Key:   | PRNG: 0 calls
+  Msg: What do you want to eat? [ghm or ?*]
+[Step 1105] Key: e | PRNG: 0 calls
+  Msg: You cannot eat that!
+[Step 1106] Key: y | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 1107] Key: e | PRNG: 0 calls
+  Msg: What do you want to eat? [ghm or ?*]
+[Step 1108] Key: ESC | PRNG: 0 calls
+  Msg: What do you want to eat? [ghm or ?*]
+[Step 1109] Key: e | PRNG: 0 calls
+  Msg: What do you want to eat? [ghm or ?*]
+[Step 1110] Key: , | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 1111] Key:   | PRNG: 0 calls
+  Msg: What do you want to eat? [ghm or ?*]
+[Step 1112] Key: y | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 1113] Key:   | PRNG: 0 calls
+  Msg: What do you want to eat? [ghm or ?*]
+[Step 1114] Key: # | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 1115] Key:   | PRNG: 0 calls
+  Msg: What do you want to eat? [ghm or ?*]
+[Step 1116] Key: p | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 1117] Key:   | PRNG: 0 calls
+  Msg: What do you want to eat? [ghm or ?*]
+[Step 1118] Key: r | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 1119] Key:   | PRNG: 0 calls
+  Msg: What do you want to eat? [ghm or ?*]
+[Step 1120] Key: a | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 1121] Key:   | PRNG: 0 calls
+  Msg: What do you want to eat? [ghm or ?*]
+[Step 1122] Key: y | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 1123] Key:   | PRNG: 0 calls
+  Msg: What do you want to eat? [ghm or ?*]
+[Step 1124] Key: 
+ | PRNG: 0 calls
+  Msg: What do you want to eat? [ghm or ?*]
+[Step 1125] Key: y | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 1126] Key: y | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 1127] Key: ESC | PRNG: 0 calls
+[Step 1128] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 1129] Key: p | PRNG: 0 calls
+  Msg: # p
+[Step 1130] Key: r | PRNG: 0 calls
+  Msg: # pray
+[Step 1131] Key: a | PRNG: 0 calls
+  Msg: # pray
+[Step 1132] Key: y | PRNG: 0 calls
+  Msg: # pray
+[Step 1133] Key: 
+ | PRNG: 0 calls
+  Msg: Are you sure you want to pray? [yn] (n)
+[Step 1134] Key: y | PRNG: 0 calls
+  Msg: You begin praying to Lugh.--More--
+[Step 1135] Key:   | PRNG: 0 calls
+  Msg: Force the gods to be pleased? [yn] (n)
+[Step 1136] Key: y | PRNG: 22 calls
+  Msg: You hear someone counting gold coins.  You finish your prayer.--More--
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:36(83) Pw:94(128) AC:5 Xp:15/160202 T:198 Blind
+[Step 1137] Key:   | PRNG: 7 calls
+  Msg: You feel that Lugh is pleased.
+[Step 1138] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 1139] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 1140] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 1141] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 1142] Key: i | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 1143] Key: n | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 1144] Key: t | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 1145] Key: r | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 1146] Key: i | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 1147] Key: n | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 1148] Key: s | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 1149] Key: i | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 1150] Key: c | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 1151] Key: 
+ | PRNG: 0 calls
+  Msg: Which intrinsics?
+  Map updated (20 rows changed)
+  Status update: u - see invisible | (1 of 4)
+[Step 1152] Key: i | PRNG: 0 calls
+  Msg: Which intrinsics?
+  Map updated (1 rows changed)
+[Step 1153] Key: 
+ | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:36(83) Pw:94(128) AC:5 Xp:15/160202 T:198 Blind
+[Step 1154] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 1155] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 1156] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 1157] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 1158] Key: i | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 1159] Key: n | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 1160] Key: t | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 1161] Key: r | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 1162] Key: i | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 1163] Key: n | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 1164] Key: s | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 1165] Key: i | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 1166] Key: c | PRNG: 0 calls
+  Msg: # wizintrinsic
+[Step 1167] Key: 
+ | PRNG: 0 calls
+  Msg: Which intrinsics?
+  Map updated (20 rows changed)
+  Status update: u - see invisible | (1 of 4)
+[Step 1168] Key: i | PRNG: 0 calls
+  Msg: Which intrinsics?
+  Map updated (1 rows changed)
+[Step 1169] Key: 
+ | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:36(83) Pw:94(128) AC:5 Xp:15/160202 T:198 Blind
+[Step 1170] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 1171] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 1172] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 1173] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 1174] Key: w | PRNG: 0 calls
+  Msg: # wizwhere
+[Step 1175] Key: i | PRNG: 0 calls
+  Msg: # wizwi
+[Step 1176] Key: s | PRNG: 0 calls
+  Msg: # wizwis
+[Step 1177] Key: h | PRNG: 0 calls
+  Msg: # wizwish
+[Step 1178] Key: 
+ | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 1179] Key: p | PRNG: 0 calls
+  Msg: For what do you wish? p
+[Step 1180] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? po
+[Step 1181] Key: t | PRNG: 0 calls
+  Msg: For what do you wish? pot
+[Step 1182] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? poti
+[Step 1183] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? potio
+[Step 1184] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? potion
+[Step 1185] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? potion
+[Step 1186] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? potion o
+[Step 1187] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? potion of
+[Step 1188] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? potion of
+[Step 1189] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? potion of e
+[Step 1190] Key: x | PRNG: 0 calls
+  Msg: For what do you wish? potion of ex
+[Step 1191] Key: t | PRNG: 0 calls
+  Msg: For what do you wish? potion of ext
+[Step 1192] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? potion of extr
+[Step 1193] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? potion of extra
+[Step 1194] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? potion of extra
+[Step 1195] Key: h | PRNG: 0 calls
+  Msg: For what do you wish? potion of extra h
+[Step 1196] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? potion of extra he
+[Step 1197] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? potion of extra hea
+[Step 1198] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? potion of extra heal
+[Step 1199] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? potion of extra heali
+[Step 1200] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? potion of extra healin
+[Step 1201] Key: g | PRNG: 0 calls
+  Msg: For what do you wish? potion of extra healing
+[Step 1202] Key: 
+ | PRNG: 4 calls
+  Msg: o - a potion.
+[Step 1203] Key: q | PRNG: 0 calls
+  Msg: What do you want to drink? [o or ?*]
+[Step 1204] Key: o | PRNG: 11 calls
+  Msg: You feel much better.  You can see again.
+  Map updated (1 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:64(83) Pw:94(128) AC:5 Xp:15/160202 T:199
+[Step 1205] Key: k | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 1206] Key: k | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 1207] Key: k | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 1208] Key: k | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 1209] Key: h | PRNG: 22 calls
+  Map updated (1 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:64(83) Pw:94(128) AC:5 Xp:15/160202 T:201
+[Step 1210] Key: h | PRNG: 17 calls
+  Map updated (2 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:64(83) Pw:94(128) AC:5 Xp:15/160202 T:203
+[Step 1211] Key: h | PRNG: 17 calls
+  Map updated (2 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:65(83) Pw:94(128) AC:5 Xp:15/160202 T:205
+[Step 1212] Key: h | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 1213] Key: h | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 1214] Key: h | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 1215] Key: k | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 1216] Key: k | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 1217] Key: k | PRNG: 0 calls
+  Msg: It's solid stone.
+[Step 1218] Key: l | PRNG: 7 calls
+  Map updated (1 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:66(83) Pw:94(128) AC:5 Xp:15/160202 T:206
+[Step 1219] Key: l | PRNG: 7 calls
+  Msg: You see here a very heavy iron ball (chained to you).
+  Map updated (1 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:66(83) Pw:94(128) AC:5 Xp:15/160202 T:207
+[Step 1220] Key: l | PRNG: 13 calls
+  Msg: You kill the newt!
+  Map updated (1 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:66(83) Pw:94(128) AC:5 Xp:15/160203 T:208
+[Step 1221] Key: l | PRNG: 6 calls
+  Map updated (1 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:66(83) Pw:94(128) AC:5 Xp:15/160203 T:209
+[Step 1222] Key: k | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 1223] Key: k | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 1224] Key: s | PRNG: 0 calls
+[Step 1225] Key: s | PRNG: 8 calls
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:67(83) Pw:96(128) AC:5 Xp:15/160203 T:210
+[Step 1226] Key: s | PRNG: 0 calls
+[Step 1227] Key: s | PRNG: 6 calls
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:67(83) Pw:96(128) AC:5 Xp:15/160203 T:211
+[Step 1228] Key: s | PRNG: 6 calls
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:68(83) Pw:96(128) AC:5 Xp:15/160203 T:212
+[Step 1229] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 1230] Key: 2 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 2
+[Step 1231] Key: 5 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 25
+[Step 1232] Key: 
+ | PRNG: 24 calls
+  Msg: Things that are here:
+  Map updated (20 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:25 $:0 HP:68(83) Pw:96(128) AC:5 Xp:15/160203 T:212
+[Step 1233] Key:   | PRNG: 0 calls
+  Map updated (3 rows changed)
+[Step 1234] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 1235] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 1236] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 1237] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 1238] Key: m | PRNG: 0 calls
+  Msg: # wizmondiff
+[Step 1239] Key: a | PRNG: 0 calls
+  Msg: # wizma
+[Step 1240] Key: p | PRNG: 0 calls
+  Msg: # wizmap
+[Step 1241] Key: 
+ | PRNG: 1 calls
+  Map updated (18 rows changed)
+[Step 1242] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 1243] Key: o | PRNG: 0 calls
+  Msg: # o
+[Step 1244] Key: v | PRNG: 0 calls
+  Msg: # overview
+[Step 1245] Key: e | PRNG: 0 calls
+  Msg: # overview
+[Step 1246] Key: r | PRNG: 0 calls
+  Msg: # overview
+[Step 1247] Key: v | PRNG: 0 calls
+  Msg: # overview
+[Step 1248] Key: i | PRNG: 0 calls
+  Msg: # overview
+[Step 1249] Key: e | PRNG: 0 calls
+  Msg: # overview
+[Step 1250] Key: w | PRNG: 0 calls
+  Msg: # overview
+[Step 1251] Key: 
+ | PRNG: 0 calls
+  Msg: The Dungeons of Doom: levels 1 to 25
+  Map updated (15 rows changed)
+[Step 1252] Key: ESC | PRNG: 0 calls
+  Map updated (15 rows changed)
+[Step 1253] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 1254] Key: 4 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 4
+[Step 1255] Key: 5 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 45
+[Step 1256] Key: 
+ | PRNG: 144 calls
+  Msg: You arrive at the Valley of the Dead...--More--
+  Map updated (19 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:27 $:0 HP:68(83) Pw:96(128) AC:5 Xp:15/160203 T:212
+[Step 1257] Key:   | PRNG: 0 calls
+  Msg: The odor of burnt flesh and decay pervades the air.--More--
+[Step 1258] Key:   | PRNG: 0 calls
+  Msg: You hear groans and moans everywhere.--More--
+[Step 1259] Key:   | PRNG: 0 calls
+  Msg: Things that are here:
+  Map updated (3 rows changed)
+[Step 1260] Key:   | PRNG: 0 calls
+  Map updated (3 rows changed)
+[Step 1261] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 1262] Key: 3 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 3
+[Step 1263] Key: 5 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 35
+[Step 1264] Key: 
+ | PRNG: 26 calls
+  Msg: It is hot here.  You smell smoke...--More--
+  Map updated (10 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:35 $:0 HP:68(83) Pw:96(128) AC:5 Xp:15/160203 T:212
+[Step 1265] Key:   | PRNG: 0 calls
+  Msg: Things that are here:
+  Map updated (3 rows changed)
+[Step 1266] Key:   | PRNG: 0 calls
+  Map updated (3 rows changed)
+[Step 1267] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 1268] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 1269] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 1270] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 1271] Key: m | PRNG: 0 calls
+  Msg: # wizmondiff
+[Step 1272] Key: a | PRNG: 0 calls
+  Msg: # wizma
+[Step 1273] Key: p | PRNG: 0 calls
+  Msg: # wizmap
+[Step 1274] Key: 
+ | PRNG: 1 calls
+  Map updated (19 rows changed)
+[Step 1275] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 1276] Key: 3 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 3
+[Step 1277] Key: 3 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 33
+[Step 1278] Key: 
+ | PRNG: 3908 calls
+  Msg: Things that are here:
+  Map updated (21 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:33 $:0 HP:68(83) Pw:96(128) AC:5 Xp:15/160203 T:212
+[Step 1279] Key:   | PRNG: 0 calls
+  Map updated (3 rows changed)
+[Step 1280] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 1281] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 1282] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 1283] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 1284] Key: m | PRNG: 0 calls
+  Msg: # wizmondiff
+[Step 1285] Key: a | PRNG: 0 calls
+  Msg: # wizma
+[Step 1286] Key: p | PRNG: 0 calls
+  Msg: # wizmap
+[Step 1287] Key: 
+ | PRNG: 1 calls
+  Map updated (19 rows changed)
+[Step 1288] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 1289] Key: 5 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 5
+[Step 1290] Key: 0 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 50
+[Step 1291] Key: 
+ | PRNG: 5516 calls
+  Msg: Things that are here:
+  Map updated (21 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:48 $:0 HP:68(83) Pw:96(128) AC:5 Xp:15/160203 T:212
+[Step 1292] Key:   | PRNG: 0 calls
+  Map updated (3 rows changed)
+[Step 1293] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 1294] Key: 4 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 4
+[Step 1295] Key: 0 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 40
+[Step 1296] Key: 
+ | PRNG: 19 calls
+  Msg: Things that are here:
+  Map updated (17 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:40 $:0 HP:68(83) Pw:96(128) AC:5 Xp:15/160203 T:212
+[Step 1297] Key:   | PRNG: 0 calls
+  Map updated (3 rows changed)
+[Step 1298] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 1299] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 1300] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 1301] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 1302] Key: m | PRNG: 0 calls
+  Msg: # wizmondiff
+[Step 1303] Key: a | PRNG: 0 calls
+  Msg: # wizma
+[Step 1304] Key: p | PRNG: 0 calls
+  Msg: # wizmap
+[Step 1305] Key: 
+ | PRNG: 1 calls
+  Map updated (14 rows changed)
+[Step 1306] Key: l | PRNG: 0 calls
+  Msg: You avoid stepping into the molten lava.
+[Step 1307] Key: l | PRNG: 0 calls
+  Msg: You avoid stepping into the molten lava.
+[Step 1308] Key: l | PRNG: 0 calls
+  Msg: You avoid stepping into the molten lava.
+[Step 1309] Key: l | PRNG: 0 calls
+  Msg: You avoid stepping into the molten lava.
+[Step 1310] Key: l | PRNG: 0 calls
+  Msg: You avoid stepping into the molten lava.
+[Step 1311] Key: l | PRNG: 0 calls
+  Msg: You avoid stepping into the molten lava.
+[Step 1312] Key: l | PRNG: 0 calls
+  Msg: You avoid stepping into the molten lava.
+[Step 1313] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 1314] Key: 3 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 3
+[Step 1315] Key: 
+ | PRNG: 7 calls
+  Msg: The heat and smoke are gone.--More--
+  Map updated (18 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:68(83) Pw:96(128) AC:5 Xp:15/160203 T:212
+[Step 1316] Key: 3 | PRNG: 0 calls
+  Msg: The heat and smoke are gone.--More--
+[Step 1317] Key:   | PRNG: 0 calls
+  Msg: Things that are here:
+  Map updated (3 rows changed)
+[Step 1318] Key:   | PRNG: 0 calls
+  Map updated (3 rows changed)
+[Step 1319] Key: 
+ | PRNG: 48 calls
+  Map updated (4 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:69(83) Pw:96(128) AC:5 Xp:15/160203 T:215
+[Step 1320] Key:  | PRNG: 0 calls
+  Msg: Where do you want to be teleported?
+[Step 1321] Key:   | PRNG: 0 calls
+  Msg: human knight called wizard, chained to a heavy iron ball
+[Step 1322] Key: { | PRNG: 0 calls
+  Msg: fountain
+[Step 1323] Key: . | PRNG: 0 calls
+  Msg: fountain                                There is a fountain here.
+  Map updated (8 rows changed)
+[Step 1324] Key:   | PRNG: 13 calls
+  Msg: fountain
+  Map updated (4 rows changed)
+  Status update: Wizard the Knight              St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:69(83) Pw:96(128) AC:5 Xp:15/160203 T:216
+[Step 1325] Key: q | PRNG: 0 calls
+  Msg: Drink from the fountain? [yn] (n)
+[Step 1326] Key: y | PRNG: 11 calls
+  Msg: The water is contaminated!
+  Status update: Wizard the Knight              St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:60(83) Pw:96(128) AC:5 Xp:15/160203 T:216
+[Step 1327] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 1328] Key: q | PRNG: 0 calls
+  Msg: Drink from the fountain? [yn] (n)
+[Step 1329] Key: y | PRNG: 38 calls
+  Msg: Water gushes forth from the overflowing fountain!
+  Map updated (1 rows changed)
+  Status update: Wizard the Knight              St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:60(83) Pw:96(128) AC:5 Xp:15/160203 T:217
+[Step 1330] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 1331] Key: o | PRNG: 0 calls
+  Msg: # o
+[Step 1332] Key: f | PRNG: 0 calls
+  Msg: # offer
+[Step 1333] Key: f | PRNG: 0 calls
+  Msg: # offer
+[Step 1334] Key: e | PRNG: 0 calls
+  Msg: # offer
+[Step 1335] Key: r | PRNG: 0 calls
+  Msg: # offer
+[Step 1336] Key: 
+ | PRNG: 0 calls
+  Msg: You are not on an altar.
+[Step 1337] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 1338] Key: u | PRNG: 0 calls
+  Msg: # untrap
+[Step 1339] Key: n | PRNG: 0 calls
+  Msg: # untrap
+[Step 1340] Key: t | PRNG: 0 calls
+  Msg: # untrap
+[Step 1341] Key: r | PRNG: 0 calls
+  Msg: # untrap
+[Step 1342] Key: a | PRNG: 0 calls
+  Msg: # untrap
+[Step 1343] Key: p | PRNG: 0 calls
+  Msg: # untrap
+[Step 1344] Key: 
+ | PRNG: 0 calls
+  Msg: In what direction?
+[Step 1345] Key: ESC | PRNG: 0 calls
+[Step 1346] Key:  | PRNG: 0 calls
+  Msg: Where do you want to be teleported?
+[Step 1347] Key: $ | PRNG: 0 calls
+  Msg: Move cursor to the desired position:
+[Step 1348] Key: . | PRNG: 0 calls
+  Msg: Move cursor to the desired position:    There is a fountain here.
+  Map updated (4 rows changed)
+[Step 1349] Key:   | PRNG: 15 calls
+  Msg: Move cursor to the desired position:
+  Map updated (4 rows changed)
+  Status update: Wizard the Knight              St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:60(83) Pw:96(128) AC:5 Xp:15/160203 T:218
+[Step 1350] Key:  | PRNG: 0 calls
+  Msg: Where do you want to be teleported?
+[Step 1351] Key:   | PRNG: 0 calls
+  Msg: human knight called wizard, chained to a heavy iron ball
+[Step 1352] Key: j | PRNG: 0 calls
+  Msg: floor of a room
+[Step 1353] Key: j | PRNG: 0 calls
+  Msg: floor of a room
+[Step 1354] Key: j | PRNG: 0 calls
+  Msg: wall
+[Step 1355] Key: j | PRNG: 0 calls
+  Msg: corridor
+[Step 1356] Key: j | PRNG: 0 calls
+  Msg: stone
+[Step 1357] Key: j | PRNG: 0 calls
+  Msg: stone
+[Step 1358] Key: j | PRNG: 0 calls
+  Msg: stone
+[Step 1359] Key: j | PRNG: 0 calls
+  Msg: stone
+[Step 1360] Key: j | PRNG: 0 calls
+  Msg: stone
+[Step 1361] Key: j | PRNG: 0 calls
+  Msg: stone
+[Step 1362] Key: j | PRNG: 0 calls
+  Msg: stone
+[Step 1363] Key: j | PRNG: 0 calls
+  Msg: stone
+[Step 1364] Key: j | PRNG: 0 calls
+  Msg: stone
+[Step 1365] Key: j | PRNG: 0 calls
+  Msg: stone
+[Step 1366] Key: j | PRNG: 0 calls
+  Msg: stone
+[Step 1367] Key: j | PRNG: 0 calls
+  Msg: stone
+[Step 1368] Key: h | PRNG: 0 calls
+  Msg: stone
+[Step 1369] Key: h | PRNG: 0 calls
+  Msg: stone
+[Step 1370] Key: h | PRNG: 0 calls
+  Msg: stone
+[Step 1371] Key: h | PRNG: 0 calls
+  Msg: stone
+[Step 1372] Key: h | PRNG: 0 calls
+  Msg: stone
+[Step 1373] Key: h | PRNG: 0 calls
+  Msg: stone
+[Step 1374] Key: h | PRNG: 0 calls
+  Msg: stone
+[Step 1375] Key: h | PRNG: 0 calls
+  Msg: stone
+[Step 1376] Key: h | PRNG: 0 calls
+  Msg: stone
+[Step 1377] Key: h | PRNG: 0 calls
+  Msg: stone
+[Step 1378] Key: . | PRNG: 4 calls
+  Msg: Sorry...--More--
+  Map updated (3 rows changed)
+[Step 1379] Key:   | PRNG: 0 calls
+  Msg: Things that are here:
+  Map updated (3 rows changed)
+[Step 1380] Key:   | PRNG: 10 calls
+  Map updated (5 rows changed)
+[Step 1381] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 1382] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 1383] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 1384] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 1385] Key: w | PRNG: 0 calls
+  Msg: # wizwhere
+[Step 1386] Key: i | PRNG: 0 calls
+  Msg: # wizwi
+[Step 1387] Key: s | PRNG: 0 calls
+  Msg: # wizwis
+[Step 1388] Key: h | PRNG: 0 calls
+  Msg: # wizwish
+[Step 1389] Key: 
+ | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 1390] Key: w | PRNG: 0 calls
+  Msg: For what do you wish? w
+[Step 1391] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? wa
+[Step 1392] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? wan
+[Step 1393] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? wand
+[Step 1394] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? wand
+[Step 1395] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? wand o
+[Step 1396] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? wand of
+[Step 1397] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? wand of
+[Step 1398] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? wand of d
+[Step 1399] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? wand of di
+[Step 1400] Key: g | PRNG: 0 calls
+  Msg: For what do you wish? wand of dig
+[Step 1401] Key: g | PRNG: 0 calls
+  Msg: For what do you wish? wand of digg
+[Step 1402] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? wand of diggi
+[Step 1403] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? wand of diggin
+[Step 1404] Key: g | PRNG: 0 calls
+  Msg: For what do you wish? wand of digging
+[Step 1405] Key: 
+ | PRNG: 5 calls
+  Msg: p - a copper wand.
+[Step 1406] Key: z | PRNG: 0 calls
+  Msg: What do you want to zap? [p or ?*]
+[Step 1407] Key: p | PRNG: 0 calls
+  Msg: In what direction?
+[Step 1408] Key: j | PRNG: 15 calls
+  Map updated (1 rows changed)
+  Status update: Wizard the Knight              St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:60(83) Pw:96(128) AC:5 Xp:15/160203 T:219
+[Step 1409] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 1410] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 1411] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 1412] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 1413] Key: w | PRNG: 0 calls
+  Msg: # wizwhere
+[Step 1414] Key: i | PRNG: 0 calls
+  Msg: # wizwi
+[Step 1415] Key: s | PRNG: 0 calls
+  Msg: # wizwis
+[Step 1416] Key: h | PRNG: 0 calls
+  Msg: # wizwish
+[Step 1417] Key: 
+ | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 1418] Key: w | PRNG: 0 calls
+  Msg: For what do you wish? w
+[Step 1419] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? wa
+[Step 1420] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? wan
+[Step 1421] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? wand
+[Step 1422] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? wand
+[Step 1423] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? wand o
+[Step 1424] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? wand of
+[Step 1425] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? wand of
+[Step 1426] Key: p | PRNG: 0 calls
+  Msg: For what do you wish? wand of p
+[Step 1427] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? wand of po
+[Step 1428] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? wand of pol
+[Step 1429] Key: y | PRNG: 0 calls
+  Msg: For what do you wish? wand of poly
+[Step 1430] Key: m | PRNG: 0 calls
+  Msg: For what do you wish? wand of polym
+[Step 1431] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? wand of polymo
+[Step 1432] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? wand of polymor
+[Step 1433] Key: p | PRNG: 0 calls
+  Msg: For what do you wish? wand of polymorp
+[Step 1434] Key: h | PRNG: 0 calls
+  Msg: For what do you wish? wand of polymorph
+[Step 1435] Key: 
+ | PRNG: 5 calls
+  Msg: q - a balsa wand.
+[Step 1436] Key: z | PRNG: 0 calls
+  Msg: What do you want to zap? [pq or ?*]
+[Step 1437] Key: q | PRNG: 0 calls
+  Msg: In what direction?
+[Step 1438] Key: . | PRNG: 7 calls
+  Msg: You turn into a brown mold!  Your armor falls around you!--More--
+  Map updated (1 rows changed)
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:6(6) Pw:96(128) AC:5 HD:1 T:219 Overloaded Blind
+[Step 1439] Key:   | PRNG: 0 calls
+  Msg: You can't even move a handspan with this load!--More--
+[Step 1440] Key: r | PRNG: 0 calls
+  Msg: You can't even move a handspan with this load!--More--
+[Step 1441] Key: 
+ | PRNG: 39 calls
+  Msg: You drop your gloves and weapon!  Your helm falls to the ground!
+  Map updated (1 rows changed)
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:6(6) Pw:96(128) AC:9 HD:1 T:222 Overloaded Blind
+[Step 1442] Key: z | PRNG: 0 calls
+  Msg: You aren't able to zap anything in your current form.
+[Step 1443] Key: q | PRNG: 0 calls
+  Msg: You don't have anything to drink.
+[Step 1444] Key: . | PRNG: 70 calls
+  Msg: You hear the chime of a cash register.
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:6(6) Pw:96(128) AC:9 HD:1 T:227 Overloaded Blind
+[Step 1445] Key: z | PRNG: 0 calls
+  Msg: You aren't able to zap anything in your current form.
+[Step 1446] Key: q | PRNG: 0 calls
+  Msg: You don't have anything to drink.
+[Step 1447] Key: . | PRNG: 20 calls
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:6(6) Pw:96(128) AC:9 HD:1 T:228 Overloaded Blind
+[Step 1448] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 1449] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 1450] Key: m | PRNG: 0 calls
+  Msg: # m
+[Step 1451] Key: o | PRNG: 0 calls
+  Msg: # monster
+[Step 1452] Key: n | PRNG: 0 calls
+  Msg: # monster
+[Step 1453] Key: s | PRNG: 0 calls
+  Msg: # monster
+[Step 1454] Key: t | PRNG: 0 calls
+  Msg: # monster
+[Step 1455] Key: e | PRNG: 0 calls
+  Msg: # monster
+[Step 1456] Key: r | PRNG: 0 calls
+  Msg: # monster
+[Step 1457] Key: 
+ | PRNG: 0 calls
+  Msg: Any special ability you may have is purely reflexive.
+[Step 1458] Key: z | PRNG: 0 calls
+  Msg: You aren't able to zap anything in your current form.
+[Step 1459] Key: q | PRNG: 0 calls
+  Msg: You don't have anything to drink.
+[Step 1460] Key: . | PRNG: 21 calls
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:6(6) Pw:96(128) AC:9 HD:1 T:229 Overloaded Blind
+[Step 1461] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 1462] Key: z | PRNG: 0 calls
+  Msg: You aren't able to zap anything in your current form.
+[Step 1463] Key: q | PRNG: 0 calls
+  Msg: You don't have anything to drink.
+[Step 1464] Key: . | PRNG: 30 calls
+  Msg: You hear the footsteps of a guard on patrol.--More--
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:6(6) Pw:96(128) AC:9 HD:1 T:231 Overloaded Blind
+[Step 1465] Key: . | PRNG: 0 calls
+  Msg: You hear the footsteps of a guard on patrol.--More--
+[Step 1466] Key: ESC | PRNG: 32 calls
+  Msg: You hear the chime of a cash register.
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:6(6) Pw:96(128) AC:9 HD:1 T:233 Overloaded Blind
+[Step 1467] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 1468] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 1469] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 1470] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 1471] Key: w | PRNG: 0 calls
+  Msg: # wizwhere
+[Step 1472] Key: i | PRNG: 0 calls
+  Msg: # wizwi
+[Step 1473] Key: s | PRNG: 0 calls
+  Msg: # wizwis
+[Step 1474] Key: h | PRNG: 0 calls
+  Msg: # wizwish
+[Step 1475] Key: 
+ | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 1476] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? r
+[Step 1477] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? ri
+[Step 1478] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? rin
+[Step 1479] Key: g | PRNG: 0 calls
+  Msg: For what do you wish? ring
+[Step 1480] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? ring
+[Step 1481] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? ring o
+[Step 1482] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? ring of
+[Step 1483] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? ring of
+[Step 1484] Key: p | PRNG: 0 calls
+  Msg: For what do you wish? ring of p
+[Step 1485] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? ring of po
+[Step 1486] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? ring of pol
+[Step 1487] Key: y | PRNG: 0 calls
+  Msg: For what do you wish? ring of poly
+[Step 1488] Key: m | PRNG: 0 calls
+  Msg: For what do you wish? ring of polym
+[Step 1489] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? ring of polymo
+[Step 1490] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? ring of polymor
+[Step 1491] Key: p | PRNG: 0 calls
+  Msg: For what do you wish? ring of polymorp
+[Step 1492] Key: h | PRNG: 0 calls
+  Msg: For what do you wish? ring of polymorph
+[Step 1493] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? ring of polymorph
+[Step 1494] Key: c | PRNG: 0 calls
+  Msg: For what do you wish? ring of polymorph c
+[Step 1495] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? ring of polymorph co
+[Step 1496] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? ring of polymorph con
+[Step 1497] Key: t | PRNG: 0 calls
+  Msg: For what do you wish? ring of polymorph cont
+[Step 1498] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? ring of polymorph contr
+[Step 1499] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? ring of polymorph contro
+[Step 1500] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? ring of polymorph control
+[Step 1501] Key: 
+ | PRNG: 5 calls
+  Msg: r - a ring.
+[Step 1502] Key: P | PRNG: 0 calls
+  Msg: What do you want to put on? [r or ?*]
+[Step 1503] Key: r | PRNG: 0 calls
+  Msg: You cannot make the ring stick to your body.
+[Step 1504] Key: r | PRNG: 0 calls
+  Msg: You can't do that while carrying so much stuff.
+[Step 1505] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 1506] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 1507] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 1508] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 1509] Key: w | PRNG: 0 calls
+  Msg: # wizwhere
+[Step 1510] Key: i | PRNG: 0 calls
+  Msg: # wizwi
+[Step 1511] Key: s | PRNG: 0 calls
+  Msg: # wizwis
+[Step 1512] Key: h | PRNG: 0 calls
+  Msg: # wizwish
+[Step 1513] Key: 
+ | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 1514] Key: w | PRNG: 0 calls
+  Msg: For what do you wish? w
+[Step 1515] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? wa
+[Step 1516] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? wan
+[Step 1517] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? wand
+[Step 1518] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? wand
+[Step 1519] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? wand o
+[Step 1520] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? wand of
+[Step 1521] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? wand of
+[Step 1522] Key: p | PRNG: 0 calls
+  Msg: For what do you wish? wand of p
+[Step 1523] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? wand of po
+[Step 1524] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? wand of pol
+[Step 1525] Key: y | PRNG: 0 calls
+  Msg: For what do you wish? wand of poly
+[Step 1526] Key: m | PRNG: 0 calls
+  Msg: For what do you wish? wand of polym
+[Step 1527] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? wand of polymo
+[Step 1528] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? wand of polymor
+[Step 1529] Key: p | PRNG: 0 calls
+  Msg: For what do you wish? wand of polymorp
+[Step 1530] Key: h | PRNG: 0 calls
+  Msg: For what do you wish? wand of polymorph
+[Step 1531] Key: 
+ | PRNG: 6 calls
+  Msg: s - a wand.
+[Step 1532] Key: z | PRNG: 0 calls
+  Msg: You aren't able to zap anything in your current form.
+[Step 1533] Key: s | PRNG: 14 calls
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:6(6) Pw:96(128) AC:9 HD:1 T:234 Overloaded Blind
+[Step 1534] Key: . | PRNG: 46 calls
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:6(6) Pw:96(128) AC:9 HD:1 T:237 Overloaded Blind
+[Step 1535] Key: r | PRNG: 0 calls
+  Msg: You can't do that while carrying so much stuff.
+[Step 1536] Key: e | PRNG: 0 calls
+  Msg: What do you want to eat? [ghm or ?*]
+[Step 1537] Key: d | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 1538] Key:   | PRNG: 0 calls
+  Msg: What do you want to eat? [ghm or ?*]
+[Step 1539] Key: d | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 1540] Key: n | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 1541] Key: 
+ | PRNG: 0 calls
+  Msg: What do you want to eat? [ghm or ?*]
+[Step 1542] Key:   | PRNG: 0 calls
+  Msg: What do you want to eat? [ghm or ?*]
+[Step 1543] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 1544] Key: m | PRNG: 0 calls
+  Msg: # m
+[Step 1545] Key: o | PRNG: 0 calls
+  Msg: # monster
+[Step 1546] Key: n | PRNG: 0 calls
+  Msg: # monster
+[Step 1547] Key: s | PRNG: 0 calls
+  Msg: # monster
+[Step 1548] Key: t | PRNG: 0 calls
+  Msg: # monster
+[Step 1549] Key: e | PRNG: 0 calls
+  Msg: # monster
+[Step 1550] Key: r | PRNG: 0 calls
+  Msg: # monster
+[Step 1551] Key: 
+ | PRNG: 0 calls
+  Msg: Any special ability you may have is purely reflexive.
+[Step 1552] Key: j | PRNG: 123 calls
+  Msg: You collapse under your load.
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:6(6) Pw:96(128) AC:9 HD:1 T:245 Overloaded Blind
+[Step 1553] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 1554] Key: h | PRNG: 42 calls
+  Msg: You collapse under your load.
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:6(6) Pw:96(128) AC:9 HD:1 T:248 Overloaded Blind
+[Step 1555] Key: h | PRNG: 37 calls
+  Msg: You collapse under your load.
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:6(6) Pw:96(128) AC:9 HD:1 T:251 Overloaded Blind
+[Step 1556] Key: h | PRNG: 65 calls
+  Msg: You collapse under your load.
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:6(6) Pw:96(128) AC:9 HD:1 T:255 Overloaded Blind
+[Step 1557] Key: h | PRNG: 53 calls
+  Msg: You collapse under your load.
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:6(6) Pw:96(128) AC:9 HD:1 T:258 Overloaded Blind
+[Step 1558] Key: k | PRNG: 63 calls
+  Msg: You collapse under your load.
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:6(6) Pw:96(128) AC:9 HD:1 T:262 Overloaded Blind
+[Step 1559] Key: k | PRNG: 108 calls
+  Msg: You collapse under your load.
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:6(6) Pw:96(128) AC:9 HD:1 T:270 Overloaded Blind
+[Step 1560] Key: k | PRNG: 122 calls
+  Msg: You collapse under your load.  It bites!  It is suddenly very cold!--More--
+  Map updated (1 rows changed)
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:6(6) Pw:96(128) AC:9 HD:1 T:277 Overloaded Blind
+[Step 1561] Key: s | PRNG: 0 calls
+  Msg: You collapse under your load.  It bites!  It is suddenly very cold!--More--
+[Step 1562] Key: 
+ | PRNG: 13 calls
+  Msg: It touches you!
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:6(6) Pw:96(128) AC:9 HD:1 T:278 Overloaded Blind
+[Step 1563] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 1564] Key: ESC | PRNG: 0 calls
+[Step 1565] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 1566] Key: c | PRNG: 0 calls
+  Msg: # c
+[Step 1567] Key: o | PRNG: 0 calls
+  Msg: # conduct
+[Step 1568] Key: n | PRNG: 0 calls
+  Msg: # conduct
+[Step 1569] Key: d | PRNG: 0 calls
+  Msg: # conduct
+[Step 1570] Key: u | PRNG: 0 calls
+  Msg: # conduct
+[Step 1571] Key: c | PRNG: 0 calls
+  Msg: # conduct
+[Step 1572] Key: t | PRNG: 0 calls
+  Msg: # conduct
+[Step 1573] Key: 
+ | PRNG: 0 calls
+  Msg: Voluntary challenges:
+  Map updated (20 rows changed)
+[Step 1574] Key:   | PRNG: 0 calls
+  Map updated (20 rows changed)
+[Step 1575] Key: d | PRNG: 0 calls
+  Msg: What do you want to drop? [eghjkmp-s or ?*]
+[Step 1576] Key: g | PRNG: 250 calls
+  Msg: It bites!  It is suddenly very cold!  It touches you!
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:7(7) Pw:96(128) AC:9 HD:1 T:281 Overloaded Blind
+[Step 1577] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 1578] Key: v | PRNG: 0 calls
+  Msg: # v
+[Step 1579] Key: e | PRNG: 0 calls
+  Msg: # version
+[Step 1580] Key: r | PRNG: 0 calls
+  Msg: # version
+[Step 1581] Key: s | PRNG: 0 calls
+  Msg: # version
+[Step 1582] Key: i | PRNG: 0 calls
+  Msg: # version
+[Step 1583] Key: o | PRNG: 0 calls
+  Msg: # version
+[Step 1584] Key: n | PRNG: 0 calls
+  Msg: # version
+[Step 1585] Key: 
+ | PRNG: 2 calls
+  Msg: MacOS NetHack Version 5.0.0 - last build May  2 2026 12:00:00.
+  Map updated (19 rows changed)
+  Status update: Lua 5.4.8  Copyright (C) 1994-2025 Lua.org, PUC-Rio | --More--
+[Step 1586] Key:   | PRNG: 0 calls
+  Msg: "Permission is hereby granted, free of charge, to any person obtaining
+  Map updated (18 rows changed)
+  Status update:  | --More--
+[Step 1587] Key:   | PRNG: 0 calls
+  Map updated (19 rows changed)
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:7(7) Pw:96(128) AC:9 HD:1 T:281 Overloaded Blind
+[Step 1588] Key: ESC | PRNG: 0 calls
+[Step 1589] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 1590] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 1591] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 1592] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 1593] Key: w | PRNG: 0 calls
+  Msg: # wizwhere
+[Step 1594] Key: i | PRNG: 0 calls
+  Msg: # wizwi
+[Step 1595] Key: s | PRNG: 0 calls
+  Msg: # wizwis
+[Step 1596] Key: h | PRNG: 0 calls
+  Msg: # wizwish
+[Step 1597] Key: 
+ | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 1598] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? a
+[Step 1599] Key: m | PRNG: 0 calls
+  Msg: For what do you wish? am
+[Step 1600] Key: u | PRNG: 0 calls
+  Msg: For what do you wish? amu
+[Step 1601] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? amul
+[Step 1602] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? amule
+[Step 1603] Key: t | PRNG: 0 calls
+  Msg: For what do you wish? amulet
+[Step 1604] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? amulet
+[Step 1605] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? amulet o
+[Step 1606] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? amulet of
+[Step 1607] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? amulet of
+[Step 1608] Key: u | PRNG: 0 calls
+  Msg: For what do you wish? amulet of u
+[Step 1609] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? amulet of un
+[Step 1610] Key: c | PRNG: 0 calls
+  Msg: For what do you wish? amulet of unc
+[Step 1611] Key: h | PRNG: 0 calls
+  Msg: For what do you wish? amulet of unch
+[Step 1612] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? amulet of uncha
+[Step 1613] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? amulet of unchan
+[Step 1614] Key: g | PRNG: 0 calls
+  Msg: For what do you wish? amulet of unchang
+[Step 1615] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? amulet of unchangi
+[Step 1616] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? amulet of unchangin
+[Step 1617] Key: g | PRNG: 0 calls
+  Msg: For what do you wish? amulet of unchanging
+[Step 1618] Key: 
+ | PRNG: 5 calls
+  Msg: t - a spherical amulet.
+[Step 1619] Key: W | PRNG: 0 calls
+  Msg: Don't even bother.
+[Step 1620] Key: t | PRNG: 0 calls
+  Msg: You are physically incapable of throwing or shooting anything.
+[Step 1621] Key: z | PRNG: 0 calls
+  Msg: You aren't able to zap anything in your current form.
+[Step 1622] Key: s | PRNG: 37 calls
+  Msg: It bites!  It is suddenly very cold!  It touches you!  It bites!--More--
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:8(9) Pw:96(128) AC:9 HD:1 T:282 Overloaded Blind
+[Step 1623] Key: c | PRNG: 0 calls
+  Msg: It bites!  It is suddenly very cold!  It touches you!  It bites!--More--
+[Step 1624] Key: 
+ | PRNG: 41 calls
+  Msg: It is suddenly very cold!  It dies!
+  Map updated (1 rows changed)
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:11(11) Pw:96(128) AC:9 HD:1 T:284 Overloaded Blind
+[Step 1625] Key: p | PRNG: 0 calls
+  Msg: You can't see...
+[Step 1626] Key: 
+ | PRNG: 47 calls
+  Msg: You collapse under your load.
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:11(11) Pw:96(128) AC:9 HD:1 T:287 Overloaded Blind
+[Step 1627] Key: 4 | PRNG: 0 calls
+  Msg: You collapse under your load.
+[Step 1628] Key: 0 | PRNG: 0 calls
+  Msg: Count: 40
+[Step 1629] Key: . | PRNG: 994 calls
+  Msg: You hear someone counting gold coins.--More--
+  Map updated (1 rows changed)
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:11(11) Pw:96(128) AC:9 HD:1 T:328 Overloaded Blind
+[Step 1630] Key: e | PRNG: 0 calls
+  Msg: You hear someone counting gold coins.--More--
+[Step 1631] Key:   | PRNG: 5 calls
+  Msg: Something was hidden under something!  It bites!--More--
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:9(11) Pw:96(128) AC:9 HD:1 T:328 Overloaded Blind
+[Step 1632] Key: e | PRNG: 0 calls
+  Msg: Something was hidden under something!  It bites!--More--
+[Step 1633] Key: 
+ | PRNG: 26 calls
+  Msg: It is suddenly very cold!  It dies!  You stop waiting.
+  Map updated (1 rows changed)
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:14(14) Pw:96(128) AC:9 HD:1 T:329 Overloaded Blind
+[Step 1634] Key: 2 | PRNG: 0 calls
+  Msg: It is suddenly very cold!  It dies!  You stop waiting.
+[Step 1635] Key: 0 | PRNG: 0 calls
+  Msg: Count: 20
+[Step 1636] Key: . | PRNG: 1342 calls
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:14(14) Pw:96(128) AC:9 HD:1 T:389 Overloaded Blind
+[Step 1637] Key: ESC | PRNG: 0 calls
+[Step 1638] Key: ESC | PRNG: 0 calls
+[Step 1639] Key: ESC | PRNG: 0 calls
+[Step 1640] Key: ESC | PRNG: 0 calls
+[Step 1641] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 1642] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 1643] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 1644] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 1645] Key: w | PRNG: 0 calls
+  Msg: # wizwhere
+[Step 1646] Key: h | PRNG: 0 calls
+  Msg: # wizwhere
+[Step 1647] Key: e | PRNG: 0 calls
+  Msg: # wizwhere
+[Step 1648] Key: r | PRNG: 0 calls
+  Msg: # wizwhere
+[Step 1649] Key: e | PRNG: 0 calls
+  Msg: # wizwhere
+[Step 1650] Key: 
+ | PRNG: 0 calls
+  Msg: The Dungeons of Doom: levels 1 to 26
+  Map updated (21 rows changed)
+  Status update: fakewiz1: 44 | --More--
+[Step 1651] Key: s | PRNG: 0 calls
+  Msg: The Dungeons of Doom: levels 1 to 26
+[Step 1652] Key:   | PRNG: 0 calls
+  Msg: fakewiz2: 46
+  Map updated (21 rows changed)
+  Status update: water: -4 | --More--
+[Step 1653] Key: h | PRNG: 0 calls
+  Msg: fakewiz2: 46
+[Step 1654] Key:   | PRNG: 0 calls
+  Msg: fire: -3
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 1655] Key:   | PRNG: 0 calls
+  Map updated (19 rows changed)
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:14(14) Pw:96(128) AC:9 HD:1 T:389 Overloaded Blind
+[Step 1656] Key: 
+ | PRNG: 77 calls
+  Msg: You collapse under your load.
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:14(14) Pw:96(128) AC:9 HD:1 T:393 Overloaded Blind
+[Step 1657] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 1658] Key: s | PRNG: 24 calls
+  Msg: You feel an unseen monster!
+  Map updated (1 rows changed)
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:14(14) Pw:96(128) AC:9 HD:1 T:394 Overloaded Blind
+[Step 1659] Key: c | PRNG: 0 calls
+  Msg: You can't close anything -- you have no hands!
+[Step 1660] Key: r | PRNG: 0 calls
+  Msg: You can't do that while carrying so much stuff.
+[Step 1661] Key: o | PRNG: 0 calls
+  Msg: You can't open anything -- you have no hands!
+[Step 1662] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 1663] Key: l | PRNG: 50 calls
+  Msg: You collapse under your load.
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:14(14) Pw:96(128) AC:9 HD:1 T:396 Overloaded Blind
+[Step 1664] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 1665] Key: l | PRNG: 40 calls
+  Msg: You collapse under your load.
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:14(14) Pw:96(128) AC:9 HD:1 T:398 Overloaded Blind
+[Step 1666] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 1667] Key: o | PRNG: 0 calls
+  Msg: You can't open anything -- you have no hands!
+[Step 1668] Key: f | PRNG: 0 calls
+  Msg: You are physically incapable of throwing or shooting anything.
+[Step 1669] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 1670] Key: t | PRNG: 0 calls
+  Msg: You are physically incapable of throwing or shooting anything.
+[Step 1671] Key: e | PRNG: 0 calls
+  Msg: There are 11 uncursed apples here; eat one? [ynq] (n)
+[Step 1672] Key: l | PRNG: 0 calls
+  Msg: There are 11 uncursed apples here; eat one? [ynq] (n)
+[Step 1673] Key:   | PRNG: 0 calls
+  Msg: What do you want to eat? [hm or ?*]
+[Step 1674] Key: e | PRNG: 0 calls
+  Msg: You can't do that while carrying so much stuff.
+[Step 1675] Key: p | PRNG: 0 calls
+  Msg: You can't see...
+[Step 1676] Key: o | PRNG: 0 calls
+  Msg: You can't open anything -- you have no hands!
+[Step 1677] Key: r | PRNG: 0 calls
+  Msg: You can't do that while carrying so much stuff.
+[Step 1678] Key: t | PRNG: 0 calls
+  Msg: You are physically incapable of throwing or shooting anything.
+[Step 1679] Key: a | PRNG: 0 calls
+  Msg: You aren't able to use or apply tools in your current form.
+[Step 1680] Key: t | PRNG: 0 calls
+  Msg: You are physically incapable of throwing or shooting anything.
+[Step 1681] Key: i | PRNG: 0 calls
+  Msg: Amulets
+  Map updated (16 rows changed)
+[Step 1682] Key: o | PRNG: 0 calls
+  Msg: Amulets
+[Step 1683] Key: n | PRNG: 0 calls
+  Msg: Amulets
+[Step 1684] Key: 
+ | PRNG: 0 calls
+  Map updated (16 rows changed)
+[Step 1685] Key: ; | PRNG: 0 calls
+  Msg: Pick a monster, object or location.
+[Step 1686] Key: j | PRNG: 0 calls
+  Msg: corridor
+[Step 1687] Key: . | PRNG: 0 calls
+  Msg: #        can be many things (corridor)
+[Step 1688] Key: ; | PRNG: 0 calls
+  Msg: Pick a monster, object or location.
+[Step 1689] Key:  | PRNG: 0 calls
+  Msg: Move cursor to a monster, object or location:
+[Step 1690] Key: j | PRNG: 0 calls
+  Msg: corridor
+[Step 1691] Key: j | PRNG: 0 calls
+  Msg: stone
+[Step 1692] Key: l | PRNG: 0 calls
+  Msg: stone
+[Step 1693] Key: . | PRNG: 0 calls
+  Msg: can be many things (stone)
+[Step 1694] Key: ESC | PRNG: 0 calls
+[Step 1695] Key: ? | PRNG: 0 calls
+  Msg: Select one item:
+  Map updated (17 rows changed)
+[Step 1696] Key: e | PRNG: 0 calls
+  Msg: What do you want to look at:
+  Map updated (17 rows changed)
+[Step 1697] Key: / | PRNG: 0 calls
+  Msg: Pick a monster, object or location.
+  Map updated (13 rows changed)
+[Step 1698] Key: D | PRNG: 0 calls
+  Msg: open door
+[Step 1699] Key: \ | PRNG: 0 calls
+  Msg: Can't find dungeon feature '\'.
+[Step 1700] Key: ESC | PRNG: 0 calls
+[Step 1701] Key: \ | PRNG: 0 calls
+  Msg: Discoveries, by order of discovery within each class
+  Map updated (20 rows changed)
+  Status update: * partisan (vulgar polearm) | --More--
+[Step 1702] Key:   | PRNG: 0 calls
+  Msg: * ranseur (hilted polearm)
+  Map updated (21 rows changed)
+  Status update: * orcish chain mail (crude chain mail) | --More--
+[Step 1703] Key:   | PRNG: 0 calls
+  Msg: * orcish ring mail (crude ring mail)
+  Map updated (21 rows changed)
+  Status update: potion of extra healing (brilliant blue) | --More--
+[Step 1704] Key:   | PRNG: 0 calls
+  Msg: Wands
+  Map updated (21 rows changed)
+  Status update:  | --More--
+[Step 1705] Key:   | PRNG: 0 calls
+  Map updated (19 rows changed)
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:14(14) Pw:96(128) AC:9 HD:1 T:398 Overloaded Blind
+[Step 1706] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 1707] Key: q | PRNG: 0 calls
+  Msg: # quit
+[Step 1708] Key: u | PRNG: 0 calls
+  Msg: # quit
+[Step 1709] Key: i | PRNG: 0 calls
+  Msg: # quit
+[Step 1710] Key: t | PRNG: 0 calls
+  Msg: # quit
+[Step 1711] Key: 
+ | PRNG: 0 calls
+  Msg: Really quit without saving? [yn] (n)
+[Step 1712] Key: n | PRNG: 0 calls
+[Step 1713] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 1714] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 1715] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 1716] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 1717] Key: w | PRNG: 0 calls
+  Msg: # wizwhere
+[Step 1718] Key: h | PRNG: 0 calls
+  Msg: # wizwhere
+[Step 1719] Key: e | PRNG: 0 calls
+  Msg: # wizwhere
+[Step 1720] Key: r | PRNG: 0 calls
+  Msg: # wizwhere
+[Step 1721] Key: e | PRNG: 0 calls
+  Msg: # wizwhere
+[Step 1722] Key: 
+ | PRNG: 0 calls
+  Msg: The Dungeons of Doom: levels 1 to 26
+  Map updated (21 rows changed)
+  Status update: fakewiz1: 44 | --More--
+[Step 1723] Key:   | PRNG: 0 calls
+  Msg: fakewiz2: 46
+  Map updated (21 rows changed)
+  Status update: water: -4 | --More--
+[Step 1724] Key:   | PRNG: 0 calls
+  Msg: fire: -3
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 1725] Key:   | PRNG: 0 calls
+  Map updated (19 rows changed)
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:14(14) Pw:96(128) AC:9 HD:1 T:398 Overloaded Blind
+[Step 1726] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 1727] Key: 4 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 4
+[Step 1728] Key: 8 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 48
+[Step 1729] Key: 
+ | PRNG: 142 calls
+  Msg: You arrive at the Valley of the Dead...--More--
+  Map updated (18 rows changed)
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:27 $:0 HP:14(14) Pw:96(128) AC:9 HD:1 T:398 Overloaded Blind
+[Step 1730] Key:   | PRNG: 0 calls
+  Msg: The odor of burnt flesh and decay pervades the air.--More--
+[Step 1731] Key:   | PRNG: 0 calls
+  Msg: You hear groans and moans everywhere.--More--
+[Step 1732] Key:   | PRNG: 0 calls
+  Msg: You try to feel what is lying here on the floor.--More--
+[Step 1733] Key:   | PRNG: 0 calls
+  Msg: Things that you feel here:
+  Map updated (3 rows changed)
+[Step 1734] Key: p | PRNG: 0 calls
+  Msg: Things that you feel here:
+[Step 1735] Key: 
+ | PRNG: 0 calls
+  Msg: You are physically incapable of picking anything up.
+  Map updated (3 rows changed)
+[Step 1736] Key:  | PRNG: 0 calls
+  Msg: Where do you want to be teleported?
+[Step 1737] Key:   | PRNG: 0 calls
+  Msg: brown mold called wizard, chained to a heavy iron ball
+[Step 1738] Key: > | PRNG: 0 calls
+  Msg: Can't find dungeon feature '>'.
+[Step 1739] Key: . | PRNG: 0 calls
+  Msg: You try to feel what is lying here on the floor.--More--
+[Step 1740] Key:   | PRNG: 0 calls
+  Msg: Things that you feel here:
+  Map updated (3 rows changed)
+[Step 1741] Key: > | PRNG: 0 calls
+  Msg: Things that you feel here:
+[Step 1742] Key:   | PRNG: 1633 calls
+  Msg: You are physically incapable of picking anything up.
+  Map updated (3 rows changed)
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:27 $:0 HP:14(14) Pw:96(128) AC:9 HD:1 T:405 Overloaded Blind
+[Step 1743] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 1744] Key: 9 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 9
+[Step 1745] Key: 9 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 99
+[Step 1746] Key: 
+ | PRNG: 88 calls
+  Msg: It is hot here.  You sense smoke...--More--
+  Map updated (7 rows changed)
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:48 $:0 HP:14(14) Pw:96(128) AC:9 HD:1 T:405 Overloaded Blind
+[Step 1747] Key:   | PRNG: 0 calls
+  Msg: You try to feel what is lying here on the floor.--More--
+[Step 1748] Key: p | PRNG: 0 calls
+  Msg: You try to feel what is lying here on the floor.--More--
+[Step 1749] Key: 
+ | PRNG: 0 calls
+  Msg: Things that you feel here:
+  Map updated (3 rows changed)
+[Step 1750] Key: r | PRNG: 0 calls
+  Msg: Things that you feel here:
+[Step 1751] Key: 
+ | PRNG: 0 calls
+  Msg: You are physically incapable of picking anything up.
+  Map updated (3 rows changed)
+[Step 1752] Key:  | PRNG: 0 calls
+  Msg: Where do you want to be teleported?
+[Step 1753] Key:   | PRNG: 0 calls
+  Msg: brown mold called wizard, chained to a heavy iron ball
+[Step 1754] Key: _ | PRNG: 0 calls
+  Msg: Can't find dungeon feature '_'.
+[Step 1755] Key: . | PRNG: 0 calls
+  Msg: You try to feel what is lying here on the floor.--More--
+[Step 1756] Key:   | PRNG: 0 calls
+  Msg: Things that you feel here:
+  Map updated (3 rows changed)
+[Step 1757] Key:   | PRNG: 334 calls
+  Msg: You are physically incapable of picking anything up.--More--
+  Map updated (3 rows changed)
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:48 $:0 HP:14(14) Pw:96(128) AC:9 HD:1 T:407 Overloaded Blind
+[Step 1758] Key: k | PRNG: 0 calls
+  Msg: You are physically incapable of picking anything up.--More--
+[Step 1759] Key:   | PRNG: 8 calls
+  Msg: It suddenly arrives next to you!  It touches you!--More--
+  Map updated (1 rows changed)
+  Status update: Wizard the Brown Mold          St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:48 $:0 HP:7(14) Pw:96(128) AC:9 HD:1 T:407 Overloaded Blind
+[Step 1760] Key: k | PRNG: 0 calls
+  Msg: It suddenly arrives next to you!  It touches you!--More--
+[Step 1761] Key:   | PRNG: 3 calls
+  Msg: It is mildly chilly.  Something casts a spell at you!--More--
+[Step 1762] Key: k | PRNG: 0 calls
+  Msg: It is mildly chilly.  Something casts a spell at you!--More--
+[Step 1763] Key: ESC | PRNG: 0 calls
+  Msg: You return to human form!  You can see again.--More--
+  Map updated (3 rows changed)
+  Status update: Wizard the Knight              St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:48 $:0 HP:60(83) Pw:96(128) AC:10 Xp:15/160345 T:407
+[Step 1764] Key: ESC | PRNG: 140 calls
+  Msg: Your movements are now unencumbered.
+  Status update: Wizard the Knight              St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:48 $:0 HP:61(83) Pw:96(128) AC:10 Xp:15/160345 T:408
+[Step 1765] Key: ESC | PRNG: 0 calls
+[Step 1766] Key: ESC | PRNG: 0 calls
+[Step 1767] Key: ESC | PRNG: 0 calls
+[Step 1768] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 1769] Key: . | PRNG: 0 calls
+  Msg: Are you waiting to get hit?  Use 'm' prefix to force a no-op (to rest).
+[Step 1770] Key: . | PRNG: 0 calls
+  Msg: Are you waiting to get hit?
+[Step 1771] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 1772] Key: . | PRNG: 0 calls
+  Msg: Are you waiting to get hit?
+[Step 1773] Key: . | PRNG: 0 calls
+[Step 1774] Key: . | PRNG: 0 calls
+[Step 1775] Key: . | PRNG: 0 calls
+[Step 1776] Key: . | PRNG: 0 calls
+[Step 1777] Key: . | PRNG: 0 calls
+[Step 1778] Key: . | PRNG: 0 calls
+[Step 1779] Key: . | PRNG: 0 calls
+[Step 1780] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 1781] Key: . | PRNG: 0 calls
+  Msg: Are you waiting to get hit?
+[Step 1782] Key: l | PRNG: 158 calls
+  Map updated (3 rows changed)
+  Status update: Wizard the Knight              St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:48 $:0 HP:61(83) Pw:96(128) AC:10 Xp:15/160345 T:409
+[Step 1783] Key: l | PRNG: 0 calls
+  Msg: It's a wall.
+[Step 1784] Key: j | PRNG: 566 calls
+  Msg: Monsters appear from nowhere!
+  Map updated (3 rows changed)
+  Status update: Wizard the Knight              St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:48 $:0 HP:61(83) Pw:96(128) AC:10 Xp:15/160345 T:410
+[Step 1785] Key: k | PRNG: 23 calls
+  Msg: You hit it.  The silver dragon bites!  The silver dragon hits!--More--
+  Status update: Wizard the Knight              St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:48 $:0 HP:47(83) Pw:96(128) AC:10 Xp:15/160345 T:410
+[Step 1786] Key: ESC | PRNG: 20 calls
+  Msg: Die? [yn] (n)
+  Status update: Wizard the Knight              St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:48 $:0 HP:0(83) Pw:96(128) AC:10 Xp:15/160345 T:410
+[Step 1787] Key: : | PRNG: 0 calls
+  Msg: Die? [yn] (n)
+[Step 1788] Key: 
+ | PRNG: 11 calls
+  Msg: OK, so you don't die.  The Olog-hai hits!  The Olog-hai bites!--More--
+  Status update: Wizard the Knight              St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:48 $:0 HP:68(83) Pw:96(128) AC:10 Xp:15/160345 T:410
+[Step 1789] Key: ? | PRNG: 0 calls
+  Msg: OK, so you don't die.  The Olog-hai hits!  The Olog-hai bites!--More--
+[Step 1790] Key: 
+ | PRNG: 8 calls
+  Msg: The orange dragon bites!  The orange dragon hits!--More--
+  Status update: Wizard the Knight              St:14 Dx:9 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:48 $:0 HP:53(83) Pw:96(128) AC:10 Xp:15/160345 T:410
+[Step 1791] Key: e | PRNG: 0 calls
+  Msg: The orange dragon bites!  The orange dragon hits!--More--
+[Step 1792] Key:   | PRNG: 62 calls
+  Msg: The orange dragon hits again!  The xan pricks your right leg!--More--
+  Status update: Wizard the Knight              St:14 Dx:8 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:48 $:0 HP:49(83) Pw:96(128) AC:10 Xp:15/160345 T:410
+[Step 1793] Key:   | PRNG: 118 calls
+  Msg: The xan pricks your right leg!--More--
+  Status update: Wizard the Knight              St:14 Dx:8 Co:12 In:7 Wi:14 Ch:17 Lawful | Dlvl:48 $:0 HP:47(83) Pw:96(128) AC:10 Xp:15/160345 T:411
+[Step 1794] Key:   | PRNG: 0 calls
+  Msg: You survived that attempt on your life.
+[Step 1795] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 1796] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 1797] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   wizard2: 42 | (1 of 3)
+[Step 1798] Key:   | PRNG: 0 calls
+  Msg: t -   wizard3: 43
+  Map updated (21 rows changed)
+  Status update: The Elemental Planes: levels -5 to 0, entrance on -1 | (2 of 3)
+[Step 1799] Key: B | PRNG: 630 calls
+  Msg: As you exit the swamps, you see before you a huge, gaping hole in the
+  Map updated (21 rows changed)
+  Status update:  | --More--
+[Step 1800] Key:   | PRNG: 0 calls
+  Msg: The heat and smoke are gone.--More--
+  Map updated (7 rows changed)
+  Status update: Wizard the Knight              St:14 Dx:8 Co:12 In:7 Wi:14 Ch:17 Lawful | Home 5 $:0 HP:47(83) Pw:96(128) AC:10 Xp:15/160345 T:411
+[Step 1801] Key:   | PRNG: 0 calls
+  Msg: Things that are here:
+  Map updated (4 rows changed)
+[Step 1802] Key: i | PRNG: 0 calls
+  Msg: Things that are here:
+[Step 1803] Key: ESC | PRNG: 0 calls
+  Map updated (4 rows changed)
+[Step 1804] Key: + | PRNG: 0 calls
+  Msg: Currently known spells
+  Map updated (5 rows changed)
+[Step 1805] Key: ESC | PRNG: 0 calls
+  Map updated (5 rows changed)
+[Step 1806] Key: \ | PRNG: 0 calls
+  Msg: Discoveries, by order of discovery within each class
+  Map updated (20 rows changed)
+  Status update: * partisan (vulgar polearm) | --More--
+[Step 1807] Key: ESC | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Wizard the Knight              St:14 Dx:8 Co:12 In:7 Wi:14 Ch:17 Lawful | Home 5 $:0 HP:47(83) Pw:96(128) AC:10 Xp:15/160345 T:411
+[Step 1808] Key:  | PRNG: 0 calls
+  Msg: Wizard the Knight's attributes:
+  Map updated (19 rows changed)
+  Status update: Your constitution is 12. | (1 of 3)
+[Step 1809] Key:   | PRNG: 0 calls
+  Msg: Your intelligence is 7.
+  Map updated (21 rows changed)
+  Status update: Miscellaneous: | (2 of 3)
+[Step 1810] Key: ESC | PRNG: 0 calls
+  Map updated (19 rows changed)
+  Status update: Wizard the Knight              St:14 Dx:8 Co:12 In:7 Wi:14 Ch:17 Lawful | Home 5 $:0 HP:47(83) Pw:96(128) AC:10 Xp:15/160345 T:411
+[Step 1811] Key: s | PRNG: 0 calls
+  Msg: You already found a monster.  Use 'm' prefix to force another search.
+[Step 1812] Key: s | PRNG: 0 calls
+  Msg: You already found a monster.
+[Step 1813] Key: : | PRNG: 0 calls
+  Msg: Things that are here:
+  Map updated (4 rows changed)

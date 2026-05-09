@@ -1,0 +1,718 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 0 calls
+  Status:  | 
+[Step 1] Key: D | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 2] Key: o | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 3] Key: d | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 4] Key: e | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 5] Key: c | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 6] Key: o | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 7] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Shall I pick character's race, role, gender and alignment for you? [ynaq]
+[Step 8] Key: n | PRNG: 0 calls
+  Msg: Pick a role or profession
+  Map updated (19 rows changed)
+  Status update: q - Quit | (end)
+[Step 9] Key: [ | PRNG: 0 calls
+  Msg: Pick an alignment or creed
+  Map updated (19 rows changed)
+  Status update:  | 
+[Step 10] Key: l | PRNG: 0 calls
+  Msg: Pick a role or profession
+  Map updated (16 rows changed)
+[Step 11] Key: " | PRNG: 0 calls
+  Msg: Pick a gender or sex
+  Map updated (15 rows changed)
+[Step 12] Key: m | PRNG: 0 calls
+  Msg: Pick a role or profession
+  Map updated (15 rows changed)
+[Step 13] Key: / | PRNG: 0 calls
+  Msg: Pick a race or species
+  Map updated (14 rows changed)
+[Step 14] Key: h | PRNG: 0 calls
+  Msg: Pick a role or profession
+  Map updated (15 rows changed)
+[Step 15] Key: m | PRNG: 0 calls
+  Msg: Is this ok? [ynaq]
+  Map updated (14 rows changed)
+[Step 16] Key: y | PRNG: 3066 calls
+  Msg: It is written in the Book of Shan Lai Ching:
+  Map updated (16 rows changed)
+  Status update: Dodeco the Candidate           St:13 Dx:18 Co:12 In:11 Wi:9 Ch:12 Lawful | Dlvl:1 $:0 HP:14(14) Pw:4(4) AC:0 Xp:1
+[Step 17] Key:   | PRNG: 0 calls
+  Msg: Hello Dodeco, welcome to NetHack!  You are a lawful male human Monk.--More--
+  Map updated (14 rows changed)
+  Status update: Dodeco the Candidate           St:13 Dx:18 Co:12 In:11 Wi:9 Ch:12 Lawful | Dlvl:1 $:0 HP:14(14) Pw:5(5) AC:4 Xp:1
+[Step 18] Key:   | PRNG: 2 calls
+  Msg: You are lucky!  Full moon tonight.--More--
+[Step 19] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+  Map updated (4 rows changed)
+[Step 20] Key: n | PRNG: 0 calls
+  Map updated (4 rows changed)
+[Step 21] Key: H | PRNG: 28 calls
+  Msg: You see here a chest.
+  Map updated (4 rows changed)
+[Step 22] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 23] Key: l | PRNG: 0 calls
+  Msg: # loot
+[Step 24] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Hmmm, the chest turns out to be locked.
+[Step 25] Key: K | PRNG: 37 calls
+  Msg: The little dog misses the lichen.  The little dog misses the lichen.--More--
+  Map updated (2 rows changed)
+[Step 26] Key:   | PRNG: 0 calls
+  Msg: Things that are here:
+  Map updated (3 rows changed)
+[Step 27] Key:   | PRNG: 13 calls
+  Msg: A shiver runs up and down your spine!
+  Map updated (3 rows changed)
+[Step 28] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 29] Key: l | PRNG: 0 calls
+  Msg: # loot
+[Step 30] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Do what with the ice box?
+  Map updated (8 rows changed)
+[Step 31] Key: : | PRNG: 0 calls
+  Msg: Contents of the ice box:
+  Map updated (9 rows changed)
+[Step 32] Key: ESC | PRNG: 0 calls
+  Msg: Do what with the ice box?
+  Map updated (9 rows changed)
+[Step 33] Key: ESC | PRNG: 26 calls
+  Msg: The little dog misses the lichen.
+  Map updated (8 rows changed)
+[Step 34] Key: n | PRNG: 15 calls
+  Msg: The little dog misses the lichen.
+  Map updated (2 rows changed)
+[Step 35] Key: k | PRNG: 11 calls
+  Msg: You see here a statue of a sewer rat.
+  Map updated (2 rows changed)
+[Step 36] Key: n | PRNG: 24 calls
+  Msg: You kill the lichen!  Your little dog eats a tripe ration.
+  Map updated (2 rows changed)
+[Step 37] Key: l | PRNG: 7 calls
+  Map updated (1 rows changed)
+[Step 38] Key: n | PRNG: 18 calls
+  Map updated (2 rows changed)
+[Step 39] Key: L | PRNG: 151 calls
+  Map updated (2 rows changed)
+[Step 40] Key: l | PRNG: 57 calls
+  Msg: You kill the newt!
+  Map updated (1 rows changed)
+[Step 41] Key: l | PRNG: 0 calls
+  Msg: Things that are here:
+  Map updated (7 rows changed)
+[Step 42] Key:   | PRNG: 25 calls
+  Map updated (4 rows changed)
+[Step 43] Key: , | PRNG: 0 calls
+  Msg: Pick up what?
+  Map updated (5 rows changed)
+[Step 44] Key: b | PRNG: 0 calls
+  Msg: Pick up what?
+  Map updated (1 rows changed)
+[Step 45] Key: \r (Enter) | PRNG: 23 calls
+  Msg: j - a bag.
+  Map updated (6 rows changed)
+[Step 46] Key: n | PRNG: 22 calls
+  Msg: Your little dog eats a newt corpse.
+  Map updated (3 rows changed)
+[Step 47] Key: N | PRNG: 30 calls
+  Map updated (7 rows changed)
+[Step 48] Key: u | PRNG: 20 calls
+  Msg: You kill the fox!
+  Map updated (1 rows changed)
+[Step 49] Key: u | PRNG: 24 calls
+  Map updated (6 rows changed)
+[Step 50] Key: L | PRNG: 47 calls
+  Map updated (1 rows changed)
+[Step 51] Key: L | PRNG: 198 calls
+  Map updated (10 rows changed)
+[Step 52] Key: i | PRNG: 0 calls
+  Msg: Armor
+  Map updated (16 rows changed)
+[Step 53] Key:   | PRNG: 0 calls
+  Map updated (16 rows changed)
+[Step 54] Key: l | PRNG: 24 calls
+  Map updated (4 rows changed)
+[Step 55] Key: n | PRNG: 29 calls
+  Msg: You see here 2 gold pieces.
+  Map updated (3 rows changed)
+[Step 56] Key: , | PRNG: 16 calls
+  Msg: $ - 2 gold pieces.
+  Map updated (2 rows changed)
+  Status update: Dodeco the Candidate           St:13 Dx:18 Co:12 In:11 Wi:9 Ch:12 Lawful | Dlvl:1 $:2 HP:14(14) Pw:5(5) AC:4 Xp:1
+[Step 57] Key: @ | PRNG: 0 calls
+  Msg: Autopickup: ON, for all objects.
+[Step 58] Key: O | PRNG: 0 calls
+  Msg: Options
+  Map updated (19 rows changed)
+  Status update: p - pushweapon              [ ] | (1 of 2)
+[Step 59] Key: o | PRNG: 0 calls
+  Msg: Autopickup what?
+  Map updated (20 rows changed)
+  Status update:  | 
+[Step 60] Key: $ | PRNG: 0 calls
+  Msg: Autopickup what?
+  Map updated (1 rows changed)
+[Step 61] Key: " | PRNG: 0 calls
+  Msg: Autopickup what?
+  Map updated (1 rows changed)
+[Step 62] Key: ! | PRNG: 0 calls
+  Msg: Autopickup what?
+  Map updated (1 rows changed)
+[Step 63] Key: = | PRNG: 0 calls
+  Msg: Autopickup what?
+  Map updated (1 rows changed)
+[Step 64] Key: / | PRNG: 0 calls
+  Msg: Autopickup what?
+  Map updated (1 rows changed)
+[Step 65] Key: ? | PRNG: 0 calls
+  Msg: Autopickup what?
+  Map updated (1 rows changed)
+[Step 66] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Options
+  Map updated (20 rows changed)
+  Status update: p - pushweapon              [ ] | (1 of 2)
+[Step 67] Key:   | PRNG: 0 calls
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 68] Key: f | PRNG: 0 calls
+  Msg: Options
+  Map updated (21 rows changed)
+  Status update: p - pushweapon              [ ] | (1 of 2)
+[Step 69] Key:   | PRNG: 0 calls
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 70] Key:   | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Dodeco the Candidate           St:13 Dx:18 Co:12 In:11 Wi:9 Ch:12 Lawful | Dlvl:1 $:2 HP:14(14) Pw:5(5) AC:4 Xp:1
+[Step 71] Key: y | PRNG: 5 calls
+  Map updated (2 rows changed)
+[Step 72] Key: k | PRNG: 2 calls
+  Msg: The door opens.
+  Map updated (1 rows changed)
+[Step 73] Key: k | PRNG: 28 calls
+  Map updated (3 rows changed)
+[Step 74] Key: K | PRNG: 133 calls
+  Map updated (12 rows changed)
+[Step 75] Key: k | PRNG: 7 calls
+  Msg: You see here a statue of a newt.
+  Map updated (4 rows changed)
+[Step 76] Key: y | PRNG: 14 calls
+  Map updated (2 rows changed)
+[Step 77] Key: h | PRNG: 26 calls
+  Map updated (1 rows changed)
+[Step 78] Key: h | PRNG: 28 calls
+  Map updated (2 rows changed)
+[Step 79] Key: h | PRNG: 17 calls
+  Msg: You see here a sling.
+  Map updated (2 rows changed)
+[Step 80] Key: u | PRNG: 31 calls
+  Map updated (2 rows changed)
+[Step 81] Key: u | PRNG: 17 calls
+  Map updated (3 rows changed)
+[Step 82] Key: l | PRNG: 33 calls
+  Map updated (3 rows changed)
+[Step 83] Key: L | PRNG: 142 calls
+  Map updated (3 rows changed)
+[Step 84] Key: N | PRNG: 152 calls
+  Map updated (15 rows changed)
+[Step 85] Key: l | PRNG: 7 calls
+  Map updated (3 rows changed)
+[Step 86] Key: n | PRNG: 5 calls
+  Map updated (2 rows changed)
+[Step 87] Key: l | PRNG: 9 calls
+  Map updated (1 rows changed)
+[Step 88] Key: l | PRNG: 14 calls
+  Map updated (1 rows changed)
+[Step 89] Key: > | PRNG: 2218 calls
+  Msg: You descend the stairs.--More--
+[Step 90] Key:   | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update: Dodeco the Candidate           St:13 Dx:18 Co:12 In:11 Wi:9 Ch:12 Lawful | Dlvl:2 $:2 HP:14(14) Pw:5(5) AC:4 Xp:1
+[Step 91] Key: b | PRNG: 12 calls
+  Map updated (2 rows changed)
+[Step 92] Key: h | PRNG: 21 calls
+  Msg: The jackal bites!
+  Map updated (1 rows changed)
+  Status update: Dodeco the Candidate           St:13 Dx:18 Co:12 In:11 Wi:9 Ch:12 Lawful | Dlvl:2 $:2 HP:13(14) Pw:5(5) AC:4 Xp:1
+[Step 93] Key: h | PRNG: 40 calls
+  Msg: You kill the jackal!
+  Map updated (1 rows changed)
+[Step 94] Key: l | PRNG: 18 calls
+  Map updated (1 rows changed)
+[Step 95] Key: l | PRNG: 16 calls
+  Map updated (1 rows changed)
+  Status update: Dodeco the Candidate           St:13 Dx:18 Co:12 In:11 Wi:9 Ch:12 Lawful | Dlvl:2 $:2 HP:14(14) Pw:5(5) AC:4 Xp:1
+[Step 96] Key: @ | PRNG: 0 calls
+  Msg: Autopickup: OFF.
+[Step 97] Key: @ | PRNG: 0 calls
+  Msg: Autopickup: ON, for $"?!=/ objects.
+[Step 98] Key: l | PRNG: 5 calls
+  Msg: $ - 5 gold pieces (7 in total).
+  Map updated (1 rows changed)
+  Status update: Dodeco the Candidate           St:13 Dx:18 Co:12 In:11 Wi:9 Ch:12 Lawful | Dlvl:2 $:7 HP:14(14) Pw:5(5) AC:4 Xp:1
+[Step 99] Key: y | PRNG: 11 calls
+  Map updated (2 rows changed)
+[Step 100] Key: < | PRNG: 1 calls
+  Msg: You climb up the stairs.--More--
+[Step 101] Key:   | PRNG: 5 calls
+  Map updated (18 rows changed)
+  Status update: Dodeco the Candidate           St:13 Dx:18 Co:12 In:11 Wi:9 Ch:12 Lawful | Dlvl:1 $:7 HP:14(14) Pw:5(5) AC:4 Xp:1
+[Step 102] Key: u | PRNG: 5 calls
+  Map updated (2 rows changed)
+[Step 103] Key: L | PRNG: 83 calls
+  Map updated (9 rows changed)
+[Step 104] Key: l | PRNG: 7 calls
+  Map updated (3 rows changed)
+[Step 105] Key: h | PRNG: 13 calls
+  Map updated (1 rows changed)
+[Step 106] Key: B | PRNG: 7 calls
+  Map updated (3 rows changed)
+[Step 107] Key: j | PRNG: 6 calls
+  Msg: You swap places with your little dog.
+  Map updated (2 rows changed)
+[Step 108] Key: b | PRNG: 6 calls
+  Map updated (4 rows changed)
+[Step 109] Key: b | PRNG: 5 calls
+  Map updated (3 rows changed)
+[Step 110] Key: h | PRNG: 17 calls
+  Map updated (1 rows changed)
+[Step 111] Key: b | PRNG: 11 calls
+  Map updated (2 rows changed)
+[Step 112] Key: h | PRNG: 17 calls
+  Map updated (1 rows changed)
+[Step 113] Key: h | PRNG: 20 calls
+  Map updated (1 rows changed)
+[Step 114] Key: j | PRNG: 8 calls
+  Map updated (2 rows changed)
+[Step 115] Key: h | PRNG: 12 calls
+  Map updated (2 rows changed)
+[Step 116] Key: h | PRNG: 32 calls
+  Map updated (1 rows changed)
+[Step 117] Key: l | PRNG: 45 calls
+  Map updated (2 rows changed)
+[Step 118] Key: l | PRNG: 19 calls
+  Map updated (1 rows changed)
+[Step 119] Key: > | PRNG: 43 calls
+  Msg: You descend the stairs.--More--
+[Step 120] Key:   | PRNG: 26 calls
+  Map updated (18 rows changed)
+  Status update: Dodeco the Candidate           St:13 Dx:18 Co:12 In:11 Wi:9 Ch:12 Lawful | Dlvl:2 $:7 HP:14(14) Pw:5(5) AC:4 Xp:1
+[Step 121] Key: n | PRNG: 53 calls
+  Msg: Your little dog eats a jackal corpse.
+  Map updated (2 rows changed)
+[Step 122] Key: l | PRNG: 7 calls
+  Map updated (2 rows changed)
+[Step 123] Key: L | PRNG: 317 calls
+  Map updated (16 rows changed)
+[Step 124] Key: l | PRNG: 12 calls
+  Map updated (4 rows changed)
+[Step 125] Key: l | PRNG: 32 calls
+  Map updated (1 rows changed)
+[Step 126] Key: u | PRNG: 32 calls
+  Map updated (2 rows changed)
+[Step 127] Key: l | PRNG: 23 calls
+  Map updated (1 rows changed)
+[Step 128] Key: L | PRNG: 217 calls
+  Map updated (2 rows changed)
+[Step 129] Key: K | PRNG: 55 calls
+  Map updated (3 rows changed)
+[Step 130] Key: K | PRNG: 12 calls
+  Map updated (3 rows changed)
+[Step 131] Key: y | PRNG: 52 calls
+  Msg: You kill the newt!
+  Map updated (1 rows changed)
+[Step 132] Key: y | PRNG: 39 calls
+  Msg: You see here a newt corpse.
+  Map updated (3 rows changed)
+[Step 133] Key: Y | PRNG: 153 calls
+  Map updated (10 rows changed)
+[Step 134] Key: k | PRNG: 19 calls
+  Map updated (2 rows changed)
+[Step 135] Key: k | PRNG: 11 calls
+  Map updated (2 rows changed)
+[Step 136] Key: q | PRNG: 0 calls
+  Msg: Drink from the fountain? [yn] (n)
+[Step 137] Key: y | PRNG: 1 calls
+  Msg: You sense the presence of monsters.--More--
+  Map updated (19 rows changed)
+[Step 138] Key:   | PRNG: 0 calls
+  Msg: Tip: Farlooking or selecting a map location
+  Map updated (6 rows changed)
+[Step 139] Key:   | PRNG: 0 calls
+  Msg: (For instructions type a '?')  Move cursor to monster of interest:
+  Map updated (6 rows changed)
+[Step 140] Key: B | PRNG: 0 calls
+  Msg: unexplored area
+[Step 141] Key: H | PRNG: 0 calls
+  Msg: unexplored area
+[Step 142] Key: H | PRNG: 0 calls
+  Msg: unexplored area
+[Step 143] Key: H | PRNG: 0 calls
+  Msg: unexplored area
+[Step 144] Key: H | PRNG: 0 calls
+  Msg: unexplored area
+[Step 145] Key: Y | PRNG: 0 calls
+  Msg: unexplored area
+[Step 146] Key: J | PRNG: 0 calls
+  Msg: unexplored area
+[Step 147] Key: l | PRNG: 0 calls
+  Msg: unexplored area
+[Step 148] Key: k | PRNG: 0 calls
+  Msg: unexplored area
+[Step 149] Key: k | PRNG: 0 calls
+  Msg: unexplored area
+[Step 150] Key: k | PRNG: 0 calls
+  Msg: small mimic, mimicking something
+[Step 151] Key: l | PRNG: 0 calls
+  Msg: unexplored area
+[Step 152] Key: l | PRNG: 0 calls
+  Msg: peaceful Adjama
+[Step 153] Key:   | PRNG: 0 calls
+  Msg: Done.--More--
+[Step 154] Key:   | PRNG: 21 calls
+  Msg: The fountain dries up!  You hear the footsteps of a guard on patrol.
+  Map updated (19 rows changed)
+[Step 155] Key: n | PRNG: 15 calls
+  Map updated (2 rows changed)
+[Step 156] Key: l | PRNG: 17 calls
+  Map updated (1 rows changed)
+[Step 157] Key: L | PRNG: 253 calls
+  Map updated (5 rows changed)
+[Step 158] Key: l | PRNG: 12 calls
+  Map updated (3 rows changed)
+[Step 159] Key: l | PRNG: 27 calls
+  Map updated (1 rows changed)
+[Step 160] Key: n | PRNG: 29 calls
+  Map updated (2 rows changed)
+[Step 161] Key: l | PRNG: 20 calls
+  Map updated (1 rows changed)
+[Step 162] Key: l | PRNG: 8 calls
+  Map updated (1 rows changed)
+[Step 163] Key: l | PRNG: 11 calls
+  Map updated (1 rows changed)
+[Step 164] Key: q | PRNG: 0 calls
+  Msg: Drink from the fountain? [yn] (n)
+[Step 165] Key: y | PRNG: 57 calls
+  Msg: The water is foul!  You gag and vomit.  The fountain dries up!--More--
+[Step 166] Key:   | PRNG: 0 calls
+  Msg: You can move again.
+[Step 167] Key: y | PRNG: 24 calls
+  Map updated (2 rows changed)
+[Step 168] Key: y | PRNG: 30 calls
+  Map updated (2 rows changed)
+[Step 169] Key: y | PRNG: 12 calls
+  Map updated (3 rows changed)
+[Step 170] Key: K | PRNG: 113 calls
+  Map updated (2 rows changed)
+[Step 171] Key: L | PRNG: 127 calls
+  Map updated (2 rows changed)
+[Step 172] Key: b | PRNG: 6 calls
+  Map updated (2 rows changed)
+[Step 173] Key: b | PRNG: 17 calls
+  Map updated (2 rows changed)
+[Step 174] Key: H | PRNG: 17 calls
+  Map updated (1 rows changed)
+[Step 175] Key: H | PRNG: 119 calls
+  Map updated (3 rows changed)
+[Step 176] Key: b | PRNG: 33 calls
+  Map updated (2 rows changed)
+[Step 177] Key: H | PRNG: 80 calls
+  Map updated (1 rows changed)
+[Step 178] Key: h | PRNG: 24 calls
+  Map updated (1 rows changed)
+[Step 179] Key: b | PRNG: 14 calls
+  Map updated (2 rows changed)
+[Step 180] Key: N | PRNG: 174 calls
+  Map updated (4 rows changed)
+[Step 181] Key: b | PRNG: 8 calls
+  Map updated (2 rows changed)
+[Step 182] Key: h | PRNG: 13 calls
+  Map updated (1 rows changed)
+[Step 183] Key: h | PRNG: 10 calls
+  Map updated (1 rows changed)
+[Step 184] Key: h | PRNG: 17 calls
+  Map updated (1 rows changed)
+[Step 185] Key: k | PRNG: 2 calls
+  Msg: The door opens.
+  Map updated (1 rows changed)
+[Step 186] Key: k | PRNG: 19 calls
+  Map updated (3 rows changed)
+[Step 187] Key: k | PRNG: 13 calls
+  Map updated (2 rows changed)
+[Step 188] Key: j | PRNG: 19 calls
+  Map updated (2 rows changed)
+[Step 189] Key: j | PRNG: 44 calls
+  Map updated (3 rows changed)
+[Step 190] Key: h | PRNG: 56 calls
+  Map updated (3 rows changed)
+[Step 191] Key: h | PRNG: 42 calls
+  Map updated (2 rows changed)
+[Step 192] Key: k | PRNG: 3 calls
+  Msg: The door resists!
+[Step 193] Key: k | PRNG: 2 calls
+  Msg: The door opens.
+  Map updated (1 rows changed)
+[Step 194] Key: k | PRNG: 44 calls
+  Map updated (3 rows changed)
+[Step 195] Key: k | PRNG: 29 calls
+  Map updated (4 rows changed)
+[Step 196] Key: k | PRNG: 0 calls
+[Step 197] Key: Y | PRNG: 486 calls
+  Map updated (6 rows changed)
+[Step 198] Key: h | PRNG: 19 calls
+  Map updated (2 rows changed)
+[Step 199] Key: h | PRNG: 15 calls
+  Map updated (1 rows changed)
+[Step 200] Key: h | PRNG: 23 calls
+  Map updated (1 rows changed)
+[Step 201] Key: h | PRNG: 7 calls
+  Map updated (1 rows changed)
+[Step 202] Key: j | PRNG: 19 calls
+  Map updated (3 rows changed)
+[Step 203] Key: J | PRNG: 442 calls
+  Map updated (7 rows changed)
+[Step 204] Key: K | PRNG: 28 calls
+  Map updated (3 rows changed)
+[Step 205] Key: Y | PRNG: 220 calls
+  Msg: You swap places with your little dog.
+  Map updated (3 rows changed)
+[Step 206] Key: h | PRNG: 47 calls
+  Msg: You destroy the kobold zombie!
+  Map updated (1 rows changed)
+[Step 207] Key: h | PRNG: 8 calls
+  Map updated (1 rows changed)
+[Step 208] Key: H | PRNG: 73 calls
+  Msg: You hear someone cursing shoplifters.
+  Map updated (3 rows changed)
+[Step 209] Key: k | PRNG: 52 calls
+  Msg: You kill the sewer rat!
+  Map updated (1 rows changed)
+[Step 210] Key: k | PRNG: 20 calls
+  Map updated (2 rows changed)
+[Step 211] Key: Y | PRNG: 186 calls
+  Map updated (3 rows changed)
+[Step 212] Key: y | PRNG: 0 calls
+[Step 213] Key: k | PRNG: 30 calls
+  Msg: You hear the footsteps of a guard on patrol.
+  Map updated (3 rows changed)
+[Step 214] Key: h | PRNG: 36 calls
+  Map updated (2 rows changed)
+[Step 215] Key: h | PRNG: 28 calls
+  Map updated (1 rows changed)
+[Step 216] Key: h | PRNG: 9 calls
+  Map updated (2 rows changed)
+[Step 217] Key: u | PRNG: 11 calls
+  Map updated (2 rows changed)
+[Step 218] Key: l | PRNG: 49 calls
+  Map updated (2 rows changed)
+[Step 219] Key: l | PRNG: 35 calls
+  Map updated (1 rows changed)
+[Step 220] Key: l | PRNG: 46 calls
+  Msg: Something is written here in the dust.  You read: "?? a?r?r um".
+  Map updated (2 rows changed)
+[Step 221] Key: 9 | PRNG: 0 calls
+  Msg: Something is written here in the dust.  You read: "?? a?r?r um".
+[Step 222] Key: s | PRNG: 83 calls
+  Msg: You find a hidden door.
+  Map updated (2 rows changed)
+[Step 223] Key: k | PRNG: 2 calls
+  Msg: The door opens.
+  Map updated (1 rows changed)
+[Step 224] Key: k | PRNG: 21 calls
+  Map updated (3 rows changed)
+[Step 225] Key: 9 | PRNG: 0 calls
+[Step 226] Key: s | PRNG: 221 calls
+  Msg: You stop searching.
+  Map updated (3 rows changed)
+[Step 227] Key: 9 | PRNG: 0 calls
+  Msg: You stop searching.
+[Step 228] Key: s | PRNG: 133 calls
+  Msg: You stop searching.
+  Map updated (2 rows changed)
+[Step 229] Key: s | PRNG: 47 calls
+[Step 230] Key: s | PRNG: 28 calls
+  Map updated (2 rows changed)
+[Step 231] Key: s | PRNG: 19 calls
+  Map updated (2 rows changed)
+[Step 232] Key: s | PRNG: 27 calls
+  Map updated (1 rows changed)
+[Step 233] Key: s | PRNG: 41 calls
+  Msg: You find a hidden passage.
+  Map updated (3 rows changed)
+[Step 234] Key: s | PRNG: 0 calls
+  Msg: You already found a monster.  Use 'm' prefix to force another search.
+[Step 235] Key: s | PRNG: 0 calls
+[Step 236] Key: b | PRNG: 50 calls
+  Msg: You kill the newt!
+  Map updated (2 rows changed)
+[Step 237] Key: k | PRNG: 2 calls
+  Msg: You materialize in a different location!--More--
+  Map updated (6 rows changed)
+  Status update: Dodeco the Candidate           St:13 Dx:18 Co:12 In:11 Wi:9 Ch:12 Lawful | Dlvl:2 $:307 HP:14(14) Pw:5(5) AC:4 Xp:1
+[Step 238] Key: k | PRNG: 0 calls
+  Msg: You materialize in a different location!--More--
+[Step 239] Key:   | PRNG: 21 calls
+  Msg: $ - 300 gold pieces (307 in total).
+[Step 240] Key: k | PRNG: 24 calls
+  Msg: $ - 246 gold pieces (553 in total).
+  Map updated (2 rows changed)
+  Status update: Dodeco the Candidate           St:13 Dx:18 Co:12 In:11 Wi:9 Ch:12 Lawful | Dlvl:2 $:553 HP:14(14) Pw:5(5) AC:4 Xp:1
+[Step 241] Key: l | PRNG: 16 calls
+  Msg: $ - 348 gold pieces (901 in total).
+  Map updated (1 rows changed)
+  Status update: Dodeco the Candidate           St:13 Dx:18 Co:12 In:11 Wi:9 Ch:12 Lawful | Dlvl:2 $:901 HP:14(14) Pw:5(5) AC:4 Xp:1
+[Step 242] Key: j | PRNG: 12 calls
+  Msg: $ - 262 gold pieces (1163 in total).
+  Map updated (2 rows changed)
+  Status update: Dodeco the Candidate           St:13 Dx:18 Co:12 In:11 Wi:9 Ch:12 Lawful | Dlvl:2 $:1163 HP:14(14) Pw:5(5) AC:4 Xp:1
+[Step 243] Key: h | PRNG: 7 calls
+  Map updated (1 rows changed)
+[Step 244] Key: k | PRNG: 22 calls
+  Map updated (2 rows changed)
+[Step 245] Key: s | PRNG: 28 calls
+[Step 246] Key: s | PRNG: 7 calls
+[Step 247] Key: s | PRNG: 15 calls
+[Step 248] Key: s | PRNG: 18 calls
+[Step 249] Key: s | PRNG: 13 calls
+[Step 250] Key: l | PRNG: 18 calls
+  Map updated (1 rows changed)
+[Step 251] Key: 9 | PRNG: 0 calls
+[Step 252] Key: s | PRNG: 153 calls
+[Step 253] Key: h | PRNG: 36 calls
+  Map updated (1 rows changed)
+[Step 254] Key: 9 | PRNG: 0 calls
+[Step 255] Key: s | PRNG: 208 calls
+[Step 256] Key: i | PRNG: 0 calls
+  Msg: Coins
+  Map updated (18 rows changed)
+[Step 257] Key:   | PRNG: 0 calls
+  Map updated (18 rows changed)
+[Step 258] Key: a | PRNG: 0 calls
+  Msg: What do you want to use or apply? [ij or ?*]
+[Step 259] Key: j | PRNG: 0 calls
+  Msg: Do what with your bag?
+  Map updated (10 rows changed)
+[Step 260] Key: i | PRNG: 0 calls
+  Msg: Put in what type of objects?
+  Map updated (17 rows changed)
+[Step 261] Key: $ | PRNG: 0 calls
+  Msg: Put in what type of objects?
+  Map updated (1 rows changed)
+[Step 262] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Put in what?
+  Map updated (17 rows changed)
+[Step 263] Key: $ | PRNG: 0 calls
+  Msg: Put in what?
+  Map updated (1 rows changed)
+[Step 264] Key: \r (Enter) | PRNG: 11 calls
+  Msg: You put 1163 gold pieces into the bag.
+  Map updated (4 rows changed)
+  Status update: Dodeco the Candidate           St:13 Dx:18 Co:12 In:11 Wi:9 Ch:12 Lawful | Dlvl:2 $:0 HP:14(14) Pw:5(5) AC:4 Xp:1
+[Step 265] Key: 9 | PRNG: 0 calls
+  Msg: You put 1163 gold pieces into the bag.
+[Step 266] Key: s | PRNG: 257 calls
+  Msg: Suddenly one of the Vault's guards enters!--More--
+  Map updated (1 rows changed)
+[Step 267] Key:   | PRNG: 0 calls
+  Msg: "Hello stranger, who are you?" -
+[Step 268] Key: D | PRNG: 0 calls
+  Msg: "Hello stranger, who are you?" - D
+[Step 269] Key: o | PRNG: 0 calls
+  Msg: "Hello stranger, who are you?" - Do
+[Step 270] Key: d | PRNG: 0 calls
+  Msg: "Hello stranger, who are you?" - Dod
+[Step 271] Key: e | PRNG: 0 calls
+  Msg: "Hello stranger, who are you?" - Dode
+[Step 272] Key: c | PRNG: 0 calls
+  Msg: "Hello stranger, who are you?" - Dodec
+[Step 273] Key: o | PRNG: 0 calls
+  Msg: "Hello stranger, who are you?" - Dodeco
+[Step 274] Key: \r (Enter) | PRNG: 0 calls
+  Msg: "I don't know you."  "You have hidden gold."--More--
+[Step 275] Key:   | PRNG: 0 calls
+  Msg: "Most likely all your gold was stolen from this vault."--More--
+[Step 276] Key:   | PRNG: 2 calls
+  Msg: "Please drop that gold and follow me."
+[Step 277] Key: a | PRNG: 0 calls
+  Msg: What do you want to use or apply? [ij or ?*]
+[Step 278] Key: ? | PRNG: 0 calls
+  Msg: Spellbooks
+  Map updated (4 rows changed)
+[Step 279] Key: j | PRNG: 0 calls
+  Msg: Do what with your bag?
+  Map updated (10 rows changed)
+[Step 280] Key: o | PRNG: 0 calls
+  Msg: Take out what?
+  Map updated (9 rows changed)
+[Step 281] Key: $ | PRNG: 0 calls
+  Msg: Take out what?
+  Map updated (1 rows changed)
+[Step 282] Key: \r (Enter) | PRNG: 33 calls
+  Msg: $ - 1163 gold pieces.
+  Map updated (4 rows changed)
+  Status update: Dodeco the Candidate           St:13 Dx:18 Co:12 In:11 Wi:9 Ch:12 Lawful | Dlvl:2 $:1163 HP:14(14) Pw:5(5) AC:4 Xp:1
+[Step 283] Key: d | PRNG: 0 calls
+  Msg: What do you want to drop? [$a-j or ?*]
+[Step 284] Key: $ | PRNG: 35 calls
+  Msg: You drop 1163 gold pieces.
+  Map updated (1 rows changed)
+  Status update: Dodeco the Candidate           St:13 Dx:18 Co:12 In:11 Wi:9 Ch:12 Lawful | Dlvl:2 $:0 HP:14(14) Pw:5(5) AC:4 Xp:1
+[Step 285] Key: h | PRNG: 35 calls
+  Map updated (2 rows changed)
+[Step 286] Key: h | PRNG: 9 calls
+  Map updated (2 rows changed)
+[Step 287] Key: k | PRNG: 13 calls
+  Map updated (3 rows changed)
+[Step 288] Key: . | PRNG: 28 calls
+  Map updated (1 rows changed)
+[Step 289] Key: k | PRNG: 23 calls
+  Map updated (4 rows changed)
+[Step 290] Key: h | PRNG: 17 calls
+  Map updated (2 rows changed)
+[Step 291] Key: k | PRNG: 21 calls
+  Map updated (2 rows changed)
+[Step 292] Key: j | PRNG: 32 calls
+  Map updated (2 rows changed)
+[Step 293] Key: n | PRNG: 29 calls
+  Map updated (2 rows changed)
+[Step 294] Key: j | PRNG: 24 calls
+  Msg: "Move along!"
+  Map updated (2 rows changed)
+[Step 295] Key: l | PRNG: 0 calls
+[Step 296] Key: k | PRNG: 33 calls
+  Map updated (2 rows changed)
+[Step 297] Key: y | PRNG: 13 calls
+  Map updated (2 rows changed)
+[Step 298] Key: y | PRNG: 16 calls
+  Map updated (3 rows changed)
+[Step 299] Key: . | PRNG: 24 calls
+  Map updated (2 rows changed)
+[Step 300] Key: k | PRNG: 12 calls
+  Map updated (3 rows changed)
+[Step 301] Key: h | PRNG: 18 calls
+  Map updated (1 rows changed)
+[Step 302] Key: . | PRNG: 19 calls
+  Map updated (1 rows changed)
+[Step 303] Key: k | PRNG: 31 calls
+  Map updated (2 rows changed)
+[Step 304] Key: h | PRNG: 12 calls
+  Map updated (2 rows changed)
+[Step 305] Key: h | PRNG: 13 calls
+  Map updated (1 rows changed)
+[Step 306] Key: . | PRNG: 28 calls
+  Map updated (4 rows changed)
+[Step 307] Key: k | PRNG: 1 calls
+  Msg: Suddenly, the guard disappears.--More--
+  Map updated (3 rows changed)

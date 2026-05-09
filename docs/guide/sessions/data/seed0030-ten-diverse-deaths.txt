@@ -1,0 +1,3645 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 6269 calls
+  Msg: Aloha Quincy, welcome to NetHack!  You are a neutral male human Tourist.
+  Status: Quincy the Rambler             St:11 Dx:12 Co:15 In:16 Wi:7 Ch:14 Neutral | Dlvl:1 $:420 HP:10(10) Pw:2(2) AC:10 Xp:1
+[Step 1] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 2] Key: k | PRNG: 0 calls
+[Step 3] Key: j | PRNG: 6 calls
+  Map updated (2 rows changed)
+[Step 4] Key: h | PRNG: 30 calls
+  Map updated (2 rows changed)
+[Step 5] Key: h | PRNG: 2 calls
+  Msg: The door resists!
+[Step 6] Key: h | PRNG: 1 calls
+  Msg: The door opens.
+  Map updated (1 rows changed)
+[Step 7] Key: h | PRNG: 28 calls
+  Msg: The kitten picks up a gold piece.
+  Map updated (3 rows changed)
+[Step 8] Key: h | PRNG: 18 calls
+  Map updated (1 rows changed)
+[Step 9] Key: j | PRNG: 39 calls
+  Map updated (3 rows changed)
+[Step 10] Key: j | PRNG: 36 calls
+  Map updated (4 rows changed)
+[Step 11] Key: j | PRNG: 29 calls
+  Map updated (3 rows changed)
+[Step 12] Key: n | PRNG: 22 calls
+  Map updated (4 rows changed)
+[Step 13] Key: n | PRNG: 37 calls
+  Msg: The kitten drops a gold piece.
+  Map updated (4 rows changed)
+[Step 14] Key: l | PRNG: 20 calls
+  Map updated (1 rows changed)
+[Step 15] Key: l | PRNG: 23 calls
+  Map updated (1 rows changed)
+[Step 16] Key: l | PRNG: 31 calls
+  Map updated (1 rows changed)
+[Step 17] Key: l | PRNG: 25 calls
+  Map updated (3 rows changed)
+[Step 18] Key: l | PRNG: 35 calls
+  Map updated (2 rows changed)
+[Step 19] Key: l | PRNG: 16 calls
+  Map updated (2 rows changed)
+[Step 20] Key: l | PRNG: 18 calls
+  Map updated (2 rows changed)
+[Step 21] Key: l | PRNG: 28 calls
+  Map updated (4 rows changed)
+[Step 22] Key: l | PRNG: 19 calls
+  Map updated (5 rows changed)
+[Step 23] Key: l | PRNG: 0 calls
+  Msg: There's some graffiti on the floor here.--More--
+  Map updated (2 rows changed)
+[Step 24] Key:   | PRNG: 0 calls
+  Msg: You read: "Never mind the monsters hit?i?c yc?.  thcy ?us? ?eplace ?hc
+  Map updated (1 rows changed)
+[Step 25] Key:   | PRNG: 45 calls
+  Map updated (2 rows changed)
+[Step 26] Key: u | PRNG: 29 calls
+  Map updated (3 rows changed)
+[Step 27] Key: n | PRNG: 32 calls
+  Map updated (2 rows changed)
+[Step 28] Key: > | PRNG: 3736 calls
+  Msg: You descend the stairs.--More--
+[Step 29] Key:   | PRNG: 34 calls
+  Msg: The kitten bites the newt.  The newt is killed!--More--
+  Map updated (14 rows changed)
+  Status update: Quincy the Rambler             St:11 Dx:12 Co:15 In:16 Wi:7 Ch:14 Neutral | Dlvl:2 $:420 HP:10(10) Pw:2(2) AC:10 Xp:1
+[Step 30] Key:   | PRNG: 11 calls
+  Msg: Your kitten eats a newt corpse.
+[Step 31] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 32] Key: h | PRNG: 14 calls
+  Map updated (2 rows changed)
+[Step 33] Key: h | PRNG: 13 calls
+  Map updated (1 rows changed)
+[Step 34] Key: h | PRNG: 19 calls
+  Map updated (4 rows changed)
+[Step 35] Key: h | PRNG: 29 calls
+  Map updated (3 rows changed)
+[Step 36] Key: y | PRNG: 27 calls
+  Map updated (4 rows changed)
+[Step 37] Key: b | PRNG: 20 calls
+  Map updated (3 rows changed)
+[Step 38] Key: h | PRNG: 16 calls
+  Map updated (3 rows changed)
+[Step 39] Key: h | PRNG: 23 calls
+  Map updated (2 rows changed)
+[Step 40] Key: h | PRNG: 18 calls
+  Map updated (5 rows changed)
+[Step 41] Key: h | PRNG: 22 calls
+  Msg: You kill the newt!
+  Map updated (1 rows changed)
+[Step 42] Key: b | PRNG: 15 calls
+  Map updated (4 rows changed)
+[Step 43] Key: n | PRNG: 0 calls
+[Step 44] Key: j | PRNG: 25 calls
+  Map updated (2 rows changed)
+[Step 45] Key: > | PRNG: 3022 calls
+  Msg: You descend the stairs.--More--
+[Step 46] Key:   | PRNG: 17 calls
+  Map updated (9 rows changed)
+  Status update: Quincy the Rambler             St:11 Dx:12 Co:15 In:16 Wi:7 Ch:14 Neutral | Dlvl:3 $:420 HP:10(10) Pw:2(2) AC:10 Xp:1
+[Step 47] Key: u | PRNG: 44 calls
+  Msg: The gnome hits!
+  Map updated (3 rows changed)
+  Status update: Quincy the Rambler             St:11 Dx:12 Co:15 In:16 Wi:7 Ch:14 Neutral | Dlvl:3 $:420 HP:9(10) Pw:2(2) AC:10 Xp:1
+[Step 48] Key: u | PRNG: 43 calls
+  Msg: The gnome hits!
+  Map updated (3 rows changed)
+  Status update: Quincy the Rambler             St:11 Dx:12 Co:15 In:16 Wi:7 Ch:14 Neutral | Dlvl:3 $:420 HP:5(10) Pw:2(2) AC:10 Xp:1
+[Step 49] Key: u | PRNG: 62 calls
+  Map updated (3 rows changed)
+[Step 50] Key: u | PRNG: 11 calls
+  Msg: The phial crashes on your head and breaks into shards.--More--
+  Map updated (3 rows changed)
+  Status update: Quincy the Rambler             St:11 Dx:12 Co:15 In:16 Wi:7 Ch:14 Neutral | Dlvl:3 $:420 HP:4(10) Pw:2(2) AC:10 Xp:1
+[Step 51] Key:   | PRNG: 84 calls
+  Msg: The sky blue potion evaporates.  You feel rather tired.--More--
+  Map updated (1 rows changed)
+[Step 52] Key:   | PRNG: 0 calls
+  Msg: You can move again.
+[Step 53] Key: u | PRNG: 0 calls
+[Step 54] Key: u | PRNG: 0 calls
+[Step 55] Key: u | PRNG: 0 calls
+[Step 56] Key: u | PRNG: 0 calls
+[Step 57] Key: u | PRNG: 0 calls
+[Step 58] Key: u | PRNG: 0 calls
+[Step 59] Key: j | PRNG: 37 calls
+  Map updated (3 rows changed)
+[Step 60] Key: j | PRNG: 48 calls
+  Map updated (3 rows changed)
+[Step 61] Key: j | PRNG: 56 calls
+  Msg: You hit the gnome.
+[Step 62] Key: j | PRNG: 15 calls
+  Msg: You miss the gnome.  The gnome swings his bow.  The gnome hits!--More--
+  Status update: Quincy the Rambler             St:11 Dx:12 Co:15 In:16 Wi:7 Ch:14 Neutral | Dlvl:3 $:420 HP:0(10) Pw:2(2) AC:10 Xp:1
+[Step 63] Key: j | PRNG: 0 calls
+  Msg: You miss the gnome.  The gnome swings his bow.  The gnome hits!--More--
+[Step 64] Key: j | PRNG: 0 calls
+  Msg: You miss the gnome.  The gnome swings his bow.  The gnome hits!--More--
+[Step 65] Key: j | PRNG: 0 calls
+  Msg: You miss the gnome.  The gnome swings his bow.  The gnome hits!--More--
+[Step 66] Key: j | PRNG: 0 calls
+  Msg: You miss the gnome.  The gnome swings his bow.  The gnome hits!--More--
+[Step 67] Key: j | PRNG: 0 calls
+  Msg: You miss the gnome.  The gnome swings his bow.  The gnome hits!--More--
+[Step 68] Key: j | PRNG: 0 calls
+  Msg: You miss the gnome.  The gnome swings his bow.  The gnome hits!--More--
+[Step 69] Key: j | PRNG: 0 calls
+  Msg: You miss the gnome.  The gnome swings his bow.  The gnome hits!--More--
+[Step 70] Key: j | PRNG: 0 calls
+  Msg: You miss the gnome.  The gnome swings his bow.  The gnome hits!--More--
+[Step 71] Key: j | PRNG: 0 calls
+  Msg: You miss the gnome.  The gnome swings his bow.  The gnome hits!--More--
+[Step 72] Key: y | PRNG: 0 calls
+  Msg: You miss the gnome.  The gnome swings his bow.  The gnome hits!--More--
+[Step 73] Key:   | PRNG: 1 calls
+  Msg: You die...--More--
+[Step 74] Key: y | PRNG: 0 calls
+  Msg: You die...--More--
+[Step 75] Key:   | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update: You were level 1 with a maximum of 10 hit points when you died. | --More--
+[Step 76] Key:   | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update:  | --More--
+[Step 77] Key: y | PRNG: 0 calls
+[Step 78] Key:   | PRNG: 0 calls
+  Map updated (4 rows changed)
+  Status update:  | 
+
+=== SEGMENT 1 ===
+[Step 0] Key: NULL (Init) | PRNG: 2165 calls
+  Msg: Aloha Brigid, welcome to NetHack!  You are a neutral female human Tourist.
+  Status: Brigid the Rambler             St:13 Dx:12 Co:16 In:13 Wi:6 Ch:17 Neutral | Dlvl:1 $:984 HP:10(10) Pw:2(2) AC:10 Xp:1
+[Step 1] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 2] Key: k | PRNG: 7 calls
+  Map updated (2 rows changed)
+[Step 3] Key: l | PRNG: 40 calls
+  Map updated (1 rows changed)
+[Step 4] Key: l | PRNG: 16 calls
+  Map updated (2 rows changed)
+[Step 5] Key: n | PRNG: 38 calls
+  Map updated (2 rows changed)
+[Step 6] Key: l | PRNG: 37 calls
+  Map updated (4 rows changed)
+[Step 7] Key: l | PRNG: 26 calls
+  Map updated (3 rows changed)
+[Step 8] Key: u | PRNG: 15 calls
+  Map updated (3 rows changed)
+[Step 9] Key: l | PRNG: 28 calls
+  Map updated (3 rows changed)
+[Step 10] Key: l | PRNG: 35 calls
+  Map updated (4 rows changed)
+[Step 11] Key: l | PRNG: 24 calls
+  Map updated (2 rows changed)
+[Step 12] Key: l | PRNG: 18 calls
+  Map updated (6 rows changed)
+[Step 13] Key: l | PRNG: 51 calls
+  Map updated (4 rows changed)
+[Step 14] Key: l | PRNG: 35 calls
+  Msg: The kitten picks up a triangular amulet.
+  Map updated (2 rows changed)
+[Step 15] Key: n | PRNG: 58 calls
+  Map updated (2 rows changed)
+[Step 16] Key: l | PRNG: 21 calls
+  Map updated (3 rows changed)
+[Step 17] Key: l | PRNG: 47 calls
+  Msg: The kitten drops a triangular amulet.
+  Map updated (3 rows changed)
+[Step 18] Key: u | PRNG: 51 calls
+  Map updated (3 rows changed)
+[Step 19] Key: k | PRNG: 30 calls
+  Msg: The kitten picks up a triangular amulet.
+  Map updated (4 rows changed)
+[Step 20] Key: k | PRNG: 41 calls
+  Map updated (4 rows changed)
+[Step 21] Key: k | PRNG: 26 calls
+  Map updated (3 rows changed)
+[Step 22] Key: u | PRNG: 23 calls
+  Map updated (4 rows changed)
+[Step 23] Key: k | PRNG: 16 calls
+  Map updated (3 rows changed)
+[Step 24] Key: k | PRNG: 15 calls
+  Map updated (3 rows changed)
+[Step 25] Key: u | PRNG: 14 calls
+  Map updated (3 rows changed)
+[Step 26] Key: k | PRNG: 96 calls
+  Map updated (3 rows changed)
+[Step 27] Key: k | PRNG: 23 calls
+  Map updated (4 rows changed)
+[Step 28] Key: k | PRNG: 18 calls
+  Map updated (2 rows changed)
+[Step 29] Key: l | PRNG: 2 calls
+  Msg: The door resists!
+[Step 30] Key: l | PRNG: 1 calls
+  Msg: The door opens.
+  Map updated (6 rows changed)
+[Step 31] Key: l | PRNG: 45 calls
+  Map updated (6 rows changed)
+[Step 32] Key: l | PRNG: 37 calls
+  Map updated (5 rows changed)
+[Step 33] Key: u | PRNG: 50 calls
+  Map updated (2 rows changed)
+[Step 34] Key: l | PRNG: 38 calls
+  Map updated (4 rows changed)
+[Step 35] Key: l | PRNG: 44 calls
+  Msg: The kitten bites the lichen.  The lichen misses the kitten.
+  Map updated (1 rows changed)
+[Step 36] Key: l | PRNG: 24 calls
+  Msg: The kitten misses the lichen.
+  Map updated (1 rows changed)
+[Step 37] Key: l | PRNG: 33 calls
+  Msg: The kitten misses the lichen.
+  Map updated (1 rows changed)
+[Step 38] Key: l | PRNG: 49 calls
+  Msg: The kitten bites the lichen.  The lichen is killed!
+  Map updated (2 rows changed)
+[Step 39] Key: l | PRNG: 33 calls
+  Map updated (2 rows changed)
+[Step 40] Key: l | PRNG: 25 calls
+  Map updated (2 rows changed)
+[Step 41] Key: l | PRNG: 37 calls
+  Map updated (2 rows changed)
+[Step 42] Key: l | PRNG: 29 calls
+  Map updated (2 rows changed)
+[Step 43] Key: l | PRNG: 32 calls
+  Msg: The grid bug bites!  You get zapped!
+  Map updated (2 rows changed)
+[Step 44] Key: l | PRNG: 30 calls
+  Map updated (2 rows changed)
+[Step 45] Key: l | PRNG: 33 calls
+  Map updated (5 rows changed)
+[Step 46] Key: l | PRNG: 27 calls
+  Map updated (4 rows changed)
+[Step 47] Key: l | PRNG: 29 calls
+  Msg: You hear some noises in the distance.
+  Map updated (6 rows changed)
+[Step 48] Key: l | PRNG: 22 calls
+  Map updated (4 rows changed)
+[Step 49] Key: l | PRNG: 26 calls
+  Map updated (1 rows changed)
+[Step 50] Key: l | PRNG: 30 calls
+  Msg: It misses the grid bug.
+  Map updated (1 rows changed)
+[Step 51] Key: l | PRNG: 0 calls
+[Step 52] Key: u | PRNG: 0 calls
+[Step 53] Key: y | PRNG: 33 calls
+  Msg: The grid bug bites!  You get zapped!
+  Map updated (2 rows changed)
+[Step 54] Key: y | PRNG: 44 calls
+  Msg: It misses the grid bug.  It bites the grid bug.--More--
+  Map updated (3 rows changed)
+[Step 55] Key:   | PRNG: 13 calls
+  Msg: The grid bug is killed!
+  Map updated (1 rows changed)
+[Step 56] Key: n | PRNG: 19 calls
+  Msg: You miss the grid bug.  It bites the grid bug.--More--
+  Map updated (1 rows changed)
+[Step 57] Key:   | PRNG: 10 calls
+  Msg: The grid bug is killed!
+  Map updated (1 rows changed)
+[Step 58] Key: n | PRNG: 20 calls
+  Map updated (4 rows changed)
+[Step 59] Key: > | PRNG: 2721 calls
+  Msg: You descend the stairs.--More--
+[Step 60] Key:   | PRNG: 14 calls
+  Map updated (19 rows changed)
+  Status update: Brigid the Rambler             St:13 Dx:12 Co:16 In:13 Wi:6 Ch:17 Neutral | Dlvl:2 $:984 HP:10(10) Pw:2(2) AC:10 Xp:1
+[Step 61] Key: n | PRNG: 18 calls
+  Map updated (2 rows changed)
+[Step 62] Key: n | PRNG: 38 calls
+  Map updated (2 rows changed)
+[Step 63] Key: l | PRNG: 1 calls
+  Msg: The door opens.
+  Map updated (1 rows changed)
+[Step 64] Key: l | PRNG: 17 calls
+  Map updated (2 rows changed)
+[Step 65] Key: l | PRNG: 17 calls
+  Map updated (1 rows changed)
+[Step 66] Key: k | PRNG: 17 calls
+  Map updated (3 rows changed)
+[Step 67] Key: k | PRNG: 17 calls
+  Map updated (3 rows changed)
+[Step 68] Key: k | PRNG: 18 calls
+  Map updated (3 rows changed)
+[Step 69] Key: k | PRNG: 20 calls
+  Map updated (3 rows changed)
+[Step 70] Key: k | PRNG: 17 calls
+  Map updated (3 rows changed)
+[Step 71] Key: k | PRNG: 17 calls
+  Map updated (3 rows changed)
+[Step 72] Key: k | PRNG: 19 calls
+  Map updated (3 rows changed)
+[Step 73] Key: y | PRNG: 19 calls
+  Map updated (3 rows changed)
+[Step 74] Key: y | PRNG: 19 calls
+  Map updated (3 rows changed)
+[Step 75] Key: y | PRNG: 0 calls
+[Step 76] Key: y | PRNG: 0 calls
+[Step 77] Key: y | PRNG: 0 calls
+[Step 78] Key: y | PRNG: 0 calls
+[Step 79] Key: y | PRNG: 0 calls
+[Step 80] Key: y | PRNG: 0 calls
+[Step 81] Key: k | PRNG: 19 calls
+  Map updated (3 rows changed)
+[Step 82] Key: k | PRNG: 22 calls
+  Map updated (3 rows changed)
+[Step 83] Key: k | PRNG: 17 calls
+  Map updated (2 rows changed)
+[Step 84] Key: l | PRNG: 1 calls
+  Msg: The door opens.
+  Map updated (6 rows changed)
+[Step 85] Key: l | PRNG: 20 calls
+  Map updated (6 rows changed)
+[Step 86] Key: l | PRNG: 18 calls
+  Map updated (4 rows changed)
+[Step 87] Key: l | PRNG: 20 calls
+  Map updated (1 rows changed)
+[Step 88] Key: l | PRNG: 17 calls
+  Map updated (1 rows changed)
+[Step 89] Key: l | PRNG: 17 calls
+  Map updated (1 rows changed)
+[Step 90] Key: l | PRNG: 19 calls
+  Map updated (1 rows changed)
+[Step 91] Key: l | PRNG: 19 calls
+  Map updated (1 rows changed)
+[Step 92] Key: n | PRNG: 97 calls
+  Msg: That chest is a small mimic!
+  Map updated (1 rows changed)
+[Step 93] Key: n | PRNG: 25 calls
+  Msg: You miss the small mimic.
+[Step 94] Key: n | PRNG: 32 calls
+  Msg: You hit the small mimic.
+[Step 95] Key: n | PRNG: 29 calls
+  Msg: You miss the small mimic.--More--
+[Step 96] Key:   | PRNG: 3 calls
+  Msg: You hear the footsteps of a guard on patrol.
+[Step 97] Key: n | PRNG: 32 calls
+  Msg: You hit the small mimic.
+[Step 98] Key: n | PRNG: 34 calls
+  Msg: You hit the small mimic.
+[Step 99] Key: n | PRNG: 39 calls
+  Msg: You hit the small mimic.
+[Step 100] Key: n | PRNG: 36 calls
+  Msg: You hit the small mimic.
+[Step 101] Key: n | PRNG: 33 calls
+  Msg: You miss the small mimic.
+[Step 102] Key: n | PRNG: 38 calls
+  Msg: You miss the small mimic.  The small mimic hits!
+  Status update: Brigid the Rambler             St:13 Dx:12 Co:16 In:13 Wi:6 Ch:17 Neutral | Dlvl:2 $:984 HP:3(10) Pw:2(2) AC:10 Xp:1
+[Step 103] Key: n | PRNG: 34 calls
+  Msg: You hit the small mimic.
+[Step 104] Key: n | PRNG: 35 calls
+  Msg: You hit the small mimic.
+[Step 105] Key: n | PRNG: 35 calls
+  Msg: You hit the small mimic.
+[Step 106] Key: n | PRNG: 36 calls
+  Msg: You hit the small mimic.
+[Step 107] Key: n | PRNG: 35 calls
+  Msg: You hit the small mimic.
+[Step 108] Key: n | PRNG: 36 calls
+  Msg: You hit the small mimic.
+[Step 109] Key: n | PRNG: 23 calls
+  Msg: You hit the small mimic.  The small mimic hits!--More--
+  Status update: Brigid the Rambler             St:13 Dx:12 Co:16 In:13 Wi:6 Ch:17 Neutral | Dlvl:2 $:984 HP:0(10) Pw:2(2) AC:10 Xp:1
+[Step 110] Key: n | PRNG: 0 calls
+  Msg: You hit the small mimic.  The small mimic hits!--More--
+[Step 111] Key: n | PRNG: 0 calls
+  Msg: You hit the small mimic.  The small mimic hits!--More--
+[Step 112] Key: n | PRNG: 0 calls
+  Msg: You hit the small mimic.  The small mimic hits!--More--
+[Step 113] Key: n | PRNG: 0 calls
+  Msg: You hit the small mimic.  The small mimic hits!--More--
+[Step 114] Key: n | PRNG: 0 calls
+  Msg: You hit the small mimic.  The small mimic hits!--More--
+[Step 115] Key: n | PRNG: 0 calls
+  Msg: You hit the small mimic.  The small mimic hits!--More--
+[Step 116] Key: n | PRNG: 0 calls
+  Msg: You hit the small mimic.  The small mimic hits!--More--
+[Step 117] Key: y | PRNG: 0 calls
+  Msg: You hit the small mimic.  The small mimic hits!--More--
+[Step 118] Key:   | PRNG: 1 calls
+  Msg: You die...--More--
+[Step 119] Key: y | PRNG: 0 calls
+  Msg: You die...--More--
+[Step 120] Key:   | PRNG: 0 calls
+  Map updated (21 rows changed)
+  Status update: You were level 1 with a maximum of 10 hit points when you died. | --More--
+[Step 121] Key:   | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update:  | --More--
+[Step 122] Key: y | PRNG: 0 calls
+[Step 123] Key:   | PRNG: 0 calls
+  Map updated (6 rows changed)
+  Status update:  | 
+
+=== SEGMENT 2 ===
+[Step 0] Key: NULL (Init) | PRNG: 2261 calls
+  Msg: Hello Aleric, welcome to NetHack!  You are a chaotic male elven Wizard.
+  Status: Aleric the Evoker              St:8 Dx:13 Co:13 In:20 Wi:12 Ch:9 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:9(9) AC:9 Xp:1
+[Step 1] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 2] Key: k | PRNG: 9 calls
+  Map updated (2 rows changed)
+[Step 3] Key: b | PRNG: 35 calls
+  Map updated (2 rows changed)
+[Step 4] Key: h | PRNG: 24 calls
+  Map updated (1 rows changed)
+[Step 5] Key: h | PRNG: 20 calls
+  Map updated (1 rows changed)
+[Step 6] Key: h | PRNG: 26 calls
+  Map updated (2 rows changed)
+[Step 7] Key: b | PRNG: 43 calls
+  Map updated (3 rows changed)
+[Step 8] Key: b | PRNG: 32 calls
+  Map updated (3 rows changed)
+[Step 9] Key: j | PRNG: 35 calls
+  Map updated (3 rows changed)
+[Step 10] Key: b | PRNG: 37 calls
+  Map updated (2 rows changed)
+[Step 11] Key: h | PRNG: 37 calls
+  Map updated (1 rows changed)
+[Step 12] Key: h | PRNG: 27 calls
+  Map updated (2 rows changed)
+[Step 13] Key: b | PRNG: 27 calls
+  Map updated (3 rows changed)
+[Step 14] Key: b | PRNG: 33 calls
+  Map updated (3 rows changed)
+[Step 15] Key: j | PRNG: 27 calls
+  Map updated (8 rows changed)
+[Step 16] Key: n | PRNG: 21 calls
+  Map updated (4 rows changed)
+[Step 17] Key: n | PRNG: 38 calls
+  Map updated (6 rows changed)
+[Step 18] Key: j | PRNG: 30 calls
+  Map updated (6 rows changed)
+[Step 19] Key: j | PRNG: 41 calls
+  Map updated (5 rows changed)
+[Step 20] Key: l | PRNG: 27 calls
+  Map updated (1 rows changed)
+[Step 21] Key: l | PRNG: 62 calls
+  Msg: You kill the kobold!
+  Map updated (1 rows changed)
+[Step 22] Key: l | PRNG: 38 calls
+  Msg: There is a staircase down here.  You see here a kobold corpse.
+  Map updated (1 rows changed)
+[Step 23] Key: e | PRNG: 0 calls
+  Msg: There is a kobold corpse here; eat it? [ynq] (n)
+[Step 24] Key: y | PRNG: 277 calls
+  Msg: Ecch - that must have been poisonous!--More--
+  Status update: Aleric the Evoker              St:4 Dx:13 Co:13 In:20 Wi:12 Ch:9 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:9(9) AC:9 Xp:1
+[Step 25] Key:   | PRNG: 29 calls
+  Msg: You finish eating the kobold corpse.
+[Step 26] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 27] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 28] Key: > | PRNG: 2643 calls
+  Msg: You descend the stairs.--More--
+[Step 29] Key:   | PRNG: 7 calls
+  Map updated (19 rows changed)
+  Status update: Aleric the Evoker              St:4 Dx:13 Co:13 In:20 Wi:12 Ch:9 Chaotic | Dlvl:2 $:0 HP:11(11) Pw:9(9) AC:9 Xp:1
+[Step 30] Key: y | PRNG: 0 calls
+[Step 31] Key: y | PRNG: 0 calls
+[Step 32] Key: y | PRNG: 0 calls
+[Step 33] Key: y | PRNG: 0 calls
+[Step 34] Key: h | PRNG: 13 calls
+  Map updated (2 rows changed)
+[Step 35] Key: h | PRNG: 13 calls
+  Map updated (1 rows changed)
+[Step 36] Key: h | PRNG: 16 calls
+  Map updated (3 rows changed)
+[Step 37] Key: h | PRNG: 19 calls
+  Map updated (3 rows changed)
+[Step 38] Key: h | PRNG: 0 calls
+[Step 39] Key: h | PRNG: 0 calls
+[Step 40] Key: h | PRNG: 0 calls
+[Step 41] Key: b | PRNG: 13 calls
+  Map updated (2 rows changed)
+[Step 42] Key: b | PRNG: 0 calls
+[Step 43] Key: b | PRNG: 0 calls
+[Step 44] Key: b | PRNG: 0 calls
+[Step 45] Key: h | PRNG: 16 calls
+  Map updated (1 rows changed)
+[Step 46] Key: h | PRNG: 19 calls
+  Map updated (1 rows changed)
+[Step 47] Key: h | PRNG: 19 calls
+  Map updated (1 rows changed)
+[Step 48] Key: h | PRNG: 16 calls
+  Map updated (2 rows changed)
+[Step 49] Key: h | PRNG: 16 calls
+  Map updated (2 rows changed)
+[Step 50] Key: y | PRNG: 0 calls
+[Step 51] Key: y | PRNG: 0 calls
+[Step 52] Key: h | PRNG: 0 calls
+[Step 53] Key: y | PRNG: 0 calls
+[Step 54] Key: h | PRNG: 0 calls
+[Step 55] Key: h | PRNG: 0 calls
+[Step 56] Key: b | PRNG: 13 calls
+  Map updated (3 rows changed)
+[Step 57] Key: n | PRNG: 0 calls
+[Step 58] Key: F | PRNG: 0 calls
+[Step 59] Key: l | PRNG: 16 calls
+  Msg: You attack thin air.  The goblin hits!
+  Map updated (1 rows changed)
+  Status update: Aleric the Evoker              St:4 Dx:13 Co:13 In:20 Wi:12 Ch:9 Chaotic | Dlvl:2 $:0 HP:9(11) Pw:9(9) AC:9 Xp:1
+[Step 60] Key: F | PRNG: 0 calls
+[Step 61] Key: l | PRNG: 14 calls
+  Msg: You attack thin air.
+  Map updated (1 rows changed)
+[Step 62] Key: F | PRNG: 0 calls
+[Step 63] Key: l | PRNG: 13 calls
+  Msg: You attack thin air.  The goblin just misses!
+  Map updated (1 rows changed)
+[Step 64] Key: F | PRNG: 0 calls
+[Step 65] Key: l | PRNG: 14 calls
+  Msg: You attack thin air.
+  Map updated (1 rows changed)
+[Step 66] Key: F | PRNG: 0 calls
+[Step 67] Key: l | PRNG: 15 calls
+  Msg: You attack thin air.  The goblin hits!
+  Map updated (1 rows changed)
+  Status update: Aleric the Evoker              St:4 Dx:13 Co:13 In:20 Wi:12 Ch:9 Chaotic | Dlvl:2 $:0 HP:7(11) Pw:9(9) AC:9 Xp:1
+[Step 68] Key: F | PRNG: 0 calls
+[Step 69] Key: l | PRNG: 15 calls
+  Msg: You attack thin air.
+  Map updated (2 rows changed)
+[Step 70] Key: F | PRNG: 0 calls
+[Step 71] Key: l | PRNG: 19 calls
+  Msg: You attack thin air.  The goblin hits!
+  Map updated (1 rows changed)
+  Status update: Aleric the Evoker              St:4 Dx:13 Co:13 In:20 Wi:12 Ch:9 Chaotic | Dlvl:2 $:0 HP:4(11) Pw:9(9) AC:9 Xp:1
+[Step 72] Key: F | PRNG: 0 calls
+[Step 73] Key: l | PRNG: 15 calls
+  Msg: You attack thin air.
+  Map updated (2 rows changed)
+[Step 74] Key: F | PRNG: 0 calls
+[Step 75] Key: l | PRNG: 15 calls
+  Msg: You attack thin air.
+  Map updated (1 rows changed)
+[Step 76] Key: F | PRNG: 0 calls
+[Step 77] Key: l | PRNG: 20 calls
+  Msg: You attack thin air.  The goblin hits!
+  Map updated (1 rows changed)
+  Status update: Aleric the Evoker              St:4 Dx:13 Co:13 In:20 Wi:12 Ch:9 Chaotic | Dlvl:2 $:0 HP:1(11) Pw:9(9) AC:9 Xp:1
+[Step 78] Key: F | PRNG: 0 calls
+[Step 79] Key: l | PRNG: 5 calls
+  Msg: You attack thin air.  The goblin hits!--More--
+  Status update: Aleric the Evoker              St:4 Dx:13 Co:13 In:20 Wi:12 Ch:9 Chaotic | Dlvl:2 $:0 HP:0(11) Pw:9(9) AC:9 Xp:1
+[Step 80] Key: F | PRNG: 0 calls
+  Msg: You attack thin air.  The goblin hits!--More--
+[Step 81] Key: l | PRNG: 0 calls
+  Msg: You attack thin air.  The goblin hits!--More--
+[Step 82] Key: F | PRNG: 0 calls
+  Msg: You attack thin air.  The goblin hits!--More--
+[Step 83] Key: l | PRNG: 0 calls
+  Msg: You attack thin air.  The goblin hits!--More--
+[Step 84] Key: F | PRNG: 0 calls
+  Msg: You attack thin air.  The goblin hits!--More--
+[Step 85] Key: l | PRNG: 0 calls
+  Msg: You attack thin air.  The goblin hits!--More--
+[Step 86] Key: y | PRNG: 0 calls
+  Msg: You attack thin air.  The goblin hits!--More--
+[Step 87] Key:   | PRNG: 1 calls
+  Msg: You die...--More--
+[Step 88] Key: y | PRNG: 0 calls
+  Msg: You die...--More--
+[Step 89] Key:   | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update: You were level 1 with a maximum of 11 hit points when you died. | --More--
+[Step 90] Key:   | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update:  | --More--
+[Step 91] Key: y | PRNG: 0 calls
+[Step 92] Key:   | PRNG: 0 calls
+  Map updated (8 rows changed)
+  Status update:  | 
+
+=== SEGMENT 3 ===
+[Step 0] Key: NULL (Init) | PRNG: 2828 calls
+  Msg: Hello Beatrix, welcome to NetHack!  You are a chaotic female elven Wizard.
+  Status: Beatrix the Evoker             St:10 Dx:13 Co:12 In:20 Wi:8 Ch:12 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:8(8) AC:9 Xp:1
+[Step 1] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 2] Key: k | PRNG: 0 calls
+[Step 3] Key: l | PRNG: 6 calls
+  Msg: You swap places with your kitten.
+  Map updated (1 rows changed)
+[Step 4] Key: h | PRNG: 14 calls
+  Msg: You swap places with your kitten.
+  Map updated (2 rows changed)
+[Step 5] Key: h | PRNG: 16 calls
+  Map updated (3 rows changed)
+[Step 6] Key: h | PRNG: 13 calls
+  Map updated (3 rows changed)
+[Step 7] Key: h | PRNG: 24 calls
+  Map updated (3 rows changed)
+[Step 8] Key: h | PRNG: 35 calls
+  Msg: The kitten picks up a gold piece.
+  Map updated (3 rows changed)
+[Step 9] Key: h | PRNG: 25 calls
+  Msg: You see here a spear.
+  Map updated (3 rows changed)
+[Step 10] Key: h | PRNG: 35 calls
+  Map updated (2 rows changed)
+[Step 11] Key: h | PRNG: 35 calls
+  Map updated (2 rows changed)
+[Step 12] Key: h | PRNG: 32 calls
+  Map updated (2 rows changed)
+[Step 13] Key: h | PRNG: 18 calls
+  Map updated (2 rows changed)
+[Step 14] Key: b | PRNG: 13 calls
+  Map updated (3 rows changed)
+[Step 15] Key: b | PRNG: 15 calls
+  Map updated (4 rows changed)
+[Step 16] Key: b | PRNG: 11 calls
+  Map updated (4 rows changed)
+[Step 17] Key: h | PRNG: 17 calls
+  Map updated (2 rows changed)
+[Step 18] Key: b | PRNG: 21 calls
+  Map updated (3 rows changed)
+[Step 19] Key: b | PRNG: 15 calls
+  Map updated (5 rows changed)
+[Step 20] Key: h | PRNG: 15 calls
+  Map updated (3 rows changed)
+[Step 21] Key: h | PRNG: 25 calls
+  Map updated (2 rows changed)
+[Step 22] Key: h | PRNG: 21 calls
+  Map updated (4 rows changed)
+[Step 23] Key: h | PRNG: 16 calls
+  Map updated (5 rows changed)
+[Step 24] Key: h | PRNG: 41 calls
+  Map updated (3 rows changed)
+[Step 25] Key: h | PRNG: 15 calls
+  Map updated (1 rows changed)
+[Step 26] Key: h | PRNG: 23 calls
+  Map updated (1 rows changed)
+[Step 27] Key: h | PRNG: 30 calls
+  Map updated (2 rows changed)
+[Step 28] Key: h | PRNG: 16 calls
+  Msg: You see here a large box.
+  Map updated (2 rows changed)
+[Step 29] Key: k | PRNG: 19 calls
+  Map updated (4 rows changed)
+[Step 30] Key: k | PRNG: 29 calls
+  Map updated (4 rows changed)
+[Step 31] Key: k | PRNG: 39 calls
+  Map updated (3 rows changed)
+[Step 32] Key: k | PRNG: 24 calls
+  Map updated (4 rows changed)
+[Step 33] Key: u | PRNG: 13 calls
+  Map updated (3 rows changed)
+[Step 34] Key: l | PRNG: 14 calls
+  Map updated (2 rows changed)
+[Step 35] Key: l | PRNG: 10 calls
+  Map updated (1 rows changed)
+[Step 36] Key: l | PRNG: 10 calls
+  Map updated (4 rows changed)
+[Step 37] Key: u | PRNG: 18 calls
+  Map updated (2 rows changed)
+[Step 38] Key: l | PRNG: 13 calls
+  Map updated (4 rows changed)
+[Step 39] Key: l | PRNG: 35 calls
+  Map updated (6 rows changed)
+[Step 40] Key: k | PRNG: 15 calls
+  Map updated (8 rows changed)
+[Step 41] Key: k | PRNG: 37 calls
+  Map updated (8 rows changed)
+[Step 42] Key: y | PRNG: 17 calls
+  Map updated (3 rows changed)
+[Step 43] Key: y | PRNG: 19 calls
+  Map updated (4 rows changed)
+[Step 44] Key: y | PRNG: 41 calls
+  Map updated (4 rows changed)
+[Step 45] Key: h | PRNG: 26 calls
+  Map updated (2 rows changed)
+[Step 46] Key: b | PRNG: 21 calls
+  Map updated (2 rows changed)
+[Step 47] Key: b | PRNG: 22 calls
+  Map updated (2 rows changed)
+[Step 48] Key: b | PRNG: 24 calls
+  Map updated (2 rows changed)
+[Step 49] Key: h | PRNG: 21 calls
+  Map updated (1 rows changed)
+[Step 50] Key: h | PRNG: 13 calls
+  Map updated (1 rows changed)
+[Step 51] Key: y | PRNG: 26 calls
+  Map updated (2 rows changed)
+[Step 52] Key: y | PRNG: 19 calls
+  Map updated (2 rows changed)
+[Step 53] Key: y | PRNG: 19 calls
+  Map updated (2 rows changed)
+[Step 54] Key: h | PRNG: 15 calls
+  Map updated (2 rows changed)
+[Step 55] Key: h | PRNG: 14 calls
+  Map updated (1 rows changed)
+[Step 56] Key: j | PRNG: 18 calls
+  Map updated (3 rows changed)
+[Step 57] Key: j | PRNG: 24 calls
+  Map updated (3 rows changed)
+[Step 58] Key: j | PRNG: 24 calls
+  Map updated (3 rows changed)
+[Step 59] Key: j | PRNG: 23 calls
+  Map updated (3 rows changed)
+[Step 60] Key: j | PRNG: 14 calls
+  Map updated (3 rows changed)
+[Step 61] Key: j | PRNG: 26 calls
+  Map updated (3 rows changed)
+[Step 62] Key: j | PRNG: 15 calls
+  Map updated (3 rows changed)
+[Step 63] Key: j | PRNG: 16 calls
+  Map updated (3 rows changed)
+[Step 64] Key: j | PRNG: 16 calls
+  Map updated (4 rows changed)
+[Step 65] Key: b | PRNG: 19 calls
+  Map updated (3 rows changed)
+[Step 66] Key: j | PRNG: 12 calls
+  Map updated (5 rows changed)
+[Step 67] Key: j | PRNG: 19 calls
+  Map updated (4 rows changed)
+[Step 68] Key: h | PRNG: 28 calls
+  Map updated (3 rows changed)
+[Step 69] Key: h | PRNG: 0 calls
+  Msg: Things that are here:
+  Map updated (5 rows changed)
+[Step 70] Key:   | PRNG: 21 calls
+  Map updated (5 rows changed)
+[Step 71] Key: j | PRNG: 16 calls
+  Map updated (2 rows changed)
+[Step 72] Key: > | PRNG: 2851 calls
+  Msg: You descend the stairs.--More--
+[Step 73] Key:   | PRNG: 12 calls
+  Map updated (17 rows changed)
+  Status update: Beatrix the Evoker             St:10 Dx:13 Co:12 In:20 Wi:8 Ch:12 Chaotic | Dlvl:2 $:0 HP:11(11) Pw:8(8) AC:9 Xp:1
+[Step 74] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 75] Key: u | PRNG: 17 calls
+  Map updated (4 rows changed)
+[Step 76] Key: u | PRNG: 19 calls
+  Map updated (5 rows changed)
+[Step 77] Key: u | PRNG: 63 calls
+  Map updated (5 rows changed)
+[Step 78] Key: n | PRNG: 20 calls
+  Map updated (2 rows changed)
+[Step 79] Key: l | PRNG: 24 calls
+  Map updated (1 rows changed)
+[Step 80] Key: l | PRNG: 29 calls
+  Map updated (2 rows changed)
+[Step 81] Key: l | PRNG: 29 calls
+  Map updated (1 rows changed)
+[Step 82] Key: l | PRNG: 26 calls
+  Map updated (1 rows changed)
+[Step 83] Key: l | PRNG: 26 calls
+  Map updated (1 rows changed)
+[Step 84] Key: l | PRNG: 27 calls
+  Map updated (1 rows changed)
+[Step 85] Key: l | PRNG: 31 calls
+  Map updated (2 rows changed)
+[Step 86] Key: l | PRNG: 29 calls
+  Map updated (2 rows changed)
+[Step 87] Key: n | PRNG: 23 calls
+  Map updated (2 rows changed)
+[Step 88] Key: l | PRNG: 29 calls
+  Map updated (1 rows changed)
+[Step 89] Key: l | PRNG: 25 calls
+  Map updated (1 rows changed)
+[Step 90] Key: l | PRNG: 29 calls
+  Msg: The newt bites!
+  Map updated (1 rows changed)
+  Status update: Beatrix the Evoker             St:10 Dx:13 Co:12 In:20 Wi:8 Ch:12 Chaotic | Dlvl:2 $:0 HP:10(11) Pw:8(8) AC:9 Xp:1
+[Step 91] Key: l | PRNG: 29 calls
+  Msg: You miss the newt.
+[Step 92] Key: l | PRNG: 35 calls
+  Msg: You miss the newt.  The newt bites!
+  Status update: Beatrix the Evoker             St:10 Dx:13 Co:12 In:20 Wi:8 Ch:12 Chaotic | Dlvl:2 $:0 HP:8(11) Pw:8(8) AC:9 Xp:1
+[Step 93] Key: l | PRNG: 36 calls
+  Msg: You hit the newt.
+[Step 94] Key: l | PRNG: 35 calls
+  Msg: You kill the newt!
+  Map updated (1 rows changed)
+[Step 95] Key: u | PRNG: 0 calls
+[Step 96] Key: u | PRNG: 0 calls
+[Step 97] Key: l | PRNG: 23 calls
+  Map updated (3 rows changed)
+[Step 98] Key: l | PRNG: 26 calls
+  Map updated (1 rows changed)
+[Step 99] Key: l | PRNG: 23 calls
+  Map updated (1 rows changed)
+[Step 100] Key: l | PRNG: 25 calls
+  Map updated (2 rows changed)
+[Step 101] Key: u | PRNG: 0 calls
+[Step 102] Key: l | PRNG: 27 calls
+  Map updated (1 rows changed)
+[Step 103] Key: l | PRNG: 0 calls
+[Step 104] Key: l | PRNG: 0 calls
+[Step 105] Key: l | PRNG: 0 calls
+[Step 106] Key: s | PRNG: 23 calls
+[Step 107] Key: s | PRNG: 29 calls
+[Step 108] Key: s | PRNG: 24 calls
+  Map updated (1 rows changed)
+[Step 109] Key: s | PRNG: 24 calls
+  Map updated (1 rows changed)
+[Step 110] Key: s | PRNG: 28 calls
+  Map updated (1 rows changed)
+[Step 111] Key: s | PRNG: 0 calls
+  Msg: You already found a monster.  Use 'm' prefix to force another search.
+[Step 112] Key: s | PRNG: 0 calls
+[Step 113] Key: s | PRNG: 0 calls
+[Step 114] Key: s | PRNG: 0 calls
+[Step 115] Key: s | PRNG: 0 calls
+[Step 116] Key: s | PRNG: 0 calls
+[Step 117] Key: s | PRNG: 0 calls
+[Step 118] Key: s | PRNG: 0 calls
+[Step 119] Key: s | PRNG: 0 calls
+[Step 120] Key: s | PRNG: 0 calls
+[Step 121] Key: s | PRNG: 0 calls
+[Step 122] Key: s | PRNG: 0 calls
+[Step 123] Key: s | PRNG: 0 calls
+[Step 124] Key: s | PRNG: 0 calls
+[Step 125] Key: s | PRNG: 0 calls
+[Step 126] Key: . | PRNG: 0 calls
+  Msg: Are you waiting to get hit?  Use 'm' prefix to force a no-op (to rest).
+[Step 127] Key: h | PRNG: 31 calls
+  Msg: You miss the grid bug.  The grid bug bites!  You get zapped!
+  Status update: Beatrix the Evoker             St:10 Dx:13 Co:12 In:20 Wi:8 Ch:12 Chaotic | Dlvl:2 $:0 HP:7(11) Pw:8(8) AC:9 Xp:1
+[Step 128] Key: h | PRNG: 34 calls
+  Msg: You miss the grid bug.  The grid bug bites!  You get zapped!
+  Status update: Beatrix the Evoker             St:10 Dx:13 Co:12 In:20 Wi:8 Ch:12 Chaotic | Dlvl:2 $:0 HP:6(11) Pw:8(8) AC:9 Xp:1
+[Step 129] Key: h | PRNG: 25 calls
+  Msg: You kill the grid bug!
+  Map updated (1 rows changed)
+[Step 130] Key: h | PRNG: 21 calls
+  Map updated (1 rows changed)
+[Step 131] Key: y | PRNG: 0 calls
+[Step 132] Key: u | PRNG: 0 calls
+[Step 133] Key: l | PRNG: 21 calls
+  Map updated (1 rows changed)
+[Step 134] Key: l | PRNG: 0 calls
+[Step 135] Key: l | PRNG: 0 calls
+[Step 136] Key: l | PRNG: 0 calls
+[Step 137] Key: s | PRNG: 22 calls
+[Step 138] Key: s | PRNG: 20 calls
+[Step 139] Key: s | PRNG: 23 calls
+  Status update: Beatrix the Evoker             St:10 Dx:13 Co:12 In:20 Wi:8 Ch:12 Chaotic | Dlvl:2 $:0 HP:7(11) Pw:8(8) AC:9 Xp:1
+[Step 140] Key: s | PRNG: 19 calls
+[Step 141] Key: s | PRNG: 22 calls
+[Step 142] Key: s | PRNG: 19 calls
+  Status update: Beatrix the Evoker             St:10 Dx:13 Co:12 In:20 Wi:8 Ch:12 Chaotic | Dlvl:2 $:0 HP:8(11) Pw:8(8) AC:9 Xp:1
+[Step 143] Key: s | PRNG: 19 calls
+  Status update: Beatrix the Evoker             St:10 Dx:13 Co:12 In:20 Wi:8 Ch:12 Chaotic | Dlvl:2 $:0 HP:9(11) Pw:8(8) AC:9 Xp:1
+[Step 144] Key: s | PRNG: 23 calls
+  Status update: Beatrix the Evoker             St:10 Dx:13 Co:12 In:20 Wi:8 Ch:12 Chaotic | Dlvl:2 $:0 HP:10(11) Pw:8(8) AC:9 Xp:1
+[Step 145] Key: s | PRNG: 22 calls
+[Step 146] Key: s | PRNG: 22 calls
+[Step 147] Key: s | PRNG: 20 calls
+[Step 148] Key: s | PRNG: 19 calls
+[Step 149] Key: s | PRNG: 24 calls
+[Step 150] Key: s | PRNG: 20 calls
+[Step 151] Key: s | PRNG: 20 calls
+[Step 152] Key: s | PRNG: 20 calls
+  Msg: You hear bubbling water.
+  Map updated (1 rows changed)
+[Step 153] Key: s | PRNG: 19 calls
+  Map updated (1 rows changed)
+[Step 154] Key: s | PRNG: 0 calls
+  Msg: You already found a monster.  Use 'm' prefix to force another search.
+[Step 155] Key: s | PRNG: 0 calls
+[Step 156] Key: s | PRNG: 0 calls
+[Step 157] Key: . | PRNG: 0 calls
+  Msg: Are you waiting to get hit?  Use 'm' prefix to force a no-op (to rest).
+[Step 158] Key: h | PRNG: 28 calls
+  Msg: You miss the jackal.  The jackal bites!
+[Step 159] Key: h | PRNG: 22 calls
+  Msg: You kill the jackal!
+  Map updated (1 rows changed)
+[Step 160] Key: h | PRNG: 15 calls
+  Map updated (1 rows changed)
+[Step 161] Key: y | PRNG: 0 calls
+[Step 162] Key: u | PRNG: 0 calls
+[Step 163] Key: l | PRNG: 20 calls
+  Map updated (1 rows changed)
+[Step 164] Key: l | PRNG: 0 calls
+[Step 165] Key: l | PRNG: 0 calls
+[Step 166] Key: l | PRNG: 0 calls
+[Step 167] Key: s | PRNG: 15 calls
+[Step 168] Key: s | PRNG: 15 calls
+[Step 169] Key: s | PRNG: 20 calls
+  Map updated (1 rows changed)
+[Step 170] Key: s | PRNG: 0 calls
+  Msg: You already found a monster.  Use 'm' prefix to force another search.
+[Step 171] Key: s | PRNG: 0 calls
+[Step 172] Key: s | PRNG: 0 calls
+[Step 173] Key: s | PRNG: 0 calls
+[Step 174] Key: s | PRNG: 0 calls
+[Step 175] Key: s | PRNG: 0 calls
+[Step 176] Key: s | PRNG: 0 calls
+[Step 177] Key: s | PRNG: 0 calls
+[Step 178] Key: s | PRNG: 0 calls
+[Step 179] Key: s | PRNG: 0 calls
+[Step 180] Key: s | PRNG: 0 calls
+[Step 181] Key: s | PRNG: 0 calls
+[Step 182] Key: s | PRNG: 0 calls
+[Step 183] Key: s | PRNG: 0 calls
+[Step 184] Key: s | PRNG: 0 calls
+[Step 185] Key: s | PRNG: 0 calls
+[Step 186] Key: s | PRNG: 0 calls
+[Step 187] Key: . | PRNG: 0 calls
+  Msg: Are you waiting to get hit?  Use 'm' prefix to force a no-op (to rest).
+[Step 188] Key: h | PRNG: 26 calls
+  Msg: You kill the newt!
+  Map updated (1 rows changed)
+[Step 189] Key: h | PRNG: 16 calls
+  Msg: You see here a whistle.
+  Map updated (1 rows changed)
+[Step 190] Key: y | PRNG: 0 calls
+[Step 191] Key: b | PRNG: 0 calls
+[Step 192] Key: h | PRNG: 16 calls
+  Map updated (1 rows changed)
+[Step 193] Key: h | PRNG: 16 calls
+  Map updated (1 rows changed)
+[Step 194] Key: h | PRNG: 14 calls
+  Map updated (1 rows changed)
+[Step 195] Key: h | PRNG: 13 calls
+  Map updated (1 rows changed)
+[Step 196] Key: y | PRNG: 0 calls
+[Step 197] Key: h | PRNG: 14 calls
+  Map updated (1 rows changed)
+[Step 198] Key: h | PRNG: 14 calls
+  Map updated (1 rows changed)
+[Step 199] Key: h | PRNG: 14 calls
+  Map updated (1 rows changed)
+[Step 200] Key: h | PRNG: 14 calls
+  Map updated (1 rows changed)
+[Step 201] Key: h | PRNG: 0 calls
+[Step 202] Key: h | PRNG: 0 calls
+[Step 203] Key: h | PRNG: 0 calls
+[Step 204] Key: s | PRNG: 17 calls
+[Step 205] Key: s | PRNG: 14 calls
+[Step 206] Key: s | PRNG: 14 calls
+[Step 207] Key: s | PRNG: 14 calls
+[Step 208] Key: s | PRNG: 14 calls
+[Step 209] Key: s | PRNG: 17 calls
+  Status update: Beatrix the Evoker             St:10 Dx:13 Co:12 In:20 Wi:8 Ch:12 Chaotic | Dlvl:2 $:0 HP:11(11) Pw:8(8) AC:9 Xp:1
+[Step 210] Key: s | PRNG: 13 calls
+[Step 211] Key: s | PRNG: 15 calls
+[Step 212] Key: s | PRNG: 13 calls
+[Step 213] Key: s | PRNG: 15 calls
+[Step 214] Key: s | PRNG: 14 calls
+[Step 215] Key: s | PRNG: 13 calls
+[Step 216] Key: s | PRNG: 13 calls
+[Step 217] Key: s | PRNG: 12 calls
+[Step 218] Key: s | PRNG: 13 calls
+[Step 219] Key: s | PRNG: 12 calls
+[Step 220] Key: s | PRNG: 13 calls
+[Step 221] Key: s | PRNG: 50 calls
+[Step 222] Key: s | PRNG: 14 calls
+[Step 223] Key: s | PRNG: 15 calls
+[Step 224] Key: . | PRNG: 18 calls
+[Step 225] Key: y | PRNG: 19 calls
+  Map updated (2 rows changed)
+[Step 226] Key: h | PRNG: 20 calls
+  Map updated (1 rows changed)
+[Step 227] Key: h | PRNG: 18 calls
+  Map updated (1 rows changed)
+[Step 228] Key: h | PRNG: 16 calls
+  Map updated (1 rows changed)
+[Step 229] Key: h | PRNG: 17 calls
+  Map updated (1 rows changed)
+[Step 230] Key: h | PRNG: 17 calls
+  Map updated (1 rows changed)
+[Step 231] Key: h | PRNG: 14 calls
+  Map updated (1 rows changed)
+[Step 232] Key: h | PRNG: 46 calls
+  Msg: You kill the goblin!
+  Map updated (1 rows changed)
+[Step 233] Key: y | PRNG: 13 calls
+  Map updated (2 rows changed)
+[Step 234] Key: y | PRNG: 16 calls
+  Map updated (2 rows changed)
+[Step 235] Key: h | PRNG: 15 calls
+  Map updated (1 rows changed)
+[Step 236] Key: h | PRNG: 15 calls
+  Map updated (2 rows changed)
+[Step 237] Key: h | PRNG: 13 calls
+  Map updated (1 rows changed)
+[Step 238] Key: b | PRNG: 0 calls
+[Step 239] Key: b | PRNG: 0 calls
+[Step 240] Key: j | PRNG: 15 calls
+  Map updated (2 rows changed)
+[Step 241] Key: j | PRNG: 0 calls
+[Step 242] Key: b | PRNG: 0 calls
+[Step 243] Key: h | PRNG: 0 calls
+[Step 244] Key: s | PRNG: 14 calls
+[Step 245] Key: s | PRNG: 16 calls
+[Step 246] Key: s | PRNG: 16 calls
+[Step 247] Key: s | PRNG: 17 calls
+  Msg: You find a hidden door.
+  Map updated (1 rows changed)
+[Step 248] Key: s | PRNG: 13 calls
+[Step 249] Key: s | PRNG: 16 calls
+[Step 250] Key: s | PRNG: 13 calls
+[Step 251] Key: s | PRNG: 13 calls
+[Step 252] Key: s | PRNG: 13 calls
+[Step 253] Key: s | PRNG: 13 calls
+[Step 254] Key: s | PRNG: 14 calls
+  Msg: You hear someone cursing shoplifters.
+[Step 255] Key: s | PRNG: 13 calls
+[Step 256] Key: s | PRNG: 15 calls
+[Step 257] Key: s | PRNG: 15 calls
+[Step 258] Key: s | PRNG: 13 calls
+[Step 259] Key: s | PRNG: 16 calls
+[Step 260] Key: s | PRNG: 13 calls
+[Step 261] Key: s | PRNG: 15 calls
+[Step 262] Key: s | PRNG: 43 calls
+[Step 263] Key: s | PRNG: 14 calls
+[Step 264] Key: . | PRNG: 16 calls
+[Step 265] Key: y | PRNG: 17 calls
+  Map updated (2 rows changed)
+[Step 266] Key: b | PRNG: 17 calls
+  Map updated (3 rows changed)
+[Step 267] Key: b | PRNG: 17 calls
+  Map updated (3 rows changed)
+[Step 268] Key: j | PRNG: 19 calls
+  Map updated (3 rows changed)
+[Step 269] Key: j | PRNG: 15 calls
+  Map updated (3 rows changed)
+[Step 270] Key: b | PRNG: 20 calls
+  Map updated (5 rows changed)
+[Step 271] Key: h | PRNG: 21 calls
+  Map updated (5 rows changed)
+[Step 272] Key: h | PRNG: 20 calls
+  Map updated (5 rows changed)
+[Step 273] Key: h | PRNG: 15 calls
+  Msg: You hear a distant zap.
+  Map updated (5 rows changed)
+[Step 274] Key: h | PRNG: 20 calls
+  Map updated (5 rows changed)
+[Step 275] Key: h | PRNG: 16 calls
+  Map updated (5 rows changed)
+[Step 276] Key: h | PRNG: 16 calls
+  Map updated (5 rows changed)
+[Step 277] Key: h | PRNG: 17 calls
+  Msg: "Hello, Beatrix!  Welcome to Maganasipi's general store!"
+  Map updated (5 rows changed)
+[Step 278] Key: h | PRNG: 16 calls
+  Map updated (4 rows changed)
+[Step 279] Key: F | PRNG: 0 calls
+[Step 280] Key: h | PRNG: 5 calls
+  Msg: You miss Maganasipi.  Maganasipi gets angry!--More--
+[Step 281] Key: F | PRNG: 0 calls
+  Msg: You miss Maganasipi.  Maganasipi gets angry!--More--
+[Step 282] Key: h | PRNG: 0 calls
+  Msg: You miss Maganasipi.  Maganasipi gets angry!--More--
+[Step 283] Key: y | PRNG: 0 calls
+  Msg: You miss Maganasipi.  Maganasipi gets angry!--More--
+[Step 284] Key:   | PRNG: 10 calls
+  Msg: Maganasipi zaps a long wand!  Boing!  Maganasipi hits!--More--
+[Step 285] Key: y | PRNG: 0 calls
+  Msg: Maganasipi zaps a long wand!  Boing!  Maganasipi hits!--More--
+[Step 286] Key:   | PRNG: 1 calls
+  Msg: You die...  Maganasipi takes all your possessions.--More--
+  Status update: Beatrix the Evoker             St:10 Dx:13 Co:12 In:20 Wi:8 Ch:12 Chaotic | Dlvl:2 $:0 HP:0(11) Pw:8(8) AC:9 Xp:1
+[Step 287] Key:   | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update: You were level 1 with a maximum of 11 hit points when you died. | --More--
+[Step 288] Key: y | PRNG: 0 calls
+[Step 289] Key:   | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update:  | --More--
+[Step 290] Key:   | PRNG: 0 calls
+  Map updated (11 rows changed)
+  Status update:  | 
+
+=== SEGMENT 4 ===
+[Step 0] Key: NULL (Init) | PRNG: 2457 calls
+  Msg: Hello Caspar, welcome to NetHack!  You are a chaotic male elven Wizard.
+  Status: Caspar the Evoker              St:10 Dx:12 Co:14 In:20 Wi:9 Ch:10 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1
+[Step 1] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 2] Key: k | PRNG: 0 calls
+[Step 3] Key: l | PRNG: 6 calls
+  Map updated (1 rows changed)
+[Step 4] Key: l | PRNG: 45 calls
+  Map updated (2 rows changed)
+[Step 5] Key: l | PRNG: 36 calls
+  Msg: You swap places with your kitten.
+  Map updated (2 rows changed)
+[Step 6] Key: l | PRNG: 13 calls
+  Map updated (2 rows changed)
+[Step 7] Key: l | PRNG: 27 calls
+  Msg: The kitten drops an unlabeled scroll.
+  Map updated (1 rows changed)
+[Step 8] Key: l | PRNG: 16 calls
+  Map updated (1 rows changed)
+[Step 9] Key: l | PRNG: 20 calls
+  Map updated (1 rows changed)
+[Step 10] Key: l | PRNG: 25 calls
+  Map updated (1 rows changed)
+[Step 11] Key: l | PRNG: 22 calls
+  Map updated (1 rows changed)
+[Step 12] Key: l | PRNG: 109 calls
+  Map updated (1 rows changed)
+[Step 13] Key: l | PRNG: 2 calls
+  Msg: The door resists!
+[Step 14] Key: l | PRNG: 1 calls
+  Msg: The door opens.
+  Map updated (5 rows changed)
+[Step 15] Key: l | PRNG: 17 calls
+  Map updated (5 rows changed)
+[Step 16] Key: l | PRNG: 20 calls
+  Map updated (3 rows changed)
+[Step 17] Key: > | PRNG: 3317 calls
+  Msg: You descend the stairs.--More--
+[Step 18] Key:   | PRNG: 8 calls
+  Map updated (6 rows changed)
+  Status update: Caspar the Evoker              St:10 Dx:12 Co:14 In:20 Wi:9 Ch:10 Chaotic | Dlvl:2 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1
+[Step 19] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 20] Key: l | PRNG: 1 calls
+  Msg: The door opens.
+  Map updated (1 rows changed)
+[Step 21] Key: l | PRNG: 16 calls
+  Map updated (3 rows changed)
+[Step 22] Key: l | PRNG: 17 calls
+  Map updated (2 rows changed)
+[Step 23] Key: l | PRNG: 20 calls
+  Map updated (2 rows changed)
+[Step 24] Key: n | PRNG: 20 calls
+  Map updated (2 rows changed)
+[Step 25] Key: l | PRNG: 22 calls
+  Map updated (2 rows changed)
+[Step 26] Key: l | PRNG: 23 calls
+  Map updated (1 rows changed)
+[Step 27] Key: l | PRNG: 17 calls
+  Map updated (1 rows changed)
+[Step 28] Key: l | PRNG: 18 calls
+  Map updated (1 rows changed)
+[Step 29] Key: l | PRNG: 24 calls
+  Map updated (1 rows changed)
+[Step 30] Key: l | PRNG: 18 calls
+  Map updated (1 rows changed)
+[Step 31] Key: l | PRNG: 19 calls
+  Map updated (1 rows changed)
+[Step 32] Key: l | PRNG: 24 calls
+  Map updated (1 rows changed)
+[Step 33] Key: l | PRNG: 17 calls
+  Map updated (1 rows changed)
+[Step 34] Key: l | PRNG: 17 calls
+  Map updated (1 rows changed)
+[Step 35] Key: l | PRNG: 23 calls
+  Map updated (2 rows changed)
+[Step 36] Key: l | PRNG: 18 calls
+  Map updated (2 rows changed)
+[Step 37] Key: l | PRNG: 24 calls
+  Map updated (2 rows changed)
+[Step 38] Key: l | PRNG: 23 calls
+  Map updated (2 rows changed)
+[Step 39] Key: l | PRNG: 23 calls
+  Map updated (4 rows changed)
+[Step 40] Key: l | PRNG: 21 calls
+  Map updated (3 rows changed)
+[Step 41] Key: l | PRNG: 20 calls
+  Map updated (5 rows changed)
+[Step 42] Key: l | PRNG: 23 calls
+  Map updated (6 rows changed)
+[Step 43] Key: l | PRNG: 17 calls
+  Map updated (4 rows changed)
+[Step 44] Key: l | PRNG: 24 calls
+  Map updated (1 rows changed)
+[Step 45] Key: q | PRNG: 0 calls
+  Msg: Drink from the fountain? [yn] (n)
+[Step 46] Key: y | PRNG: 21 calls
+  Msg: This tepid water is tasteless.
+  Map updated (1 rows changed)
+[Step 47] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 48] Key: h | PRNG: 29 calls
+  Msg: You miss the sewer rat.  The sewer rat bites!
+  Status update: Caspar the Evoker              St:10 Dx:12 Co:14 In:20 Wi:9 Ch:10 Chaotic | Dlvl:2 $:0 HP:10(11) Pw:7(7) AC:9 Xp:1
+[Step 49] Key: h | PRNG: 23 calls
+  Msg: You kill the sewer rat!
+  Map updated (1 rows changed)
+[Step 50] Key: h | PRNG: 21 calls
+  Map updated (1 rows changed)
+[Step 51] Key: h | PRNG: 16 calls
+  Map updated (1 rows changed)
+[Step 52] Key: h | PRNG: 15 calls
+  Map updated (1 rows changed)
+[Step 53] Key: h | PRNG: 16 calls
+  Map updated (1 rows changed)
+[Step 54] Key: h | PRNG: 15 calls
+  Map updated (1 rows changed)
+  Status update: Caspar the Evoker              St:10 Dx:12 Co:14 In:20 Wi:9 Ch:10 Chaotic | Dlvl:2 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1
+[Step 55] Key: h | PRNG: 18 calls
+  Map updated (1 rows changed)
+[Step 56] Key: h | PRNG: 14 calls
+  Map updated (1 rows changed)
+[Step 57] Key: h | PRNG: 12 calls
+  Map updated (1 rows changed)
+[Step 58] Key: h | PRNG: 13 calls
+  Map updated (1 rows changed)
+[Step 59] Key: h | PRNG: 19 calls
+  Map updated (1 rows changed)
+[Step 60] Key: h | PRNG: 13 calls
+  Map updated (1 rows changed)
+[Step 61] Key: h | PRNG: 20 calls
+  Map updated (1 rows changed)
+[Step 62] Key: h | PRNG: 12 calls
+  Map updated (1 rows changed)
+[Step 63] Key: h | PRNG: 14 calls
+  Map updated (1 rows changed)
+[Step 64] Key: h | PRNG: 14 calls
+  Map updated (1 rows changed)
+[Step 65] Key: h | PRNG: 15 calls
+  Map updated (1 rows changed)
+[Step 66] Key: h | PRNG: 14 calls
+  Map updated (1 rows changed)
+[Step 67] Key: h | PRNG: 17 calls
+  Map updated (1 rows changed)
+[Step 68] Key: y | PRNG: 0 calls
+[Step 69] Key: h | PRNG: 15 calls
+  Map updated (1 rows changed)
+[Step 70] Key: h | PRNG: 13 calls
+  Map updated (1 rows changed)
+[Step 71] Key: h | PRNG: 13 calls
+  Map updated (1 rows changed)
+[Step 72] Key: y | PRNG: 13 calls
+  Map updated (2 rows changed)
+[Step 73] Key: y | PRNG: 0 calls
+[Step 74] Key: b | PRNG: 0 calls
+[Step 75] Key: s | PRNG: 13 calls
+[Step 76] Key: s | PRNG: 15 calls
+[Step 77] Key: s | PRNG: 15 calls
+[Step 78] Key: s | PRNG: 18 calls
+[Step 79] Key: s | PRNG: 91 calls
+[Step 80] Key: s | PRNG: 18 calls
+[Step 81] Key: s | PRNG: 19 calls
+[Step 82] Key: s | PRNG: 20 calls
+[Step 83] Key: s | PRNG: 21 calls
+[Step 84] Key: s | PRNG: 26 calls
+[Step 85] Key: s | PRNG: 21 calls
+[Step 86] Key: s | PRNG: 25 calls
+[Step 87] Key: s | PRNG: 28 calls
+[Step 88] Key: s | PRNG: 22 calls
+[Step 89] Key: s | PRNG: 29 calls
+[Step 90] Key: s | PRNG: 19 calls
+[Step 91] Key: s | PRNG: 21 calls
+[Step 92] Key: s | PRNG: 26 calls
+[Step 93] Key: s | PRNG: 27 calls
+[Step 94] Key: s | PRNG: 22 calls
+[Step 95] Key: . | PRNG: 23 calls
+[Step 96] Key: k | PRNG: 24 calls
+  Msg: With great effort you move the boulder.
+  Map updated (3 rows changed)
+[Step 97] Key: h | PRNG: 0 calls
+[Step 98] Key: h | PRNG: 0 calls
+[Step 99] Key: y | PRNG: 0 calls
+[Step 100] Key: y | PRNG: 0 calls
+[Step 101] Key: b | PRNG: 0 calls
+[Step 102] Key: b | PRNG: 0 calls
+[Step 103] Key: h | PRNG: 0 calls
+[Step 104] Key: h | PRNG: 0 calls
+[Step 105] Key: j | PRNG: 22 calls
+  Map updated (2 rows changed)
+[Step 106] Key: b | PRNG: 0 calls
+[Step 107] Key: h | PRNG: 28 calls
+  Map updated (1 rows changed)
+[Step 108] Key: h | PRNG: 23 calls
+  Map updated (1 rows changed)
+[Step 109] Key: b | PRNG: 0 calls
+[Step 110] Key: b | PRNG: 0 calls
+[Step 111] Key: h | PRNG: 24 calls
+  Map updated (2 rows changed)
+[Step 112] Key: y | PRNG: 26 calls
+  Map updated (2 rows changed)
+[Step 113] Key: y | PRNG: 23 calls
+  Map updated (2 rows changed)
+[Step 114] Key: y | PRNG: 0 calls
+[Step 115] Key: b | PRNG: 19 calls
+  Map updated (2 rows changed)
+[Step 116] Key: b | PRNG: 19 calls
+  Map updated (3 rows changed)
+[Step 117] Key: y | PRNG: 0 calls
+[Step 118] Key: h | PRNG: 18 calls
+  Map updated (1 rows changed)
+[Step 119] Key: h | PRNG: 0 calls
+[Step 120] Key: h | PRNG: 0 calls
+[Step 121] Key: h | PRNG: 0 calls
+[Step 122] Key: h | PRNG: 0 calls
+[Step 123] Key: h | PRNG: 0 calls
+[Step 124] Key: h | PRNG: 0 calls
+[Step 125] Key: y | PRNG: 0 calls
+[Step 126] Key: h | PRNG: 0 calls
+[Step 127] Key: h | PRNG: 0 calls
+[Step 128] Key: y | PRNG: 0 calls
+[Step 129] Key: h | PRNG: 0 calls
+[Step 130] Key: h | PRNG: 0 calls
+[Step 131] Key: h | PRNG: 0 calls
+[Step 132] Key: h | PRNG: 0 calls
+[Step 133] Key: b | PRNG: 0 calls
+[Step 134] Key: b | PRNG: 0 calls
+[Step 135] Key: h | PRNG: 0 calls
+[Step 136] Key: y | PRNG: 0 calls
+[Step 137] Key: y | PRNG: 0 calls
+[Step 138] Key: h | PRNG: 0 calls
+[Step 139] Key: h | PRNG: 0 calls
+[Step 140] Key: h | PRNG: 0 calls
+[Step 141] Key: j | PRNG: 18 calls
+  Map updated (3 rows changed)
+[Step 142] Key: j | PRNG: 18 calls
+  Map updated (2 rows changed)
+[Step 143] Key: j | PRNG: 0 calls
+[Step 144] Key: j | PRNG: 0 calls
+[Step 145] Key: j | PRNG: 0 calls
+[Step 146] Key: j | PRNG: 0 calls
+[Step 147] Key: b | PRNG: 0 calls
+[Step 148] Key: j | PRNG: 0 calls
+[Step 149] Key: j | PRNG: 0 calls
+[Step 150] Key: j | PRNG: 0 calls
+[Step 151] Key: j | PRNG: 0 calls
+[Step 152] Key: j | PRNG: 0 calls
+[Step 153] Key: j | PRNG: 0 calls
+[Step 154] Key: j | PRNG: 0 calls
+[Step 155] Key: h | PRNG: 18 calls
+  Map updated (1 rows changed)
+[Step 156] Key: h | PRNG: 23 calls
+  Map updated (2 rows changed)
+[Step 157] Key: h | PRNG: 22 calls
+  Msg: The jackal bites!
+  Map updated (3 rows changed)
+  Status update: Caspar the Evoker              St:10 Dx:12 Co:14 In:20 Wi:9 Ch:10 Chaotic | Dlvl:2 $:0 HP:9(11) Pw:7(7) AC:9 Xp:1
+[Step 158] Key: h | PRNG: 0 calls
+[Step 159] Key: h | PRNG: 0 calls
+[Step 160] Key: b | PRNG: 32 calls
+  Msg: The jackal bites!  The jackal bites!
+  Map updated (3 rows changed)
+  Status update: Caspar the Evoker              St:10 Dx:12 Co:14 In:20 Wi:9 Ch:10 Chaotic | Dlvl:2 $:0 HP:6(11) Pw:7(7) AC:9 Xp:1
+[Step 161] Key: > | PRNG: 0 calls
+  Msg: You can't go down here.
+[Step 162] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 163] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 164] Key: l | PRNG: 56 calls
+  Msg: You kill the jackal!  The jackal bites!
+  Map updated (2 rows changed)
+  Status update: Caspar the Evoker              St:10 Dx:12 Co:14 In:20 Wi:9 Ch:10 Chaotic | Dlvl:2 $:0 HP:5(11) Pw:7(7) AC:9 Xp:1
+[Step 165] Key: l | PRNG: 39 calls
+  Msg: You kill the jackal!  The jackal bites!
+  Map updated (3 rows changed)
+  Status update: Caspar the Evoker              St:10 Dx:12 Co:14 In:20 Wi:9 Ch:10 Chaotic | Dlvl:2 $:0 HP:3(11) Pw:7(7) AC:9 Xp:1
+[Step 166] Key: l | PRNG: 0 calls
+  Msg: Things that are here:
+  Map updated (4 rows changed)
+[Step 167] Key: l | PRNG: 0 calls
+  Msg: Things that are here:
+[Step 168] Key: l | PRNG: 0 calls
+  Msg: Things that are here:
+[Step 169] Key: l | PRNG: 0 calls
+  Msg: Things that are here:
+[Step 170] Key: l | PRNG: 0 calls
+  Msg: Things that are here:
+[Step 171] Key: l | PRNG: 0 calls
+  Msg: Things that are here:
+[Step 172] Key: l | PRNG: 0 calls
+  Msg: Things that are here:
+[Step 173] Key: l | PRNG: 0 calls
+  Msg: Things that are here:
+[Step 174] Key: l | PRNG: 0 calls
+  Msg: Things that are here:
+[Step 175] Key: l | PRNG: 0 calls
+  Msg: Things that are here:
+[Step 176] Key: l | PRNG: 0 calls
+  Msg: Things that are here:
+[Step 177] Key: l | PRNG: 0 calls
+  Msg: Things that are here:
+[Step 178] Key: l | PRNG: 0 calls
+  Msg: Things that are here:
+[Step 179] Key: l | PRNG: 0 calls
+  Msg: Things that are here:
+[Step 180] Key: l | PRNG: 0 calls
+  Msg: Things that are here:
+[Step 181] Key: l | PRNG: 0 calls
+  Msg: Things that are here:
+[Step 182] Key: l | PRNG: 0 calls
+  Msg: Things that are here:
+[Step 183] Key: l | PRNG: 0 calls
+  Msg: Things that are here:
+[Step 184] Key: l | PRNG: 0 calls
+  Msg: Things that are here:
+[Step 185] Key: l | PRNG: 0 calls
+  Msg: Things that are here:
+[Step 186] Key: l | PRNG: 0 calls
+  Msg: Things that are here:
+[Step 187] Key: l | PRNG: 0 calls
+  Msg: Things that are here:
+[Step 188] Key: y | PRNG: 0 calls
+  Msg: Things that are here:
+[Step 189] Key:   | PRNG: 20 calls
+  Msg: The jackal bites!
+  Map updated (5 rows changed)
+  Status update: Caspar the Evoker              St:10 Dx:12 Co:14 In:20 Wi:9 Ch:10 Chaotic | Dlvl:2 $:0 HP:1(11) Pw:7(7) AC:9 Xp:1
+[Step 190] Key: n | PRNG: 5 calls
+  Msg: The jackal bites!--More--
+  Map updated (2 rows changed)
+[Step 191] Key: y | PRNG: 0 calls
+  Msg: The jackal bites!--More--
+[Step 192] Key:   | PRNG: 0 calls
+  Msg: You die...--More--
+[Step 193] Key:   | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update: You were level 1 with a maximum of 11 hit points when you died. | --More--
+[Step 194] Key: y | PRNG: 0 calls
+[Step 195] Key: y | PRNG: 0 calls
+[Step 196] Key:   | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update:  | --More--
+[Step 197] Key:   | PRNG: 0 calls
+  Map updated (13 rows changed)
+  Status update:  | 
+
+=== SEGMENT 5 ===
+[Step 0] Key: NULL (Init) | PRNG: 3076 calls
+  Msg: Hello Daxter, welcome to NetHack!  You are a lawful human Priest.
+  Status: Daxter the Aspirant            St:14 Dx:12 Co:13 In:8 Wi:18 Ch:10 Lawful | Dlvl:1 $:0 HP:14(14) Pw:6(6) AC:7 Xp:1
+[Step 1] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 2] Key: k | PRNG: 0 calls
+  Msg: Things that are here:
+  Map updated (6 rows changed)
+[Step 3] Key: l | PRNG: 0 calls
+  Msg: Things that are here:
+[Step 4] Key: l | PRNG: 0 calls
+  Msg: Things that are here:
+[Step 5] Key:   | PRNG: 20 calls
+  Msg: A little dart shoots out at you!  A little dart misses you.
+  Map updated (4 rows changed)
+[Step 6] Key: b | PRNG: 51 calls
+  Msg: The little dog picks up a glass wand.
+  Map updated (3 rows changed)
+[Step 7] Key: b | PRNG: 63 calls
+  Map updated (2 rows changed)
+[Step 8] Key: j | PRNG: 55 calls
+  Msg: The little dog drops a glass wand.
+  Map updated (3 rows changed)
+[Step 9] Key: h | PRNG: 66 calls
+  Map updated (2 rows changed)
+[Step 10] Key: h | PRNG: 36 calls
+  Map updated (1 rows changed)
+[Step 11] Key: h | PRNG: 32 calls
+  Map updated (3 rows changed)
+[Step 12] Key: y | PRNG: 48 calls
+  Map updated (3 rows changed)
+[Step 13] Key: b | PRNG: 46 calls
+  Map updated (3 rows changed)
+[Step 14] Key: b | PRNG: 35 calls
+  Map updated (3 rows changed)
+[Step 15] Key: b | PRNG: 23 calls
+  Map updated (4 rows changed)
+[Step 16] Key: b | PRNG: 21 calls
+  Map updated (4 rows changed)
+[Step 17] Key: h | PRNG: 32 calls
+  Map updated (3 rows changed)
+[Step 18] Key: b | PRNG: 29 calls
+  Map updated (2 rows changed)
+[Step 19] Key: h | PRNG: 39 calls
+  Map updated (2 rows changed)
+[Step 20] Key: b | PRNG: 25 calls
+  Map updated (3 rows changed)
+[Step 21] Key: b | PRNG: 22 calls
+  Map updated (2 rows changed)
+[Step 22] Key: h | PRNG: 27 calls
+  Map updated (3 rows changed)
+[Step 23] Key: y | PRNG: 34 calls
+  Map updated (3 rows changed)
+[Step 24] Key: k | PRNG: 39 calls
+  Map updated (4 rows changed)
+[Step 25] Key: k | PRNG: 24 calls
+  Map updated (3 rows changed)
+[Step 26] Key: y | PRNG: 26 calls
+  Msg: You hear a door open.
+  Map updated (3 rows changed)
+[Step 27] Key: h | PRNG: 25 calls
+  Map updated (1 rows changed)
+[Step 28] Key: h | PRNG: 29 calls
+  Map updated (1 rows changed)
+[Step 29] Key: h | PRNG: 20 calls
+  Map updated (1 rows changed)
+[Step 30] Key: h | PRNG: 22 calls
+  Map updated (2 rows changed)
+[Step 31] Key: h | PRNG: 23 calls
+  Map updated (1 rows changed)
+[Step 32] Key: h | PRNG: 18 calls
+  Map updated (1 rows changed)
+[Step 33] Key: h | PRNG: 23 calls
+  Map updated (1 rows changed)
+[Step 34] Key: h | PRNG: 19 calls
+  Map updated (8 rows changed)
+[Step 35] Key: h | PRNG: 26 calls
+  Map updated (6 rows changed)
+[Step 36] Key: h | PRNG: 27 calls
+  Map updated (7 rows changed)
+[Step 37] Key: h | PRNG: 27 calls
+  Msg: You hear some noises in the distance.
+  Map updated (1 rows changed)
+[Step 38] Key: h | PRNG: 23 calls
+  Map updated (1 rows changed)
+[Step 39] Key: h | PRNG: 21 calls
+  Map updated (1 rows changed)
+[Step 40] Key: h | PRNG: 23 calls
+  Map updated (1 rows changed)
+[Step 41] Key: h | PRNG: 19 calls
+  Map updated (2 rows changed)
+[Step 42] Key: h | PRNG: 28 calls
+  Map updated (2 rows changed)
+[Step 43] Key: b | PRNG: 21 calls
+  Map updated (2 rows changed)
+[Step 44] Key: h | PRNG: 18 calls
+  Map updated (1 rows changed)
+[Step 45] Key: h | PRNG: 19 calls
+  Map updated (1 rows changed)
+[Step 46] Key: h | PRNG: 19 calls
+  Msg: With great effort you move the boulder.
+  Map updated (1 rows changed)
+[Step 47] Key: h | PRNG: 24 calls
+  Map updated (1 rows changed)
+[Step 48] Key: h | PRNG: 20 calls
+  Map updated (1 rows changed)
+[Step 49] Key: h | PRNG: 24 calls
+  Map updated (1 rows changed)
+[Step 50] Key: h | PRNG: 20 calls
+  Map updated (1 rows changed)
+[Step 51] Key: h | PRNG: 0 calls
+  Msg: You hear a monster behind the boulder.--More--
+  Map updated (1 rows changed)
+[Step 52] Key:   | PRNG: 0 calls
+  Msg: Perhaps that's why you cannot move it.
+[Step 53] Key: h | PRNG: 0 calls
+  Msg: You hear a monster behind the boulder.--More--
+[Step 54] Key:   | PRNG: 0 calls
+  Msg: Perhaps that's why you cannot move it.
+[Step 55] Key: h | PRNG: 0 calls
+  Msg: You hear a monster behind the boulder.--More--
+[Step 56] Key:   | PRNG: 0 calls
+  Msg: Perhaps that's why you cannot move it.
+[Step 57] Key: s | PRNG: 19 calls
+[Step 58] Key: s | PRNG: 24 calls
+[Step 59] Key: s | PRNG: 21 calls
+[Step 60] Key: s | PRNG: 20 calls
+[Step 61] Key: s | PRNG: 20 calls
+[Step 62] Key: s | PRNG: 24 calls
+  Map updated (1 rows changed)
+[Step 63] Key: s | PRNG: 26 calls
+  Map updated (1 rows changed)
+[Step 64] Key: s | PRNG: 24 calls
+[Step 65] Key: s | PRNG: 19 calls
+  Map updated (1 rows changed)
+[Step 66] Key: s | PRNG: 31 calls
+[Step 67] Key: s | PRNG: 27 calls
+  Map updated (1 rows changed)
+[Step 68] Key: s | PRNG: 19 calls
+  Map updated (1 rows changed)
+[Step 69] Key: s | PRNG: 32 calls
+  Map updated (1 rows changed)
+[Step 70] Key: s | PRNG: 21 calls
+  Map updated (1 rows changed)
+[Step 71] Key: s | PRNG: 29 calls
+  Map updated (1 rows changed)
+[Step 72] Key: s | PRNG: 31 calls
+[Step 73] Key: s | PRNG: 33 calls
+[Step 74] Key: s | PRNG: 33 calls
+[Step 75] Key: s | PRNG: 35 calls
+[Step 76] Key: s | PRNG: 31 calls
+[Step 77] Key: . | PRNG: 31 calls
+[Step 78] Key: h | PRNG: 22 calls
+  Msg: With great effort you move the boulder.
+  Map updated (1 rows changed)
+[Step 79] Key: h | PRNG: 21 calls
+  Map updated (1 rows changed)
+[Step 80] Key: h | PRNG: 20 calls
+  Map updated (1 rows changed)
+[Step 81] Key: h | PRNG: 23 calls
+  Map updated (3 rows changed)
+[Step 82] Key: y | PRNG: 19 calls
+  Map updated (3 rows changed)
+[Step 83] Key: b | PRNG: 29 calls
+  Map updated (2 rows changed)
+[Step 84] Key: h | PRNG: 47 calls
+  Msg: You hear some noises.
+  Map updated (1 rows changed)
+[Step 85] Key: h | PRNG: 20 calls
+  Map updated (1 rows changed)
+[Step 86] Key: h | PRNG: 13 calls
+  Map updated (1 rows changed)
+[Step 87] Key: h | PRNG: 13 calls
+  Map updated (1 rows changed)
+[Step 88] Key: h | PRNG: 15 calls
+  Map updated (2 rows changed)
+[Step 89] Key: b | PRNG: 16 calls
+  Map updated (3 rows changed)
+[Step 90] Key: j | PRNG: 22 calls
+  Map updated (3 rows changed)
+[Step 91] Key: b | PRNG: 18 calls
+  Map updated (6 rows changed)
+[Step 92] Key: y | PRNG: 25 calls
+  Map updated (6 rows changed)
+[Step 93] Key: h | PRNG: 21 calls
+  Map updated (7 rows changed)
+[Step 94] Key: y | PRNG: 16 calls
+  Map updated (3 rows changed)
+[Step 95] Key: k | PRNG: 16 calls
+  Map updated (3 rows changed)
+[Step 96] Key: k | PRNG: 21 calls
+  Map updated (3 rows changed)
+[Step 97] Key: k | PRNG: 21 calls
+  Map updated (3 rows changed)
+[Step 98] Key: k | PRNG: 21 calls
+  Map updated (3 rows changed)
+[Step 99] Key: k | PRNG: 20 calls
+  Map updated (3 rows changed)
+[Step 100] Key: k | PRNG: 25 calls
+  Map updated (3 rows changed)
+[Step 101] Key: k | PRNG: 22 calls
+  Map updated (5 rows changed)
+[Step 102] Key: k | PRNG: 15 calls
+  Map updated (5 rows changed)
+[Step 103] Key: h | PRNG: 16 calls
+  Map updated (4 rows changed)
+[Step 104] Key: h | PRNG: 19 calls
+  Map updated (3 rows changed)
+[Step 105] Key: y | PRNG: 15 calls
+  Map updated (2 rows changed)
+[Step 106] Key: h | PRNG: 15 calls
+  Map updated (1 rows changed)
+[Step 107] Key: h | PRNG: 20 calls
+  Map updated (2 rows changed)
+[Step 108] Key: b | PRNG: 24 calls
+  Map updated (2 rows changed)
+[Step 109] Key: > | PRNG: 2194 calls
+  Msg: You descend the stairs.--More--
+[Step 110] Key:   | PRNG: 11 calls
+  Map updated (18 rows changed)
+  Status update: Daxter the Aspirant            St:14 Dx:12 Co:13 In:8 Wi:18 Ch:10 Lawful | Dlvl:2 $:0 HP:14(14) Pw:6(6) AC:7 Xp:1
+[Step 111] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 112] Key: b | PRNG: 18 calls
+  Msg: You see here a brilliant blue potion.
+  Map updated (4 rows changed)
+[Step 113] Key: h | PRNG: 1 calls
+  Msg: The door opens.
+  Map updated (3 rows changed)
+[Step 114] Key: h | PRNG: 23 calls
+  Map updated (1 rows changed)
+[Step 115] Key: h | PRNG: 22 calls
+  Map updated (3 rows changed)
+[Step 116] Key: h | PRNG: 21 calls
+  Map updated (2 rows changed)
+[Step 117] Key: h | PRNG: 18 calls
+  Map updated (2 rows changed)
+[Step 118] Key: h | PRNG: 22 calls
+  Map updated (4 rows changed)
+[Step 119] Key: h | PRNG: 23 calls
+  Map updated (5 rows changed)
+[Step 120] Key: h | PRNG: 20 calls
+  Map updated (3 rows changed)
+[Step 121] Key: h | PRNG: 21 calls
+  Map updated (1 rows changed)
+[Step 122] Key: h | PRNG: 19 calls
+  Map updated (1 rows changed)
+[Step 123] Key: k | PRNG: 0 calls
+  Msg: This door is locked.
+[Step 124] Key: k | PRNG: 0 calls
+  Msg: This door is locked.
+[Step 125] Key: h | PRNG: 23 calls
+  Map updated (1 rows changed)
+[Step 126] Key: h | PRNG: 20 calls
+  Map updated (1 rows changed)
+[Step 127] Key: y | PRNG: 0 calls
+[Step 128] Key: b | PRNG: 0 calls
+[Step 129] Key: h | PRNG: 0 calls
+[Step 130] Key: h | PRNG: 0 calls
+[Step 131] Key: y | PRNG: 0 calls
+[Step 132] Key: h | PRNG: 0 calls
+[Step 133] Key: h | PRNG: 0 calls
+[Step 134] Key: h | PRNG: 0 calls
+[Step 135] Key: y | PRNG: 0 calls
+[Step 136] Key: k | PRNG: 0 calls
+[Step 137] Key: y | PRNG: 0 calls
+[Step 138] Key: s | PRNG: 65 calls
+  Map updated (1 rows changed)
+[Step 139] Key: s | PRNG: 0 calls
+  Msg: You already found a monster.  Use 'm' prefix to force another search.
+[Step 140] Key: s | PRNG: 0 calls
+[Step 141] Key: s | PRNG: 0 calls
+[Step 142] Key: s | PRNG: 0 calls
+[Step 143] Key: s | PRNG: 0 calls
+[Step 144] Key: s | PRNG: 0 calls
+[Step 145] Key: s | PRNG: 0 calls
+[Step 146] Key: s | PRNG: 0 calls
+[Step 147] Key: s | PRNG: 0 calls
+[Step 148] Key: s | PRNG: 0 calls
+[Step 149] Key: s | PRNG: 0 calls
+[Step 150] Key: s | PRNG: 0 calls
+[Step 151] Key: s | PRNG: 0 calls
+[Step 152] Key: s | PRNG: 0 calls
+[Step 153] Key: s | PRNG: 0 calls
+[Step 154] Key: s | PRNG: 0 calls
+[Step 155] Key: s | PRNG: 0 calls
+[Step 156] Key: s | PRNG: 0 calls
+[Step 157] Key: s | PRNG: 0 calls
+[Step 158] Key: . | PRNG: 0 calls
+  Msg: Are you waiting to get hit?  Use 'm' prefix to force a no-op (to rest).
+[Step 159] Key: k | PRNG: 0 calls
+[Step 160] Key: k | PRNG: 0 calls
+[Step 161] Key: y | PRNG: 0 calls
+[Step 162] Key: h | PRNG: 0 calls
+[Step 163] Key: h | PRNG: 0 calls
+[Step 164] Key: s | PRNG: 0 calls
+  Msg: You already found a monster.  Use 'm' prefix to force another search.
+[Step 165] Key: s | PRNG: 0 calls
+[Step 166] Key: s | PRNG: 0 calls
+[Step 167] Key: s | PRNG: 0 calls
+[Step 168] Key: s | PRNG: 0 calls
+[Step 169] Key: s | PRNG: 0 calls
+[Step 170] Key: s | PRNG: 0 calls
+[Step 171] Key: s | PRNG: 0 calls
+[Step 172] Key: s | PRNG: 0 calls
+[Step 173] Key: s | PRNG: 0 calls
+[Step 174] Key: s | PRNG: 0 calls
+[Step 175] Key: s | PRNG: 0 calls
+[Step 176] Key: s | PRNG: 0 calls
+[Step 177] Key: s | PRNG: 0 calls
+[Step 178] Key: s | PRNG: 0 calls
+[Step 179] Key: s | PRNG: 0 calls
+[Step 180] Key: s | PRNG: 0 calls
+[Step 181] Key: s | PRNG: 0 calls
+[Step 182] Key: s | PRNG: 0 calls
+[Step 183] Key: s | PRNG: 0 calls
+[Step 184] Key: . | PRNG: 0 calls
+  Msg: Are you waiting to get hit?  Use 'm' prefix to force a no-op (to rest).
+[Step 185] Key: k | PRNG: 0 calls
+[Step 186] Key: y | PRNG: 0 calls
+[Step 187] Key: h | PRNG: 0 calls
+[Step 188] Key: h | PRNG: 0 calls
+[Step 189] Key: j | PRNG: 22 calls
+  Msg: The sewer rat bites!
+  Map updated (2 rows changed)
+  Status update: Daxter the Aspirant            St:14 Dx:12 Co:13 In:8 Wi:18 Ch:10 Lawful | Dlvl:2 $:0 HP:12(14) Pw:6(6) AC:7 Xp:1
+[Step 190] Key: j | PRNG: 27 calls
+  Map updated (3 rows changed)
+[Step 191] Key: h | PRNG: 0 calls
+[Step 192] Key: b | PRNG: 0 calls
+[Step 193] Key: b | PRNG: 0 calls
+[Step 194] Key: h | PRNG: 0 calls
+[Step 195] Key: h | PRNG: 0 calls
+[Step 196] Key: k | PRNG: 47 calls
+  Msg: You kill the sewer rat!
+  Map updated (1 rows changed)
+  Status update: Daxter the Aspirant            St:14 Dx:12 Co:13 In:8 Wi:18 Ch:10 Lawful | Dlvl:2 $:0 HP:13(14) Pw:6(6) AC:7 Xp:1
+[Step 197] Key: y | PRNG: 0 calls
+[Step 198] Key: y | PRNG: 0 calls
+[Step 199] Key: h | PRNG: 0 calls
+[Step 200] Key: h | PRNG: 0 calls
+[Step 201] Key: y | PRNG: 0 calls
+[Step 202] Key: k | PRNG: 19 calls
+  Msg: You see here a sewer rat corpse.
+  Map updated (2 rows changed)
+[Step 203] Key: y | PRNG: 0 calls
+[Step 204] Key: h | PRNG: 0 calls
+[Step 205] Key: h | PRNG: 0 calls
+[Step 206] Key: h | PRNG: 0 calls
+[Step 207] Key: y | PRNG: 0 calls
+[Step 208] Key: y | PRNG: 0 calls
+[Step 209] Key: h | PRNG: 0 calls
+[Step 210] Key: h | PRNG: 0 calls
+[Step 211] Key: h | PRNG: 0 calls
+[Step 212] Key: F | PRNG: 0 calls
+[Step 213] Key: j | PRNG: 25 calls
+  Msg: You attack thin air.
+  Status update: Daxter the Aspirant            St:14 Dx:12 Co:13 In:8 Wi:18 Ch:10 Lawful | Dlvl:2 $:0 HP:14(14) Pw:6(6) AC:7 Xp:1
+[Step 214] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 215] Key: F | PRNG: 0 calls
+[Step 216] Key: j | PRNG: 27 calls
+  Msg: You attack thin air.
+[Step 217] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 218] Key: F | PRNG: 0 calls
+[Step 219] Key: j | PRNG: 29 calls
+  Msg: You attack thin air.
+[Step 220] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 221] Key: F | PRNG: 0 calls
+[Step 222] Key: j | PRNG: 21 calls
+  Msg: You attack thin air.
+[Step 223] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 224] Key: F | PRNG: 0 calls
+[Step 225] Key: j | PRNG: 25 calls
+  Msg: You attack thin air.
+[Step 226] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 227] Key: F | PRNG: 0 calls
+[Step 228] Key: j | PRNG: 19 calls
+  Msg: You attack thin air.
+[Step 229] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 230] Key: F | PRNG: 0 calls
+[Step 231] Key: j | PRNG: 28 calls
+  Msg: You attack thin air.
+[Step 232] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 233] Key: q | PRNG: 0 calls
+  Msg: What do you want to drink? [d or ?*]
+[Step 234] Key:   | PRNG: 0 calls
+  Msg: Never mind.
+[Step 235] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+
+=== SEGMENT 6 ===
+[Step 0] Key: NULL (Init) | PRNG: 3825 calls
+  Msg: Hello Elara, welcome to NetHack!  You are a lawful human Priestess.
+  Status: Elara the Aspirant             St:10 Dx:12 Co:13 In:11 Wi:18 Ch:11 Lawful | Dlvl:1 $:0 HP:14(14) Pw:6(6) AC:7 Xp:1
+[Step 1] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 2] Key: k | PRNG: 5 calls
+  Map updated (2 rows changed)
+[Step 3] Key: l | PRNG: 0 calls
+[Step 4] Key: k | PRNG: 11 calls
+  Map updated (3 rows changed)
+[Step 5] Key: k | PRNG: 27 calls
+  Map updated (3 rows changed)
+[Step 6] Key: l | PRNG: 8 calls
+  Map updated (2 rows changed)
+[Step 7] Key: l | PRNG: 13 calls
+  Map updated (1 rows changed)
+[Step 8] Key: k | PRNG: 30 calls
+  Map updated (3 rows changed)
+[Step 9] Key: u | PRNG: 14 calls
+  Map updated (4 rows changed)
+[Step 10] Key: l | PRNG: 31 calls
+  Map updated (2 rows changed)
+[Step 11] Key: l | PRNG: 12 calls
+  Map updated (1 rows changed)
+[Step 12] Key: l | PRNG: 10 calls
+  Map updated (2 rows changed)
+[Step 13] Key: l | PRNG: 13 calls
+  Map updated (2 rows changed)
+[Step 14] Key: n | PRNG: 9 calls
+  Map updated (3 rows changed)
+[Step 15] Key: l | PRNG: 19 calls
+  Map updated (1 rows changed)
+[Step 16] Key: l | PRNG: 29 calls
+  Map updated (3 rows changed)
+[Step 17] Key: l | PRNG: 17 calls
+  Map updated (5 rows changed)
+[Step 18] Key: l | PRNG: 14 calls
+  Map updated (11 rows changed)
+[Step 19] Key: l | PRNG: 25 calls
+  Map updated (9 rows changed)
+[Step 20] Key: j | PRNG: 33 calls
+  Map updated (4 rows changed)
+[Step 21] Key: j | PRNG: 23 calls
+  Map updated (2 rows changed)
+[Step 22] Key: > | PRNG: 6110 calls
+  Msg: You descend the stairs.--More--
+[Step 23] Key:   | PRNG: 19 calls
+  Map updated (14 rows changed)
+  Status update: Elara the Aspirant             St:10 Dx:12 Co:13 In:11 Wi:18 Ch:11 Lawful | Dlvl:2 $:0 HP:14(14) Pw:6(6) AC:7 Xp:1
+[Step 24] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 25] Key: j | PRNG: 34 calls
+  Map updated (3 rows changed)
+[Step 26] Key: j | PRNG: 57 calls
+  Msg: The kitten bites the jackal.  The jackal is killed!--More--
+  Map updated (4 rows changed)
+[Step 27] Key:   | PRNG: 8 calls
+  Msg: Your kitten eats a jackal corpse.
+[Step 28] Key: h | PRNG: 9 calls
+  Map updated (2 rows changed)
+[Step 29] Key: h | PRNG: 7 calls
+  Map updated (1 rows changed)
+[Step 30] Key: j | PRNG: 9 calls
+  Map updated (4 rows changed)
+[Step 31] Key: b | PRNG: 9 calls
+  Map updated (3 rows changed)
+[Step 32] Key: b | PRNG: 21 calls
+  Map updated (3 rows changed)
+[Step 33] Key: j | PRNG: 19 calls
+  Map updated (3 rows changed)
+[Step 34] Key: j | PRNG: 13 calls
+  Map updated (3 rows changed)
+[Step 35] Key: j | PRNG: 10 calls
+  Map updated (3 rows changed)
+[Step 36] Key: j | PRNG: 19 calls
+  Map updated (3 rows changed)
+[Step 37] Key: b | PRNG: 21 calls
+  Map updated (2 rows changed)
+[Step 38] Key: h | PRNG: 24 calls
+  Map updated (1 rows changed)
+[Step 39] Key: h | PRNG: 12 calls
+  Map updated (1 rows changed)
+[Step 40] Key: h | PRNG: 15 calls
+  Map updated (1 rows changed)
+[Step 41] Key: h | PRNG: 14 calls
+  Map updated (1 rows changed)
+[Step 42] Key: h | PRNG: 10 calls
+  Map updated (1 rows changed)
+[Step 43] Key: h | PRNG: 13 calls
+  Map updated (1 rows changed)
+[Step 44] Key: h | PRNG: 14 calls
+  Map updated (1 rows changed)
+[Step 45] Key: h | PRNG: 13 calls
+  Map updated (1 rows changed)
+[Step 46] Key: h | PRNG: 21 calls
+  Map updated (1 rows changed)
+[Step 47] Key: h | PRNG: 11 calls
+  Map updated (1 rows changed)
+[Step 48] Key: h | PRNG: 21 calls
+  Map updated (1 rows changed)
+[Step 49] Key: h | PRNG: 8 calls
+  Map updated (1 rows changed)
+[Step 50] Key: h | PRNG: 1 calls
+  Msg: The door opens.
+  Map updated (6 rows changed)
+[Step 51] Key: h | PRNG: 8 calls
+  Map updated (6 rows changed)
+[Step 52] Key: h | PRNG: 10 calls
+  Map updated (3 rows changed)
+[Step 53] Key: y | PRNG: 9 calls
+  Map updated (3 rows changed)
+[Step 54] Key: y | PRNG: 15 calls
+  Msg: You see here a food ration.
+  Map updated (3 rows changed)
+[Step 55] Key: h | PRNG: 12 calls
+  Map updated (2 rows changed)
+[Step 56] Key: > | PRNG: 4004 calls
+  Msg: You descend the stairs.--More--
+[Step 57] Key:   | PRNG: 7 calls
+  Map updated (15 rows changed)
+  Status update: Elara the Aspirant             St:10 Dx:12 Co:13 In:11 Wi:18 Ch:11 Lawful | Dlvl:3 $:0 HP:14(14) Pw:6(6) AC:7 Xp:1
+[Step 58] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 59] Key: l | PRNG: 13 calls
+  Map updated (1 rows changed)
+[Step 60] Key: l | PRNG: 17 calls
+  Map updated (1 rows changed)
+[Step 61] Key: l | PRNG: 15 calls
+  Map updated (1 rows changed)
+[Step 62] Key: k | PRNG: 0 calls
+  Msg: This door is locked.
+[Step 63] Key:  | PRNG: 0 calls
+  Msg: In what direction?
+[Step 64] Key: k | PRNG: 16 calls
+  Msg: Whammm!!
+[Step 65] Key:  | PRNG: 0 calls
+  Msg: In what direction?
+[Step 66] Key: k | PRNG: 16 calls
+  Msg: Thwack!!
+[Step 67] Key:  | PRNG: 0 calls
+  Msg: In what direction?
+[Step 68] Key: k | PRNG: 18 calls
+  Msg: Thwack!!
+[Step 69] Key:  | PRNG: 0 calls
+  Msg: In what direction?
+[Step 70] Key: k | PRNG: 19 calls
+  Msg: Whammm!!
+[Step 71] Key:  | PRNG: 0 calls
+  Msg: In what direction?
+[Step 72] Key: k | PRNG: 19 calls
+  Msg: Whammm!!
+[Step 73] Key:  | PRNG: 0 calls
+  Msg: In what direction?
+[Step 74] Key: k | PRNG: 20 calls
+  Msg: Whammm!!
+[Step 75] Key:  | PRNG: 0 calls
+  Msg: In what direction?
+[Step 76] Key: k | PRNG: 21 calls
+  Msg: Whammm!!
+[Step 77] Key:  | PRNG: 0 calls
+  Msg: In what direction?
+[Step 78] Key: k | PRNG: 16 calls
+  Msg: Thwack!!
+[Step 79] Key:  | PRNG: 0 calls
+  Msg: In what direction?
+[Step 80] Key: k | PRNG: 19 calls
+  Msg: Whammm!!
+[Step 81] Key:  | PRNG: 0 calls
+  Msg: In what direction?
+[Step 82] Key: k | PRNG: 19 calls
+  Msg: Whammm!!
+[Step 83] Key:  | PRNG: 0 calls
+  Msg: In what direction?
+[Step 84] Key: k | PRNG: 16 calls
+  Msg: As you kick the door, it crashes open!
+  Map updated (1 rows changed)
+[Step 85] Key: k | PRNG: 46 calls
+  Msg: You kill the giant rat!
+  Map updated (1 rows changed)
+[Step 86] Key: k | PRNG: 11 calls
+  Msg: There is a broken door here.  You see here a giant rat corpse.
+  Map updated (3 rows changed)
+[Step 87] Key: h | PRNG: 0 calls
+[Step 88] Key: y | PRNG: 13 calls
+  Map updated (3 rows changed)
+[Step 89] Key: k | PRNG: 0 calls
+[Step 90] Key: u | PRNG: 0 calls
+[Step 91] Key: l | PRNG: 8 calls
+  Map updated (1 rows changed)
+[Step 92] Key: l | PRNG: 0 calls
+[Step 93] Key: u | PRNG: 0 calls
+[Step 94] Key: k | PRNG: 0 calls
+[Step 95] Key: s | PRNG: 12 calls
+[Step 96] Key: s | PRNG: 13 calls
+[Step 97] Key: s | PRNG: 11 calls
+[Step 98] Key: s | PRNG: 8 calls
+[Step 99] Key: s | PRNG: 14 calls
+[Step 100] Key: s | PRNG: 11 calls
+[Step 101] Key: s | PRNG: 12 calls
+[Step 102] Key: s | PRNG: 11 calls
+[Step 103] Key: s | PRNG: 11 calls
+[Step 104] Key: s | PRNG: 13 calls
+[Step 105] Key: s | PRNG: 14 calls
+[Step 106] Key: s | PRNG: 11 calls
+[Step 107] Key: s | PRNG: 13 calls
+[Step 108] Key: s | PRNG: 8 calls
+[Step 109] Key: s | PRNG: 13 calls
+[Step 110] Key: s | PRNG: 11 calls
+[Step 111] Key: s | PRNG: 10 calls
+[Step 112] Key: s | PRNG: 8 calls
+[Step 113] Key: s | PRNG: 11 calls
+[Step 114] Key: s | PRNG: 12 calls
+[Step 115] Key: . | PRNG: 14 calls
+[Step 116] Key: h | PRNG: 13 calls
+  Map updated (1 rows changed)
+[Step 117] Key: y | PRNG: 14 calls
+  Map updated (9 rows changed)
+[Step 118] Key: k | PRNG: 9 calls
+  Map updated (4 rows changed)
+[Step 119] Key: u | PRNG: 9 calls
+  Map updated (7 rows changed)
+[Step 120] Key: l | PRNG: 7 calls
+  Map updated (1 rows changed)
+[Step 121] Key: l | PRNG: 9 calls
+  Map updated (2 rows changed)
+[Step 122] Key: u | PRNG: 7 calls
+  Map updated (3 rows changed)
+[Step 123] Key: k | PRNG: 7 calls
+  Map updated (3 rows changed)
+[Step 124] Key: k | PRNG: 8 calls
+  Map updated (3 rows changed)
+[Step 125] Key: k | PRNG: 8 calls
+  Map updated (3 rows changed)
+[Step 126] Key: u | PRNG: 9 calls
+  Map updated (2 rows changed)
+[Step 127] Key: l | PRNG: 9 calls
+  Map updated (1 rows changed)
+[Step 128] Key: l | PRNG: 9 calls
+  Map updated (1 rows changed)
+[Step 129] Key: l | PRNG: 39 calls
+  Map updated (1 rows changed)
+[Step 130] Key: l | PRNG: 8 calls
+  Map updated (1 rows changed)
+[Step 131] Key: l | PRNG: 11 calls
+  Map updated (1 rows changed)
+[Step 132] Key: l | PRNG: 1 calls
+  Msg: The door opens.
+  Map updated (4 rows changed)
+[Step 133] Key: l | PRNG: 8 calls
+  Map updated (4 rows changed)
+[Step 134] Key: l | PRNG: 8 calls
+  Map updated (2 rows changed)
+[Step 135] Key: > | PRNG: 2694 calls
+  Msg: You descend the stairs.--More--
+[Step 136] Key:   | PRNG: 16 calls
+  Map updated (20 rows changed)
+  Status update: Elara the Aspirant             St:10 Dx:12 Co:13 In:11 Wi:18 Ch:11 Lawful | Dlvl:4 $:0 HP:14(14) Pw:6(6) AC:7 Xp:1
+[Step 137] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 138] Key: u | PRNG: 29 calls
+  Map updated (9 rows changed)
+[Step 139] Key: u | PRNG: 0 calls
+[Step 140] Key: u | PRNG: 0 calls
+[Step 141] Key: u | PRNG: 0 calls
+[Step 142] Key: k | PRNG: 50 calls
+  Map updated (2 rows changed)
+[Step 143] Key: k | PRNG: 40 calls
+  Map updated (2 rows changed)
+[Step 144] Key: k | PRNG: 37 calls
+  Map updated (8 rows changed)
+[Step 145] Key: k | PRNG: 31 calls
+  Map updated (12 rows changed)
+[Step 146] Key: F | PRNG: 0 calls
+[Step 147] Key: y | PRNG: 21 calls
+  Msg: You attack thin air.
+[Step 148] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 149] Key: F | PRNG: 0 calls
+[Step 150] Key: y | PRNG: 37 calls
+  Msg: You attack thin air.
+  Map updated (2 rows changed)
+[Step 151] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 152] Key: F | PRNG: 0 calls
+[Step 153] Key: y | PRNG: 52 calls
+  Msg: You attack thin air.  The gnome wields a bow!
+  Map updated (4 rows changed)
+[Step 154] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 155] Key: F | PRNG: 0 calls
+[Step 156] Key: y | PRNG: 37 calls
+  Msg: You attack thin air.
+  Map updated (2 rows changed)
+[Step 157] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 158] Key: F | PRNG: 0 calls
+[Step 159] Key: y | PRNG: 39 calls
+  Msg: You attack thin air.
+  Map updated (2 rows changed)
+[Step 160] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 161] Key: F | PRNG: 0 calls
+[Step 162] Key: y | PRNG: 44 calls
+  Msg: You attack thin air.
+  Map updated (1 rows changed)
+[Step 163] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 164] Key: F | PRNG: 0 calls
+[Step 165] Key: y | PRNG: 76 calls
+  Msg: You miss the gnome.  The gnome hits!
+  Map updated (1 rows changed)
+  Status update: Elara the Aspirant             St:10 Dx:12 Co:13 In:11 Wi:18 Ch:11 Lawful | Dlvl:4 $:0 HP:9(14) Pw:6(6) AC:7 Xp:1
+[Step 166] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 167] Key: F | PRNG: 0 calls
+[Step 168] Key: y | PRNG: 41 calls
+  Msg: You miss the gnome.
+  Map updated (1 rows changed)
+[Step 169] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 170] Key: F | PRNG: 0 calls
+[Step 171] Key: y | PRNG: 40 calls
+  Msg: You kill the gnome!
+  Map updated (4 rows changed)
+[Step 172] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 173] Key: F | PRNG: 0 calls
+[Step 174] Key: y | PRNG: 36 calls
+  Msg: You attack thin air.  The gnome shoots an arrow!--More--
+  Map updated (3 rows changed)
+[Step 175] Key:   | PRNG: 28 calls
+  Msg: You are hit by an arrow.
+  Map updated (1 rows changed)
+  Status update: Elara the Aspirant             St:10 Dx:12 Co:13 In:11 Wi:18 Ch:11 Lawful | Dlvl:4 $:0 HP:8(14) Pw:6(6) AC:7 Xp:1
+[Step 176] Key: F | PRNG: 0 calls
+[Step 177] Key: y | PRNG: 61 calls
+  Msg: You attack thin air.
+  Map updated (3 rows changed)
+[Step 178] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 179] Key: F | PRNG: 0 calls
+[Step 180] Key: y | PRNG: 52 calls
+  Msg: You attack thin air.
+  Map updated (2 rows changed)
+[Step 181] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 182] Key: F | PRNG: 0 calls
+[Step 183] Key: y | PRNG: 34 calls
+  Msg: You attack thin air.  The gnome shoots an arrow!--More--
+  Map updated (3 rows changed)
+[Step 184] Key:   | PRNG: 28 calls
+  Msg: You are hit by an arrow.
+  Map updated (1 rows changed)
+  Status update: Elara the Aspirant             St:10 Dx:12 Co:13 In:11 Wi:18 Ch:11 Lawful | Dlvl:4 $:0 HP:6(14) Pw:6(6) AC:7 Xp:1
+[Step 185] Key: F | PRNG: 0 calls
+[Step 186] Key: y | PRNG: 34 calls
+  Msg: You attack thin air.
+[Step 187] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 188] Key: F | PRNG: 0 calls
+[Step 189] Key: y | PRNG: 37 calls
+  Msg: You attack thin air.
+[Step 190] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 191] Key: F | PRNG: 0 calls
+[Step 192] Key: y | PRNG: 38 calls
+  Msg: You attack thin air.
+  Map updated (2 rows changed)
+  Status update: Elara the Aspirant             St:10 Dx:12 Co:13 In:11 Wi:18 Ch:11 Lawful | Dlvl:4 $:0 HP:7(14) Pw:6(6) AC:7 Xp:1
+[Step 193] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 194] Key: F | PRNG: 0 calls
+[Step 195] Key: y | PRNG: 43 calls
+  Msg: You attack thin air.
+  Map updated (2 rows changed)
+[Step 196] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 197] Key: F | PRNG: 0 calls
+[Step 198] Key: y | PRNG: 31 calls
+  Msg: You attack thin air.
+  Map updated (2 rows changed)
+[Step 199] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 200] Key: F | PRNG: 0 calls
+[Step 201] Key: y | PRNG: 31 calls
+  Msg: You attack thin air.
+  Map updated (2 rows changed)
+[Step 202] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 203] Key: F | PRNG: 0 calls
+[Step 204] Key: y | PRNG: 34 calls
+  Msg: You attack thin air.
+  Map updated (2 rows changed)
+[Step 205] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 206] Key: F | PRNG: 0 calls
+[Step 207] Key: y | PRNG: 47 calls
+  Msg: You attack thin air.
+  Map updated (2 rows changed)
+[Step 208] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 209] Key: F | PRNG: 0 calls
+[Step 210] Key: y | PRNG: 42 calls
+  Msg: You attack thin air.
+  Map updated (2 rows changed)
+[Step 211] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 212] Key: F | PRNG: 0 calls
+[Step 213] Key: y | PRNG: 55 calls
+  Msg: You miss the gnome.
+  Map updated (3 rows changed)
+[Step 214] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 215] Key: F | PRNG: 0 calls
+[Step 216] Key: y | PRNG: 53 calls
+  Msg: You kill the gnome!
+  Map updated (4 rows changed)
+[Step 217] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 218] Key: F | PRNG: 0 calls
+[Step 219] Key: y | PRNG: 31 calls
+  Msg: You attack thin air.
+  Map updated (2 rows changed)
+[Step 220] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 221] Key: F | PRNG: 0 calls
+[Step 222] Key: y | PRNG: 40 calls
+  Msg: You attack thin air.
+  Map updated (1 rows changed)
+  Status update: Elara the Aspirant             St:10 Dx:12 Co:13 In:11 Wi:18 Ch:11 Lawful | Dlvl:4 $:0 HP:8(14) Pw:6(6) AC:7 Xp:1
+[Step 223] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 224] Key: F | PRNG: 0 calls
+[Step 225] Key: y | PRNG: 51 calls
+  Msg: You attack thin air.
+  Map updated (3 rows changed)
+[Step 226] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 227] Key: F | PRNG: 0 calls
+[Step 228] Key: y | PRNG: 49 calls
+  Msg: You attack thin air.
+  Map updated (2 rows changed)
+[Step 229] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 230] Key: F | PRNG: 0 calls
+[Step 231] Key: y | PRNG: 48 calls
+  Msg: You attack thin air.
+  Map updated (2 rows changed)
+  Status update: Elara the Aspirant             St:10 Dx:12 Co:13 In:11 Wi:18 Ch:11 Lawful | Dlvl:4 $:0 HP:9(14) Pw:6(6) AC:7 Xp:1
+[Step 232] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 233] Key: F | PRNG: 0 calls
+[Step 234] Key: y | PRNG: 32 calls
+  Msg: You attack thin air.
+[Step 235] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 236] Key: F | PRNG: 0 calls
+[Step 237] Key: y | PRNG: 25 calls
+  Msg: You attack thin air.  The gnome shoots an arrow!--More--
+  Map updated (3 rows changed)
+[Step 238] Key:   | PRNG: 27 calls
+  Msg: You are hit by an arrow!
+  Map updated (1 rows changed)
+  Status update: Elara the Aspirant             St:10 Dx:12 Co:13 In:11 Wi:18 Ch:11 Lawful | Dlvl:4 $:0 HP:4(14) Pw:6(6) AC:7 Xp:1
+[Step 239] Key: F | PRNG: 0 calls
+[Step 240] Key: y | PRNG: 28 calls
+  Msg: You attack thin air.  The gnome shoots an arrow!--More--
+  Map updated (3 rows changed)
+[Step 241] Key:   | PRNG: 0 calls
+  Msg: You are hit by an arrow!--More--
+[Step 242] Key: F | PRNG: 0 calls
+  Msg: You are hit by an arrow!--More--
+[Step 243] Key: y | PRNG: 0 calls
+  Msg: You are hit by an arrow!--More--
+[Step 244] Key:   | PRNG: 1 calls
+  Msg: You die...--More--
+[Step 245] Key: F | PRNG: 0 calls
+  Msg: You die...--More--
+[Step 246] Key: y | PRNG: 0 calls
+  Msg: You die...--More--
+[Step 247] Key:   | PRNG: 53 calls
+  Map updated (21 rows changed)
+  Status update: You were level 1 with a maximum of 14 hit points when you died. | --More--
+[Step 248] Key: F | PRNG: 0 calls
+[Step 249] Key: y | PRNG: 0 calls
+[Step 250] Key:   | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update:  | --More--
+[Step 251] Key: a | PRNG: 0 calls
+[Step 252] Key:   | PRNG: 0 calls
+  Map updated (9 rows changed)
+  Status update:  | 
+
+=== SEGMENT 7 ===
+[Step 0] Key: NULL (Init) | PRNG: 2662 calls
+  Msg: Salutations Florian, welcome to NetHack!  You are a lawful male human Knight.
+  Status: Florian the Gallant            St:18 Dx:8 Co:14 In:7 Wi:15 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:5(5) AC:3 Xp:1
+[Step 1] Key:   | PRNG: 2 calls
+  Msg: Be careful!  New moon tonight.
+  Map updated (1 rows changed)
+[Step 2] Key: k | PRNG: 10 calls
+  Map updated (2 rows changed)
+[Step 3] Key: l | PRNG: 25 calls
+  Map updated (2 rows changed)
+[Step 4] Key: b | PRNG: 21 calls
+  Map updated (2 rows changed)
+[Step 5] Key: h | PRNG: 29 calls
+  Msg: You swap places with your saddled pony.
+  Map updated (2 rows changed)
+[Step 6] Key: y | PRNG: 37 calls
+  Map updated (2 rows changed)
+[Step 7] Key: y | PRNG: 38 calls
+  Map updated (2 rows changed)
+[Step 8] Key: h | PRNG: 30 calls
+  Map updated (2 rows changed)
+[Step 9] Key: h | PRNG: 28 calls
+  Map updated (1 rows changed)
+[Step 10] Key: j | PRNG: 28 calls
+  Map updated (3 rows changed)
+[Step 11] Key: j | PRNG: 29 calls
+  Map updated (4 rows changed)
+[Step 12] Key: j | PRNG: 32 calls
+  Map updated (4 rows changed)
+[Step 13] Key: b | PRNG: 18 calls
+  Map updated (4 rows changed)
+[Step 14] Key: n | PRNG: 26 calls
+  Map updated (4 rows changed)
+[Step 15] Key: j | PRNG: 43 calls
+  Map updated (4 rows changed)
+[Step 16] Key: j | PRNG: 23 calls
+  Map updated (3 rows changed)
+[Step 17] Key: j | PRNG: 19 calls
+  Map updated (3 rows changed)
+[Step 18] Key: j | PRNG: 22 calls
+  Map updated (5 rows changed)
+[Step 19] Key: j | PRNG: 20 calls
+  Map updated (5 rows changed)
+[Step 20] Key: h | PRNG: 18 calls
+  Map updated (4 rows changed)
+[Step 21] Key: h | PRNG: 44 calls
+  Msg: You hear bubbling water.
+  Map updated (3 rows changed)
+[Step 22] Key: h | PRNG: 28 calls
+  Map updated (1 rows changed)
+[Step 23] Key: b | PRNG: 37 calls
+  Map updated (2 rows changed)
+[Step 24] Key: > | PRNG: 2853 calls
+  Msg: You descend the stairs.--More--
+[Step 25] Key:   | PRNG: 16 calls
+  Msg: The saddled pony misses the grid bug.--More--
+  Map updated (14 rows changed)
+  Status update: Florian the Gallant            St:18 Dx:8 Co:14 In:7 Wi:15 Ch:17 Lawful | Dlvl:2 $:0 HP:16(16) Pw:5(5) AC:3 Xp:1
+[Step 26] Key:   | PRNG: 13 calls
+  Msg: The saddled pony misses the grid bug.
+[Step 27] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 28] Key: h | PRNG: 35 calls
+  Msg: The saddled pony hits the grid bug.  The grid bug is killed!
+  Map updated (2 rows changed)
+[Step 29] Key: b | PRNG: 34 calls
+  Map updated (3 rows changed)
+[Step 30] Key: b | PRNG: 45 calls
+  Map updated (3 rows changed)
+[Step 31] Key: h | PRNG: 29 calls
+  Map updated (2 rows changed)
+[Step 32] Key: h | PRNG: 34 calls
+  Map updated (2 rows changed)
+[Step 33] Key: b | PRNG: 41 calls
+  Map updated (2 rows changed)
+[Step 34] Key: h | PRNG: 31 calls
+  Map updated (1 rows changed)
+[Step 35] Key: h | PRNG: 33 calls
+  Map updated (1 rows changed)
+[Step 36] Key: h | PRNG: 33 calls
+  Map updated (1 rows changed)
+[Step 37] Key: h | PRNG: 54 calls
+  Map updated (2 rows changed)
+[Step 38] Key: b | PRNG: 32 calls
+  Map updated (3 rows changed)
+[Step 39] Key: b | PRNG: 33 calls
+  Map updated (3 rows changed)
+[Step 40] Key: b | PRNG: 31 calls
+  Map updated (2 rows changed)
+[Step 41] Key: h | PRNG: 36 calls
+  Map updated (1 rows changed)
+[Step 42] Key: h | PRNG: 1 calls
+  Msg: The door opens.
+  Map updated (7 rows changed)
+[Step 43] Key: h | PRNG: 34 calls
+  Map updated (7 rows changed)
+[Step 44] Key: h | PRNG: 44 calls
+  Msg: You miss the lichen.
+[Step 45] Key: h | PRNG: 38 calls
+  Msg: You miss the lichen.
+[Step 46] Key: h | PRNG: 62 calls
+  Msg: You kill the lichen!
+  Map updated (1 rows changed)
+[Step 47] Key: y | PRNG: 0 calls
+[Step 48] Key: h | PRNG: 34 calls
+  Map updated (5 rows changed)
+[Step 49] Key: h | PRNG: 28 calls
+  Map updated (1 rows changed)
+[Step 50] Key: h | PRNG: 31 calls
+  Map updated (1 rows changed)
+[Step 51] Key: b | PRNG: 30 calls
+  Map updated (2 rows changed)
+[Step 52] Key: b | PRNG: 36 calls
+  Map updated (2 rows changed)
+[Step 53] Key: h | PRNG: 28 calls
+  Map updated (1 rows changed)
+[Step 54] Key: h | PRNG: 29 calls
+  Map updated (1 rows changed)
+[Step 55] Key: k | PRNG: 36 calls
+  Map updated (2 rows changed)
+[Step 56] Key: k | PRNG: 39 calls
+  Map updated (2 rows changed)
+[Step 57] Key: k | PRNG: 23 calls
+  Map updated (2 rows changed)
+[Step 58] Key: u | PRNG: 0 calls
+[Step 59] Key: l | PRNG: 30 calls
+  Map updated (2 rows changed)
+[Step 60] Key: u | PRNG: 0 calls
+[Step 61] Key: k | PRNG: 0 calls
+[Step 62] Key: k | PRNG: 0 calls
+[Step 63] Key: s | PRNG: 26 calls
+  Map updated (1 rows changed)
+[Step 64] Key: s | PRNG: 28 calls
+  Map updated (1 rows changed)
+[Step 65] Key: s | PRNG: 35 calls
+  Map updated (1 rows changed)
+[Step 66] Key: s | PRNG: 31 calls
+  Map updated (1 rows changed)
+[Step 67] Key: s | PRNG: 29 calls
+  Map updated (1 rows changed)
+[Step 68] Key: s | PRNG: 32 calls
+  Msg: The saddled pony picks up a shining spellbook.
+  Map updated (1 rows changed)
+[Step 69] Key: s | PRNG: 37 calls
+  Msg: The saddled pony drops a shining spellbook.
+  Map updated (2 rows changed)
+[Step 70] Key: s | PRNG: 47 calls
+  Msg: The saddled pony picks up a shining spellbook.
+  Map updated (2 rows changed)
+[Step 71] Key: s | PRNG: 45 calls
+  Map updated (2 rows changed)
+[Step 72] Key: s | PRNG: 59 calls
+  Map updated (1 rows changed)
+[Step 73] Key: s | PRNG: 43 calls
+  Map updated (2 rows changed)
+[Step 74] Key: s | PRNG: 33 calls
+  Map updated (2 rows changed)
+[Step 75] Key: s | PRNG: 30 calls
+  Map updated (1 rows changed)
+[Step 76] Key: s | PRNG: 30 calls
+  Map updated (1 rows changed)
+[Step 77] Key: s | PRNG: 40 calls
+  Map updated (2 rows changed)
+[Step 78] Key: s | PRNG: 33 calls
+  Map updated (2 rows changed)
+[Step 79] Key: s | PRNG: 43 calls
+  Msg: The saddled pony drops a shining spellbook.
+  Map updated (2 rows changed)
+[Step 80] Key: s | PRNG: 33 calls
+  Map updated (2 rows changed)
+[Step 81] Key: s | PRNG: 40 calls
+  Map updated (2 rows changed)
+[Step 82] Key: s | PRNG: 40 calls
+  Map updated (1 rows changed)
+[Step 83] Key: . | PRNG: 32 calls
+  Map updated (1 rows changed)
+[Step 84] Key: b | PRNG: 33 calls
+  Map updated (2 rows changed)
+[Step 85] Key: j | PRNG: 52 calls
+  Msg: The saddled pony picks up a shining spellbook.
+  Map updated (2 rows changed)
+[Step 86] Key: h | PRNG: 32 calls
+  Map updated (2 rows changed)
+[Step 87] Key: h | PRNG: 31 calls
+  Map updated (1 rows changed)
+[Step 88] Key: k | PRNG: 49 calls
+  Map updated (3 rows changed)
+[Step 89] Key: k | PRNG: 38 calls
+  Map updated (4 rows changed)
+[Step 90] Key: k | PRNG: 35 calls
+  Msg: The newt bites!
+  Map updated (4 rows changed)
+  Status update: Florian the Gallant            St:18 Dx:8 Co:14 In:7 Wi:15 Ch:17 Lawful | Dlvl:2 $:0 HP:15(16) Pw:5(5) AC:3 Xp:1
+[Step 91] Key: k | PRNG: 32 calls
+  Map updated (3 rows changed)
+[Step 92] Key: u | PRNG: 0 calls
+[Step 93] Key: l | PRNG: 42 calls
+  Msg: You kill the newt!
+  Map updated (2 rows changed)
+[Step 94] Key: u | PRNG: 0 calls
+[Step 95] Key: s | PRNG: 54 calls
+[Step 96] Key: s | PRNG: 47 calls
+  Msg: The saddled pony drops a shining spellbook.
+  Map updated (2 rows changed)
+[Step 97] Key: s | PRNG: 36 calls
+  Map updated (2 rows changed)
+[Step 98] Key: s | PRNG: 33 calls
+  Map updated (2 rows changed)
+[Step 99] Key: s | PRNG: 33 calls
+  Map updated (2 rows changed)
+[Step 100] Key: s | PRNG: 52 calls
+[Step 101] Key: s | PRNG: 56 calls
+[Step 102] Key: s | PRNG: 46 calls
+[Step 103] Key: s | PRNG: 35 calls
+  Map updated (2 rows changed)
+  Status update: Florian the Gallant            St:18 Dx:8 Co:14 In:7 Wi:15 Ch:17 Lawful | Dlvl:2 $:0 HP:16(16) Pw:5(5) AC:3 Xp:1
+[Step 104] Key: s | PRNG: 52 calls
+[Step 105] Key: s | PRNG: 32 calls
+  Map updated (2 rows changed)
+[Step 106] Key: s | PRNG: 38 calls
+  Map updated (2 rows changed)
+[Step 107] Key: s | PRNG: 41 calls
+  Map updated (2 rows changed)
+[Step 108] Key: s | PRNG: 48 calls
+[Step 109] Key: s | PRNG: 35 calls
+  Map updated (1 rows changed)
+[Step 110] Key: s | PRNG: 19 calls
+[Step 111] Key: s | PRNG: 30 calls
+  Map updated (1 rows changed)
+[Step 112] Key: s | PRNG: 45 calls
+[Step 113] Key: s | PRNG: 56 calls
+[Step 114] Key: s | PRNG: 53 calls
+  Msg: The saddled pony picks up a shining spellbook.
+  Map updated (1 rows changed)
+[Step 115] Key: . | PRNG: 33 calls
+  Map updated (2 rows changed)
+[Step 116] Key: l | PRNG: 24 calls
+  Map updated (2 rows changed)
+[Step 117] Key: l | PRNG: 79 calls
+  Map updated (2 rows changed)
+[Step 118] Key: u | PRNG: 27 calls
+  Map updated (3 rows changed)
+[Step 119] Key: k | PRNG: 51 calls
+  Map updated (4 rows changed)
+[Step 120] Key: k | PRNG: 31 calls
+  Map updated (3 rows changed)
+[Step 121] Key: k | PRNG: 25 calls
+  Map updated (6 rows changed)
+[Step 122] Key: k | PRNG: 21 calls
+  Map updated (4 rows changed)
+[Step 123] Key: h | PRNG: 36 calls
+  Map updated (4 rows changed)
+[Step 124] Key: h | PRNG: 38 calls
+  Msg: You hear the chime of a cash register.
+  Map updated (4 rows changed)
+[Step 125] Key: y | PRNG: 28 calls
+  Map updated (2 rows changed)
+[Step 126] Key: h | PRNG: 44 calls
+  Map updated (2 rows changed)
+[Step 127] Key: h | PRNG: 21 calls
+  Map updated (2 rows changed)
+[Step 128] Key: h | PRNG: 22 calls
+  Map updated (2 rows changed)
+[Step 129] Key: b | PRNG: 21 calls
+  Map updated (2 rows changed)
+[Step 130] Key: h | PRNG: 32 calls
+  Map updated (1 rows changed)
+[Step 131] Key: h | PRNG: 32 calls
+  Map updated (1 rows changed)
+[Step 132] Key: h | PRNG: 22 calls
+  Map updated (1 rows changed)
+[Step 133] Key: h | PRNG: 30 calls
+  Map updated (2 rows changed)
+[Step 134] Key: b | PRNG: 23 calls
+  Map updated (3 rows changed)
+[Step 135] Key: j | PRNG: 44 calls
+  Map updated (4 rows changed)
+[Step 136] Key: b | PRNG: 27 calls
+  Map updated (4 rows changed)
+[Step 137] Key: h | PRNG: 40 calls
+  Map updated (2 rows changed)
+[Step 138] Key: h | PRNG: 24 calls
+  Map updated (5 rows changed)
+[Step 139] Key: h | PRNG: 39 calls
+  Map updated (3 rows changed)
+[Step 140] Key: h | PRNG: 24 calls
+  Map updated (2 rows changed)
+[Step 141] Key: h | PRNG: 30 calls
+  Map updated (1 rows changed)
+[Step 142] Key: j | PRNG: 48 calls
+  Map updated (3 rows changed)
+[Step 143] Key: j | PRNG: 31 calls
+  Map updated (4 rows changed)
+[Step 144] Key: j | PRNG: 37 calls
+  Map updated (3 rows changed)
+[Step 145] Key: n | PRNG: 34 calls
+  Map updated (2 rows changed)
+[Step 146] Key: l | PRNG: 37 calls
+  Map updated (1 rows changed)
+[Step 147] Key: l | PRNG: 39 calls
+  Map updated (5 rows changed)
+[Step 148] Key: n | PRNG: 40 calls
+  Map updated (9 rows changed)
+[Step 149] Key: j | PRNG: 39 calls
+  Msg: "Salutations, Florian!  Welcome to Swidnica's liquor emporium!"
+  Map updated (10 rows changed)
+[Step 150] Key: j | PRNG: 54 calls
+  Map updated (4 rows changed)
+[Step 151] Key: F | PRNG: 0 calls
+[Step 152] Key: l | PRNG: 53 calls
+  Msg: You miss Swidnica.  Swidnica gets angry!  Swidnica zaps a short wand!--More--
+[Step 153] Key:   | PRNG: 16 calls
+  Msg: The wand misses you.
+[Step 154] Key: F | PRNG: 0 calls
+[Step 155] Key: l | PRNG: 90 calls
+  Msg: You hit Swidnica!  Swidnica zaps a short wand!  The wand misses you.--More--
+[Step 156] Key:   | PRNG: 15 calls
+  Msg: Swidnica zaps a short wand!  The wand hits you!
+  Status update: Florian the Gallant            St:18 Dx:8 Co:14 In:7 Wi:15 Ch:17 Lawful | Dlvl:2 $:0 HP:4(16) Pw:5(5) AC:3 Xp:1
+[Step 157] Key: F | PRNG: 0 calls
+[Step 158] Key: l | PRNG: 56 calls
+  Msg: You hit Swidnica.  Swidnica zaps a wand of striking!--More--
+  Map updated (1 rows changed)
+[Step 159] Key:   | PRNG: 1 calls
+  Msg: The wand hits you!--More--
+[Step 160] Key: F | PRNG: 0 calls
+  Msg: The wand hits you!--More--
+[Step 161] Key: l | PRNG: 0 calls
+  Msg: The wand hits you!--More--
+[Step 162] Key:   | PRNG: 0 calls
+  Msg: You die...  Swidnica takes all your possessions.--More--
+  Status update: Florian the Gallant            St:18 Dx:8 Co:14 In:7 Wi:15 Ch:17 Lawful | Dlvl:2 $:0 HP:0(16) Pw:5(5) AC:3 Xp:1
+[Step 163] Key: F | PRNG: 0 calls
+  Msg: You die...  Swidnica takes all your possessions.--More--
+[Step 164] Key: l | PRNG: 0 calls
+  Msg: You die...  Swidnica takes all your possessions.--More--
+[Step 165] Key:   | PRNG: 0 calls
+  Map updated (21 rows changed)
+  Status update: You were level 1 with a maximum of 16 hit points when you died. | --More--
+[Step 166] Key: F | PRNG: 0 calls
+[Step 167] Key: l | PRNG: 0 calls
+[Step 168] Key:   | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update:  | --More--
+[Step 169] Key: F | PRNG: 0 calls
+[Step 170] Key: l | PRNG: 0 calls
+[Step 171] Key:   | PRNG: 0 calls
+  Map updated (17 rows changed)
+  Status update:  | 
+
+=== SEGMENT 8 ===
+[Step 0] Key: NULL (Init) | PRNG: 3024 calls
+  Msg: Konnichi wa Galen, welcome to NetHack!  You are a lawful male human Samurai.
+  Status: Galen the Hatamoto             St:15 Dx:15 Co:18 In:9 Wi:8 Ch:8 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:4 Xp:1
+[Step 1] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 2] Key: k | PRNG: 12 calls
+  Map updated (2 rows changed)
+[Step 3] Key: l | PRNG: 0 calls
+[Step 4] Key: T | PRNG: 196 calls
+  Msg: Hachi misses the jackal.  The jackal bites!  Hachi misses the jackal.--More--
+  Map updated (3 rows changed)
+  Status update: Galen the Hatamoto             St:15 Dx:15 Co:18 In:9 Wi:8 Ch:8 Lawful | Dlvl:1 $:0 HP:14(15) Pw:2(2) AC:4 Xp:1
+[Step 5] Key: e | PRNG: 0 calls
+  Msg: Hachi misses the jackal.  The jackal bites!  Hachi misses the jackal.--More--
+[Step 6] Key:   | PRNG: 0 calls
+  Msg: You finish taking off your mail.
+  Status update: Galen the Hatamoto             St:15 Dx:15 Co:18 In:9 Wi:8 Ch:8 Lawful | Dlvl:1 $:0 HP:14(15) Pw:2(2) AC:10 Xp:1
+[Step 7] Key: \r (Enter) | PRNG: 12 calls
+  Msg: You swap places with Hachi.  Hachi misses the jackal.--More--
+  Map updated (2 rows changed)
+[Step 8] Key: w | PRNG: 0 calls
+  Msg: You swap places with Hachi.  Hachi misses the jackal.--More--
+[Step 9] Key: a | PRNG: 0 calls
+  Msg: You swap places with Hachi.  Hachi misses the jackal.--More--
+[Step 10] Key:   | PRNG: 40 calls
+  Msg: The jackal bites!  Hachi bites the jackal.  The jackal bites Hachi.
+  Status update: Galen the Hatamoto             St:15 Dx:15 Co:18 In:9 Wi:8 Ch:8 Lawful | Dlvl:1 $:0 HP:12(15) Pw:2(2) AC:10 Xp:1
+[Step 11] Key: \r (Enter) | PRNG: 23 calls
+  Msg: Hachi misses the jackal.
+  Map updated (3 rows changed)
+[Step 12] Key: d | PRNG: 0 calls
+  Msg: What do you want to drop? [abcde or ?*]
+[Step 13] Key: a | PRNG: 44 calls
+  Msg: You drop a +0 katana.  Hachi bites the jackal.  The jackal is killed!
+  Map updated (1 rows changed)
+  Status update: Galen the Hatamoto             St:15 Dx:15 Co:18 In:9 Wi:8 Ch:8 Lawful | Dlvl:1 $:0 HP:13(15) Pw:2(2) AC:10 Xp:1
+[Step 14] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 15] Key: \r (Enter) | PRNG: 22 calls
+  Msg: Hachi eats a jackal corpse.
+  Map updated (5 rows changed)
+[Step 16] Key: F | PRNG: 0 calls
+[Step 17] Key: y | PRNG: 13 calls
+  Msg: You attack thin air.
+[Step 18] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 19] Key: F | PRNG: 0 calls
+[Step 20] Key: y | PRNG: 29 calls
+  Msg: You attack thin air.
+[Step 21] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 22] Key: F | PRNG: 0 calls
+[Step 23] Key: y | PRNG: 28 calls
+  Msg: You attack thin air.
+[Step 24] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 25] Key: F | PRNG: 0 calls
+[Step 26] Key: y | PRNG: 19 calls
+  Msg: You attack thin air.
+[Step 27] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 28] Key: F | PRNG: 0 calls
+[Step 29] Key: y | PRNG: 14 calls
+  Msg: You attack thin air.
+[Step 30] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 31] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 32] Key: q | PRNG: 0 calls
+  Msg: # quit
+[Step 33] Key: u | PRNG: 0 calls
+  Msg: # quit
+[Step 34] Key: i | PRNG: 0 calls
+  Msg: # quit
+[Step 35] Key: t | PRNG: 0 calls
+  Msg: # quit
+[Step 36] Key: 
+ | PRNG: 0 calls
+  Msg: Really quit without saving? [yn] (n)
+[Step 37] Key: y | PRNG: 0 calls
+  Msg: Sayonara Galen the Samurai...
+  Map updated (11 rows changed)
+  Status update:  | --More--
+[Step 38] Key:   | PRNG: 0 calls
+  Map updated (14 rows changed)
+  Status update:  | 
+
+=== SEGMENT 9 ===
+[Step 0] Key: NULL (Init) | PRNG: 2586 calls
+  Msg: Hello Hermione, welcome to NetHack!  You are a neutral female human Healer.
+  Status: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:1 $:1173 HP:13(13) Pw:5(5) AC:8 Xp:1
+[Step 1] Key:   | PRNG: 2 calls
+  Msg: You are lucky!  Full moon tonight.
+  Map updated (1 rows changed)
+[Step 2] Key: k | PRNG: 0 calls
+[Step 3] Key: l | PRNG: 7 calls
+  Map updated (1 rows changed)
+[Step 4] Key: l | PRNG: 17 calls
+  Map updated (3 rows changed)
+[Step 5] Key: n | PRNG: 16 calls
+  Msg: The little dog misses the newt.
+  Map updated (2 rows changed)
+[Step 6] Key: l | PRNG: 2 calls
+  Msg: The door opens.
+  Map updated (1 rows changed)
+[Step 7] Key: l | PRNG: 15 calls
+  Msg: The little dog misses the newt.
+  Map updated (2 rows changed)
+[Step 8] Key: l | PRNG: 38 calls
+  Msg: The little dog bites the newt.  The newt is killed!
+  Map updated (2 rows changed)
+[Step 9] Key: l | PRNG: 19 calls
+  Msg: Your little dog eats a newt corpse.
+  Map updated (2 rows changed)
+[Step 10] Key: j | PRNG: 0 calls
+[Step 11] Key: j | PRNG: 0 calls
+[Step 12] Key: n | PRNG: 0 calls
+[Step 13] Key: s | PRNG: 14 calls
+[Step 14] Key: s | PRNG: 33 calls
+  Map updated (1 rows changed)
+[Step 15] Key: s | PRNG: 19 calls
+  Map updated (1 rows changed)
+[Step 16] Key: s | PRNG: 32 calls
+[Step 17] Key: s | PRNG: 29 calls
+  Map updated (2 rows changed)
+[Step 18] Key: s | PRNG: 13 calls
+  Map updated (2 rows changed)
+[Step 19] Key: s | PRNG: 27 calls
+[Step 20] Key: s | PRNG: 29 calls
+[Step 21] Key: s | PRNG: 25 calls
+  Map updated (1 rows changed)
+[Step 22] Key: s | PRNG: 18 calls
+  Map updated (1 rows changed)
+[Step 23] Key: s | PRNG: 29 calls
+[Step 24] Key: s | PRNG: 25 calls
+  Map updated (1 rows changed)
+[Step 25] Key: s | PRNG: 34 calls
+[Step 26] Key: s | PRNG: 27 calls
+[Step 27] Key: s | PRNG: 17 calls
+  Map updated (1 rows changed)
+[Step 28] Key: s | PRNG: 29 calls
+[Step 29] Key: s | PRNG: 29 calls
+[Step 30] Key: s | PRNG: 27 calls
+[Step 31] Key: s | PRNG: 25 calls
+  Map updated (2 rows changed)
+[Step 32] Key: s | PRNG: 16 calls
+  Map updated (2 rows changed)
+[Step 33] Key: . | PRNG: 28 calls
+  Map updated (1 rows changed)
+[Step 34] Key: b | PRNG: 13 calls
+  Map updated (3 rows changed)
+[Step 35] Key: j | PRNG: 31 calls
+  Map updated (4 rows changed)
+[Step 36] Key: n | PRNG: 13 calls
+  Map updated (3 rows changed)
+[Step 37] Key: j | PRNG: 15 calls
+  Map updated (3 rows changed)
+[Step 38] Key: n | PRNG: 13 calls
+  Map updated (3 rows changed)
+[Step 39] Key: j | PRNG: 16 calls
+  Map updated (3 rows changed)
+[Step 40] Key: n | PRNG: 16 calls
+  Map updated (3 rows changed)
+[Step 41] Key: j | PRNG: 15 calls
+  Map updated (3 rows changed)
+[Step 42] Key: j | PRNG: 30 calls
+  Map updated (5 rows changed)
+[Step 43] Key: n | PRNG: 15 calls
+  Map updated (7 rows changed)
+[Step 44] Key: l | PRNG: 14 calls
+  Map updated (8 rows changed)
+[Step 45] Key: l | PRNG: 25 calls
+  Map updated (6 rows changed)
+[Step 46] Key: k | PRNG: 27 calls
+  Map updated (2 rows changed)
+[Step 47] Key: u | PRNG: 17 calls
+  Map updated (3 rows changed)
+[Step 48] Key: u | PRNG: 20 calls
+  Map updated (4 rows changed)
+[Step 49] Key: u | PRNG: 21 calls
+  Map updated (3 rows changed)
+[Step 50] Key: u | PRNG: 22 calls
+  Map updated (4 rows changed)
+[Step 51] Key: > | PRNG: 1714 calls
+  Msg: You descend the stairs.--More--
+[Step 52] Key:   | PRNG: 8 calls
+  Map updated (18 rows changed)
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:2 $:1173 HP:13(13) Pw:5(5) AC:8 Xp:1
+[Step 53] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 54] Key: u | PRNG: 12 calls
+  Map updated (3 rows changed)
+[Step 55] Key: n | PRNG: 13 calls
+  Map updated (2 rows changed)
+[Step 56] Key: l | PRNG: 3 calls
+  Msg: The door resists!
+[Step 57] Key: l | PRNG: 2 calls
+  Msg: The door opens.
+  Map updated (1 rows changed)
+[Step 58] Key: l | PRNG: 16 calls
+  Map updated (2 rows changed)
+[Step 59] Key: l | PRNG: 12 calls
+  Map updated (3 rows changed)
+[Step 60] Key: n | PRNG: 14 calls
+  Map updated (4 rows changed)
+[Step 61] Key: n | PRNG: 14 calls
+  Map updated (5 rows changed)
+[Step 62] Key: l | PRNG: 18 calls
+  Map updated (6 rows changed)
+[Step 63] Key: l | PRNG: 14 calls
+  Map updated (7 rows changed)
+[Step 64] Key: l | PRNG: 11 calls
+  Map updated (5 rows changed)
+[Step 65] Key: u | PRNG: 14 calls
+  Map updated (2 rows changed)
+[Step 66] Key: u | PRNG: 20 calls
+  Msg: The newt bites!
+  Map updated (2 rows changed)
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:2 $:1173 HP:11(13) Pw:5(5) AC:8 Xp:1
+[Step 67] Key: u | PRNG: 25 calls
+  Map updated (4 rows changed)
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:2 $:1173 HP:12(13) Pw:5(5) AC:8 Xp:1
+[Step 68] Key: u | PRNG: 19 calls
+  Msg: You hear the splashing of a naiad.
+  Map updated (3 rows changed)
+[Step 69] Key: l | PRNG: 16 calls
+  Map updated (5 rows changed)
+[Step 70] Key: n | PRNG: 15 calls
+  Map updated (4 rows changed)
+[Step 71] Key: n | PRNG: 49 calls
+  Map updated (2 rows changed)
+[Step 72] Key: n | PRNG: 19 calls
+  Map updated (2 rows changed)
+[Step 73] Key: b | PRNG: 16 calls
+  Map updated (2 rows changed)
+[Step 74] Key: > | PRNG: 2485 calls
+  Msg: You descend the stairs.--More--
+[Step 75] Key:   | PRNG: 13 calls
+  Map updated (11 rows changed)
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:3 $:1173 HP:12(13) Pw:5(5) AC:8 Xp:1
+[Step 76] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 77] Key: j | PRNG: 21 calls
+  Map updated (2 rows changed)
+[Step 78] Key: j | PRNG: 24 calls
+  Map updated (2 rows changed)
+[Step 79] Key: q | PRNG: 0 calls
+  Msg: Drink from the fountain? [yn] (n)
+[Step 80] Key: y | PRNG: 35 calls
+  Msg: You spot a gem in the sparkling waters!  The fountain dries up!
+[Step 81] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 82] Key: h | PRNG: 24 calls
+  Msg: You hear someone cursing shoplifters.
+  Map updated (1 rows changed)
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:3 $:1173 HP:13(13) Pw:5(5) AC:8 Xp:1
+[Step 83] Key: h | PRNG: 20 calls
+  Map updated (1 rows changed)
+[Step 84] Key: h | PRNG: 14 calls
+  Map updated (1 rows changed)
+[Step 85] Key: h | PRNG: 20 calls
+  Map updated (2 rows changed)
+[Step 86] Key: b | PRNG: 28 calls
+  Map updated (3 rows changed)
+[Step 87] Key: j | PRNG: 53 calls
+  Map updated (4 rows changed)
+[Step 88] Key: b | PRNG: 18 calls
+  Map updated (3 rows changed)
+[Step 89] Key: b | PRNG: 54 calls
+  Msg: You kill the goblin!
+  Map updated (1 rows changed)
+[Step 90] Key: j | PRNG: 0 calls
+[Step 91] Key: h | PRNG: 20 calls
+  Map updated (1 rows changed)
+[Step 92] Key: h | PRNG: 0 calls
+[Step 93] Key: h | PRNG: 0 calls
+[Step 94] Key: h | PRNG: 0 calls
+[Step 95] Key: s | PRNG: 19 calls
+[Step 96] Key: s | PRNG: 22 calls
+[Step 97] Key: s | PRNG: 18 calls
+[Step 98] Key: s | PRNG: 29 calls
+[Step 99] Key: s | PRNG: 25 calls
+[Step 100] Key: s | PRNG: 16 calls
+[Step 101] Key: s | PRNG: 18 calls
+[Step 102] Key: s | PRNG: 14 calls
+[Step 103] Key: s | PRNG: 23 calls
+[Step 104] Key: s | PRNG: 20 calls
+[Step 105] Key: s | PRNG: 24 calls
+[Step 106] Key: s | PRNG: 23 calls
+[Step 107] Key: s | PRNG: 25 calls
+[Step 108] Key: s | PRNG: 19 calls
+[Step 109] Key: s | PRNG: 15 calls
+[Step 110] Key: s | PRNG: 21 calls
+[Step 111] Key: s | PRNG: 20 calls
+[Step 112] Key: s | PRNG: 22 calls
+[Step 113] Key: s | PRNG: 23 calls
+[Step 114] Key: s | PRNG: 19 calls
+[Step 115] Key: . | PRNG: 20 calls
+[Step 116] Key: j | PRNG: 0 calls
+  Msg: Things that are here:
+  Map updated (13 rows changed)
+[Step 117] Key:   | PRNG: 23 calls
+  Map updated (5 rows changed)
+[Step 118] Key: j | PRNG: 20 calls
+  Map updated (3 rows changed)
+[Step 119] Key: h | PRNG: 17 calls
+  Map updated (6 rows changed)
+[Step 120] Key: h | PRNG: 2 calls
+  Msg: There are several objects here.  You hear a low hum.--More--
+  Map updated (5 rows changed)
+[Step 121] Key:   | PRNG: 19 calls
+  Msg: Gee!  All of a sudden, you can't see yourself.
+  Map updated (1 rows changed)
+[Step 122] Key: h | PRNG: 31 calls
+  Map updated (1 rows changed)
+[Step 123] Key: h | PRNG: 28 calls
+[Step 124] Key: k | PRNG: 17 calls
+  Map updated (1 rows changed)
+[Step 125] Key: k | PRNG: 53 calls
+  Map updated (1 rows changed)
+[Step 126] Key: y | PRNG: 45 calls
+  Map updated (2 rows changed)
+[Step 127] Key: b | PRNG: 21 calls
+  Map updated (1 rows changed)
+[Step 128] Key: h | PRNG: 34 calls
+  Map updated (1 rows changed)
+[Step 129] Key: h | PRNG: 16 calls
+  Map updated (1 rows changed)
+[Step 130] Key: h | PRNG: 89 calls
+  Msg: With great effort you move the boulder.
+  Map updated (1 rows changed)
+[Step 131] Key: h | PRNG: 42 calls
+  Map updated (1 rows changed)
+[Step 132] Key: h | PRNG: 43 calls
+  Map updated (1 rows changed)
+[Step 133] Key: h | PRNG: 42 calls
+  Map updated (2 rows changed)
+[Step 134] Key: y | PRNG: 26 calls
+  Map updated (1 rows changed)
+[Step 135] Key: h | PRNG: 53 calls
+  Map updated (1 rows changed)
+[Step 136] Key: h | PRNG: 17 calls
+[Step 137] Key: h | PRNG: 0 calls
+[Step 138] Key: h | PRNG: 0 calls
+[Step 139] Key: h | PRNG: 0 calls
+[Step 140] Key: s | PRNG: 25 calls
+[Step 141] Key: s | PRNG: 21 calls
+[Step 142] Key: s | PRNG: 28 calls
+[Step 143] Key: s | PRNG: 82 calls
+[Step 144] Key: s | PRNG: 32 calls
+[Step 145] Key: s | PRNG: 25 calls
+[Step 146] Key: s | PRNG: 22 calls
+[Step 147] Key: s | PRNG: 18 calls
+[Step 148] Key: s | PRNG: 18 calls
+[Step 149] Key: s | PRNG: 15 calls
+[Step 150] Key: s | PRNG: 15 calls
+[Step 151] Key: s | PRNG: 18 calls
+[Step 152] Key: s | PRNG: 32 calls
+[Step 153] Key: s | PRNG: 28 calls
+[Step 154] Key: s | PRNG: 27 calls
+[Step 155] Key: s | PRNG: 23 calls
+[Step 156] Key: s | PRNG: 29 calls
+[Step 157] Key: s | PRNG: 21 calls
+[Step 158] Key: s | PRNG: 26 calls
+  Msg: You hear the chime of a cash register.
+[Step 159] Key: s | PRNG: 19 calls
+  Msg: You find a hidden passage.
+  Map updated (1 rows changed)
+[Step 160] Key: . | PRNG: 26 calls
+[Step 161] Key: h | PRNG: 33 calls
+  Map updated (1 rows changed)
+[Step 162] Key: h | PRNG: 33 calls
+  Map updated (2 rows changed)
+[Step 163] Key: h | PRNG: 24 calls
+  Map updated (2 rows changed)
+[Step 164] Key: y | PRNG: 36 calls
+  Map updated (2 rows changed)
+[Step 165] Key: b | PRNG: 35 calls
+  Map updated (1 rows changed)
+[Step 166] Key: h | PRNG: 19 calls
+  Map updated (1 rows changed)
+[Step 167] Key: h | PRNG: 38 calls
+[Step 168] Key: h | PRNG: 0 calls
+[Step 169] Key: h | PRNG: 0 calls
+[Step 170] Key: h | PRNG: 0 calls
+[Step 171] Key: s | PRNG: 106 calls
+[Step 172] Key: s | PRNG: 26 calls
+[Step 173] Key: s | PRNG: 23 calls
+[Step 174] Key: s | PRNG: 16 calls
+  Msg: You find a hidden passage.
+  Map updated (1 rows changed)
+[Step 175] Key: s | PRNG: 23 calls
+[Step 176] Key: s | PRNG: 19 calls
+[Step 177] Key: s | PRNG: 17 calls
+[Step 178] Key: s | PRNG: 19 calls
+[Step 179] Key: s | PRNG: 29 calls
+[Step 180] Key: s | PRNG: 22 calls
+[Step 181] Key: s | PRNG: 21 calls
+[Step 182] Key: s | PRNG: 18 calls
+  Map updated (1 rows changed)
+[Step 183] Key: s | PRNG: 0 calls
+  Msg: You already found a monster.  Use 'm' prefix to force another search.
+[Step 184] Key: s | PRNG: 0 calls
+[Step 185] Key: s | PRNG: 0 calls
+[Step 186] Key: s | PRNG: 0 calls
+[Step 187] Key: s | PRNG: 0 calls
+[Step 188] Key: s | PRNG: 0 calls
+[Step 189] Key: s | PRNG: 0 calls
+[Step 190] Key: s | PRNG: 0 calls
+[Step 191] Key: . | PRNG: 0 calls
+  Msg: Are you waiting to get hit?  Use 'm' prefix to force a no-op (to rest).
+[Step 192] Key: h | PRNG: 28 calls
+  Msg: You hit the kobold zombie.
+[Step 193] Key: h | PRNG: 32 calls
+  Msg: You miss the kobold zombie.  The kobold zombie hits!
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:3 $:1173 HP:9(13) Pw:5(5) AC:8 Xp:1
+[Step 194] Key: h | PRNG: 25 calls
+  Msg: You miss the kobold zombie.
+[Step 195] Key: h | PRNG: 26 calls
+  Msg: You miss the kobold zombie.  The kobold zombie hits!
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:3 $:1173 HP:7(13) Pw:5(5) AC:8 Xp:1
+[Step 196] Key: h | PRNG: 32 calls
+  Msg: You miss the kobold zombie.  The kobold zombie hits!
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:3 $:1173 HP:3(13) Pw:5(5) AC:8 Xp:1
+[Step 197] Key: h | PRNG: 25 calls
+  Msg: You hit the kobold zombie.
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:3 $:1173 HP:4(13) Pw:5(5) AC:8 Xp:1
+[Step 198] Key: h | PRNG: 33 calls
+  Msg: You hit the kobold zombie.  The kobold zombie hits!
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:3 $:1173 HP:3(13) Pw:5(5) AC:8 Xp:1
+[Step 199] Key: h | PRNG: 61 calls
+  Msg: You destroy the kobold zombie!
+  Map updated (1 rows changed)
+[Step 200] Key: h | PRNG: 32 calls
+  Msg: You see here a kobold corpse.
+  Map updated (1 rows changed)
+[Step 201] Key: h | PRNG: 39 calls
+  Map updated (1 rows changed)
+[Step 202] Key: h | PRNG: 18 calls
+  Map updated (1 rows changed)
+[Step 203] Key: h | PRNG: 40 calls
+  Map updated (1 rows changed)
+[Step 204] Key: h | PRNG: 35 calls
+  Map updated (1 rows changed)
+[Step 205] Key: h | PRNG: 46 calls
+  Map updated (1 rows changed)
+[Step 206] Key: h | PRNG: 33 calls
+  Map updated (1 rows changed)
+[Step 207] Key: h | PRNG: 59 calls
+  Map updated (1 rows changed)
+[Step 208] Key: h | PRNG: 43 calls
+  Map updated (1 rows changed)
+[Step 209] Key: h | PRNG: 40 calls
+  Map updated (1 rows changed)
+[Step 210] Key: h | PRNG: 28 calls
+  Map updated (1 rows changed)
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:3 $:1173 HP:4(13) Pw:5(5) AC:8 Xp:1
+[Step 211] Key: h | PRNG: 32 calls
+  Map updated (1 rows changed)
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:3 $:1173 HP:5(13) Pw:5(5) AC:8 Xp:1
+[Step 212] Key: h | PRNG: 55 calls
+  Map updated (1 rows changed)
+[Step 213] Key: y | PRNG: 0 calls
+[Step 214] Key: k | PRNG: 0 calls
+[Step 215] Key: k | PRNG: 0 calls
+[Step 216] Key: s | PRNG: 22 calls
+[Step 217] Key: s | PRNG: 29 calls
+[Step 218] Key: s | PRNG: 17 calls
+[Step 219] Key: s | PRNG: 19 calls
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:3 $:1173 HP:6(13) Pw:5(5) AC:8 Xp:1
+[Step 220] Key: s | PRNG: 17 calls
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:3 $:1173 HP:7(13) Pw:5(5) AC:8 Xp:1
+[Step 221] Key: s | PRNG: 19 calls
+[Step 222] Key: s | PRNG: 17 calls
+[Step 223] Key: s | PRNG: 22 calls
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:3 $:1173 HP:8(13) Pw:5(5) AC:8 Xp:1
+[Step 224] Key: s | PRNG: 21 calls
+[Step 225] Key: s | PRNG: 19 calls
+[Step 226] Key: s | PRNG: 25 calls
+[Step 227] Key: s | PRNG: 21 calls
+[Step 228] Key: s | PRNG: 17 calls
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:3 $:1173 HP:9(13) Pw:5(5) AC:8 Xp:1
+[Step 229] Key: s | PRNG: 17 calls
+[Step 230] Key: s | PRNG: 17 calls
+[Step 231] Key: s | PRNG: 17 calls
+[Step 232] Key: s | PRNG: 16 calls
+[Step 233] Key: s | PRNG: 23 calls
+[Step 234] Key: s | PRNG: 17 calls
+[Step 235] Key: s | PRNG: 23 calls
+[Step 236] Key: . | PRNG: 20 calls
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:3 $:1173 HP:10(13) Pw:5(5) AC:8 Xp:1
+[Step 237] Key: h | PRNG: 43 calls
+  Map updated (3 rows changed)
+[Step 238] Key: y | PRNG: 19 calls
+  Map updated (2 rows changed)
+[Step 239] Key: k | PRNG: 35 calls
+  Map updated (1 rows changed)
+[Step 240] Key: k | PRNG: 53 calls
+  Map updated (1 rows changed)
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:3 $:1173 HP:11(13) Pw:5(5) AC:8 Xp:1
+[Step 241] Key: k | PRNG: 3 calls
+  Msg: The door resists!
+[Step 242] Key: k | PRNG: 3 calls
+  Msg: The door resists!
+[Step 243] Key: k | PRNG: 3 calls
+  Msg: The door resists!
+[Step 244] Key: k | PRNG: 2 calls
+  Msg: The door opens.
+  Map updated (6 rows changed)
+[Step 245] Key: k | PRNG: 19 calls
+  Map updated (6 rows changed)
+[Step 246] Key: k | PRNG: 46 calls
+  Map updated (5 rows changed)
+[Step 247] Key: u | PRNG: 35 calls
+[Step 248] Key: u | PRNG: 24 calls
+[Step 249] Key: u | PRNG: 30 calls
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:3 $:1173 HP:12(13) Pw:5(5) AC:8 Xp:1
+[Step 250] Key: l | PRNG: 44 calls
+  Map updated (2 rows changed)
+[Step 251] Key: l | PRNG: 29 calls
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:3 $:1173 HP:13(13) Pw:5(5) AC:8 Xp:1
+[Step 252] Key: l | PRNG: 48 calls
+  Map updated (2 rows changed)
+[Step 253] Key: n | PRNG: 52 calls
+  Map updated (3 rows changed)
+[Step 254] Key: n | PRNG: 20 calls
+[Step 255] Key: h | PRNG: 23 calls
+[Step 256] Key: h | PRNG: 16 calls
+[Step 257] Key: h | PRNG: 23 calls
+[Step 258] Key: h | PRNG: 25 calls
+  Msg: You miss the gas spore.
+[Step 259] Key: h | PRNG: 33 calls
+  Msg: You hit the gas spore.
+[Step 260] Key: h | PRNG: 8 calls
+  Msg: You kill the gas spore!  Boom!--More--
+  Map updated (1 rows changed)
+[Step 261] Key:   | PRNG: 2 calls
+  Msg: The shrieker is caught in the gas spore's explosion!--More--
+[Step 262] Key:   | PRNG: 23 calls
+  Msg: You are caught in the gas spore's explosion!
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:3 $:1173 HP:2(13) Pw:5(5) AC:8 Xp:1
+[Step 263] Key: h | PRNG: 38 calls
+[Step 264] Key: h | PRNG: 19 calls
+[Step 265] Key: y | PRNG: 18 calls
+[Step 266] Key: h | PRNG: 27 calls
+[Step 267] Key: b | PRNG: 33 calls
+[Step 268] Key: b | PRNG: 25 calls
+[Step 269] Key: h | PRNG: 2 calls
+  Msg: The door opens.
+  Map updated (1 rows changed)
+[Step 270] Key: h | PRNG: 32 calls
+  Map updated (1 rows changed)
+[Step 271] Key: h | PRNG: 36 calls
+  Map updated (1 rows changed)
+[Step 272] Key: h | PRNG: 71 calls
+  Map updated (1 rows changed)
+[Step 273] Key: h | PRNG: 18 calls
+  Map updated (1 rows changed)
+[Step 274] Key: h | PRNG: 0 calls
+[Step 275] Key: h | PRNG: 0 calls
+[Step 276] Key: h | PRNG: 0 calls
+[Step 277] Key: s | PRNG: 23 calls
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:3 $:1173 HP:3(13) Pw:5(5) AC:8 Xp:1
+[Step 278] Key: s | PRNG: 25 calls
+[Step 279] Key: s | PRNG: 14 calls
+[Step 280] Key: s | PRNG: 14 calls
+[Step 281] Key: s | PRNG: 22 calls
+[Step 282] Key: s | PRNG: 18 calls
+  Msg: You find a hidden passage.
+  Map updated (1 rows changed)
+[Step 283] Key: s | PRNG: 23 calls
+  Map updated (1 rows changed)
+[Step 284] Key: s | PRNG: 17 calls
+[Step 285] Key: s | PRNG: 20 calls
+[Step 286] Key: s | PRNG: 17 calls
+[Step 287] Key: s | PRNG: 17 calls
+[Step 288] Key: s | PRNG: 13 calls
+[Step 289] Key: s | PRNG: 17 calls
+[Step 290] Key: s | PRNG: 21 calls
+[Step 291] Key: s | PRNG: 22 calls
+[Step 292] Key: s | PRNG: 20 calls
+[Step 293] Key: s | PRNG: 15 calls
+[Step 294] Key: s | PRNG: 18 calls
+[Step 295] Key: s | PRNG: 24 calls
+  Map updated (2 rows changed)
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:3 $:1173 HP:4(13) Pw:5(5) AC:8 Xp:1
+[Step 296] Key: s | PRNG: 16 calls
+[Step 297] Key: . | PRNG: 19 calls
+[Step 298] Key: h | PRNG: 16 calls
+  Map updated (1 rows changed)
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:3 $:1173 HP:5(13) Pw:5(5) AC:8 Xp:1
+[Step 299] Key: h | PRNG: 16 calls
+  Map updated (1 rows changed)
+[Step 300] Key: h | PRNG: 41 calls
+  Map updated (5 rows changed)
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:3 $:1173 HP:6(13) Pw:5(5) AC:8 Xp:1
+[Step 301] Key: h | PRNG: 37 calls
+  Map updated (4 rows changed)
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:3 $:1173 HP:7(13) Pw:5(5) AC:8 Xp:1
+[Step 302] Key: b | PRNG: 22 calls
+  Map updated (5 rows changed)
+[Step 303] Key: h | PRNG: 25 calls
+  Map updated (6 rows changed)
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:3 $:1173 HP:8(13) Pw:5(5) AC:8 Xp:1
+[Step 304] Key: h | PRNG: 32 calls
+  Map updated (3 rows changed)
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:3 $:1173 HP:9(13) Pw:5(5) AC:8 Xp:1
+[Step 305] Key: b | PRNG: 30 calls
+  Map updated (1 rows changed)
+[Step 306] Key: j | PRNG: 27 calls
+[Step 307] Key: > | PRNG: 2446 calls
+  Msg: You descend the stairs.--More--
+[Step 308] Key:   | PRNG: 11 calls
+  Map updated (18 rows changed)
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:4 $:1173 HP:9(13) Pw:5(5) AC:8 Xp:1
+[Step 309] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 310] Key: l | PRNG: 36 calls
+  Map updated (7 rows changed)
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:4 $:1173 HP:10(13) Pw:5(5) AC:8 Xp:1
+[Step 311] Key: l | PRNG: 40 calls
+  Map updated (2 rows changed)
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:4 $:1173 HP:11(13) Pw:5(5) AC:8 Xp:1
+[Step 312] Key: l | PRNG: 46 calls
+  Map updated (2 rows changed)
+[Step 313] Key: l | PRNG: 27 calls
+  Msg: The kobold picks up 2 food rations.
+  Map updated (2 rows changed)
+[Step 314] Key: l | PRNG: 37 calls
+  Map updated (2 rows changed)
+[Step 315] Key: l | PRNG: 25 calls
+  Map updated (3 rows changed)
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:4 $:1173 HP:12(13) Pw:5(5) AC:8 Xp:1
+[Step 316] Key: u | PRNG: 18 calls
+  Map updated (2 rows changed)
+[Step 317] Key: n | PRNG: 43 calls
+  Map updated (2 rows changed)
+[Step 318] Key: u | PRNG: 25 calls
+  Map updated (2 rows changed)
+[Step 319] Key: l | PRNG: 38 calls
+  Msg: With great effort you move the boulder.
+  Map updated (1 rows changed)
+[Step 320] Key: l | PRNG: 19 calls
+  Map updated (1 rows changed)
+[Step 321] Key: l | PRNG: 27 calls
+  Map updated (1 rows changed)
+[Step 322] Key: l | PRNG: 32 calls
+  Map updated (1 rows changed)
+[Step 323] Key: l | PRNG: 30 calls
+  Map updated (1 rows changed)
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:4 $:1173 HP:13(13) Pw:5(5) AC:8 Xp:1
+[Step 324] Key: l | PRNG: 38 calls
+  Map updated (1 rows changed)
+[Step 325] Key: l | PRNG: 21 calls
+  Map updated (2 rows changed)
+[Step 326] Key: l | PRNG: 32 calls
+  Map updated (7 rows changed)
+[Step 327] Key: n | PRNG: 27 calls
+  Map updated (5 rows changed)
+[Step 328] Key: j | PRNG: 44 calls
+  Map updated (6 rows changed)
+[Step 329] Key: j | PRNG: 18 calls
+  Map updated (6 rows changed)
+[Step 330] Key: b | PRNG: 28 calls
+[Step 331] Key: n | PRNG: 27 calls
+[Step 332] Key: s | PRNG: 15 calls
+[Step 333] Key: s | PRNG: 30 calls
+[Step 334] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 335] Key: > | PRNG: 50 calls
+  Msg: You descend the stairs.--More--
+[Step 336] Key:   | PRNG: 33 calls
+  Map updated (17 rows changed)
+  Status update: Hermione the Rhizotomist       St:10 Dx:8 Co:12 In:10 Wi:18 Ch:17 Neutral | Dlvl:5 $:1173 HP:13(13) Pw:5(5) AC:8 Xp:1
+[Step 337] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 338] Key: u | PRNG: 62 calls
+  Map updated (7 rows changed)
+[Step 339] Key: u | PRNG: 0 calls
+[Step 340] Key: u | PRNG: 0 calls
+[Step 341] Key: u | PRNG: 0 calls
+[Step 342] Key: k | PRNG: 110 calls
+[Step 343] Key: k | PRNG: 124 calls
+[Step 344] Key: k | PRNG: 60 calls
+  Map updated (6 rows changed)
+[Step 345] Key: k | PRNG: 84 calls
+  Msg: You miss Elara's ghost.
+  Map updated (1 rows changed)
+[Step 346] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 347] Key: ; | PRNG: 0 calls
+  Msg: Pick a monster, object or location.--More--
+[Step 348] Key:   | PRNG: 0 calls
+  Msg: Tip: Farlooking or selecting a map location
+  Map updated (6 rows changed)
+[Step 349] Key:   | PRNG: 0 calls
+  Msg: Move cursor to a monster, object or location:
+  Map updated (6 rows changed)
+[Step 350] Key: k | PRNG: 0 calls
+  Msg: Elara's ghost, asleep
+[Step 351] Key: k | PRNG: 0 calls
+  Msg: floor of a room
+[Step 352] Key: . | PRNG: 0 calls
+  Msg: ·        a doorway or the floor of a room or the dark part of a room or ice
+  Map updated (1 rows changed)
+[Step 353] Key: " | PRNG: 0 calls
+  Msg: ·        a doorway or the floor of a room or the dark part of a room or ice
+[Step 354] Key:   | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 355] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 356] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 357] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 358] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 359] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 360] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 361] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 362] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 363] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 364] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 365] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 366] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 367] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 368] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 369] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 370] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 371] Key:   | PRNG: 0 calls
+  Msg: #
+[Step 372] Key: f | PRNG: 0 calls
+  Msg: #  f
+[Step 373] Key: a | PRNG: 0 calls
+  Msg: #  fa
+[Step 374] Key: r | PRNG: 0 calls
+  Msg: #  far
+[Step 375] Key: l | PRNG: 0 calls
+  Msg: #  farl
+[Step 376] Key: o | PRNG: 0 calls
+  Msg: #  farlo
+[Step 377] Key: o | PRNG: 0 calls
+  Msg: #  farloo
+[Step 378] Key: k | PRNG: 0 calls
+  Msg: #  farlook
+[Step 379] Key:   | PRNG: 0 calls
+  Msg: #  farlook
+[Step 380] Key: - | PRNG: 0 calls
+  Msg: #  farlook -
+[Step 381] Key: > | PRNG: 0 calls
+  Msg: #  farlook ->
+[Step 382] Key:   | PRNG: 0 calls
+  Msg: #  farlook ->
+[Step 383] Key: " | PRNG: 0 calls
+  Msg: #  farlook -> "
+[Step 384] Key: E | PRNG: 0 calls
+  Msg: #  farlook -> "E
+[Step 385] Key: l | PRNG: 0 calls
+  Msg: #  farlook -> "El
+[Step 386] Key: a | PRNG: 0 calls
+  Msg: #  farlook -> "Ela
+[Step 387] Key: r | PRNG: 0 calls
+  Msg: #  farlook -> "Elar
+[Step 388] Key: a | PRNG: 0 calls
+  Msg: #  farlook -> "Elara
+[Step 389] Key: ' | PRNG: 0 calls
+  Msg: #  farlook -> "Elara'
+[Step 390] Key: s | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's
+[Step 391] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's
+[Step 392] Key: g | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's g
+[Step 393] Key: h | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's gh
+[Step 394] Key: o | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's gho
+[Step 395] Key: s | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghos
+[Step 396] Key: t | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost
+[Step 397] Key: , | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost,
+[Step 398] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost,
+[Step 399] Key: a | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, a
+[Step 400] Key: s | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, as
+[Step 401] Key: l | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asl
+[Step 402] Key: e | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asle
+[Step 403] Key: e | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, aslee
+[Step 404] Key: p | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep
+[Step 405] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep
+[Step 406] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep
+[Step 407] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep
+[Step 408] Key: z | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   z
+[Step 409] Key: f | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zf
+[Step 410] Key: k | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk
+[Step 411] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk
+[Step 412] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk
+[Step 413] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk
+[Step 414] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk
+[Step 415] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk
+[Step 416] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk
+[Step 417] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk
+[Step 418] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk
+[Step 419] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk
+[Step 420] Key: k | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k
+[Step 421] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k
+[Step 422] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k
+[Step 423] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k
+[Step 424] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k
+[Step 425] Key: k | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k
+[Step 426] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k
+[Step 427] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k
+[Step 428] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k
+[Step 429] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k
+[Step 430] Key: k | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k
+[Step 431] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k
+[Step 432] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k
+[Step 433] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k
+[Step 434] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k
+[Step 435] Key: k | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k
+[Step 436] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k
+[Step 437] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k
+[Step 438] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k
+[Step 439] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k
+[Step 440] Key: k | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k    k
+[Step 441] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k    k
+[Step 442] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k    k
+[Step 443] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k    k
+[Step 444] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k    k
+[Step 445] Key: k | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k    k    k
+[Step 446] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k    k    k
+[Step 447] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k    k    k
+[Step 448] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k    k    k
+[Step 449] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k    k    k
+[Step 450] Key: k | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k    k    k
+  Map updated (1 rows changed)
+[Step 451] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k    k    k
+[Step 452] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k    k    k
+[Step 453] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k    k    k
+[Step 454] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k    k    k
+[Step 455] Key: k | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k    k    k
+[Step 456] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k    k    k
+[Step 457] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k    k    k
+[Step 458] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k    k    k
+[Step 459] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k    k    k
+[Step 460] Key: y | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k    k    k
+[Step 461] Key: y | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k    k    k
+[Step 462] Key: y | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k    k    k
+[Step 463] Key: y | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k    k    k
+[Step 464] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k    k    k
+[Step 465] Key: n | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k    k    k
+[Step 466] Key: y | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k    k    k
+[Step 467] Key:   | PRNG: 0 calls
+  Msg: #  farlook -> "Elara's ghost, asleep   zfk         k    k    k    k    k    k

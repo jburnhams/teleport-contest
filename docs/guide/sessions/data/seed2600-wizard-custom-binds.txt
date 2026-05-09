@@ -1,0 +1,108 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 2828 calls
+  Msg: It is written in the Book of Thoth:
+  Status: Wizard the Evoker              St:10 Dx:14 Co:14 In:18 Wi:10 Ch:9 Neutral | Dlvl:1 $:0 HP:12(12) Pw:6(6) AC:0 Xp:1/0 T:1
+[Step 1] Key:   | PRNG: 2 calls
+  Msg: Hello wizard, welcome to NetHack!  You are a neutral male human Wizard.--More--
+  Map updated (14 rows changed)
+  Status update: Wizard the Evoker              St:10 Dx:14 Co:14 In:18 Wi:10 Ch:9 Neutral | Dlvl:1 $:0 HP:12(12) Pw:6(6) AC:9 Xp:1/0 T:1
+[Step 2] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+  Map updated (5 rows changed)
+[Step 3] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+  Map updated (2 rows changed)
+[Step 4] Key: n | PRNG: 0 calls
+  Map updated (6 rows changed)
+[Step 5] Key: y | PRNG: 0 calls
+[Step 6] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 7] Key: v | PRNG: 0 calls
+  Msg: Weapons
+  Map updated (21 rows changed)
+[Step 8] Key:   | PRNG: 0 calls
+  Map updated (21 rows changed)
+[Step 9] Key: h | PRNG: 0 calls
+[Step 10] Key: j | PRNG: 0 calls
+[Step 11] Key: l | PRNG: 9 calls
+  Msg: You swap places with your kitten.
+  Map updated (1 rows changed)
+  Status update: Wizard the Evoker              St:10 Dx:14 Co:14 In:18 Wi:10 Ch:9 Neutral | Dlvl:1 $:0 HP:12(12) Pw:6(6) AC:9 Xp:1/0 T:2
+[Step 12] Key: h | PRNG: 16 calls
+  Msg: You swap places with your kitten.
+  Map updated (2 rows changed)
+  Status update: Wizard the Evoker              St:10 Dx:14 Co:14 In:18 Wi:10 Ch:9 Neutral | Dlvl:1 $:0 HP:12(12) Pw:6(6) AC:9 Xp:1/0 T:3
+[Step 13] Key: h | PRNG: 0 calls
+[Step 14] Key: . | PRNG: 18 calls
+  Map updated (2 rows changed)
+  Status update: Wizard the Evoker              St:10 Dx:14 Co:14 In:18 Wi:10 Ch:9 Neutral | Dlvl:1 $:0 HP:12(12) Pw:6(6) AC:9 Xp:1/0 T:4
+[Step 15] Key: . | PRNG: 23 calls
+  Status update: Wizard the Evoker              St:10 Dx:14 Co:14 In:18 Wi:10 Ch:9 Neutral | Dlvl:1 $:0 HP:12(12) Pw:6(6) AC:9 Xp:1/0 T:5
+[Step 16] Key: . | PRNG: 19 calls
+  Map updated (2 rows changed)
+  Status update: Wizard the Evoker              St:10 Dx:14 Co:14 In:18 Wi:10 Ch:9 Neutral | Dlvl:1 $:0 HP:12(12) Pw:6(6) AC:9 Xp:1/0 T:6
+[Step 17] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 18] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 19] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   wizard3: 47 | (1 of 3)
+[Step 20] Key: e | PRNG: 4152 calls
+  Msg: You materialize on a different level!
+  Map updated (20 rows changed)
+  Status update: Wizard the Evoker              St:10 Dx:14 Co:14 In:18 Wi:10 Ch:9 Neutral | Dlvl:12 $:0 HP:12(12) Pw:6(6) AC:9 Xp:1/0 T:6
+[Step 21] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 22] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 23] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   wizard3: 47 | (1 of 3)
+[Step 24] Key:   | PRNG: 0 calls
+  Msg: t -   fakewiz2: 48
+  Map updated (21 rows changed)
+  Status update: J -   astral: -5 | (2 of 3)
+[Step 25] Key: B | PRNG: 4379 calls
+  Msg: You materialize on a different level!
+  Map updated (21 rows changed)
+  Status update: Wizard the Evoker              St:10 Dx:14 Co:14 In:18 Wi:10 Ch:9 Neutral | Dlvl:5 $:0 HP:12(12) Pw:6(6) AC:9 Xp:1/0 T:6
+[Step 26] Key: i | PRNG: 0 calls
+  Msg: Weapons
+  Map updated (21 rows changed)
+[Step 27] Key: ESC | PRNG: 0 calls
+  Map updated (21 rows changed)
+[Step 28] Key: + | PRNG: 0 calls
+  Msg: Currently known spells
+  Map updated (5 rows changed)
+[Step 29] Key: ESC | PRNG: 0 calls
+  Map updated (5 rows changed)
+[Step 30] Key: \ | PRNG: 0 calls
+  Msg: Discoveries, by order of discovery within each class
+  Map updated (20 rows changed)
+  Status update: * spellbook of protection (plaid) | --More--
+[Step 31] Key: ESC | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Wizard the Evoker              St:10 Dx:14 Co:14 In:18 Wi:10 Ch:9 Neutral | Dlvl:5 $:0 HP:12(12) Pw:6(6) AC:9 Xp:1/0 T:6
+[Step 32] Key:  | PRNG: 0 calls
+  Msg: Wizard the Wizard's attributes:
+  Map updated (20 rows changed)
+  Status update: Your intelligence is 18. | (1 of 2)
+[Step 33] Key:   | PRNG: 0 calls
+  Msg: Your wisdom is 10.
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 34] Key: ESC | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Wizard the Evoker              St:10 Dx:14 Co:14 In:18 Wi:10 Ch:9 Neutral | Dlvl:5 $:0 HP:12(12) Pw:6(6) AC:9 Xp:1/0 T:6
+[Step 35] Key: s | PRNG: 80 calls
+  Status update: Wizard the Evoker              St:10 Dx:14 Co:14 In:18 Wi:10 Ch:9 Neutral | Dlvl:5 $:0 HP:12(12) Pw:6(6) AC:9 Xp:1/0 T:7
+[Step 36] Key: s | PRNG: 121 calls
+  Status update: Wizard the Evoker              St:10 Dx:14 Co:14 In:18 Wi:10 Ch:9 Neutral | Dlvl:5 $:0 HP:12(12) Pw:6(6) AC:9 Xp:1/0 T:8
+[Step 37] Key: : | PRNG: 0 calls
+  Msg: You see no objects here.

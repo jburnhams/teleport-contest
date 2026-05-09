@@ -1,0 +1,141 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 2398 calls
+  Msg: It is written in the Book of Ishtar:
+  Status: Grok the Troglodyte            St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:0 Xp:1/0 T:1
+[Step 1] Key: ESC | PRNG: 0 calls
+  Msg: Hello Grok, welcome to NetHack!  You are a neutral human Caveman.--More--
+  Map updated (14 rows changed)
+  Status update: Grok the Troglodyte            St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:8 Xp:1/0 T:1
+[Step 2] Key:   | PRNG: 2 calls
+  Msg: You are in non-scoring explore/discovery mode.--More--
+[Step 3] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+  Map updated (4 rows changed)
+[Step 4] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+  Map updated (2 rows changed)
+[Step 5] Key: n | PRNG: 0 calls
+  Map updated (5 rows changed)
+[Step 6] Key: l | PRNG: 7 calls
+  Msg: You see here a food ration.
+  Map updated (1 rows changed)
+  Status update: Grok the Troglodyte            St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:8 Xp:1/0 T:2
+[Step 7] Key: l | PRNG: 17 calls
+  Map updated (2 rows changed)
+  Status update: Grok the Troglodyte            St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:8 Xp:1/0 T:3
+[Step 8] Key: l | PRNG: 36 calls
+  Msg: Slasher picks up a food ration.
+  Map updated (2 rows changed)
+  Status update: Grok the Troglodyte            St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:8 Xp:1/0 T:4
+[Step 9] Key: l | PRNG: 20 calls
+  Map updated (2 rows changed)
+  Status update: Grok the Troglodyte            St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:8 Xp:1/0 T:5
+[Step 10] Key: l | PRNG: 48 calls
+  Map updated (2 rows changed)
+  Status update: Grok the Troglodyte            St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:8 Xp:1/0 T:6
+[Step 11] Key: j | PRNG: 22 calls
+  Map updated (3 rows changed)
+  Status update: Grok the Troglodyte            St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:8 Xp:1/0 T:7
+[Step 12] Key: j | PRNG: 0 calls
+[Step 13] Key: j | PRNG: 0 calls
+[Step 14] Key: j | PRNG: 0 calls
+[Step 15] Key: j | PRNG: 0 calls
+[Step 16] Key: h | PRNG: 44 calls
+  Msg: Slasher drops a food ration.
+  Map updated (1 rows changed)
+  Status update: Grok the Troglodyte            St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:8 Xp:1/0 T:8
+[Step 17] Key: h | PRNG: 34 calls
+  Msg: You see here a food ration.
+  Map updated (1 rows changed)
+  Status update: Grok the Troglodyte            St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:8 Xp:1/0 T:9
+[Step 18] Key: h | PRNG: 40 calls
+  Map updated (2 rows changed)
+  Status update: Grok the Troglodyte            St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:8 Xp:1/0 T:10
+[Step 19] Key: h | PRNG: 21 calls
+  Map updated (2 rows changed)
+  Status update: Grok the Troglodyte            St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:8 Xp:1/0 T:11
+[Step 20] Key: h | PRNG: 29 calls
+  Msg: Slasher picks up a food ration.
+  Map updated (1 rows changed)
+  Status update: Grok the Troglodyte            St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:8 Xp:1/0 T:12
+[Step 21] Key: k | PRNG: 31 calls
+  Map updated (2 rows changed)
+  Status update: Grok the Troglodyte            St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:8 Xp:1/0 T:13
+[Step 22] Key: k | PRNG: 42 calls
+  Map updated (2 rows changed)
+  Status update: Grok the Troglodyte            St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:8 Xp:1/0 T:14
+[Step 23] Key: k | PRNG: 29 calls
+  Map updated (4 rows changed)
+  Status update: Grok the Troglodyte            St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:8 Xp:1/0 T:15
+[Step 24] Key: k | PRNG: 18 calls
+  Map updated (3 rows changed)
+  Status update: Grok the Troglodyte            St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:8 Xp:1/0 T:16
+[Step 25] Key: k | PRNG: 0 calls
+[Step 26] Key: l | PRNG: 22 calls
+  Map updated (2 rows changed)
+  Status update: Grok the Troglodyte            St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:8 Xp:1/0 T:17
+[Step 27] Key: l | PRNG: 22 calls
+  Map updated (2 rows changed)
+  Status update: Grok the Troglodyte            St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:8 Xp:1/0 T:18
+[Step 28] Key: j | PRNG: 0 calls
+[Step 29] Key: j | PRNG: 0 calls
+[Step 30] Key: h | PRNG: 29 calls
+  Msg: You swap places with Slasher.  Slasher drops a food ration.
+  Map updated (1 rows changed)
+  Status update: Grok the Troglodyte            St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:8 Xp:1/0 T:19
+[Step 31] Key: h | PRNG: 22 calls
+  Map updated (1 rows changed)
+  Status update: Grok the Troglodyte            St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:8 Xp:1/0 T:20
+[Step 32] Key: s | PRNG: 36 calls
+  Status update: Grok the Troglodyte            St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:8 Xp:1/0 T:21
+[Step 33] Key: s | PRNG: 19 calls
+  Map updated (1 rows changed)
+  Status update: Grok the Troglodyte            St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:8 Xp:1/0 T:22
+[Step 34] Key: f | PRNG: 0 calls
+  Msg: b - a +2 sling (weapon in right hand).--More--
+[Step 35] Key:   | PRNG: 3 calls
+  Msg: a - a +1 club (alternate weapon; not wielded).--More--
+[Step 36] Key:   | PRNG: 41 calls
+  Msg: Slasher drops a food ration.--More--
+  Map updated (1 rows changed)
+  Status update: Grok the Troglodyte            St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:8 Xp:1/0 T:23
+[Step 37] Key:   | PRNG: 0 calls
+  Msg: In what direction?
+[Step 38] Key: l | PRNG: 29 calls
+  Msg: You shoot 2 flint stones.
+  Map updated (1 rows changed)
+  Status update: Grok the Troglodyte            St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:8 Xp:1/0 T:24
+[Step 39] Key: i | PRNG: 0 calls
+  Msg: Weapons
+  Map updated (10 rows changed)
+[Step 40] Key: ESC | PRNG: 0 calls
+  Map updated (10 rows changed)
+[Step 41] Key: + | PRNG: 0 calls
+  Msg: You don't know any spells right now.
+[Step 42] Key: ESC | PRNG: 0 calls
+[Step 43] Key: \ | PRNG: 0 calls
+  Msg: Discoveries, by order of discovery within each class
+  Map updated (11 rows changed)
+  Status update:  | --More--
+[Step 44] Key: ESC | PRNG: 0 calls
+  Map updated (11 rows changed)
+  Status update: Grok the Troglodyte            St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:8 Xp:1/0 T:24
+[Step 45] Key:  | PRNG: 0 calls
+  Msg: Grok the Caveman's attributes:
+  Map updated (19 rows changed)
+  Status update: Your intelligence is 7. | (1 of 2)
+[Step 46] Key:   | PRNG: 0 calls
+  Msg: Your wisdom is 9.
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 47] Key: ESC | PRNG: 0 calls
+  Map updated (17 rows changed)
+  Status update: Grok the Troglodyte            St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:8 Xp:1/0 T:24
+[Step 48] Key: s | PRNG: 33 calls
+  Map updated (2 rows changed)
+  Status update: Grok the Troglodyte            St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:8 Xp:1/0 T:25
+[Step 49] Key: s | PRNG: 43 calls
+  Status update: Grok the Troglodyte            St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:8 Xp:1/0 T:26
+[Step 50] Key: : | PRNG: 0 calls
+  Msg: You see no objects here.

@@ -1,0 +1,67 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 2291 calls
+  Msg: It is written in the Book of Mars:
+  Status: Ricky the Tenderfoot           St:15 Dx:11 Co:15 In:13 Wi:14 Ch:7 Chaotic | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:0 Xp:1
+[Step 1] Key:   | PRNG: 2 calls
+  Msg: Hello ricky, welcome to NetHack!  You are a chaotic female human Ranger.
+  Map updated (15 rows changed)
+  Status update: Ricky the Tenderfoot           St:15 Dx:11 Co:15 In:13 Wi:14 Ch:7 Chaotic | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:7 Xp:1
+[Step 2] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+  Map updated (6 rows changed)
+[Step 3] Key: n | PRNG: 0 calls
+  Map updated (5 rows changed)
+[Step 4] Key: Q | PRNG: 0 calls
+  Msg: What do you want to ready? [- cd or ?*]
+[Step 5] Key: b | PRNG: 0 calls
+  Msg: That is your alternate weapon.  Ready it instead? [ynq] (q)
+[Step 6] Key: y | PRNG: 0 calls
+  Msg: b - a +1 bow (at the ready).
+[Step 7] Key: t | PRNG: 0 calls
+  Msg: What do you want to throw? [bcd or ?*]
+[Step 8] Key: d | PRNG: 0 calls
+  Msg: In what direction?
+[Step 9] Key: l | PRNG: 9 calls
+  Msg: You aren't wielding a bow, so you throw your arrow by hand.
+[Step 10] Key: _ | PRNG: 0 calls
+  Msg: Where do you want to travel to?--More--
+[Step 11] Key: ESC | PRNG: 0 calls
+  Msg: Tip: Farlooking or selecting a map location
+  Map updated (7 rows changed)
+[Step 12] Key: E | PRNG: 0 calls
+  Msg: Tip: Farlooking or selecting a map location
+[Step 13] Key: - | PRNG: 0 calls
+  Msg: Tip: Farlooking or selecting a map location
+[Step 14] Key: ESC | PRNG: 0 calls
+  Msg: (For instructions type a '?')  Move cursor to the desired destination:
+  Map updated (7 rows changed)
+[Step 15] Key: i | PRNG: 0 calls
+  Msg: Unknown direction: 'i' (use 'h', 'j', 'k', 'l' or '.').
+[Step 16] Key: ESC | PRNG: 0 calls
+[Step 17] Key: + | PRNG: 0 calls
+  Msg: You don't know any spells right now.
+[Step 18] Key: ESC | PRNG: 0 calls
+[Step 19] Key: \ | PRNG: 0 calls
+  Msg: Discoveries, by order of discovery within each class
+  Map updated (13 rows changed)
+  Status update:  | --More--
+[Step 20] Key: ESC | PRNG: 0 calls
+  Map updated (13 rows changed)
+  Status update: Ricky the Tenderfoot           St:15 Dx:11 Co:15 In:13 Wi:14 Ch:7 Chaotic | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:7 Xp:1
+[Step 21] Key:  | PRNG: 0 calls
+  Msg: Ricky the Ranger's attributes:
+  Map updated (18 rows changed)
+  Status update: Your intelligence is 13. | (1 of 2)
+[Step 22] Key:   | PRNG: 0 calls
+  Msg: Your wisdom is 14.
+  Map updated (20 rows changed)
+  Status update:  | 
+[Step 23] Key: ESC | PRNG: 0 calls
+  Map updated (9 rows changed)
+  Status update: Ricky the Tenderfoot           St:15 Dx:11 Co:15 In:13 Wi:14 Ch:7 Chaotic | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:7 Xp:1
+[Step 24] Key: s | PRNG: 41 calls
+[Step 25] Key: s | PRNG: 28 calls
+  Map updated (2 rows changed)
+[Step 26] Key: : | PRNG: 0 calls
+  Msg: There is a staircase up out of the dungeon here.--More--

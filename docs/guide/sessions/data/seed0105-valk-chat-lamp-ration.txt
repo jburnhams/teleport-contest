@@ -1,0 +1,65 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 2466 calls
+  Msg: It is written in the Book of Odin:
+  Status: Astrid the Stripling           St:17 Dx:13 Co:18 In:7 Wi:10 Ch:14 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:0 Xp:1
+[Step 1] Key:   | PRNG: 2 calls
+  Msg: Velkommen Astrid, welcome to NetHack!  You are a neutral human Valkyrie.
+  Map updated (15 rows changed)
+  Status update: Astrid the Stripling           St:17 Dx:13 Co:18 In:7 Wi:10 Ch:14 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:6 Xp:1
+[Step 2] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+  Map updated (5 rows changed)
+[Step 3] Key: n | PRNG: 0 calls
+  Map updated (4 rows changed)
+[Step 4] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 5] Key: c | PRNG: 0 calls
+  Msg: # c
+[Step 6] Key: h | PRNG: 0 calls
+  Msg: # ch
+[Step 7] Key: a | PRNG: 0 calls
+  Msg: # chat
+[Step 8] Key: t | PRNG: 0 calls
+  Msg: # chat
+[Step 9] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Talk to whom? (in what direction)
+[Step 10] Key: y | PRNG: 0 calls
+  Msg: It's like talking to a wall.
+[Step 11] Key: i | PRNG: 0 calls
+  Msg: Weapons
+  Map updated (7 rows changed)
+[Step 12] Key:   | PRNG: 0 calls
+  Map updated (7 rows changed)
+[Step 13] Key: a | PRNG: 0 calls
+  Msg: You don't have anything to use or apply.
+[Step 14] Key: e | PRNG: 0 calls
+  Msg: What do you want to eat? [d or ?*]
+[Step 15] Key: e | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 16] Key: d | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 17] Key:   | PRNG: 0 calls
+  Msg: What do you want to eat? [d or ?*]
+[Step 18] Key: i | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 19] Key: ESC | PRNG: 0 calls
+  Msg: What do you want to eat? [d or ?*]
+[Step 20] Key: + | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 21] Key: ESC | PRNG: 0 calls
+  Msg: What do you want to eat? [d or ?*]
+[Step 22] Key: \ | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 23] Key: ESC | PRNG: 0 calls
+  Msg: What do you want to eat? [d or ?*]
+[Step 24] Key:  | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 25] Key:   | PRNG: 0 calls
+  Msg: What do you want to eat? [d or ?*]
+[Step 26] Key: ESC | PRNG: 0 calls
+  Msg: Never mind.
+[Step 27] Key: s | PRNG: 9 calls
+[Step 28] Key: s | PRNG: 22 calls
+[Step 29] Key: : | PRNG: 0 calls
+  Msg: There is a staircase up out of the dungeon here.

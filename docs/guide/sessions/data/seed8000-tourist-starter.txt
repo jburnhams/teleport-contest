@@ -1,0 +1,67 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 2975 calls
+  Msg: Aloha Contestant, welcome to NetHack!  You are a neutral female human Tourist.
+  Status: Contestant the Rambler         St:9 Dx:14 Co:12 In:11 Wi:16 Ch:16 Neutral | Dlvl:1 $:757 HP:10(10) Pw:2(2) AC:10 Xp:1/0 T:1
+[Step 1] Key: l | PRNG: 8 calls
+  Map updated (1 rows changed)
+  Status update: Contestant the Rambler         St:9 Dx:14 Co:12 In:11 Wi:16 Ch:16 Neutral | Dlvl:1 $:757 HP:10(10) Pw:2(2) AC:10 Xp:1/0 T:2
+[Step 2] Key: l | PRNG: 12 calls
+  Map updated (5 rows changed)
+  Status update: Contestant the Rambler         St:9 Dx:14 Co:12 In:11 Wi:16 Ch:16 Neutral | Dlvl:1 $:757 HP:10(10) Pw:2(2) AC:10 Xp:1/0 T:3
+[Step 3] Key: n | PRNG: 14 calls
+  Map updated (2 rows changed)
+  Status update: Contestant the Rambler         St:9 Dx:14 Co:12 In:11 Wi:16 Ch:16 Neutral | Dlvl:1 $:757 HP:10(10) Pw:2(2) AC:10 Xp:1/0 T:4
+[Step 4] Key: j | PRNG: 14 calls
+  Map updated (2 rows changed)
+  Status update: Contestant the Rambler         St:9 Dx:14 Co:12 In:11 Wi:16 Ch:16 Neutral | Dlvl:1 $:757 HP:10(10) Pw:2(2) AC:10 Xp:1/0 T:5
+[Step 5] Key: h | PRNG: 11 calls
+  Map updated (1 rows changed)
+  Status update: Contestant the Rambler         St:9 Dx:14 Co:12 In:11 Wi:16 Ch:16 Neutral | Dlvl:1 $:757 HP:10(10) Pw:2(2) AC:10 Xp:1/0 T:6
+[Step 6] Key: h | PRNG: 14 calls
+  Map updated (1 rows changed)
+  Status update: Contestant the Rambler         St:9 Dx:14 Co:12 In:11 Wi:16 Ch:16 Neutral | Dlvl:1 $:757 HP:10(10) Pw:2(2) AC:10 Xp:1/0 T:7
+[Step 7] Key: y | PRNG: 14 calls
+  Map updated (2 rows changed)
+  Status update: Contestant the Rambler         St:9 Dx:14 Co:12 In:11 Wi:16 Ch:16 Neutral | Dlvl:1 $:757 HP:10(10) Pw:2(2) AC:10 Xp:1/0 T:8
+[Step 8] Key: k | PRNG: 11 calls
+  Map updated (2 rows changed)
+  Status update: Contestant the Rambler         St:9 Dx:14 Co:12 In:11 Wi:16 Ch:16 Neutral | Dlvl:1 $:757 HP:10(10) Pw:2(2) AC:10 Xp:1/0 T:9
+[Step 9] Key: b | PRNG: 15 calls
+  Map updated (2 rows changed)
+  Status update: Contestant the Rambler         St:9 Dx:14 Co:12 In:11 Wi:16 Ch:16 Neutral | Dlvl:1 $:757 HP:10(10) Pw:2(2) AC:10 Xp:1/0 T:10
+[Step 10] Key: l | PRNG: 14 calls
+  Map updated (1 rows changed)
+  Status update: Contestant the Rambler         St:9 Dx:14 Co:12 In:11 Wi:16 Ch:16 Neutral | Dlvl:1 $:757 HP:10(10) Pw:2(2) AC:10 Xp:1/0 T:11
+[Step 11] Key: i | PRNG: 0 calls
+  Msg: Coins
+  Map updated (20 rows changed)
+[Step 12] Key: ESC | PRNG: 0 calls
+  Map updated (20 rows changed)
+[Step 13] Key: + | PRNG: 0 calls
+  Msg: You don't know any spells right now.
+[Step 14] Key: ESC | PRNG: 0 calls
+[Step 15] Key: \ | PRNG: 0 calls
+  Msg: Discoveries, by order of discovery within each class
+  Map updated (13 rows changed)
+  Status update:  | --More--
+[Step 16] Key: ESC | PRNG: 0 calls
+  Map updated (13 rows changed)
+  Status update: Contestant the Rambler         St:9 Dx:14 Co:12 In:11 Wi:16 Ch:16 Neutral | Dlvl:1 $:757 HP:10(10) Pw:2(2) AC:10 Xp:1/0 T:11
+[Step 17] Key:  | PRNG: 0 calls
+  Msg: Contestant the Tourist's attributes:
+  Map updated (20 rows changed)
+  Status update: Your intelligence is 11. | (1 of 2)
+[Step 18] Key:   | PRNG: 0 calls
+  Msg: Your wisdom is 16.
+  Map updated (20 rows changed)
+  Status update:  | 
+[Step 19] Key:   | PRNG: 0 calls
+  Map updated (14 rows changed)
+  Status update: Contestant the Rambler         St:9 Dx:14 Co:12 In:11 Wi:16 Ch:16 Neutral | Dlvl:1 $:757 HP:10(10) Pw:2(2) AC:10 Xp:1/0 T:11
+[Step 20] Key: s | PRNG: 14 calls
+  Status update: Contestant the Rambler         St:9 Dx:14 Co:12 In:11 Wi:16 Ch:16 Neutral | Dlvl:1 $:757 HP:10(10) Pw:2(2) AC:10 Xp:1/0 T:12
+[Step 21] Key: s | PRNG: 14 calls
+  Status update: Contestant the Rambler         St:9 Dx:14 Co:12 In:11 Wi:16 Ch:16 Neutral | Dlvl:1 $:757 HP:10(10) Pw:2(2) AC:10 Xp:1/0 T:13
+[Step 22] Key: : | PRNG: 0 calls
+  Msg: You see no objects here.

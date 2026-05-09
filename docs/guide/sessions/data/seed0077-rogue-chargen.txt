@@ -1,0 +1,90 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 0 calls
+  Status:  | 
+[Step 1] Key: S | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 2] Key: h | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 3] Key: a | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 4] Key: d | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 5] Key: e | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 6] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Shall I pick character's race, role, gender and alignment for you? [ynaq]
+[Step 7] Key: n | PRNG: 0 calls
+  Msg: Pick a role or profession
+  Map updated (19 rows changed)
+  Status update: q - Quit | (end)
+[Step 8] Key: r | PRNG: 1 calls
+  Msg: Pick a race or species
+  Map updated (19 rows changed)
+  Status update:  | 
+[Step 9] Key: h | PRNG: 0 calls
+  Msg: Pick a gender or sex
+  Map updated (4 rows changed)
+[Step 10] Key: m | PRNG: 0 calls
+  Msg: Is this ok? [ynaq]
+  Map updated (11 rows changed)
+[Step 11] Key: y | PRNG: 3192 calls
+  Msg: It is written in the Book of Kos:
+  Map updated (15 rows changed)
+  Status update: Shade the Footpad              St:11 Dx:18 Co:18 In:9 Wi:9 Ch:10 Chaotic | Dlvl:1 $:0 HP:12(12) Pw:2(2) AC:0 Xp:1
+[Step 12] Key:   | PRNG: 2 calls
+  Msg: Hello Shade, welcome to NetHack!  You are a chaotic male human Rogue.--More--
+  Map updated (15 rows changed)
+  Status update: Shade the Footpad              St:11 Dx:18 Co:18 In:9 Wi:9 Ch:10 Chaotic | Dlvl:1 $:0 HP:12(12) Pw:2(2) AC:7 Xp:1
+[Step 13] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+  Map updated (5 rows changed)
+[Step 14] Key: n | PRNG: 0 calls
+  Map updated (5 rows changed)
+[Step 15] Key: i | PRNG: 0 calls
+  Msg: Weapons
+  Map updated (10 rows changed)
+[Step 16] Key:   | PRNG: 0 calls
+  Map updated (10 rows changed)
+[Step 17] Key: j | PRNG: 1 calls
+  Msg: The door opens.
+  Map updated (7 rows changed)
+[Step 18] Key: a | PRNG: 0 calls
+  Msg: What do you want to use or apply? [ef or ?*]
+[Step 19] Key: e | PRNG: 0 calls
+  Msg: In what direction?
+[Step 20] Key: j | PRNG: 6 calls
+  Msg: You cannot lock an open door.
+[Step 21] Key: i | PRNG: 0 calls
+  Msg: Weapons
+  Map updated (10 rows changed)
+[Step 22] Key: ESC | PRNG: 0 calls
+  Map updated (10 rows changed)
+[Step 23] Key: + | PRNG: 0 calls
+  Msg: You don't know any spells right now.
+[Step 24] Key: ESC | PRNG: 0 calls
+[Step 25] Key: \ | PRNG: 0 calls
+  Msg: Discoveries, by order of discovery within each class
+  Map updated (14 rows changed)
+  Status update:  | --More--
+[Step 26] Key: ESC | PRNG: 0 calls
+  Map updated (14 rows changed)
+  Status update: Shade the Footpad              St:11 Dx:18 Co:18 In:9 Wi:9 Ch:10 Chaotic | Dlvl:1 $:0 HP:12(12) Pw:2(2) AC:7 Xp:1
+[Step 27] Key:  | PRNG: 0 calls
+  Msg: Shade the Rogue's attributes:
+  Map updated (19 rows changed)
+  Status update: Your intelligence is 9. | (1 of 2)
+[Step 28] Key:   | PRNG: 0 calls
+  Msg: Your wisdom is 9.
+  Map updated (20 rows changed)
+  Status update:  | 
+[Step 29] Key: ESC | PRNG: 0 calls
+  Map updated (17 rows changed)
+  Status update: Shade the Footpad              St:11 Dx:18 Co:18 In:9 Wi:9 Ch:10 Chaotic | Dlvl:1 $:0 HP:12(12) Pw:2(2) AC:7 Xp:1
+[Step 30] Key: s | PRNG: 23 calls
+  Map updated (4 rows changed)
+[Step 31] Key: s | PRNG: 17 calls
+  Msg: The kitten picks up a towel.
+  Map updated (4 rows changed)
+[Step 32] Key: : | PRNG: 0 calls
+  Msg: There is a staircase up out of the dungeon here.

@@ -1,0 +1,369 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 0 calls
+  Status:  | 
+[Step 1] Key: H | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 2] Key: e | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 3] Key: x | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 4] Key: t | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 5] Key: r | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 6] Key: u | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 7] Key: m | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 8] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Shall I pick character's race, role, gender and alignment for you? [ynaq]
+[Step 9] Key: n | PRNG: 0 calls
+  Msg: Pick a role or profession
+  Map updated (19 rows changed)
+  Status update: q - Quit | (end)
+[Step 10] Key: w | PRNG: 0 calls
+  Msg: Pick a race or species
+  Map updated (19 rows changed)
+  Status update:  | 
+[Step 11] Key: o | PRNG: 1 calls
+  Msg: Pick a gender or sex
+  Map updated (13 rows changed)
+[Step 12] Key: f | PRNG: 0 calls
+  Msg: Is this ok? [ynaq]
+  Map updated (11 rows changed)
+[Step 13] Key: a | PRNG: 0 calls
+  Map updated (7 rows changed)
+[Step 14] Key: H | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 15] Key: e | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 16] Key: x | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 17] Key: t | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 18] Key: r | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 19] Key: a | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 20] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Is this ok? [ynaq]
+  Map updated (6 rows changed)
+[Step 21] Key: n | PRNG: 0 calls
+  Msg: Pick a role or profession
+  Map updated (19 rows changed)
+  Status update: q - Quit | (end)
+[Step 22] Key: ~ | PRNG: 0 calls
+  Msg: Pick all that apply
+  Map updated (20 rows changed)
+  Status update: O - orc | (1 of 2)
+[Step 23] Key: a | PRNG: 0 calls
+  Msg: Pick all that apply
+  Map updated (1 rows changed)
+[Step 24] Key: b | PRNG: 0 calls
+  Msg: Pick all that apply
+  Map updated (1 rows changed)
+[Step 25] Key: c | PRNG: 0 calls
+  Msg: Pick all that apply
+  Map updated (1 rows changed)
+[Step 26] Key: r | PRNG: 0 calls
+  Msg: Pick all that apply
+  Map updated (1 rows changed)
+[Step 27] Key: R | PRNG: 0 calls
+  Msg: Pick all that apply
+  Map updated (1 rows changed)
+[Step 28] Key: H | PRNG: 0 calls
+  Msg: Pick all that apply
+  Map updated (1 rows changed)
+[Step 29] Key: E | PRNG: 0 calls
+  Msg: Pick all that apply
+  Map updated (1 rows changed)
+[Step 30] Key: D | PRNG: 0 calls
+  Msg: Pick all that apply
+  Map updated (1 rows changed)
+[Step 31] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Pick a role or profession
+  Map updated (19 rows changed)
+  Status update:  | 
+[Step 32] Key: w | PRNG: 0 calls
+  Msg: Pick a race or species
+  Map updated (4 rows changed)
+[Step 33] Key: g | PRNG: 1 calls
+  Msg: Pick a gender or sex
+  Map updated (5 rows changed)
+[Step 34] Key: f | PRNG: 0 calls
+  Msg: Is this ok? [ynaq]
+  Map updated (11 rows changed)
+[Step 35] Key: \r (Enter) | PRNG: 2498 calls
+  Msg: It is written in the Book of Thoth:
+  Map updated (15 rows changed)
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:11(11) Pw:7(7) AC:0 Xp:1
+[Step 36] Key:   | PRNG: 0 calls
+  Msg: Hello Hextra, welcome to NetHack!  You are a neutral female gnomish Wizard.
+  Map updated (16 rows changed)
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1
+[Step 37] Key:   | PRNG: 2 calls
+  Msg: You are lucky!  Full moon tonight.--More--
+  Map updated (1 rows changed)
+[Step 38] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+  Map updated (4 rows changed)
+[Step 39] Key: n | PRNG: 0 calls
+  Map updated (4 rows changed)
+[Step 40] Key: L | PRNG: 21 calls
+  Map updated (2 rows changed)
+[Step 41] Key: l | PRNG: 45 calls
+  Msg: You kill the sewer rat!
+  Map updated (1 rows changed)
+[Step 42] Key: n | PRNG: 36 calls
+  Map updated (2 rows changed)
+[Step 43] Key: L | PRNG: 91 calls
+  Map updated (2 rows changed)
+[Step 44] Key: L | PRNG: 73 calls
+  Msg: That door is closed.
+  Map updated (1 rows changed)
+[Step 45] Key: l | PRNG: 2 calls
+  Msg: The door opens.
+  Map updated (6 rows changed)
+[Step 46] Key: l | PRNG: 11 calls
+  Map updated (6 rows changed)
+[Step 47] Key: l | PRNG: 29 calls
+  Map updated (3 rows changed)
+[Step 48] Key: l | PRNG: 12 calls
+  Map updated (3 rows changed)
+[Step 49] Key: O | PRNG: 0 calls
+  Msg: Options
+  Map updated (18 rows changed)
+  Status update: p - pushweapon              [ ] | (1 of 2)
+[Step 50] Key: o | PRNG: 0 calls
+  Msg: Autopickup what?
+  Map updated (20 rows changed)
+  Status update:  | 
+[Step 51] Key: $ | PRNG: 0 calls
+  Msg: Autopickup what?
+  Map updated (1 rows changed)
+[Step 52] Key: " | PRNG: 0 calls
+  Msg: Autopickup what?
+  Map updated (1 rows changed)
+[Step 53] Key: ! | PRNG: 0 calls
+  Msg: Autopickup what?
+  Map updated (1 rows changed)
+[Step 54] Key: = | PRNG: 0 calls
+  Msg: Autopickup what?
+  Map updated (1 rows changed)
+[Step 55] Key: / | PRNG: 0 calls
+  Msg: Autopickup what?
+  Map updated (1 rows changed)
+[Step 56] Key: ? | PRNG: 0 calls
+  Msg: Autopickup what?
+  Map updated (1 rows changed)
+[Step 57] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Options
+  Map updated (20 rows changed)
+  Status update: p - pushweapon              [ ] | (1 of 2)
+[Step 58] Key:   | PRNG: 0 calls
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 59] Key: e | PRNG: 0 calls
+  Msg: Options
+  Map updated (21 rows changed)
+  Status update: p - pushweapon              [ ] | (1 of 2)
+[Step 60] Key: f | PRNG: 0 calls
+  Msg: Options
+  Map updated (1 rows changed)
+[Step 61] Key: e | PRNG: 0 calls
+  Msg: Options
+  Map updated (1 rows changed)
+[Step 62] Key: f | PRNG: 0 calls
+  Msg: Options
+  Map updated (1 rows changed)
+[Step 63] Key:   | PRNG: 0 calls
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 64] Key: f | PRNG: 0 calls
+  Msg: Options
+  Map updated (21 rows changed)
+  Status update: p - pushweapon              [ ] | (1 of 2)
+[Step 65] Key: e | PRNG: 0 calls
+  Msg: Options
+  Map updated (1 rows changed)
+[Step 66] Key:   | PRNG: 0 calls
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 67] Key: l | PRNG: 0 calls
+  Msg: Options
+  Map updated (21 rows changed)
+  Status update: p - pushweapon              [ ] | (1 of 2)
+[Step 68] Key:   | PRNG: 0 calls
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 69] Key: p | PRNG: 0 calls
+  Msg: Options
+  Map updated (21 rows changed)
+  Status update: p - pushweapon              [ ] | (1 of 2)
+[Step 70] Key:   | PRNG: 0 calls
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 71] Key:   | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1/1 T:16
+[Step 72] Key: K | PRNG: 90 calls
+  Msg: You see here a blue gem.
+  Map updated (3 rows changed)
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1/1 T:19
+[Step 73] Key: , | PRNG: 36 calls
+  Msg: o - a blue gem.  You hear a door open.
+  Map updated (1 rows changed)
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1/1 T:20
+[Step 74] Key: l | PRNG: 38 calls
+  Map updated (3 rows changed)
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1/1 T:21
+[Step 75] Key: U | PRNG: 27 calls
+  Map updated (4 rows changed)
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1/1 T:22
+[Step 76] Key: U | PRNG: 94 calls
+  Map updated (4 rows changed)
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1/1 T:27
+[Step 77] Key: H | PRNG: 117 calls
+  Msg: You hear some noises.  The kitten bites it.
+  Map updated (1 rows changed)
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1/1 T:30
+[Step 78] Key: y | PRNG: 0 calls
+[Step 79] Key: h | PRNG: 22 calls
+  Msg: You stop.  Your kitten is in the way!
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1/1 T:31
+[Step 80] Key: l | PRNG: 17 calls
+  Map updated (1 rows changed)
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1/1 T:32
+[Step 81] Key: l | PRNG: 33 calls
+  Map updated (1 rows changed)
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1/1 T:33
+[Step 82] Key: n | PRNG: 14 calls
+  Map updated (2 rows changed)
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1/1 T:34
+[Step 83] Key: b | PRNG: 30 calls
+  Map updated (3 rows changed)
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1/1 T:35
+[Step 84] Key: h | PRNG: 51 calls
+  Map updated (2 rows changed)
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1/1 T:36
+[Step 85] Key: h | PRNG: 35 calls
+  Map updated (1 rows changed)
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1/1 T:37
+[Step 86] Key: h | PRNG: 26 calls
+  Map updated (1 rows changed)
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1/1 T:38
+[Step 87] Key: y | PRNG: 24 calls
+  Map updated (2 rows changed)
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1/1 T:39
+[Step 88] Key: K | PRNG: 32 calls
+  Msg: You see here a kobold corpse.
+  Map updated (3 rows changed)
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1/1 T:41
+[Step 89] Key: K | PRNG: 102 calls
+  Map updated (7 rows changed)
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1/1 T:46
+[Step 90] Key: k | PRNG: 19 calls
+  Map updated (5 rows changed)
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1/1 T:47
+[Step 91] Key: u | PRNG: 28 calls
+  Map updated (2 rows changed)
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1/1 T:48
+[Step 92] Key: L | PRNG: 128 calls
+  Msg: You see here a ruby ring.
+  Map updated (1 rows changed)
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1/1 T:54
+[Step 93] Key: k | PRNG: 28 calls
+  Map updated (2 rows changed)
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1/1 T:55
+[Step 94] Key: j | PRNG: 25 calls
+  Msg: You see here a ruby ring.
+  Map updated (2 rows changed)
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1/1 T:56
+[Step 95] Key: @ | PRNG: 0 calls
+  Msg: Autopickup: ON, for $"?!=/ objects.
+[Step 96] Key: , | PRNG: 15 calls
+  Msg: p - a ruby ring.
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1/1 T:57
+[Step 97] Key: k | PRNG: 15 calls
+  Map updated (2 rows changed)
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1/1 T:58
+[Step 98] Key: > | PRNG: 2678 calls
+  Msg: You descend the stairs.--More--
+[Step 99] Key:   | PRNG: 10 calls
+  Map updated (18 rows changed)
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:2 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1/1 T:59
+[Step 100] Key: k | PRNG: 17 calls
+  Map updated (2 rows changed)
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:2 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1/1 T:60
+[Step 101] Key: q | PRNG: 0 calls
+  Msg: Drink from the fountain? [yn] (n)
+[Step 102] Key: y | PRNG: 86 calls
+  Msg: You unleash a water demon!  The fountain dries up!
+  Map updated (1 rows changed)
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:2 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1/1 T:61
+[Step 103] Key: j | PRNG: 8 calls
+  Msg: The water demon wields 5 daggers!  The water demon hits!--More--
+  Map updated (2 rows changed)
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:2 $:0 HP:8(11) Pw:7(7) AC:9 Xp:1/1 T:61
+[Step 104] Key:   | PRNG: 16 calls
+  Msg: The water demon bites!
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:2 $:0 HP:6(11) Pw:7(7) AC:9 Xp:1/1 T:62
+[Step 105] Key: < | PRNG: 41 calls
+  Msg: You climb up the stairs.--More--
+[Step 106] Key:   | PRNG: 9 calls
+  Msg: The water demon thrusts one of his daggers.  The water demon hits!--More--
+  Map updated (18 rows changed)
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:1(11) Pw:7(7) AC:9 Xp:1/1 T:62
+[Step 107] Key:   | PRNG: 2 calls
+  Msg: The water demon hits!--More--
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:0(11) Pw:7(7) AC:9 Xp:1/1 T:62
+[Step 108] Key:   | PRNG: 1 calls
+  Msg: You die...--More--
+[Step 109] Key:   | PRNG: 0 calls
+  Msg: Do you want your possessions identified? [ynq] (n)
+[Step 110] Key: y | PRNG: 0 calls
+  Msg: Weapons
+  Map updated (21 rows changed)
+  Status update: n - a magic marker (0:21) | (1 of 2)
+[Step 111] Key:   | PRNG: 0 calls
+  Msg: Gems/Stones
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 112] Key:   | PRNG: 0 calls
+  Msg: Do you want to see your attributes? [ynq] (n)
+  Map updated (17 rows changed)
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:0(11) Pw:7(7) AC:9 Xp:1/1 T:62
+[Step 113] Key: y | PRNG: 0 calls
+  Msg: Hextra the Wizard's attributes:
+  Map updated (19 rows changed)
+  Status update: Your dexterity was 15 (limit:18). | --More--
+[Step 114] Key:   | PRNG: 0 calls
+  Msg: Your constitution was 11 (limit:18).
+  Map updated (21 rows changed)
+  Status update: --More-- | 
+[Step 115] Key:   | PRNG: 0 calls
+  Msg: Do you want an account of creatures vanquished? [ynaq] (n)
+  Map updated (20 rows changed)
+  Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:0(11) Pw:7(7) AC:9 Xp:1/1 T:62
+[Step 116] Key: y | PRNG: 0 calls
+  Msg: Vanquished creatures:
+  Map updated (5 rows changed)
+[Step 117] Key:   | PRNG: 0 calls
+  Msg: Do you want to see your conduct? [ynq] (n)
+  Map updated (5 rows changed)
+[Step 118] Key: y | PRNG: 0 calls
+  Msg: Voluntary challenges:
+  Map updated (9 rows changed)
+[Step 119] Key:   | PRNG: 0 calls
+  Msg: Do you want to see the dungeon overview? [ynq] (n)
+  Map updated (9 rows changed)
+[Step 120] Key: y | PRNG: 0 calls
+  Msg: The Dungeons of Doom: levels 1 to 2
+  Map updated (5 rows changed)
+[Step 121] Key:   | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: You were level 1 with a maximum of 11 hit points when you died. | --More--
+[Step 122] Key:   | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update:  | --More--

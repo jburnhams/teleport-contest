@@ -1,0 +1,190 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 2764 calls
+  Msg: Hello wizard, welcome to NetHack!  You are a neutral female human Wizard.
+  Status: Wizard the Evoker              St:10 Dx:14 Co:15 In:18 Wi:7 Ch:11 Neutral | Dlvl:1 $:0 HP:12(12) Pw:7(7) AC:9 Xp:1
+[Step 1] Key:  | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 2] Key: w | PRNG: 0 calls
+  Msg: For what do you wish? w
+[Step 3] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? wa
+[Step 4] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? wan
+[Step 5] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? wand
+[Step 6] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? wand
+[Step 7] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? wand o
+[Step 8] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? wand of
+[Step 9] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? wand of
+[Step 10] Key: p | PRNG: 0 calls
+  Msg: For what do you wish? wand of p
+[Step 11] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? wand of po
+[Step 12] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? wand of pol
+[Step 13] Key: y | PRNG: 0 calls
+  Msg: For what do you wish? wand of poly
+[Step 14] Key: m | PRNG: 0 calls
+  Msg: For what do you wish? wand of polym
+[Step 15] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? wand of polymo
+[Step 16] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? wand of polymor
+[Step 17] Key: p | PRNG: 0 calls
+  Msg: For what do you wish? wand of polymorp
+[Step 18] Key: h | PRNG: 0 calls
+  Msg: For what do you wish? wand of polymorph
+[Step 19] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? wand of polymorph
+[Step 20] Key: ( | PRNG: 0 calls
+  Msg: For what do you wish? wand of polymorph (
+[Step 21] Key: 0 | PRNG: 0 calls
+  Msg: For what do you wish? wand of polymorph (0
+[Step 22] Key: : | PRNG: 0 calls
+  Msg: For what do you wish? wand of polymorph (0:
+[Step 23] Key: 3 | PRNG: 0 calls
+  Msg: For what do you wish? wand of polymorph (0:3
+[Step 24] Key: 0 | PRNG: 0 calls
+  Msg: For what do you wish? wand of polymorph (0:30
+[Step 25] Key: ) | PRNG: 0 calls
+  Msg: For what do you wish? wand of polymorph (0:30)
+[Step 26] Key: 
+ | PRNG: 6 calls
+  Msg: o - a silver wand.
+[Step 27] Key: d | PRNG: 0 calls
+  Msg: What do you want to drop? [a-o or ?*]
+[Step 28] Key: f | PRNG: 6 calls
+  Msg: What do you want to drop? [a-o or ?*]
+[Step 29] Key: 
+ | PRNG: 17 calls
+  Map updated (2 rows changed)
+[Step 30] Key: d | PRNG: 0 calls
+  Msg: What do you want to drop? [a-eg-o or ?*]
+[Step 31] Key: g | PRNG: 9 calls
+  Msg: What do you want to drop? [a-eg-o or ?*]
+[Step 32] Key: 
+ | PRNG: 0 calls
+  Msg: That door is closed.
+[Step 33] Key: d | PRNG: 0 calls
+  Msg: What do you want to drop? [a-eh-o or ?*]
+[Step 34] Key: h | PRNG: 9 calls
+  Msg: What do you want to drop? [a-eh-o or ?*]
+[Step 35] Key: 
+ | PRNG: 0 calls
+  Msg: That door is closed.
+[Step 36] Key: d | PRNG: 0 calls
+  Msg: What do you want to drop? [a-ei-o or ?*]
+[Step 37] Key: i | PRNG: 9 calls
+  Msg: What do you want to drop? [a-ei-o or ?*]
+[Step 38] Key: 
+ | PRNG: 0 calls
+  Msg: That door is closed.
+[Step 39] Key: d | PRNG: 0 calls
+  Msg: What do you want to drop? [a-ej-o or ?*]
+[Step 40] Key: j | PRNG: 9 calls
+  Msg: What do you want to drop? [a-ej-o or ?*]
+[Step 41] Key: 
+ | PRNG: 0 calls
+  Msg: That door is closed.
+[Step 42] Key: d | PRNG: 0 calls
+  Msg: What do you want to drop? [a-ek-o or ?*]
+[Step 43] Key: k | PRNG: 9 calls
+  Msg: What do you want to drop? [a-ek-o or ?*]
+[Step 44] Key: 
+ | PRNG: 0 calls
+  Msg: That door is closed.
+[Step 45] Key: l | PRNG: 12 calls
+  Msg: A gush of water hits you!
+  Map updated (1 rows changed)
+[Step 46] Key: z | PRNG: 0 calls
+  Msg: What do you want to zap? [co or ?*]
+[Step 47] Key: o | PRNG: 1 calls
+  Msg: In what direction?
+[Step 48] Key: h | PRNG: 98 calls
+  Msg: You feel shuddering vibrations.
+[Step 49] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 50] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 51] Key: h | PRNG: 0 calls
+  Msg: Things that are here:
+  Map updated (5 rows changed)
+[Step 52] Key: : | PRNG: 0 calls
+  Msg: Things that are here:
+[Step 53] Key:   | PRNG: 11 calls
+  Map updated (4 rows changed)
+[Step 54] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 55] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 56] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 57] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 58] Key: g | PRNG: 0 calls
+  Msg: # wizg
+[Step 59] Key: e | PRNG: 0 calls
+  Msg: # wizge
+[Step 60] Key: n | PRNG: 0 calls
+  Msg: # wizgen
+[Step 61] Key: e | PRNG: 0 calls
+  Msg: # wizgene
+[Step 62] Key: s | PRNG: 0 calls
+  Msg: # wizgenes
+[Step 63] Key: i | PRNG: 0 calls
+  Msg: # wizgenesi
+[Step 64] Key: s | PRNG: 0 calls
+  Msg: # wizgenesis
+[Step 65] Key: 
+ | PRNG: 0 calls
+  Msg: Create what kind of monster?
+[Step 66] Key: j | PRNG: 0 calls
+  Msg: Create what kind of monster? j
+[Step 67] Key: a | PRNG: 0 calls
+  Msg: Create what kind of monster? ja
+[Step 68] Key: c | PRNG: 0 calls
+  Msg: Create what kind of monster? jac
+[Step 69] Key: k | PRNG: 0 calls
+  Msg: Create what kind of monster? jack
+[Step 70] Key: a | PRNG: 0 calls
+  Msg: Create what kind of monster? jacka
+[Step 71] Key: l | PRNG: 0 calls
+  Msg: Create what kind of monster? jackal
+[Step 72] Key: 
+ | PRNG: 51 calls
+  Msg: A jackal appears next to you.
+  Map updated (1 rows changed)
+[Step 73] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 74] Key: z | PRNG: 0 calls
+  Msg: What do you want to zap? [co or ?*]
+[Step 75] Key: o | PRNG: 1 calls
+  Msg: In what direction?
+[Step 76] Key: h | PRNG: 14 calls
+[Step 77] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 78] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 79] Key: q | PRNG: 0 calls
+  Msg: # quit
+[Step 80] Key: u | PRNG: 0 calls
+  Msg: # quit
+[Step 81] Key: i | PRNG: 0 calls
+  Msg: # quit
+[Step 82] Key: t | PRNG: 0 calls
+  Msg: # quit
+[Step 83] Key: 
+ | PRNG: 0 calls
+  Msg: Really quit without saving? [yn] (n)
+[Step 84] Key: y | PRNG: 0 calls
+  Msg: Dump core? [ynq] (q)
+[Step 85] Key: i | PRNG: 0 calls
+  Msg: Dump core? [ynq] (q)
+[Step 86] Key: ESC | PRNG: 0 calls
+  Map updated (7 rows changed)
+  Status update:  | 

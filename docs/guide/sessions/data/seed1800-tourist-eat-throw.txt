@@ -1,0 +1,58 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 2360 calls
+  Msg: It is written in the Book of The Lady:
+  Status: Touristo the Rambler           St:15 Dx:10 Co:15 In:11 Wi:8 Ch:16 Neutral | Dlvl:1 $:194 HP:10(10) Pw:2(2) AC:0 Xp:1
+[Step 1] Key:   | PRNG: 2 calls
+  Msg: Aloha touristo, welcome to NetHack!  You are a neutral male human Tourist.
+  Map updated (15 rows changed)
+  Status update: Touristo the Rambler           St:15 Dx:10 Co:15 In:11 Wi:8 Ch:16 Neutral | Dlvl:1 $:194 HP:10(10) Pw:2(2) AC:10 Xp:1
+[Step 2] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+  Map updated (5 rows changed)
+[Step 3] Key: n | PRNG: 0 calls
+  Map updated (4 rows changed)
+[Step 4] Key: e | PRNG: 0 calls
+  Msg: What do you want to eat? [bcdef or ?*]
+[Step 5] Key: b | PRNG: 3 calls
+  Msg: This fortune cookie is delicious!--More--
+[Step 6] Key:   | PRNG: 0 calls
+  Msg: This cookie has a scrap of paper inside.  It reads:--More--
+[Step 7] Key:   | PRNG: 7 calls
+  Msg: They say the gods get angry if you kill your dog.
+[Step 8] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 9] Key: t | PRNG: 0 calls
+  Msg: What do you want to throw? [$a or ?*]
+[Step 10] Key: a | PRNG: 0 calls
+  Msg: In what direction?
+[Step 11] Key: j | PRNG: 28 calls
+  Map updated (2 rows changed)
+[Step 12] Key: a | PRNG: 0 calls
+  Msg: What do you want to use or apply? [jk or ?*]
+[Step 13] Key: l | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 14] Key: i | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 15] Key: ESC | PRNG: 0 calls
+  Msg: What do you want to use or apply? [jk or ?*]
+[Step 16] Key: + | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 17] Key: ESC | PRNG: 0 calls
+  Msg: What do you want to use or apply? [jk or ?*]
+[Step 18] Key: \ | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 19] Key: ESC | PRNG: 0 calls
+  Msg: What do you want to use or apply? [jk or ?*]
+[Step 20] Key:  | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 21] Key:   | PRNG: 0 calls
+  Msg: What do you want to use or apply? [jk or ?*]
+[Step 22] Key: ESC | PRNG: 0 calls
+  Msg: Never mind.
+[Step 23] Key: s | PRNG: 27 calls
+  Map updated (2 rows changed)
+[Step 24] Key: s | PRNG: 31 calls
+  Map updated (1 rows changed)
+[Step 25] Key: : | PRNG: 0 calls
+  Msg: There is a staircase up out of the dungeon here.--More--

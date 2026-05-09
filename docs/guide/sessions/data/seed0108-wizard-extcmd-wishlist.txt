@@ -1,0 +1,682 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 2763 calls
+  Msg: It is written in the Book of Thoth:
+  Status: Wizard the Evoker              St:8 Dx:18 Co:12 In:18 Wi:10 Ch:9 Neutral | Dlvl:1 $:0 HP:12(12) Pw:7(7) AC:0 Xp:1
+[Step 1] Key:   | PRNG: 2 calls
+  Msg: Hello wizard, welcome to NetHack!  You are a neutral male human Wizard.--More--
+  Map updated (14 rows changed)
+  Status update: Wizard the Evoker              St:8 Dx:18 Co:12 In:18 Wi:10 Ch:9 Neutral | Dlvl:1 $:0 HP:12(12) Pw:7(7) AC:9 Xp:1
+[Step 2] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+  Map updated (4 rows changed)
+[Step 3] Key: n | PRNG: 0 calls
+  Map updated (4 rows changed)
+[Step 4] Key: s | PRNG: 7 calls
+[Step 5] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 6] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 7] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 8] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 9] Key: w | PRNG: 0 calls
+  Msg: # wizwhere
+[Step 10] Key: i | PRNG: 0 calls
+  Msg: # wizwi
+[Step 11] Key: s | PRNG: 0 calls
+  Msg: # wizwis
+[Step 12] Key: h | PRNG: 0 calls
+  Msg: # wizwish
+[Step 13] Key: 
+ | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 14] Key: m | PRNG: 0 calls
+  Msg: For what do you wish? m
+[Step 15] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? ma
+[Step 16] Key: g | PRNG: 0 calls
+  Msg: For what do you wish? mag
+[Step 17] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? magi
+[Step 18] Key: c | PRNG: 0 calls
+  Msg: For what do you wish? magic
+[Step 19] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? magic
+[Step 20] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? magic l
+[Step 21] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? magic la
+[Step 22] Key: m | PRNG: 0 calls
+  Msg: For what do you wish? magic lam
+[Step 23] Key: p | PRNG: 0 calls
+  Msg: For what do you wish? magic lamp
+[Step 24] Key: 
+ | PRNG: 5 calls
+  Msg: n - a lamp.
+[Step 25] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 26] Key: r | PRNG: 0 calls
+  Msg: # r
+[Step 27] Key: u | PRNG: 0 calls
+  Msg: # rub
+[Step 28] Key: b | PRNG: 0 calls
+  Msg: # rub
+[Step 29] Key: 
+ | PRNG: 0 calls
+  Msg: What do you want to rub? [n or ?*]
+[Step 30] Key: n | PRNG: 15 calls
+  Msg: You now wield a lamp.  The goblin throws a crude dagger!--More--
+  Map updated (2 rows changed)
+[Step 31] Key:   | PRNG: 11 calls
+  Msg: You are hit by a crude dagger.
+  Map updated (1 rows changed)
+  Status update: Wizard the Evoker              St:8 Dx:18 Co:12 In:18 Wi:10 Ch:9 Neutral | Dlvl:1 $:0 HP:10(12) Pw:7(7) AC:9 Xp:1
+[Step 32] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 33] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 34] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 35] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 36] Key: w | PRNG: 0 calls
+  Msg: # wizwhere
+[Step 37] Key: i | PRNG: 0 calls
+  Msg: # wizwi
+[Step 38] Key: s | PRNG: 0 calls
+  Msg: # wizwis
+[Step 39] Key: h | PRNG: 0 calls
+  Msg: # wizwish
+[Step 40] Key: 
+ | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 41] Key: c | PRNG: 0 calls
+  Msg: For what do you wish? c
+[Step 42] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? cr
+[Step 43] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? cre
+[Step 44] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? crea
+[Step 45] Key: m | PRNG: 0 calls
+  Msg: For what do you wish? cream
+[Step 46] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? cream
+[Step 47] Key: p | PRNG: 0 calls
+  Msg: For what do you wish? cream p
+[Step 48] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? cream pi
+[Step 49] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? cream pie
+[Step 50] Key: 
+ | PRNG: 4 calls
+  Msg: o - a cream pie.
+[Step 51] Key: t | PRNG: 0 calls
+  Msg: What do you want to throw? [a or ?*]
+[Step 52] Key: o | PRNG: 0 calls
+  Msg: In what direction?
+[Step 53] Key: . | PRNG: 0 calls
+  Msg: You cannot throw an object at yourself.
+[Step 54] Key: a | PRNG: 0 calls
+  Msg: What do you want to use or apply? [ck-o or ?*]
+[Step 55] Key: o | PRNG: 1 calls
+  Msg: You immerse your face in the cream pie.--More--
+  Map updated (2 rows changed)
+  Status update: Wizard the Evoker              St:8 Dx:18 Co:12 In:18 Wi:10 Ch:9 Neutral | Dlvl:1 $:0 HP:10(12) Pw:7(7) AC:9 Xp:1 Blind
+[Step 56] Key:   | PRNG: 1 calls
+  Msg: You can't see through all the sticky goop on your face.
+[Step 57] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 58] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 59] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 60] Key: p | PRNG: 0 calls
+  Msg: # wipe
+[Step 61] Key: e | PRNG: 0 calls
+  Msg: # wipe
+[Step 62] Key: 
+ | PRNG: 55 calls
+  Msg: You've got the glop off.  You can see again.
+  Map updated (2 rows changed)
+  Status update: Wizard the Evoker              St:8 Dx:18 Co:12 In:18 Wi:10 Ch:9 Neutral | Dlvl:1 $:0 HP:10(12) Pw:7(7) AC:9 Xp:1
+[Step 63] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 64] Key: p | PRNG: 0 calls
+  Msg: # p
+[Step 65] Key: o | PRNG: 0 calls
+  Msg: # polyself
+[Step 66] Key: l | PRNG: 0 calls
+  Msg: # polyself
+[Step 67] Key: y | PRNG: 0 calls
+  Msg: # polyself
+[Step 68] Key: s | PRNG: 0 calls
+  Msg: # polyself
+[Step 69] Key: e | PRNG: 0 calls
+  Msg: # polyself
+[Step 70] Key: l | PRNG: 0 calls
+  Msg: # polyself
+[Step 71] Key: f | PRNG: 0 calls
+  Msg: # polyself
+[Step 72] Key: 
+ | PRNG: 0 calls
+  Msg: Become what kind of monster? [type the name]
+[Step 73] Key: g | PRNG: 0 calls
+  Msg: Become what kind of monster? [type the name] g
+[Step 74] Key: n | PRNG: 0 calls
+  Msg: Become what kind of monster? [type the name] gn
+[Step 75] Key: o | PRNG: 0 calls
+  Msg: Become what kind of monster? [type the name] gno
+[Step 76] Key: m | PRNG: 0 calls
+  Msg: Become what kind of monster? [type the name] gnom
+[Step 77] Key: e | PRNG: 0 calls
+  Msg: Become what kind of monster? [type the name] gnome
+[Step 78] Key: 
+ | PRNG: 5 calls
+  Msg: You turn into a gnome!  You shrink out of your cloak!--More--
+  Map updated (1 rows changed)
+  Status update: Wizard the Gnome               St:8 Dx:18 Co:12 In:18 Wi:10 Ch:9 Neutral | Dlvl:1 $:0 HP:8(8) Pw:7(7) AC:9 HD:1 Burdened
+[Step 79] Key:   | PRNG: 0 calls
+  Msg: Your movements are slowed slightly because of your load.
+  Status update: Wizard the Gnome               St:8 Dx:18 Co:12 In:18 Wi:10 Ch:9 Neutral | Dlvl:1 $:0 HP:8(8) Pw:7(7) AC:10 HD:1 Burdened
+[Step 80] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 81] Key: m | PRNG: 0 calls
+  Msg: # m
+[Step 82] Key: o | PRNG: 0 calls
+  Msg: # monster
+[Step 83] Key: n | PRNG: 0 calls
+  Msg: # monster
+[Step 84] Key: s | PRNG: 0 calls
+  Msg: # monster
+[Step 85] Key: t | PRNG: 0 calls
+  Msg: # monster
+[Step 86] Key: e | PRNG: 0 calls
+  Msg: # monster
+[Step 87] Key: r | PRNG: 0 calls
+  Msg: # monster
+[Step 88] Key: 
+ | PRNG: 0 calls
+  Msg: Any special ability you may have is purely reflexive.
+[Step 89] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 90] Key: p | PRNG: 0 calls
+  Msg: # p
+[Step 91] Key: o | PRNG: 0 calls
+  Msg: # polyself
+[Step 92] Key: l | PRNG: 0 calls
+  Msg: # polyself
+[Step 93] Key: y | PRNG: 0 calls
+  Msg: # polyself
+[Step 94] Key: s | PRNG: 0 calls
+  Msg: # polyself
+[Step 95] Key: e | PRNG: 0 calls
+  Msg: # polyself
+[Step 96] Key: l | PRNG: 0 calls
+  Msg: # polyself
+[Step 97] Key: f | PRNG: 0 calls
+  Msg: # polyself
+[Step 98] Key: 
+ | PRNG: 0 calls
+  Msg: Become what kind of monster? [type the name]
+[Step 99] Key: r | PRNG: 0 calls
+  Msg: Become what kind of monster? [type the name] r
+[Step 100] Key: e | PRNG: 0 calls
+  Msg: Become what kind of monster? [type the name] re
+[Step 101] Key: d | PRNG: 0 calls
+  Msg: Become what kind of monster? [type the name] red
+[Step 102] Key:   | PRNG: 0 calls
+  Msg: Become what kind of monster? [type the name] red
+[Step 103] Key: d | PRNG: 0 calls
+  Msg: Become what kind of monster? [type the name] red d
+[Step 104] Key: r | PRNG: 0 calls
+  Msg: Become what kind of monster? [type the name] red dr
+[Step 105] Key: a | PRNG: 0 calls
+  Msg: Become what kind of monster? [type the name] red dra
+[Step 106] Key: g | PRNG: 0 calls
+  Msg: Become what kind of monster? [type the name] red drag
+[Step 107] Key: o | PRNG: 0 calls
+  Msg: Become what kind of monster? [type the name] red drago
+[Step 108] Key: n | PRNG: 0 calls
+  Msg: Become what kind of monster? [type the name] red dragon
+[Step 109] Key: 
+ | PRNG: 4 calls
+  Msg: You turn into a red dragon!  You find you must drop your tool!--More--
+  Map updated (1 rows changed)
+  Status update: Wizard the Red Dragon          St:18/** Dx:18 Co:12 In:18 Wi:10 Ch:9 Neutral | Dlvl:1 $:0 HP:103(103) Pw:7(7) AC:10 HD:15 Fly
+[Step 110] Key:   | PRNG: 0 calls
+  Msg: Your movements are now unencumbered.--More--
+  Status update: Wizard the Red Dragon          St:18/** Dx:18 Co:12 In:18 Wi:10 Ch:9 Neutral | Dlvl:1 $:0 HP:103(103) Pw:7(7) AC:-1 HD:15 Fly
+[Step 111] Key:   | PRNG: 0 calls
+  Msg: Use the command #monster to use your breath weapon.
+[Step 112] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 113] Key: m | PRNG: 0 calls
+  Msg: # m
+[Step 114] Key: o | PRNG: 0 calls
+  Msg: # monster
+[Step 115] Key: n | PRNG: 0 calls
+  Msg: # monster
+[Step 116] Key: s | PRNG: 0 calls
+  Msg: # monster
+[Step 117] Key: t | PRNG: 0 calls
+  Msg: # monster
+[Step 118] Key: e | PRNG: 0 calls
+  Msg: # monster
+[Step 119] Key: r | PRNG: 0 calls
+  Msg: # monster
+[Step 120] Key: 
+ | PRNG: 0 calls
+  Msg: You don't have enough energy to breathe!
+[Step 121] Key: k | PRNG: 74 calls
+  Msg: The kitten picks up a lamp.
+  Map updated (2 rows changed)
+[Step 122] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 123] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 124] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 125] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 126] Key: w | PRNG: 0 calls
+  Msg: # wizwhere
+[Step 127] Key: i | PRNG: 0 calls
+  Msg: # wizwi
+[Step 128] Key: s | PRNG: 0 calls
+  Msg: # wizwis
+[Step 129] Key: h | PRNG: 0 calls
+  Msg: # wizwish
+[Step 130] Key: 
+ | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 131] Key: M | PRNG: 0 calls
+  Msg: For what do you wish? M
+[Step 132] Key: j | PRNG: 0 calls
+  Msg: For what do you wish? Mj
+[Step 133] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? Mjo
+[Step 134] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? Mjol
+[Step 135] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? Mjoll
+[Step 136] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? Mjolln
+[Step 137] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? Mjollni
+[Step 138] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? Mjollnir
+[Step 139] Key: 
+ | PRNG: 11 calls
+  Msg: p - a war hammer named Mjollnir.
+[Step 140] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 141] Key: i | PRNG: 0 calls
+  Msg: # invoke
+[Step 142] Key: n | PRNG: 0 calls
+  Msg: # invoke
+[Step 143] Key: v | PRNG: 0 calls
+  Msg: # invoke
+[Step 144] Key: o | PRNG: 0 calls
+  Msg: # invoke
+[Step 145] Key: k | PRNG: 0 calls
+  Msg: # invoke
+[Step 146] Key: e | PRNG: 0 calls
+  Msg: # invoke
+[Step 147] Key: 
+ | PRNG: 0 calls
+  Msg: What do you want to invoke? [p or ?*]
+[Step 148] Key: p | PRNG: 31 calls
+  Msg: Nothing happens.  The kitten misses the goblin.--More--
+  Map updated (1 rows changed)
+[Step 149] Key:   | PRNG: 38 calls
+  Msg: The kitten drops a lamp.  The kitten misses the goblin.--More--
+[Step 150] Key:   | PRNG: 49 calls
+  Msg: The kitten misses the goblin.  The kitten misses the goblin.
+[Step 151] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 152] Key: w | PRNG: 0 calls
+  Msg: # w
+[Step 153] Key: i | PRNG: 0 calls
+  Msg: # wi
+[Step 154] Key: z | PRNG: 0 calls
+  Msg: # wiz
+[Step 155] Key: w | PRNG: 0 calls
+  Msg: # wizwhere
+[Step 156] Key: i | PRNG: 0 calls
+  Msg: # wizwi
+[Step 157] Key: s | PRNG: 0 calls
+  Msg: # wizwis
+[Step 158] Key: h | PRNG: 0 calls
+  Msg: # wizwish
+[Step 159] Key: 
+ | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 160] Key: c | PRNG: 0 calls
+  Msg: For what do you wish? c
+[Step 161] Key: h | PRNG: 0 calls
+  Msg: For what do you wish? ch
+[Step 162] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? che
+[Step 163] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? ches
+[Step 164] Key: t | PRNG: 0 calls
+  Msg: For what do you wish? chest
+[Step 165] Key: 
+ | PRNG: 34 calls
+  Msg: q - a chest.
+[Step 166] Key: d | PRNG: 0 calls
+  Msg: What do you want to drop? [ac-mpq or ?*]
+[Step 167] Key: q | PRNG: 22 calls
+  Msg: You drop a chest.  The kitten bites the goblin.--More--
+[Step 168] Key:   | PRNG: 17 calls
+  Msg: The goblin hits the kitten.  The goblin misses!--More--
+[Step 169] Key:   | PRNG: 27 calls
+  Msg: The kitten picks up a lamp.  The kitten bites the goblin.--More--
+[Step 170] Key:   | PRNG: 9 calls
+  Msg: The goblin is killed!
+  Map updated (1 rows changed)
+[Step 171] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 172] Key: l | PRNG: 0 calls
+  Msg: # l
+[Step 173] Key: o | PRNG: 0 calls
+  Msg: # loot
+[Step 174] Key: o | PRNG: 0 calls
+  Msg: # loot
+[Step 175] Key: t | PRNG: 0 calls
+  Msg: # loot
+[Step 176] Key: 
+ | PRNG: 0 calls
+  Msg: You have no hands!
+[Step 177] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 178] Key: f | PRNG: 0 calls
+  Msg: # force
+[Step 179] Key: o | PRNG: 0 calls
+  Msg: # force
+[Step 180] Key: r | PRNG: 0 calls
+  Msg: # force
+[Step 181] Key: c | PRNG: 0 calls
+  Msg: # force
+[Step 182] Key: e | PRNG: 0 calls
+  Msg: # force
+[Step 183] Key: 
+ | PRNG: 0 calls
+  Msg: You can't force anything when not wielding a weapon.
+[Step 184] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 185] Key: u | PRNG: 0 calls
+  Msg: # untrap
+[Step 186] Key: n | PRNG: 0 calls
+  Msg: # untrap
+[Step 187] Key: t | PRNG: 0 calls
+  Msg: # untrap
+[Step 188] Key: r | PRNG: 0 calls
+  Msg: # untrap
+[Step 189] Key: a | PRNG: 0 calls
+  Msg: # untrap
+[Step 190] Key: p | PRNG: 0 calls
+  Msg: # untrap
+[Step 191] Key: 
+ | PRNG: 0 calls
+  Msg: And just how do you expect to do that?
+[Step 192] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 193] Key: p | PRNG: 0 calls
+  Msg: # p
+[Step 194] Key: o | PRNG: 0 calls
+  Msg: # polyself
+[Step 195] Key: l | PRNG: 0 calls
+  Msg: # polyself
+[Step 196] Key: y | PRNG: 0 calls
+  Msg: # polyself
+[Step 197] Key: s | PRNG: 0 calls
+  Msg: # polyself
+[Step 198] Key: e | PRNG: 0 calls
+  Msg: # polyself
+[Step 199] Key: l | PRNG: 0 calls
+  Msg: # polyself
+[Step 200] Key: f | PRNG: 0 calls
+  Msg: # polyself
+[Step 201] Key: 
+ | PRNG: 0 calls
+  Msg: Become what kind of monster? [type the name]
+[Step 202] Key: h | PRNG: 0 calls
+  Msg: Become what kind of monster? [type the name] h
+[Step 203] Key: u | PRNG: 0 calls
+  Msg: Become what kind of monster? [type the name] hu
+[Step 204] Key: m | PRNG: 0 calls
+  Msg: Become what kind of monster? [type the name] hum
+[Step 205] Key: a | PRNG: 0 calls
+  Msg: Become what kind of monster? [type the name] huma
+[Step 206] Key: n | PRNG: 0 calls
+  Msg: Become what kind of monster? [type the name] human
+[Step 207] Key: 
+ | PRNG: 14 calls
+  Msg: You feel like a new man!
+  Map updated (1 rows changed)
+  Status update: Wizard the Evoker              St:8 Dx:18 Co:12 In:18 Wi:10 Ch:9 Neutral | Dlvl:1 $:0 HP:18(21) Pw:23(23) AC:10 Xp:2
+[Step 208] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 209] Key: l | PRNG: 0 calls
+  Msg: # l
+[Step 210] Key: o | PRNG: 0 calls
+  Msg: # loot
+[Step 211] Key: o | PRNG: 0 calls
+  Msg: # loot
+[Step 212] Key: t | PRNG: 0 calls
+  Msg: # loot
+[Step 213] Key: 
+ | PRNG: 0 calls
+  Msg: Hmmm, the chest turns out to be locked.
+[Step 214] Key: y | PRNG: 0 calls
+[Step 215] Key: y | PRNG: 0 calls
+[Step 216] Key: o | PRNG: 0 calls
+  Msg: In what direction?
+[Step 217] Key: ESC | PRNG: 0 calls
+  Msg: Never mind.
+[Step 218] Key: ESC | PRNG: 0 calls
+[Step 219] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 220] Key: f | PRNG: 0 calls
+  Msg: # force
+[Step 221] Key: o | PRNG: 0 calls
+  Msg: # force
+[Step 222] Key: r | PRNG: 0 calls
+  Msg: # force
+[Step 223] Key: c | PRNG: 0 calls
+  Msg: # force
+[Step 224] Key: e | PRNG: 0 calls
+  Msg: # force
+[Step 225] Key: 
+ | PRNG: 0 calls
+  Msg: You can't force anything when not wielding a weapon.
+[Step 226] Key: w | PRNG: 0 calls
+  Msg: What do you want to wield? [- ap or ?*]
+[Step 227] Key: p | PRNG: 31 calls
+  Msg: p - a war hammer named Mjollnir (weapon in left hand).
+  Map updated (2 rows changed)
+[Step 228] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 229] Key: f | PRNG: 0 calls
+  Msg: # force
+[Step 230] Key: o | PRNG: 0 calls
+  Msg: # force
+[Step 231] Key: r | PRNG: 0 calls
+  Msg: # force
+[Step 232] Key: c | PRNG: 0 calls
+  Msg: # force
+[Step 233] Key: e | PRNG: 0 calls
+  Msg: # force
+[Step 234] Key: 
+ | PRNG: 0 calls
+  Msg: There is a locked chest here; force its lock? [ynq] (q)
+[Step 235] Key: y | PRNG: 100 calls
+  Msg: You start bashing it with your war hammer named Mjollnir.--More--
+  Map updated (2 rows changed)
+[Step 236] Key:   | PRNG: 234 calls
+  Msg: The kitten drops a lamp.  You succeed in forcing the lock.
+  Map updated (2 rows changed)
+  Status update: Wizard the Evoker              St:8 Dx:18 Co:12 In:18 Wi:10 Ch:9 Neutral | Dlvl:1 $:0 HP:19(21) Pw:23(23) AC:10 Xp:2
+[Step 237] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 238] Key: l | PRNG: 0 calls
+  Msg: # l
+[Step 239] Key: o | PRNG: 0 calls
+  Msg: # loot
+[Step 240] Key: o | PRNG: 0 calls
+  Msg: # loot
+[Step 241] Key: t | PRNG: 0 calls
+  Msg: # loot
+[Step 242] Key: 
+ | PRNG: 0 calls
+  Msg: Do what with the chest?
+  Map updated (8 rows changed)
+[Step 243] Key: o | PRNG: 0 calls
+  Msg: Take out what type of objects?
+  Map updated (10 rows changed)
+[Step 244] Key: A | PRNG: 0 calls
+  Msg: Take out what type of objects?
+  Map updated (1 rows changed)
+[Step 245] Key: ESC | PRNG: 0 calls
+  Map updated (8 rows changed)
+[Step 246] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 247] Key: t | PRNG: 0 calls
+  Msg: # t
+[Step 248] Key: i | PRNG: 0 calls
+  Msg: # ti
+[Step 249] Key: p | PRNG: 0 calls
+  Msg: # tip
+[Step 250] Key: 
+ | PRNG: 0 calls
+  Msg: There is a broken chest here, tip it? [ynq] (q)
+[Step 251] Key: q | PRNG: 0 calls
+  Msg: There is a broken chest here, tip it? [ynq] (q)
+[Step 252] Key: y | PRNG: 0 calls
+[Step 253] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 254] Key: a | PRNG: 0 calls
+  Msg: # a
+[Step 255] Key: n | PRNG: 0 calls
+  Msg: # annotate
+[Step 256] Key: n | PRNG: 0 calls
+  Msg: # annotate
+[Step 257] Key: o | PRNG: 0 calls
+  Msg: # annotate
+[Step 258] Key: t | PRNG: 0 calls
+  Msg: # annotate
+[Step 259] Key: a | PRNG: 0 calls
+  Msg: # annotate
+[Step 260] Key: t | PRNG: 0 calls
+  Msg: # annotate
+[Step 261] Key: e | PRNG: 0 calls
+  Msg: # annotate
+[Step 262] Key: 
+ | PRNG: 0 calls
+  Msg: What do you want to call this dungeon level?
+[Step 263] Key: T | PRNG: 0 calls
+  Msg: What do you want to call this dungeon level? T
+[Step 264] Key: e | PRNG: 0 calls
+  Msg: What do you want to call this dungeon level? Te
+[Step 265] Key: s | PRNG: 0 calls
+  Msg: What do you want to call this dungeon level? Tes
+[Step 266] Key: t | PRNG: 0 calls
+  Msg: What do you want to call this dungeon level? Test
+[Step 267] Key: 
+ | PRNG: 0 calls
+[Step 268] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 269] Key: h | PRNG: 0 calls
+  Msg: # h
+[Step 270] Key: e | PRNG: 0 calls
+  Msg: # herecmdmenu
+[Step 271] Key: r | PRNG: 0 calls
+  Msg: # herecmdmenu
+[Step 272] Key: e | PRNG: 0 calls
+  Msg: # herecmdmenu
+[Step 273] Key: c | PRNG: 0 calls
+  Msg: # herecmdmenu
+[Step 274] Key: m | PRNG: 0 calls
+  Msg: # herecmdmenu
+[Step 275] Key: d | PRNG: 0 calls
+  Msg: # herecmdmenu
+[Step 276] Key: m | PRNG: 0 calls
+  Msg: # herecmdmenu
+[Step 277] Key: e | PRNG: 0 calls
+  Msg: # herecmdmenu
+[Step 278] Key: n | PRNG: 0 calls
+  Msg: # herecmdmenu
+[Step 279] Key: u | PRNG: 0 calls
+  Msg: # herecmdmenu
+[Step 280] Key: 
+ | PRNG: 0 calls
+  Msg: What do you want to do?
+  Map updated (10 rows changed)
+[Step 281] Key: ESC | PRNG: 0 calls
+  Map updated (10 rows changed)
+[Step 282] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 283] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 284] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   wizard3: 40 | (1 of 3)
+[Step 285] Key: e | PRNG: 9054 calls
+  Msg: You materialize on a different level!
+  Map updated (20 rows changed)
+  Status update: Wizard the Evoker              St:8 Dx:18 Co:12 In:18 Wi:10 Ch:9 Neutral | Dlvl:11 $:0 HP:19(21) Pw:23(23) AC:10 Xp:2
+[Step 286] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 287] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 288] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   wizard3: 40 | (1 of 3)
+[Step 289] Key:   | PRNG: 0 calls
+  Msg: t -   fakewiz1: 45
+  Map updated (21 rows changed)
+  Status update: J -   astral: -5 | (2 of 3)
+[Step 290] Key: B | PRNG: 4262 calls
+  Msg: You materialize on a different level!  You see here a boulder.
+  Map updated (21 rows changed)
+  Status update: Wizard the Evoker              St:8 Dx:18 Co:12 In:18 Wi:10 Ch:9 Neutral | Dlvl:4 $:0 HP:19(21) Pw:23(23) AC:10 Xp:2
+[Step 291] Key: i | PRNG: 0 calls
+  Msg: Weapons
+  Map updated (20 rows changed)
+[Step 292] Key: ESC | PRNG: 0 calls
+  Map updated (20 rows changed)
+[Step 293] Key: + | PRNG: 0 calls
+  Msg: Currently known spells
+  Map updated (5 rows changed)
+[Step 294] Key: ESC | PRNG: 0 calls
+  Map updated (5 rows changed)
+[Step 295] Key: \ | PRNG: 0 calls
+  Msg: Discoveries, by order of discovery within each class
+  Map updated (20 rows changed)
+  Status update: * spellbook of cause fear (parchment) | --More--
+[Step 296] Key: ESC | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Wizard the Evoker              St:8 Dx:18 Co:12 In:18 Wi:10 Ch:9 Neutral | Dlvl:4 $:0 HP:19(21) Pw:23(23) AC:10 Xp:2
+[Step 297] Key:  | PRNG: 0 calls
+  Msg: Wizard the Wizard's attributes:
+  Map updated (20 rows changed)
+  Status update: Your intelligence is 18. | (1 of 2)
+[Step 298] Key:   | PRNG: 0 calls
+  Msg: Your wisdom is 10.
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 299] Key: ESC | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Wizard the Evoker              St:8 Dx:18 Co:12 In:18 Wi:10 Ch:9 Neutral | Dlvl:4 $:0 HP:19(21) Pw:23(23) AC:10 Xp:2
+[Step 300] Key: s | PRNG: 39 calls
+[Step 301] Key: s | PRNG: 39 calls
+[Step 302] Key: : | PRNG: 0 calls
+  Msg: You see here a boulder.

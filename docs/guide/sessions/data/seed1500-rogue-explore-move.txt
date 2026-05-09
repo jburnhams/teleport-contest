@@ -1,0 +1,91 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 2284 calls
+  Msg: It is written in the Book of Kos:
+  Status: Robin the Footpad              St:11 Dx:18 Co:11 In:12 Wi:11 Ch:12 Chaotic | Dlvl:1 $:0 HP:12(12) Pw:2(2) AC:0 Xp:1
+[Step 1] Key:   | PRNG: 2 calls
+  Msg: Hello robin, welcome to NetHack!  You are a chaotic male human Rogue.--More--
+  Map updated (14 rows changed)
+  Status update: Robin the Footpad              St:11 Dx:18 Co:11 In:12 Wi:11 Ch:12 Chaotic | Dlvl:1 $:0 HP:12(12) Pw:2(2) AC:7 Xp:1
+[Step 2] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+  Map updated (4 rows changed)
+[Step 3] Key: n | PRNG: 0 calls
+  Map updated (4 rows changed)
+[Step 4] Key: h | PRNG: 9 calls
+  Map updated (1 rows changed)
+[Step 5] Key: h | PRNG: 36 calls
+  Map updated (3 rows changed)
+[Step 6] Key: h | PRNG: 37 calls
+  Map updated (1 rows changed)
+[Step 7] Key: j | PRNG: 38 calls
+  Map updated (3 rows changed)
+[Step 8] Key: j | PRNG: 0 calls
+[Step 9] Key: j | PRNG: 0 calls
+[Step 10] Key: j | PRNG: 0 calls
+[Step 11] Key: k | PRNG: 51 calls
+  Map updated (2 rows changed)
+[Step 12] Key: l | PRNG: 43 calls
+  Map updated (2 rows changed)
+[Step 13] Key: l | PRNG: 36 calls
+  Msg: Your kitten steps reluctantly onto an orc corpse.--More--
+  Map updated (2 rows changed)
+[Step 14] Key: l | PRNG: 0 calls
+  Msg: Your kitten steps reluctantly onto an orc corpse.--More--
+[Step 15] Key: l | PRNG: 0 calls
+  Msg: Your kitten steps reluctantly onto an orc corpse.--More--
+[Step 16] Key: j | PRNG: 0 calls
+  Msg: Your kitten steps reluctantly onto an orc corpse.--More--
+[Step 17] Key: j | PRNG: 0 calls
+  Msg: Your kitten steps reluctantly onto an orc corpse.--More--
+[Step 18] Key: h | PRNG: 0 calls
+  Msg: Your kitten steps reluctantly onto an orc corpse.--More--
+[Step 19] Key: h | PRNG: 0 calls
+  Msg: Your kitten steps reluctantly onto an orc corpse.--More--
+[Step 20] Key: . | PRNG: 0 calls
+  Msg: Your kitten steps reluctantly onto an orc corpse.--More--
+[Step 21] Key:   | PRNG: 24 calls
+  Msg: The kitten is almost hit by a dart!
+[Step 22] Key: k | PRNG: 37 calls
+  Msg: The kitten picks up a dart.
+  Map updated (2 rows changed)
+[Step 23] Key: k | PRNG: 0 calls
+[Step 24] Key: k | PRNG: 0 calls
+[Step 25] Key: a | PRNG: 0 calls
+  Msg: What do you want to use or apply? [ef or ?*]
+[Step 26] Key: e | PRNG: 0 calls
+  Msg: In what direction?
+[Step 27] Key: l | PRNG: 61 calls
+  Msg: You see no door there.
+  Map updated (2 rows changed)
+[Step 28] Key: i | PRNG: 0 calls
+  Msg: Weapons
+  Map updated (10 rows changed)
+[Step 29] Key: ESC | PRNG: 0 calls
+  Map updated (10 rows changed)
+[Step 30] Key: + | PRNG: 0 calls
+  Msg: You don't know any spells right now.
+[Step 31] Key: ESC | PRNG: 0 calls
+[Step 32] Key: \ | PRNG: 0 calls
+  Msg: Discoveries, by order of discovery within each class
+  Map updated (12 rows changed)
+  Status update:  | --More--
+[Step 33] Key: ESC | PRNG: 0 calls
+  Map updated (12 rows changed)
+  Status update: Robin the Footpad              St:11 Dx:18 Co:11 In:12 Wi:11 Ch:12 Chaotic | Dlvl:1 $:0 HP:12(12) Pw:2(2) AC:7 Xp:1
+[Step 34] Key:  | PRNG: 0 calls
+  Msg: Robin the Rogue's attributes:
+  Map updated (19 rows changed)
+  Status update: Your intelligence is 12. | (1 of 2)
+[Step 35] Key:   | PRNG: 0 calls
+  Msg: Your wisdom is 11.
+  Map updated (20 rows changed)
+  Status update:  | 
+[Step 36] Key: ESC | PRNG: 0 calls
+  Map updated (14 rows changed)
+  Status update: Robin the Footpad              St:11 Dx:18 Co:11 In:12 Wi:11 Ch:12 Chaotic | Dlvl:1 $:0 HP:12(12) Pw:2(2) AC:7 Xp:1
+[Step 37] Key: s | PRNG: 44 calls
+  Map updated (1 rows changed)
+[Step 38] Key: s | PRNG: 66 calls
+[Step 39] Key: : | PRNG: 0 calls
+  Msg: You see no objects here.

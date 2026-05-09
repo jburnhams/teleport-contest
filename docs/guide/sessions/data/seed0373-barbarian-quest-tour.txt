@@ -1,0 +1,368 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 2510 calls
+  Msg: It is written in the Book of Crom:
+  Status: Wizard the Plunderer           St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:0 Xp:1
+[Step 1] Key:   | PRNG: 2 calls
+  Msg: Hello wizard, welcome to NetHack!  You are a neutral male human Barbarian.
+  Map updated (16 rows changed)
+  Status update: Wizard the Plunderer           St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:7 Xp:1
+[Step 2] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+  Map updated (6 rows changed)
+[Step 3] Key: n | PRNG: 0 calls
+  Map updated (5 rows changed)
+[Step 4] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 5] Key: l | PRNG: 0 calls
+  Msg: # l
+[Step 6] Key: e | PRNG: 0 calls
+  Msg: # levelchange
+[Step 7] Key: v | PRNG: 0 calls
+  Msg: # levelchange
+[Step 8] Key: e | PRNG: 0 calls
+  Msg: # levelchange
+[Step 9] Key: l | PRNG: 0 calls
+  Msg: # levelchange
+[Step 10] Key: c | PRNG: 0 calls
+  Msg: # levelchange
+[Step 11] Key: h | PRNG: 0 calls
+  Msg: # levelchange
+[Step 12] Key: a | PRNG: 0 calls
+  Msg: # levelchange
+[Step 13] Key: n | PRNG: 0 calls
+  Msg: # levelchange
+[Step 14] Key: g | PRNG: 0 calls
+  Msg: # levelchange
+[Step 15] Key: e | PRNG: 0 calls
+  Msg: # levelchange
+[Step 16] Key: 
+ | PRNG: 0 calls
+  Msg: To what experience level do you want to be set?
+[Step 17] Key: 2 | PRNG: 0 calls
+  Msg: To what experience level do you want to be set? 2
+[Step 18] Key: 0 | PRNG: 0 calls
+  Msg: To what experience level do you want to be set? 20
+[Step 19] Key: 
+ | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 2.--More--
+  Status update: Wizard the Plunderer           St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Dlvl:1 $:0 HP:27(27) Pw:3(3) AC:7 Xp:2
+[Step 20] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 3.--More--
+  Status update: Wizard the Pillager            St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Dlvl:1 $:0 HP:31(31) Pw:4(4) AC:7 Xp:3
+[Step 21] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 4.--More--
+  Status update: Wizard the Pillager            St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Dlvl:1 $:0 HP:37(37) Pw:7(7) AC:7 Xp:4
+[Step 22] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 5.--More--
+  Status update: Wizard the Pillager            St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Dlvl:1 $:0 HP:47(47) Pw:10(10) AC:7 Xp:5
+[Step 23] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 6.--More--
+  Status update: Wizard the Bandit              St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Dlvl:1 $:0 HP:52(52) Pw:13(13) AC:7 Xp:6
+[Step 24] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 7.--More--
+  Status update: Wizard the Bandit              St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Dlvl:1 $:0 HP:60(60) Pw:16(16) AC:7 Xp:7
+[Step 25] Key:   | PRNG: 3 calls
+  Msg: You feel quick!  You feel more experienced.--More--
+  Status update: Wizard the Bandit              St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Dlvl:1 $:0 HP:67(67) Pw:17(17) AC:7 Xp:8
+[Step 26] Key:   | PRNG: 3 calls
+  Msg: Welcome to experience level 8.  You feel more experienced.--More--
+  Status update: Wizard the Bandit              St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Dlvl:1 $:0 HP:78(78) Pw:20(20) AC:7 Xp:9
+[Step 27] Key:   | PRNG: 3 calls
+  Msg: Welcome to experience level 9.  You feel more experienced.--More--
+  Status update: Wizard the Brigand             St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Dlvl:1 $:0 HP:85(85) Pw:23(23) AC:7 Xp:10
+[Step 28] Key:   | PRNG: 1 calls
+  Msg: Welcome to experience level 10.  You feel more experienced.--More--
+  Status update: Wizard the Brigand             St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Dlvl:1 $:0 HP:90(90) Pw:26(26) AC:7 Xp:11
+[Step 29] Key:   | PRNG: 1 calls
+  Msg: Welcome to experience level 11.  You feel more experienced.--More--
+  Status update: Wizard the Brigand             St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Dlvl:1 $:0 HP:95(95) Pw:28(28) AC:7 Xp:12
+[Step 30] Key:   | PRNG: 1 calls
+  Msg: Welcome to experience level 12.  You feel more experienced.--More--
+  Status update: Wizard the Brigand             St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Dlvl:1 $:0 HP:100(100) Pw:30(30) AC:7 Xp:13
+[Step 31] Key:   | PRNG: 1 calls
+  Msg: Welcome to experience level 13.  You feel more experienced.--More--
+  Status update: Wizard the Raider              St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Dlvl:1 $:0 HP:105(105) Pw:31(31) AC:7 Xp:14
+[Step 32] Key:   | PRNG: 1 calls
+  Msg: Welcome to experience level 14.  You feel more experienced.--More--
+  Status update: Wizard the Raider              St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Dlvl:1 $:0 HP:110(110) Pw:32(32) AC:7 Xp:15
+[Step 33] Key:   | PRNG: 0 calls
+  Msg: Welcome to experience level 15.  You feel stealthy!--More--
+[Step 34] Key:   | PRNG: 1 calls
+  Msg: You feel more experienced.  Welcome to experience level 16.--More--
+  Status update: Wizard the Raider              St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Dlvl:1 $:0 HP:115(115) Pw:33(33) AC:7 Xp:16
+[Step 35] Key:   | PRNG: 1 calls
+  Msg: You feel more experienced.  Welcome to experience level 17.--More--
+  Status update: Wizard the Raider              St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Dlvl:1 $:0 HP:120(120) Pw:35(35) AC:7 Xp:17
+[Step 36] Key:   | PRNG: 1 calls
+  Msg: You feel more experienced.  Welcome to experience level 18.--More--
+  Status update: Wizard the Reaver              St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Dlvl:1 $:0 HP:125(125) Pw:38(38) AC:7 Xp:18
+[Step 37] Key:   | PRNG: 1 calls
+  Msg: You feel more experienced.  Welcome to experience level 19.--More--
+  Status update: Wizard the Reaver              St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Dlvl:1 $:0 HP:130(130) Pw:41(41) AC:7 Xp:19
+[Step 38] Key:   | PRNG: 1 calls
+  Msg: You feel more experienced.  Welcome to experience level 20.
+  Status update: Wizard the Reaver              St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Dlvl:1 $:0 HP:135(135) Pw:42(42) AC:7 Xp:20
+[Step 39] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 40] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 41] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   wizard3: 41 | (1 of 3)
+[Step 42] Key:   | PRNG: 0 calls
+  Msg: t -   fakewiz1: 46
+  Map updated (21 rows changed)
+  Status update: J -   astral: -5 | (2 of 3)
+[Step 43] Key: y | PRNG: 1609 calls
+  Msg: You materialize on a different level!--More--
+  Map updated (21 rows changed)
+  Status update: Wizard the Reaver              St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Home 1 $:0 HP:135(135) Pw:42(42) AC:7 Xp:20
+[Step 44] Key:   | PRNG: 0 calls
+  Msg: Warily you scan your surroundings, all of your senses alert for signs
+  Map updated (20 rows changed)
+  Status update:  | --More--
+[Step 45] Key:   | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Wizard the Reaver              St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Home 1 $:0 HP:135(135) Pw:42(42) AC:7 Xp:20
+[Step 46] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 47] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 48] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (21 rows changed)
+  Status update: s -   wizard3: 41 | (1 of 3)
+[Step 49] Key:   | PRNG: 0 calls
+  Msg: t -   fakewiz1: 46
+  Map updated (21 rows changed)
+  Status update: J -   astral: -5 | (2 of 3)
+[Step 50] Key: G | PRNG: 412 calls
+  Msg: You materialize on a different level!
+  Map updated (21 rows changed)
+  Status update: Wizard the Reaver              St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Dlvl:37 $:0 HP:135(135) Pw:42(42) AC:7 Xp:20
+[Step 51] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 52] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 53] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   wizard3: 41 | (1 of 3)
+[Step 54] Key:   | PRNG: 0 calls
+  Msg: t -   fakewiz1: 46
+  Map updated (21 rows changed)
+  Status update: J -   astral: -5 | (2 of 3)
+[Step 55] Key: z | PRNG: 928 calls
+  Msg: You materialize on a different level!--More--
+  Map updated (21 rows changed)
+  Status update: Wizard the Reaver              St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Home 3 $:0 HP:135(135) Pw:42(42) AC:7 Xp:20
+[Step 56] Key:   | PRNG: 0 calls
+  Msg: The scent of water comes to you in the desert breeze.  You know that
+  Map updated (20 rows changed)
+  Status update:  | --More--
+[Step 57] Key:   | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Wizard the Reaver              St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Home 3 $:0 HP:135(135) Pw:42(42) AC:7 Xp:20
+[Step 58] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 59] Key: 2 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 2
+[Step 60] Key: 
+ | PRNG: 4518 calls
+  Msg: You materialize on a different level!
+  Map updated (21 rows changed)
+  Status update: Wizard the Reaver              St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Home 2 $:0 HP:135(135) Pw:42(42) AC:7 Xp:20
+[Step 61] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 62] Key: 4 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 4
+[Step 63] Key: 
+ | PRNG: 2755 calls
+  Msg: You materialize on a different level!
+  Map updated (6 rows changed)
+  Status update: Wizard the Reaver              St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Home 4 $:0 HP:135(135) Pw:42(42) AC:7 Xp:20
+[Step 64] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 65] Key: 5 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 5
+[Step 66] Key: 
+ | PRNG: 2753 calls
+  Msg: You materialize on a different level!
+  Map updated (6 rows changed)
+  Status update: Wizard the Reaver              St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Home 5 $:0 HP:135(135) Pw:42(42) AC:7 Xp:20
+[Step 67] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 68] Key: 1 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 1
+[Step 69] Key: 
+ | PRNG: 48 calls
+  Msg: You materialize on a different level!
+  Map updated (20 rows changed)
+  Status update: Wizard the Reaver              St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Home 1 $:0 HP:135(135) Pw:42(42) AC:7 Xp:20
+[Step 70] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 71] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 72] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (21 rows changed)
+  Status update: s -   wizard3: 41 | (1 of 3)
+[Step 73] Key: e | PRNG: 7077 calls
+  Msg: You materialize on a different level!
+  Map updated (20 rows changed)
+  Status update: Wizard the Reaver              St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Dlvl:12 $:0 HP:135(135) Pw:42(42) AC:7 Xp:20
+[Step 74] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 75] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 76] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   wizard3: 41 | (1 of 3)
+[Step 77] Key:   | PRNG: 0 calls
+  Msg: t -   fakewiz1: 46
+  Map updated (21 rows changed)
+  Status update: J -   astral: -5 | (2 of 3)
+[Step 78] Key: B | PRNG: 6538 calls
+  Msg: You materialize on a different level!
+  Map updated (21 rows changed)
+  Status update: Wizard the Reaver              St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Dlvl:6 $:0 HP:135(135) Pw:42(42) AC:7 Xp:20
+[Step 79] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 80] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 81] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   wizard3: 41 | (1 of 3)
+[Step 82] Key:   | PRNG: 0 calls
+  Msg: t -   fakewiz1: 46
+  Map updated (21 rows changed)
+  Status update: J -   astral: -5 | (2 of 3)
+[Step 83] Key: C | PRNG: 344 calls
+  Msg: You materialize on a different level!
+  Map updated (21 rows changed)
+  Status update: Wizard the Reaver              St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Dlvl:7 $:0 HP:135(135) Pw:42(42) AC:7 Xp:20
+[Step 84] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 85] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 86] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   wizard3: 41 | (1 of 3)
+[Step 87] Key:   | PRNG: 0 calls
+  Msg: t -   fakewiz1: 46
+  Map updated (21 rows changed)
+  Status update: J -   astral: -5 | (2 of 3)
+[Step 88] Key: D | PRNG: 394 calls
+  Msg: You materialize on a different level!
+  Map updated (21 rows changed)
+  Status update: Wizard the Reaver              St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Dlvl:8 $:0 HP:135(135) Pw:42(42) AC:7 Xp:20
+[Step 89] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 90] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 91] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   wizard3: 41 | (1 of 3)
+[Step 92] Key:   | PRNG: 0 calls
+  Msg: t -   fakewiz1: 46
+  Map updated (21 rows changed)
+  Status update: J -   astral: -5 | (2 of 3)
+[Step 93] Key: E | PRNG: 136 calls
+  Msg: You materialize on a different level!
+  Map updated (21 rows changed)
+  Status update: Wizard the Reaver              St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Dlvl:9 $:0 HP:135(135) Pw:42(42) AC:7 Xp:20
+[Step 94] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 95] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 96] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   wizard3: 41 | (1 of 3)
+[Step 97] Key:   | PRNG: 0 calls
+  Msg: t -   fakewiz1: 46
+  Map updated (21 rows changed)
+  Status update: J -   astral: -5 | (2 of 3)
+[Step 98] Key:   | PRNG: 0 calls
+  Msg: K -   water: -4
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 99] Key: L | PRNG: 2358 calls
+  Msg: Endgame prerequisite: e - the Amulet of Yendor.--More--
+  Map updated (16 rows changed)
+  Status update: Wizard the Reaver              St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Dlvl:9 $:0 HP:135(135) Pw:42(42) AC:7 Xp:20
+[Step 100] Key:   | PRNG: 54 calls
+  Msg: You materialize on a different level!--More--
+  Map updated (21 rows changed)
+  Status update: Wizard the Reaver              St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Fire $:0 HP:135(135) Pw:42(42) AC:7 Xp:20
+[Step 101] Key:   | PRNG: 0 calls
+  Msg: The Wizard of Yendor suddenly appears next to you!--More--
+[Step 102] Key:   | PRNG: 0 calls
+  Msg: A voice booms out...  "So thou thought thou couldst kill me, fool."--More--
+[Step 103] Key:   | PRNG: 0 calls
+  Msg: It is hot here.--More--
+[Step 104] Key:   | PRNG: 0 calls
+  Msg: The Amulet is bestowing a wish upon you!  You may wish for an object.--More--
+[Step 105] Key:   | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 106] Key: ESC | PRNG: 6 calls
+  Msg: f - an agate ring.
+[Step 107] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 108] Key: - | PRNG: 0 calls
+  Msg: To what level do you want to teleport? -
+[Step 109] Key: 2 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? -2
+[Step 110] Key: 
+ | PRNG: 2907 calls
+  Msg: What a strange feeling!  You notice that there is no gravity here.--More--
+  Map updated (21 rows changed)
+  Status update: Wizard the Reaver              St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Air $:0 HP:135(135) Pw:42(42) AC:7 Xp:20
+[Step 111] Key:   | PRNG: 0 calls
+  Msg: The heat is gone.
+[Step 112] Key: i | PRNG: 0 calls
+  Msg: Amulets
+  Map updated (11 rows changed)
+[Step 113] Key: ESC | PRNG: 0 calls
+  Map updated (11 rows changed)
+[Step 114] Key: + | PRNG: 0 calls
+  Msg: You don't know any spells right now.
+[Step 115] Key: ESC | PRNG: 0 calls
+[Step 116] Key: \ | PRNG: 0 calls
+  Msg: Discoveries, by order of discovery within each class
+  Map updated (21 rows changed)
+  Status update: * tsurugi (long samurai sword) | --More--
+[Step 117] Key: ESC | PRNG: 0 calls
+  Map updated (21 rows changed)
+  Status update: Wizard the Reaver              St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Air $:0 HP:135(135) Pw:42(42) AC:7 Xp:20
+[Step 118] Key:  | PRNG: 0 calls
+  Msg: Wizard the Barbarian's attributes:
+  Map updated (21 rows changed)
+  Status update: Your intelligence is 8. | (1 of 2)
+[Step 119] Key:   | PRNG: 0 calls
+  Msg: Your wisdom is 7.
+  Map updated (21 rows changed)
+  Status update: Total elapsed playing time is none. | (2 of 2)
+[Step 120] Key: ESC | PRNG: 0 calls
+  Map updated (21 rows changed)
+  Status update: Wizard the Reaver              St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6 Neutral | Air $:0 HP:135(135) Pw:42(42) AC:7 Xp:20
+[Step 121] Key: s | PRNG: 0 calls
+  Msg: You already found a monster.  Use 'm' prefix to force another search.
+[Step 122] Key: s | PRNG: 0 calls
+[Step 123] Key: : | PRNG: 0 calls
+  Msg: You see no objects here.
