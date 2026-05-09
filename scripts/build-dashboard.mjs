@@ -72,6 +72,21 @@ const cardsHtml = summary.results.map(r => {
       </a>`;
   }).join('\n');
 
+const date = new Date(summary.timestamp).toLocaleString(undefined, {
+    dateStyle: 'medium',
+    timeStyle: 'short'
+});
+
+const docs = ['diary.md', 'plan.md', 'learnings.md'];
+const docContents = {};
+for (const doc of docs) {
+    try {
+        docContents[doc] = fs.readFileSync(doc, 'utf8');
+    } catch {
+        docContents[doc] = `*${doc} not found*`;
+    }
+}
+
 const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -80,7 +95,7 @@ const html = `<!DOCTYPE html>
 <title>NetHack Port Progress</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
 <style>
   :root {
       --bg: #0f1115;
@@ -116,6 +131,8 @@ const html = `<!DOCTYPE html>
       flex-direction: column;
       align-items: center;
       margin-bottom: 4rem;
+      width: 100%;
+      max-width: 600px;
   }
   .score {
       font-size: 6rem;
@@ -123,23 +140,148 @@ const html = `<!DOCTYPE html>
       background: linear-gradient(135deg, var(--accent-1), var(--accent-2));
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      margin: 1rem 0;
+      margin: 1rem 0 0.5rem 0;
       line-height: 1;
       text-align: center;
   }
   .score-label {
-      font-size: 1.25rem;
+      font-size: 1.1rem;
       color: #94a3b8;
       font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 0.1em;
+      margin-bottom: 2rem;
   }
+  .progress-container {
+      width: 100%;
+      height: 8px;
+      background: var(--card-bg);
+      border-radius: 999px;
+      overflow: hidden;
+      margin-bottom: 1rem;
+      box-shadow: inset 0 2px 4px rgba(0,0,0,0.3);
+  }
+  .progress-bar {
+      height: 100%;
+      background: linear-gradient(90deg, var(--accent-1), var(--accent-2));
+      border-radius: 999px;
+      width: ${(totalScreens > 0 ? (matchedScreens / totalScreens) * 100 : 0)}%;
+      transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .overall-stats {
+      display: flex;
+      gap: 2rem;
+      justify-content: center;
+      color: #cbd5e1;
+      font-size: 1rem;
+      font-weight: 500;
+      background: var(--card-bg);
+      padding: 1rem 2rem;
+      border-radius: 999px;
+      border: 1px solid var(--card-border);
+  }
+  .overall-stats span {
+      color: #f8fafc;
+      font-weight: 800;
+  }
+  
+  .layout-container {
+      display: flex;
+      gap: 2rem;
+      width: 100%;
+      max-width: 1600px;
+      align-items: flex-start;
+  }
+  
+  .main-content {
+      flex: 1;
+      min-width: 0;
+  }
+  
+  .sidebar {
+      width: 450px;
+      flex-shrink: 0;
+      background: var(--card-bg);
+      border-radius: 16px;
+      border: 1px solid var(--card-border);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .doc-tabs {
+      display: flex;
+      background: rgba(0,0,0,0.2);
+      border-bottom: 1px solid var(--card-border);
+  }
+  .doc-tab {
+      flex: 1;
+      background: transparent;
+      border: none;
+      color: #94a3b8;
+      padding: 1rem;
+      font-family: inherit;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+  }
+  .doc-tab:hover {
+      color: #f8fafc;
+      background: rgba(255,255,255,0.05);
+  }
+  .doc-tab.active {
+      color: var(--accent-1);
+      border-bottom: 2px solid var(--accent-1);
+      background: rgba(255,255,255,0.02);
+  }
+  .doc-content {
+      padding: 1.5rem;
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: #cbd5e1;
+      max-height: 800px;
+      overflow-y: auto;
+  }
+  .doc-content h1, .doc-content h2, .doc-content h3 {
+      color: #f8fafc;
+      margin-top: 1.5rem;
+      margin-bottom: 0.75rem;
+  }
+  .doc-content h1 { font-size: 1.5rem; margin-top: 0; }
+  .doc-content h2 { font-size: 1.25rem; }
+  .doc-content a { color: var(--accent-1); text-decoration: none; }
+  .doc-content a:hover { text-decoration: underline; }
+  .doc-content code {
+      background: rgba(0,0,0,0.3);
+      padding: 0.2em 0.4em;
+      border-radius: 4px;
+      font-family: monospace;
+      font-size: 0.9em;
+  }
+  .doc-content pre {
+      background: rgba(0,0,0,0.3);
+      padding: 1rem;
+      border-radius: 8px;
+      overflow-x: auto;
+  }
+  .doc-content pre code {
+      background: transparent;
+      padding: 0;
+  }
+  .doc-content ul, .doc-content ol { padding-left: 1.5rem; }
+  .doc-content blockquote {
+      border-left: 4px solid var(--card-border);
+      margin: 0;
+      padding-left: 1rem;
+      color: #94a3b8;
+  }
+
   .grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
       gap: 1.5rem;
       width: 100%;
-      max-width: 1400px;
   }
   .card {
       background: var(--card-bg);
@@ -153,7 +295,25 @@ const html = `<!DOCTYPE html>
       border: 1px solid var(--card-border);
       position: relative;
       overflow: hidden;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeUp 0.5s ease-out forwards;
   }
+  @keyframes fadeUp {
+      to {
+          opacity: 1;
+          transform: translateY(0);
+      }
+  }
+  /* Stagger the card animations slightly based on nth-child */
+  .card:nth-child(1) { animation-delay: 0.05s; }
+  .card:nth-child(2) { animation-delay: 0.10s; }
+  .card:nth-child(3) { animation-delay: 0.15s; }
+  .card:nth-child(4) { animation-delay: 0.20s; }
+  .card:nth-child(5) { animation-delay: 0.25s; }
+  .card:nth-child(6) { animation-delay: 0.30s; }
+  .card:nth-child(n+7) { animation-delay: 0.35s; }
+
   .card::before {
       content: '';
       position: absolute;
@@ -168,7 +328,7 @@ const html = `<!DOCTYPE html>
   .card.is-fail::before { background: var(--fail); }
   
   .card:hover {
-      transform: translateY(-4px);
+      transform: translateY(-4px) !important;
       box-shadow: 0 12px 24px -8px rgba(0,0,0,0.5);
       border-color: #475569;
   }
@@ -230,6 +390,12 @@ const html = `<!DOCTYPE html>
       display: inline-block;
       text-align: right;
   }
+  footer {
+      margin-top: 4rem;
+      color: #64748b;
+      font-size: 0.9rem;
+      text-align: center;
+  }
 </style>
 </head>
 <body>
@@ -238,12 +404,57 @@ const html = `<!DOCTYPE html>
     <h1>NetHack Port Progress</h1>
     <div class="score">${matchedScreens.toLocaleString()} <span style="font-size: 3rem; color: #64748b; font-weight: 600;">/ ${totalScreens.toLocaleString()}</span></div>
     <div class="score-label">Screens Matched</div>
+    
+    <div class="progress-container">
+        <div class="progress-bar"></div>
+    </div>
+    
+    <div class="overall-stats">
+        <div>Overall RNG Match: <span>${summary.rngPct}%</span></div>
+        <div>Passed Sessions: <span>${summary.passed} / ${summary.total}</span></div>
+    </div>
 </div>
 
-<div class="grid">
-  ${cardsHtml}
+<div class="layout-container">
+    <div class="main-content">
+        <div class="grid">
+          ${cardsHtml}
+        </div>
+    </div>
+    
+    <div class="sidebar">
+        <div class="doc-tabs">
+            <button class="doc-tab active" onclick="showDoc('diary')">diary.md</button>
+            <button class="doc-tab" onclick="showDoc('plan')">plan.md</button>
+            <button class="doc-tab" onclick="showDoc('learnings')">learnings.md</button>
+        </div>
+        <div class="doc-content" id="doc-diary">${docContents['diary.md'].replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\`/g, '&#96;').replace(/\\$/g, '&#36;')}</div>
+        <div class="doc-content" id="doc-plan" style="display:none;">${docContents['plan.md'].replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\`/g, '&#96;').replace(/\\$/g, '&#36;')}</div>
+        <div class="doc-content" id="doc-learnings" style="display:none;">${docContents['learnings.md'].replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\`/g, '&#96;').replace(/\\$/g, '&#36;')}</div>
+    </div>
 </div>
 
+<footer>
+    Last updated: ${date}
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>
+  function renderDocs() {
+      ['diary', 'plan', 'learnings'].forEach(id => {
+          const el = document.getElementById('doc-' + id);
+          if (el) el.innerHTML = marked.parse(el.textContent);
+      });
+  }
+  renderDocs();
+
+  window.showDoc = function(id) {
+      document.querySelectorAll('.doc-content').forEach(el => el.style.display = 'none');
+      document.querySelectorAll('.doc-tab').forEach(el => el.classList.remove('active'));
+      document.getElementById('doc-' + id).style.display = 'block';
+      event.target.classList.add('active');
+  }
+</script>
 </body>
 </html>`;
 
