@@ -28,3 +28,19 @@ Key discoveries:
 4. Extracted full role allow bitmasks (13 roles) and race allow bitmasks (5 races) from role.c — documented in learnings.md.
 
 Next steps: implement `js/chargen.js` (pick_role/race/gend/align) and `js/o_init.js` (init_objects), then wire into `newgame()` replacing `fastforward_pre_mklev()`.
+
+### Phase 1 implementation (continued)
+
+Implemented the full pre-mklev init sequence in `js/o_init.js`, `js/dungeon_init.js`, `js/role_init.js`, wired into `js/allmain.js` for fully-specified sessions.
+
+**Verified session: seed0360 (Wizard, debug mode)** — all 259 pre-mklev init calls match exactly. Init sequence: init_objects(199) + role_init_extra(Wiz: rn2(100)) + init_dungeons(debug: 48 calls) + init_castle_tune(5) + newpw(Wiz: rnd(3)) + u_init_misc(1) + l_nhcore_init(2) = 257 total matched. Then mklev diverges (Lua/special-levels not implemented).
+
+**Bug found and fixed: Rogue/Ranger index swap** — the `roles[]` array in role.c has Rogue at index 7 and Ranger at index 8 ("Rogue precedes Ranger" comment in source). My initial `ROLE_NAME_TO_IDX` had them reversed.
+
+**Bug found and fixed: Arc nemesis gender** — MINION_OF_HUHETOTL has no M2_MALE/M2_FEMALE/M2_NEUTER flags, so role_init() calls rn2(100) for it. Fixed by adding Arc (index 0) alongside Wiz (index 12) to the nemesis-gender rn2(100) check. seed0361 (Archeologist) improved from 277 → 1279 matched RNG calls.
+
+**Confirmed: all quest leaders have explicit gender** — no rn2(100) needed for the leader gender check in any role.
+
+**Confirmed: Priest rn2(13) loop exits quickly** — seed0367 shows `rn2(13)=11` (Valkyrie, which has lgod) at position 199, loop exits after 1 call.
+
+Full score snapshot (15/11284 screen pts): seed8000 still at 3126/3130 RNG, 15/23 screens. No regressions. All other sessions diverge in mklev or have chargen not yet implemented.
