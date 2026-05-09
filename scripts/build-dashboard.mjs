@@ -70,7 +70,7 @@ const cardsHtml = summary.results.map(r => {
               </div>
           </div>
       </a>`;
-  }).join('\\n');
+  }).join('\n');
 
 const html = `<!DOCTYPE html>
 <html lang="en">
