@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git submodule *)",
+      "Bash(node *)",
+      "Bash(xargs -I{} node frozen/ps_test_runner.mjs {})",
+      "Bash(bash frozen/score.sh)",
+      "Bash(python3 *)"
+    ]
+  }
+}
