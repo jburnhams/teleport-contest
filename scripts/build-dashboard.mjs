@@ -77,7 +77,13 @@ const date = new Date(summary.timestamp).toLocaleString(undefined, {
     timeStyle: 'short'
 });
 
-const docs = ['diary.md', 'plan.md', 'learnings.md'];
+const docs = [
+    'diary.md', 
+    'plan.md', 
+    'learnings.md', 
+    'docs/guide/history.md', 
+    'docs/guide/project.md'
+];
 const docContents = {};
 for (const doc of docs) {
     try {
@@ -424,13 +430,21 @@ const html = `<!DOCTYPE html>
     
     <div class="sidebar">
         <div class="doc-tabs">
-            <button class="doc-tab active" onclick="showDoc('diary')">diary.md</button>
-            <button class="doc-tab" onclick="showDoc('plan')">plan.md</button>
-            <button class="doc-tab" onclick="showDoc('learnings')">learnings.md</button>
+            <button class="doc-tab active" onclick="showDoc('diary')">diary</button>
+            <button class="doc-tab" onclick="showDoc('plan')">plan</button>
+            <button class="doc-tab" onclick="showDoc('learnings')">learnings</button>
         </div>
+        <div class="doc-tabs" style="border-top: none; background: rgba(0,0,0,0.3);">
+            <button class="doc-tab" style="font-size: 0.8rem; padding: 0.5rem;" onclick="showDoc('guide-history')">History</button>
+            <button class="doc-tab" style="font-size: 0.8rem; padding: 0.5rem;" onclick="showDoc('guide-project')">Project</button>
+        </div>
+        
         <div class="doc-content" id="doc-diary">${docContents['diary.md'].replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\`/g, '&#96;').replace(/\\$/g, '&#36;')}</div>
         <div class="doc-content" id="doc-plan" style="display:none;">${docContents['plan.md'].replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\`/g, '&#96;').replace(/\\$/g, '&#36;')}</div>
         <div class="doc-content" id="doc-learnings" style="display:none;">${docContents['learnings.md'].replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\`/g, '&#96;').replace(/\\$/g, '&#36;')}</div>
+        
+        <div class="doc-content" id="doc-guide-history" style="display:none;">${docContents['docs/guide/history.md'].replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\`/g, '&#96;').replace(/\\$/g, '&#36;')}</div>
+        <div class="doc-content" id="doc-guide-project" style="display:none;">${docContents['docs/guide/project.md'].replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\`/g, '&#96;').replace(/\\$/g, '&#36;')}</div>
     </div>
 </div>
 
@@ -441,7 +455,7 @@ const html = `<!DOCTYPE html>
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script>
   function renderDocs() {
-      ['diary', 'plan', 'learnings'].forEach(id => {
+      ['diary', 'plan', 'learnings', 'guide-history', 'guide-project'].forEach(id => {
           const el = document.getElementById('doc-' + id);
           if (el) el.innerHTML = marked.parse(el.textContent);
       });
