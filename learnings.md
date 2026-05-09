@@ -129,3 +129,25 @@ All quest leaders: LORD_CARNARVON, PELIAS, SHAMAN_KARNOV, HIPPOCRATES, KING_ARTH
 Nemeses with explicit gender: THOTH_AMON (M), CHROMATIC_DRAGON (F), CYCLOPS (M), IXOTH (M), MASTER_KAEN (M), NALZOK (M), MASTER_ASSASSIN (M), SCORPIUS (M), ASHIKAGA_TAKAUJI (M), MASTER_OF_THIEVES (M/Tou), LORD_SURTUR (M).
 
 Nemeses with NO gender (random → rn2(100)): MINION_OF_HUHETOTL (Arc), DARK_ONE (Wiz).
+
+## Screen comparison is semantic, not byte-exact
+
+`frozen/screen-decode.mjs` `diffCell()` renders cells via `renderCell()` before comparing. DEC line-drawing chars (`\x0e` + 'l') and Unicode box chars ('┌') compare as EQUAL. Map screens can match even though `terminal.serialize()` raw bytes differ from the session JSON. Raw string comparison is misleading — always use the scorer output.
+
+## putstr() color for plain-text attribute screens
+
+`display.putstr(col, row, str, color, attr)` defaults color to `CLR_GRAY` (7), which emits `\x1b[37m` ANSI escape codes. Session JSON records plain text with no color codes. Must pass `NO_COLOR` (8 → ANSI 39 → no escape codes) explicitly when writing text that should match plain C output. Example: `display.putstr(col, row, str, NO_COLOR, 0)`.
+
+## show_attributes (Ctrl+X) display pattern
+
+Two-page display using `display.clearScreen()` + `display.putstr(NO_COLOR)` + `display.setCursor()` + `nhgetch()`. Each nhgetch call triggers `_preNhgetchHook`, capturing the screen and advancing `_screens[]`. The two nhgetch calls produce screens[17] and screens[18] in the seed8000 session.
+
+God names for Tourist (index 10): Blind Io (lawful), The Lady (neutral), Offler (chaotic). Dungeon name: strip leading "The " from `game.dungeons[0].dname` to get "Dungeons of Doom" (the article comes from the sentence context). Energy string: "both" if en==enmax==2, "a single" if 1, "all N" if N>2 and full, otherwise "N out of M".
+
+## mklev makerooms divergence pattern (seed0360)
+
+For seed0360 (Wizard, debug mode), RNG matches through all pre-mklev init (indices 0–1217), then diverges at 1218. C has 102 consecutive `rn2(2)=? @ rnd_rect(rect.c:106)` calls at positions 1217–1318 with no other RNG interleaved, followed by `rn2(7)=5 @ generate_stairs_find_room`.
+
+JS instead produces `rn2(7)=1 @ make_niches` at position 1218 — meaning our makerooms exits early (only 8 rooms placed, rect_cnt=2 still has rects to try), then proceeds to make_niches/generate_stairs.
+
+Root cause: our `themerooms_generate()` unconditionally runs 30 reservoir-sampling `rn2()` calls before checking if a candidate rect is large enough for any room. C apparently performs the small-rect check BEFORE consuming reservoir RNG, so failed small rects add exactly 0 extra RNG. Fix: add early size check at the top of `themerooms_generate()` (before reservoir sampling) to return immediately if the rect is too small.
