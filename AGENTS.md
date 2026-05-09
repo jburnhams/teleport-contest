@@ -27,6 +27,10 @@ Three files are overlaid from `frozen/` before every scoring run — editing the
 
 The pre-commit hook and CI both enforce this. `frozen/` files are also hash-checked against `.teleport/frozen-hashes.json`.
 
+## Branching Policy
+
+**Never work directly in `main`.** Always create a feature branch (`feature/...`, `fix/...`) for your work, commit there, and open a Pull Request against `main`. This ensures the CI score gates run properly before code merges.
+
 ## Score gates (CI)
 
 Every PR against `main` must pass **CI – Score Gate** (`.github/workflows/ci.yml`):
