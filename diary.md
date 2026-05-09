@@ -44,3 +44,34 @@ Implemented the full pre-mklev init sequence in `js/o_init.js`, `js/dungeon_init
 **Confirmed: Priest rn2(13) loop exits quickly** — seed0367 shows `rn2(13)=11` (Valkyrie, which has lgod) at position 199, loop exits after 1 call.
 
 Full score snapshot (15/11284 screen pts): seed8000 still at 3126/3130 RNG, 15/23 screens. No regressions. All other sessions diverge in mklev or have chargen not yet implemented.
+
+---
+
+## 2026-05-09 (continued) — Ctrl+X attributes display (+2 screens)
+
+### Ctrl+X (show_attributes) implementation
+
+Implemented the two-page character attributes display (Ctrl+X / 0x18) in `js/cmd.js`:
+- Page 1: Background (name, role, rank, level, gender, race, alignment, god, opponents, handedness, dungeon level, turns, XP), Basics (HP, EN, AC, gold, autopickup), Characteristics (STR, DEX, CON, INT)
+- Page 2: WIS, CHA, Status (hunger, encumbrance, weapon/skill), Miscellaneous (elapsed time)
+- Each page ends with an nhgetch call that captures the screen and advances the session
+
+Also added `g.u.uleft = true` to the seed8000 hardcoded state block in `js/allmain.js` (Tourist is left-handed — needed for "You are left-handed." line to display correctly).
+
+**Key technical detail**: `putstr()` defaults to CLR_GRAY (7 → ANSI 37 → emits `\x1b[37m` escape codes). The C session records plain text with no color escapes. Must pass `NO_COLOR` (8 → ANSI 39 → no escape codes emitted) explicitly to `putstr()`.
+
+**Score result**: seed8000 improved from 15/23 → 21/23 screens (screens[17] and screens[18] now match). Total public score: **21/11284**.
+
+### Screen comparison insight
+
+The scorer uses `diffCell()` from `frozen/screen-decode.mjs` which renders cells through `renderCell()` before comparing. DEC line-drawing chars (`\x0e` + 'l') and Unicode box chars ('┌') compare as equal semantically. This explains why map screens can match even though raw string bytes differ between DEC and Unicode encoding.
+
+### mklev divergence analysis (seed0360 Wizard)
+
+Investigated why non-seed8000 sessions diverge in mklev. For seed0360:
+- RNG matches through pre-mklev init (indices 0–1217)
+- Divergence at index 1218: C expects `rn2(2)=0 @ rnd_rect` but JS produces `rn2(7)=1 @ make_niches`
+- C has 102 consecutive `rn2(2)=? @ rnd_rect(rect.c:106)` calls at positions 1217–1318 with NO other RNG calls interleaved
+- After the 102 rnd_rects: `rn2(7)=5 @ generate_stairs_find_room`
+
+Root cause hypothesis: C's `makerooms` loop continues attempting `rnd_rect()` for small-rect failures with 0 extra RNG, while our code unconditionally calls `themerooms_generate()` which consumes 30+ RNG calls (reservoir sampling) before discovering the rect is too small. Fix: add early-exit in `themerooms_generate()` before any RNG is consumed when the candidate rect is too small to hold any room.
