@@ -9,13 +9,13 @@ jobs:
     timeout-minutes: 25
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4.2.2
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4.4.0
         with:
-          node-version: '22'
+          node-version: '24'
 
       - name: Verify frozen files unchanged
         run: |
@@ -78,7 +78,7 @@ jobs:
 
       - name: Upload score results
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v4.6.2
         with:
           name: score-results-pr-${{ github.event.pull_request.number }}
           path: |

@@ -12,13 +12,13 @@ jobs:
     timeout-minutes: 25
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4.2.2
         with:
           token: ${{ secrets.BASELINE_PAT }}
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4.4.0
         with:
-          node-version: '22'
+          node-version: '24'
 
       - name: Verify frozen files unchanged
         run: |
@@ -96,7 +96,7 @@ jobs:
           fi
 
       - name: Upload results
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v4.6.2
         with:
           name: score-results
           path: |
