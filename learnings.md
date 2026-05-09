@@ -144,6 +144,27 @@ Two-page display using `display.clearScreen()` + `display.putstr(NO_COLOR)` + `d
 
 God names for Tourist (index 10): Blind Io (lawful), The Lady (neutral), Offler (chaotic). Dungeon name: strip leading "The " from `game.dungeons[0].dname` to get "Dungeons of Doom" (the article comes from the sentence context). Energy string: "both" if en==enmax==2, "a single" if 1, "all N" if N>2 and full, otherwise "N out of M".
 
+## newpw() enadv.inrnd per role
+
+`newpw()` (exper.c, called from u_init at ulevel=0) calls `rnd(urole.enadv.inrnd)` if > 0. Role values from role.c:
+- Arc=0, Bar=0, Cav=0, **Hea=4**, **Kni=4**, **Mon=2**, **Pri=3**, Rog=0, Ran=0, Sam=0, Tou=0, Val=0, **Wiz=3**
+All race enadv.inrnd values are 0 — no rnd() call for urace.enadv.inrnd ever fires.
+
+## vault fallback: create_vault() must be called
+
+C makelevel:1334: `else if (rnd_rect() && create_vault())`. `create_vault()` calls `create_room` with vault=TRUE. The do-while loop inside create_room retries `rnd_rect()` up to 101 times when the vault rect is too small (vault needs dx=dy=1 plus xlim/ylim padding; no rn2 for dx/dy so retries produce ONLY consecutive rnd_rect calls). For seed0360: 1 outer rnd_rect (the condition check) + 101 inner = 102 consecutive rn2(2) at positions 1217–1318.
+
+Fix: `else if (rnd_rect() && create_vault()) { ... handle result ... }` — always call create_vault().
+
+## fill phase: fastforward_fill_mineralize is seed8000-only
+
+`fastforward_fill_mineralize()` starts with `rn2(8)` for `rn2(fillable_room_count)`. Different sessions have 6–9 fillable rooms, so `rn2(8)` is wrong for them. The fill phase requires real implementation:
+1. `rn2(fillable_room_count)` to choose bonus-item room
+2. `fill_ordinary_room` per room → `makemon` (random monster selection via `rndmonst_adj`)
+3. `fill_special_room` per special room (shops, temples, etc.)
+
+`rndmonst_adj` does weighted reservoir sampling over eligible monsters filtered by level difficulty. At level 1 wizard debug, only ~3 eligible monsters (produces rn2(3), rn2(4), rn2(5)).
+
 ## mklev makerooms divergence pattern (seed0360)
 
 For seed0360 (Wizard, debug mode), RNG matches through all pre-mklev init (indices 0–1217), then diverges at 1218. C has 102 consecutive `rn2(2)=? @ rnd_rect(rect.c:106)` calls at positions 1217–1318 with no other RNG interleaved, followed by `rn2(7)=5 @ generate_stairs_find_room`.
