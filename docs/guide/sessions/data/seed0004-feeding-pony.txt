@@ -1,0 +1,885 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 0 calls
+  Status:  | 
+[Step 1] Key: T | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 2] Key: e | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 3] Key: t | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 4] Key: r | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 5] Key: a | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 6] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Shall I pick character's race, role, gender and alignment for you? [ynaq]
+[Step 7] Key: y | PRNG: 4 calls
+  Msg: Is this ok? [ynaq]
+  Map updated (6 rows changed)
+[Step 8] Key: y | PRNG: 3682 calls
+  Msg: It is written in the Book of Lugh:
+  Map updated (15 rows changed)
+  Status update: Tetra the Gallant              St:14 Dx:9 Co:11 In:10 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:4(4) AC:0 Xp:1
+[Step 9] Key:   | PRNG: 2 calls
+  Msg: Salutations Tetra, welcome to NetHack!  You are a lawful female human Knight.
+  Map updated (17 rows changed)
+  Status update: Tetra the Gallant              St:14 Dx:9 Co:11 In:10 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:4(4) AC:3 Xp:1
+[Step 10] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+  Map updated (6 rows changed)
+[Step 11] Key: n | PRNG: 0 calls
+  Map updated (5 rows changed)
+[Step 12] Key: k | PRNG: 5 calls
+  Map updated (2 rows changed)
+[Step 13] Key: k | PRNG: 13 calls
+  Map updated (4 rows changed)
+[Step 14] Key: k | PRNG: 10 calls
+  Map updated (3 rows changed)
+[Step 15] Key: l | PRNG: 22 calls
+  Map updated (6 rows changed)
+[Step 16] Key: L | PRNG: 33 calls
+  Map updated (3 rows changed)
+[Step 17] Key: u | PRNG: 0 calls
+  Msg: This door is locked.
+[Step 18] Key: u | PRNG: 0 calls
+  Msg: This door is locked.
+[Step 19] Key: j | PRNG: 19 calls
+  Map updated (3 rows changed)
+[Step 20] Key: j | PRNG: 12 calls
+  Map updated (5 rows changed)
+[Step 21] Key: l | PRNG: 34 calls
+  Map updated (6 rows changed)
+[Step 22] Key: l | PRNG: 19 calls
+  Map updated (6 rows changed)
+[Step 23] Key: n | PRNG: 27 calls
+  Map updated (2 rows changed)
+[Step 24] Key: n | PRNG: 22 calls
+  Map updated (4 rows changed)
+[Step 25] Key: J | PRNG: 109 calls
+  Map updated (11 rows changed)
+[Step 26] Key: j | PRNG: 0 calls
+  Msg: Things that are here:
+  Map updated (8 rows changed)
+[Step 27] Key:   | PRNG: 4 calls
+  Msg: A bear trap closes on your foot!--More--
+  Map updated (5 rows changed)
+  Status update: Tetra the Gallant              St:14 Dx:8 Co:11 In:10 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:4(4) AC:3 Xp:1 Burdened
+[Step 28] Key:   | PRNG: 63 calls
+  Msg: Your movements are slowed slightly because of your load.
+  Map updated (1 rows changed)
+  Status update: Tetra the Gallant              St:14 Dx:8 Co:11 In:10 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:11(16) Pw:4(4) AC:3 Xp:1 Burdened
+[Step 29] Key: b | PRNG: 25 calls
+  Msg: You are caught in a bear trap.
+  Map updated (1 rows changed)
+[Step 30] Key: b | PRNG: 48 calls
+[Step 31] Key: b | PRNG: 48 calls
+  Map updated (1 rows changed)
+[Step 32] Key: b | PRNG: 25 calls
+  Map updated (1 rows changed)
+[Step 33] Key: b | PRNG: 26 calls
+  Map updated (1 rows changed)
+[Step 34] Key: b | PRNG: 48 calls
+  Msg: Your saddled pony steps reluctantly onto an orc corpse.--More--
+  Map updated (1 rows changed)
+[Step 35] Key: b | PRNG: 0 calls
+  Msg: Your saddled pony steps reluctantly onto an orc corpse.--More--
+[Step 36] Key: b | PRNG: 0 calls
+  Msg: Your saddled pony steps reluctantly onto an orc corpse.--More--
+[Step 37] Key: b | PRNG: 0 calls
+  Msg: Your saddled pony steps reluctantly onto an orc corpse.--More--
+[Step 38] Key: b | PRNG: 0 calls
+  Msg: Your saddled pony steps reluctantly onto an orc corpse.--More--
+[Step 39] Key: b | PRNG: 0 calls
+  Msg: Your saddled pony steps reluctantly onto an orc corpse.--More--
+[Step 40] Key: b | PRNG: 0 calls
+  Msg: Your saddled pony steps reluctantly onto an orc corpse.--More--
+[Step 41] Key: b | PRNG: 0 calls
+  Msg: Your saddled pony steps reluctantly onto an orc corpse.--More--
+[Step 42] Key: b | PRNG: 0 calls
+  Msg: Your saddled pony steps reluctantly onto an orc corpse.--More--
+[Step 43] Key: b | PRNG: 0 calls
+  Msg: Your saddled pony steps reluctantly onto an orc corpse.--More--
+[Step 44] Key: b | PRNG: 0 calls
+  Msg: Your saddled pony steps reluctantly onto an orc corpse.--More--
+[Step 45] Key:   | PRNG: 10 calls
+  Msg: The saddled pony is caught in a bear trap!
+  Map updated (1 rows changed)
+[Step 46] Key: k | PRNG: 14 calls
+  Msg: You are caught in a bear trap.  You finally wriggle free.
+[Step 47] Key: k | PRNG: 10 calls
+  Map updated (2 rows changed)
+[Step 48] Key: k | PRNG: 24 calls
+  Map updated (3 rows changed)
+[Step 49] Key: k | PRNG: 13 calls
+  Map updated (2 rows changed)
+[Step 50] Key: k | PRNG: 12 calls
+  Map updated (2 rows changed)
+[Step 51] Key: y | PRNG: 21 calls
+  Msg: Your leg feels better.  Your movements are now unencumbered.
+  Map updated (2 rows changed)
+  Status update: Tetra the Gallant              St:14 Dx:9 Co:11 In:10 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:11(16) Pw:4(4) AC:3 Xp:1
+[Step 52] Key: k | PRNG: 12 calls
+  Msg: The kobold misses!
+  Map updated (3 rows changed)
+[Step 53] Key: k | PRNG: 19 calls
+  Msg: You kill the kobold!
+  Map updated (1 rows changed)
+  Status update: Tetra the Gallant              St:14 Dx:9 Co:11 In:10 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:12(16) Pw:4(4) AC:3 Xp:1
+[Step 54] Key: k | PRNG: 8 calls
+  Map updated (2 rows changed)
+[Step 55] Key: k | PRNG: 12 calls
+  Map updated (2 rows changed)
+[Step 56] Key: k | PRNG: 8 calls
+  Map updated (2 rows changed)
+[Step 57] Key: y | PRNG: 8 calls
+  Map updated (2 rows changed)
+[Step 58] Key: h | PRNG: 11 calls
+  Map updated (1 rows changed)
+[Step 59] Key: h | PRNG: 8 calls
+  Map updated (1 rows changed)
+[Step 60] Key: h | PRNG: 11 calls
+  Map updated (1 rows changed)
+  Status update: Tetra the Gallant              St:14 Dx:9 Co:11 In:10 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:13(16) Pw:4(4) AC:3 Xp:1
+[Step 61] Key: h | PRNG: 9 calls
+  Map updated (1 rows changed)
+[Step 62] Key: j | PRNG: 8 calls
+  Map updated (3 rows changed)
+[Step 63] Key: j | PRNG: 9 calls
+  Map updated (3 rows changed)
+[Step 64] Key: J | PRNG: 71 calls
+  Map updated (10 rows changed)
+[Step 65] Key: h | PRNG: 8 calls
+  Map updated (4 rows changed)
+[Step 66] Key: h | PRNG: 9 calls
+  Map updated (2 rows changed)
+[Step 67] Key: h | PRNG: 8 calls
+  Map updated (1 rows changed)
+[Step 68] Key: b | PRNG: 8 calls
+  Map updated (2 rows changed)
+[Step 69] Key: h | PRNG: 11 calls
+  Map updated (1 rows changed)
+[Step 70] Key: h | PRNG: 8 calls
+  Map updated (1 rows changed)
+[Step 71] Key: h | PRNG: 8 calls
+  Map updated (2 rows changed)
+[Step 72] Key: h | PRNG: 11 calls
+  Map updated (1 rows changed)
+[Step 73] Key: H | PRNG: 295 calls
+  Map updated (7 rows changed)
+  Status update: Tetra the Gallant              St:14 Dx:9 Co:11 In:10 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:15(16) Pw:4(4) AC:3 Xp:1
+[Step 74] Key: h | PRNG: 16 calls
+  Map updated (5 rows changed)
+[Step 75] Key: h | PRNG: 16 calls
+  Map updated (1 rows changed)
+[Step 76] Key: h | PRNG: 19 calls
+  Map updated (1 rows changed)
+[Step 77] Key: y | PRNG: 19 calls
+  Map updated (2 rows changed)
+  Status update: Tetra the Gallant              St:14 Dx:9 Co:11 In:10 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:4(4) AC:3 Xp:1
+[Step 78] Key: h | PRNG: 18 calls
+  Map updated (1 rows changed)
+[Step 79] Key: h | PRNG: 15 calls
+  Map updated (2 rows changed)
+[Step 80] Key: y | PRNG: 15 calls
+  Map updated (3 rows changed)
+[Step 81] Key: k | PRNG: 15 calls
+  Map updated (3 rows changed)
+[Step 82] Key: K | PRNG: 157 calls
+  Map updated (11 rows changed)
+[Step 83] Key: h | PRNG: 29 calls
+  Map updated (4 rows changed)
+[Step 84] Key: h | PRNG: 43 calls
+  Map updated (3 rows changed)
+[Step 85] Key: h | PRNG: 38 calls
+  Map updated (1 rows changed)
+[Step 86] Key: h | PRNG: 37 calls
+  Msg: You see here a yellow gem.
+  Map updated (1 rows changed)
+[Step 87] Key: , | PRNG: 23 calls
+  Msg: i - a yellow gem.
+[Step 88] Key: h | PRNG: 1 calls
+  Msg: The door opens.
+  Map updated (1 rows changed)
+[Step 89] Key: h | PRNG: 34 calls
+  Map updated (1 rows changed)
+[Step 90] Key: H | PRNG: 118 calls
+  Map updated (4 rows changed)
+[Step 91] Key: j | PRNG: 32 calls
+  Msg: You miss the grid bug.  The grid bug bites!  You get zapped!
+  Status update: Tetra the Gallant              St:14 Dx:9 Co:11 In:10 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:15(16) Pw:4(4) AC:3 Xp:1
+[Step 92] Key: j | PRNG: 31 calls
+  Msg: You miss the grid bug.  The grid bug bites!  You get zapped!
+  Status update: Tetra the Gallant              St:14 Dx:9 Co:11 In:10 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:14(16) Pw:4(4) AC:3 Xp:1
+[Step 93] Key: j | PRNG: 28 calls
+  Msg: You kill the grid bug!
+  Map updated (1 rows changed)
+[Step 94] Key: b | PRNG: 21 calls
+  Map updated (2 rows changed)
+[Step 95] Key: B | PRNG: 0 calls
+[Step 96] Key: H | PRNG: 54 calls
+  Msg: The grid bug bites!  You avoid harm.
+  Map updated (2 rows changed)
+[Step 97] Key: j | PRNG: 33 calls
+  Msg: You kill the grid bug!
+  Map updated (1 rows changed)
+[Step 98] Key: j | PRNG: 17 calls
+  Map updated (3 rows changed)
+[Step 99] Key: J | PRNG: 44 calls
+  Map updated (4 rows changed)
+[Step 100] Key: b | PRNG: 29 calls
+  Map updated (3 rows changed)
+[Step 101] Key: B | PRNG: 74 calls
+  Map updated (8 rows changed)
+[Step 102] Key: h | PRNG: 29 calls
+  Map updated (4 rows changed)
+[Step 103] Key: b | PRNG: 18 calls
+  Map updated (2 rows changed)
+[Step 104] Key: b | PRNG: 30 calls
+  Map updated (2 rows changed)
+[Step 105] Key: b | PRNG: 28 calls
+  Msg: You see here 2 blue gems.
+  Map updated (2 rows changed)
+[Step 106] Key: , | PRNG: 17 calls
+  Msg: j - 2 blue gems.
+[Step 107] Key: h | PRNG: 17 calls
+  Map updated (1 rows changed)
+[Step 108] Key: h | PRNG: 28 calls
+  Map updated (1 rows changed)
+[Step 109] Key: h | PRNG: 17 calls
+  Map updated (2 rows changed)
+[Step 110] Key: h | PRNG: 16 calls
+  Map updated (1 rows changed)
+  Status update: Tetra the Gallant              St:14 Dx:9 Co:11 In:10 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:15(16) Pw:4(4) AC:3 Xp:1
+[Step 111] Key: H | PRNG: 0 calls
+[Step 112] Key: K | PRNG: 291 calls
+  Map updated (16 rows changed)
+  Status update: Tetra the Gallant              St:14 Dx:9 Co:11 In:10 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:4(4) AC:3 Xp:1
+[Step 113] Key: y | PRNG: 30 calls
+  Map updated (5 rows changed)
+[Step 114] Key: h | PRNG: 28 calls
+  Msg: You see here 4 gold pieces.
+  Map updated (1 rows changed)
+[Step 115] Key: , | PRNG: 16 calls
+  Msg: $ - 4 gold pieces.
+  Status update: Tetra the Gallant              St:14 Dx:9 Co:11 In:10 Wi:14 Ch:17 Lawful | Dlvl:1 $:4 HP:16(16) Pw:4(4) AC:3 Xp:1
+[Step 116] Key: b | PRNG: 15 calls
+  Map updated (2 rows changed)
+[Step 117] Key: j | PRNG: 16 calls
+  Map updated (3 rows changed)
+[Step 118] Key: j | PRNG: 16 calls
+  Map updated (2 rows changed)
+[Step 119] Key: l | PRNG: 16 calls
+  Map updated (1 rows changed)
+[Step 120] Key: l | PRNG: 17 calls
+  Map updated (1 rows changed)
+[Step 121] Key: l | PRNG: 14 calls
+  Map updated (1 rows changed)
+[Step 122] Key: l | PRNG: 15 calls
+  Map updated (1 rows changed)
+[Step 123] Key: j | PRNG: 14 calls
+  Map updated (2 rows changed)
+[Step 124] Key: j | PRNG: 26 calls
+  Map updated (2 rows changed)
+[Step 125] Key: j | PRNG: 16 calls
+  Map updated (2 rows changed)
+[Step 126] Key: j | PRNG: 27 calls
+  Map updated (2 rows changed)
+[Step 127] Key: j | PRNG: 26 calls
+  Map updated (2 rows changed)
+[Step 128] Key: j | PRNG: 16 calls
+  Map updated (2 rows changed)
+[Step 129] Key: j | PRNG: 16 calls
+  Map updated (2 rows changed)
+[Step 130] Key: j | PRNG: 16 calls
+  Map updated (2 rows changed)
+[Step 131] Key: j | PRNG: 29 calls
+  Map updated (2 rows changed)
+[Step 132] Key: j | PRNG: 27 calls
+  Map updated (2 rows changed)
+[Step 133] Key: j | PRNG: 14 calls
+  Map updated (2 rows changed)
+[Step 134] Key: l | PRNG: 30 calls
+  Map updated (1 rows changed)
+[Step 135] Key: l | PRNG: 17 calls
+  Map updated (1 rows changed)
+[Step 136] Key: u | PRNG: 17 calls
+  Map updated (2 rows changed)
+[Step 137] Key: u | PRNG: 17 calls
+  Map updated (2 rows changed)
+[Step 138] Key: l | PRNG: 17 calls
+  Map updated (1 rows changed)
+[Step 139] Key: l | PRNG: 17 calls
+  Map updated (1 rows changed)
+[Step 140] Key: u | PRNG: 17 calls
+  Map updated (2 rows changed)
+[Step 141] Key: u | PRNG: 0 calls
+[Step 142] Key: l | PRNG: 14 calls
+  Map updated (1 rows changed)
+[Step 143] Key: u | PRNG: 28 calls
+  Map updated (2 rows changed)
+[Step 144] Key: k | PRNG: 27 calls
+  Map updated (2 rows changed)
+[Step 145] Key: u | PRNG: 27 calls
+  Map updated (3 rows changed)
+[Step 146] Key: k | PRNG: 15 calls
+  Map updated (2 rows changed)
+[Step 147] Key: h | PRNG: 14 calls
+  Map updated (1 rows changed)
+[Step 148] Key: h | PRNG: 16 calls
+  Map updated (1 rows changed)
+[Step 149] Key: h | PRNG: 16 calls
+  Map updated (2 rows changed)
+[Step 150] Key: y | PRNG: 16 calls
+  Map updated (2 rows changed)
+[Step 151] Key: h | PRNG: 25 calls
+  Map updated (1 rows changed)
+[Step 152] Key: h | PRNG: 16 calls
+  Map updated (1 rows changed)
+[Step 153] Key: h | PRNG: 29 calls
+  Map updated (1 rows changed)
+[Step 154] Key: h | PRNG: 14 calls
+  Map updated (1 rows changed)
+[Step 155] Key: h | PRNG: 16 calls
+  Map updated (1 rows changed)
+[Step 156] Key: y | PRNG: 14 calls
+  Map updated (2 rows changed)
+[Step 157] Key: y | PRNG: 0 calls
+[Step 158] Key: k | PRNG: 18 calls
+  Map updated (2 rows changed)
+[Step 159] Key: k | PRNG: 25 calls
+  Map updated (2 rows changed)
+[Step 160] Key: k | PRNG: 15 calls
+  Map updated (2 rows changed)
+[Step 161] Key: k | PRNG: 25 calls
+  Map updated (2 rows changed)
+[Step 162] Key: k | PRNG: 0 calls
+[Step 163] Key: k | PRNG: 0 calls
+[Step 164] Key: y | PRNG: 0 calls
+[Step 165] Key: h | PRNG: 26 calls
+  Map updated (1 rows changed)
+[Step 166] Key: y | PRNG: 16 calls
+  Map updated (2 rows changed)
+[Step 167] Key: u | PRNG: 14 calls
+  Map updated (2 rows changed)
+[Step 168] Key: l | PRNG: 25 calls
+  Map updated (1 rows changed)
+[Step 169] Key: l | PRNG: 17 calls
+  Map updated (1 rows changed)
+[Step 170] Key: L | PRNG: 210 calls
+  Map updated (2 rows changed)
+[Step 171] Key: 9 | PRNG: 0 calls
+[Step 172] Key: s | PRNG: 161 calls
+[Step 173] Key: 9 | PRNG: 0 calls
+[Step 174] Key: s | PRNG: 168 calls
+[Step 175] Key: 9 | PRNG: 0 calls
+[Step 176] Key: s | PRNG: 139 calls
+[Step 177] Key: h | PRNG: 25 calls
+  Map updated (1 rows changed)
+[Step 178] Key: h | PRNG: 0 calls
+[Step 179] Key: h | PRNG: 0 calls
+[Step 180] Key: h | PRNG: 0 calls
+[Step 181] Key: y | PRNG: 16 calls
+  Map updated (2 rows changed)
+[Step 182] Key: H | PRNG: 177 calls
+  Map updated (1 rows changed)
+[Step 183] Key: j | PRNG: 0 calls
+[Step 184] Key: b | PRNG: 13 calls
+  Map updated (2 rows changed)
+[Step 185] Key: n | PRNG: 11 calls
+  Map updated (2 rows changed)
+[Step 186] Key: N | PRNG: 167 calls
+  Map updated (2 rows changed)
+[Step 187] Key: l | PRNG: 11 calls
+  Map updated (1 rows changed)
+[Step 188] Key: u | PRNG: 9 calls
+  Map updated (2 rows changed)
+[Step 189] Key: u | PRNG: 14 calls
+  Map updated (2 rows changed)
+[Step 190] Key: u | PRNG: 15 calls
+  Map updated (2 rows changed)
+[Step 191] Key: l | PRNG: 12 calls
+  Map updated (1 rows changed)
+[Step 192] Key: l | PRNG: 17 calls
+  Map updated (1 rows changed)
+[Step 193] Key: u | PRNG: 0 calls
+[Step 194] Key: u | PRNG: 0 calls
+[Step 195] Key: l | PRNG: 16 calls
+  Map updated (1 rows changed)
+[Step 196] Key: l | PRNG: 11 calls
+  Map updated (1 rows changed)
+[Step 197] Key: l | PRNG: 0 calls
+[Step 198] Key: u | PRNG: 0 calls
+[Step 199] Key: k | PRNG: 10 calls
+  Map updated (2 rows changed)
+[Step 200] Key: u | PRNG: 15 calls
+  Map updated (2 rows changed)
+[Step 201] Key: u | PRNG: 9 calls
+  Map updated (2 rows changed)
+[Step 202] Key: u | PRNG: 90 calls
+  Map updated (2 rows changed)
+[Step 203] Key: l | PRNG: 14 calls
+  Msg: With great effort you move the boulder.
+  Map updated (1 rows changed)
+[Step 204] Key: l | PRNG: 19 calls
+  Map updated (1 rows changed)
+[Step 205] Key: l | PRNG: 28 calls
+  Map updated (1 rows changed)
+[Step 206] Key: l | PRNG: 24 calls
+  Map updated (1 rows changed)
+[Step 207] Key: l | PRNG: 22 calls
+  Map updated (1 rows changed)
+[Step 208] Key: l | PRNG: 22 calls
+  Map updated (1 rows changed)
+[Step 209] Key: l | PRNG: 20 calls
+  Map updated (1 rows changed)
+[Step 210] Key: l | PRNG: 29 calls
+  Map updated (1 rows changed)
+[Step 211] Key: l | PRNG: 31 calls
+  Map updated (2 rows changed)
+[Step 212] Key: n | PRNG: 20 calls
+  Map updated (4 rows changed)
+[Step 213] Key: J | PRNG: 188 calls
+  Msg: The jackal misses!
+  Map updated (8 rows changed)
+[Step 214] Key: y | PRNG: 34 calls
+  Msg: You hit the jackal.  The jackal bites!
+  Status update: Tetra the Gallant              St:14 Dx:9 Co:11 In:10 Wi:14 Ch:17 Lawful | Dlvl:1 $:4 HP:14(16) Pw:4(4) AC:3 Xp:1
+[Step 215] Key: y | PRNG: 34 calls
+  Msg: You kill the jackal!
+  Map updated (1 rows changed)
+[Step 216] Key: u | PRNG: 17 calls
+  Map updated (2 rows changed)
+[Step 217] Key: u | PRNG: 36 calls
+  Map updated (3 rows changed)
+[Step 218] Key: l | PRNG: 17 calls
+  Map updated (3 rows changed)
+[Step 219] Key: u | PRNG: 34 calls
+  Map updated (3 rows changed)
+[Step 220] Key: u | PRNG: 16 calls
+  Map updated (3 rows changed)
+[Step 221] Key: l | PRNG: 16 calls
+  Map updated (2 rows changed)
+[Step 222] Key: u | PRNG: 19 calls
+  Map updated (3 rows changed)
+[Step 223] Key: l | PRNG: 0 calls
+[Step 224] Key: k | PRNG: 24 calls
+  Map updated (4 rows changed)
+[Step 225] Key: k | PRNG: 25 calls
+  Map updated (4 rows changed)
+[Step 226] Key: k | PRNG: 24 calls
+  Map updated (9 rows changed)
+[Step 227] Key: k | PRNG: 27 calls
+  Map updated (3 rows changed)
+[Step 228] Key: l | PRNG: 18 calls
+  Map updated (5 rows changed)
+[Step 229] Key: u | PRNG: 0 calls
+[Step 230] Key: k | PRNG: 23 calls
+  Map updated (6 rows changed)
+[Step 231] Key: j | PRNG: 28 calls
+  Msg: You kill the jackal!
+  Map updated (1 rows changed)
+[Step 232] Key: k | PRNG: 24 calls
+  Map updated (2 rows changed)
+[Step 233] Key: k | PRNG: 35 calls
+  Map updated (2 rows changed)
+[Step 234] Key: y | PRNG: 0 calls
+  Msg: Things that are here:
+  Map updated (6 rows changed)
+[Step 235] Key:   | PRNG: 46 calls
+  Msg: A little dart shoots out at you!  You are almost hit by a little dart.
+  Map updated (4 rows changed)
+[Step 236] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 237] Key: l | PRNG: 0 calls
+  Msg: # loot
+[Step 238] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Do what with the bag?
+  Map updated (9 rows changed)
+[Step 239] Key: o | PRNG: 17 calls
+  Msg: The bag is empty.
+  Map updated (9 rows changed)
+  Status update: Tetra the Gallant              St:14 Dx:9 Co:11 In:10 Wi:14 Ch:17 Lawful | Dlvl:1 $:4 HP:15(16) Pw:4(4) AC:3 Xp:1
+[Step 240] Key: , | PRNG: 0 calls
+  Msg: Pick up what?
+  Map updated (7 rows changed)
+[Step 241] Key: c | PRNG: 0 calls
+  Msg: Pick up what?
+  Map updated (1 rows changed)
+[Step 242] Key: d | PRNG: 0 calls
+  Msg: Pick up what?
+  Map updated (1 rows changed)
+[Step 243] Key: \r (Enter) | PRNG: 17 calls
+  Msg: k - an empty bag.  l - a lamp.
+  Map updated (7 rows changed)
+[Step 244] Key: , | PRNG: 0 calls
+  Msg: Pick up what?
+  Map updated (4 rows changed)
+[Step 245] Key: a | PRNG: 0 calls
+  Msg: Pick up what?
+  Map updated (1 rows changed)
+[Step 246] Key: b | PRNG: 0 calls
+  Msg: Pick up what?
+  Map updated (1 rows changed)
+[Step 247] Key: \r (Enter) | PRNG: 32 calls
+  Msg: m - 10 darts.  n - a poisoned dart.
+  Map updated (4 rows changed)
+[Step 248] Key: n | PRNG: 26 calls
+  Msg: You hear some noises in the distance.
+  Map updated (2 rows changed)
+[Step 249] Key: n | PRNG: 30 calls
+  Map updated (2 rows changed)
+[Step 250] Key: l | PRNG: 57 calls
+  Map updated (1 rows changed)
+[Step 251] Key: L | PRNG: 181 calls
+  Map updated (10 rows changed)
+  Status update: Tetra the Gallant              St:14 Dx:9 Co:11 In:10 Wi:14 Ch:17 Lawful | Dlvl:1 $:4 HP:16(16) Pw:4(4) AC:3 Xp:1
+[Step 252] Key: k | PRNG: 17 calls
+  Map updated (2 rows changed)
+[Step 253] Key: k | PRNG: 18 calls
+  Map updated (2 rows changed)
+[Step 254] Key: k | PRNG: 11 calls
+  Map updated (2 rows changed)
+[Step 255] Key: k | PRNG: 14 calls
+  Map updated (2 rows changed)
+[Step 256] Key: k | PRNG: 10 calls
+  Map updated (2 rows changed)
+[Step 257] Key: k | PRNG: 10 calls
+  Map updated (2 rows changed)
+[Step 258] Key: k | PRNG: 16 calls
+  Map updated (2 rows changed)
+[Step 259] Key: k | PRNG: 11 calls
+  Map updated (2 rows changed)
+[Step 260] Key: k | PRNG: 10 calls
+  Map updated (2 rows changed)
+[Step 261] Key: k | PRNG: 10 calls
+  Map updated (2 rows changed)
+[Step 262] Key: k | PRNG: 0 calls
+[Step 263] Key: l | PRNG: 0 calls
+[Step 264] Key: l | PRNG: 0 calls
+[Step 265] Key: l | PRNG: 0 calls
+[Step 266] Key: j | PRNG: 18 calls
+  Map updated (2 rows changed)
+[Step 267] Key: n | PRNG: 17 calls
+  Map updated (3 rows changed)
+[Step 268] Key: u | PRNG: 11 calls
+  Map updated (2 rows changed)
+[Step 269] Key: u | PRNG: 0 calls
+[Step 270] Key: l | PRNG: 11 calls
+  Map updated (3 rows changed)
+[Step 271] Key: u | PRNG: 29 calls
+  Msg: You see here a scroll labeled STRC PRST SKRZ KRK.
+  Map updated (4 rows changed)
+[Step 272] Key: , | PRNG: 17 calls
+  Msg: o - a scroll labeled STRC PRST SKRZ KRK.
+[Step 273] Key: j | PRNG: 15 calls
+  Map updated (2 rows changed)
+[Step 274] Key: j | PRNG: 23 calls
+  Msg: You see here a white potion.
+  Map updated (2 rows changed)
+[Step 275] Key: , | PRNG: 16 calls
+  Msg: p - a white potion.
+[Step 276] Key: u | PRNG: 15 calls
+  Map updated (2 rows changed)
+[Step 277] Key: u | PRNG: 0 calls
+  Msg: Things that are here:
+  Map updated (5 rows changed)
+[Step 278] Key:   | PRNG: 18 calls
+  Map updated (3 rows changed)
+[Step 279] Key: , | PRNG: 0 calls
+  Msg: Pick up what?
+  Map updated (5 rows changed)
+[Step 280] Key: @ | PRNG: 0 calls
+  Msg: Pick up what?
+  Map updated (2 rows changed)
+[Step 281] Key: a | PRNG: 0 calls
+  Msg: Pick up what?
+  Map updated (1 rows changed)
+[Step 282] Key: a | PRNG: 0 calls
+  Msg: Pick up what?
+  Map updated (1 rows changed)
+[Step 283] Key: \r (Enter) | PRNG: 16 calls
+  Msg: $ - 5 gold pieces (9 in total).  q - an engagement ring.
+  Map updated (5 rows changed)
+  Status update: Tetra the Gallant              St:14 Dx:9 Co:11 In:10 Wi:14 Ch:17 Lawful | Dlvl:1 $:9 HP:16(16) Pw:4(4) AC:3 Xp:1
+[Step 284] Key: P | PRNG: 0 calls
+  Msg: What do you want to put on? [q or ?*]
+[Step 285] Key: q | PRNG: 0 calls
+  Msg: Which ring-finger, Right or Left? [rl]
+[Step 286] Key: r | PRNG: 18 calls
+  Msg: q - an engagement ring (on right hand).
+[Step 287] Key: r | PRNG: 0 calls
+  Msg: What do you want to read? [o or ?*]
+[Step 288] Key: ? | PRNG: 0 calls
+  Msg: o - a scroll labeled STRC PRST SKRZ KRK.--More--
+[Step 289] Key: o | PRNG: 14 calls
+  Msg: As you read the scroll, it disappears.--More--
+  Map updated (2 rows changed)
+[Step 290] Key:   | PRNG: 16 calls
+  Msg: You materialize in a different location!
+[Step 291] Key: l | PRNG: 27 calls
+  Map updated (1 rows changed)
+[Step 292] Key: n | PRNG: 20 calls
+  Map updated (2 rows changed)
+[Step 293] Key: _ | PRNG: 0 calls
+  Msg: Where do you want to travel to?--More--
+[Step 294] Key: > | PRNG: 0 calls
+  Msg: Where do you want to travel to?--More--
+[Step 295] Key:   | PRNG: 0 calls
+  Msg: Tip: Farlooking or selecting a map location
+  Map updated (7 rows changed)
+[Step 296] Key:   | PRNG: 0 calls
+  Msg: (For instructions type a '?')  Move cursor to the desired destination:
+  Map updated (7 rows changed)
+[Step 297] Key: > | PRNG: 0 calls
+  Msg: staircase down
+[Step 298] Key: . | PRNG: 93 calls
+  Msg: staircase down
+  Map updated (2 rows changed)
+[Step 299] Key: \r (Enter) | PRNG: 11 calls
+  Map updated (2 rows changed)
+[Step 300] Key: l | PRNG: 30 calls
+  Msg: You miss the lichen.
+[Step 301] Key: l | PRNG: 40 calls
+  Msg: You kill the lichen!
+  Map updated (1 rows changed)
+[Step 302] Key: l | PRNG: 24 calls
+  Msg: You see here a lichen corpse.
+  Map updated (1 rows changed)
+[Step 303] Key: e | PRNG: 0 calls
+  Msg: There is a lichen corpse here; eat it? [ynq] (n)
+[Step 304] Key: y | PRNG: 58 calls
+  Msg: This lichen corpse tastes okay.  You finish eating the lichen corpse.
+[Step 305] Key: _ | PRNG: 0 calls
+  Msg: Where do you want to travel to?  (For instructions type a '?')
+[Step 306] Key: > | PRNG: 0 calls
+  Msg: staircase down
+[Step 307] Key: . | PRNG: 650 calls
+  Msg: staircase down
+  Map updated (2 rows changed)
+[Step 308] Key: ; | PRNG: 0 calls
+  Msg: Pick a monster, object or location.
+[Step 309] Key: y | PRNG: 0 calls
+  Msg: floor of a room
+[Step 310] Key: y | PRNG: 0 calls
+  Msg: dart trap
+[Step 311] Key: h | PRNG: 0 calls
+  Msg: wall
+[Step 312] Key: . | PRNG: 0 calls
+  Msg: │        the interior of a monster or a wall (wall)
+[Step 313] Key: l | PRNG: 39 calls
+  Map updated (1 rows changed)
+[Step 314] Key: n | PRNG: 0 calls
+[Step 315] Key: l | PRNG: 37 calls
+  Map updated (1 rows changed)
+[Step 316] Key: n | PRNG: 55 calls
+  Map updated (2 rows changed)
+[Step 317] Key: j | PRNG: 36 calls
+  Map updated (2 rows changed)
+[Step 318] Key: l | PRNG: 25 calls
+  Map updated (3 rows changed)
+[Step 319] Key: u | PRNG: 26 calls
+  Map updated (3 rows changed)
+[Step 320] Key: l | PRNG: 31 calls
+  Map updated (1 rows changed)
+[Step 321] Key: l | PRNG: 40 calls
+  Map updated (1 rows changed)
+[Step 322] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 323] Key: h | PRNG: 0 calls
+  Msg: # h
+[Step 324] Key: a | PRNG: 0 calls
+  Msg: # ha
+[Step 325] Key: t | PRNG: 0 calls
+  Msg: # hat
+[Step 326] Key: \r (Enter) | PRNG: 0 calls
+  Msg: #hat: unknown extended command.
+[Step 327] Key: l | PRNG: 59 calls
+  Msg: You swap places with your saddled pony.  The saddled pony kicks!--More--
+  Map updated (2 rows changed)
+  Status update: Tetra the Gallant              St:14 Dx:9 Co:11 In:10 Wi:14 Ch:17 Lawful | Dlvl:1 $:9 HP:14(16) Pw:4(4) AC:3 Xp:1
+[Step 328] Key:   | PRNG: 9 calls
+  Msg: The saddled pony misses!
+[Step 329] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 330] Key: i | PRNG: 0 calls
+  Msg: Coins
+  Map updated (21 rows changed)
+  Status update: Gems/Stones | (1 of 2)
+[Step 331] Key:   | PRNG: 0 calls
+  Msg: i - a yellow gem
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 332] Key:   | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Tetra the Gallant              St:14 Dx:9 Co:11 In:10 Wi:14 Ch:17 Lawful | Dlvl:1 $:9 HP:14(16) Pw:4(4) AC:3 Xp:1
+[Step 333] Key: a | PRNG: 0 calls
+  Msg: What do you want to use or apply? [bkl or ?*]
+[Step 334] Key: h | PRNG: 0 calls
+  Msg: Sorry, I don't know how to use that.
+[Step 335] Key: t | PRNG: 0 calls
+  Msg: What do you want to throw? [$bmn or ?*]
+[Step 336] Key: * | PRNG: 0 calls
+  Msg: Coins
+  Map updated (21 rows changed)
+  Status update: Gems/Stones | (1 of 2)
+[Step 337] Key: h | PRNG: 0 calls
+  Msg: In what direction?
+  Map updated (21 rows changed)
+  Status update: Tetra the Gallant              St:14 Dx:9 Co:11 In:10 Wi:14 Ch:17 Lawful | Dlvl:1 $:9 HP:14(16) Pw:4(4) AC:3 Xp:1
+[Step 338] Key: l | PRNG: 40 calls
+  Msg: Your saddled pony eats an uncursed carrot.
+  Map updated (2 rows changed)
+[Step 339] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 340] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 341] Key: c | PRNG: 0 calls
+  Msg: # c
+[Step 342] Key: h | PRNG: 0 calls
+  Msg: # ch
+[Step 343] Key: a | PRNG: 0 calls
+  Msg: # chat
+[Step 344] Key: t | PRNG: 0 calls
+  Msg: # chat
+[Step 345] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Talk to whom? (in what direction)
+[Step 346] Key: l | PRNG: 0 calls
+  Msg: The saddled pony is eating noisily.
+[Step 347] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 348] Key: t | PRNG: 0 calls
+  Msg: What do you want to throw? [$bmn or ?*]
+[Step 349] Key: ? | PRNG: 0 calls
+  Msg: Coins
+  Map updated (6 rows changed)
+[Step 350] Key: * | PRNG: 0 calls
+  Msg: Coins
+[Step 351] Key:   | PRNG: 0 calls
+  Msg: What do you want to throw? [$bmn or ?*]
+  Map updated (6 rows changed)
+[Step 352] Key: * | PRNG: 0 calls
+  Msg: Coins
+  Map updated (21 rows changed)
+  Status update: Gems/Stones | (1 of 2)
+[Step 353] Key: h | PRNG: 0 calls
+  Msg: In what direction?
+  Map updated (21 rows changed)
+  Status update: Tetra the Gallant              St:14 Dx:9 Co:11 In:10 Wi:14 Ch:17 Lawful | Dlvl:1 $:9 HP:14(16) Pw:4(4) AC:3 Xp:1
+[Step 354] Key: j | PRNG: 27 calls
+  Map updated (1 rows changed)
+[Step 355] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 356] Key: t | PRNG: 0 calls
+  Msg: What do you want to throw? [$bmn or ?*]
+[Step 357] Key: h | PRNG: 0 calls
+  Msg: In what direction?
+[Step 358] Key: j | PRNG: 35 calls
+  Map updated (2 rows changed)
+  Status update: Tetra the Gallant              St:14 Dx:9 Co:11 In:10 Wi:14 Ch:17 Lawful | Dlvl:1 $:9 HP:15(16) Pw:4(4) AC:3 Xp:1
+[Step 359] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 360] Key: n | PRNG: 62 calls
+  Msg: Your saddled pony eats an uncursed carrot.
+  Map updated (3 rows changed)
+[Step 361] Key: t | PRNG: 0 calls
+  Msg: What do you want to throw? [$bmn or ?*]
+[Step 362] Key: h | PRNG: 0 calls
+  Msg: In what direction?
+[Step 363] Key: n | PRNG: 27 calls
+  Msg: Your saddled pony eats an uncursed carrot.
+  Status update: Tetra the Gallant              St:14 Dx:9 Co:11 In:10 Wi:14 Ch:17 Lawful | Dlvl:1 $:9 HP:16(16) Pw:4(4) AC:3 Xp:1
+[Step 364] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 365] Key: y | PRNG: 33 calls
+  Msg: Your saddled pony eats an uncursed carrot.
+  Map updated (3 rows changed)
+[Step 366] Key: h | PRNG: 22 calls
+  Map updated (1 rows changed)
+[Step 367] Key: b | PRNG: 0 calls
+[Step 368] Key: h | PRNG: 44 calls
+  Map updated (2 rows changed)
+[Step 369] Key: y | PRNG: 0 calls
+[Step 370] Key: y | PRNG: 0 calls
+[Step 371] Key: y | PRNG: 0 calls
+[Step 372] Key: y | PRNG: 0 calls
+[Step 373] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 374] Key: e | PRNG: 0 calls
+  Msg: What do you want to eat? [gh or ?*]
+[Step 375] Key: y | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 376] Key:   | PRNG: 0 calls
+  Msg: What do you want to eat? [gh or ?*]
+[Step 377] Key: , | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 378] Key: n | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 379] Key: u | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 380] Key: b | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 381] Key: y | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 382] Key: y | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 383] Key: h | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 384] Key: h | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 385] Key: . | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 386] Key: h | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 387] Key: j | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 388] Key: u | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 389] Key: > | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 390] Key:   | PRNG: 0 calls
+  Msg: What do you want to eat? [gh or ?*]
+[Step 391] Key:   | PRNG: 0 calls
+  Msg: Never mind.
+[Step 392] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 393] Key: y | PRNG: 0 calls
+[Step 394] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 395] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 396] Key: y | PRNG: 0 calls
+[Step 397] Key: i | PRNG: 0 calls
+  Msg: Coins
+  Map updated (21 rows changed)
+  Status update: Gems/Stones | (1 of 2)
+[Step 398] Key: ESC | PRNG: 0 calls
+  Map updated (21 rows changed)
+  Status update: Tetra the Gallant              St:14 Dx:9 Co:11 In:10 Wi:14 Ch:17 Lawful | Dlvl:1 $:9 HP:16(16) Pw:4(4) AC:3 Xp:1
+[Step 399] Key: + | PRNG: 0 calls
+  Msg: You don't know any spells right now.
+[Step 400] Key: ESC | PRNG: 0 calls
+[Step 401] Key: \ | PRNG: 0 calls
+  Msg: Discoveries, by order of discovery within each class
+  Map updated (20 rows changed)
+  Status update: * partisan (vulgar polearm) | --More--
+[Step 402] Key: ESC | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Tetra the Gallant              St:14 Dx:9 Co:11 In:10 Wi:14 Ch:17 Lawful | Dlvl:1 $:9 HP:16(16) Pw:4(4) AC:3 Xp:1
+[Step 403] Key:  | PRNG: 0 calls
+  Msg: Tetra the Knight's attributes:
+  Map updated (20 rows changed)
+  Status update: Your intelligence is 10. | (1 of 2)
+[Step 404] Key:   | PRNG: 0 calls
+  Msg: Your wisdom is 14.
+  Map updated (20 rows changed)
+  Status update:  | 
+[Step 405] Key: ESC | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Tetra the Gallant              St:14 Dx:9 Co:11 In:10 Wi:14 Ch:17 Lawful | Dlvl:1 $:9 HP:16(16) Pw:4(4) AC:3 Xp:1
+[Step 406] Key: s | PRNG: 37 calls
+  Map updated (2 rows changed)
+[Step 407] Key: s | PRNG: 35 calls
+  Map updated (2 rows changed)
+[Step 408] Key: : | PRNG: 0 calls
+  Msg: There is a doorway here.

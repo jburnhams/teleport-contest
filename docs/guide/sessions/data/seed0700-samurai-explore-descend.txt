@@ -1,0 +1,129 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 2728 calls
+  Msg: It is written in the Book of Amaterasu Omikami:
+  Status: Musashi the Hatamoto           St:18/01 Dx:14 Co:18 In:8 Wi:9 Ch:7 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:0 Xp:1/0 T:1
+[Step 1] Key:   | PRNG: 2 calls
+  Msg: Konnichi wa Musashi, welcome to NetHack!  You are a lawful male human Samurai.
+  Map updated (15 rows changed)
+  Status update: Musashi the Hatamoto           St:18/01 Dx:14 Co:18 In:8 Wi:9 Ch:7 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:4 Xp:1/0 T:1
+[Step 2] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+  Map updated (6 rows changed)
+[Step 3] Key: n | PRNG: 0 calls
+  Map updated (5 rows changed)
+[Step 4] Key: h | PRNG: 7 calls
+  Map updated (1 rows changed)
+  Status update: Musashi the Hatamoto           St:18/01 Dx:14 Co:18 In:8 Wi:9 Ch:7 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:4 Xp:1/0 T:2
+[Step 5] Key: h | PRNG: 0 calls
+[Step 6] Key: h | PRNG: 0 calls
+[Step 7] Key: j | PRNG: 14 calls
+  Map updated (2 rows changed)
+  Status update: Musashi the Hatamoto           St:18/01 Dx:14 Co:18 In:8 Wi:9 Ch:7 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:4 Xp:1/0 T:3
+[Step 8] Key: j | PRNG: 0 calls
+[Step 9] Key: j | PRNG: 0 calls
+[Step 10] Key: l | PRNG: 21 calls
+  Msg: You swap places with Hachi.
+  Map updated (2 rows changed)
+  Status update: Musashi the Hatamoto           St:18/01 Dx:14 Co:18 In:8 Wi:9 Ch:7 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:4 Xp:1/0 T:4
+[Step 11] Key: l | PRNG: 30 calls
+  Map updated (3 rows changed)
+  Status update: Musashi the Hatamoto           St:18/01 Dx:14 Co:18 In:8 Wi:9 Ch:7 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:4 Xp:1/0 T:5
+[Step 12] Key: l | PRNG: 17 calls
+  Map updated (3 rows changed)
+[Step 13] Key: l | PRNG: 24 calls
+  Map updated (2 rows changed)
+  Status update: Musashi the Hatamoto           St:18/01 Dx:14 Co:18 In:8 Wi:9 Ch:7 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:4 Xp:1/0 T:6
+[Step 14] Key: k | PRNG: 39 calls
+  Map updated (2 rows changed)
+  Status update: Musashi the Hatamoto           St:18/01 Dx:14 Co:18 In:8 Wi:9 Ch:7 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:4 Xp:1/0 T:7
+[Step 15] Key: k | PRNG: 35 calls
+  Map updated (2 rows changed)
+  Status update: Musashi the Hatamoto           St:18/01 Dx:14 Co:18 In:8 Wi:9 Ch:7 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:4 Xp:1/0 T:8
+[Step 16] Key: k | PRNG: 0 calls
+[Step 17] Key: h | PRNG: 19 calls
+  Map updated (2 rows changed)
+  Status update: Musashi the Hatamoto           St:18/01 Dx:14 Co:18 In:8 Wi:9 Ch:7 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:4 Xp:1/0 T:9
+[Step 18] Key: j | PRNG: 37 calls
+  Msg: You swap places with Hachi.
+  Map updated (2 rows changed)
+  Status update: Musashi the Hatamoto           St:18/01 Dx:14 Co:18 In:8 Wi:9 Ch:7 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:4 Xp:1/0 T:10
+[Step 19] Key: l | PRNG: 13 calls
+  Map updated (2 rows changed)
+[Step 20] Key: j | PRNG: 19 calls
+  Map updated (3 rows changed)
+  Status update: Musashi the Hatamoto           St:18/01 Dx:14 Co:18 In:8 Wi:9 Ch:7 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:4 Xp:1/0 T:11
+[Step 21] Key: h | PRNG: 22 calls
+  Map updated (3 rows changed)
+  Status update: Musashi the Hatamoto           St:18/01 Dx:14 Co:18 In:8 Wi:9 Ch:7 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:4 Xp:1/0 T:12
+[Step 22] Key: k | PRNG: 30 calls
+  Map updated (3 rows changed)
+  Status update: Musashi the Hatamoto           St:18/01 Dx:14 Co:18 In:8 Wi:9 Ch:7 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:4 Xp:1/0 T:13
+[Step 23] Key: l | PRNG: 16 calls
+  Msg: You swap places with Hachi.
+  Map updated (2 rows changed)
+[Step 24] Key: h | PRNG: 18 calls
+  Map updated (2 rows changed)
+  Status update: Musashi the Hatamoto           St:18/01 Dx:14 Co:18 In:8 Wi:9 Ch:7 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:4 Xp:1/0 T:14
+[Step 25] Key: j | PRNG: 37 calls
+  Map updated (3 rows changed)
+  Status update: Musashi the Hatamoto           St:18/01 Dx:14 Co:18 In:8 Wi:9 Ch:7 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:4 Xp:1/0 T:15
+[Step 26] Key: j | PRNG: 0 calls
+[Step 27] Key: j | PRNG: 0 calls
+[Step 28] Key: j | PRNG: 0 calls
+[Step 29] Key: l | PRNG: 13 calls
+  Map updated (3 rows changed)
+  Status update: Musashi the Hatamoto           St:18/01 Dx:14 Co:18 In:8 Wi:9 Ch:7 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:4 Xp:1/0 T:16
+[Step 30] Key: l | PRNG: 2 calls
+  Msg: The door resists!
+[Step 31] Key: l | PRNG: 2 calls
+  Msg: The door resists!
+[Step 32] Key: l | PRNG: 2 calls
+  Msg: The door resists!
+[Step 33] Key: k | PRNG: 11 calls
+  Msg: You swap places with Hachi.
+  Map updated (2 rows changed)
+[Step 34] Key: k | PRNG: 7 calls
+  Map updated (2 rows changed)
+  Status update: Musashi the Hatamoto           St:18/01 Dx:14 Co:18 In:8 Wi:9 Ch:7 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:4 Xp:1/0 T:17
+[Step 35] Key: k | PRNG: 0 calls
+[Step 36] Key: k | PRNG: 0 calls
+[Step 37] Key: i | PRNG: 0 calls
+  Msg: Weapons
+  Map updated (7 rows changed)
+[Step 38] Key:   | PRNG: 0 calls
+  Map updated (7 rows changed)
+[Step 39] Key: i | PRNG: 0 calls
+  Msg: Weapons
+  Map updated (7 rows changed)
+[Step 40] Key: ESC | PRNG: 0 calls
+  Map updated (7 rows changed)
+[Step 41] Key: + | PRNG: 0 calls
+  Msg: You don't know any spells right now.
+[Step 42] Key: ESC | PRNG: 0 calls
+[Step 43] Key: \ | PRNG: 0 calls
+  Msg: Discoveries, by order of discovery within each class
+  Map updated (20 rows changed)
+  Status update: katana (samurai sword) | --More--
+[Step 44] Key: ESC | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Musashi the Hatamoto           St:18/01 Dx:14 Co:18 In:8 Wi:9 Ch:7 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:4 Xp:1/0 T:17
+[Step 45] Key:  | PRNG: 0 calls
+  Msg: Musashi the Samurai's attributes:
+  Map updated (18 rows changed)
+  Status update: Your intelligence is 8. | (1 of 2)
+[Step 46] Key:   | PRNG: 0 calls
+  Msg: Your wisdom is 9.
+  Map updated (20 rows changed)
+  Status update:  | 
+[Step 47] Key: ESC | PRNG: 0 calls
+  Map updated (10 rows changed)
+  Status update: Musashi the Hatamoto           St:18/01 Dx:14 Co:18 In:8 Wi:9 Ch:7 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:4 Xp:1/0 T:17
+[Step 48] Key: s | PRNG: 24 calls
+  Map updated (2 rows changed)
+  Status update: Musashi the Hatamoto           St:18/01 Dx:14 Co:18 In:8 Wi:9 Ch:7 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:4 Xp:1/0 T:18
+[Step 49] Key: s | PRNG: 41 calls
+  Map updated (1 rows changed)
+  Status update: Musashi the Hatamoto           St:18/01 Dx:14 Co:18 In:8 Wi:9 Ch:7 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:4 Xp:1/0 T:19
+[Step 50] Key: : | PRNG: 0 calls
+  Msg: You see no objects here.

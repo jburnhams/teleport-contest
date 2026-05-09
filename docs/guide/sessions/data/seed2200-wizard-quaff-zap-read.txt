@@ -1,0 +1,661 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 2722 calls
+  Msg: It is written in the Book of Thoth:
+  Status: Merlin the Evoker              St:12 Dx:12 Co:13 In:18 Wi:12 Ch:8 Neutral | Dlvl:1 $:0 HP:12(12) Pw:8(8) AC:0 Xp:1
+[Step 1] Key:   | PRNG: 2 calls
+  Msg: Hello merlin, welcome to NetHack!  You are a neutral male human Wizard.--More--
+  Map updated (15 rows changed)
+  Status update: Merlin the Evoker              St:12 Dx:12 Co:13 In:18 Wi:12 Ch:8 Neutral | Dlvl:1 $:0 HP:12(12) Pw:8(8) AC:9 Xp:1
+[Step 2] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+  Map updated (4 rows changed)
+[Step 3] Key: n | PRNG: 0 calls
+  Map updated (4 rows changed)
+[Step 4] Key: q | PRNG: 0 calls
+  Msg: What do you want to drink? [fgh or ?*]
+[Step 5] Key: h | PRNG: 9 calls
+  Msg: That was smooth!
+[Step 6] Key: z | PRNG: 0 calls
+  Msg: What do you want to zap? [c or ?*]
+[Step 7] Key: c | PRNG: 16 calls
+  Msg: You don't find anything.
+  Map updated (2 rows changed)
+[Step 8] Key: . | PRNG: 23 calls
+  Map updated (1 rows changed)
+[Step 9] Key: r | PRNG: 0 calls
+  Msg: What do you want to read? [ijklm or ?*]
+[Step 10] Key: j | PRNG: 17 calls
+  Msg: As you read the scroll, it disappears.  A map coalesces in your mind!
+  Map updated (18 rows changed)
+[Step 11] Key: h | PRNG: 44 calls
+  Map updated (2 rows changed)
+[Step 12] Key: l | PRNG: 25 calls
+  Map updated (2 rows changed)
+[Step 13] Key: l | PRNG: 36 calls
+  Map updated (2 rows changed)
+[Step 14] Key: l | PRNG: 0 calls
+[Step 15] Key: . | PRNG: 31 calls
+  Map updated (2 rows changed)
+[Step 16] Key: r | PRNG: 0 calls
+  Msg: What do you want to read? [iklm or ?*]
+[Step 17] Key: j | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 18] Key: q | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 19] Key: g | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 20] Key:   | PRNG: 0 calls
+  Msg: What do you want to read? [iklm or ?*]
+[Step 21] Key: ESC | PRNG: 0 calls
+  Msg: Never mind.
+[Step 22] Key: E | PRNG: 0 calls
+  Msg: What do you want to write with? [- acden or ?*]
+[Step 23] Key: - | PRNG: 0 calls
+  Msg: You write in the dust with your fingertip.--More--
+[Step 24] Key:   | PRNG: 0 calls
+  Msg: What do you want to write in the dust here?
+[Step 25] Key: E | PRNG: 0 calls
+  Msg: What do you want to write in the dust here? E
+[Step 26] Key: l | PRNG: 0 calls
+  Msg: What do you want to write in the dust here? El
+[Step 27] Key: b | PRNG: 0 calls
+  Msg: What do you want to write in the dust here? Elb
+[Step 28] Key: e | PRNG: 0 calls
+  Msg: What do you want to write in the dust here? Elbe
+[Step 29] Key: r | PRNG: 0 calls
+  Msg: What do you want to write in the dust here? Elber
+[Step 30] Key: e | PRNG: 0 calls
+  Msg: What do you want to write in the dust here? Elbere
+[Step 31] Key: t | PRNG: 0 calls
+  Msg: What do you want to write in the dust here? Elberet
+[Step 32] Key: h | PRNG: 0 calls
+  Msg: What do you want to write in the dust here? Elbereth
+[Step 33] Key: \r (Enter) | PRNG: 54 calls
+[Step 34] Key: / | PRNG: 0 calls
+  Msg: What do you want to look at:
+  Map updated (13 rows changed)
+[Step 35] Key: / | PRNG: 0 calls
+  Msg: Please move the cursor to a monster, object or location.--More--
+  Map updated (13 rows changed)
+[Step 36] Key:   | PRNG: 0 calls
+  Msg: Tip: Farlooking or selecting a map location
+  Map updated (7 rows changed)
+[Step 37] Key:   | PRNG: 0 calls
+  Msg: (For instructions type a '?')--More--
+  Map updated (7 rows changed)
+[Step 38] Key:   | PRNG: 0 calls
+  Msg: Move cursor to a monster, object or location:
+[Step 39] Key: . | PRNG: 0 calls
+  Msg: @        a human or elf (human wizard called merlin)--More--
+[Step 40] Key:   | PRNG: 0 calls
+  Msg: More info about "human wizard"? [yn] (n)
+[Step 41] Key: n | PRNG: 0 calls
+  Msg: Pick a monster, object or location.
+[Step 42] Key: ESC | PRNG: 0 calls
+[Step 43] Key: / | PRNG: 0 calls
+  Msg: What do you want to look at:
+  Map updated (13 rows changed)
+[Step 44] Key: / | PRNG: 0 calls
+  Msg: Please move the cursor to a monster, object or location.--More--
+  Map updated (13 rows changed)
+[Step 45] Key:   | PRNG: 0 calls
+  Msg: (For instructions type a '?')
+[Step 46] Key: h | PRNG: 0 calls
+  Msg: branch staircase up
+[Step 47] Key: . | PRNG: 0 calls
+  Msg: <        a staircase up or a branch staircase up (branch staircase up)--More--
+[Step 48] Key:   | PRNG: 0 calls
+  Msg: More info about "branch staircase up"? [yn] (n)
+[Step 49] Key: n | PRNG: 0 calls
+  Msg: Pick a monster, object or location.
+[Step 50] Key: k | PRNG: 0 calls
+  Msg: wall
+[Step 51] Key: l | PRNG: 0 calls
+  Msg: wall
+[Step 52] Key: j | PRNG: 0 calls
+  Msg: human wizard called merlin
+[Step 53] Key: j | PRNG: 0 calls
+  Msg: floor of a room
+[Step 54] Key: . | PRNG: 0 calls
+  Msg: ·        a doorway or the floor of a room or the dark part of a room or ice
+  Map updated (1 rows changed)
+[Step 55] Key:   | PRNG: 0 calls
+  Msg: Pick a monster, object or location.
+  Map updated (1 rows changed)
+[Step 56] Key: n | PRNG: 0 calls
+  Msg: doorway
+[Step 57] Key: b | PRNG: 0 calls
+  Msg: floor of a room
+[Step 58] Key: n | PRNG: 0 calls
+  Msg: wall
+[Step 59] Key: y | PRNG: 0 calls
+  Msg: floor of a room
+[Step 60] Key: u | PRNG: 0 calls
+  Msg: doorway
+[Step 61] Key: l | PRNG: 0 calls
+  Msg: corridor
+[Step 62] Key: . | PRNG: 0 calls
+  Msg: #        can be many things (corridor)--More--
+[Step 63] Key:   | PRNG: 0 calls
+  Msg: Pick a monster, object or location.
+[Step 64] Key: n | PRNG: 0 calls
+  Msg: corridor
+[Step 65] Key: H | PRNG: 0 calls
+  Msg: floor of a room
+[Step 66] Key: . | PRNG: 0 calls
+  Msg: ·        a doorway or the floor of a room or the dark part of a room or ice
+  Map updated (1 rows changed)
+[Step 67] Key:   | PRNG: 0 calls
+  Msg: Pick a monster, object or location.
+  Map updated (1 rows changed)
+[Step 68] Key: n | PRNG: 0 calls
+  Msg: wall
+[Step 69] Key: ESC | PRNG: 0 calls
+[Step 70] Key: / | PRNG: 0 calls
+  Msg: What do you want to look at:
+  Map updated (13 rows changed)
+[Step 71] Key: ? | PRNG: 0 calls
+  Msg: Specify what? (type the word)
+  Map updated (13 rows changed)
+[Step 72] Key: f | PRNG: 0 calls
+  Msg: Specify what? (type the word) f
+[Step 73] Key: o | PRNG: 0 calls
+  Msg: Specify what? (type the word) fo
+[Step 74] Key: u | PRNG: 0 calls
+  Msg: Specify what? (type the word) fou
+[Step 75] Key: n | PRNG: 0 calls
+  Msg: Specify what? (type the word) foun
+[Step 76] Key: t | PRNG: 0 calls
+  Msg: Specify what? (type the word) fount
+[Step 77] Key: a | PRNG: 0 calls
+  Msg: Specify what? (type the word) founta
+[Step 78] Key: i | PRNG: 0 calls
+  Msg: Specify what? (type the word) fountai
+[Step 79] Key: n | PRNG: 0 calls
+  Msg: Specify what? (type the word) fountain
+[Step 80] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Rest! This little Fountain runs
+  Map updated (15 rows changed)
+[Step 81] Key:   | PRNG: 0 calls
+  Map updated (15 rows changed)
+[Step 82] Key: / | PRNG: 0 calls
+  Msg: What do you want to look at:
+  Map updated (13 rows changed)
+[Step 83] Key: i | PRNG: 0 calls
+  Msg: Weapons
+  Map updated (20 rows changed)
+[Step 84] Key: a | PRNG: 0 calls
+  Msg: So they stood, each in his place, neither moving a finger's
+  Map updated (20 rows changed)
+[Step 85] Key:   | PRNG: 0 calls
+  Map updated (18 rows changed)
+[Step 86] Key: / | PRNG: 0 calls
+  Msg: What do you want to look at:
+  Map updated (13 rows changed)
+[Step 87] Key: m | PRNG: 0 calls
+  Msg: Monsters currently shown near <23,9>:
+  Map updated (18 rows changed)
+  Status update:  | --More--
+[Step 88] Key:   | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update: Merlin the Evoker              St:12 Dx:12 Co:13 In:18 Wi:12 Ch:8 Neutral | Dlvl:1 $:0 HP:12(12) Pw:8(8) AC:9 Xp:1
+[Step 89] Key: / | PRNG: 0 calls
+  Msg: What do you want to look at:
+  Map updated (13 rows changed)
+[Step 90] Key: o | PRNG: 0 calls
+  Msg: Objects currently shown near <23,9>:
+  Map updated (18 rows changed)
+  Status update:  | --More--
+[Step 91] Key:   | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update: Merlin the Evoker              St:12 Dx:12 Co:13 In:18 Wi:12 Ch:8 Neutral | Dlvl:1 $:0 HP:12(12) Pw:8(8) AC:9 Xp:1
+[Step 92] Key: / | PRNG: 0 calls
+  Msg: What do you want to look at:
+  Map updated (13 rows changed)
+[Step 93] Key: M | PRNG: 0 calls
+  Msg: All monsters currently shown on the map:
+  Map updated (18 rows changed)
+  Status update:  | --More--
+[Step 94] Key:   | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update: Merlin the Evoker              St:12 Dx:12 Co:13 In:18 Wi:12 Ch:8 Neutral | Dlvl:1 $:0 HP:12(12) Pw:8(8) AC:9 Xp:1
+[Step 95] Key: / | PRNG: 0 calls
+  Msg: What do you want to look at:
+  Map updated (13 rows changed)
+[Step 96] Key: O | PRNG: 0 calls
+  Msg: All objects currently shown on the map:
+  Map updated (18 rows changed)
+  Status update:  | --More--
+[Step 97] Key:   | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update: Merlin the Evoker              St:12 Dx:12 Co:13 In:18 Wi:12 Ch:8 Neutral | Dlvl:1 $:0 HP:12(12) Pw:8(8) AC:9 Xp:1
+[Step 98] Key: / | PRNG: 0 calls
+  Msg: What do you want to look at:
+  Map updated (13 rows changed)
+[Step 99] Key: t | PRNG: 0 calls
+  Msg: No traps seen or remembered nearby.
+  Map updated (13 rows changed)
+[Step 100] Key: / | PRNG: 0 calls
+  Msg: What do you want to look at:
+  Map updated (13 rows changed)
+[Step 101] Key: T | PRNG: 0 calls
+  Msg: No traps seen or remembered.
+  Map updated (13 rows changed)
+[Step 102] Key: / | PRNG: 0 calls
+  Msg: What do you want to look at:
+  Map updated (13 rows changed)
+[Step 103] Key: e | PRNG: 0 calls
+  Msg: Nearby seen or remembered engravings:
+  Map updated (18 rows changed)
+  Status update:  | --More--
+[Step 104] Key:   | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update: Merlin the Evoker              St:12 Dx:12 Co:13 In:18 Wi:12 Ch:8 Neutral | Dlvl:1 $:0 HP:12(12) Pw:8(8) AC:9 Xp:1
+[Step 105] Key: / | PRNG: 0 calls
+  Msg: What do you want to look at:
+  Map updated (13 rows changed)
+[Step 106] Key: E | PRNG: 0 calls
+  Msg: Seen or remembered engravings on this level:
+  Map updated (18 rows changed)
+  Status update:  | --More--
+[Step 107] Key:   | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update: Merlin the Evoker              St:12 Dx:12 Co:13 In:18 Wi:12 Ch:8 Neutral | Dlvl:1 $:0 HP:12(12) Pw:8(8) AC:9 Xp:1
+[Step 108] Key: ? | PRNG: 0 calls
+  Msg: Select one item:
+  Map updated (16 rows changed)
+[Step 109] Key: a | PRNG: 2 calls
+  Msg: MacOS NetHack Version 5.0.0 - last build May  2 2026 12:00:00.
+  Map updated (19 rows changed)
+  Status update: Lua 5.4.8  Copyright (C) 1994-2025 Lua.org, PUC-Rio | --More--
+[Step 110] Key:   | PRNG: 0 calls
+  Msg: "Permission is hereby granted, free of charge, to any person obtaining
+  Map updated (18 rows changed)
+  Status update:  | --More--
+[Step 111] Key:   | PRNG: 0 calls
+  Map updated (19 rows changed)
+  Status update: Merlin the Evoker              St:12 Dx:12 Co:13 In:18 Wi:12 Ch:8 Neutral | Dlvl:1 $:0 HP:12(12) Pw:8(8) AC:9 Xp:1
+[Step 112] Key: ? | PRNG: 0 calls
+  Msg: Select one item:
+  Map updated (16 rows changed)
+[Step 113] Key: b | PRNG: 0 calls
+  Msg: Welcome to NetHack!                ( description of version 3.6 )
+  Map updated (20 rows changed)
+  Status update: <        Stairs up: a way to the previous level. | --More--
+[Step 114] Key:   | PRNG: 0 calls
+  Msg: @        You (usually), or another human.
+  Map updated (21 rows changed)
+  Status update: I        Invisible or unseen monster's last known location | --More--
+[Step 115] Key:   | PRNG: 0 calls
+  Map updated (21 rows changed)
+  Status update: depending on the platform's capabilities. | --More--
+[Step 116] Key:   | PRNG: 0 calls
+  Msg: Digit '5' acts as 'G' prefix, unless number_pad is set to 2
+  Map updated (20 rows changed)
+  Status update: c       Close a door. | --More--
+[Step 117] Key:   | PRNG: 0 calls
+  Msg: C       Call (name) monster, individual object, or type of object.
+  Map updated (21 rows changed)
+  Status update: f       Fire ammunition from quiver. | --More--
+[Step 118] Key:   | PRNG: 0 calls
+  Msg: F       Followed by direction, fight a monster (even if you don't
+  Map updated (21 rows changed)
+  Status update: #quit   Exit the program without saving the current game. | --More--
+[Step 119] Key:   | PRNG: 0 calls
+  Msg: r       Read a scroll or spellbook.
+  Map updated (21 rows changed)
+  Status update: ^Z      Suspend the game.  (^Y instead of ^Z if number_pad is -1.) | --More--
+[Step 120] Key:   | PRNG: 0 calls
+  Msg: [To resume, use the shell command 'fg'.]
+  Map updated (21 rows changed)
+  Status update: you most closely resemble at a given moment.  If your keyboard | --More--
+[Step 121] Key:   | PRNG: 0 calls
+  Msg: has a meta key (which, when pressed in combination with another
+  Map updated (21 rows changed)
+  Status update: box, depending on the platform you are using.  You see your | --More--
+[Step 122] Key:   | PRNG: 0 calls
+  Msg: attributes, your alignment, what dungeon level you are on, how many
+  Map updated (17 rows changed)
+  Status update:  | --More--
+[Step 123] Key:   | PRNG: 0 calls
+  Map updated (19 rows changed)
+  Status update: Merlin the Evoker              St:12 Dx:12 Co:13 In:18 Wi:12 Ch:8 Neutral | Dlvl:1 $:0 HP:12(12) Pw:8(8) AC:9 Xp:1
+[Step 124] Key: ? | PRNG: 0 calls
+  Msg: Select one item:
+  Map updated (16 rows changed)
+[Step 125] Key: c | PRNG: 0 calls
+  Msg: y k u   7 8 9   Move commands:
+  Map updated (21 rows changed)
+  Status update:  | --More--
+[Step 126] Key:   | PRNG: 0 calls
+  Msg: General commands:
+  Map updated (21 rows changed)
+  Status update: or Control like a shift key then type the letter.  Control characters are | --More--
+[Step 127] Key:   | PRNG: 0 calls
+  Msg: case-insensitive; ^D is the same as ^d, Ctrl+d is same as Ctrl+Shift+d.
+  Map updated (21 rows changed)
+  Status update: I(  list all tools, or  I"  list all amulets | --More--
+[Step 128] Key:   | PRNG: 0 calls
+  Msg: IB  list all items known to be blessed
+  Map updated (21 rows changed)
+  Status update: z     zap       zap a wand  (use y instead of z if number_pad is -1) | --More--
+[Step 129] Key:   | PRNG: 0 calls
+  Msg: Z     Zap       cast a spell  (use Y instead of Z if number_pad is -1)
+  Map updated (21 rows changed)
+  Status update: control characters, meta characters are case-sensitive so M-a is different | --More--
+[Step 130] Key:   | PRNG: 0 calls
+  Msg: from M-A.  Type the latter with two keys used as shifts, Meta+Shift+a.
+  Map updated (21 rows changed)
+  Status update: M-r   rub       rub a lamp or a stone | --More--
+[Step 131] Key:   | PRNG: 0 calls
+  Msg: M-R   ride      mount or dismount saddled steed
+  Map updated (21 rows changed)
+  Status update:  | --More--
+[Step 132] Key:   | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Merlin the Evoker              St:12 Dx:12 Co:13 In:18 Wi:12 Ch:8 Neutral | Dlvl:1 $:0 HP:12(12) Pw:8(8) AC:9 Xp:1
+[Step 133] Key: ? | PRNG: 0 calls
+  Msg: Select one item:
+  Map updated (16 rows changed)
+[Step 134] Key: d | PRNG: 0 calls
+  Msg: NetHack History file for release 5.0
+  Map updated (19 rows changed)
+  Status update: producing ST Hack 1.03. | --More--
+[Step 135] Key:   | PRNG: 0 calls
+  Map updated (21 rows changed)
+  Status update: through the later revisions of 3.0. | --More--
+[Step 136] Key:   | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update:  | --More--
+[Step 137] Key:   | PRNG: 0 calls
+  Msg: Jon W{tte and Hao-yang Wang, with help from Ross Brown, Mike Engber, David
+  Map updated (21 rows changed)
+  Status update: "tiles", original usage which has subsequently been picked up by various | --More--
+[Step 138] Key:   | PRNG: 0 calls
+  Msg: other games.  NetHack's tiles support was then implemented on other platforms
+  Map updated (21 rows changed)
+  Status update: available: | --More--
+[Step 139] Key:   | PRNG: 0 calls
+  Map updated (21 rows changed)
+  Status update: by 2000's year 100.  That got written out successfully but it unintentionally | --More--
+[Step 140] Key:   | PRNG: 0 calls
+  Msg: introduced an extra column in the file layout which prevented score entries
+  Map updated (21 rows changed)
+  Status update: The 3.4 NetHack Development Team initially consisted of Michael Allison, | --More--
+[Step 141] Key:   | PRNG: 0 calls
+  Msg: Ken Arromdee, David Cohrs, Jessie Collet, Kevin Hugo, Ken Lorber, Dean Luick,
+  Map updated (21 rows changed)
+  Status update: 2006. A great many thanks to Ron for keeping NetHack alive on OS/2 all these | --More--
+[Step 142] Key:   | PRNG: 0 calls
+  Msg: years.
+  Map updated (21 rows changed)
+  Status update: it was decided that the version numbers present on that code snapshot would | --More--
+[Step 143] Key:   | PRNG: 0 calls
+  Msg: be retired and never used in an official NetHack release.  An announcement
+  Map updated (20 rows changed)
+  Status update: The NetHack Development Team, as well as Steve VanDevender and | --More--
+[Step 144] Key:   | PRNG: 0 calls
+  Msg: Kevin Smolkowski, ensured that NetHack 3.6 continued to operate on various
+  Map updated (20 rows changed)
+  Status update: Pasi Kallinen, Ken Lorber, Dean Luick, Patric Mueller, Pat Rankin, | --More--
+[Step 145] Key:   | PRNG: 0 calls
+  Msg: Derek S. Ray, Alex Smith, Mike Stephenson, Janet Walz, and Paul Winner.
+  Map updated (21 rows changed)
+  Status update:  | --More--
+[Step 146] Key:   | PRNG: 0 calls
+  Msg: Development work for the major release to follow NetHack 3.6 began in 2015
+  Map updated (20 rows changed)
+[Step 147] Key:   | PRNG: 0 calls
+  Msg: NetHack 5.0.0 was released on May 2, 2026.
+  Map updated (21 rows changed)
+  Status update: using a cross-compiler on a modern platform to do so. His work was shared | --More--
+[Step 148] Key:   | PRNG: 0 calls
+  Msg: so others can straightforwardly produce NetHack 5.0 for the Amiga thanks
+  Map updated (19 rows changed)
+  Status update: M.  Drew  Streib and Pasi Kallinen for providing a public NetHack server | --More--
+[Step 149] Key:   | PRNG: 0 calls
+  Msg: at nethack.alt.org. Thanks to  Keith  Simpson  and Andy Thomson for
+  Map updated (21 rows changed)
+  Status update: Benson I. Margulies       John Rupley               Patric Mueller | --More--
+[Step 150] Key: ? | PRNG: 0 calls
+  Msg: at nethack.alt.org. Thanks to  Keith  Simpson  and Andy Thomson for
+[Step 151] Key: e | PRNG: 0 calls
+  Msg: at nethack.alt.org. Thanks to  Keith  Simpson  and Andy Thomson for
+[Step 152] Key: ESC | PRNG: 0 calls
+  Map updated (21 rows changed)
+  Status update: Merlin the Evoker              St:12 Dx:12 Co:13 In:18 Wi:12 Ch:8 Neutral | Dlvl:1 $:0 HP:12(12) Pw:8(8) AC:9 Xp:1
+[Step 153] Key: ? | PRNG: 0 calls
+  Msg: Select one item:
+  Map updated (16 rows changed)
+[Step 154] Key: f | PRNG: 0 calls
+  Msg: Ask about '&' or '?' to get more info.--More--
+  Map updated (16 rows changed)
+[Step 155] Key:   | PRNG: 0 calls
+  Msg: What command?
+[Step 156] Key: i | PRNG: 0 calls
+  Msg: i       show your inventory (#inventory).
+[Step 157] Key: ? | PRNG: 0 calls
+  Msg: Select one item:
+  Map updated (16 rows changed)
+[Step 158] Key: g | PRNG: 0 calls
+  Map updated (21 rows changed)
+  Status update: tombstone, toptenwin, travel, tutorial, use_darkgray, use_inverse, | --More--
+[Step 159] Key:   | PRNG: 0 calls
+  Msg: use_truecolor, verbose, voices, weaponstatus, whatis_menu, whatis_moveskip.
+  Map updated (21 rows changed)
+  Status update: `fruit'              - name of a fruit you enjoy eating, | --More--
+[Step 160] Key: ? | PRNG: 0 calls
+  Msg: use_truecolor, verbose, voices, weaponstatus, whatis_menu, whatis_moveskip.
+[Step 161] Key: h | PRNG: 0 calls
+  Msg: use_truecolor, verbose, voices, weaponstatus, whatis_menu, whatis_moveskip.
+[Step 162] Key:   | PRNG: 0 calls
+  Msg: `glyph' - set representation of a glyph to a unicode value and color,
+  Map updated (21 rows changed)
+  Status update: `msg_window'         - control of "view previous message(s)" (^P) behavior, | --More--
+[Step 163] Key:   | PRNG: 0 calls
+  Msg: `msghistory'         - number of top line messages to save,
+  Map updated (21 rows changed)
+  Status update: `versinfo'           - extra information for 'showvers', | --More--
+[Step 164] Key:   | PRNG: 0 calls
+  Msg: `warnings'           - display characters for warnings,
+  Map updated (21 rows changed)
+  Status update: configuration file they use their own directives rather than OPTIONS. | --More--
+[Step 165] Key:   | PRNG: 0 calls
+  Msg: See NetHack's "Guidebook" for details.
+  Map updated (18 rows changed)
+  Status update:  | --More--
+[Step 166] Key:   | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update: Merlin the Evoker              St:12 Dx:12 Co:13 In:18 Wi:12 Ch:8 Neutral | Dlvl:1 $:0 HP:12(12) Pw:8(8) AC:9 Xp:1
+[Step 167] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 168] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 169] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 170] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 171] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 172] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 173] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 174] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 175] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 176] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 177] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 178] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 179] Key: ? | PRNG: 0 calls
+  Msg: Select one item:
+  Map updated (16 rows changed)
+[Step 180] Key: i | PRNG: 0 calls
+  Msg: How dynamically setting options works:
+  Map updated (19 rows changed)
+  Status update: is all that is needed.  For compound options (which take a number, | --More--
+[Step 181] Key:   | PRNG: 0 calls
+  Msg: a choice of several particular values, or something more complex,
+  Map updated (20 rows changed)
+  Status update:  | --More--
+[Step 182] Key:   | PRNG: 0 calls
+  Map updated (19 rows changed)
+  Status update: Merlin the Evoker              St:12 Dx:12 Co:13 In:18 Wi:12 Ch:8 Neutral | Dlvl:1 $:0 HP:12(12) Pw:8(8) AC:9 Xp:1
+[Step 183] Key: ? | PRNG: 0 calls
+  Msg: Select one item:
+  Map updated (16 rows changed)
+[Step 184] Key: j | PRNG: 0 calls
+  Map updated (21 rows changed)
+  Status update: <       Go to previous page | --More--
+[Step 185] Key:   | PRNG: 0 calls
+  Msg: ^       Go to first page
+  Map updated (21 rows changed)
+  Status update: !       shell         leave game to enter a sub-shell ('exit' to come back) | --More--
+[Step 186] Key:   | PRNG: 0 calls
+  Msg: "       seeamulet     show the amulet currently worn
+  Map updated (21 rows changed)
+  Status update: i       inventory     show your inventory | --More--
+[Step 187] Key:   | PRNG: 0 calls
+  Msg: v       chronicle     show journal of major events
+  Map updated (21 rows changed)
+  Status update: #therecmdmenu         menu of commands you can do from here to adjacent spot | --More--
+[Step 188] Key: ? | PRNG: 0 calls
+  Msg: v       chronicle     show journal of major events
+[Step 189] Key: k | PRNG: 0 calls
+  Msg: v       chronicle     show journal of major events
+[Step 190] Key:   | PRNG: 0 calls
+  Msg: #toggle               toggle boolean option
+  Map updated (21 rows changed)
+  Status update: W       wear          wear a piece of armor | --More--
+[Step 191] Key:   | PRNG: 0 calls
+  Msg: X       twoweapon     toggle two-weapon combat
+  Map updated (21 rows changed)
+  Status update: M-T     tip           empty a container | --More--
+[Step 192] Key:   | PRNG: 0 calls
+  Msg: M-c     chat          talk to someone
+  Map updated (21 rows changed)
+  Status update:  | --More--
+[Step 193] Key:   | PRNG: 0 calls
+  Map updated (19 rows changed)
+  Status update: Merlin the Evoker              St:12 Dx:12 Co:13 In:18 Wi:12 Ch:8 Neutral | Dlvl:1 $:0 HP:12(12) Pw:8(8) AC:9 Xp:1
+[Step 194] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 195] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 196] Key: ? | PRNG: 0 calls
+  Msg: Select one item:
+  Map updated (16 rows changed)
+[Step 197] Key: l | PRNG: 0 calls
+  Msg: Menu control keys:
+  Map updated (18 rows changed)
+  Status update:  | --More--
+[Step 198] Key:   | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update: Merlin the Evoker              St:12 Dx:12 Co:13 In:18 Wi:12 Ch:8 Neutral | Dlvl:1 $:0 HP:12(12) Pw:8(8) AC:9 Xp:1
+[Step 199] Key: ? | PRNG: 0 calls
+  Msg: Select one item:
+  Map updated (16 rows changed)
+[Step 200] Key: m | PRNG: 0 calls
+  Msg: This is a terse description of nethack's command line arguments.
+  Map updated (20 rows changed)
+  Status update: A character name may have a suffix specifying any or all of role, race, | --More--
+[Step 201] Key:   | PRNG: 0 calls
+  Msg: gender, and alignment such as -u Conan-Bar-Hum-Mal-Neu or -u Tim-Wiz.
+  Map updated (19 rows changed)
+  Status update: nethack -DEC[graphics] | --More--
+[Step 202] Key:   | PRNG: 0 calls
+  Msg: nethack -IBM[graphics]
+  Map updated (20 rows changed)
+  Status update: nethack -n | --More--
+[Step 203] Key:   | PRNG: 0 calls
+  Msg: don't show the 'news' file if one is present in nethack's directory.
+  Map updated (21 rows changed)
+  Status update:  | --More--
+[Step 204] Key:   | PRNG: 0 calls
+  Msg: nethack -s
+  Map updated (21 rows changed)
+  Status update: nethack --version or --version:copy or --version:dump or --version:show | --More--
+[Step 205] Key:   | PRNG: 0 calls
+  Msg: '--version' display the program's version number plus the date and
+  Map updated (21 rows changed)
+  Status update: or can be viewed via 'nethack --usage | more' at the shell prompt. | --More--
+[Step 206] Key:   | PRNG: 0 calls
+  Map updated (17 rows changed)
+  Status update:  | --More--
+[Step 207] Key:   | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update: Merlin the Evoker              St:12 Dx:12 Co:13 In:18 Wi:12 Ch:8 Neutral | Dlvl:1 $:0 HP:12(12) Pw:8(8) AC:9 Xp:1
+[Step 208] Key: ? | PRNG: 0 calls
+  Msg: Select one item:
+  Map updated (16 rows changed)
+[Step 209] Key: n | PRNG: 0 calls
+  Msg: NETHACK GENERAL PUBLIC LICENSE
+  Map updated (20 rows changed)
+  Status update: To make sure that everyone has such rights, we have to forbid you to | --More--
+[Step 210] Key:   | PRNG: 0 calls
+  Msg: deprive anyone else of these rights.  For example, if you distribute copies
+  Map updated (19 rows changed)
+  Status update:  | --More--
+[Step 211] Key:   | PRNG: 0 calls
+  Msg: 2. You may modify your copy or copies of NetHack or any portion of it, and
+  Map updated (19 rows changed)
+[Step 212] Key:   | PRNG: 0 calls
+  Msg: a) accompany it with the complete machine-readable source code, which
+  Map updated (20 rows changed)
+  Status update: in particular, your modified NetHack or program containing parts of NetHack | --More--
+[Step 213] Key:   | PRNG: 0 calls
+  Msg: must remain freely available as provided in this License Agreement.  In
+  Map updated (17 rows changed)
+  Status update:  | --More--
+[Step 214] Key:   | PRNG: 0 calls
+  Map updated (19 rows changed)
+  Status update: Merlin the Evoker              St:12 Dx:12 Co:13 In:18 Wi:12 Ch:8 Neutral | Dlvl:1 $:0 HP:12(12) Pw:8(8) AC:9 Xp:1
+[Step 215] Key: ? | PRNG: 0 calls
+  Msg: Select one item:
+  Map updated (16 rows changed)
+[Step 216] Key: o | PRNG: 0 calls
+  Msg: To contact the NetHack development team directly,
+  Map updated (19 rows changed)
+  Status update:  | --More--
+[Step 217] Key:   | PRNG: 0 calls
+  Map updated (19 rows changed)
+  Status update: Merlin the Evoker              St:12 Dx:12 Co:13 In:18 Wi:12 Ch:8 Neutral | Dlvl:1 $:0 HP:12(12) Pw:8(8) AC:9 Xp:1
+[Step 218] Key: i | PRNG: 0 calls
+  Msg: Weapons
+  Map updated (20 rows changed)
+[Step 219] Key: ESC | PRNG: 0 calls
+  Map updated (20 rows changed)
+[Step 220] Key: + | PRNG: 0 calls
+  Msg: Currently known spells
+  Map updated (5 rows changed)
+[Step 221] Key: ESC | PRNG: 0 calls
+  Map updated (5 rows changed)
+[Step 222] Key: \ | PRNG: 0 calls
+  Msg: Discoveries, by order of discovery within each class
+  Map updated (20 rows changed)
+  Status update: * spellbook of cause fear (bronze) | --More--
+[Step 223] Key: ESC | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Merlin the Evoker              St:12 Dx:12 Co:13 In:18 Wi:12 Ch:8 Neutral | Dlvl:1 $:0 HP:12(12) Pw:8(8) AC:9 Xp:1
+[Step 224] Key:  | PRNG: 0 calls
+  Msg: Merlin the Wizard's attributes:
+  Map updated (20 rows changed)
+  Status update: Your intelligence is 18. | (1 of 2)
+[Step 225] Key:   | PRNG: 0 calls
+  Msg: Your wisdom is 12.
+  Map updated (20 rows changed)
+  Status update:  | 
+[Step 226] Key: ESC | PRNG: 0 calls
+  Map updated (19 rows changed)
+  Status update: Merlin the Evoker              St:12 Dx:12 Co:13 In:18 Wi:12 Ch:8 Neutral | Dlvl:1 $:0 HP:12(12) Pw:8(8) AC:9 Xp:1
+[Step 227] Key: s | PRNG: 20 calls
+  Map updated (2 rows changed)
+[Step 228] Key: s | PRNG: 17 calls
+  Map updated (1 rows changed)
+[Step 229] Key: : | PRNG: 0 calls
+  Msg: Something is written here in the dust.  You read: "Elbereth".--More--

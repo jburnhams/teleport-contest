@@ -1,0 +1,910 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 0 calls
+  Status:  | 
+[Step 1] Key: S | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 2] Key: e | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 3] Key: p | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 4] Key: t | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 5] Key: o | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 6] Key: r | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 7] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Shall I pick character's race, role, gender and alignment for you? [ynaq]
+[Step 8] Key: y | PRNG: 4 calls
+  Msg: Is this ok? [ynaq]
+  Map updated (6 rows changed)
+[Step 9] Key: n | PRNG: 0 calls
+  Msg: Pick a role or profession
+  Map updated (19 rows changed)
+  Status update: q - Quit | (end)
+[Step 10] Key: r | PRNG: 1 calls
+  Msg: Pick a race or species
+  Map updated (19 rows changed)
+  Status update:  | 
+[Step 11] Key: " | PRNG: 0 calls
+  Msg: Pick a gender or sex
+  Map updated (3 rows changed)
+[Step 12] Key: m | PRNG: 0 calls
+  Msg: Pick a race or species
+  Map updated (4 rows changed)
+[Step 13] Key: o | PRNG: 0 calls
+  Msg: Is this ok? [ynaq]
+  Map updated (11 rows changed)
+[Step 14] Key: y | PRNG: 2817 calls
+  Msg: It is written in the Book of Kos:
+  Map updated (18 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:0 Xp:1
+[Step 15] Key:   | PRNG: 0 calls
+  Msg: Hello Septor, welcome to NetHack!  You are a chaotic male orcish Rogue.--More--
+  Map updated (14 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1
+[Step 16] Key:   | PRNG: 2 calls
+  Msg: You are lucky!  Full moon tonight.--More--
+[Step 17] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+  Map updated (4 rows changed)
+[Step 18] Key: n | PRNG: 0 calls
+  Map updated (4 rows changed)
+[Step 19] Key: m | PRNG: 0 calls
+[Step 20] Key: O | PRNG: 0 calls
+  Msg: Set what options?
+  Map updated (19 rows changed)
+  Status update: a - accessiblemsg           [false] | (1 of 7)
+[Step 21] Key:   | PRNG: 0 calls
+  Msg: a - acoustics               [true]
+  Map updated (21 rows changed)
+  Status update: w - goldX                   [false] | (2 of 7)
+[Step 22] Key: g | PRNG: 0 calls
+  Msg: a - acoustics               [true]
+  Map updated (1 rows changed)
+[Step 23] Key:   | PRNG: 0 calls
+  Msg: a - help                    [true]
+  Map updated (21 rows changed)
+  Status update: w - query_menu              [false] | (3 of 7)
+[Step 24] Key: i | PRNG: 0 calls
+  Msg: a - help                    [true]
+  Map updated (1 rows changed)
+[Step 25] Key: j | PRNG: 0 calls
+  Msg: a - help                    [true]
+  Map updated (1 rows changed)
+[Step 26] Key: p | PRNG: 0 calls
+  Msg: a - help                    [true]
+  Map updated (1 rows changed)
+[Step 27] Key: u | PRNG: 0 calls
+  Msg: a - help                    [true]
+  Map updated (1 rows changed)
+[Step 28] Key:   | PRNG: 0 calls
+  Msg: a - quick_farsight          [false]
+  Map updated (21 rows changed)
+  Status update: w - weaponstatus            [false] | (4 of 7)
+[Step 29] Key: a | PRNG: 0 calls
+  Msg: a + quick_farsight          [false]
+[Step 30] Key: f | PRNG: 0 calls
+  Msg: a + quick_farsight          [false]
+  Map updated (1 rows changed)
+[Step 31] Key: p | PRNG: 0 calls
+  Msg: a + quick_farsight          [false]
+  Map updated (1 rows changed)
+[Step 32] Key:   | PRNG: 0 calls
+  Msg: a - whatis_menu             [false]
+  Map updated (21 rows changed)
+  Status update: h - disclose                [ni na nv ng nc no] | (5 of 7)
+[Step 33] Key:   | PRNG: 0 calls
+  Msg: a - fruit                   [slime mold]
+  Map updated (21 rows changed)
+  Status update: w - statuslines             [2] | (6 of 7)
+[Step 34] Key: n | PRNG: 0 calls
+  Msg: a - fruit                   [slime mold]
+  Map updated (1 rows changed)
+[Step 35] Key:   | PRNG: 0 calls
+  Msg: a - suppress_alert          [(none)]
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 36] Key:   | PRNG: 0 calls
+  Msg: 'autopickup' option toggled on.  'lit_corridor' option toggled on.--More--
+  Map updated (19 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1
+[Step 37] Key:   | PRNG: 0 calls
+  Msg: 'lootabc' option toggled on.  'menucolors' option toggled on.--More--
+[Step 38] Key:   | PRNG: 0 calls
+  Msg: 'price_quotes' option toggled on.  'quick_farsight' option toggled on.--More--
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/0
+[Step 39] Key:   | PRNG: 0 calls
+  Msg: 'showexp' option toggled on.  'time' option toggled on.--More--
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/0 T:1
+[Step 40] Key:   | PRNG: 0 calls
+  Msg: Autopickup what?
+  Map updated (20 rows changed)
+[Step 41] Key: $ | PRNG: 0 calls
+  Msg: Autopickup what?
+  Map updated (1 rows changed)
+[Step 42] Key: " | PRNG: 0 calls
+  Msg: Autopickup what?
+  Map updated (1 rows changed)
+[Step 43] Key: f | PRNG: 0 calls
+  Msg: Autopickup what?
+  Map updated (1 rows changed)
+[Step 44] Key: h | PRNG: 0 calls
+  Msg: Autopickup what?
+  Map updated (1 rows changed)
+[Step 45] Key: = | PRNG: 0 calls
+  Msg: Autopickup what?
+  Map updated (1 rows changed)
+[Step 46] Key: / | PRNG: 0 calls
+  Msg: Autopickup what?
+  Map updated (1 rows changed)
+[Step 47] Key: \r (Enter) | PRNG: 0 calls
+  Map updated (20 rows changed)
+[Step 48] Key: H | PRNG: 116 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/0 T:8
+[Step 49] Key: Y | PRNG: 279 calls
+  Map updated (14 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/0 T:22
+[Step 50] Key: h | PRNG: 0 calls
+  Msg: This door is locked.--More--
+[Step 51] Key:   | PRNG: 0 calls
+  Msg: Unlock it with your lock pick? [ynq] (q)
+[Step 52] Key: y | PRNG: 20 calls
+  Msg: You succeed in picking the lock.
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/0 T:23
+[Step 53] Key: h | PRNG: 2 calls
+  Msg: The door opens.
+  Map updated (4 rows changed)
+[Step 54] Key: h | PRNG: 19 calls
+  Map updated (4 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/0 T:24
+[Step 55] Key: h | PRNG: 25 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/0 T:25
+[Step 56] Key: h | PRNG: 29 calls
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/0 T:26
+[Step 57] Key: h | PRNG: 20 calls
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/0 T:27
+[Step 58] Key: > | PRNG: 2458 calls
+  Msg: You descend the stairs.--More--
+[Step 59] Key:   | PRNG: 8 calls
+  Map updated (17 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:2 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/0 T:28
+[Step 60] Key: j | PRNG: 14 calls
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:2 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/0 T:29
+[Step 61] Key: N | PRNG: 16 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:2 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/0 T:30
+[Step 62] Key: h | PRNG: 13 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:2 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/0 T:31
+[Step 63] Key: y | PRNG: 13 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:2 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/0 T:32
+[Step 64] Key: H | PRNG: 27 calls
+  Msg: You hear the chime of a cash register.
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:2 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/0 T:34
+[Step 65] Key: u | PRNG: 18 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:2 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/0 T:35
+[Step 66] Key: l | PRNG: 16 calls
+  Msg: You hear a door open.
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:2 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/0 T:36
+[Step 67] Key: l | PRNG: 15 calls
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:2 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/0 T:37
+[Step 68] Key: < | PRNG: 3 calls
+  Msg: You climb up the stairs.--More--
+[Step 69] Key:   | PRNG: 30 calls
+  Map updated (17 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/0 T:38
+[Step 70] Key: b | PRNG: 18 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/0 T:39
+[Step 71] Key: h | PRNG: 26 calls
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/0 T:40
+[Step 72] Key: H | PRNG: 58 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/0 T:42
+[Step 73] Key: B | PRNG: 191 calls
+  Msg: That door is closed.
+  Map updated (7 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/0 T:53
+[Step 74] Key: h | PRNG: 3 calls
+  Msg: The door resists!
+[Step 75] Key: h | PRNG: 3 calls
+  Msg: The door resists!
+[Step 76] Key: h | PRNG: 2 calls
+  Msg: The door opens.
+  Map updated (6 rows changed)
+[Step 77] Key: h | PRNG: 15 calls
+  Map updated (8 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/0 T:54
+[Step 78] Key: h | PRNG: 25 calls
+  Map updated (6 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/0 T:55
+[Step 79] Key: h | PRNG: 18 calls
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/0 T:56
+[Step 80] Key: y | PRNG: 27 calls
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/0 T:57
+[Step 81] Key: k | PRNG: 15 calls
+  Map updated (4 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/0 T:58
+[Step 82] Key: k | PRNG: 36 calls
+  Msg: You kill the jackal!
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/1 T:59
+[Step 83] Key: k | PRNG: 12 calls
+  Msg: You see here a jackal corpse.
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/1 T:60
+[Step 84] Key: e | PRNG: 0 calls
+  Msg: There is a jackal corpse here; eat it? [ynq] (n)
+[Step 85] Key: y | PRNG: 115 calls
+  Msg: This jackal corpse is tough.  You finish eating the jackal corpse.
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/1 T:68 Satiated
+[Step 86] Key: k | PRNG: 12 calls
+  Map updated (9 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/1 T:69 Satiated
+[Step 87] Key: u | PRNG: 14 calls
+  Map updated (6 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/1 T:70 Satiated
+[Step 88] Key: K | PRNG: 29 calls
+  Map updated (7 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/1 T:71 Satiated
+[Step 89] Key: y | PRNG: 24 calls
+  Map updated (6 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/1 T:72 Satiated
+[Step 90] Key: y | PRNG: 18 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/1 T:73 Satiated
+[Step 91] Key: u | PRNG: 25 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/1 T:74 Satiated
+[Step 92] Key: u | PRNG: 15 calls
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/1 T:75 Satiated
+[Step 93] Key: l | PRNG: 24 calls
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/1 T:76 Satiated
+[Step 94] Key: l | PRNG: 16 calls
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/1 T:77 Satiated
+[Step 95] Key: l | PRNG: 15 calls
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/1 T:78 Satiated
+[Step 96] Key: h | PRNG: 24 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1/1 T:79 Satiated
+[Step 97] Key: j | PRNG: 28 calls
+  Msg: The fox bites!
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:9(11) Pw:2(2) AC:7 Xp:1/1 T:80 Satiated
+[Step 98] Key: h | PRNG: 26 calls
+  Msg: You miss the fox.  The fox bites!  The kitten misses the fox.--More--
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:8(11) Pw:2(2) AC:7 Xp:1/1 T:80 Satiated
+[Step 99] Key:   | PRNG: 9 calls
+  Msg: The fox bites!
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:6(11) Pw:2(2) AC:7 Xp:1/1 T:81 Satiated
+[Step 100] Key: h | PRNG: 26 calls
+  Msg: You miss the fox.  The fox bites!  The kitten misses the fox.--More--
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:4(11) Pw:2(2) AC:7 Xp:1/1 T:81 Satiated
+[Step 101] Key:   | PRNG: 26 calls
+  Msg: The fox bites!  The kitten bites the fox.  The fox is killed!
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:1(11) Pw:2(2) AC:7 Xp:1/1 T:82 Satiated
+[Step 102] Key: y | PRNG: 19 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:1(11) Pw:2(2) AC:7 Xp:1/1 T:83 Satiated
+[Step 103] Key: H | PRNG: 164 calls
+  Msg: You see here a large box.
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:1(11) Pw:2(2) AC:7 Xp:1/1 T:90 Satiated
+[Step 104] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 105] Key: l | PRNG: 0 calls
+  Msg: # loot
+[Step 106] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Hmmm, the large box turns out to be locked.--More--
+[Step 107] Key:   | PRNG: 0 calls
+  Msg: Unlock it with your lock pick? [ynq] (q)
+[Step 108] Key: y | PRNG: 88 calls
+  Msg: You succeed in picking the lock.
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:0 HP:1(11) Pw:2(2) AC:7 Xp:1/1 T:93 Satiated
+[Step 109] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 110] Key: l | PRNG: 0 calls
+  Msg: # loot
+[Step 111] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Do what with the large box?
+  Map updated (8 rows changed)
+[Step 112] Key: : | PRNG: 0 calls
+  Msg: Contents of the large box:
+  Map updated (8 rows changed)
+[Step 113] Key:   | PRNG: 0 calls
+  Msg: Do what with the large box?
+  Map updated (8 rows changed)
+[Step 114] Key: a | PRNG: 0 calls
+  Msg: Take out what type of objects?
+  Map updated (12 rows changed)
+[Step 115] Key: @ | PRNG: 0 calls
+  Msg: Take out what type of objects?
+  Map updated (4 rows changed)
+[Step 116] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Take out what?
+  Map updated (12 rows changed)
+[Step 117] Key: @ | PRNG: 0 calls
+  Msg: Take out what?
+  Map updated (4 rows changed)
+[Step 118] Key: \r (Enter) | PRNG: 0 calls
+  Msg: $ - 118 gold pieces.  i - a scroll labeled FOOBIE BLETCH.--More--
+  Map updated (9 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:1(11) Pw:2(2) AC:7 Xp:1/1 T:93 Satiated
+[Step 119] Key:   | PRNG: 44 calls
+  Msg: j - a wrinkled spellbook.  k - a yellow gem.
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:2(11) Pw:2(2) AC:7 Xp:1/1 T:94 Satiated
+[Step 120] Key: i | PRNG: 0 calls
+  Msg: Coins
+  Map updated (21 rows changed)
+[Step 121] Key:   | PRNG: 0 calls
+  Map updated (21 rows changed)
+[Step 122] Key: r | PRNG: 0 calls
+  Msg: What do you want to read? [ij or ?*]
+[Step 123] Key: i | PRNG: 4 calls
+  Msg: As you read the scroll, it disappears.  Your leather armor smoulders!--More--
+[Step 124] Key:   | PRNG: 26 calls
+  Msg: Your leather armor smoulders further!
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:3(11) Pw:2(2) AC:9 Xp:1/1 T:95 Satiated
+[Step 125] Key: n | PRNG: 23 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:3(11) Pw:2(2) AC:9 Xp:1/1 T:96 Satiated
+[Step 126] Key: u | PRNG: 26 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:3(11) Pw:2(2) AC:9 Xp:1/1 T:97 Satiated
+[Step 127] Key: l | PRNG: 23 calls
+  Msg: You swap places with your kitten.
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:3(11) Pw:2(2) AC:9 Xp:1/1 T:98 Satiated
+[Step 128] Key: L | PRNG: 49 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:3(11) Pw:2(2) AC:9 Xp:1/1 T:99 Satiated
+[Step 129] Key: L | PRNG: 43 calls
+  Msg: You swap places with your kitten.
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:3(11) Pw:2(2) AC:9 Xp:1/1 T:100 Satiated
+[Step 130] Key: l | PRNG: 28 calls
+  Msg: You swap places with your kitten.
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:3(11) Pw:2(2) AC:9 Xp:1/1 T:101 Satiated
+[Step 131] Key: l | PRNG: 17 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:3(11) Pw:2(2) AC:9 Xp:1/1 T:102 Satiated
+[Step 132] Key: l | PRNG: 41 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:3(11) Pw:2(2) AC:9 Xp:1/1 T:103 Satiated
+[Step 133] Key: l | PRNG: 23 calls
+  Msg: You swap places with your kitten.
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:4(11) Pw:2(2) AC:9 Xp:1/1 T:104 Satiated
+[Step 134] Key: l | PRNG: 27 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:4(11) Pw:2(2) AC:9 Xp:1/1 T:105 Satiated
+[Step 135] Key: L | PRNG: 287 calls
+  Msg: You try to move the boulder, but in vain.
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:5(11) Pw:2(2) AC:9 Xp:1/1 T:123 Satiated
+[Step 136] Key: k | PRNG: 16 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:5(11) Pw:2(2) AC:9 Xp:1/1 T:124 Satiated
+[Step 137] Key: l | PRNG: 18 calls
+  Msg: With great effort you move the boulder.
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:5(11) Pw:2(2) AC:9 Xp:1/1 T:125 Satiated
+[Step 138] Key: l | PRNG: 30 calls
+  Map updated (7 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:6(11) Pw:2(2) AC:9 Xp:1/1 T:126 Satiated
+[Step 139] Key: l | PRNG: 30 calls
+  Map updated (7 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:6(11) Pw:2(2) AC:9 Xp:1/1 T:127 Satiated
+[Step 140] Key: n | PRNG: 34 calls
+  Map updated (4 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:7(11) Pw:2(2) AC:9 Xp:1/1 T:128 Satiated
+[Step 141] Key: j | PRNG: 29 calls
+  Msg: You swap places with your kitten.  You see here a large box.
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:7(11) Pw:2(2) AC:9 Xp:1/1 T:129 Satiated
+[Step 142] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 143] Key: l | PRNG: 0 calls
+  Msg: # loot
+[Step 144] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Hmmm, the large box turns out to be locked.--More--
+[Step 145] Key:   | PRNG: 0 calls
+  Msg: Unlock it with your lock pick? [ynq] (q)
+[Step 146] Key: y | PRNG: 59 calls
+  Msg: You succeed in picking the lock.
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:7(11) Pw:2(2) AC:9 Xp:1/1 T:131 Satiated
+[Step 147] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 148] Key: l | PRNG: 0 calls
+  Msg: # loot
+[Step 149] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Do what with the large box?
+  Map updated (9 rows changed)
+[Step 150] Key: a | PRNG: 0 calls
+  Msg: Take out what?
+  Map updated (9 rows changed)
+[Step 151] Key: @ | PRNG: 0 calls
+  Msg: Take out what?
+  Map updated (3 rows changed)
+[Step 152] Key: \r (Enter) | PRNG: 28 calls
+  Msg: l - an apple.  m - a food ration.  n - a tin.
+  Map updated (5 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:8(11) Pw:2(2) AC:9 Xp:1/1 T:132 Satiated
+[Step 153] Key: n | PRNG: 28 calls
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:8(11) Pw:2(2) AC:9 Xp:1/1 T:133 Satiated
+[Step 154] Key: n | PRNG: 24 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:8(11) Pw:2(2) AC:9 Xp:1/1 T:134 Satiated
+[Step 155] Key: L | PRNG: 82 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:8(11) Pw:2(2) AC:9 Xp:1/1 T:136 Satiated
+[Step 156] Key: L | PRNG: 24 calls
+  Msg: You swap places with your kitten.
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:8(11) Pw:2(2) AC:9 Xp:1/1 T:137 Satiated
+[Step 157] Key: N | PRNG: 27 calls
+  Map updated (4 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:8(11) Pw:2(2) AC:9 Xp:1/1 T:138 Satiated
+[Step 158] Key: L | PRNG: 137 calls
+  Map updated (4 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:8(11) Pw:2(2) AC:9 Xp:1/1 T:145
+[Step 159] Key: l | PRNG: 35 calls
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:8(11) Pw:2(2) AC:9 Xp:1/1 T:146
+[Step 160] Key: u | PRNG: 29 calls
+  Map updated (4 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:8(11) Pw:2(2) AC:9 Xp:1/1 T:147
+[Step 161] Key: i | PRNG: 0 calls
+  Msg: Coins
+  Map updated (21 rows changed)
+  Status update: Septor the Footpad   (end) | Dlvl:1 $:118 HP:8(11) Pw:2(2) AC:9 Xp:1/1 T:147
+[Step 162] Key:   | PRNG: 0 calls
+  Map updated (21 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:8(11) Pw:2(2) AC:9 Xp:1/1 T:147
+[Step 163] Key: u | PRNG: 40 calls
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:9(11) Pw:2(2) AC:9 Xp:1/1 T:148
+[Step 164] Key: Y | PRNG: 58 calls
+  Map updated (5 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:9(11) Pw:2(2) AC:9 Xp:1/1 T:150
+[Step 165] Key: U | PRNG: 22 calls
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:9(11) Pw:2(2) AC:9 Xp:1/1 T:151
+[Step 166] Key: J | PRNG: 144 calls
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:9(11) Pw:2(2) AC:9 Xp:1/1 T:156
+[Step 167] Key: l | PRNG: 21 calls
+  Msg: You swap places with your kitten.
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:9(11) Pw:2(2) AC:9 Xp:1/1 T:157
+[Step 168] Key: k | PRNG: 40 calls
+  Msg: You swap places with your kitten.
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:10(11) Pw:2(2) AC:9 Xp:1/1 T:158
+[Step 169] Key: k | PRNG: 35 calls
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:10(11) Pw:2(2) AC:9 Xp:1/1 T:159
+[Step 170] Key: k | PRNG: 43 calls
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/1 T:160
+[Step 171] Key: k | PRNG: 36 calls
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/1 T:161
+[Step 172] Key: k | PRNG: 17 calls
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/1 T:162
+[Step 173] Key: h | PRNG: 35 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/1 T:163
+[Step 174] Key: h | PRNG: 38 calls
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/1 T:164
+[Step 175] Key: h | PRNG: 3 calls
+  Msg: The door resists!
+[Step 176] Key: h | PRNG: 3 calls
+  Msg: The door resists!
+[Step 177] Key: h | PRNG: 3 calls
+  Msg: The door resists!
+[Step 178] Key: h | PRNG: 3 calls
+  Msg: The door resists!
+[Step 179] Key: h | PRNG: 2 calls
+  Msg: The door opens.
+  Map updated (1 rows changed)
+[Step 180] Key: h | PRNG: 12 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/1 T:165
+[Step 181] Key: h | PRNG: 12 calls
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/1 T:166
+[Step 182] Key: J | PRNG: 60 calls
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/1 T:170
+[Step 183] Key: J | PRNG: 189 calls
+  Msg: You try to move the boulder, but in vain.
+  Map updated (9 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/1 T:180
+[Step 184] Key: l | PRNG: 54 calls
+  Msg: You swap places with your kitten.
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/1 T:181
+[Step 185] Key: U | PRNG: 0 calls
+[Step 186] Key: l | PRNG: 31 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/1 T:182
+[Step 187] Key: U | PRNG: 222 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/1 T:189
+[Step 188] Key: l | PRNG: 33 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/1 T:190
+[Step 189] Key: n | PRNG: 16 calls
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/1 T:191
+[Step 190] Key: l | PRNG: 18 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/1 T:192
+[Step 191] Key: n | PRNG: 22 calls
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/1 T:193
+[Step 192] Key: J | PRNG: 36 calls
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/1 T:194
+[Step 193] Key: k | PRNG: 23 calls
+  Msg: You stop.  Your kitten is in the way!
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/1 T:195
+[Step 194] Key: k | PRNG: 21 calls
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/1 T:196
+[Step 195] Key: U | PRNG: 90 calls
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/1 T:198
+[Step 196] Key: k | PRNG: 32 calls
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/1 T:199
+[Step 197] Key: K | PRNG: 124 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/1 T:202
+[Step 198] Key: l | PRNG: 28 calls
+  Msg: You swap places with your kitten.
+  Map updated (8 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/1 T:203
+[Step 199] Key: U | PRNG: 54 calls
+  Map updated (4 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/1 T:205
+[Step 200] Key: H | PRNG: 354 calls
+  Map updated (4 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/1 T:219
+[Step 201] Key: j | PRNG: 21 calls
+  Msg: You kill the jackal!
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/2 T:220
+[Step 202] Key: K | PRNG: 26 calls
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/2 T:221
+[Step 203] Key: U | PRNG: 287 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/2 T:233
+[Step 204] Key: j | PRNG: 23 calls
+  Msg: You swap places with your kitten.
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/2 T:234
+[Step 205] Key: n | PRNG: 15 calls
+  Map updated (4 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/2 T:235
+[Step 206] Key: N | PRNG: 0 calls
+[Step 207] Key: j | PRNG: 30 calls
+  Map updated (5 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/2 T:236
+[Step 208] Key: N | PRNG: 92 calls
+  Map updated (7 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/2 T:239
+[Step 209] Key: n | PRNG: 22 calls
+  Map updated (7 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/2 T:240
+[Step 210] Key: n | PRNG: 32 calls
+  Map updated (4 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/2 T:241
+[Step 211] Key: b | PRNG: 42 calls
+  Msg: You see here a statue of a lichen.
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/2 T:242
+[Step 212] Key: h | PRNG: 34 calls
+  Msg: You swap places with your kitten.
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/2 T:243
+[Step 213] Key: h | PRNG: 35 calls
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/2 T:244
+[Step 214] Key: h | PRNG: 26 calls
+  Msg: You miss the lichen.
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/2 T:245
+[Step 215] Key: h | PRNG: 41 calls
+  Msg: You kill the lichen!
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/6 T:246
+[Step 216] Key: h | PRNG: 25 calls
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/6 T:247
+[Step 217] Key: h | PRNG: 15 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/6 T:248
+[Step 218] Key: l | PRNG: 20 calls
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/6 T:249
+[Step 219] Key: l | PRNG: 36 calls
+  Msg: You swap places with your kitten.
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/6 T:250
+[Step 220] Key: l | PRNG: 11 calls
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/6 T:251
+[Step 221] Key: l | PRNG: 38 calls
+  Msg: You see here a statue of a lichen.
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/6 T:252
+[Step 222] Key: l | PRNG: 24 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/6 T:253
+[Step 223] Key: 9 | PRNG: 0 calls
+[Step 224] Key: s | PRNG: 377 calls
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/6 T:262
+[Step 225] Key: l | PRNG: 42 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/6 T:263
+[Step 226] Key: l | PRNG: 25 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/6 T:264
+[Step 227] Key: l | PRNG: 55 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/6 T:265
+[Step 228] Key: 9 | PRNG: 0 calls
+[Step 229] Key: s | PRNG: 356 calls
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/6 T:274
+[Step 230] Key: l | PRNG: 57 calls
+  Msg: You swap places with your kitten.
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/6 T:275
+[Step 231] Key: 9 | PRNG: 0 calls
+  Msg: You swap places with your kitten.
+[Step 232] Key: s | PRNG: 338 calls
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/6 T:284
+[Step 233] Key: u | PRNG: 31 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/6 T:285
+[Step 234] Key: 9 | PRNG: 0 calls
+[Step 235] Key: s | PRNG: 303 calls
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/6 T:294
+[Step 236] Key: k | PRNG: 36 calls
+  Map updated (4 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/6 T:295
+[Step 237] Key: k | PRNG: 17 calls
+  Map updated (4 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/6 T:296
+[Step 238] Key: h | PRNG: 45 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/6 T:297
+[Step 239] Key: b | PRNG: 32 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/6 T:298
+[Step 240] Key: h | PRNG: 33 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/6 T:299
+[Step 241] Key: h | PRNG: 43 calls
+  Msg: You kill the newt!
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/7 T:300
+[Step 242] Key: h | PRNG: 27 calls
+  Msg: o - a silver wand.  You see here a newt corpse.
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/7 T:301
+[Step 243] Key: e | PRNG: 0 calls
+  Msg: There is a newt corpse here; eat it? [ynq] (n)
+[Step 244] Key: y | PRNG: 209 calls
+  Msg: This newt corpse is tough.  You finish eating the newt corpse.
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/7 T:305
+[Step 245] Key: y | PRNG: 29 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/7 T:306
+[Step 246] Key: _ | PRNG: 0 calls
+  Msg: Where do you want to travel to?--More--
+[Step 247] Key:   | PRNG: 0 calls
+  Msg: Tip: Farlooking or selecting a map location
+  Map updated (7 rows changed)
+[Step 248] Key:   | PRNG: 0 calls
+  Msg: (For instructions type a '?')  Move cursor to the desired destination:
+  Map updated (7 rows changed)
+[Step 249] Key: > | PRNG: 0 calls
+  Msg: staircase down
+[Step 250] Key: . | PRNG: 577 calls
+  Msg: The newt bites!
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:10(11) Pw:2(2) AC:9 Xp:1/7 T:330
+[Step 251] Key: h | PRNG: 32 calls
+  Msg: You hit the newt.
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/7 T:331
+[Step 252] Key: h | PRNG: 59 calls
+  Msg: You kill the newt!
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/8 T:332
+[Step 253] Key: h | PRNG: 26 calls
+  Msg: You see here a newt corpse.
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/8 T:333
+[Step 254] Key: e | PRNG: 0 calls
+  Msg: There is a newt corpse here; eat it? [ynq] (n)
+[Step 255] Key: y | PRNG: 115 calls
+  Msg: This newt corpse is gamey.  You finish eating the newt corpse.
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/8 T:337
+[Step 256] Key: _ | PRNG: 0 calls
+  Msg: Where do you want to travel to?  (For instructions type a '?')
+[Step 257] Key: . | PRNG: 282 calls
+  Msg: Where do you want to travel to?  (For instructions type a '?')
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/8 T:350
+[Step 258] Key: i | PRNG: 0 calls
+  Msg: Coins
+  Map updated (21 rows changed)
+  Status update: Gems/Stones | (1 of 2)
+[Step 259] Key:   | PRNG: 0 calls
+  Msg: k - a yellow gem
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 260] Key:   | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/8 T:350
+[Step 261] Key: j | PRNG: 32 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/8 T:351
+[Step 262] Key: 9 | PRNG: 0 calls
+[Step 263] Key: s | PRNG: 270 calls
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/8 T:360
+[Step 264] Key: h | PRNG: 19 calls
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/8 T:361
+[Step 265] Key: 9 | PRNG: 0 calls
+[Step 266] Key: s | PRNG: 174 calls
+  Msg: You hear some noises in the distance.
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/8 T:370
+[Step 267] Key: h | PRNG: 11 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/8 T:371
+[Step 268] Key: 9 | PRNG: 0 calls
+[Step 269] Key: s | PRNG: 165 calls
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/8 T:380
+[Step 270] Key: u | PRNG: 32 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/8 T:381
+[Step 271] Key: l | PRNG: 18 calls
+  Msg: You swap places with your kitten.
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/8 T:382
+[Step 272] Key: > | PRNG: 50 calls
+  Msg: You descend the stairs.--More--
+[Step 273] Key:   | PRNG: 30 calls
+  Map updated (19 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:2 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/8 T:383
+[Step 274] Key: H | PRNG: 87 calls
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:2 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/8 T:385
+[Step 275] Key: H | PRNG: 222 calls
+  Msg: The grid bug bites!  You get zapped!
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:2 $:118 HP:10(11) Pw:2(2) AC:9 Xp:1/8 T:394
+[Step 276] Key: h | PRNG: 26 calls
+  Msg: You miss the grid bug.  The grid bug bites!  You get zapped!
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:2 $:118 HP:9(11) Pw:2(2) AC:9 Xp:1/8 T:395
+[Step 277] Key: h | PRNG: 48 calls
+  Msg: You kill the grid bug!
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:2 $:118 HP:9(11) Pw:2(2) AC:9 Xp:1/9 T:396
+[Step 278] Key: H | PRNG: 18 calls
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:2 $:118 HP:9(11) Pw:2(2) AC:9 Xp:1/9 T:397
+[Step 279] Key: y | PRNG: 37 calls
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:2 $:118 HP:9(11) Pw:2(2) AC:9 Xp:1/9 T:398
+[Step 280] Key: Y | PRNG: 50 calls
+  Msg: $ - 7 gold pieces (125 in total).
+  Map updated (5 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:2 $:125 HP:9(11) Pw:2(2) AC:9 Xp:1/9 T:400
+[Step 281] Key: B | PRNG: 93 calls
+  Map updated (5 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:2 $:125 HP:9(11) Pw:2(2) AC:9 Xp:1/9 T:403
+[Step 282] Key: u | PRNG: 36 calls
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:2 $:125 HP:9(11) Pw:2(2) AC:9 Xp:1/9 T:404
+[Step 283] Key: l | PRNG: 22 calls
+  Msg: p - a cubical amulet.
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:2 $:125 HP:9(11) Pw:2(2) AC:9 Xp:1/9 T:405
+[Step 284] Key: P | PRNG: 0 calls
+  Msg: What do you want to put on? [p or ?*]
+[Step 285] Key: p | PRNG: 40 calls
+  Msg: p - a cubical amulet (being worn).
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:2 $:125 HP:9(11) Pw:2(2) AC:9 Xp:1/9 T:406
+[Step 286] Key: h | PRNG: 34 calls
+  Map updated (1 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:2 $:125 HP:10(11) Pw:2(2) AC:9 Xp:1/9 T:407
+[Step 287] Key: h | PRNG: 31 calls
+  Map updated (2 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:2 $:125 HP:10(11) Pw:2(2) AC:9 Xp:1/9 T:408
+[Step 288] Key: q | PRNG: 0 calls
+  Msg: Drink from the fountain? [yn] (n)
+[Step 289] Key: y | PRNG: 346 calls
+  Msg: An endless stream of snakes pours forth!  The fountain dries up!
+  Map updated (3 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:2 $:125 HP:10(11) Pw:2(2) AC:9 Xp:1/9 T:409
+[Step 290] Key: n | PRNG: 45 calls
+  Msg: The water moccasin bites!  The water moccasin bites!--More--
+  Map updated (4 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:2 $:125 HP:4(11) Pw:2(2) AC:9 Xp:1/9 T:409
+[Step 291] Key:   | PRNG: 0 calls
+  Msg: You die...--More--
+[Step 292] Key:   | PRNG: 0 calls
+  Msg: Do you want your possessions identified? [ynq] (n)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:2 $:125 HP:0(11) Pw:2(2) AC:9 Xp:1/9 T:409
+[Step 293] Key: y | PRNG: 0 calls
+  Msg: Coins
+  Map updated (21 rows changed)
+  Status update: e - an uncursed lock pick | (1 of 2)
+[Step 294] Key:   | PRNG: 0 calls
+  Msg: f - an empty uncursed sack
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 295] Key:   | PRNG: 0 calls
+  Msg: Do you want to see your attributes? [ynq] (n)
+  Map updated (9 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:2 $:125 HP:0(11) Pw:2(2) AC:9 Xp:1/9 T:409
+[Step 296] Key: y | PRNG: 0 calls
+  Msg: Septor the Rogue's attributes:
+  Map updated (19 rows changed)
+  Status update: Your dexterity was 17 (limit:18). | --More--
+[Step 297] Key:   | PRNG: 0 calls
+  Msg: Your constitution was 14 (limit:18).
+  Map updated (21 rows changed)
+  Status update: You didn't encounter any bones levels. | --More--
+[Step 298] Key:   | PRNG: 0 calls
+  Msg: Total elapsed playing time was none.
+  Map updated (18 rows changed)
+  Status update:  | 
+[Step 299] Key:   | PRNG: 0 calls
+  Msg: Do you want an account of creatures vanquished? [ynaq] (n)
+  Map updated (7 rows changed)
+  Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:2 $:125 HP:0(11) Pw:2(2) AC:9 Xp:1/9 T:409
+[Step 300] Key: y | PRNG: 0 calls
+  Msg: Vanquished creatures:
+  Map updated (8 rows changed)
+[Step 301] Key:   | PRNG: 0 calls
+  Msg: Do you want to see your conduct? [ynq] (n)
+  Map updated (8 rows changed)

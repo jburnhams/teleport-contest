@@ -1,0 +1,1389 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 0 calls
+  Status:  | 
+[Step 1] Key: D | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 2] Key: a | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 3] Key: v | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 4] Key: i | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 5] Key: d | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 6] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Shall I pick character's race, role, gender and alignment for you? [ynaq]
+[Step 7] Key: y | PRNG: 4 calls
+  Msg: Is this ok? [ynaq]
+  Map updated (6 rows changed)
+[Step 8] Key: y | PRNG: 2299 calls
+  Msg: It is written in the Book of Hermes:
+  Map updated (15 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1218 HP:13(13) Pw:3(3) AC:0 Xp:1
+[Step 9] Key:   | PRNG: 2 calls
+  Msg: Hello David, welcome to NetHack!  You are a neutral male human Healer.--More--
+  Map updated (16 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1218 HP:13(13) Pw:5(5) AC:8 Xp:1
+[Step 10] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+  Map updated (4 rows changed)
+[Step 11] Key: n | PRNG: 0 calls
+  Map updated (4 rows changed)
+[Step 12] Key: l | PRNG: 8 calls
+  Map updated (1 rows changed)
+[Step 13] Key: l | PRNG: 30 calls
+  Msg: You hear a slow drip.
+  Map updated (3 rows changed)
+[Step 14] Key: k | PRNG: 25 calls
+  Msg: You see here a scroll labeled VE FORBRYDERNE.
+  Map updated (3 rows changed)
+[Step 15] Key: , | PRNG: 29 calls
+  Msg: m - a scroll labeled VE FORBRYDERNE.
+  Map updated (2 rows changed)
+[Step 16] Key: y | PRNG: 23 calls
+  Map updated (4 rows changed)
+[Step 17] Key: k | PRNG: 26 calls
+  Msg: You swap places with your little dog.
+  Map updated (3 rows changed)
+[Step 18] Key: y | PRNG: 28 calls
+  Msg: You see here a yellow potion.
+  Map updated (4 rows changed)
+[Step 19] Key: , | PRNG: 33 calls
+  Msg: n - a yellow potion.
+  Map updated (2 rows changed)
+[Step 20] Key: h | PRNG: 41 calls
+  Map updated (2 rows changed)
+[Step 21] Key: b | PRNG: 32 calls
+  Msg: You see here a drum.  You hear a slow drip.
+  Map updated (3 rows changed)
+[Step 22] Key: , | PRNG: 66 calls
+  Msg: o - a drum.
+  Map updated (2 rows changed)
+[Step 23] Key: n | PRNG: 54 calls
+  Map updated (3 rows changed)
+[Step 24] Key: n | PRNG: 41 calls
+  Map updated (4 rows changed)
+[Step 25] Key: l | PRNG: 33 calls
+  Map updated (3 rows changed)
+[Step 26] Key: l | PRNG: 64 calls
+  Map updated (2 rows changed)
+[Step 27] Key: l | PRNG: 52 calls
+  Msg: You swap places with your little dog.
+  Map updated (2 rows changed)
+[Step 28] Key: n | PRNG: 40 calls
+  Msg: You see here a wand of sleep.
+  Map updated (3 rows changed)
+[Step 29] Key: , | PRNG: 69 calls
+  Msg: p - a wand of sleep.
+[Step 30] Key: l | PRNG: 42 calls
+  Map updated (2 rows changed)
+[Step 31] Key: l | PRNG: 29 calls
+  Msg: You miss the grid bug.  The grid bug bites!  You get zapped!
+  Map updated (2 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1218 HP:12(13) Pw:5(5) AC:8 Xp:1
+[Step 32] Key: l | PRNG: 50 calls
+  Msg: You miss the grid bug.  The grid bug bites!  You get zapped!
+  Map updated (2 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1218 HP:11(13) Pw:5(5) AC:8 Xp:1
+[Step 33] Key: l | PRNG: 48 calls
+  Msg: You miss the grid bug.  The grid bug misses!
+  Map updated (2 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1218 HP:12(13) Pw:5(5) AC:8 Xp:1
+[Step 34] Key: l | PRNG: 70 calls
+  Msg: You kill the grid bug!
+  Map updated (1 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1218 HP:13(13) Pw:5(5) AC:8 Xp:1
+[Step 35] Key: l | PRNG: 17 calls
+  Map updated (3 rows changed)
+[Step 36] Key: u | PRNG: 25 calls
+  Map updated (3 rows changed)
+[Step 37] Key: U | PRNG: 56 calls
+  Map updated (5 rows changed)
+[Step 38] Key: n | PRNG: 20 calls
+  Map updated (3 rows changed)
+[Step 39] Key: L | PRNG: 160 calls
+  Map updated (5 rows changed)
+[Step 40] Key: n | PRNG: 31 calls
+  Map updated (4 rows changed)
+[Step 41] Key: l | PRNG: 14 calls
+  Map updated (1 rows changed)
+[Step 42] Key: l | PRNG: 20 calls
+  Msg: You see here a ruby potion.
+  Map updated (1 rows changed)
+[Step 43] Key: , | PRNG: 50 calls
+  Msg: q - a ruby potion.
+  Map updated (2 rows changed)
+[Step 44] Key: l | PRNG: 62 calls
+  Map updated (2 rows changed)
+[Step 45] Key: l | PRNG: 39 calls
+  Map updated (2 rows changed)
+[Step 46] Key: n | PRNG: 0 calls
+  Msg: Things that are here:
+  Map updated (6 rows changed)
+[Step 47] Key:   | PRNG: 32 calls
+  Msg: A little dart shoots out at you!  You are hit by a little dart.
+  Map updated (6 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1218 HP:11(13) Pw:5(5) AC:8 Xp:1
+[Step 48] Key: , | PRNG: 0 calls
+  Msg: Pick up what?
+  Map updated (7 rows changed)
+[Step 49] Key: a | PRNG: 0 calls
+  Msg: Pick up what?
+  Map updated (1 rows changed)
+[Step 50] Key: c | PRNG: 0 calls
+  Msg: Pick up what?
+  Map updated (1 rows changed)
+[Step 51] Key: \r (Enter) | PRNG: 42 calls
+  Msg: r - 11 darts.  s - 2 white gems.
+  Map updated (8 rows changed)
+[Step 52] Key: e | PRNG: 0 calls
+  Msg: There is a gnome corpse here; eat it? [ynq] (n)
+[Step 53] Key: y | PRNG: 754 calls
+  Msg: You feel sick.  You finish eating the gnome corpse.
+  Map updated (2 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1218 HP:5(13) Pw:5(5) AC:8 Xp:1
+[Step 54] Key: q | PRNG: 0 calls
+  Msg: What do you want to drink? [d-gnq or ?*]
+[Step 55] Key: ? | PRNG: 0 calls
+  Msg: Potions
+  Map updated (7 rows changed)
+[Step 56] Key: q | PRNG: 0 calls
+  Msg: This tastes like slime mold juice.--More--
+  Map updated (7 rows changed)
+[Step 57] Key:   | PRNG: 0 calls
+  Msg: Call a ruby potion:
+[Step 58] Key: l | PRNG: 0 calls
+  Msg: Call a ruby potion: l
+[Step 59] Key: i | PRNG: 0 calls
+  Msg: Call a ruby potion: li
+[Step 60] Key: k | PRNG: 0 calls
+  Msg: Call a ruby potion: lik
+[Step 61] Key: e | PRNG: 0 calls
+  Msg: Call a ruby potion: like
+[Step 62] Key:   | PRNG: 0 calls
+  Msg: Call a ruby potion: like
+[Step 63] Key: s | PRNG: 0 calls
+  Msg: Call a ruby potion: like s
+[Step 64] Key: l | PRNG: 0 calls
+  Msg: Call a ruby potion: like sl
+[Step 65] Key: i | PRNG: 0 calls
+  Msg: Call a ruby potion: like sli
+[Step 66] Key: m | PRNG: 0 calls
+  Msg: Call a ruby potion: like slim
+[Step 67] Key: e | PRNG: 0 calls
+  Msg: Call a ruby potion: like slime
+[Step 68] Key:   | PRNG: 0 calls
+  Msg: Call a ruby potion: like slime
+[Step 69] Key: m | PRNG: 0 calls
+  Msg: Call a ruby potion: like slime m
+[Step 70] Key: o | PRNG: 0 calls
+  Msg: Call a ruby potion: like slime mo
+[Step 71] Key: d | PRNG: 0 calls
+  Msg: Call a ruby potion: like slime mod
+[Step 72] Key: l | PRNG: 0 calls
+  Msg: Call a ruby potion: like slime modl
+[Step 73] Key:  | PRNG: 0 calls
+  Msg: Call a ruby potion: like slime mod
+[Step 74] Key:  | PRNG: 0 calls
+  Msg: Call a ruby potion: like slime mo
+[Step 75] Key: l | PRNG: 0 calls
+  Msg: Call a ruby potion: like slime mol
+[Step 76] Key: d | PRNG: 0 calls
+  Msg: Call a ruby potion: like slime mold
+[Step 77] Key:   | PRNG: 0 calls
+  Msg: Call a ruby potion: like slime mold
+[Step 78] Key: j | PRNG: 0 calls
+  Msg: Call a ruby potion: like slime mold j
+[Step 79] Key: u | PRNG: 0 calls
+  Msg: Call a ruby potion: like slime mold ju
+[Step 80] Key: i | PRNG: 0 calls
+  Msg: Call a ruby potion: like slime mold jui
+[Step 81] Key: c | PRNG: 0 calls
+  Msg: Call a ruby potion: like slime mold juic
+[Step 82] Key: e | PRNG: 0 calls
+  Msg: Call a ruby potion: like slime mold juice
+[Step 83] Key: \r (Enter) | PRNG: 39 calls
+  Map updated (2 rows changed)
+[Step 84] Key: q | PRNG: 0 calls
+  Msg: What do you want to drink? [defgn or ?*]
+[Step 85] Key: ? | PRNG: 0 calls
+  Msg: Potions
+  Map updated (6 rows changed)
+[Step 86] Key: n | PRNG: 1232 calls
+  Msg: Your feet are frozen to the floor!  You can move again.
+  Map updated (7 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1218 HP:11(13) Pw:5(5) AC:8 Xp:1
+[Step 87] Key: y | PRNG: 40 calls
+  Map updated (3 rows changed)
+[Step 88] Key: y | PRNG: 59 calls
+  Map updated (2 rows changed)
+[Step 89] Key: h | PRNG: 25 calls
+  Msg: The newt bites!
+  Map updated (2 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1218 HP:10(13) Pw:5(5) AC:8 Xp:1
+[Step 90] Key: b | PRNG: 25 calls
+  Msg: You hit the newt.
+  Map updated (1 rows changed)
+[Step 91] Key: b | PRNG: 60 calls
+  Msg: You miss the newt.  The little dog misses the newt.
+  Map updated (2 rows changed)
+[Step 92] Key: b | PRNG: 49 calls
+  Msg: You kill the newt!
+  Map updated (2 rows changed)
+[Step 93] Key: b | PRNG: 36 calls
+  Msg: You see here a scroll labeled ASHPD SODALG.
+  Map updated (2 rows changed)
+[Step 94] Key: , | PRNG: 61 calls
+  Msg: t - a scroll labeled ASHPD SODALG.
+  Map updated (2 rows changed)
+[Step 95] Key: r | PRNG: 0 calls
+  Msg: What do you want to read? [ijkmt or ?*]
+[Step 96] Key: t | PRNG: 37 calls
+  Msg: As you read the scroll, it disappears.  A lit field surrounds you!
+  Map updated (4 rows changed)
+[Step 97] Key: y | PRNG: 59 calls
+  Map updated (2 rows changed)
+[Step 98] Key: k | PRNG: 15 calls
+  Map updated (3 rows changed)
+[Step 99] Key: k | PRNG: 17 calls
+  Map updated (3 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1218 HP:11(13) Pw:5(5) AC:8 Xp:1
+[Step 100] Key: k | PRNG: 21 calls
+  Map updated (3 rows changed)
+[Step 101] Key: k | PRNG: 20 calls
+  Map updated (2 rows changed)
+[Step 102] Key: u | PRNG: 0 calls
+[Step 103] Key: l | PRNG: 22 calls
+  Map updated (1 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1218 HP:12(13) Pw:5(5) AC:8 Xp:1
+[Step 104] Key: l | PRNG: 15 calls
+  Map updated (2 rows changed)
+[Step 105] Key: u | PRNG: 2 calls
+  Msg: The door resists!
+[Step 106] Key: u | PRNG: 2 calls
+  Msg: The door resists!
+[Step 107] Key: u | PRNG: 1 calls
+  Msg: The door opens.
+  Map updated (3 rows changed)
+[Step 108] Key: l | PRNG: 22 calls
+  Map updated (3 rows changed)
+[Step 109] Key: k | PRNG: 22 calls
+  Map updated (5 rows changed)
+[Step 110] Key: k | PRNG: 14 calls
+  Map updated (5 rows changed)
+[Step 111] Key: y | PRNG: 37 calls
+  Map updated (2 rows changed)
+[Step 112] Key: h | PRNG: 58 calls
+  Map updated (1 rows changed)
+[Step 113] Key: b | PRNG: 38 calls
+  Msg: You miss the lichen.
+  Map updated (1 rows changed)
+[Step 114] Key: b | PRNG: 45 calls
+  Msg: You hit the lichen.
+  Map updated (1 rows changed)
+[Step 115] Key: b | PRNG: 66 calls
+  Msg: You miss the lichen.
+  Map updated (2 rows changed)
+[Step 116] Key: b | PRNG: 32 calls
+  Msg: You kill the lichen!
+  Map updated (2 rows changed)
+[Step 117] Key: b | PRNG: 24 calls
+  Map updated (2 rows changed)
+[Step 118] Key: h | PRNG: 16 calls
+  Map updated (2 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1218 HP:13(13) Pw:5(5) AC:8 Xp:1
+[Step 119] Key: h | PRNG: 15 calls
+  Map updated (2 rows changed)
+[Step 120] Key: h | PRNG: 36 calls
+  Msg: You see here 5 gold pieces.
+  Map updated (2 rows changed)
+[Step 121] Key: , | PRNG: 14 calls
+  Msg: $ - 5 gold pieces (1223 in total).
+  Map updated (1 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1223 HP:13(13) Pw:5(5) AC:8 Xp:1
+[Step 122] Key: h | PRNG: 23 calls
+  Msg: You see here a brilliant blue potion.
+  Map updated (1 rows changed)
+[Step 123] Key: , | PRNG: 20 calls
+  Msg: u - a brilliant blue potion.
+  Map updated (1 rows changed)
+[Step 124] Key: h | PRNG: 13 calls
+  Msg: You see here a scroll labeled XOR OTA.
+  Map updated (1 rows changed)
+[Step 125] Key: , | PRNG: 62 calls
+  Msg: v - a scroll labeled XOR OTA.
+[Step 126] Key: r | PRNG: 0 calls
+  Msg: What do you want to read? [ijkmv or ?*]
+[Step 127] Key: v | PRNG: 1 calls
+  Msg: You read the scroll.  You feel like someone is helping you.--More--
+[Step 128] Key:   | PRNG: 0 calls
+  Msg: The scroll disintegrates.--More--
+[Step 129] Key:   | PRNG: 0 calls
+  Msg: Call a scroll labeled XOR OTA:
+[Step 130] Key: h | PRNG: 0 calls
+  Msg: Call a scroll labeled XOR OTA: h
+[Step 131] Key: e | PRNG: 0 calls
+  Msg: Call a scroll labeled XOR OTA: he
+[Step 132] Key: l | PRNG: 0 calls
+  Msg: Call a scroll labeled XOR OTA: hel
+[Step 133] Key: p | PRNG: 0 calls
+  Msg: Call a scroll labeled XOR OTA: help
+[Step 134] Key: i | PRNG: 0 calls
+  Msg: Call a scroll labeled XOR OTA: helpi
+[Step 135] Key: g | PRNG: 0 calls
+  Msg: Call a scroll labeled XOR OTA: helpig
+[Step 136] Key:   | PRNG: 0 calls
+  Msg: Call a scroll labeled XOR OTA: helpig
+[Step 137] Key: y | PRNG: 0 calls
+  Msg: Call a scroll labeled XOR OTA: helpig y
+[Step 138] Key: o | PRNG: 0 calls
+  Msg: Call a scroll labeled XOR OTA: helpig yo
+[Step 139] Key: u | PRNG: 0 calls
+  Msg: Call a scroll labeled XOR OTA: helpig you
+[Step 140] Key: \r (Enter) | PRNG: 39 calls
+  Map updated (1 rows changed)
+[Step 141] Key: i | PRNG: 0 calls
+  Msg: Coins
+  Map updated (21 rows changed)
+  Status update: h - a wand of sleep (0:5) | (1 of 2)
+[Step 142] Key:   | PRNG: 0 calls
+  Msg: p - a wand of sleep
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 143] Key:   | PRNG: 0 calls
+  Map updated (15 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1223 HP:13(13) Pw:5(5) AC:8 Xp:1
+[Step 144] Key: y | PRNG: 20 calls
+  Map updated (2 rows changed)
+[Step 145] Key: h | PRNG: 12 calls
+  Map updated (1 rows changed)
+[Step 146] Key: H | PRNG: 65 calls
+  Map updated (2 rows changed)
+[Step 147] Key: j | PRNG: 32 calls
+  Msg: You swap places with your little dog.
+  Map updated (3 rows changed)
+[Step 148] Key: j | PRNG: 11 calls
+  Map updated (4 rows changed)
+[Step 149] Key: j | PRNG: 13 calls
+  Map updated (4 rows changed)
+[Step 150] Key: b | PRNG: 0 calls
+[Step 151] Key: j | PRNG: 36 calls
+  Map updated (3 rows changed)
+[Step 152] Key: b | PRNG: 19 calls
+  Map updated (2 rows changed)
+[Step 153] Key: H | PRNG: 85 calls
+  Map updated (2 rows changed)
+[Step 154] Key: H | PRNG: 269 calls
+  Map updated (1 rows changed)
+[Step 155] Key: b | PRNG: 15 calls
+  Map updated (3 rows changed)
+[Step 156] Key: H | PRNG: 18 calls
+  Map updated (2 rows changed)
+[Step 157] Key: B | PRNG: 232 calls
+  Msg: With great effort you move the boulder.
+  Map updated (3 rows changed)
+[Step 158] Key: h | PRNG: 27 calls
+  Map updated (1 rows changed)
+[Step 159] Key: h | PRNG: 29 calls
+  Map updated (8 rows changed)
+[Step 160] Key: y | PRNG: 29 calls
+  Map updated (7 rows changed)
+[Step 161] Key: y | PRNG: 30 calls
+  Map updated (6 rows changed)
+[Step 162] Key: y | PRNG: 31 calls
+  Map updated (2 rows changed)
+[Step 163] Key: H | PRNG: 239 calls
+  Msg: You see here 2 gold pieces.
+  Map updated (1 rows changed)
+[Step 164] Key: , | PRNG: 23 calls
+  Msg: $ - 2 gold pieces (1225 in total).
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1225 HP:13(13) Pw:5(5) AC:8 Xp:1
+[Step 165] Key: k | PRNG: 23 calls
+  Map updated (2 rows changed)
+[Step 166] Key: k | PRNG: 19 calls
+  Msg: You see here a chest.
+  Map updated (2 rows changed)
+[Step 167] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 168] Key: l | PRNG: 0 calls
+  Msg: # loot
+[Step 169] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Hmmm, the chest turns out to be locked.
+[Step 170] Key: h | PRNG: 21 calls
+  Map updated (1 rows changed)
+[Step 171] Key: H | PRNG: 346 calls
+  Msg: Ouch!  You bump into a door.
+  Map updated (1 rows changed)
+[Step 172] Key: h | PRNG: 2 calls
+  Msg: The door resists!
+[Step 173] Key: h | PRNG: 2 calls
+  Msg: The door resists!
+[Step 174] Key: h | PRNG: 2 calls
+  Msg: The door resists!
+[Step 175] Key: h | PRNG: 2 calls
+  Msg: The door resists!
+[Step 176] Key: h | PRNG: 1 calls
+  Msg: The door opens.
+  Map updated (5 rows changed)
+[Step 177] Key: h | PRNG: 27 calls
+  Map updated (8 rows changed)
+[Step 178] Key: h | PRNG: 28 calls
+  Map updated (5 rows changed)
+[Step 179] Key: . | PRNG: 35 calls
+[Step 180] Key: j | PRNG: 38 calls
+  Map updated (3 rows changed)
+[Step 181] Key: j | PRNG: 32 calls
+  Map updated (2 rows changed)
+[Step 182] Key: j | PRNG: 24 calls
+  Map updated (3 rows changed)
+[Step 183] Key: : | PRNG: 0 calls
+  Msg: There is a sink here.
+[Step 184] Key: q | PRNG: 0 calls
+  Msg: Drink from the sink? [yn] (n)
+[Step 185] Key: y | PRNG: 32 calls
+  Msg: You take a sip of warm water.
+[Step 186] Key: i | PRNG: 0 calls
+  Msg: Coins
+  Map updated (21 rows changed)
+  Status update: h - a wand of sleep (0:5) | (1 of 2)
+[Step 187] Key:   | PRNG: 0 calls
+  Msg: p - a wand of sleep
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 188] Key:   | PRNG: 0 calls
+  Map updated (15 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1225 HP:13(13) Pw:5(5) AC:8 Xp:1
+[Step 189] Key: r | PRNG: 0 calls
+  Msg: What do you want to read? [ijkm or ?*]
+[Step 190] Key: m | PRNG: 1 calls
+  Msg: As you read the scroll, it disappears.--More--
+[Step 191] Key:   | PRNG: 26 calls
+  Msg: Your scalpel glows blue for a moment.
+[Step 192] Key: n | PRNG: 32 calls
+  Map updated (3 rows changed)
+[Step 193] Key: n | PRNG: 31 calls
+  Map updated (3 rows changed)
+[Step 194] Key: N | PRNG: 336 calls
+  Msg: Ouch!  You bump into a door.
+  Map updated (8 rows changed)
+[Step 195] Key: l | PRNG: 2 calls
+  Msg: The door resists!
+[Step 196] Key: l | PRNG: 1 calls
+  Msg: The door opens.
+  Map updated (4 rows changed)
+[Step 197] Key: l | PRNG: 21 calls
+  Map updated (4 rows changed)
+[Step 198] Key: l | PRNG: 28 calls
+  Msg: You miss the grid bug.  The grid bug bites!  You get zapped!
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1225 HP:12(13) Pw:5(5) AC:8 Xp:1
+[Step 199] Key: l | PRNG: 41 calls
+  Msg: You kill the grid bug!
+  Map updated (1 rows changed)
+[Step 200] Key: l | PRNG: 43 calls
+  Map updated (2 rows changed)
+[Step 201] Key: u | PRNG: 21 calls
+  Map updated (2 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1225 HP:13(13) Pw:5(5) AC:8 Xp:1
+[Step 202] Key: n | PRNG: 25 calls
+  Msg: You hit the newt.
+  Map updated (1 rows changed)
+[Step 203] Key: n | PRNG: 40 calls
+  Msg: You miss the newt.  The little dog bites the newt.--More--
+  Map updated (1 rows changed)
+[Step 204] Key:   | PRNG: 11 calls
+  Msg: The newt is killed!
+  Map updated (1 rows changed)
+[Step 205] Key: l | PRNG: 37 calls
+  Map updated (2 rows changed)
+[Step 206] Key: l | PRNG: 35 calls
+  Map updated (1 rows changed)
+[Step 207] Key: n | PRNG: 66 calls
+  Map updated (2 rows changed)
+[Step 208] Key: l | PRNG: 42 calls
+  Map updated (2 rows changed)
+[Step 209] Key: l | PRNG: 36 calls
+  Map updated (2 rows changed)
+[Step 210] Key: l | PRNG: 22 calls
+  Map updated (2 rows changed)
+[Step 211] Key: u | PRNG: 29 calls
+  Map updated (2 rows changed)
+[Step 212] Key: l | PRNG: 69 calls
+  Map updated (2 rows changed)
+[Step 213] Key: l | PRNG: 19 calls
+  Msg: You see here a brown potion.
+  Map updated (2 rows changed)
+[Step 214] Key: , | PRNG: 20 calls
+  Msg: w - a brown potion.
+  Map updated (1 rows changed)
+[Step 215] Key: h | PRNG: 66 calls
+  Map updated (1 rows changed)
+[Step 216] Key: b | PRNG: 65 calls
+  Map updated (2 rows changed)
+[Step 217] Key: y | PRNG: 35 calls
+  Map updated (2 rows changed)
+[Step 218] Key: h | PRNG: 68 calls
+  Msg: You swap places with your little dog.
+  Map updated (1 rows changed)
+[Step 219] Key: h | PRNG: 22 calls
+  Map updated (2 rows changed)
+[Step 220] Key: h | PRNG: 77 calls
+  Msg: You see here a chain mail.
+  Map updated (2 rows changed)
+[Step 221] Key: , | PRNG: 0 calls
+  Msg: You have a little trouble lifting x - a chain mail.--More--
+[Step 222] Key:   | PRNG: 97 calls
+  Msg: Your movements are slowed slightly because of your load.
+  Map updated (1 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1225 HP:13(13) Pw:5(5) AC:8 Xp:1 Burdened
+[Step 223] Key: i | PRNG: 0 calls
+  Msg: Coins
+  Map updated (21 rows changed)
+  Status update: h - a wand of sleep (0:5) | (1 of 2)
+[Step 224] Key:   | PRNG: 0 calls
+  Msg: p - a wand of sleep
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 225] Key:   | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1225 HP:13(13) Pw:5(5) AC:8 Xp:1 Burdened
+[Step 226] Key: i | PRNG: 0 calls
+  Msg: Coins
+  Map updated (21 rows changed)
+  Status update: h - a wand of sleep (0:5) | (1 of 2)
+[Step 227] Key:   | PRNG: 0 calls
+  Msg: p - a wand of sleep
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 228] Key:   | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1225 HP:13(13) Pw:5(5) AC:8 Xp:1 Burdened
+[Step 229] Key: w | PRNG: 0 calls
+  Msg: What do you want to wield? [- ar or ?*]
+[Step 230] Key: ESC | PRNG: 0 calls
+  Msg: Never mind.
+[Step 231] Key: W | PRNG: 0 calls
+  Msg: What do you want to wear? [x or ?*]
+[Step 232] Key: x | PRNG: 184 calls
+  Msg: You finish your dressing maneuver.
+  Map updated (2 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1225 HP:13(13) Pw:5(5) AC:3 Xp:1 Burdened
+[Step 233] Key: i | PRNG: 0 calls
+  Msg: Coins
+  Map updated (21 rows changed)
+  Status update: h - a wand of sleep (0:5) | (1 of 2)
+[Step 234] Key:   | PRNG: 0 calls
+  Msg: p - a wand of sleep
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 235] Key:   | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1225 HP:13(13) Pw:5(5) AC:3 Xp:1 Burdened
+[Step 236] Key: q | PRNG: 0 calls
+  Msg: What do you want to drink? [d-guw or ?*]
+[Step 237] Key: u | PRNG: 38 calls
+  Msg: Huh, What?  Where am I?
+  Map updated (2 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1225 HP:13(13) Pw:5(5) AC:3 Xp:1 Burdened Conf
+[Step 238] Key: h | PRNG: 85 calls
+  Map updated (2 rows changed)
+[Step 239] Key: q | PRNG: 0 calls
+  Msg: What do you want to drink? [defgw or ?*]
+[Step 240] Key: ? | PRNG: 0 calls
+  Msg: Potions
+  Map updated (6 rows changed)
+[Step 241] Key: w | PRNG: 2 calls
+  Msg: Ooph!  This tastes like liquid fire!--More--
+  Map updated (6 rows changed)
+[Step 242] Key:   | PRNG: 0 calls
+  Msg: Call a brown potion:
+[Step 243] Key: b | PRNG: 0 calls
+  Msg: Call a brown potion: b
+[Step 244] Key: o | PRNG: 0 calls
+  Msg: Call a brown potion: bo
+[Step 245] Key: w | PRNG: 0 calls
+  Msg: Call a brown potion: bow
+[Step 246] Key: n | PRNG: 0 calls
+  Msg: Call a brown potion: bown
+[Step 247] Key: b | PRNG: 0 calls
+  Msg: Call a brown potion: bownb
+[Step 248] Key: o | PRNG: 0 calls
+  Msg: Call a brown potion: bownbo
+[Step 249] Key: o | PRNG: 0 calls
+  Msg: Call a brown potion: bownboo
+[Step 250] Key: z | PRNG: 0 calls
+  Msg: Call a brown potion: bownbooz
+[Step 251] Key: e | PRNG: 0 calls
+  Msg: Call a brown potion: bownbooze
+[Step 252] Key: \r (Enter) | PRNG: 35 calls
+  Map updated (2 rows changed)
+[Step 253] Key: n | PRNG: 61 calls
+  Map updated (2 rows changed)
+[Step 254] Key: L | PRNG: 64 calls
+  Map updated (2 rows changed)
+[Step 255] Key: n | PRNG: 41 calls
+  Msg: You see a door open.
+  Map updated (3 rows changed)
+[Step 256] Key: L | PRNG: 315 calls
+  Msg: The goblin throws a crude dagger!--More--
+  Map updated (1 rows changed)
+[Step 257] Key:   | PRNG: 18 calls
+  Msg: The crude dagger hits the little dog.
+  Map updated (1 rows changed)
+[Step 258] Key: l | PRNG: 64 calls
+  Map updated (1 rows changed)
+[Step 259] Key: L | PRNG: 75 calls
+  Map updated (1 rows changed)
+[Step 260] Key: l | PRNG: 62 calls
+  Map updated (1 rows changed)
+[Step 261] Key: l | PRNG: 18 calls
+  Map updated (1 rows changed)
+[Step 262] Key: l | PRNG: 18 calls
+  Map updated (1 rows changed)
+[Step 263] Key: l | PRNG: 81 calls
+  Msg: The goblin picks up a crude dagger.  You feel less confused now.
+  Map updated (1 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1225 HP:13(13) Pw:5(5) AC:3 Xp:1 Burdened
+[Step 264] Key: L | PRNG: 235 calls
+  Map updated (1 rows changed)
+[Step 265] Key: s | PRNG: 74 calls
+  Map updated (1 rows changed)
+[Step 266] Key: s | PRNG: 40 calls
+[Step 267] Key: s | PRNG: 15 calls
+  Map updated (1 rows changed)
+[Step 268] Key: 9 | PRNG: 0 calls
+[Step 269] Key: s | PRNG: 244 calls
+  Msg: It is hit.
+  Map updated (1 rows changed)
+[Step 270] Key: h | PRNG: 81 calls
+  Msg: The little dog picks up a crude dagger.
+  Map updated (1 rows changed)
+[Step 271] Key: H | PRNG: 43 calls
+  Map updated (1 rows changed)
+[Step 272] Key: h | PRNG: 28 calls
+  Msg: You stop.  Your little dog is in the way!
+[Step 273] Key: h | PRNG: 56 calls
+  Msg: You swap places with your little dog.
+  Map updated (1 rows changed)
+[Step 274] Key: H | PRNG: 21 calls
+  Map updated (1 rows changed)
+[Step 275] Key: h | PRNG: 75 calls
+  Msg: You kill the goblin!
+  Map updated (1 rows changed)
+[Step 276] Key: h | PRNG: 63 calls
+  Msg: You see here a goblin corpse.
+  Map updated (1 rows changed)
+[Step 277] Key: e | PRNG: 0 calls
+  Msg: There is a goblin corpse here; eat it? [ynq] (n)
+[Step 278] Key: y | PRNG: 149 calls
+  Msg: Blecch!  Rotten food!  You finish eating the goblin corpse.
+[Step 279] Key: H | PRNG: 363 calls
+  Map updated (2 rows changed)
+[Step 280] Key: h | PRNG: 47 calls
+  Map updated (2 rows changed)
+[Step 281] Key: y | PRNG: 47 calls
+  Map updated (2 rows changed)
+[Step 282] Key: H | PRNG: 126 calls
+  Msg: The newt misses!
+  Map updated (2 rows changed)
+[Step 283] Key: h | PRNG: 68 calls
+  Msg: You kill the newt!
+  Map updated (2 rows changed)
+[Step 284] Key: h | PRNG: 20 calls
+  Map updated (2 rows changed)
+[Step 285] Key: h | PRNG: 46 calls
+  Map updated (2 rows changed)
+[Step 286] Key: h | PRNG: 96 calls
+  Map updated (1 rows changed)
+[Step 287] Key: b | PRNG: 17 calls
+  Map updated (2 rows changed)
+[Step 288] Key: h | PRNG: 42 calls
+  Map updated (1 rows changed)
+[Step 289] Key: h | PRNG: 44 calls
+  Map updated (1 rows changed)
+[Step 290] Key: h | PRNG: 20 calls
+  Map updated (1 rows changed)
+[Step 291] Key: h | PRNG: 20 calls
+  Map updated (2 rows changed)
+[Step 292] Key: h | PRNG: 0 calls
+[Step 293] Key: h | PRNG: 0 calls
+[Step 294] Key: h | PRNG: 0 calls
+[Step 295] Key: y | PRNG: 40 calls
+  Map updated (2 rows changed)
+[Step 296] Key: n | PRNG: 27 calls
+  Msg: You hit the fox.  The fox bites!
+  Map updated (1 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1225 HP:10(13) Pw:5(5) AC:3 Xp:1 Burdened
+[Step 297] Key: n | PRNG: 29 calls
+  Msg: You miss the fox.  The fox bites!  The fox bites!
+  Map updated (1 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1225 HP:5(13) Pw:5(5) AC:3 Xp:1 Burdened
+[Step 298] Key: n | PRNG: 55 calls
+  Msg: You kill the fox!  The little dog picks up a throwing spear.
+  Map updated (2 rows changed)
+[Step 299] Key: i | PRNG: 0 calls
+  Msg: Coins
+  Map updated (21 rows changed)
+  Status update: Tools | (1 of 2)
+[Step 300] Key:   | PRNG: 0 calls
+  Msg: c - an uncursed stethoscope
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 301] Key:   | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1225 HP:5(13) Pw:5(5) AC:3 Xp:1 Burdened
+[Step 302] Key: y | PRNG: 15 calls
+  Map updated (2 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1225 HP:6(13) Pw:5(5) AC:3 Xp:1 Burdened
+[Step 303] Key: Y | PRNG: 208 calls
+  Msg: The little dog drops a throwing spear.
+  Map updated (4 rows changed)
+[Step 304] Key: y | PRNG: 16 calls
+  Map updated (2 rows changed)
+[Step 305] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 306] Key: q | PRNG: 0 calls
+  Msg: # quit
+[Step 307] Key:  | PRNG: 0 calls
+  Msg: #
+[Step 308] Key:  | PRNG: 0 calls
+  Msg: #
+[Step 309] Key: ESC | PRNG: 0 calls
+[Step 310] Key: q | PRNG: 0 calls
+  Msg: Drink from the sink? [yn] (n)
+[Step 311] Key: y | PRNG: 123 calls
+  Msg: Gaggg... this tastes like sewage!  You vomit.  You can move again.
+  Map updated (1 rows changed)
+[Step 312] Key: q | PRNG: 0 calls
+  Msg: Drink from the sink? [yn] (n)
+[Step 313] Key: n | PRNG: 0 calls
+  Msg: What do you want to drink? [defg or ?*]
+[Step 314] Key: ? | PRNG: 0 calls
+  Msg: Potions
+  Map updated (5 rows changed)
+[Step 315] Key: e | PRNG: 36 calls
+  Msg: You feel better.
+  Map updated (6 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1225 HP:14(14) Pw:5(5) AC:3 Xp:1 Burdened
+[Step 316] Key: y | PRNG: 29 calls
+  Map updated (3 rows changed)
+[Step 317] Key: . | PRNG: 45 calls
+  Map updated (2 rows changed)
+[Step 318] Key: > | PRNG: 2357 calls
+  Msg: You fall down the stairs.--More--
+[Step 319] Key:   | PRNG: 26 calls
+  Map updated (18 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:2 $:1225 HP:12(14) Pw:5(5) AC:3 Xp:1 Burdened
+[Step 320] Key: l | PRNG: 37 calls
+  Map updated (2 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:2 $:1225 HP:13(14) Pw:5(5) AC:3 Xp:1 Burdened
+[Step 321] Key: l | PRNG: 1 calls
+  Msg: The door opens.
+  Map updated (1 rows changed)
+[Step 322] Key: l | PRNG: 71 calls
+  Map updated (3 rows changed)
+[Step 323] Key: L | PRNG: 525 calls
+  Msg: Ouch!  You bump into a door.
+  Map updated (10 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:2 $:1225 HP:14(14) Pw:5(5) AC:3 Xp:1 Burdened
+[Step 324] Key: l | PRNG: 2 calls
+  Msg: The door resists!
+[Step 325] Key: l | PRNG: 1 calls
+  Msg: The door opens.
+  Map updated (7 rows changed)
+[Step 326] Key: l | PRNG: 51 calls
+  Map updated (9 rows changed)
+[Step 327] Key: l | PRNG: 26 calls
+  Map updated (7 rows changed)
+[Step 328] Key: l | PRNG: 128 calls
+  Msg: You hear someone counting gold coins.
+  Map updated (3 rows changed)
+[Step 329] Key: n | PRNG: 52 calls
+  Map updated (4 rows changed)
+[Step 330] Key: b | PRNG: 4 calls
+  Msg: You see here a statue of a newt.--More--
+  Map updated (2 rows changed)
+[Step 331] Key: y | PRNG: 0 calls
+  Msg: You see here a statue of a newt.--More--
+[Step 332] Key:   | PRNG: 36 calls
+  Msg: The little dog picks up a food ration.--More--
+  Map updated (2 rows changed)
+[Step 333] Key:   | PRNG: 2 calls
+  Msg: You hear someone counting gold coins.
+[Step 334] Key: u | PRNG: 81 calls
+  Map updated (3 rows changed)
+[Step 335] Key: n | PRNG: 45 calls
+  Map updated (3 rows changed)
+[Step 336] Key: J | PRNG: 49 calls
+  Msg: You hear the chime of a cash register.--More--
+  Map updated (3 rows changed)
+[Step 337] Key:   | PRNG: 154 calls
+  Msg: The little dog drops a food ration.
+  Map updated (4 rows changed)
+[Step 338] Key: n | PRNG: 29 calls
+  Map updated (3 rows changed)
+[Step 339] Key: l | PRNG: 96 calls
+  Map updated (2 rows changed)
+[Step 340] Key: L | PRNG: 280 calls
+  Msg: "Hello, David!  Welcome to Ermenak's used armor dealership!"
+  Map updated (9 rows changed)
+[Step 341] Key: j | PRNG: 26 calls
+  Map updated (4 rows changed)
+[Step 342] Key: j | PRNG: 50 calls
+  Msg: You see here a banded mail (for sale, 68 zorkmids).
+  Map updated (3 rows changed)
+[Step 343] Key: j | PRNG: 137 calls
+  Msg: You see here a polished silver shield (for sale, 50 zorkmids).
+  Map updated (3 rows changed)
+[Step 344] Key: , | PRNG: 1 calls
+  Msg: "For you, honored sir; only 50 zorkmids for this polished silver shield."
+  Map updated (1 rows changed)
+[Step 345] Key:   | PRNG: 0 calls
+  Msg: You have a little trouble lifting y - a polished silver shield (unpaid, 50
+  Map updated (1 rows changed)
+[Step 346] Key:   | PRNG: 80 calls
+  Map updated (2 rows changed)
+[Step 347] Key: h | PRNG: 57 calls
+  Msg: You see here a plumed helmet (for sale, 8 zorkmids).
+  Map updated (3 rows changed)
+[Step 348] Key: h | PRNG: 194 calls
+  Msg: You see here a leather armor (for sale, 4 zorkmids).
+  Map updated (3 rows changed)
+[Step 349] Key: h | PRNG: 84 calls
+  Msg: You see here a leather jacket (for sale, 8 zorkmids).
+  Map updated (2 rows changed)
+[Step 350] Key: k | PRNG: 104 calls
+  Msg: You see here a conical hat (for sale, 1 zorkmid).
+  Map updated (2 rows changed)
+[Step 351] Key: l | PRNG: 134 calls
+  Msg: You see here a studded leather armor (for sale, 11 zorkmids).
+  Map updated (2 rows changed)
+[Step 352] Key: u | PRNG: 56 calls
+  Map updated (3 rows changed)
+[Step 353] Key: p | PRNG: 0 calls
+  Msg: Pay for which items?
+  Map updated (2 rows changed)
+[Step 354] Key: y | PRNG: 0 calls
+  Msg: Pay for which items?
+[Step 355] Key: W | PRNG: 0 calls
+  Msg: Pay for which items?
+[Step 356] Key: \r (Enter) | PRNG: 0 calls
+  Map updated (2 rows changed)
+[Step 357] Key: p | PRNG: 0 calls
+  Msg: Pay for which items?
+  Map updated (2 rows changed)
+[Step 358] Key: a | PRNG: 0 calls
+  Msg: Pay for which items?
+  Map updated (1 rows changed)
+[Step 359] Key: \r (Enter) | PRNG: 1 calls
+  Msg: You bought a polished silver shield for 50 gold pieces.--More--
+  Map updated (2 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:2 $:1175 HP:14(14) Pw:5(5) AC:3 Xp:1 Burdened
+[Step 360] Key:   | PRNG: 34 calls
+  Msg: "Thank you for shopping in Ermenak's used armor dealership!"
+  Map updated (3 rows changed)
+[Step 361] Key: l | PRNG: 86 calls
+  Map updated (2 rows changed)
+[Step 362] Key: W | PRNG: 0 calls
+  Msg: What do you want to wear? [y or ?*]
+[Step 363] Key: y | PRNG: 31 calls
+  Msg: You are now wearing a polished silver shield.
+  Map updated (2 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:2 $:1175 HP:14(14) Pw:5(5) AC:1 Xp:1 Burdened
+[Step 364] Key: k | PRNG: 68 calls
+  Map updated (3 rows changed)
+[Step 365] Key: k | PRNG: 68 calls
+  Map updated (4 rows changed)
+[Step 366] Key: k | PRNG: 27 calls
+  Map updated (3 rows changed)
+[Step 367] Key: k | PRNG: 55 calls
+  Map updated (3 rows changed)
+[Step 368] Key: k | PRNG: 52 calls
+  Map updated (2 rows changed)
+[Step 369] Key: Y | PRNG: 0 calls
+[Step 370] Key: H | PRNG: 151 calls
+  Map updated (3 rows changed)
+[Step 371] Key: k | PRNG: 46 calls
+  Msg: You swap places with your little dog.
+  Map updated (2 rows changed)
+[Step 372] Key: k | PRNG: 104 calls
+  Map updated (3 rows changed)
+[Step 373] Key: Y | PRNG: 24 calls
+  Msg: You hear someone cursing shoplifters.--More--
+  Map updated (3 rows changed)
+[Step 374] Key:   | PRNG: 28 calls
+  Msg: You see here a statue of a newt.
+  Map updated (2 rows changed)
+[Step 375] Key: y | PRNG: 53 calls
+  Map updated (3 rows changed)
+[Step 376] Key: k | PRNG: 41 calls
+  Map updated (2 rows changed)
+[Step 377] Key: h | PRNG: 33 calls
+  Map updated (1 rows changed)
+[Step 378] Key: H | PRNG: 503 calls
+  Map updated (2 rows changed)
+[Step 379] Key: h | PRNG: 60 calls
+  Map updated (1 rows changed)
+[Step 380] Key: y | PRNG: 20 calls
+  Map updated (2 rows changed)
+[Step 381] Key: H | PRNG: 363 calls
+  Map updated (3 rows changed)
+[Step 382] Key: Y | PRNG: 285 calls
+  Msg: Ouch!  You bump into a door.
+  Map updated (8 rows changed)
+[Step 383] Key: h | PRNG: 0 calls
+  Msg: This door is locked.
+[Step 384] Key:  | PRNG: 0 calls
+  Msg: In what direction?
+[Step 385] Key: h | PRNG: 44 calls
+  Msg: Thwack!!
+[Step 386] Key:  | PRNG: 0 calls
+  Msg: In what direction?
+[Step 387] Key: h | PRNG: 41 calls
+  Msg: As you kick the door, it crashes open!
+  Map updated (8 rows changed)
+[Step 388] Key: h | PRNG: 62 calls
+  Map updated (8 rows changed)
+[Step 389] Key: h | PRNG: 49 calls
+  Map updated (6 rows changed)
+[Step 390] Key: h | PRNG: 21 calls
+  Map updated (1 rows changed)
+[Step 391] Key: h | PRNG: 46 calls
+  Map updated (1 rows changed)
+[Step 392] Key: h | PRNG: 26 calls
+  Msg: You see here a pair of leather gloves.
+  Map updated (1 rows changed)
+[Step 393] Key: h | PRNG: 38 calls
+  Map updated (1 rows changed)
+[Step 394] Key: b | PRNG: 117 calls
+  Map updated (3 rows changed)
+[Step 395] Key: b | PRNG: 41 calls
+  Map updated (2 rows changed)
+[Step 396] Key: b | PRNG: 29 calls
+  Map updated (2 rows changed)
+[Step 397] Key: b | PRNG: 103 calls
+  Msg: You see here a lembas wafer.
+  Map updated (2 rows changed)
+[Step 398] Key: , | PRNG: 52 calls
+  Msg: You have a little trouble lifting z - a lembas wafer.
+[Step 399] Key: u | PRNG: 50 calls
+  Map updated (2 rows changed)
+[Step 400] Key: u | PRNG: 99 calls
+  Map updated (2 rows changed)
+[Step 401] Key: u | PRNG: 57 calls
+  Map updated (4 rows changed)
+[Step 402] Key: j | PRNG: 58 calls
+  Map updated (4 rows changed)
+[Step 403] Key: j | PRNG: 78 calls
+  Map updated (3 rows changed)
+[Step 404] Key: b | PRNG: 52 calls
+  Map updated (3 rows changed)
+[Step 405] Key: h | PRNG: 58 calls
+  Msg: You kill the newt!
+  Map updated (2 rows changed)
+[Step 406] Key: h | PRNG: 119 calls
+  Map updated (2 rows changed)
+[Step 407] Key: u | PRNG: 43 calls
+  Map updated (4 rows changed)
+[Step 408] Key: k | PRNG: 42 calls
+  Map updated (4 rows changed)
+[Step 409] Key: k | PRNG: 122 calls
+  Map updated (3 rows changed)
+[Step 410] Key: u | PRNG: 42 calls
+  Map updated (2 rows changed)
+[Step 411] Key: l | PRNG: 52 calls
+  Map updated (3 rows changed)
+[Step 412] Key: n | PRNG: 46 calls
+  Map updated (3 rows changed)
+[Step 413] Key: n | PRNG: 72 calls
+  Map updated (2 rows changed)
+[Step 414] Key: h | PRNG: 71 calls
+  Map updated (2 rows changed)
+[Step 415] Key: h | PRNG: 101 calls
+  Map updated (2 rows changed)
+[Step 416] Key: y | PRNG: 21 calls
+  Map updated (2 rows changed)
+[Step 417] Key: y | PRNG: 53 calls
+  Map updated (2 rows changed)
+[Step 418] Key: H | PRNG: 102 calls
+  Map updated (2 rows changed)
+[Step 419] Key: H | PRNG: 0 calls
+[Step 420] Key: h | PRNG: 0 calls
+[Step 421] Key: h | PRNG: 0 calls
+[Step 422] Key: h | PRNG: 0 calls
+[Step 423] Key: b | PRNG: 0 calls
+[Step 424] Key: l | PRNG: 40 calls
+  Map updated (2 rows changed)
+[Step 425] Key: l | PRNG: 145 calls
+  Map updated (2 rows changed)
+[Step 426] Key: e | PRNG: 0 calls
+  Msg: What do you want to eat? [lz or ?*]
+[Step 427] Key: y | PRNG: 0 calls
+  Msg: You cannot eat that!
+[Step 428] Key: b | PRNG: 36 calls
+  Map updated (3 rows changed)
+[Step 429] Key: H | PRNG: 34 calls
+  Map updated (2 rows changed)
+[Step 430] Key: j | PRNG: 56 calls
+  Map updated (2 rows changed)
+[Step 431] Key: J | PRNG: 50 calls
+  Map updated (2 rows changed)
+[Step 432] Key: j | PRNG: 0 calls
+[Step 433] Key: n | PRNG: 0 calls
+[Step 434] Key: j | PRNG: 0 calls
+[Step 435] Key: j | PRNG: 0 calls
+[Step 436] Key: n | PRNG: 0 calls
+[Step 437] Key: U | PRNG: 264 calls
+  Map updated (3 rows changed)
+[Step 438] Key: l | PRNG: 46 calls
+  Map updated (3 rows changed)
+[Step 439] Key: l | PRNG: 92 calls
+  Map updated (3 rows changed)
+[Step 440] Key: l | PRNG: 48 calls
+  Map updated (2 rows changed)
+[Step 441] Key: u | PRNG: 0 calls
+[Step 442] Key: _ | PRNG: 0 calls
+  Msg: Where do you want to travel to?--More--
+[Step 443] Key: < | PRNG: 0 calls
+  Msg: Where do you want to travel to?--More--
+[Step 444] Key:   | PRNG: 0 calls
+  Msg: Tip: Farlooking or selecting a map location
+  Map updated (7 rows changed)
+[Step 445] Key:   | PRNG: 0 calls
+  Msg: (For instructions type a '?')  Move cursor to the desired destination:
+  Map updated (7 rows changed)
+[Step 446] Key: < | PRNG: 0 calls
+  Msg: staircase up
+[Step 447] Key: . | PRNG: 876 calls
+  Msg: staircase up
+  Map updated (2 rows changed)
+[Step 448] Key: < | PRNG: 47 calls
+  Msg: You climb up the stairs.--More--
+[Step 449] Key:   | PRNG: 16 calls
+  Map updated (18 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1175 HP:14(14) Pw:5(5) AC:1 Xp:1 Burdened
+[Step 450] Key: u | PRNG: 117 calls
+  Map updated (2 rows changed)
+[Step 451] Key: k | PRNG: 72 calls
+  Map updated (2 rows changed)
+[Step 452] Key: l | PRNG: 15 calls
+  Map updated (3 rows changed)
+[Step 453] Key: L | PRNG: 360 calls
+  Map updated (2 rows changed)
+[Step 454] Key: l | PRNG: 81 calls
+  Msg: You see here a locked chest.
+  Map updated (2 rows changed)
+[Step 455] Key: l | PRNG: 22 calls
+  Map updated (1 rows changed)
+[Step 456] Key: l | PRNG: 43 calls
+  Map updated (2 rows changed)
+[Step 457] Key: z | PRNG: 0 calls
+  Msg: What do you want to zap? [hp or ?*]
+[Step 458] Key: ? | PRNG: 0 calls
+  Msg: Wands
+  Map updated (3 rows changed)
+[Step 459] Key: p | PRNG: 0 calls
+  Msg: In what direction?
+  Map updated (3 rows changed)
+[Step 460] Key: l | PRNG: 143 calls
+  Map updated (2 rows changed)
+[Step 461] Key: l | PRNG: 50 calls
+  Map updated (2 rows changed)
+[Step 462] Key: n | PRNG: 13 calls
+  Map updated (2 rows changed)
+[Step 463] Key: n | PRNG: 53 calls
+  Map updated (2 rows changed)
+[Step 464] Key: n | PRNG: 18 calls
+  Map updated (3 rows changed)
+[Step 465] Key: l | PRNG: 42 calls
+  Map updated (2 rows changed)
+[Step 466] Key: l | PRNG: 104 calls
+  Map updated (2 rows changed)
+[Step 467] Key: u | PRNG: 48 calls
+  Map updated (3 rows changed)
+[Step 468] Key: l | PRNG: 37 calls
+  Map updated (3 rows changed)
+[Step 469] Key: l | PRNG: 84 calls
+  Msg: The little dog bites the lichen.
+  Map updated (2 rows changed)
+[Step 470] Key: y | PRNG: 57 calls
+  Msg: The little dog misses the lichen.  The little dog bites the lichen.--More--
+  Map updated (2 rows changed)
+[Step 471] Key: y | PRNG: 0 calls
+  Msg: The little dog misses the lichen.  The little dog bites the lichen.--More--
+[Step 472] Key: y | PRNG: 0 calls
+  Msg: The little dog misses the lichen.  The little dog bites the lichen.--More--
+[Step 473] Key: y | PRNG: 0 calls
+  Msg: The little dog misses the lichen.  The little dog bites the lichen.--More--
+[Step 474] Key: h | PRNG: 0 calls
+  Msg: The little dog misses the lichen.  The little dog bites the lichen.--More--
+[Step 475] Key: h | PRNG: 0 calls
+  Msg: The little dog misses the lichen.  The little dog bites the lichen.--More--
+[Step 476] Key: h | PRNG: 0 calls
+  Msg: The little dog misses the lichen.  The little dog bites the lichen.--More--
+[Step 477] Key: h | PRNG: 0 calls
+  Msg: The little dog misses the lichen.  The little dog bites the lichen.--More--
+[Step 478] Key: h | PRNG: 0 calls
+  Msg: The little dog misses the lichen.  The little dog bites the lichen.--More--
+[Step 479] Key: h | PRNG: 0 calls
+  Msg: The little dog misses the lichen.  The little dog bites the lichen.--More--
+[Step 480] Key: h | PRNG: 0 calls
+  Msg: The little dog misses the lichen.  The little dog bites the lichen.--More--
+[Step 481] Key: h | PRNG: 0 calls
+  Msg: The little dog misses the lichen.  The little dog bites the lichen.--More--
+[Step 482] Key: h | PRNG: 0 calls
+  Msg: The little dog misses the lichen.  The little dog bites the lichen.--More--
+[Step 483] Key: h | PRNG: 0 calls
+  Msg: The little dog misses the lichen.  The little dog bites the lichen.--More--
+[Step 484] Key: l | PRNG: 0 calls
+  Msg: The little dog misses the lichen.  The little dog bites the lichen.--More--
+[Step 485] Key: a | PRNG: 0 calls
+  Msg: The little dog misses the lichen.  The little dog bites the lichen.--More--
+[Step 486] Key: ? | PRNG: 0 calls
+  Msg: The little dog misses the lichen.  The little dog bites the lichen.--More--
+[Step 487] Key: c | PRNG: 0 calls
+  Msg: The little dog misses the lichen.  The little dog bites the lichen.--More--
+[Step 488] Key: l | PRNG: 0 calls
+  Msg: The little dog misses the lichen.  The little dog bites the lichen.--More--
+[Step 489] Key: l | PRNG: 0 calls
+  Msg: The little dog misses the lichen.  The little dog bites the lichen.--More--
+[Step 490] Key: l | PRNG: 0 calls
+  Msg: The little dog misses the lichen.  The little dog bites the lichen.--More--
+[Step 491] Key: l | PRNG: 0 calls
+  Msg: The little dog misses the lichen.  The little dog bites the lichen.--More--
+[Step 492] Key: l | PRNG: 0 calls
+  Msg: The little dog misses the lichen.  The little dog bites the lichen.--More--
+[Step 493] Key: l | PRNG: 0 calls
+  Msg: The little dog misses the lichen.  The little dog bites the lichen.--More--
+[Step 494] Key: a | PRNG: 0 calls
+  Msg: The little dog misses the lichen.  The little dog bites the lichen.--More--
+[Step 495] Key: o | PRNG: 0 calls
+  Msg: The little dog misses the lichen.  The little dog bites the lichen.--More--
+[Step 496] Key:   | PRNG: 8 calls
+  Msg: The lichen is killed!
+  Map updated (1 rows changed)
+[Step 497] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 498] Key: l | PRNG: 0 calls
+  Msg: # loot
+[Step 499] Key: l | PRNG: 0 calls
+  Msg: # ll
+[Step 500] Key: \r (Enter) | PRNG: 0 calls
+  Msg: #ll: unknown extended command.
+[Step 501] Key:  | PRNG: 0 calls
+  Msg: View which?
+  Map updated (4 rows changed)
+[Step 502] Key: a | PRNG: 0 calls
+  Msg: Showing known terrain only...  (For instructions type a '?')
+  Map updated (9 rows changed)
+[Step 503] Key:   | PRNG: 0 calls
+  Msg: Done.--More--
+[Step 504] Key:   | PRNG: 0 calls
+  Map updated (5 rows changed)
+[Step 505] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 506] Key: l | PRNG: 0 calls
+  Msg: # loot
+[Step 507] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Loot in what direction?
+[Step 508] Key: # | PRNG: 0 calls
+  Msg: cmdassist: Invalid direction key!
+  Map updated (19 rows changed)
+  Status update:  | --More--
+[Step 509] Key: f | PRNG: 0 calls
+  Msg: cmdassist: Invalid direction key!
+[Step 510] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Never mind.
+  Map updated (19 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1175 HP:14(14) Pw:5(5) AC:1 Xp:1 Burdened
+[Step 511] Key: y | PRNG: 48 calls
+  Map updated (3 rows changed)
+[Step 512] Key: l | PRNG: 58 calls
+  Map updated (2 rows changed)
+[Step 513] Key: l | PRNG: 33 calls
+  Map updated (2 rows changed)
+[Step 514] Key: l | PRNG: 35 calls
+  Map updated (3 rows changed)
+[Step 515] Key: l | PRNG: 58 calls
+  Map updated (3 rows changed)
+[Step 516] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 517] Key: f | PRNG: 0 calls
+  Msg: # force
+[Step 518] Key: \r (Enter) | PRNG: 33 calls
+  Msg: You decide not to force the issue.
+  Map updated (2 rows changed)
+[Step 519] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 520] Key: f | PRNG: 0 calls
+  Msg: # force
+[Step 521] Key: \r (Enter) | PRNG: 31 calls
+  Msg: You decide not to force the issue.
+  Map updated (2 rows changed)
+[Step 522] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 523] Key: \r (Enter) | PRNG: 0 calls
+[Step 524] Key: b | PRNG: 97 calls
+  Map updated (2 rows changed)
+[Step 525] Key: a | PRNG: 0 calls
+  Msg: What do you want to use or apply? [ch-kop or ?*]
+[Step 526] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Never mind.
+[Step 527] Key: a | PRNG: 0 calls
+  Msg: What do you want to use or apply? [ch-kop or ?*]
+[Step 528] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Never mind.
+[Step 529] Key: i | PRNG: 0 calls
+  Msg: Coins
+  Map updated (21 rows changed)
+  Status update: h - a wand of sleep (0:5) | (1 of 2)
+[Step 530] Key: k | PRNG: 0 calls
+  Msg: Do what with the spellbook of stone to flesh?
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 531] Key: e | PRNG: 0 calls
+  Msg: Do what with the spellbook of stone to flesh?
+[Step 532] Key: \r (Enter) | PRNG: 0 calls
+  Map updated (8 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1175 HP:14(14) Pw:5(5) AC:1 Xp:1 Burdened
+[Step 533] Key: n | PRNG: 63 calls
+  Map updated (2 rows changed)
+[Step 534] Key: n | PRNG: 0 calls
+[Step 535] Key: z | PRNG: 0 calls
+  Msg: What do you want to zap? [hp or ?*]
+[Step 536] Key: ? | PRNG: 0 calls
+  Msg: Wands
+  Map updated (3 rows changed)
+[Step 537] Key: p | PRNG: 0 calls
+  Msg: In what direction?
+  Map updated (3 rows changed)
+[Step 538] Key: l | PRNG: 3 calls
+  Msg: The sleep ray bounces!  The sleep ray hits you!--More--
+  Map updated (1 rows changed)
+[Step 539] Key: u | PRNG: 0 calls
+  Msg: The sleep ray bounces!  The sleep ray hits you!--More--
+[Step 540] Key: n | PRNG: 0 calls
+  Msg: The sleep ray bounces!  The sleep ray hits you!--More--
+[Step 541] Key: n | PRNG: 0 calls
+  Msg: The sleep ray bounces!  The sleep ray hits you!--More--
+[Step 542] Key: e | PRNG: 0 calls
+  Msg: The sleep ray bounces!  The sleep ray hits you!--More--
+[Step 543] Key: y | PRNG: 0 calls
+  Msg: The sleep ray bounces!  The sleep ray hits you!--More--
+[Step 544] Key: _ | PRNG: 0 calls
+  Msg: The sleep ray bounces!  The sleep ray hits you!--More--
+[Step 545] Key: > | PRNG: 0 calls
+  Msg: The sleep ray bounces!  The sleep ray hits you!--More--
+[Step 546] Key: . | PRNG: 0 calls
+  Msg: The sleep ray bounces!  The sleep ray hits you!--More--
+[Step 547] Key: _ | PRNG: 0 calls
+  Msg: The sleep ray bounces!  The sleep ray hits you!--More--
+[Step 548] Key: . | PRNG: 0 calls
+  Msg: The sleep ray bounces!  The sleep ray hits you!--More--
+[Step 549] Key: 9 | PRNG: 0 calls
+  Msg: The sleep ray bounces!  The sleep ray hits you!--More--
+[Step 550] Key: s | PRNG: 0 calls
+  Msg: The sleep ray bounces!  The sleep ray hits you!--More--
+[Step 551] Key: > | PRNG: 0 calls
+  Msg: The sleep ray bounces!  The sleep ray hits you!--More--
+[Step 552] Key:   | PRNG: 2 calls
+  Msg: But it reflects from your shield!  The sleep ray bounces!--More--
+[Step 553] Key: _ | PRNG: 0 calls
+  Msg: But it reflects from your shield!  The sleep ray bounces!--More--
+[Step 554] Key: [ | PRNG: 0 calls
+  Msg: But it reflects from your shield!  The sleep ray bounces!--More--
+[Step 555] Key: > | PRNG: 0 calls
+  Msg: But it reflects from your shield!  The sleep ray bounces!--More--
+[Step 556] Key: . | PRNG: 0 calls
+  Msg: But it reflects from your shield!  The sleep ray bounces!--More--
+[Step 557] Key: l | PRNG: 0 calls
+  Msg: But it reflects from your shield!  The sleep ray bounces!--More--
+[Step 558] Key: l | PRNG: 0 calls
+  Msg: But it reflects from your shield!  The sleep ray bounces!--More--
+[Step 559] Key: l | PRNG: 0 calls
+  Msg: But it reflects from your shield!  The sleep ray bounces!--More--
+[Step 560] Key: l | PRNG: 0 calls
+  Msg: But it reflects from your shield!  The sleep ray bounces!--More--
+[Step 561] Key: e | PRNG: 0 calls
+  Msg: But it reflects from your shield!  The sleep ray bounces!--More--
+[Step 562] Key: y | PRNG: 0 calls
+  Msg: But it reflects from your shield!  The sleep ray bounces!--More--
+[Step 563] Key:   | PRNG: 67 calls
+  Msg: The sleep ray hits you!  But it reflects from your shield!
+  Map updated (1 rows changed)
+[Step 564] Key: _ | PRNG: 0 calls
+  Msg: Where do you want to travel to?  (For instructions type a '?')
+[Step 565] Key: . | PRNG: 0 calls
+  Msg: You are already here.
+[Step 566] Key: . | PRNG: 98 calls
+  Map updated (1 rows changed)
+[Step 567] Key: > | PRNG: 0 calls
+  Msg: You can't go down here.
+[Step 568] Key: a | PRNG: 0 calls
+  Msg: What do you want to use or apply? [ch-kop or ?*]
+[Step 569] Key: o | PRNG: 10 calls
+  Msg: You start playing your drum.  You beat a deafening row!--More--
+[Step 570] Key: u | PRNG: 0 calls
+  Msg: You start playing your drum.  You beat a deafening row!--More--
+[Step 571] Key: n | PRNG: 0 calls
+  Msg: You start playing your drum.  You beat a deafening row!--More--
+[Step 572] Key: z | PRNG: 0 calls
+  Msg: You start playing your drum.  You beat a deafening row!--More--
+[Step 573] Key: p | PRNG: 0 calls
+  Msg: You start playing your drum.  You beat a deafening row!--More--
+[Step 574] Key: n | PRNG: 0 calls
+  Msg: You start playing your drum.  You beat a deafening row!--More--
+[Step 575] Key: h | PRNG: 0 calls
+  Msg: You start playing your drum.  You beat a deafening row!--More--
+[Step 576] Key: h | PRNG: 0 calls
+  Msg: You start playing your drum.  You beat a deafening row!--More--
+[Step 577] Key: h | PRNG: 0 calls
+  Msg: You start playing your drum.  You beat a deafening row!--More--
+[Step 578] Key: h | PRNG: 0 calls
+  Msg: You start playing your drum.  You beat a deafening row!--More--
+[Step 579] Key: b | PRNG: 0 calls
+  Msg: You start playing your drum.  You beat a deafening row!--More--
+[Step 580] Key:   | PRNG: 25 calls
+  Msg: The little dog turns to flee.
+  Map updated (2 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1175 HP:14(14) Pw:5(5) AC:1 Xp:1 Burdened Deaf
+[Step 581] Key: < | PRNG: 0 calls
+  Msg: You can't go up here.
+[Step 582] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 583] Key: i | PRNG: 0 calls
+  Msg: Coins
+  Map updated (21 rows changed)
+  Status update: h - a wand of sleep (0:5) | (1 of 2)
+[Step 584] Key: ESC | PRNG: 0 calls
+  Map updated (21 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1175 HP:14(14) Pw:5(5) AC:1 Xp:1 Burdened Deaf
+[Step 585] Key: + | PRNG: 0 calls
+  Msg: Currently known spells
+  Map updated (6 rows changed)
+[Step 586] Key: ESC | PRNG: 0 calls
+  Map updated (6 rows changed)
+[Step 587] Key: \ | PRNG: 0 calls
+  Msg: Discoveries, by order of discovery within each class
+  Map updated (20 rows changed)
+  Status update: potion of paralysis (yellow) | --More--
+[Step 588] Key: ESC | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1175 HP:14(14) Pw:5(5) AC:1 Xp:1 Burdened Deaf
+[Step 589] Key:  | PRNG: 0 calls
+  Msg: David the Healer's attributes:
+  Map updated (20 rows changed)
+  Status update: Your intelligence is 11. | (1 of 2)
+[Step 590] Key:   | PRNG: 0 calls
+  Msg: Your wisdom is 18.
+  Map updated (20 rows changed)
+  Status update:  | 
+[Step 591] Key: ESC | PRNG: 0 calls
+  Map updated (19 rows changed)
+  Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1175 HP:14(14) Pw:5(5) AC:1 Xp:1 Burdened Deaf
+[Step 592] Key: s | PRNG: 27 calls
+  Map updated (1 rows changed)
+[Step 593] Key: s | PRNG: 46 calls
+  Map updated (1 rows changed)
+[Step 594] Key: : | PRNG: 0 calls
+  Msg: You see no objects here.

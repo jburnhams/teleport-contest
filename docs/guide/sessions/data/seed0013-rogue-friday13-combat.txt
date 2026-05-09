@@ -1,0 +1,124 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 3824 calls
+  Msg: It is written in the Book of Kos:
+  Status: Sneaky the Footpad             St:14 Dx:16 Co:14 In:10 Wi:12 Ch:9 Chaotic | Dlvl:1 $:0 HP:12(12) Pw:2(2) AC:0 Xp:1
+[Step 1] Key:   | PRNG: 0 calls
+  Msg: Hello Sneaky, welcome to NetHack!  You are a chaotic female human Rogue.
+  Map updated (15 rows changed)
+  Status update: Sneaky the Footpad             St:14 Dx:16 Co:14 In:10 Wi:12 Ch:9 Chaotic | Dlvl:1 $:0 HP:12(12) Pw:2(2) AC:7 Xp:1
+[Step 2] Key:   | PRNG: 0 calls
+  Msg: You are lucky!  Full moon tonight.--More--
+  Map updated (1 rows changed)
+[Step 3] Key:   | PRNG: 2 calls
+  Msg: Watch out!  Bad things can happen on Friday the 13th.
+[Step 4] Key: L | PRNG: 28 calls
+  Msg: You hear an A note squeak in the distance.
+  Map updated (2 rows changed)
+[Step 5] Key:  | PRNG: 363 calls
+  Map updated (8 rows changed)
+[Step 6] Key: l | PRNG: 16 calls
+  Map updated (8 rows changed)
+[Step 7] Key: K | PRNG: 0 calls
+[Step 8] Key: L | PRNG: 49 calls
+  Map updated (7 rows changed)
+[Step 9] Key: L | PRNG: 197 calls
+  Map updated (2 rows changed)
+[Step 10] Key: l | PRNG: 0 calls
+[Step 11] Key: J | PRNG: 37 calls
+  Map updated (2 rows changed)
+[Step 12] Key: L | PRNG: 0 calls
+[Step 13] Key: L | PRNG: 0 calls
+[Step 14] Key: L | PRNG: 0 calls
+[Step 15] Key: K | PRNG: 185 calls
+  Map updated (5 rows changed)
+[Step 16] Key: L | PRNG: 0 calls
+[Step 17] Key: h | PRNG: 0 calls
+[Step 18] Key: h | PRNG: 0 calls
+[Step 19] Key: h | PRNG: 0 calls
+[Step 20] Key: h | PRNG: 0 calls
+[Step 21] Key: , | PRNG: 0 calls
+  Msg: There is nothing here to pick up.
+[Step 22] Key: , | PRNG: 0 calls
+  Msg: There is nothing here to pick up.
+[Step 23] Key: d | PRNG: 0 calls
+  Msg: What do you want to drop? [a-g or ?*]
+[Step 24] Key: a | PRNG: 17 calls
+  Msg: You drop a +0 short sword.
+  Map updated (2 rows changed)
+[Step 25] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 26] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 27] Key: c | PRNG: 0 calls
+  Msg: # c
+[Step 28] Key: h | PRNG: 0 calls
+  Msg: # ch
+[Step 29] Key: a | PRNG: 0 calls
+  Msg: # chat
+[Step 30] Key: t | PRNG: 0 calls
+  Msg: # chat
+[Step 31] Key: 
+ | PRNG: 0 calls
+  Msg: Talk to whom? (in what direction)
+[Step 32] Key: h | PRNG: 0 calls
+  Msg: It's like talking to a wall.
+[Step 33] Key: F | PRNG: 0 calls
+[Step 34] Key: h | PRNG: 25 calls
+  Msg: You harmlessly attack the wall.
+  Map updated (2 rows changed)
+[Step 35] Key: F | PRNG: 0 calls
+[Step 36] Key: h | PRNG: 17 calls
+  Msg: You harmlessly attack the wall.
+  Map updated (2 rows changed)
+[Step 37] Key: F | PRNG: 0 calls
+[Step 38] Key: h | PRNG: 21 calls
+  Msg: You harmlessly attack the wall.
+  Map updated (2 rows changed)
+[Step 39] Key: F | PRNG: 0 calls
+[Step 40] Key: h | PRNG: 20 calls
+  Msg: You harmlessly attack the wall.
+  Map updated (1 rows changed)
+[Step 41] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 42] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 43] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 44] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 45] Key: n | PRNG: 1 calls
+  Msg: The door opens.
+  Map updated (1 rows changed)
+[Step 46] Key: n | PRNG: 0 calls
+[Step 47] Key: i | PRNG: 0 calls
+  Msg: Weapons
+  Map updated (10 rows changed)
+[Step 48] Key: ESC | PRNG: 0 calls
+  Map updated (10 rows changed)
+[Step 49] Key: + | PRNG: 0 calls
+  Msg: You don't know any spells right now.
+[Step 50] Key: ESC | PRNG: 0 calls
+[Step 51] Key: \ | PRNG: 0 calls
+  Msg: Discoveries, by order of discovery within each class
+  Map updated (17 rows changed)
+  Status update:  | --More--
+[Step 52] Key: ESC | PRNG: 0 calls
+  Map updated (17 rows changed)
+  Status update: Sneaky the Footpad             St:14 Dx:16 Co:14 In:10 Wi:12 Ch:9 Chaotic | Dlvl:1 $:0 HP:12(12) Pw:2(2) AC:7 Xp:1
+[Step 53] Key:  | PRNG: 0 calls
+  Msg: Sneaky the Rogue's attributes:
+  Map updated (20 rows changed)
+  Status update: Your dexterity is 16. | (1 of 2)
+[Step 54] Key:   | PRNG: 0 calls
+  Msg: Your constitution is 14.
+  Map updated (20 rows changed)
+  Status update:  | 
+[Step 55] Key: ESC | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update: Sneaky the Footpad             St:14 Dx:16 Co:14 In:10 Wi:12 Ch:9 Chaotic | Dlvl:1 $:0 HP:12(12) Pw:2(2) AC:7 Xp:1
+[Step 56] Key: s | PRNG: 14 calls
+  Map updated (2 rows changed)
+[Step 57] Key: s | PRNG: 22 calls
+[Step 58] Key: : | PRNG: 0 calls
+  Msg: There is a doorway here.  You see here a +0 short sword.

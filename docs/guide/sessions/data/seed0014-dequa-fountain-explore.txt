@@ -1,0 +1,1720 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 0 calls
+  Status:  | 
+[Step 1] Key: D | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 2] Key: e | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 3] Key: q | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 4] Key: u | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 5] Key: a | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 6] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Shall I pick character's race, role, gender and alignment for you? [ynaq]
+[Step 7] Key: n | PRNG: 0 calls
+  Msg: Pick a role or profession
+  Map updated (19 rows changed)
+  Status update: q - Quit | (end)
+[Step 8] Key: v | PRNG: 1 calls
+  Msg: Pick a race or species
+  Map updated (19 rows changed)
+  Status update:  | 
+[Step 9] Key: d | PRNG: 0 calls
+  Msg: Is this ok? [ynaq]
+  Map updated (11 rows changed)
+[Step 10] Key: \r (Enter) | PRNG: 2953 calls
+  Msg: It is written in the Book of Tyr:
+  Map updated (15 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:1 $:0 HP:18(18) Pw:1(1) AC:0 Xp:1
+[Step 11] Key:   | PRNG: 0 calls
+  Msg: Velkommen Dequa, welcome to NetHack!  You are a lawful dwarven Valkyrie.
+  Map updated (16 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:1 $:0 HP:18(18) Pw:1(1) AC:6 Xp:1
+[Step 12] Key:   | PRNG: 2 calls
+  Msg: You are lucky!  Full moon tonight.--More--
+  Map updated (1 rows changed)
+[Step 13] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+  Map updated (5 rows changed)
+[Step 14] Key: n | PRNG: 0 calls
+  Map updated (5 rows changed)
+[Step 15] Key: u | PRNG: 8 calls
+  Msg: You swap places with your little dog.
+  Map updated (2 rows changed)
+[Step 16] Key: K | PRNG: 56 calls
+  Msg: You see here 4 gold pieces.
+  Map updated (4 rows changed)
+[Step 17] Key: @ | PRNG: 0 calls
+  Msg: Autopickup: ON, for all objects.
+[Step 18] Key: , | PRNG: 14 calls
+  Msg: $ - 4 gold pieces.
+  Map updated (2 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:1 $:4 HP:18(18) Pw:1(1) AC:6 Xp:1
+[Step 19] Key: u | PRNG: 47 calls
+  Map updated (3 rows changed)
+[Step 20] Key: u | PRNG: 1 calls
+  Msg: You swap places with your little dog.--More--
+  Map updated (2 rows changed)
+[Step 21] Key:   | PRNG: 31 calls
+  Msg: f - a scroll labeled STRC PRST SKRZ KRK.
+  Map updated (2 rows changed)
+[Step 22] Key: r | PRNG: 0 calls
+  Msg: What do you want to read? [f or ?*]
+[Step 23] Key: f | PRNG: 3 calls
+  Msg: As you read the scroll, it disappears.  This is an identify scroll.--More--
+[Step 24] Key:   | PRNG: 24 calls
+  Msg: You have already identified the rest of your possessions.
+  Map updated (4 rows changed)
+[Step 25] Key: O | PRNG: 0 calls
+  Msg: Options
+  Map updated (20 rows changed)
+  Status update: p - pushweapon              [ ] | (1 of 2)
+[Step 26] Key: o | PRNG: 0 calls
+  Msg: Autopickup what?
+  Map updated (20 rows changed)
+  Status update:  | 
+[Step 27] Key: # | PRNG: 0 calls
+  Msg: Autopickup what?
+[Step 28] Key: " | PRNG: 0 calls
+  Msg: Autopickup what?
+  Map updated (1 rows changed)
+[Step 29] Key: ? | PRNG: 0 calls
+  Msg: Autopickup what?
+  Map updated (1 rows changed)
+[Step 30] Key: + | PRNG: 0 calls
+  Msg: Autopickup what?
+  Map updated (1 rows changed)
+[Step 31] Key: ! | PRNG: 0 calls
+  Msg: Autopickup what?
+  Map updated (1 rows changed)
+[Step 32] Key: $ | PRNG: 0 calls
+  Msg: Autopickup what?
+  Map updated (1 rows changed)
+[Step 33] Key: = | PRNG: 0 calls
+  Msg: Autopickup what?
+  Map updated (1 rows changed)
+[Step 34] Key: / | PRNG: 0 calls
+  Msg: Autopickup what?
+  Map updated (1 rows changed)
+[Step 35] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Options
+  Map updated (20 rows changed)
+  Status update: p - pushweapon              [ ] | (1 of 2)
+[Step 36] Key: \r (Enter) | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:1 $:4 HP:18(18) Pw:1(1) AC:6 Xp:1
+[Step 37] Key: h | PRNG: 25 calls
+  Msg: You see here a chest.
+  Map updated (3 rows changed)
+[Step 38] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 39] Key: l | PRNG: 0 calls
+  Msg: # loot
+[Step 40] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Hmmm, the chest turns out to be locked.
+[Step 41] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 42] Key: f | PRNG: 0 calls
+  Msg: # force
+[Step 43] Key: \r (Enter) | PRNG: 0 calls
+  Msg: There is a locked chest here; force its lock? [ynq] (q)
+[Step 44] Key: y | PRNG: 35 calls
+  Msg: You start bashing it with your dwarvish spear.--More--
+  Map updated (2 rows changed)
+[Step 45] Key:   | PRNG: 2 calls
+  Msg: You succeed in forcing the lock.--More--
+[Step 46] Key:   | PRNG: 1 calls
+  Msg: In fact, you've totally destroyed the chest.--More--
+[Step 47] Key:   | PRNG: 27 calls
+  Msg: A spellbook is torn to shreds!
+  Map updated (2 rows changed)
+[Step 48] Key: l | PRNG: 39 calls
+  Msg: You kill the goblin!  Your little dog eats a goblin corpse.
+  Map updated (2 rows changed)
+[Step 49] Key: n | PRNG: 14 calls
+  Map updated (2 rows changed)
+[Step 50] Key: n | PRNG: 14 calls
+  Map updated (2 rows changed)
+[Step 51] Key: n | PRNG: 10 calls
+  Map updated (2 rows changed)
+[Step 52] Key: n | PRNG: 11 calls
+  Map updated (2 rows changed)
+[Step 53] Key: n | PRNG: 11 calls
+  Map updated (2 rows changed)
+[Step 54] Key: L | PRNG: 31 calls
+  Msg: You hear a door open.
+  Map updated (2 rows changed)
+[Step 55] Key: L | PRNG: 220 calls
+  Map updated (13 rows changed)
+[Step 56] Key: l | PRNG: 31 calls
+  Map updated (4 rows changed)
+[Step 57] Key: l | PRNG: 17 calls
+  Map updated (1 rows changed)
+[Step 58] Key: l | PRNG: 21 calls
+  Map updated (2 rows changed)
+[Step 59] Key: u | PRNG: 14 calls
+  Map updated (3 rows changed)
+[Step 60] Key: K | PRNG: 13 calls
+  Map updated (3 rows changed)
+[Step 61] Key: j | PRNG: 16 calls
+  Map updated (3 rows changed)
+[Step 62] Key: j | PRNG: 25 calls
+  Msg: You swap places with your little dog.
+  Map updated (3 rows changed)
+[Step 63] Key: n | PRNG: 13 calls
+  Map updated (4 rows changed)
+[Step 64] Key: n | PRNG: 28 calls
+  Map updated (3 rows changed)
+[Step 65] Key: l | PRNG: 23 calls
+  Map updated (2 rows changed)
+[Step 66] Key: L | PRNG: 96 calls
+  Map updated (6 rows changed)
+[Step 67] Key: k | PRNG: 15 calls
+  Msg: You kill the kobold!
+  Map updated (3 rows changed)
+[Step 68] Key: k | PRNG: 20 calls
+  Map updated (3 rows changed)
+[Step 69] Key: K | PRNG: 168 calls
+  Map updated (11 rows changed)
+[Step 70] Key: n | PRNG: 0 calls
+[Step 71] Key: l | PRNG: 19 calls
+  Map updated (4 rows changed)
+[Step 72] Key: h | PRNG: 11 calls
+  Map updated (2 rows changed)
+[Step 73] Key: h | PRNG: 21 calls
+  Map updated (1 rows changed)
+[Step 74] Key: J | PRNG: 223 calls
+  Msg: You swap places with your little dog.
+  Map updated (3 rows changed)
+[Step 75] Key: h | PRNG: 29 calls
+  Map updated (1 rows changed)
+[Step 76] Key: y | PRNG: 9 calls
+  Map updated (2 rows changed)
+[Step 77] Key: y | PRNG: 31 calls
+  Map updated (3 rows changed)
+[Step 78] Key: h | PRNG: 15 calls
+  Map updated (3 rows changed)
+[Step 79] Key: h | PRNG: 23 calls
+  Map updated (1 rows changed)
+[Step 80] Key: H | PRNG: 51 calls
+  Map updated (2 rows changed)
+[Step 81] Key: K | PRNG: 0 calls
+[Step 82] Key: Y | PRNG: 49 calls
+  Map updated (3 rows changed)
+[Step 83] Key: k | PRNG: 20 calls
+  Msg: You kill the newt!
+  Map updated (1 rows changed)
+[Step 84] Key: K | PRNG: 84 calls
+  Map updated (2 rows changed)
+[Step 85] Key: y | PRNG: 9 calls
+  Map updated (2 rows changed)
+[Step 86] Key: y | PRNG: 15 calls
+  Map updated (3 rows changed)
+[Step 87] Key: y | PRNG: 11 calls
+  Map updated (4 rows changed)
+[Step 88] Key: y | PRNG: 13 calls
+  Map updated (4 rows changed)
+[Step 89] Key: y | PRNG: 20 calls
+  Map updated (4 rows changed)
+[Step 90] Key: h | PRNG: 25 calls
+  Msg: You see here an orcish helm.
+  Map updated (3 rows changed)
+[Step 91] Key: h | PRNG: 15 calls
+  Msg: g - a white spellbook.
+  Map updated (2 rows changed)
+[Step 92] Key: , | PRNG: 0 calls
+  Msg: There is nothing here to pick up.
+[Step 93] Key: h | PRNG: 24 calls
+  Map updated (2 rows changed)
+[Step 94] Key: h | PRNG: 26 calls
+  Map updated (3 rows changed)
+[Step 95] Key: k | PRNG: 0 calls
+[Step 96] Key: l | PRNG: 34 calls
+  Map updated (2 rows changed)
+[Step 97] Key: l | PRNG: 21 calls
+  Map updated (2 rows changed)
+[Step 98] Key: l | PRNG: 21 calls
+  Msg: You see here an orcish helm.
+  Map updated (3 rows changed)
+[Step 99] Key: l | PRNG: 32 calls
+  Map updated (1 rows changed)
+[Step 100] Key: . | PRNG: 33 calls
+[Step 101] Key: . | PRNG: 23 calls
+  Map updated (2 rows changed)
+[Step 102] Key: . | PRNG: 14 calls
+  Map updated (2 rows changed)
+[Step 103] Key: . | PRNG: 14 calls
+  Map updated (2 rows changed)
+[Step 104] Key: . | PRNG: 31 calls
+[Step 105] Key: . | PRNG: 39 calls
+  Map updated (2 rows changed)
+[Step 106] Key: h | PRNG: 23 calls
+  Msg: You see here an orcish helm.
+  Map updated (2 rows changed)
+[Step 107] Key: h | PRNG: 26 calls
+  Map updated (3 rows changed)
+[Step 108] Key: l | PRNG: 26 calls
+  Msg: You see here an orcish helm.
+  Map updated (3 rows changed)
+[Step 109] Key: . | PRNG: 35 calls
+  Map updated (2 rows changed)
+[Step 110] Key: . | PRNG: 26 calls
+[Step 111] Key: . | PRNG: 20 calls
+  Map updated (2 rows changed)
+[Step 112] Key: . | PRNG: 23 calls
+  Map updated (2 rows changed)
+[Step 113] Key: . | PRNG: 15 calls
+  Map updated (1 rows changed)
+[Step 114] Key: . | PRNG: 26 calls
+  Map updated (2 rows changed)
+[Step 115] Key: . | PRNG: 12 calls
+  Map updated (1 rows changed)
+[Step 116] Key: . | PRNG: 20 calls
+  Map updated (2 rows changed)
+[Step 117] Key: . | PRNG: 15 calls
+  Map updated (1 rows changed)
+[Step 118] Key: s | PRNG: 26 calls
+  Map updated (2 rows changed)
+[Step 119] Key: s | PRNG: 29 calls
+[Step 120] Key: s | PRNG: 20 calls
+  Map updated (1 rows changed)
+[Step 121] Key: l | PRNG: 39 calls
+  Msg: You swap places with your little dog.
+  Map updated (2 rows changed)
+[Step 122] Key: h | PRNG: 33 calls
+  Msg: You see here an orcish helm.
+  Map updated (1 rows changed)
+[Step 123] Key: , | PRNG: 32 calls
+  Msg: h - an orcish helm.
+[Step 124] Key: W | PRNG: 0 calls
+  Msg: What do you want to wear? [h or ?*]
+[Step 125] Key: h | PRNG: 13 calls
+  Msg: You finish your dressing maneuver.
+  Map updated (2 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:1 $:4 HP:18(18) Pw:1(1) AC:9 Xp:1
+[Step 126] Key: i | PRNG: 0 calls
+  Msg: Coins
+  Map updated (14 rows changed)
+[Step 127] Key:   | PRNG: 0 calls
+  Map updated (14 rows changed)
+[Step 128] Key: T | PRNG: 0 calls
+  Msg: What do you want to take off? [ch or ?*]
+[Step 129] Key: h | PRNG: 0 calls
+  Msg: You can't.  It is cursed.
+[Step 130] Key: b | PRNG: 40 calls
+  Map updated (2 rows changed)
+[Step 131] Key: b | PRNG: 12 calls
+  Map updated (2 rows changed)
+[Step 132] Key: b | PRNG: 13 calls
+  Map updated (2 rows changed)
+[Step 133] Key: H | PRNG: 26 calls
+  Map updated (2 rows changed)
+[Step 134] Key: H | PRNG: 167 calls
+  Map updated (8 rows changed)
+[Step 135] Key: J | PRNG: 127 calls
+  Map updated (10 rows changed)
+[Step 136] Key: h | PRNG: 33 calls
+  Map updated (6 rows changed)
+[Step 137] Key: h | PRNG: 14 calls
+  Msg: $ - 3 gold pieces (7 in total).
+  Map updated (1 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:1 $:7 HP:18(18) Pw:1(1) AC:9 Xp:1
+[Step 138] Key: b | PRNG: 14 calls
+  Map updated (2 rows changed)
+[Step 139] Key: H | PRNG: 88 calls
+  Map updated (2 rows changed)
+[Step 140] Key: Y | PRNG: 127 calls
+  Map updated (16 rows changed)
+[Step 141] Key: h | PRNG: 23 calls
+  Msg: You swap places with your little dog.
+  Map updated (5 rows changed)
+[Step 142] Key: k | PRNG: 0 calls
+[Step 143] Key: h | PRNG: 12 calls
+  Map updated (2 rows changed)
+[Step 144] Key: k | PRNG: 12 calls
+  Msg: You see here a chest.
+  Map updated (3 rows changed)
+[Step 145] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 146] Key: l | PRNG: 0 calls
+  Msg: # loot
+[Step 147] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Hmmm, the chest turns out to be locked.
+[Step 148] Key: h | PRNG: 15 calls
+  Map updated (2 rows changed)
+[Step 149] Key: h | PRNG: 27 calls
+  Msg: i - a purple-red potion.
+  Map updated (2 rows changed)
+[Step 150] Key: , | PRNG: 0 calls
+  Msg: There is nothing here to pick up.
+[Step 151] Key: q | PRNG: 0 calls
+  Msg: What do you want to drink? [i or ?*]
+[Step 152] Key: i | PRNG: 0 calls
+  Msg: Yecch!  This stuff tastes like poison.--More--
+[Step 153] Key:   | PRNG: 24 calls
+  Msg: (But in fact it was mildly stale slime mold juice.)
+  Map updated (1 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:1 $:7 HP:17(18) Pw:1(1) AC:9 Xp:1
+[Step 154] Key: b | PRNG: 31 calls
+  Map updated (3 rows changed)
+[Step 155] Key: B | PRNG: 58 calls
+  Map updated (6 rows changed)
+[Step 156] Key: h | PRNG: 0 calls
+[Step 157] Key: y | PRNG: 13 calls
+  Map updated (5 rows changed)
+[Step 158] Key: h | PRNG: 25 calls
+  Msg: You see here 10 darts.
+  Map updated (4 rows changed)
+[Step 159] Key: , | PRNG: 12 calls
+  Msg: j - 10 darts.
+  Map updated (2 rows changed)
+[Step 160] Key: b | PRNG: 12 calls
+  Map updated (3 rows changed)
+[Step 161] Key: J | PRNG: 179 calls
+  Map updated (13 rows changed)
+[Step 162] Key: j | PRNG: 40 calls
+  Map updated (4 rows changed)
+[Step 163] Key: L | PRNG: 129 calls
+  Msg: You swap places with your little dog.--More--
+  Map updated (1 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:1 $:12 HP:18(18) Pw:1(1) AC:9 Xp:1
+[Step 164] Key:   | PRNG: 16 calls
+  Msg: $ - 5 gold pieces (12 in total).
+  Map updated (2 rows changed)
+[Step 165] Key: N | PRNG: 13 calls
+  Map updated (3 rows changed)
+[Step 166] Key: U | PRNG: 231 calls
+  Map updated (12 rows changed)
+[Step 167] Key: u | PRNG: 10 calls
+  Map updated (2 rows changed)
+[Step 168] Key: l | PRNG: 19 calls
+  Map updated (2 rows changed)
+[Step 169] Key: l | PRNG: 17 calls
+  Map updated (2 rows changed)
+[Step 170] Key: n | PRNG: 12 calls
+  Msg: You see here a locked chest.
+  Map updated (2 rows changed)
+[Step 171] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 172] Key: f | PRNG: 0 calls
+  Msg: # force
+[Step 173] Key: \r (Enter) | PRNG: 0 calls
+  Msg: There is a locked chest here; force its lock? [ynq] (q)
+[Step 174] Key: y | PRNG: 492 calls
+  Msg: You start bashing it with your dwarvish spear.--More--
+  Map updated (2 rows changed)
+[Step 175] Key:   | PRNG: 2 calls
+  Msg: You succeed in forcing the lock.--More--
+[Step 176] Key:   | PRNG: 46 calls
+  Msg: In fact, you've totally destroyed the chest.
+  Map updated (2 rows changed)
+[Step 177] Key: : | PRNG: 0 calls
+  Msg: You see here a black onyx ring.
+[Step 178] Key: , | PRNG: 36 calls
+  Msg: k - a black onyx ring.
+  Map updated (2 rows changed)
+[Step 179] Key: P | PRNG: 0 calls
+  Msg: What do you want to put on? [k or ?*]
+[Step 180] Key: k | PRNG: 0 calls
+  Msg: Which ring-finger, Right or Left? [rl]
+[Step 181] Key: r | PRNG: 27 calls
+  Msg: k - a black onyx ring (on right hand).
+  Map updated (2 rows changed)
+[Step 182] Key: n | PRNG: 16 calls
+  Map updated (3 rows changed)
+[Step 183] Key: l | PRNG: 35 calls
+  Map updated (2 rows changed)
+[Step 184] Key: _ | PRNG: 0 calls
+  Msg: Where do you want to travel to?--More--
+[Step 185] Key: > | PRNG: 0 calls
+  Msg: Where do you want to travel to?--More--
+[Step 186] Key:   | PRNG: 0 calls
+  Msg: Tip: Farlooking or selecting a map location
+  Map updated (7 rows changed)
+[Step 187] Key:   | PRNG: 0 calls
+  Msg: (For instructions type a '?')  Move cursor to the desired destination:
+  Map updated (7 rows changed)
+[Step 188] Key: > | PRNG: 0 calls
+  Msg: Can't find dungeon feature '>'.
+[Step 189] Key: \r (Enter) | PRNG: 0 calls
+  Msg: unexplored area (no travel path)
+[Step 190] Key:   | PRNG: 0 calls
+  Msg: unexplored area (no travel path)
+[Step 191] Key: ESC | PRNG: 0 calls
+[Step 192] Key: N | PRNG: 258 calls
+  Map updated (3 rows changed)
+[Step 193] Key: l | PRNG: 13 calls
+  Map updated (2 rows changed)
+[Step 194] Key: u | PRNG: 25 calls
+  Map updated (2 rows changed)
+[Step 195] Key: L | PRNG: 68 calls
+  Map updated (2 rows changed)
+[Step 196] Key: l | PRNG: 37 calls
+  Msg: You miss the grid bug.  The grid bug bites!  You get zapped!
+  Map updated (2 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:1 $:12 HP:17(18) Pw:1(1) AC:9 Xp:1
+[Step 197] Key: l | PRNG: 40 calls
+  Msg: You kill the grid bug!
+  Map updated (2 rows changed)
+[Step 198] Key: l | PRNG: 13 calls
+  Map updated (2 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:1 $:12 HP:18(18) Pw:1(1) AC:9 Xp:1
+[Step 199] Key: U | PRNG: 185 calls
+  Msg: That door is closed.
+  Map updated (5 rows changed)
+[Step 200] Key: b | PRNG: 14 calls
+  Map updated (2 rows changed)
+[Step 201] Key: j | PRNG: 0 calls
+[Step 202] Key: n | PRNG: 29 calls
+  Map updated (2 rows changed)
+[Step 203] Key: j | PRNG: 27 calls
+  Map updated (2 rows changed)
+[Step 204] Key: j | PRNG: 15 calls
+  Map updated (2 rows changed)
+[Step 205] Key: n | PRNG: 27 calls
+  Map updated (2 rows changed)
+[Step 206] Key: l | PRNG: 23 calls
+  Map updated (3 rows changed)
+[Step 207] Key: k | PRNG: 22 calls
+  Map updated (5 rows changed)
+[Step 208] Key: k | PRNG: 29 calls
+  Map updated (3 rows changed)
+[Step 209] Key: l | PRNG: 17 calls
+  Msg: You stop.  Your little dog is in the way!
+  Map updated (2 rows changed)
+[Step 210] Key: l | PRNG: 16 calls
+  Map updated (3 rows changed)
+[Step 211] Key: l | PRNG: 57 calls
+  Msg: $ - 7 gold pieces (19 in total).  You see here a food ration.
+  Map updated (3 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:1 $:19 HP:18(18) Pw:1(1) AC:9 Xp:1
+[Step 212] Key: , | PRNG: 0 calls
+  Msg: You learn more about your items by comparing them.--More--
+[Step 213] Key:   | PRNG: 9 calls
+  Msg: d - an uncursed food ration (2 in total).
+  Map updated (2 rows changed)
+[Step 214] Key: h | PRNG: 57 calls
+  Map updated (1 rows changed)
+[Step 215] Key: b | PRNG: 14 calls
+  Map updated (4 rows changed)
+[Step 216] Key: n | PRNG: 12 calls
+  Map updated (3 rows changed)
+[Step 217] Key: l | PRNG: 14 calls
+  Map updated (1 rows changed)
+[Step 218] Key: N | PRNG: 178 calls
+  Map updated (7 rows changed)
+[Step 219] Key: H | PRNG: 143 calls
+  Msg: That door is closed.
+  Map updated (4 rows changed)
+[Step 220] Key: j | PRNG: 2 calls
+  Msg: The door opens.
+  Map updated (4 rows changed)
+[Step 221] Key: j | PRNG: 17 calls
+  Map updated (5 rows changed)
+[Step 222] Key: j | PRNG: 18 calls
+  Map updated (4 rows changed)
+[Step 223] Key: N | PRNG: 18 calls
+  Map updated (2 rows changed)
+[Step 224] Key: L | PRNG: 167 calls
+  Msg: l - a wrinkled spellbook.
+  Map updated (3 rows changed)
+[Step 225] Key: , | PRNG: 0 calls
+  Msg: There is nothing here to pick up.
+[Step 226] Key: r | PRNG: 0 calls
+  Msg: What do you want to read? [gl or ?*]
+[Step 227] Key: l | PRNG: 57 calls
+  Msg: You feel threatened.  You can move again.
+  Map updated (1 rows changed)
+[Step 228] Key: y | PRNG: 44 calls
+  Map updated (2 rows changed)
+[Step 229] Key: h | PRNG: 26 calls
+  Map updated (2 rows changed)
+[Step 230] Key: h | PRNG: 21 calls
+  Map updated (1 rows changed)
+[Step 231] Key: > | PRNG: 2478 calls
+  Msg: You descend the stairs.--More--
+[Step 232] Key:   | PRNG: 39 calls
+  Map updated (19 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:2 $:19 HP:18(18) Pw:1(1) AC:9 Xp:1
+[Step 233] Key: n | PRNG: 21 calls
+  Msg: The little dog misses the lichen.
+  Map updated (2 rows changed)
+[Step 234] Key: n | PRNG: 40 calls
+  Msg: You miss the lichen.  The little dog misses the lichen.
+[Step 235] Key: n | PRNG: 15 calls
+  Msg: You miss the lichen.  The little dog bites the lichen.--More--
+[Step 236] Key:   | PRNG: 36 calls
+  Msg: The lichen is killed!
+  Map updated (1 rows changed)
+[Step 237] Key: n | PRNG: 38 calls
+  Msg: You see here a lichen corpse.
+  Map updated (2 rows changed)
+[Step 238] Key: e | PRNG: 0 calls
+  Msg: There is a lichen corpse here; eat it? [ynq] (n)
+[Step 239] Key: y | PRNG: 137 calls
+  Msg: This lichen corpse tastes okay.  You finish eating the lichen corpse.
+  Map updated (1 rows changed)
+[Step 240] Key: J | PRNG: 43 calls
+  Map updated (4 rows changed)
+[Step 241] Key: B | PRNG: 99 calls
+  Map updated (4 rows changed)
+[Step 242] Key: J | PRNG: 102 calls
+  Msg: That door is closed.
+  Map updated (5 rows changed)
+[Step 243] Key: j | PRNG: 2 calls
+  Msg: The door opens.
+  Map updated (5 rows changed)
+[Step 244] Key: j | PRNG: 21 calls
+  Map updated (7 rows changed)
+[Step 245] Key: j | PRNG: 38 calls
+  Map updated (3 rows changed)
+[Step 246] Key: L | PRNG: 81 calls
+  Msg: That door is closed.
+  Map updated (1 rows changed)
+[Step 247] Key: l | PRNG: 0 calls
+  Msg: This door is locked.
+[Step 248] Key: l | PRNG: 0 calls
+  Msg: This door is locked.
+[Step 249] Key:  | PRNG: 0 calls
+  Msg: In what direction?
+[Step 250] Key: l | PRNG: 37 calls
+  Msg: Whammm!!
+  Map updated (2 rows changed)
+[Step 251] Key:  | PRNG: 0 calls
+  Msg: In what direction?
+[Step 252] Key: l | PRNG: 34 calls
+  Msg: As you kick the door, it shatters to pieces!
+  Map updated (2 rows changed)
+[Step 253] Key: L | PRNG: 38 calls
+  Map updated (2 rows changed)
+[Step 254] Key: l | PRNG: 23 calls
+  Msg: With great effort you move the boulder.
+  Map updated (2 rows changed)
+[Step 255] Key: l | PRNG: 22 calls
+  Map updated (1 rows changed)
+[Step 256] Key: l | PRNG: 0 calls
+  Msg: You hear a monster behind the boulder.--More--
+  Map updated (1 rows changed)
+[Step 257] Key:   | PRNG: 0 calls
+  Msg: Perhaps that's why you cannot move it.
+[Step 258] Key: h | PRNG: 30 calls
+  Msg: You swap places with your little dog.
+  Map updated (1 rows changed)
+[Step 259] Key: h | PRNG: 34 calls
+  Map updated (1 rows changed)
+[Step 260] Key: h | PRNG: 16 calls
+  Map updated (1 rows changed)
+[Step 261] Key: h | PRNG: 16 calls
+  Map updated (1 rows changed)
+[Step 262] Key: h | PRNG: 19 calls
+  Map updated (1 rows changed)
+[Step 263] Key: k | PRNG: 20 calls
+  Map updated (3 rows changed)
+[Step 264] Key: K | PRNG: 101 calls
+  Map updated (4 rows changed)
+[Step 265] Key: k | PRNG: 0 calls
+  Msg: This door is locked.
+[Step 266] Key: l | PRNG: 21 calls
+  Map updated (3 rows changed)
+[Step 267] Key: l | PRNG: 24 calls
+  Map updated (2 rows changed)
+[Step 268] Key: l | PRNG: 38 calls
+  Map updated (1 rows changed)
+[Step 269] Key: u | PRNG: 19 calls
+  Map updated (2 rows changed)
+[Step 270] Key: k | PRNG: 33 calls
+  Map updated (3 rows changed)
+[Step 271] Key: u | PRNG: 21 calls
+  Map updated (2 rows changed)
+[Step 272] Key: L | PRNG: 36 calls
+  Map updated (3 rows changed)
+[Step 273] Key: j | PRNG: 28 calls
+  Msg: You miss the jackal.  The jackal bites!
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:2 $:19 HP:16(18) Pw:1(1) AC:9 Xp:1
+[Step 274] Key: j | PRNG: 27 calls
+  Msg: You miss the jackal.  The jackal bites!
+  Map updated (1 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:2 $:19 HP:14(18) Pw:1(1) AC:9 Xp:1
+[Step 275] Key: j | PRNG: 26 calls
+  Msg: You miss the jackal.  The jackal just misses!
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:2 $:19 HP:15(18) Pw:1(1) AC:9 Xp:1
+[Step 276] Key: j | PRNG: 31 calls
+  Msg: You miss the jackal.  The jackal bites!
+  Map updated (1 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:2 $:19 HP:13(18) Pw:1(1) AC:9 Xp:1
+[Step 277] Key: j | PRNG: 53 calls
+  Msg: You kill the jackal!
+  Map updated (1 rows changed)
+[Step 278] Key: j | PRNG: 14 calls
+  Msg: You see here a jackal corpse.
+  Map updated (4 rows changed)
+[Step 279] Key: e | PRNG: 0 calls
+  Msg: There is a jackal corpse here; eat it? [ynq] (n)
+[Step 280] Key: y | PRNG: 196 calls
+  Msg: This jackal corpse is stringy.  You finish eating the jackal corpse.
+  Map updated (1 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:2 $:19 HP:17(18) Pw:1(1) AC:9 Xp:1
+[Step 281] Key: J | PRNG: 243 calls
+  Map updated (10 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:2 $:19 HP:18(18) Pw:1(1) AC:9 Xp:1
+[Step 282] Key: u | PRNG: 28 calls
+  Map updated (4 rows changed)
+[Step 283] Key: l | PRNG: 0 calls
+  Msg: Things that are here:
+  Map updated (4 rows changed)
+[Step 284] Key:   | PRNG: 40 calls
+  Msg: A bear trap closes on your foot!
+  Map updated (3 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:11 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:2 $:19 HP:11(18) Pw:1(1) AC:9 Xp:1
+[Step 285] Key: , | PRNG: 0 calls
+  Msg: Pick up what?
+  Map updated (4 rows changed)
+[Step 286] Key: a | PRNG: 0 calls
+  Msg: Pick up what?
+  Map updated (1 rows changed)
+[Step 287] Key:   | PRNG: 33 calls
+  Msg: m - a food ration.
+  Map updated (5 rows changed)
+[Step 288] Key: u | PRNG: 40 calls
+  Msg: You are caught in a bear trap.
+[Step 289] Key: u | PRNG: 14 calls
+  Map updated (1 rows changed)
+[Step 290] Key: u | PRNG: 25 calls
+  Msg: You hear the footsteps of a guard on patrol.
+  Map updated (2 rows changed)
+[Step 291] Key: u | PRNG: 50 calls
+  Msg: You are caught in a bear trap.
+  Map updated (2 rows changed)
+[Step 292] Key: n | PRNG: 29 calls
+  Map updated (1 rows changed)
+[Step 293] Key: u | PRNG: 28 calls
+  Msg: You finally wriggle free.
+  Map updated (2 rows changed)
+[Step 294] Key: u | PRNG: 42 calls
+  Map updated (2 rows changed)
+[Step 295] Key: N | PRNG: 94 calls
+  Map updated (4 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:11 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:2 $:19 HP:13(18) Pw:1(1) AC:9 Xp:1
+[Step 296] Key: l | PRNG: 29 calls
+  Map updated (2 rows changed)
+[Step 297] Key: u | PRNG: 39 calls
+  Msg: Your leg feels better.
+  Map updated (2 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:2 $:19 HP:13(18) Pw:1(1) AC:9 Xp:1
+[Step 298] Key: l | PRNG: 18 calls
+  Map updated (1 rows changed)
+[Step 299] Key: l | PRNG: 48 calls
+  Msg: n - a short wand.
+  Map updated (1 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:2 $:19 HP:14(18) Pw:1(1) AC:9 Xp:1
+[Step 300] Key: , | PRNG: 0 calls
+  Msg: There is nothing here to pick up.
+[Step 301] Key: y | PRNG: 49 calls
+  Map updated (3 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:2 $:19 HP:15(18) Pw:1(1) AC:9 Xp:1
+[Step 302] Key: y | PRNG: 23 calls
+  Map updated (4 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:2 $:19 HP:16(18) Pw:1(1) AC:9 Xp:1
+[Step 303] Key: K | PRNG: 43 calls
+  Msg: The newt bites!
+  Map updated (4 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:2 $:19 HP:15(18) Pw:1(1) AC:9 Xp:1
+[Step 304] Key: z | PRNG: 0 calls
+  Msg: What do you want to zap? [n or ?*]
+[Step 305] Key: n | PRNG: 0 calls
+  Msg: In what direction?
+[Step 306] Key: y | PRNG: 54 calls
+  Msg: You kill the newt!
+  Map updated (1 rows changed)
+[Step 307] Key: y | PRNG: 26 calls
+  Msg: You see here a newt corpse.
+  Map updated (3 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:2 $:19 HP:16(18) Pw:1(1) AC:9 Xp:1
+[Step 308] Key: e | PRNG: 0 calls
+  Msg: There is a newt corpse here; eat it? [ynq] (n)
+[Step 309] Key: y | PRNG: 30 calls
+  Msg: Blecch!  Rotten food!
+  Map updated (1 rows changed)
+[Step 310] Key: u | PRNG: 18 calls
+  Map updated (4 rows changed)
+[Step 311] Key: Y | PRNG: 222 calls
+  Map updated (10 rows changed)
+[Step 312] Key: L | PRNG: 26 calls
+  Map updated (1 rows changed)
+[Step 313] Key: L | PRNG: 263 calls
+  Msg: You swap places with your little dog.
+  Map updated (2 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:2 $:19 HP:18(18) Pw:1(1) AC:9 Xp:1
+[Step 314] Key: l | PRNG: 0 calls
+[Step 315] Key: k | PRNG: 12 calls
+  Map updated (3 rows changed)
+[Step 316] Key: k | PRNG: 34 calls
+  Msg: You swap places with your little dog.
+  Map updated (2 rows changed)
+[Step 317] Key: u | PRNG: 15 calls
+  Map updated (8 rows changed)
+[Step 318] Key: u | PRNG: 28 calls
+  Map updated (8 rows changed)
+[Step 319] Key: l | PRNG: 16 calls
+  Map updated (2 rows changed)
+[Step 320] Key: l | PRNG: 20 calls
+  Msg: o - a scroll labeled PRATYAVAYAH.
+  Map updated (2 rows changed)
+[Step 321] Key: u | PRNG: 13 calls
+  Map updated (2 rows changed)
+[Step 322] Key: L | PRNG: 36 calls
+  Map updated (2 rows changed)
+[Step 323] Key: N | PRNG: 14 calls
+  Map updated (5 rows changed)
+[Step 324] Key: l | PRNG: 32 calls
+  Map updated (4 rows changed)
+[Step 325] Key: L | PRNG: 141 calls
+  Msg: You hear someone counting gold coins.
+  Map updated (6 rows changed)
+[Step 326] Key: l | PRNG: 14 calls
+  Map updated (5 rows changed)
+[Step 327] Key: n | PRNG: 36 calls
+  Map updated (2 rows changed)
+[Step 328] Key: n | PRNG: 38 calls
+  Msg: $ - 7 gold pieces (26 in total).
+  Map updated (2 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:2 $:26 HP:18(18) Pw:1(1) AC:9 Xp:1
+[Step 329] Key: l | PRNG: 25 calls
+  Map updated (3 rows changed)
+[Step 330] Key: j | PRNG: 0 calls
+  Msg: This door is locked.
+[Step 331] Key: l | PRNG: 55 calls
+  Map updated (2 rows changed)
+[Step 332] Key: l | PRNG: 15 calls
+  Map updated (1 rows changed)
+[Step 333] Key: l | PRNG: 15 calls
+  Map updated (2 rows changed)
+[Step 334] Key: l | PRNG: 14 calls
+  Map updated (1 rows changed)
+[Step 335] Key: j | PRNG: 17 calls
+  Map updated (3 rows changed)
+[Step 336] Key: J | PRNG: 227 calls
+  Msg: You hear the splashing of a naiad.
+  Map updated (9 rows changed)
+[Step 337] Key: b | PRNG: 55 calls
+  Msg: p - a leathery spellbook.
+  Map updated (3 rows changed)
+[Step 338] Key: b | PRNG: 17 calls
+  Map updated (3 rows changed)
+[Step 339] Key: b | PRNG: 16 calls
+  Map updated (4 rows changed)
+[Step 340] Key: h | PRNG: 45 calls
+  Map updated (1 rows changed)
+[Step 341] Key: q | PRNG: 0 calls
+  Msg: Drink from the fountain? [yn] (n)
+[Step 342] Key: y | PRNG: 49 calls
+  Msg: The cool draught refreshes you.
+  Map updated (2 rows changed)
+[Step 343] Key: i | PRNG: 0 calls
+  Msg: Coins
+  Map updated (21 rows changed)
+  Status update: Tools | (1 of 2)
+[Step 344] Key:   | PRNG: 0 calls
+  Msg: e - an uncursed oil lamp
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 345] Key:   | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:2 $:26 HP:18(18) Pw:1(1) AC:9 Xp:1
+[Step 346] Key: i | PRNG: 0 calls
+  Msg: Coins
+  Map updated (21 rows changed)
+  Status update: Tools | (1 of 2)
+[Step 347] Key:   | PRNG: 0 calls
+  Msg: e - an uncursed oil lamp
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 348] Key:   | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:2 $:26 HP:18(18) Pw:1(1) AC:9 Xp:1
+[Step 349] Key: r | PRNG: 0 calls
+  Msg: What do you want to read? [glop or ?*]
+[Step 350] Key: o | PRNG: 1 calls
+  Msg: You read the scroll.  You feel like someone is helping you.--More--
+[Step 351] Key:   | PRNG: 0 calls
+  Msg: The scroll disintegrates.--More--
+[Step 352] Key:   | PRNG: 0 calls
+  Msg: Call a scroll labeled PRATYAVAYAH:
+[Step 353] Key: h | PRNG: 0 calls
+  Msg: Call a scroll labeled PRATYAVAYAH: h
+[Step 354] Key: e | PRNG: 0 calls
+  Msg: Call a scroll labeled PRATYAVAYAH: he
+[Step 355] Key: l | PRNG: 0 calls
+  Msg: Call a scroll labeled PRATYAVAYAH: hel
+[Step 356] Key: p | PRNG: 0 calls
+  Msg: Call a scroll labeled PRATYAVAYAH: help
+[Step 357] Key: i | PRNG: 0 calls
+  Msg: Call a scroll labeled PRATYAVAYAH: helpi
+[Step 358] Key: n | PRNG: 0 calls
+  Msg: Call a scroll labeled PRATYAVAYAH: helpin
+[Step 359] Key:   | PRNG: 0 calls
+  Msg: Call a scroll labeled PRATYAVAYAH: helpin
+[Step 360] Key:  | PRNG: 0 calls
+  Msg: Call a scroll labeled PRATYAVAYAH: helpin
+[Step 361] Key: g | PRNG: 0 calls
+  Msg: Call a scroll labeled PRATYAVAYAH: helping
+[Step 362] Key: \r (Enter) | PRNG: 20 calls
+  Map updated (2 rows changed)
+[Step 363] Key: i | PRNG: 0 calls
+  Msg: Coins
+  Map updated (21 rows changed)
+  Status update: Dequa the Stripling            (end) | Dlvl:2 $:26 HP:18(18) Pw:1(1) AC:9 Xp:1
+[Step 364] Key:   | PRNG: 0 calls
+  Map updated (21 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:2 $:26 HP:18(18) Pw:1(1) AC:9 Xp:1
+[Step 365] Key: T | PRNG: 0 calls
+  Msg: What do you want to take off? [ch or ?*]
+[Step 366] Key: h | PRNG: 0 calls
+  Msg: You can't.  It is cursed.
+[Step 367] Key: u | PRNG: 53 calls
+  Map updated (2 rows changed)
+[Step 368] Key: b | PRNG: 29 calls
+  Map updated (2 rows changed)
+[Step 369] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 370] Key: d | PRNG: 0 calls
+  Msg: # dip
+[Step 371] Key: \r (Enter) | PRNG: 0 calls
+  Msg: What do you want to dip? [a-eghj-np or ?*]
+[Step 372] Key: h | PRNG: 0 calls
+  Msg: Dip a cursed -4 orcish helm (being worn) into the fountain? [yn] (n)
+[Step 373] Key: y | PRNG: 30 calls
+  Msg: Your orcish helm rusts!
+  Map updated (2 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:2 $:26 HP:18(18) Pw:1(1) AC:10 Xp:1
+[Step 374] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 375] Key: d | PRNG: 0 calls
+  Msg: # dip
+[Step 376] Key: \r (Enter) | PRNG: 0 calls
+  Msg: What do you want to dip? [a-eghj-np or ?*]
+[Step 377] Key: h | PRNG: 0 calls
+  Msg: Dip a cursed rusty -4 orcish helm (being worn) into the fountain? [yn] (n)
+[Step 378] Key: y | PRNG: 38 calls
+  Msg: Your orcish helm rusts further!--More--
+  Map updated (1 rows changed)
+[Step 379] Key:   | PRNG: 2 calls
+  Msg: You hear the footsteps of a guard on patrol.
+[Step 380] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 381] Key: d | PRNG: 0 calls
+  Msg: # dip
+[Step 382] Key: \r (Enter) | PRNG: 0 calls
+  Msg: What do you want to dip? [a-eghj-np or ?*]
+[Step 383] Key: h | PRNG: 0 calls
+  Msg: Dip a cursed very rusty -4 orcish helm (being worn) into the fountain? [yn] (n)
+[Step 384] Key: y | PRNG: 52 calls
+  Msg: Your orcish helm rusts completely!
+[Step 385] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 386] Key: d | PRNG: 0 calls
+  Msg: # dip
+[Step 387] Key: \r (Enter) | PRNG: 0 calls
+  Msg: What do you want to dip? [a-eghj-np or ?*]
+[Step 388] Key: h | PRNG: 0 calls
+  Msg: Dip a -4 orcish helm (being worn) into the fountain? [yn] (n)
+[Step 389] Key: y | PRNG: 20 calls
+  Msg: Nothing seems to happen.
+  Map updated (2 rows changed)
+[Step 390] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 391] Key: d | PRNG: 0 calls
+  Msg: # dip
+[Step 392] Key: \r (Enter) | PRNG: 0 calls
+  Msg: What do you want to dip? [a-eghj-np or ?*]
+[Step 393] Key: h | PRNG: 0 calls
+  Msg: Dip a -4 orcish helm (being worn) into the fountain? [yn] (n)
+[Step 394] Key: y | PRNG: 75 calls
+  Msg: Water gushes forth from the overflowing fountain!
+  Map updated (2 rows changed)
+[Step 395] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 396] Key: d | PRNG: 0 calls
+  Msg: # dip
+[Step 397] Key: \r (Enter) | PRNG: 0 calls
+  Msg: What do you want to dip? [a-eghj-np or ?*]
+[Step 398] Key: h | PRNG: 0 calls
+  Msg: Dip a -4 orcish helm (being worn) into the fountain? [yn] (n)
+[Step 399] Key: y | PRNG: 51 calls
+  Msg: Nothing seems to happen.
+  Map updated (2 rows changed)
+[Step 400] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 401] Key: d | PRNG: 0 calls
+  Msg: # dip
+[Step 402] Key: \r (Enter) | PRNG: 0 calls
+  Msg: What do you want to dip? [a-eghj-np or ?*]
+[Step 403] Key: h | PRNG: 0 calls
+  Msg: Dip a -4 orcish helm (being worn) into the fountain? [yn] (n)
+[Step 404] Key: y | PRNG: 51 calls
+  Msg: Nothing seems to happen.
+  Map updated (1 rows changed)
+[Step 405] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 406] Key: d | PRNG: 0 calls
+  Msg: # dip
+[Step 407] Key: \r (Enter) | PRNG: 0 calls
+  Msg: What do you want to dip? [a-eghj-np or ?*]
+[Step 408] Key: h | PRNG: 0 calls
+  Msg: Dip a -4 orcish helm (being worn) into the fountain? [yn] (n)
+[Step 409] Key: y | PRNG: 86 calls
+  Msg: You attract a water nymph!
+  Map updated (3 rows changed)
+[Step 410] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 411] Key: c | PRNG: 0 calls
+  Msg: # c
+[Step 412] Key:  | PRNG: 0 calls
+  Msg: #
+[Step 413] Key: ESC | PRNG: 0 calls
+[Step 414] Key: T | PRNG: 0 calls
+  Msg: What do you want to take off? [ch or ?*]
+[Step 415] Key: c | PRNG: 4 calls
+  Msg: You were wearing a blessed +3 small shield.--More--
+[Step 416] Key:   | PRNG: 0 calls
+  Msg: The water nymph removes your black onyx ring (from right hand).--More--
+[Step 417] Key:   | PRNG: 42 calls
+  Msg: She stole a black onyx ring.  The water nymph vanishes!
+  Map updated (3 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:2 $:26 HP:18(18) Pw:1(1) AC:14 Xp:1
+[Step 418] Key: k | PRNG: 27 calls
+  Map updated (3 rows changed)
+[Step 419] Key: j | PRNG: 32 calls
+  Map updated (2 rows changed)
+[Step 420] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 421] Key: d | PRNG: 0 calls
+  Msg: # dip
+[Step 422] Key: \r (Enter) | PRNG: 0 calls
+  Msg: What do you want to dip? [a-eghjl-np or ?*]
+[Step 423] Key: h | PRNG: 0 calls
+  Msg: Dip a -4 orcish helm (being worn) into the fountain? [yn] (n)
+[Step 424] Key: y | PRNG: 32 calls
+  Msg: Water sprays all over you.  The fountain dries up!--More--
+  Map updated (1 rows changed)
+[Step 425] Key:   | PRNG: 31 calls
+  Msg: The water nymph appears close by!
+[Step 426] Key: k | PRNG: 33 calls
+  Map updated (4 rows changed)
+[Step 427] Key: k | PRNG: 36 calls
+  Map updated (4 rows changed)
+[Step 428] Key: h | PRNG: 20 calls
+  Map updated (3 rows changed)
+[Step 429] Key: k | PRNG: 22 calls
+  Msg: You hear someone counting gold coins.
+  Map updated (3 rows changed)
+[Step 430] Key: k | PRNG: 33 calls
+  Map updated (3 rows changed)
+[Step 431] Key: y | PRNG: 21 calls
+  Map updated (2 rows changed)
+[Step 432] Key: h | PRNG: 17 calls
+  Map updated (3 rows changed)
+[Step 433] Key: H | PRNG: 108 calls
+  Msg: You hear some noises in the distance.
+  Map updated (4 rows changed)
+[Step 434] Key: h | PRNG: 0 calls
+[Step 435] Key: k | PRNG: 30 calls
+  Map updated (4 rows changed)
+[Step 436] Key: u | PRNG: 26 calls
+  Map updated (3 rows changed)
+[Step 437] Key: u | PRNG: 29 calls
+  Map updated (3 rows changed)
+[Step 438] Key: l | PRNG: 24 calls
+  Map updated (2 rows changed)
+[Step 439] Key: u | PRNG: 17 calls
+  Msg: The water nymph opens a door.
+  Map updated (3 rows changed)
+[Step 440] Key: l | PRNG: 24 calls
+  Map updated (3 rows changed)
+[Step 441] Key: l | PRNG: 23 calls
+  Map updated (3 rows changed)
+[Step 442] Key: l | PRNG: 32 calls
+  Map updated (2 rows changed)
+[Step 443] Key: L | PRNG: 304 calls
+  Map updated (7 rows changed)
+[Step 444] Key: l | PRNG: 33 calls
+  Map updated (7 rows changed)
+[Step 445] Key: l | PRNG: 50 calls
+  Map updated (3 rows changed)
+[Step 446] Key: l | PRNG: 71 calls
+  Map updated (3 rows changed)
+[Step 447] Key: l | PRNG: 72 calls
+  Map updated (4 rows changed)
+[Step 448] Key: l | PRNG: 23 calls
+  Msg: You see here a splint mail.
+  Map updated (4 rows changed)
+[Step 449] Key: l | PRNG: 27 calls
+  Map updated (3 rows changed)
+[Step 450] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 451] Key: c | PRNG: 0 calls
+  Msg: # c
+[Step 452] Key: h | PRNG: 0 calls
+  Msg: # ch
+[Step 453] Key: a | PRNG: 0 calls
+  Msg: # chat
+[Step 454] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Talk to whom? (in what direction)
+[Step 455] Key: n | PRNG: 68 calls
+  Msg: The water nymph cajoles you.  The little dog misses the water nymph.--More--
+  Map updated (2 rows changed)
+[Step 456] Key:   | PRNG: 6 calls
+  Msg: The little dog bites the water nymph.--More--
+[Step 457] Key:   | PRNG: 5 calls
+  Msg: The water nymph smiles at the little dog engagingly.--More--
+[Step 458] Key:   | PRNG: 9 calls
+  Msg: The water nymph pretends to be friendly to the little dog.
+[Step 459] Key: n | PRNG: 73 calls
+  Msg: The little dog misses the water nymph.
+  Map updated (4 rows changed)
+[Step 460] Key: b | PRNG: 38 calls
+  Map updated (3 rows changed)
+[Step 461] Key: n | PRNG: 94 calls
+  Msg: You kill the water nymph!  Welcome to experience level 2.
+  Map updated (2 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:2 $:26 HP:31(31) Pw:2(2) AC:14 Xp:2
+[Step 462] Key: n | PRNG: 0 calls
+  Msg: k - a black onyx ring.--More--
+  Map updated (2 rows changed)
+[Step 463] Key:   | PRNG: 0 calls
+  Msg: Other things that are here:
+  Map updated (3 rows changed)
+[Step 464] Key:   | PRNG: 55 calls
+  Map updated (5 rows changed)
+[Step 465] Key: , | PRNG: 0 calls
+  Msg: Pick up what?
+  Map updated (5 rows changed)
+[Step 466] Key: a | PRNG: 0 calls
+  Msg: Pick up what?
+  Map updated (1 rows changed)
+[Step 467] Key: b | PRNG: 0 calls
+  Msg: Pick up what?
+  Map updated (1 rows changed)
+[Step 468] Key: \r (Enter) | PRNG: 39 calls
+  Msg: q - a pair of combat boots.  r - a looking glass.
+  Map updated (7 rows changed)
+[Step 469] Key: W | PRNG: 0 calls
+  Msg: What do you want to wear? [cq or ?*]
+[Step 470] Key: q | PRNG: 95 calls
+  Msg: You finish your dressing maneuver.
+  Map updated (2 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:2 $:26 HP:31(31) Pw:2(2) AC:17 Xp:2
+[Step 471] Key: i | PRNG: 0 calls
+  Msg: Coins
+  Map updated (21 rows changed)
+  Status update: e - an uncursed oil lamp | (1 of 2)
+[Step 472] Key:   | PRNG: 0 calls
+  Msg: r - a looking glass
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 473] Key:   | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:2 $:26 HP:31(31) Pw:2(2) AC:17 Xp:2
+[Step 474] Key: y | PRNG: 62 calls
+  Map updated (3 rows changed)
+[Step 475] Key: y | PRNG: 69 calls
+  Map updated (3 rows changed)
+[Step 476] Key: y | PRNG: 23 calls
+  Map updated (2 rows changed)
+[Step 477] Key: h | PRNG: 42 calls
+  Map updated (1 rows changed)
+[Step 478] Key: h | PRNG: 21 calls
+  Map updated (2 rows changed)
+[Step 479] Key: h | PRNG: 41 calls
+  Map updated (2 rows changed)
+[Step 480] Key: . | PRNG: 35 calls
+  Map updated (2 rows changed)
+[Step 481] Key: > | PRNG: 2562 calls
+  Msg: You fall down the stairs.--More--
+[Step 482] Key:   | PRNG: 31 calls
+  Map updated (17 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:3 $:26 HP:29(31) Pw:2(2) AC:17 Xp:2
+[Step 483] Key: h | PRNG: 36 calls
+  Msg: You swap places with your little dog.
+  Map updated (2 rows changed)
+[Step 484] Key: h | PRNG: 35 calls
+  Msg: $ - 5 gold pieces (31 in total).
+  Map updated (2 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:3 $:31 HP:29(31) Pw:2(2) AC:17 Xp:2
+[Step 485] Key: b | PRNG: 39 calls
+  Map updated (2 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:3 $:31 HP:30(31) Pw:2(2) AC:17 Xp:2
+[Step 486] Key: h | PRNG: 38 calls
+  Msg: You see here a cream pie.
+  Map updated (2 rows changed)
+[Step 487] Key: , | PRNG: 36 calls
+  Msg: s - a cream pie.  You hear a door open.
+[Step 488] Key: u | PRNG: 55 calls
+  Msg: You slip and nearly fall.
+  Map updated (3 rows changed)
+[Step 489] Key: l | PRNG: 40 calls
+  Map updated (2 rows changed)
+[Step 490] Key: l | PRNG: 45 calls
+  Map updated (2 rows changed)
+[Step 491] Key: l | PRNG: 30 calls
+  Map updated (2 rows changed)
+[Step 492] Key: l | PRNG: 23 calls
+  Msg: You stop.  Your little dog is in the way!
+  Map updated (2 rows changed)
+[Step 493] Key: l | PRNG: 34 calls
+  Map updated (2 rows changed)
+[Step 494] Key: l | PRNG: 37 calls
+  Map updated (4 rows changed)
+[Step 495] Key: l | PRNG: 35 calls
+  Map updated (3 rows changed)
+[Step 496] Key: K | PRNG: 23 calls
+  Map updated (4 rows changed)
+[Step 497] Key: K | PRNG: 124 calls
+  Msg: You trip over your own feet.
+  Map updated (3 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:3 $:31 HP:31(31) Pw:2(2) AC:17 Xp:2
+[Step 498] Key: H | PRNG: 334 calls
+  Msg: You trip over your own feet.
+  Map updated (2 rows changed)
+[Step 499] Key: H | PRNG: 297 calls
+  Map updated (8 rows changed)
+[Step 500] Key: t | PRNG: 0 calls
+  Msg: What do you want to throw? [$bj or ?*]
+[Step 501] Key: ? | PRNG: 0 calls
+  Msg: Coins
+  Map updated (5 rows changed)
+[Step 502] Key:   | PRNG: 0 calls
+  Msg: What do you want to throw? [$bj or ?*]
+  Map updated (5 rows changed)
+[Step 503] Key: * | PRNG: 0 calls
+  Msg: Coins
+  Map updated (21 rows changed)
+  Status update: Tools | (1 of 2)
+[Step 504] Key: s | PRNG: 0 calls
+  Msg: In what direction?
+  Map updated (21 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:3 $:31 HP:31(31) Pw:2(2) AC:17 Xp:2
+[Step 505] Key: y | PRNG: 43 calls
+  Msg: The cream pie splashes over the kobold's face!
+  Map updated (2 rows changed)
+[Step 506] Key: h | PRNG: 21 calls
+  Map updated (7 rows changed)
+[Step 507] Key: y | PRNG: 76 calls
+  Msg: The little dog misses the kobold.  The kobold hits!
+  Map updated (7 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:3 $:31 HP:30(31) Pw:2(2) AC:17 Xp:2
+[Step 508] Key: y | PRNG: 48 calls
+  Msg: You hear some noises.  You trip over your own feet.--More--
+  Map updated (8 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:3 $:31 HP:31(31) Pw:2(2) AC:17 Xp:2
+[Step 509] Key:   | PRNG: 33 calls
+  Msg: The little dog bites the kobold.  The kobold is killed!
+  Map updated (3 rows changed)
+[Step 510] Key: y | PRNG: 26 calls
+  Map updated (3 rows changed)
+[Step 511] Key: K | PRNG: 90 calls
+  Msg: t - a thick spellbook.
+  Map updated (2 rows changed)
+[Step 512] Key: , | PRNG: 0 calls
+  Msg: There is nothing here to pick up.
+[Step 513] Key: H | PRNG: 123 calls
+  Msg: The little dog picks up a dart.  u - a scroll labeled DAIYEN FOOELS.--More--
+  Map updated (2 rows changed)
+[Step 514] Key:   | PRNG: 46 calls
+  Msg: You slip and nearly fall.
+  Map updated (2 rows changed)
+[Step 515] Key: r | PRNG: 0 calls
+  Msg: What do you want to read? [glptu or ?*]
+[Step 516] Key: u | PRNG: 1 calls
+  Msg: As you read the scroll, it disappears.--More--
+[Step 517] Key:   | PRNG: 25 calls
+  Msg: Your dwarvish spear glows blue for a moment.--More--
+  Map updated (2 rows changed)
+[Step 518] Key:   | PRNG: 20 calls
+  Msg: The little dog drops a dart.
+  Map updated (2 rows changed)
+[Step 519] Key: j | PRNG: 36 calls
+  Map updated (3 rows changed)
+[Step 520] Key: b | PRNG: 42 calls
+  Map updated (2 rows changed)
+[Step 521] Key: b | PRNG: 0 calls
+[Step 522] Key: H | PRNG: 106 calls
+  Msg: You slip and nearly fall.
+  Map updated (2 rows changed)
+[Step 523] Key: H | PRNG: 299 calls
+  Msg: You stumble.  You hear some noises in the distance.
+  Map updated (7 rows changed)
+[Step 524] Key: y | PRNG: 49 calls
+  Map updated (5 rows changed)
+[Step 525] Key: y | PRNG: 72 calls
+  Map updated (2 rows changed)
+[Step 526] Key: h | PRNG: 19 calls
+  Map updated (3 rows changed)
+[Step 527] Key: h | PRNG: 18 calls
+  Map updated (2 rows changed)
+[Step 528] Key: y | PRNG: 13 calls
+  Map updated (2 rows changed)
+[Step 529] Key: h | PRNG: 23 calls
+  Map updated (1 rows changed)
+[Step 530] Key: h | PRNG: 32 calls
+  Map updated (1 rows changed)
+[Step 531] Key: h | PRNG: 0 calls
+[Step 532] Key: > | PRNG: 4661 calls
+  Msg: You fall down the stairs.--More--
+[Step 533] Key:   | PRNG: 11 calls
+  Map updated (14 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:4 $:31 HP:29(31) Pw:2(2) AC:17 Xp:2
+[Step 534] Key: j | PRNG: 19 calls
+  Map updated (2 rows changed)
+[Step 535] Key: j | PRNG: 19 calls
+  Map updated (2 rows changed)
+[Step 536] Key: j | PRNG: 27 calls
+  Msg: Ouch!  You bump into a door.
+[Step 537] Key: j | PRNG: 23 calls
+  Msg: Ouch!  You bump into a door.
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:4 $:31 HP:30(31) Pw:2(2) AC:17 Xp:2
+[Step 538] Key:  | PRNG: 0 calls
+  Msg: In what direction?
+[Step 539] Key: j | PRNG: 29 calls
+  Msg: As you kick the door, it crashes open!
+  Map updated (1 rows changed)
+[Step 540] Key: j | PRNG: 24 calls
+  Map updated (3 rows changed)
+[Step 541] Key: J | PRNG: 74 calls
+  Msg: You stumble.
+  Map updated (2 rows changed)
+[Step 542] Key: H | PRNG: 93 calls
+  Msg: You stumble.
+  Map updated (2 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:4 $:31 HP:31(31) Pw:2(2) AC:17 Xp:2
+[Step 543] Key: H | PRNG: 42 calls
+  Map updated (5 rows changed)
+[Step 544] Key: b | PRNG: 45 calls
+  Msg: You trip over your own feet.
+  Map updated (8 rows changed)
+[Step 545] Key: J | PRNG: 27 calls
+  Msg: The coyote bites!
+  Map updated (5 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:4 $:31 HP:29(31) Pw:2(2) AC:17 Xp:2
+[Step 546] Key: j | PRNG: 29 calls
+  Msg: You miss the coyote.  The coyote bites!
+  Map updated (1 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:4 $:31 HP:27(31) Pw:2(2) AC:17 Xp:2
+[Step 547] Key: j | PRNG: 107 calls
+  Msg: You kill the coyote!
+  Map updated (1 rows changed)
+[Step 548] Key: j | PRNG: 18 calls
+  Msg: There is a doorway here.  You see here a coyote corpse.
+  Map updated (8 rows changed)
+[Step 549] Key: k | PRNG: 20 calls
+  Msg: You kill the newt!
+  Map updated (1 rows changed)
+[Step 550] Key: e | PRNG: 0 calls
+  Msg: There is a coyote corpse here; eat it? [ynq] (n)
+[Step 551] Key: y | PRNG: 124 calls
+  Msg: This coyote corpse is stringy.  You finish eating the coyote corpse.
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:4 $:31 HP:31(31) Pw:2(2) AC:17 Xp:2
+[Step 552] Key: j | PRNG: 13 calls
+  Msg: $ - 5 gold pieces (36 in total).
+  Map updated (6 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:4 $:36 HP:31(31) Pw:2(2) AC:17 Xp:2
+[Step 553] Key: j | PRNG: 13 calls
+  Map updated (2 rows changed)
+[Step 554] Key: j | PRNG: 14 calls
+  Map updated (2 rows changed)
+[Step 555] Key: > | PRNG: 3639 calls
+  Msg: You fall down the stairs.--More--
+[Step 556] Key:   | PRNG: 18 calls
+  Map updated (20 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:5 $:36 HP:28(31) Pw:2(2) AC:17 Xp:2
+[Step 557] Key: j | PRNG: 54 calls
+  Msg: You stop.  The gnome is in the way!
+[Step 558] Key: j | PRNG: 78 calls
+  Msg: You swap places with the peaceful gnome.
+  Map updated (10 rows changed)
+[Step 559] Key: y | PRNG: 105 calls
+  Map updated (9 rows changed)
+[Step 560] Key: H | PRNG: 110 calls
+  Msg: You stumble.  Click!  The gnome lord triggers something.--More--
+  Map updated (16 rows changed)
+[Step 561] Key:   | PRNG: 44 calls
+  Msg: The boulder hits the gnome lord!  The gnome lord is killed!
+  Map updated (1 rows changed)
+[Step 562] Key: b | PRNG: 82 calls
+  Map updated (12 rows changed)
+[Step 563] Key: b | PRNG: 85 calls
+  Map updated (6 rows changed)
+[Step 564] Key: h | PRNG: 74 calls
+  Map updated (6 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:5 $:36 HP:29(31) Pw:2(2) AC:17 Xp:2
+[Step 565] Key: h | PRNG: 58 calls
+  Map updated (9 rows changed)
+[Step 566] Key: y | PRNG: 70 calls
+  Msg: With great effort you move the boulder.
+  Map updated (10 rows changed)
+[Step 567] Key: h | PRNG: 65 calls
+  Map updated (12 rows changed)
+[Step 568] Key: b | PRNG: 93 calls
+  Map updated (9 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:5 $:36 HP:30(31) Pw:2(2) AC:17 Xp:2
+[Step 569] Key: j | PRNG: 68 calls
+  Map updated (2 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:5 $:36 HP:31(31) Pw:2(2) AC:17 Xp:2
+[Step 570] Key: j | PRNG: 88 calls
+  Map updated (3 rows changed)
+[Step 571] Key: J | PRNG: 147 calls
+  Map updated (7 rows changed)
+[Step 572] Key: j | PRNG: 83 calls
+  Msg: You swap places with the peaceful dwarf.
+  Map updated (5 rows changed)
+[Step 573] Key: Y | PRNG: 82 calls
+  Map updated (3 rows changed)
+[Step 574] Key: H | PRNG: 338 calls
+  Map updated (3 rows changed)
+[Step 575] Key: Y | PRNG: 170 calls
+  Msg: You slip and nearly fall.
+  Map updated (2 rows changed)
+[Step 576] Key: H | PRNG: 159 calls
+  Msg: You hear crashing rock.
+  Map updated (8 rows changed)
+[Step 577] Key: K | PRNG: 394 calls
+  Map updated (9 rows changed)
+[Step 578] Key: j | PRNG: 149 calls
+  Msg: You stumble.
+  Map updated (4 rows changed)
+[Step 579] Key: i | PRNG: 0 calls
+  Msg: Coins
+  Map updated (21 rows changed)
+  Status update: Tools | (1 of 2)
+[Step 580] Key:   | PRNG: 0 calls
+  Msg: e - an uncursed oil lamp
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 581] Key:   | PRNG: 0 calls
+  Map updated (21 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:5 $:36 HP:31(31) Pw:2(2) AC:17 Xp:2
+[Step 582] Key: P | PRNG: 0 calls
+  Msg: What do you want to put on? [k or ?*]
+[Step 583] Key: k | PRNG: 0 calls
+  Msg: Which ring-finger, Right or Left? [rl]
+[Step 584] Key: r | PRNG: 77 calls
+  Msg: k - a black onyx ring (on right hand).
+  Map updated (2 rows changed)
+[Step 585] Key: n | PRNG: 104 calls
+  Map updated (3 rows changed)
+[Step 586] Key: l | PRNG: 68 calls
+  Map updated (2 rows changed)
+[Step 587] Key: u | PRNG: 98 calls
+  Map updated (2 rows changed)
+[Step 588] Key: l | PRNG: 69 calls
+  Map updated (2 rows changed)
+[Step 589] Key: u | PRNG: 0 calls
+[Step 590] Key: _ | PRNG: 0 calls
+  Msg: Where do you want to travel to?  (For instructions type a '?')
+[Step 591] Key: > | PRNG: 0 calls
+  Msg: staircase down
+[Step 592] Key: . | PRNG: 88 calls
+  Msg: staircase down
+  Map updated (1 rows changed)
+[Step 593] Key: n | PRNG: 73 calls
+  Msg: With great effort you move the boulder.
+  Map updated (3 rows changed)
+[Step 594] Key: _ | PRNG: 0 calls
+  Msg: Where do you want to travel to?  (For instructions type a '?')
+[Step 595] Key: . | PRNG: 731 calls
+  Msg: You hear crashing rock.  You flounder.
+  Map updated (6 rows changed)
+[Step 596] Key: l | PRNG: 79 calls
+  Map updated (3 rows changed)
+[Step 597] Key: l | PRNG: 81 calls
+  Map updated (3 rows changed)
+[Step 598] Key: l | PRNG: 108 calls
+  Map updated (5 rows changed)
+[Step 599] Key: > | PRNG: 3055 calls
+  Msg: You fall down the stairs.--More--
+[Step 600] Key:   | PRNG: 16 calls
+  Map updated (21 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:6 $:36 HP:29(31) Pw:2(2) AC:17 Xp:2
+[Step 601] Key: k | PRNG: 62 calls
+  Map updated (6 rows changed)
+[Step 602] Key: k | PRNG: 63 calls
+  Map updated (11 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:6 $:36 HP:30(31) Pw:2(2) AC:17 Xp:2
+[Step 603] Key: Y | PRNG: 130 calls
+  Msg: You trip over your own feet.
+  Map updated (12 rows changed)
+[Step 604] Key: Y | PRNG: 373 calls
+  Msg: You flounder.
+  Map updated (16 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:6 $:36 HP:31(31) Pw:2(2) AC:17 Xp:2
+[Step 605] Key: B | PRNG: 332 calls
+  Map updated (5 rows changed)
+[Step 606] Key: H | PRNG: 201 calls
+  Msg: The kobold zombie hits!
+  Map updated (8 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:6 $:36 HP:29(31) Pw:2(2) AC:17 Xp:2
+[Step 607] Key: h | PRNG: 117 calls
+  Msg: You destroy the kobold zombie!
+  Map updated (2 rows changed)
+[Step 608] Key: H | PRNG: 69 calls
+  Msg: You see here a kobold corpse.
+  Map updated (6 rows changed)
+[Step 609] Key: h | PRNG: 54 calls
+  Map updated (6 rows changed)
+[Step 610] Key: H | PRNG: 355 calls
+  Map updated (9 rows changed)
+[Step 611] Key: H | PRNG: 0 calls
+[Step 612] Key: y | PRNG: 44 calls
+  Map updated (16 rows changed)
+[Step 613] Key: H | PRNG: 128 calls
+  Msg: You trip over your own feet.
+  Map updated (4 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:6 $:36 HP:30(31) Pw:2(2) AC:17 Xp:2
+[Step 614] Key: H | PRNG: 296 calls
+  Msg: You stumble.
+  Map updated (6 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:6 $:36 HP:31(31) Pw:2(2) AC:17 Xp:2
+[Step 615] Key: H | PRNG: 671 calls
+  Msg: You hear crashing rock.  You trip over your own feet.--More--
+  Map updated (6 rows changed)
+[Step 616] Key: h | PRNG: 0 calls
+  Msg: You hear crashing rock.  You trip over your own feet.--More--
+[Step 617] Key: H | PRNG: 0 calls
+  Msg: You hear crashing rock.  You trip over your own feet.--More--
+[Step 618] Key:   | PRNG: 64 calls
+  Msg: You hear a chugging sound.
+[Step 619] Key: H | PRNG: 130 calls
+  Msg: A whip wraps around the dwarvish spear you're wielding!--More--
+  Map updated (16 rows changed)
+[Step 620] Key:   | PRNG: 45 calls
+  Msg: It yanks the dwarvish spear to the floor!--More--
+  Map updated (1 rows changed)
+[Step 621] Key:   | PRNG: 33 calls
+  Msg: Wait!  There's something there you can't see!  It hits!
+  Map updated (1 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:6 $:36 HP:27(31) Pw:2(2) AC:17 Xp:2
+[Step 622] Key:  | PRNG: 0 calls
+  Msg: In what direction?
+[Step 623] Key: h | PRNG: 53 calls
+  Msg: You kick it.
+[Step 624] Key: h | PRNG: 9 calls
+  Msg: You begin bashing monsters with your bare hands.  You miss it.--More--
+[Step 625] Key:   | PRNG: 45 calls
+  Msg: It hits!
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:6 $:36 HP:21(31) Pw:2(2) AC:17 Xp:2
+[Step 626] Key: , | PRNG: 54 calls
+  Msg: a - a +2 dwarvish spear.
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:6 $:36 HP:22(31) Pw:2(2) AC:17 Xp:2
+[Step 627] Key: w | PRNG: 0 calls
+  Msg: What do you want to wield? [- abj or ?*]
+[Step 628] Key: a | PRNG: 41 calls
+  Msg: a - a +2 dwarvish spear (weapon in right hand).  It hits!
+  Map updated (1 rows changed)
+  Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:6 $:36 HP:14(31) Pw:2(2) AC:17 Xp:2
+[Step 629] Key: h | PRNG: 182 calls
+  Msg: You kill it!  Welcome to experience level 3.  You feel stealthy!
+  Map updated (1 rows changed)
+  Status update: Dequa the Skirmisher           St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:6 $:36 HP:25(42) Pw:3(3) AC:17 Xp:3
+[Step 630] Key: h | PRNG: 0 calls
+  Msg: v - a scroll labeled GARVEN DEH.--More--
+  Map updated (6 rows changed)
+[Step 631] Key:   | PRNG: 0 calls
+  Msg: Other things that are here:
+  Map updated (4 rows changed)
+[Step 632] Key:   | PRNG: 64 calls
+  Map updated (6 rows changed)
+[Step 633] Key: e | PRNG: 0 calls
+  Msg: There is a bugbear corpse here; eat it? [ynq] (n)
+[Step 634] Key: y | PRNG: 1322 calls
+  Msg: This bugbear corpse is gamey.  You finish eating the bugbear corpse.
+  Map updated (2 rows changed)
+  Status update: Dequa the Skirmisher           St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:6 $:36 HP:30(42) Pw:3(3) AC:17 Xp:3 Satiated
+[Step 635] Key: H | PRNG: 496 calls
+  Map updated (16 rows changed)
+  Status update: Dequa the Skirmisher           St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:6 $:36 HP:32(42) Pw:3(3) AC:17 Xp:3
+[Step 636] Key: U | PRNG: 519 calls
+  Msg: You trip over your own feet.
+  Map updated (13 rows changed)
+  Status update: Dequa the Skirmisher           St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:6 $:36 HP:34(42) Pw:3(3) AC:17 Xp:3
+[Step 637] Key: b | PRNG: 71 calls
+  Map updated (4 rows changed)
+[Step 638] Key: b | PRNG: 41 calls
+  Map updated (3 rows changed)
+[Step 639] Key: H | PRNG: 607 calls
+  Map updated (9 rows changed)
+  Status update: Dequa the Skirmisher           St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:6 $:36 HP:38(42) Pw:3(3) AC:17 Xp:3
+[Step 640] Key: Y | PRNG: 351 calls
+  Msg: You slip and nearly fall.
+  Map updated (8 rows changed)
+[Step 641] Key: h | PRNG: 61 calls
+  Map updated (5 rows changed)
+[Step 642] Key: h | PRNG: 73 calls
+  Map updated (10 rows changed)
+  Status update: Dequa the Skirmisher           St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:6 $:36 HP:39(42) Pw:3(3) AC:17 Xp:3
+[Step 643] Key: h | PRNG: 72 calls
+  Map updated (10 rows changed)
+[Step 644] Key: h | PRNG: 43 calls
+  Map updated (4 rows changed)
+[Step 645] Key: B | PRNG: 265 calls
+  Msg: You slip and nearly fall.
+  Map updated (11 rows changed)
+  Status update: Dequa the Skirmisher           St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:6 $:36 HP:40(42) Pw:3(3) AC:17 Xp:3
+[Step 646] Key: n | PRNG: 69 calls
+  Map updated (3 rows changed)
+[Step 647] Key: _ | PRNG: 0 calls
+  Msg: Where do you want to travel to?  (For instructions type a '?')
+[Step 648] Key: < | PRNG: 0 calls
+  Msg: staircase up
+[Step 649] Key: . | PRNG: 559 calls
+  Msg: You stumble.
+  Map updated (4 rows changed)
+[Step 650] Key: _ | PRNG: 0 calls
+  Msg: Where do you want to travel to?  (For instructions type a '?')
+[Step 651] Key: . | PRNG: 626 calls
+  Msg: You hear crashing rock.  You stumble.
+  Map updated (5 rows changed)
+  Status update: Dequa the Skirmisher           St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:6 $:36 HP:41(42) Pw:3(3) AC:17 Xp:3
+[Step 652] Key: _ | PRNG: 0 calls
+  Msg: Where do you want to travel to?  (For instructions type a '?')
+[Step 653] Key: . | PRNG: 881 calls
+  Msg: You hear crashing rock.  You flounder.
+  Map updated (5 rows changed)
+  Status update: Dequa the Skirmisher           St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:6 $:36 HP:42(42) Pw:3(3) AC:17 Xp:3
+[Step 654] Key: _ | PRNG: 0 calls
+  Msg: Where do you want to travel to?  (For instructions type a '?')
+[Step 655] Key: . | PRNG: 722 calls
+  Msg: You flounder.  You hear crashing rock.
+  Map updated (2 rows changed)
+[Step 656] Key: l | PRNG: 49 calls
+  Map updated (1 rows changed)
+[Step 657] Key: l | PRNG: 58 calls
+  Map updated (2 rows changed)
+[Step 658] Key: l | PRNG: 80 calls
+  Map updated (2 rows changed)
+[Step 659] Key: l | PRNG: 53 calls
+  Map updated (3 rows changed)
+[Step 660] Key: u | PRNG: 62 calls
+  Msg: You hear crashing rock.
+  Map updated (13 rows changed)
+[Step 661] Key: K | PRNG: 107 calls
+  Msg: You trip over your own feet.
+  Map updated (8 rows changed)
+[Step 662] Key: K | PRNG: 586 calls
+  Msg: You slip and nearly fall.
+  Map updated (14 rows changed)
+[Step 663] Key: l | PRNG: 130 calls
+  Map updated (4 rows changed)
+[Step 664] Key: _ | PRNG: 0 calls
+  Msg: Where do you want to travel to?  (For instructions type a '?')
+[Step 665] Key: > | PRNG: 0 calls
+  Msg: staircase down
+[Step 666] Key: . | PRNG: 349 calls
+  Msg: staircase down
+  Map updated (10 rows changed)
+[Step 667] Key: > | PRNG: 1600 calls
+  Msg: You fall down the stairs.--More--
+[Step 668] Key:   | PRNG: 26 calls
+  Map updated (21 rows changed)
+  Status update: Dequa the Skirmisher           St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:7 $:36 HP:40(42) Pw:3(3) AC:17 Xp:3
+[Step 669] Key: l | PRNG: 118 calls
+  Map updated (1 rows changed)
+[Step 670] Key: N | PRNG: 117 calls
+  Map updated (2 rows changed)
+  Status update: Dequa the Skirmisher           St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:7 $:36 HP:41(42) Pw:3(3) AC:17 Xp:3
+[Step 671] Key: L | PRNG: 192 calls
+  Msg: You hear a door open.  You slip and nearly fall.
+  Map updated (1 rows changed)
+  Status update: Dequa the Skirmisher           St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:7 $:36 HP:42(42) Pw:3(3) AC:17 Xp:3
+[Step 672] Key: l | PRNG: 88 calls
+  Map updated (1 rows changed)
+[Step 673] Key: l | PRNG: 114 calls
+  Map updated (1 rows changed)
+[Step 674] Key: l | PRNG: 101 calls
+  Map updated (2 rows changed)
+[Step 675] Key: n | PRNG: 124 calls
+  Map updated (3 rows changed)
+[Step 676] Key: J | PRNG: 702 calls
+  Msg: You flounder.
+  Map updated (8 rows changed)
+[Step 677] Key: u | PRNG: 90 calls
+  Msg: You swap places with the peaceful gnome.
+  Map updated (3 rows changed)
+[Step 678] Key: L | PRNG: 435 calls
+  Map updated (3 rows changed)
+[Step 679] Key: k | PRNG: 80 calls
+  Map updated (2 rows changed)
+[Step 680] Key: k | PRNG: 96 calls
+  Map updated (2 rows changed)
+[Step 681] Key: l | PRNG: 91 calls
+  Msg: Ouch!  You bump into a door.
+[Step 682] Key: k | PRNG: 96 calls
+  Map updated (2 rows changed)
+[Step 683] Key: k | PRNG: 90 calls
+  Map updated (2 rows changed)
+[Step 684] Key: k | PRNG: 102 calls
+  Map updated (2 rows changed)
+[Step 685] Key: U | PRNG: 0 calls
+[Step 686] Key: L | PRNG: 87 calls
+  Map updated (1 rows changed)
+[Step 687] Key: L | PRNG: 209 calls
+  Msg: You flounder.  You hear a door open.
+  Map updated (2 rows changed)
+[Step 688] Key: N | PRNG: 220 calls
+  Msg: You flounder.
+  Map updated (3 rows changed)
+[Step 689] Key: J | PRNG: 296 calls
+  Msg: You slip and nearly fall.  You hear the splashing of a naiad.
+  Map updated (7 rows changed)
+[Step 690] Key: N | PRNG: 824 calls
+  Msg: You hear a door open.
+  Map updated (10 rows changed)
+[Step 691] Key: k | PRNG: 104 calls
+  Map updated (2 rows changed)
+[Step 692] Key: k | PRNG: 88 calls
+  Map updated (2 rows changed)
+[Step 693] Key: k | PRNG: 113 calls
+  Map updated (2 rows changed)
+[Step 694] Key: k | PRNG: 111 calls
+  Map updated (2 rows changed)
+[Step 695] Key: k | PRNG: 87 calls
+  Map updated (2 rows changed)
+[Step 696] Key: u | PRNG: 94 calls
+  Map updated (8 rows changed)
+[Step 697] Key: l | PRNG: 110 calls
+  Map updated (15 rows changed)
+[Step 698] Key: u | PRNG: 0 calls
+[Step 699] Key: n | PRNG: 103 calls
+  Map updated (4 rows changed)
+[Step 700] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 701] Key: d | PRNG: 0 calls
+  Msg: # dip
+[Step 702] Key: \r (Enter) | PRNG: 0 calls
+  Msg: What do you want to dip? [a-eghj-np-rtv or ?*]
+[Step 703] Key: h | PRNG: 0 calls
+  Msg: Dip a -4 orcish helm (being worn) into the fountain? [yn] (n)
+[Step 704] Key: y | PRNG: 97 calls
+  Msg: Dip a -4 orcish helm (being worn) into the fountain? [yn] (n)
+  Map updated (2 rows changed)
+[Step 705] Key: y | PRNG: 119 calls
+  Map updated (4 rows changed)
+[Step 706] Key: n | PRNG: 108 calls
+  Map updated (3 rows changed)
+[Step 707] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 708] Key: d | PRNG: 0 calls
+  Msg: # dip
+[Step 709] Key: \r (Enter) | PRNG: 0 calls
+  Msg: What do you want to dip? [a-eghj-np-rtv or ?*]
+[Step 710] Key: h | PRNG: 0 calls
+  Msg: Dip a -4 orcish helm (being worn) into the fountain? [yn] (n)
+[Step 711] Key: y | PRNG: 1 calls
+  Msg: An urge to take a bath overwhelms you.--More--
+[Step 712] Key:   | PRNG: 2 calls
+  Msg: You lost some of your gold in the fountain!  A watchman yells:--More--
+[Step 713] Key:   | PRNG: 102 calls
+  Msg: "Hey, stop using that fountain!"
+  Map updated (2 rows changed)

@@ -1,0 +1,191 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 2471 calls
+  Msg: It is written in the Book of The Lady:
+  Status: Touristo the Rambler           St:13 Dx:10 Co:12 In:12 Wi:11 Ch:17 Neutral | Dlvl:1 $:61 HP:10(10) Pw:2(2) AC:0 Xp:1/0 T:1
+[Step 1] Key:   | PRNG: 0 calls
+  Msg: Aloha Touristo, welcome to NetHack!  You are a neutral male human Tourist.
+  Map updated (16 rows changed)
+  Status update: Touristo the Rambler           St:13 Dx:10 Co:12 In:12 Wi:11 Ch:17 Neutral | Dlvl:1 $:61 HP:10(10) Pw:2(2) AC:10 Xp:1/0 T:1
+[Step 2] Key:   | PRNG: 2 calls
+  Msg: You are in non-scoring explore/discovery mode.
+  Map updated (1 rows changed)
+[Step 3] Key: n | PRNG: 8 calls
+  Msg: You swap places with your little dog.
+  Map updated (2 rows changed)
+  Status update: Touristo the Rambler           St:13 Dx:10 Co:12 In:12 Wi:11 Ch:17 Neutral | Dlvl:1 $:61 HP:10(10) Pw:2(2) AC:10 Xp:1/0 T:2
+[Step 4] Key: i | PRNG: 0 calls
+  Msg: Coins
+  Map updated (21 rows changed)
+  Status update: m - an uncursed credit card | (end)
+[Step 5] Key:   | PRNG: 0 calls
+  Map updated (21 rows changed)
+  Status update: Touristo the Rambler           St:13 Dx:10 Co:12 In:12 Wi:11 Ch:17 Neutral | Dlvl:1 $:61 HP:10(10) Pw:2(2) AC:10 Xp:1/0 T:2
+[Step 6] Key: e | PRNG: 0 calls
+  Msg: What do you want to eat? [b-g or ?*]
+[Step 7] Key: a | PRNG: 0 calls
+  Msg: You cannot eat that!
+[Step 8] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 9] Key: H | PRNG: 38 calls
+  Map updated (3 rows changed)
+  Status update: Touristo the Rambler           St:13 Dx:10 Co:12 In:12 Wi:11 Ch:17 Neutral | Dlvl:1 $:61 HP:10(10) Pw:2(2) AC:10 Xp:1/0 T:4
+[Step 10] Key: K | PRNG: 0 calls
+[Step 11] Key: 2 | PRNG: 0 calls
+[Step 12] Key: 0 | PRNG: 0 calls
+  Msg: Count: 20
+[Step 13] Key: s | PRNG: 63 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+  Map updated (2 rows changed)
+  Status update: Touristo the Rambler           St:13 Dx:10 Co:12 In:12 Wi:11 Ch:17 Neutral | Dlvl:1 $:61 HP:10(10) Pw:2(2) AC:10 Xp:1/0 T:6
+[Step 14] Key: L | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 15] Key: J | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 16] Key: 2 | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 17] Key: 0 | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 18] Key: s | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 19] Key: g | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 20] Key: H | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 21] Key: g | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 22] Key: K | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 23] Key: 2 | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 24] Key: 0 | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 25] Key: s | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 26] Key: g | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 27] Key: L | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 28] Key: g | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 29] Key: J | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 30] Key: H | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 31] Key: H | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 32] Key: K | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 33] Key: K | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 34] Key: 2 | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 35] Key: 0 | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 36] Key: s | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 37] Key: H | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 38] Key: H | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 39] Key: J | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 40] Key: 2 | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 41] Key: 0 | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 42] Key: s | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 43] Key: H | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 44] Key: K | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 45] Key: 2 | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 46] Key: 0 | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 47] Key: s | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 48] Key: H | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 49] Key: K | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 50] Key: H | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 51] Key: J | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 52] Key: > | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 53] Key: H | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 54] Key: K | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 55] Key: > | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 56] Key: J | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 57] Key: H | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 58] Key: > | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 59] Key: . | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 60] Key: . | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 61] Key: . | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 62] Key: . | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 63] Key: . | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 64] Key: . | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 65] Key: L | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 66] Key: J | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 67] Key: H | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 68] Key: K | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 69] Key: 1 | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 70] Key: 0 | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 71] Key: s | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 72] Key: i | PRNG: 0 calls
+  Msg: The little dog misses the jackal.  The little dog bites the jackal.--More--
+[Step 73] Key: ESC | PRNG: 354 calls
+  Msg: The jackal is killed!
+  Map updated (2 rows changed)
+  Status update: Touristo the Rambler           St:13 Dx:10 Co:12 In:12 Wi:11 Ch:17 Neutral | Dlvl:1 $:61 HP:10(10) Pw:2(2) AC:10 Xp:1/0 T:24
+[Step 74] Key: + | PRNG: 0 calls
+  Msg: You don't know any spells right now.
+[Step 75] Key: ESC | PRNG: 0 calls
+[Step 76] Key: \ | PRNG: 0 calls
+  Msg: Discoveries, by order of discovery within each class
+  Map updated (9 rows changed)
+  Status update:  | --More--
+[Step 77] Key: ESC | PRNG: 0 calls
+  Map updated (9 rows changed)
+  Status update: Touristo the Rambler           St:13 Dx:10 Co:12 In:12 Wi:11 Ch:17 Neutral | Dlvl:1 $:61 HP:10(10) Pw:2(2) AC:10 Xp:1/0 T:24
+[Step 78] Key:  | PRNG: 0 calls
+  Msg: Touristo the Tourist's attributes:
+  Map updated (19 rows changed)
+  Status update: Your intelligence is 12. | (1 of 2)
+[Step 79] Key:   | PRNG: 0 calls
+  Msg: Your wisdom is 11.
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 80] Key: ESC | PRNG: 0 calls
+  Map updated (15 rows changed)
+  Status update: Touristo the Rambler           St:13 Dx:10 Co:12 In:12 Wi:11 Ch:17 Neutral | Dlvl:1 $:61 HP:10(10) Pw:2(2) AC:10 Xp:1/0 T:24
+[Step 81] Key: s | PRNG: 19 calls
+  Map updated (2 rows changed)
+  Status update: Touristo the Rambler           St:13 Dx:10 Co:12 In:12 Wi:11 Ch:17 Neutral | Dlvl:1 $:61 HP:10(10) Pw:2(2) AC:10 Xp:1/0 T:25
+[Step 82] Key: s | PRNG: 28 calls
+  Map updated (1 rows changed)
+  Status update: Touristo the Rambler           St:13 Dx:10 Co:12 In:12 Wi:11 Ch:17 Neutral | Dlvl:1 $:61 HP:10(10) Pw:2(2) AC:10 Xp:1/0 T:26
+[Step 83] Key: : | PRNG: 0 calls
+  Msg: There is a doorway here.

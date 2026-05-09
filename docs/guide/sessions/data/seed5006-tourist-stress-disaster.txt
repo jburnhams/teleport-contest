@@ -1,0 +1,536 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 4180 calls
+  Msg: Aloha wizard, welcome to NetHack!  You are a neutral female human Tourist.
+  Status: Wizard the Rambler             St:10 Dx:12 Co:15 In:13 Wi:10 Ch:15 Neutral | Dlvl:1 $:307 HP:10(10) Pw:2(2) AC:10 Xp:1
+[Step 1] Key:   | PRNG: 2 calls
+  Msg: You are lucky!  Full moon tonight.
+  Map updated (1 rows changed)
+[Step 2] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 3] Key: 2 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 2
+[Step 4] Key: 
+ | PRNG: 4133 calls
+  Msg: You materialize on a different level!
+  Map updated (8 rows changed)
+  Status update: Wizard the Rambler             St:10 Dx:12 Co:15 In:13 Wi:10 Ch:15 Neutral | Dlvl:2 $:307 HP:10(10) Pw:2(2) AC:10 Xp:1
+[Step 5] Key:  | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 6] Key: c | PRNG: 0 calls
+  Msg: For what do you wish? c
+[Step 7] Key: u | PRNG: 0 calls
+  Msg: For what do you wish? cu
+[Step 8] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? cur
+[Step 9] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? curs
+[Step 10] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? curse
+[Step 11] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? cursed
+[Step 12] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? cursed
+[Step 13] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? cursed l
+[Step 14] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? cursed le
+[Step 15] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? cursed lea
+[Step 16] Key: t | PRNG: 0 calls
+  Msg: For what do you wish? cursed leat
+[Step 17] Key: h | PRNG: 0 calls
+  Msg: For what do you wish? cursed leath
+[Step 18] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? cursed leathe
+[Step 19] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? cursed leather
+[Step 20] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? cursed leather
+[Step 21] Key: g | PRNG: 0 calls
+  Msg: For what do you wish? cursed leather g
+[Step 22] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? cursed leather gl
+[Step 23] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? cursed leather glo
+[Step 24] Key: v | PRNG: 0 calls
+  Msg: For what do you wish? cursed leather glov
+[Step 25] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? cursed leather glove
+[Step 26] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? cursed leather gloves
+[Step 27] Key: 
+ | PRNG: 7 calls
+  Msg: m - a pair of fencing gloves.
+[Step 28] Key:  | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 29] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? r
+[Step 30] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? ri
+[Step 31] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? rin
+[Step 32] Key: g | PRNG: 0 calls
+  Msg: For what do you wish? ring
+[Step 33] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? ring
+[Step 34] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? ring o
+[Step 35] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? ring of
+[Step 36] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? ring of
+[Step 37] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? ring of r
+[Step 38] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? ring of re
+[Step 39] Key: g | PRNG: 0 calls
+  Msg: For what do you wish? ring of reg
+[Step 40] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? ring of rege
+[Step 41] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? ring of regen
+[Step 42] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? ring of regene
+[Step 43] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? ring of regener
+[Step 44] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? ring of regenera
+[Step 45] Key: t | PRNG: 0 calls
+  Msg: For what do you wish? ring of regenerat
+[Step 46] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? ring of regenerati
+[Step 47] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? ring of regeneratio
+[Step 48] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? ring of regeneration
+[Step 49] Key: 
+ | PRNG: 5 calls
+  Msg: n - a clay ring.
+[Step 50] Key:  | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 51] Key: b | PRNG: 0 calls
+  Msg: For what do you wish? b
+[Step 52] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? bl
+[Step 53] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? bli
+[Step 54] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? blin
+[Step 55] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? blind
+[Step 56] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? blindf
+[Step 57] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? blindfo
+[Step 58] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? blindfol
+[Step 59] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? blindfold
+[Step 60] Key: 
+ | PRNG: 3 calls
+  Msg: o - a blindfold.
+[Step 61] Key:  | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 62] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? s
+[Step 63] Key: c | PRNG: 0 calls
+  Msg: For what do you wish? sc
+[Step 64] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? scr
+[Step 65] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? scro
+[Step 66] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? scrol
+[Step 67] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? scroll
+[Step 68] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? scroll
+[Step 69] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? scroll o
+[Step 70] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? scroll of
+[Step 71] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? scroll of
+[Step 72] Key: t | PRNG: 0 calls
+  Msg: For what do you wish? scroll of t
+[Step 73] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? scroll of te
+[Step 74] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? scroll of tel
+[Step 75] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? scroll of tele
+[Step 76] Key: p | PRNG: 0 calls
+  Msg: For what do you wish? scroll of telep
+[Step 77] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? scroll of telepo
+[Step 78] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? scroll of telepor
+[Step 79] Key: t | PRNG: 0 calls
+  Msg: For what do you wish? scroll of teleport
+[Step 80] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? scroll of teleporta
+[Step 81] Key: t | PRNG: 0 calls
+  Msg: For what do you wish? scroll of teleportat
+[Step 82] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? scroll of teleportati
+[Step 83] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? scroll of teleportatio
+[Step 84] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? scroll of teleportation
+[Step 85] Key: 
+ | PRNG: 5 calls
+  Msg: p - a scroll labeled YUM YUM.
+[Step 86] Key:  | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 87] Key: c | PRNG: 0 calls
+  Msg: For what do you wish? c
+[Step 88] Key: u | PRNG: 0 calls
+  Msg: For what do you wish? cu
+[Step 89] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? cur
+[Step 90] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? curs
+[Step 91] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? curse
+[Step 92] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? cursed
+[Step 93] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? cursed
+[Step 94] Key: b | PRNG: 0 calls
+  Msg: For what do you wish? cursed b
+[Step 95] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? cursed ba
+[Step 96] Key: g | PRNG: 0 calls
+  Msg: For what do you wish? cursed bag
+[Step 97] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? cursed bag
+[Step 98] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? cursed bag o
+[Step 99] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? cursed bag of
+[Step 100] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? cursed bag of
+[Step 101] Key: h | PRNG: 0 calls
+  Msg: For what do you wish? cursed bag of h
+[Step 102] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? cursed bag of ho
+[Step 103] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? cursed bag of hol
+[Step 104] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? cursed bag of hold
+[Step 105] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? cursed bag of holdi
+[Step 106] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? cursed bag of holdin
+[Step 107] Key: g | PRNG: 0 calls
+  Msg: For what do you wish? cursed bag of holding
+[Step 108] Key: 
+ | PRNG: 9 calls
+  Msg: q - a bag.
+[Step 109] Key: P | PRNG: 0 calls
+  Msg: What do you want to put on? [no or ?*]
+[Step 110] Key: n | PRNG: 0 calls
+  Msg: Which ring-finger, Right or Left? [rl]
+[Step 111] Key: r | PRNG: 9 calls
+  Msg: n - a clay ring (on right hand).
+[Step 112] Key: W | PRNG: 0 calls
+  Msg: What do you want to wear? [m or ?*]
+[Step 113] Key: m | PRNG: 20 calls
+  Msg: The kitten misses the sewer rat.  You finish your dressing maneuver.
+  Map updated (2 rows changed)
+  Status update: Wizard the Rambler             St:10 Dx:12 Co:15 In:13 Wi:10 Ch:15 Neutral | Dlvl:2 $:307 HP:10(10) Pw:2(2) AC:9 Xp:1
+[Step 114] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 115] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 116] Key: T | PRNG: 0 calls
+  Msg: What do you want to take off? [jm or ?*]
+[Step 117] Key: m | PRNG: 0 calls
+  Msg: You can't.  They are cursed.
+[Step 118] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 119] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 120] Key: P | PRNG: 0 calls
+  Msg: What do you want to put on? [o or ?*]
+[Step 121] Key: o | PRNG: 32 calls
+  Msg: You are now wearing a blindfold.  You can't see any more.  It bites!
+  Map updated (1 rows changed)
+  Status update: Wizard the Rambler             St:10 Dx:12 Co:15 In:13 Wi:10 Ch:15 Neutral | Dlvl:2 $:307 HP:10(10) Pw:2(2) AC:9 Xp:1 Blind
+[Step 122] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 123] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 124] Key: T | PRNG: 0 calls
+  Msg: What do you want to take off? [jm or ?*]
+[Step 125] Key: o | PRNG: 4 calls
+  Msg: You were wearing a blindfold.  You can see again.--More--
+  Map updated (1 rows changed)
+  Status update: Wizard the Rambler             St:10 Dx:12 Co:15 In:13 Wi:10 Ch:15 Neutral | Dlvl:2 $:307 HP:10(10) Pw:2(2) AC:9 Xp:1
+[Step 126] Key:   | PRNG: 14 calls
+  Msg: The kitten misses the sewer rat.  The sewer rat bites!--More--
+  Status update: Wizard the Rambler             St:10 Dx:12 Co:15 In:13 Wi:10 Ch:15 Neutral | Dlvl:2 $:307 HP:9(10) Pw:2(2) AC:9 Xp:1
+[Step 127] Key:   | PRNG: 15 calls
+  Msg: The kitten bites the sewer rat.  The sewer rat is killed!
+  Map updated (1 rows changed)
+  Status update: Wizard the Rambler             St:10 Dx:12 Co:15 In:13 Wi:10 Ch:15 Neutral | Dlvl:2 $:307 HP:10(10) Pw:2(2) AC:9 Xp:1
+[Step 128] Key:  | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 129] Key: c | PRNG: 0 calls
+  Msg: For what do you wish? c
+[Step 130] Key: u | PRNG: 0 calls
+  Msg: For what do you wish? cu
+[Step 131] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? cur
+[Step 132] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? curs
+[Step 133] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? curse
+[Step 134] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? cursed
+[Step 135] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? cursed
+[Step 136] Key: p | PRNG: 0 calls
+  Msg: For what do you wish? cursed p
+[Step 137] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? cursed po
+[Step 138] Key: t | PRNG: 0 calls
+  Msg: For what do you wish? cursed pot
+[Step 139] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? cursed poti
+[Step 140] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? cursed potio
+[Step 141] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? cursed potion
+[Step 142] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? cursed potion
+[Step 143] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? cursed potion o
+[Step 144] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? cursed potion of
+[Step 145] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? cursed potion of
+[Step 146] Key: c | PRNG: 0 calls
+  Msg: For what do you wish? cursed potion of c
+[Step 147] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? cursed potion of co
+[Step 148] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? cursed potion of con
+[Step 149] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? cursed potion of conf
+[Step 150] Key: u | PRNG: 0 calls
+  Msg: For what do you wish? cursed potion of confu
+[Step 151] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? cursed potion of confus
+[Step 152] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? cursed potion of confusi
+[Step 153] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? cursed potion of confusio
+[Step 154] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? cursed potion of confusion
+[Step 155] Key: 
+ | PRNG: 4 calls
+  Msg: r - a puce potion.
+[Step 156] Key: q | PRNG: 0 calls
+  Msg: What do you want to drink? [hr or ?*]
+[Step 157] Key: r | PRNG: 30 calls
+  Msg: Huh, What?  Where am I?
+  Map updated (1 rows changed)
+  Status update: Wizard the Rambler             St:10 Dx:12 Co:15 In:13 Wi:10 Ch:15 Neutral | Dlvl:2 $:307 HP:10(10) Pw:2(2) AC:9 Xp:1 Conf
+[Step 158] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 159] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 160] Key: r | PRNG: 0 calls
+  Msg: What do you want to read? [ip or ?*]
+[Step 161] Key: p | PRNG: 0 calls
+  Msg: As you read the scroll, it disappears.--More--
+[Step 162] Key:   | PRNG: 1 calls
+  Msg: Being confused, you mispronounce the magic words...--More--
+[Step 163] Key:   | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 164] Key: 
+ | PRNG: 2433 calls
+  Msg: Oops...--More--
+[Step 165] Key:   | PRNG: 39 calls
+  Msg: You materialize on a different level!
+  Map updated (9 rows changed)
+  Status update: Wizard the Rambler             St:10 Dx:12 Co:15 In:13 Wi:10 Ch:15 Neutral | Dlvl:3 $:307 HP:10(10) Pw:2(2) AC:9 Xp:1 Conf
+[Step 166] Key:  | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 167] Key: w | PRNG: 0 calls
+  Msg: For what do you wish? w
+[Step 168] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? wa
+[Step 169] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? wan
+[Step 170] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? wand
+[Step 171] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? wand
+[Step 172] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? wand o
+[Step 173] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? wand of
+[Step 174] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? wand of
+[Step 175] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? wand of d
+[Step 176] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? wand of de
+[Step 177] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? wand of dea
+[Step 178] Key: t | PRNG: 0 calls
+  Msg: For what do you wish? wand of deat
+[Step 179] Key: h | PRNG: 0 calls
+  Msg: For what do you wish? wand of death
+[Step 180] Key: 
+ | PRNG: 6 calls
+  Msg: s - a marble wand.
+[Step 181] Key: z | PRNG: 0 calls
+  Msg: What do you want to zap? [s or ?*]
+[Step 182] Key: s | PRNG: 1 calls
+  Msg: In what direction?
+[Step 183] Key: . | PRNG: 1 calls
+  Msg: You irradiate yourself with pure energy!--More--
+[Step 184] Key:   | PRNG: 0 calls
+  Msg: You die.--More--
+[Step 185] Key:   | PRNG: 0 calls
+  Msg: Die? [yn] (n)
+  Status update: Wizard the Rambler             St:10 Dx:12 Co:15 In:13 Wi:10 Ch:15 Neutral | Dlvl:3 $:307 HP:0(10) Pw:2(2) AC:9 Xp:1 Conf
+[Step 186] Key: y | PRNG: 31 calls
+  Msg: Save bones? [yn] (n)
+[Step 187] Key: y | PRNG: 42 calls
+  Map updated (18 rows changed)
+  Status update: You were level 1 with a maximum of 10 hit points when you died. | --More--
+[Step 188] Key:   | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update:  | --More--
+[Step 189] Key: y | PRNG: 0 calls
+[Step 190] Key: y | PRNG: 0 calls
+[Step 191] Key: y | PRNG: 0 calls
+[Step 192] Key: y | PRNG: 0 calls
+[Step 193] Key:   | PRNG: 0 calls
+  Map updated (1 rows changed)
+  Status update:  | 
+
+=== SEGMENT 1 ===
+[Step 0] Key: NULL (Init) | PRNG: 2669 calls
+  Msg: Salutations wizard, welcome to NetHack!  You are a lawful male human Knight.
+  Status: Wizard the Gallant             St:14 Dx:8 Co:10 In:11 Wi:15 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:5(5) AC:3 Xp:1
+[Step 1] Key:   | PRNG: 2 calls
+  Msg: You are lucky!  Full moon tonight.
+  Map updated (1 rows changed)
+[Step 2] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 3] Key: 3 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 3
+[Step 4] Key: 
+ | PRNG: 1 calls
+  Msg: Get bones? [yn] (n)
+  Map updated (1 rows changed)
+  Status update: Wizard the Gallant             St:14 Dx:8 Co:10 In:11 Wi:15 Ch:17 Lawful | Dlvl:3 $:0 HP:16(16) Pw:5(5) AC:3 Xp:1
+[Step 5] Key: y | PRNG: 49 calls
+  Msg: Unlink bones? [yn] (n)
+[Step 6] Key:   | PRNG: 57 calls
+  Msg: You materialize on a different level!--More--
+  Map updated (9 rows changed)
+[Step 7] Key:   | PRNG: 0 calls
+  Msg: You feel like you've been here before.
+[Step 8] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 9] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 10] Key: p | PRNG: 0 calls
+  Msg: # p
+[Step 11] Key: r | PRNG: 0 calls
+  Msg: # pray
+[Step 12] Key: a | PRNG: 0 calls
+  Msg: # pray
+[Step 13] Key: y | PRNG: 0 calls
+  Msg: # pray
+[Step 14] Key: 
+ | PRNG: 0 calls
+  Msg: Are you sure you want to pray? [yn] (n)
+[Step 15] Key: y | PRNG: 0 calls
+  Msg: You begin praying to Lugh.--More--
+[Step 16] Key: y | PRNG: 0 calls
+  Msg: You begin praying to Lugh.--More--
+[Step 17] Key:   | PRNG: 0 calls
+  Msg: Force the gods to be pleased? [yn] (n)
+[Step 18] Key:   | PRNG: 77 calls
+  Msg: You finish your prayer.  The voice of Lugh thunders: --More--
+  Map updated (2 rows changed)
+[Step 19] Key:   | PRNG: 0 calls
+  Msg: "Thou art arrogant, mortal."  "Thou must relearn thy lessons!"--More--
+  Status update: Wizard the Gallant             St:14 Dx:8 Co:10 In:11 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:16(16) Pw:5(5) AC:3 Xp:1
+[Step 20] Key: w | PRNG: 0 calls
+  Msg: "Thou art arrogant, mortal."  "Thou must relearn thy lessons!"--More--
+[Step 21] Key: b | PRNG: 0 calls
+  Msg: "Thou art arrogant, mortal."  "Thou must relearn thy lessons!"--More--
+[Step 22] Key:   | PRNG: 5 calls
+  Msg: You feel foolish!
+[Step 23] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 24] Key:  | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 25] Key: w | PRNG: 0 calls
+  Msg: For what do you wish? w
+[Step 26] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? wa
+[Step 27] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? wan
+[Step 28] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? wand
+[Step 29] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? wand
+[Step 30] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? wand o
+[Step 31] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? wand of
+[Step 32] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? wand of
+[Step 33] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? wand of d
+[Step 34] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? wand of de
+[Step 35] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? wand of dea
+[Step 36] Key: t | PRNG: 0 calls
+  Msg: For what do you wish? wand of deat
+[Step 37] Key: h | PRNG: 0 calls
+  Msg: For what do you wish? wand of death
+[Step 38] Key: 
+ | PRNG: 5 calls
+  Msg: i - an aluminum wand.
+[Step 39] Key: z | PRNG: 0 calls
+  Msg: What do you want to zap? [i or ?*]
+[Step 40] Key: i | PRNG: 0 calls
+  Msg: In what direction?
+[Step 41] Key: . | PRNG: 0 calls
+  Msg: You irradiate yourself with pure energy!--More--
+[Step 42] Key:   | PRNG: 0 calls
+  Msg: You die.--More--
+[Step 43] Key:   | PRNG: 0 calls
+  Msg: Die? [yn] (n)
+  Status update: Wizard the Gallant             St:14 Dx:8 Co:10 In:11 Wi:14 Ch:17 Lawful | Dlvl:3 $:0 HP:0(16) Pw:5(5) AC:3 Xp:1
+[Step 44] Key: y | PRNG: 32 calls
+  Msg: Save bones? [yn] (n)
+[Step 45] Key: y | PRNG: 0 calls
+  Msg: Bones file already exists.  Replace it? [yn] (n)
+[Step 46] Key:   | PRNG: 0 calls
+  Map updated (19 rows changed)
+  Status update: You were level 1 with a maximum of 16 hit points when you died. | --More--
+[Step 47] Key: y | PRNG: 0 calls
+[Step 48] Key: y | PRNG: 0 calls
+[Step 49] Key: y | PRNG: 0 calls
+[Step 50] Key: y | PRNG: 0 calls
+[Step 51] Key:   | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update:  | --More--
+[Step 52] Key: n | PRNG: 0 calls
+[Step 53] Key: y | PRNG: 0 calls
+[Step 54] Key:   | PRNG: 0 calls
+  Map updated (1 rows changed)
+  Status update:  | 

@@ -1,0 +1,870 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 2922 calls
+  Msg: It is written in the Book of Camaxtli:
+  Status: Wizard the Digger              St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:1 $:0 HP:13(13) Pw:2(2) AC:0 Xp:1
+[Step 1] Key:   | PRNG: 2 calls
+  Msg: Hello wizard, welcome to NetHack!  You are a neutral male human Archeologist.
+  Map updated (15 rows changed)
+  Status update: Wizard the Digger              St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:1 $:0 HP:13(13) Pw:2(2) AC:9 Xp:1
+[Step 2] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+  Map updated (5 rows changed)
+[Step 3] Key: n | PRNG: 0 calls
+  Map updated (4 rows changed)
+[Step 4] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 5] Key: l | PRNG: 0 calls
+  Msg: # l
+[Step 6] Key: e | PRNG: 0 calls
+  Msg: # levelchange
+[Step 7] Key: v | PRNG: 0 calls
+  Msg: # levelchange
+[Step 8] Key: e | PRNG: 0 calls
+  Msg: # levelchange
+[Step 9] Key: l | PRNG: 0 calls
+  Msg: # levelchange
+[Step 10] Key: c | PRNG: 0 calls
+  Msg: # levelchange
+[Step 11] Key: h | PRNG: 0 calls
+  Msg: # levelchange
+[Step 12] Key: a | PRNG: 0 calls
+  Msg: # levelchange
+[Step 13] Key: n | PRNG: 0 calls
+  Msg: # levelchange
+[Step 14] Key: g | PRNG: 0 calls
+  Msg: # levelchange
+[Step 15] Key: e | PRNG: 0 calls
+  Msg: # levelchange
+[Step 16] Key: 
+ | PRNG: 0 calls
+  Msg: To what experience level do you want to be set?
+[Step 17] Key: 2 | PRNG: 0 calls
+  Msg: To what experience level do you want to be set? 2
+[Step 18] Key: 0 | PRNG: 0 calls
+  Msg: To what experience level do you want to be set? 20
+[Step 19] Key: 
+ | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 2.--More--
+  Status update: Wizard the Digger              St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:1 $:0 HP:18(18) Pw:6(6) AC:9 Xp:2
+[Step 20] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 3.--More--
+  Status update: Wizard the Field Worker        St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:1 $:0 HP:27(27) Pw:13(13) AC:9 Xp:3
+[Step 21] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 4.--More--
+  Status update: Wizard the Field Worker        St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:1 $:0 HP:35(35) Pw:17(17) AC:9 Xp:4
+[Step 22] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 5.--More--
+  Status update: Wizard the Field Worker        St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:1 $:0 HP:43(43) Pw:22(22) AC:9 Xp:5
+[Step 23] Key:   | PRNG: 3 calls
+  Msg: You feel stealthy!  You feel more experienced.--More--
+  Status update: Wizard the Investigator        St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:1 $:0 HP:46(46) Pw:30(30) AC:9 Xp:6
+[Step 24] Key:   | PRNG: 3 calls
+  Msg: Welcome to experience level 6.  You feel more experienced.--More--
+  Status update: Wizard the Investigator        St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:1 $:0 HP:52(52) Pw:34(34) AC:9 Xp:7
+[Step 25] Key:   | PRNG: 3 calls
+  Msg: Welcome to experience level 7.  You feel more experienced.--More--
+  Status update: Wizard the Investigator        St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:1 $:0 HP:58(58) Pw:45(45) AC:9 Xp:8
+[Step 26] Key:   | PRNG: 3 calls
+  Msg: Welcome to experience level 8.  You feel more experienced.--More--
+  Status update: Wizard the Investigator        St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:1 $:0 HP:67(67) Pw:54(54) AC:9 Xp:9
+[Step 27] Key:   | PRNG: 3 calls
+  Msg: Welcome to experience level 9.  You feel more experienced.--More--
+  Status update: Wizard the Exhumer             St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:1 $:0 HP:73(73) Pw:59(59) AC:9 Xp:10
+[Step 28] Key:   | PRNG: 0 calls
+  Msg: Welcome to experience level 10.  You feel quick!--More--
+[Step 29] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 11.--More--
+  Status update: Wizard the Exhumer             St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:1 $:0 HP:75(75) Pw:65(65) AC:9 Xp:11
+[Step 30] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 12.--More--
+  Status update: Wizard the Exhumer             St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:1 $:0 HP:85(85) Pw:73(73) AC:9 Xp:12
+[Step 31] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 13.--More--
+  Status update: Wizard the Exhumer             St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:1 $:0 HP:91(91) Pw:76(76) AC:9 Xp:13
+[Step 32] Key:   | PRNG: 3 calls
+  Msg: You feel more experienced.  Welcome to experience level 14.--More--
+  Status update: Wizard the Excavator           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:1 $:0 HP:98(98) Pw:84(84) AC:9 Xp:14
+[Step 33] Key:   | PRNG: 1 calls
+  Msg: You feel more experienced.  Welcome to experience level 15.--More--
+  Status update: Wizard the Excavator           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:1 $:0 HP:100(100) Pw:88(88) AC:9 Xp:15
+[Step 34] Key:   | PRNG: 1 calls
+  Msg: You feel more experienced.  Welcome to experience level 16.--More--
+  Status update: Wizard the Excavator           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:1 $:0 HP:102(102) Pw:94(94) AC:9 Xp:16
+[Step 35] Key:   | PRNG: 1 calls
+  Msg: You feel more experienced.  Welcome to experience level 17.--More--
+  Status update: Wizard the Excavator           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:1 $:0 HP:104(104) Pw:96(96) AC:9 Xp:17
+[Step 36] Key:   | PRNG: 1 calls
+  Msg: You feel more experienced.  Welcome to experience level 18.--More--
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:1 $:0 HP:106(106) Pw:104(104) AC:9 Xp:18
+[Step 37] Key:   | PRNG: 1 calls
+  Msg: You feel more experienced.  Welcome to experience level 19.--More--
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:1 $:0 HP:108(108) Pw:112(112) AC:9 Xp:19
+[Step 38] Key:   | PRNG: 1 calls
+  Msg: You feel more experienced.  Welcome to experience level 20.
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:1 $:0 HP:110(110) Pw:123(123) AC:9 Xp:20
+[Step 39] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 40] Key: T | PRNG: 0 calls
+  Msg: What do you want to take off? [bc or ?*]
+[Step 41] Key: c | PRNG: 10 calls
+  Msg: You were wearing an uncursed +0 fedora.
+[Step 42] Key: T | PRNG: 32 calls
+  Msg: You were wearing an uncursed +0 leather jacket.
+  Map updated (1 rows changed)
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:1 $:0 HP:110(110) Pw:123(123) AC:10 Xp:20
+[Step 43] Key: d | PRNG: 0 calls
+  Msg: What do you want to drop? [a-h or ?*]
+[Step 44] Key: ESC | PRNG: 0 calls
+  Msg: Never mind.
+[Step 45] Key:  | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 46] Key: b | PRNG: 0 calls
+  Msg: For what do you wish? b
+[Step 47] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? bl
+[Step 48] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? ble
+[Step 49] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? bles
+[Step 50] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? bless
+[Step 51] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? blesse
+[Step 52] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? blessed
+[Step 53] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? blessed
+[Step 54] Key: + | PRNG: 0 calls
+  Msg: For what do you wish? blessed +
+[Step 55] Key: 5 | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5
+[Step 56] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5
+[Step 57] Key: G | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 G
+[Step 58] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 Gr
+[Step 59] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 Gra
+[Step 60] Key: y | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 Gray
+[Step 61] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 Grays
+[Step 62] Key: w | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 Graysw
+[Step 63] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 Grayswa
+[Step 64] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 Grayswan
+[Step 65] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 Grayswand
+[Step 66] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 Grayswandi
+[Step 67] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 Grayswandir
+[Step 68] Key: 
+ | PRNG: 8 calls
+  Msg: i - a silver saber named Grayswandir.
+[Step 69] Key:  | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 70] Key: b | PRNG: 0 calls
+  Msg: For what do you wish? b
+[Step 71] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? bl
+[Step 72] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? ble
+[Step 73] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? bles
+[Step 74] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? bless
+[Step 75] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? blesse
+[Step 76] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? blessed
+[Step 77] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? blessed
+[Step 78] Key: + | PRNG: 0 calls
+  Msg: For what do you wish? blessed +
+[Step 79] Key: 5 | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5
+[Step 80] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5
+[Step 81] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 s
+[Step 82] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 si
+[Step 83] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 sil
+[Step 84] Key: v | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 silv
+[Step 85] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 silve
+[Step 86] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 silver
+[Step 87] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 silver
+[Step 88] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 silver d
+[Step 89] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 silver dr
+[Step 90] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 silver dra
+[Step 91] Key: g | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 silver drag
+[Step 92] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 silver drago
+[Step 93] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 silver dragon
+[Step 94] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 silver dragon
+[Step 95] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 silver dragon s
+[Step 96] Key: c | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 silver dragon sc
+[Step 97] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 silver dragon sca
+[Step 98] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 silver dragon scal
+[Step 99] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 silver dragon scale
+[Step 100] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 silver dragon scale
+[Step 101] Key: m | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 silver dragon scale m
+[Step 102] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 silver dragon scale ma
+[Step 103] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 silver dragon scale mai
+[Step 104] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? blessed +5 silver dragon scale mail
+[Step 105] Key: 
+ | PRNG: 11 calls
+  Msg: j - a silver dragon scale mail.
+[Step 106] Key:  | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 107] Key: b | PRNG: 0 calls
+  Msg: For what do you wish? b
+[Step 108] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? bl
+[Step 109] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? ble
+[Step 110] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? bles
+[Step 111] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? bless
+[Step 112] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? blesse
+[Step 113] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? blessed
+[Step 114] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? blessed
+[Step 115] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? blessed a
+[Step 116] Key: m | PRNG: 0 calls
+  Msg: For what do you wish? blessed am
+[Step 117] Key: u | PRNG: 0 calls
+  Msg: For what do you wish? blessed amu
+[Step 118] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? blessed amul
+[Step 119] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? blessed amule
+[Step 120] Key: t | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet
+[Step 121] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet
+[Step 122] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet o
+[Step 123] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet of
+[Step 124] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet of
+[Step 125] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet of l
+[Step 126] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet of li
+[Step 127] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet of lif
+[Step 128] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet of life
+[Step 129] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet of life
+[Step 130] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet of life s
+[Step 131] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet of life sa
+[Step 132] Key: v | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet of life sav
+[Step 133] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet of life savi
+[Step 134] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet of life savin
+[Step 135] Key: g | PRNG: 0 calls
+  Msg: For what do you wish? blessed amulet of life saving
+[Step 136] Key: 
+ | PRNG: 5 calls
+  Msg: k - a triangular amulet.
+[Step 137] Key: w | PRNG: 0 calls
+  Msg: What do you want to wield? [- aei or ?*]
+[Step 138] Key: i | PRNG: 38 calls
+  Msg: i - a silver saber named Grayswandir (weapon in right hand).
+[Step 139] Key: W | PRNG: 0 calls
+  Msg: What do you want to wear? [bcj or ?*]
+[Step 140] Key: j | PRNG: 179 calls
+  Msg: You finish your dressing maneuver.
+  Map updated (2 rows changed)
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:1 $:0 HP:110(110) Pw:123(123) AC:-4 Xp:20
+[Step 141] Key: P | PRNG: 0 calls
+  Msg: What do you want to put on? [k or ?*]
+[Step 142] Key: k | PRNG: 40 calls
+  Msg: k - a triangular amulet (being worn).
+[Step 143] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 144] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 145] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   orcus: 42 | (1 of 3)
+[Step 146] Key:   | PRNG: 0 calls
+  Msg: t -   fakewiz2: 44
+  Map updated (21 rows changed)
+  Status update: J -   astral: -5 | (2 of 3)
+[Step 147] Key: y | PRNG: 924 calls
+  Msg: You materialize on a different level!--More--
+  Map updated (21 rows changed)
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Home 1 $:0 HP:110(110) Pw:123(123) AC:-4 Xp:20
+[Step 148] Key:   | PRNG: 0 calls
+  Msg: You are suddenly in familiar surroundings.  The buildings in the distance
+  Map updated (8 rows changed)
+  Status update:  | --More--
+[Step 149] Key:   | PRNG: 0 calls
+  Map updated (8 rows changed)
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Home 1 $:0 HP:110(110) Pw:123(123) AC:-4 Xp:20
+[Step 150] Key: . | PRNG: 30 calls
+[Step 151] Key:  | PRNG: 0 calls
+  Msg: Where do you want to be teleported?--More--
+[Step 152] Key:   | PRNG: 0 calls
+  Msg: Tip: Farlooking or selecting a map location
+  Map updated (8 rows changed)
+[Step 153] Key:   | PRNG: 0 calls
+  Msg: (For instructions type a '?')  Move cursor to the desired position:
+  Map updated (8 rows changed)
+[Step 154] Key: h | PRNG: 0 calls
+  Msg: floor of a room
+[Step 155] Key: h | PRNG: 0 calls
+  Msg: floor of a room
+[Step 156] Key: h | PRNG: 0 calls
+  Msg: floor of a room
+[Step 157] Key: h | PRNG: 0 calls
+  Msg: floor of a room
+[Step 158] Key: h | PRNG: 0 calls
+  Msg: floor of a room
+[Step 159] Key: h | PRNG: 0 calls
+  Msg: floor of a room
+[Step 160] Key: h | PRNG: 0 calls
+  Msg: floor of a room
+[Step 161] Key: h | PRNG: 0 calls
+  Msg: floor of a room
+[Step 162] Key: h | PRNG: 0 calls
+  Msg: floor of a room
+[Step 163] Key: h | PRNG: 0 calls
+  Msg: floor of a room
+[Step 164] Key: h | PRNG: 0 calls
+  Msg: floor of a room
+[Step 165] Key: h | PRNG: 0 calls
+  Msg: floor of a room
+[Step 166] Key: h | PRNG: 0 calls
+  Msg: floor of a room
+[Step 167] Key: h | PRNG: 0 calls
+  Msg: floor of a room
+[Step 168] Key: h | PRNG: 0 calls
+  Msg: floor of a room
+[Step 169] Key: j | PRNG: 0 calls
+  Msg: floor of a room
+[Step 170] Key: j | PRNG: 0 calls
+  Msg: moat
+[Step 171] Key: j | PRNG: 0 calls
+  Msg: wall
+[Step 172] Key: j | PRNG: 0 calls
+  Msg: unexplored area
+[Step 173] Key: j | PRNG: 0 calls
+  Msg: unexplored area
+[Step 174] Key: j | PRNG: 0 calls
+  Msg: unexplored area
+[Step 175] Key: j | PRNG: 0 calls
+  Msg: unexplored area
+[Step 176] Key: j | PRNG: 0 calls
+  Msg: unexplored area
+[Step 177] Key: . | PRNG: 119 calls
+  Msg: You materialize in a different location!--More--
+  Map updated (5 rows changed)
+[Step 178] Key: y | PRNG: 0 calls
+  Msg: You materialize in a different location!--More--
+[Step 179] Key:   | PRNG: 0 calls
+  Msg: "Finally you have returned, wizard.  You were always
+  Map updated (10 rows changed)
+  Status update:  | --More--
+[Step 180] Key:  | PRNG: 0 calls
+  Msg: "Finally you have returned, wizard.  You were always
+[Step 181] Key: ? | PRNG: 0 calls
+  Msg: "Finally you have returned, wizard.  You were always
+[Step 182] Key: 
+ | PRNG: 0 calls
+  Msg: You are currently 10 and require 20.--More--
+  Map updated (10 rows changed)
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Home 1 $:0 HP:110(110) Pw:123(123) AC:-4 Xp:20
+[Step 183] Key:   | PRNG: 0 calls
+  Msg: adjust?
+[Step 184] Key: z | PRNG: 2 calls
+  Msg: "Wizard!  I've heard that you've been using sloppy techniques.  Your
+  Map updated (10 rows changed)
+  Status update:  | --More--
+[Step 185] Key:   | PRNG: 3474 calls
+  Map updated (6 rows changed)
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:14 $:0 HP:110(110) Pw:123(123) AC:-4 Xp:20
+[Step 186] Key: n | PRNG: 40 calls
+  Map updated (2 rows changed)
+[Step 187] Key: j | PRNG: 43 calls
+  Map updated (2 rows changed)
+[Step 188] Key: j | PRNG: 2 calls
+  Msg: The door resists!
+[Step 189] Key: j | PRNG: 2 calls
+  Msg: The door resists!
+[Step 190] Key: j | PRNG: 2 calls
+  Msg: The door resists!
+[Step 191] Key: j | PRNG: 2 calls
+  Msg: The door resists!
+[Step 192] Key: j | PRNG: 1 calls
+  Msg: The door opens.
+  Map updated (8 rows changed)
+[Step 193] Key: j | PRNG: 39 calls
+  Map updated (5 rows changed)
+[Step 194] Key: j | PRNG: 43 calls
+  Map updated (4 rows changed)
+[Step 195] Key: j | PRNG: 47 calls
+  Map updated (4 rows changed)
+[Step 196] Key: j | PRNG: 40 calls
+  Map updated (6 rows changed)
+[Step 197] Key: j | PRNG: 11 calls
+  Map updated (8 rows changed)
+[Step 198] Key: s | PRNG: 36 calls
+[Step 199] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 200] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 201] Key: 1 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 1
+[Step 202] Key: 5 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 15
+[Step 203] Key: 
+ | PRNG: 2890 calls
+  Msg: You materialize on a different level!
+  Map updated (15 rows changed)
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:15 $:0 HP:110(110) Pw:123(123) AC:-4 Xp:20
+[Step 204] Key: u | PRNG: 10 calls
+  Map updated (3 rows changed)
+[Step 205] Key: u | PRNG: 16 calls
+  Map updated (3 rows changed)
+[Step 206] Key: l | PRNG: 7 calls
+  Msg: Click!  You trigger a rolling boulder trap!  A boulder misses you.
+  Map updated (3 rows changed)
+[Step 207] Key: l | PRNG: 11 calls
+  Map updated (3 rows changed)
+[Step 208] Key: l | PRNG: 13 calls
+  Map updated (3 rows changed)
+[Step 209] Key: : | PRNG: 0 calls
+  Msg: There is a sink here.
+[Step 210] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 211] Key: 1 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 1
+[Step 212] Key: 7 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 17
+[Step 213] Key: 
+ | PRNG: 2615 calls
+  Msg: You materialize on a different level!
+  Map updated (9 rows changed)
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:17 $:0 HP:110(110) Pw:123(123) AC:-4 Xp:20
+[Step 214] Key: u | PRNG: 7 calls
+  Map updated (3 rows changed)
+[Step 215] Key: u | PRNG: 11 calls
+  Map updated (2 rows changed)
+[Step 216] Key: u | PRNG: 11 calls
+  Map updated (2 rows changed)
+[Step 217] Key: n | PRNG: 11 calls
+  Map updated (2 rows changed)
+[Step 218] Key: n | PRNG: 4 calls
+  Map updated (2 rows changed)
+[Step 219] Key: n | PRNG: 7 calls
+  Map updated (2 rows changed)
+[Step 220] Key: : | PRNG: 0 calls
+  Msg: There is a staircase down here.
+[Step 221] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 222] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 223] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   orcus: 42 | (1 of 3)
+[Step 224] Key:   | PRNG: 0 calls
+  Msg: t -   fakewiz2: 44
+  Map updated (21 rows changed)
+  Status update: J -   astral: -5 | (2 of 3)
+[Step 225] Key: B | PRNG: 7355 calls
+  Msg: You materialize on a different level!
+  Map updated (21 rows changed)
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:4 $:0 HP:110(110) Pw:123(123) AC:-4 Xp:20
+[Step 226] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 227] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 228] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 229] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 230] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   orcus: 42 | (1 of 3)
+[Step 231] Key:   | PRNG: 0 calls
+  Msg: t -   fakewiz2: 44
+  Map updated (21 rows changed)
+  Status update: J -   astral: -5 | (2 of 3)
+[Step 232] Key: x | PRNG: 798 calls
+  Msg: You materialize on a different level!
+  Map updated (21 rows changed)
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:11 $:0 HP:110(110) Pw:123(123) AC:-4 Xp:20
+[Step 233] Key: u | PRNG: 30 calls
+  Map updated (3 rows changed)
+[Step 234] Key: l | PRNG: 40 calls
+  Msg: A dagger misses you.
+  Map updated (3 rows changed)
+[Step 235] Key: l | PRNG: 31 calls
+  Map updated (3 rows changed)
+[Step 236] Key: l | PRNG: 66 calls
+  Msg: You hear a chugging sound.
+  Map updated (3 rows changed)
+[Step 237] Key: n | PRNG: 92 calls
+  Msg: You hit the gnome king!  The gnome king hits!
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:11 $:0 HP:102(110) Pw:123(123) AC:-4 Xp:20
+[Step 238] Key: n | PRNG: 89 calls
+  Msg: You hit the gnome king!  The dwarf misses!
+[Step 239] Key: n | PRNG: 93 calls
+  Msg: You hit the gnome king!  The gnome king hits!
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:11 $:0 HP:92(110) Pw:123(123) AC:-4 Xp:20
+[Step 240] Key: n | PRNG: 84 calls
+  Msg: You kill the gnome king!
+  Map updated (1 rows changed)
+[Step 241] Key: l | PRNG: 74 calls
+  Msg: You kill the dwarf!
+  Map updated (1 rows changed)
+[Step 242] Key: l | PRNG: 0 calls
+  Msg: Things that are here:
+  Map updated (7 rows changed)
+[Step 243] Key:   | PRNG: 35 calls
+  Map updated (4 rows changed)
+[Step 244] Key: l | PRNG: 29 calls
+  Map updated (3 rows changed)
+[Step 245] Key: l | PRNG: 0 calls
+[Step 246] Key: l | PRNG: 0 calls
+[Step 247] Key: u | PRNG: 0 calls
+[Step 248] Key: l | PRNG: 0 calls
+[Step 249] Key: u | PRNG: 0 calls
+[Step 250] Key: y | PRNG: 0 calls
+[Step 251] Key: y | PRNG: 0 calls
+[Step 252] Key: y | PRNG: 0 calls
+[Step 253] Key: y | PRNG: 0 calls
+[Step 254] Key: y | PRNG: 0 calls
+[Step 255] Key: y | PRNG: 0 calls
+[Step 256] Key: h | PRNG: 0 calls
+  Msg: Things that are here:
+  Map updated (5 rows changed)
+[Step 257] Key:   | PRNG: 78 calls
+  Map updated (4 rows changed)
+[Step 258] Key: h | PRNG: 72 calls
+  Map updated (1 rows changed)
+[Step 259] Key: h | PRNG: 79 calls
+  Map updated (1 rows changed)
+[Step 260] Key: h | PRNG: 68 calls
+  Msg: You see here a dagger.
+  Map updated (1 rows changed)
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:11 $:0 HP:93(110) Pw:123(123) AC:-4 Xp:20
+[Step 261] Key: h | PRNG: 70 calls
+  Map updated (1 rows changed)
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:11 $:0 HP:94(110) Pw:123(123) AC:-4 Xp:20
+[Step 262] Key: h | PRNG: 0 calls
+[Step 263] Key: h | PRNG: 0 calls
+[Step 264] Key: y | PRNG: 0 calls
+[Step 265] Key: b | PRNG: 41 calls
+  Map updated (2 rows changed)
+[Step 266] Key: h | PRNG: 0 calls
+[Step 267] Key: h | PRNG: 0 calls
+[Step 268] Key: y | PRNG: 0 calls
+[Step 269] Key: y | PRNG: 0 calls
+[Step 270] Key: y | PRNG: 0 calls
+[Step 271] Key: y | PRNG: 0 calls
+[Step 272] Key: y | PRNG: 0 calls
+[Step 273] Key: h | PRNG: 0 calls
+[Step 274] Key: h | PRNG: 0 calls
+[Step 275] Key: h | PRNG: 0 calls
+[Step 276] Key: b | PRNG: 0 calls
+[Step 277] Key: : | PRNG: 0 calls
+  Msg: You see no objects here.
+[Step 278] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 279] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 280] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   orcus: 42 | (1 of 3)
+[Step 281] Key:   | PRNG: 0 calls
+  Msg: t -   fakewiz2: 44
+  Map updated (21 rows changed)
+  Status update: J -   astral: -5 | (2 of 3)
+[Step 282] Key: y | PRNG: 30 calls
+  Msg: You materialize on a different level!--More--
+  Map updated (21 rows changed)
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Home 1 $:0 HP:94(110) Pw:123(123) AC:-4 Xp:20
+[Step 283] Key:  | PRNG: 0 calls
+  Msg: You materialize on a different level!--More--
+[Step 284] Key: ? | PRNG: 0 calls
+  Msg: You materialize on a different level!--More--
+[Step 285] Key: 
+ | PRNG: 0 calls
+  Msg: Once again, you are back at the College of Archeology.
+[Step 286] Key: e | PRNG: 0 calls
+  Msg: What do you want to eat? [d or ?*]
+[Step 287] Key: s | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 288] Key:  | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 289] Key: ? | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 290] Key: 
+ | PRNG: 0 calls
+  Msg: What do you want to eat? [d or ?*]
+[Step 291] Key: i | PRNG: 0 calls
+  Msg: You cannot eat that!
+[Step 292] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 293] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 294] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (21 rows changed)
+  Status update: s -   orcus: 42 | (1 of 3)
+[Step 295] Key:   | PRNG: 0 calls
+  Msg: t -   fakewiz2: 44
+  Map updated (21 rows changed)
+  Status update: J -   astral: -5 | (2 of 3)
+[Step 296] Key: y | PRNG: 0 calls
+  Map updated (21 rows changed)
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Home 1 $:0 HP:94(110) Pw:123(123) AC:-4 Xp:20
+[Step 297] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 298] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 299] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (21 rows changed)
+  Status update: s -   orcus: 42 | (1 of 3)
+[Step 300] Key:   | PRNG: 0 calls
+  Msg: t -   fakewiz2: 44
+  Map updated (21 rows changed)
+  Status update: J -   astral: -5 | (2 of 3)
+[Step 301] Key: G | PRNG: 342 calls
+  Msg: You materialize on a different level!
+  Map updated (21 rows changed)
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:37 $:0 HP:94(110) Pw:123(123) AC:-4 Xp:20
+[Step 302] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 303] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 304] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 305] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   orcus: 42 | (1 of 3)
+[Step 306] Key:   | PRNG: 0 calls
+  Msg: t -   fakewiz2: 44
+  Map updated (21 rows changed)
+  Status update: J -   astral: -5 | (2 of 3)
+[Step 307] Key: z | PRNG: 8285 calls
+  Msg: You materialize on a different level!--More--
+  Map updated (21 rows changed)
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Home 3 $:0 HP:94(110) Pw:123(123) AC:-4 Xp:20
+[Step 308] Key:   | PRNG: 0 calls
+  Msg: A plain opens before you.  Beyond the plain lies a foreboding edifice.
+  Map updated (20 rows changed)
+  Status update:  | --More--
+[Step 309] Key:  | PRNG: 0 calls
+  Msg: A plain opens before you.  Beyond the plain lies a foreboding edifice.
+[Step 310] Key: 2 | PRNG: 0 calls
+  Msg: A plain opens before you.  Beyond the plain lies a foreboding edifice.
+[Step 311] Key: 
+ | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Home 3 $:0 HP:94(110) Pw:123(123) AC:-4 Xp:20
+[Step 312] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 313] Key: 4 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 4
+[Step 314] Key: 
+ | PRNG: 2560 calls
+  Msg: You materialize on a different level!
+  Map updated (20 rows changed)
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Home 4 $:0 HP:94(110) Pw:123(123) AC:-4 Xp:20
+[Step 315] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 316] Key: 5 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 5
+[Step 317] Key: 
+ | PRNG: 8448 calls
+  Msg: You materialize on a different level!--More--
+  Map updated (11 rows changed)
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Home 5 $:0 HP:94(110) Pw:123(123) AC:-4 Xp:20
+[Step 318] Key:  | PRNG: 0 calls
+  Msg: You materialize on a different level!--More--
+[Step 319] Key: 1 | PRNG: 0 calls
+  Msg: You materialize on a different level!--More--
+[Step 320] Key: 
+ | PRNG: 0 calls
+  Msg: A strange feeling washes over you, and you think back to things you
+  Map updated (9 rows changed)
+  Status update:  | --More--
+[Step 321] Key:  | PRNG: 0 calls
+  Msg: A strange feeling washes over you, and you think back to things you
+[Step 322] Key: ? | PRNG: 0 calls
+  Msg: A strange feeling washes over you, and you think back to things you
+[Step 323] Key: 
+ | PRNG: 0 calls
+  Map updated (9 rows changed)
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Home 5 $:0 HP:94(110) Pw:123(123) AC:-4 Xp:20
+[Step 324] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 325] Key: y | PRNG: 0 calls
+[Step 326] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 327] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 328] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   orcus: 42 | (1 of 3)
+[Step 329] Key:   | PRNG: 0 calls
+  Msg: t -   fakewiz2: 44
+  Map updated (21 rows changed)
+  Status update: J -   astral: -5 | (2 of 3)
+[Step 330] Key: A | PRNG: 0 calls
+  Map updated (21 rows changed)
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Home 5 $:0 HP:94(110) Pw:123(123) AC:-4 Xp:20
+[Step 331] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 332] Key: 2 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 2
+[Step 333] Key: 
+ | PRNG: 4226 calls
+  Msg: You materialize on a different level!
+  Map updated (10 rows changed)
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Home 2 $:0 HP:94(110) Pw:123(123) AC:-4 Xp:20
+[Step 334] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 335] Key: 4 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 4
+[Step 336] Key: 
+ | PRNG: 8 calls
+  Msg: You materialize on a different level!
+  Map updated (8 rows changed)
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Home 4 $:0 HP:94(110) Pw:123(123) AC:-4 Xp:20
+[Step 337] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 338] Key: 5 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 5
+[Step 339] Key: 
+ | PRNG: 6 calls
+  Msg: You materialize on a different level!--More--
+  Map updated (15 rows changed)
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Home 5 $:0 HP:94(110) Pw:123(123) AC:-4 Xp:20
+[Step 340] Key:   | PRNG: 0 calls
+  Msg: The familiar presence of the Orb of Detection is in the ether.--More--
+[Step 341] Key:  | PRNG: 0 calls
+  Msg: The familiar presence of the Orb of Detection is in the ether.--More--
+[Step 342] Key: 1 | PRNG: 0 calls
+  Msg: The familiar presence of the Orb of Detection is in the ether.--More--
+[Step 343] Key: 
+ | PRNG: 0 calls
+  Msg: You see here 2 food rations.
+[Step 344] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 345] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 346] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   orcus: 42 | (1 of 3)
+[Step 347] Key: e | PRNG: 6811 calls
+  Msg: You materialize on a different level!
+  Map updated (20 rows changed)
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:10 $:0 HP:94(110) Pw:123(123) AC:-4 Xp:20
+[Step 348] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 349] Key: ? | PRNG: 0 calls
+  Msg: To what level do you want to teleport? ?
+[Step 350] Key: 
+ | PRNG: 0 calls
+  Msg: Level teleport to where:
+  Map updated (20 rows changed)
+  Status update: s -   orcus: 42 | (1 of 3)
+[Step 351] Key:   | PRNG: 0 calls
+  Msg: t -   fakewiz2: 44
+  Map updated (21 rows changed)
+  Status update: J -   astral: -5 | (2 of 3)
+[Step 352] Key: B | PRNG: 71 calls
+  Msg: You materialize on a different level!
+  Map updated (21 rows changed)
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:4 $:0 HP:94(110) Pw:123(123) AC:-4 Xp:20
+[Step 353] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 354] Key: i | PRNG: 0 calls
+  Msg: Amulets
+  Map updated (17 rows changed)
+[Step 355] Key: ESC | PRNG: 0 calls
+  Map updated (17 rows changed)
+[Step 356] Key: + | PRNG: 0 calls
+  Msg: You don't know any spells right now.
+[Step 357] Key: ESC | PRNG: 0 calls
+[Step 358] Key: \ | PRNG: 0 calls
+  Msg: Discoveries, by order of discovery within each class
+  Map updated (20 rows changed)
+  Status update:  | --More--
+[Step 359] Key: ESC | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:4 $:0 HP:94(110) Pw:123(123) AC:-4 Xp:20
+[Step 360] Key:  | PRNG: 0 calls
+  Msg: Wizard the Archeologist's attributes:
+  Map updated (20 rows changed)
+  Status update: Your intelligence is 15. | (1 of 3)
+[Step 361] Key:   | PRNG: 0 calls
+  Msg: Your wisdom is 18.
+  Map updated (21 rows changed)
+  Status update: You are running in debug mode. | (2 of 3)
+[Step 362] Key: ESC | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Wizard the Spelunker           St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10 Neutral | Dlvl:4 $:0 HP:94(110) Pw:123(123) AC:-4 Xp:20
+[Step 363] Key: s | PRNG: 42 calls
+[Step 364] Key: s | PRNG: 50 calls
+[Step 365] Key: : | PRNG: 0 calls
+  Msg: You see no objects here.

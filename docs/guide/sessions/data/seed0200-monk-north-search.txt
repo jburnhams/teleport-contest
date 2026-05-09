@@ -1,0 +1,117 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 3245 calls
+  Msg: It is written in the Book of Chih Sung-tzu:
+  Status: Kira the Candidate             St:14 Dx:16 Co:13 In:8 Wi:15 Ch:9 Neutral | Dlvl:1 $:0 HP:14(14) Pw:5(5) AC:0 Xp:1/0 T:1
+[Step 1] Key:   | PRNG: 2 calls
+  Msg: Hello Kira, welcome to NetHack!  You are a neutral female human Monk.--More--
+  Map updated (16 rows changed)
+  Status update: Kira the Candidate             St:14 Dx:16 Co:13 In:8 Wi:15 Ch:9 Neutral | Dlvl:1 $:0 HP:14(14) Pw:5(5) AC:4 Xp:1/0 T:1
+[Step 2] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+  Map updated (4 rows changed)
+[Step 3] Key: n | PRNG: 0 calls
+  Map updated (4 rows changed)
+[Step 4] Key: : | PRNG: 0 calls
+  Msg: There is a staircase up out of the dungeon here.
+[Step 5] Key: k | PRNG: 9 calls
+  Map updated (2 rows changed)
+  Status update: Kira the Candidate             St:14 Dx:16 Co:13 In:8 Wi:15 Ch:9 Neutral | Dlvl:1 $:0 HP:14(14) Pw:5(5) AC:4 Xp:1/0 T:2
+[Step 6] Key: k | PRNG: 0 calls
+[Step 7] Key: k | PRNG: 0 calls
+[Step 8] Key: h | PRNG: 21 calls
+  Msg: You swap places with your little dog.
+  Map updated (2 rows changed)
+  Status update: Kira the Candidate             St:14 Dx:16 Co:13 In:8 Wi:15 Ch:9 Neutral | Dlvl:1 $:0 HP:14(14) Pw:5(5) AC:4 Xp:1/0 T:3
+[Step 9] Key: h | PRNG: 21 calls
+  Map updated (3 rows changed)
+  Status update: Kira the Candidate             St:14 Dx:16 Co:13 In:8 Wi:15 Ch:9 Neutral | Dlvl:1 $:0 HP:14(14) Pw:5(5) AC:4 Xp:1/0 T:4
+[Step 10] Key: h | PRNG: 19 calls
+  Map updated (3 rows changed)
+  Status update: Kira the Candidate             St:14 Dx:16 Co:13 In:8 Wi:15 Ch:9 Neutral | Dlvl:1 $:0 HP:14(14) Pw:5(5) AC:4 Xp:1/0 T:5
+[Step 11] Key: j | PRNG: 24 calls
+  Map updated (4 rows changed)
+  Status update: Kira the Candidate             St:14 Dx:16 Co:13 In:8 Wi:15 Ch:9 Neutral | Dlvl:1 $:0 HP:14(14) Pw:5(5) AC:4 Xp:1/0 T:6
+[Step 12] Key: j | PRNG: 20 calls
+  Map updated (4 rows changed)
+  Status update: Kira the Candidate             St:14 Dx:16 Co:13 In:8 Wi:15 Ch:9 Neutral | Dlvl:1 $:0 HP:14(14) Pw:5(5) AC:4 Xp:1/0 T:7
+[Step 13] Key: j | PRNG: 18 calls
+  Map updated (4 rows changed)
+[Step 14] Key: l | PRNG: 32 calls
+  Msg: You kill the goblin!
+  Map updated (1 rows changed)
+  Status update: Kira the Candidate             St:14 Dx:16 Co:13 In:8 Wi:15 Ch:9 Neutral | Dlvl:1 $:0 HP:14(14) Pw:5(5) AC:4 Xp:1/6 T:8
+[Step 15] Key: l | PRNG: 31 calls
+  Msg: You see here a goblin corpse.
+  Map updated (2 rows changed)
+  Status update: Kira the Candidate             St:14 Dx:16 Co:13 In:8 Wi:15 Ch:9 Neutral | Dlvl:1 $:0 HP:14(14) Pw:5(5) AC:4 Xp:1/6 T:9
+[Step 16] Key: l | PRNG: 24 calls
+  Map updated (2 rows changed)
+[Step 17] Key: . | PRNG: 10 calls
+  Status update: Kira the Candidate             St:14 Dx:16 Co:13 In:8 Wi:15 Ch:9 Neutral | Dlvl:1 $:0 HP:14(14) Pw:5(5) AC:4 Xp:1/6 T:10
+[Step 18] Key: s | PRNG: 23 calls
+  Map updated (2 rows changed)
+[Step 19] Key: s | PRNG: 16 calls
+  Map updated (2 rows changed)
+  Status update: Kira the Candidate             St:14 Dx:16 Co:13 In:8 Wi:15 Ch:9 Neutral | Dlvl:1 $:0 HP:14(14) Pw:5(5) AC:4 Xp:1/6 T:11
+[Step 20] Key: h | PRNG: 32 calls
+  Msg: You see here a goblin corpse.
+  Map updated (2 rows changed)
+  Status update: Kira the Candidate             St:14 Dx:16 Co:13 In:8 Wi:15 Ch:9 Neutral | Dlvl:1 $:0 HP:14(14) Pw:5(5) AC:4 Xp:1/6 T:12
+[Step 21] Key: , | PRNG: 18 calls
+  Msg: k - a goblin corpse.
+  Map updated (1 rows changed)
+  Status update: Kira the Candidate             St:14 Dx:16 Co:13 In:8 Wi:15 Ch:9 Neutral | Dlvl:1 $:0 HP:14(14) Pw:5(5) AC:4 Xp:1/6 T:13
+[Step 22] Key: e | PRNG: 0 calls
+  Msg: What do you want to eat? [efghk or ?*]
+[Step 23] Key: k | PRNG: 169 calls
+  Msg: You feel guilty.  This goblin corpse tastes terrible!--More--
+  Map updated (2 rows changed)
+  Status update: Kira the Candidate             St:14 Dx:16 Co:13 In:8 Wi:15 Ch:9 Neutral | Dlvl:1 $:0 HP:14(14) Pw:5(5) AC:4 Xp:1/6 T:19
+[Step 24] Key:   | PRNG: 27 calls
+  Msg: You finish eating the goblin corpse.
+  Map updated (2 rows changed)
+  Status update: Kira the Candidate             St:14 Dx:16 Co:13 In:8 Wi:15 Ch:9 Neutral | Dlvl:1 $:0 HP:14(14) Pw:5(5) AC:4 Xp:1/6 T:20
+[Step 25] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 26] Key:  | PRNG: 0 calls
+  Msg: In what direction?
+[Step 27] Key: j | PRNG: 12 calls
+  Msg: You kick at empty space.
+  Map updated (1 rows changed)
+[Step 28] Key: i | PRNG: 0 calls
+  Msg: Armor
+  Map updated (16 rows changed)
+[Step 29] Key: ESC | PRNG: 0 calls
+  Map updated (16 rows changed)
+[Step 30] Key: + | PRNG: 0 calls
+  Msg: Currently known spells
+  Map updated (3 rows changed)
+[Step 31] Key: ESC | PRNG: 0 calls
+  Map updated (3 rows changed)
+[Step 32] Key: \ | PRNG: 0 calls
+  Msg: Discoveries, by order of discovery within each class
+  Map updated (20 rows changed)
+  Status update: Scrolls | --More--
+[Step 33] Key: ESC | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Kira the Candidate             St:14 Dx:16 Co:13 In:8 Wi:15 Ch:9 Neutral | Dlvl:1 $:0 HP:14(14) Pw:5(5) AC:4 Xp:1/6 T:20
+[Step 34] Key:  | PRNG: 0 calls
+  Msg: Kira the Monk's attributes:
+  Map updated (19 rows changed)
+  Status update: Your intelligence is 8. | (1 of 2)
+[Step 35] Key:   | PRNG: 0 calls
+  Msg: Your wisdom is 15.
+  Map updated (20 rows changed)
+  Status update:  | 
+[Step 36] Key: ESC | PRNG: 0 calls
+  Map updated (12 rows changed)
+  Status update: Kira the Candidate             St:14 Dx:16 Co:13 In:8 Wi:15 Ch:9 Neutral | Dlvl:1 $:0 HP:14(14) Pw:5(5) AC:4 Xp:1/6 T:20
+[Step 37] Key: s | PRNG: 17 calls
+  Map updated (2 rows changed)
+  Status update: Kira the Candidate             St:14 Dx:16 Co:13 In:8 Wi:15 Ch:9 Neutral | Dlvl:1 $:0 HP:14(14) Pw:5(5) AC:4 Xp:1/6 T:21
+[Step 38] Key: s | PRNG: 32 calls
+  Map updated (2 rows changed)
+  Status update: Kira the Candidate             St:14 Dx:16 Co:13 In:8 Wi:15 Ch:9 Neutral | Dlvl:1 $:0 HP:14(14) Pw:5(5) AC:4 Xp:1/6 T:22
+[Step 39] Key: : | PRNG: 0 calls
+  Msg: You see no objects here.

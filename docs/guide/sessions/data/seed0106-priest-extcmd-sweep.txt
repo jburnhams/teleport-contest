@@ -1,0 +1,583 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 2554 calls
+  Msg: It is written in the Book of Amaterasu Omikami:
+  Status: Padre the Aspirant             St:11 Dx:10 Co:17 In:9 Wi:18 Ch:10 Lawful | Dlvl:1 $:0 HP:14(14) Pw:8(8) AC:0 Xp:1
+[Step 1] Key:   | PRNG: 2 calls
+  Msg: Hello Padre, welcome to NetHack!  You are a lawful human Priest.--More--
+  Map updated (16 rows changed)
+  Status update: Padre the Aspirant             St:11 Dx:10 Co:17 In:9 Wi:18 Ch:10 Lawful | Dlvl:1 $:0 HP:14(14) Pw:8(8) AC:7 Xp:1
+[Step 2] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+  Map updated (4 rows changed)
+[Step 3] Key: n | PRNG: 0 calls
+  Map updated (4 rows changed)
+[Step 4] Key: s | PRNG: 8 calls
+[Step 5] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 6] Key: p | PRNG: 0 calls
+  Msg: # pray
+[Step 7] Key: r | PRNG: 0 calls
+  Msg: # pray
+[Step 8] Key: a | PRNG: 0 calls
+  Msg: # pray
+[Step 9] Key: y | PRNG: 0 calls
+  Msg: # pray
+[Step 10] Key: 
+ | PRNG: 0 calls
+  Msg: Are you sure you want to pray? [yn] (n)
+[Step 11] Key: y | PRNG: 69 calls
+  Msg: You begin praying to Amaterasu Omikami.  You finish your prayer.--More--
+  Map updated (1 rows changed)
+[Step 12] Key:   | PRNG: 0 calls
+  Msg: The voice of Amaterasu Omikami rings out: --More--
+[Step 13] Key:   | PRNG: 0 calls
+  Msg: "Thou art arrogant, mortal."  "Thou must relearn thy lessons!"--More--
+  Status update: Padre the Aspirant             St:11 Dx:10 Co:17 In:9 Wi:17 Ch:10 Lawful | Dlvl:1 $:0 HP:14(14) Pw:8(8) AC:7 Xp:1
+[Step 14] Key:   | PRNG: 6 calls
+  Msg: You feel foolish!
+[Step 15] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 16] Key: c | PRNG: 0 calls
+  Msg: # c
+[Step 17] Key: h | PRNG: 0 calls
+  Msg: # ch
+[Step 18] Key: a | PRNG: 0 calls
+  Msg: # chat
+[Step 19] Key: t | PRNG: 0 calls
+  Msg: # chat
+[Step 20] Key: 
+ | PRNG: 0 calls
+  Msg: Talk to whom? (in what direction)
+[Step 21] Key: l | PRNG: 0 calls
+[Step 22] Key: h | PRNG: 46 calls
+  Msg: You swap places with your little dog.
+  Map updated (1 rows changed)
+[Step 23] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 24] Key: c | PRNG: 0 calls
+  Msg: # c
+[Step 25] Key: h | PRNG: 0 calls
+  Msg: # ch
+[Step 26] Key: a | PRNG: 0 calls
+  Msg: # chat
+[Step 27] Key: t | PRNG: 0 calls
+  Msg: # chat
+[Step 28] Key: 
+ | PRNG: 0 calls
+  Msg: Talk to whom? (in what direction)
+[Step 29] Key: l | PRNG: 28 calls
+  Msg: The little dog barks.
+  Map updated (2 rows changed)
+[Step 30] Key: h | PRNG: 0 calls
+  Msg: This door is locked.
+[Step 31] Key:  | PRNG: 0 calls
+  Msg: In what direction?
+[Step 32] Key: h | PRNG: 23 calls
+  Msg: As you kick the door, it crashes open!--More--
+  Map updated (1 rows changed)
+[Step 33] Key:   | PRNG: 34 calls
+  Msg: The little dog misses the lichen.  The little dog misses the lichen.
+[Step 34] Key: h | PRNG: 32 calls
+  Msg: The little dog bites the lichen.  The lichen is killed!
+  Map updated (3 rows changed)
+[Step 35] Key: h | PRNG: 23 calls
+  Map updated (1 rows changed)
+[Step 36] Key: h | PRNG: 25 calls
+  Map updated (1 rows changed)
+[Step 37] Key: h | PRNG: 23 calls
+  Map updated (1 rows changed)
+[Step 38] Key: h | PRNG: 18 calls
+  Map updated (1 rows changed)
+[Step 39] Key: h | PRNG: 13 calls
+  Map updated (1 rows changed)
+[Step 40] Key: h | PRNG: 27 calls
+  Msg: You are hit by a dart.
+  Map updated (1 rows changed)
+  Status update: Padre the Aspirant             St:11 Dx:10 Co:17 In:9 Wi:17 Ch:10 Lawful | Dlvl:1 $:0 HP:11(14) Pw:8(8) AC:7 Xp:1
+[Step 41] Key: h | PRNG: 23 calls
+  Msg: A dart misses you.
+  Map updated (1 rows changed)
+[Step 42] Key: h | PRNG: 28 calls
+  Msg: The kobold hits!
+  Map updated (1 rows changed)
+  Status update: Padre the Aspirant             St:11 Dx:10 Co:17 In:9 Wi:17 Ch:10 Lawful | Dlvl:1 $:0 HP:10(14) Pw:8(8) AC:7 Xp:1
+[Step 43] Key: h | PRNG: 26 calls
+  Msg: You kill the kobold!
+  Map updated (1 rows changed)
+[Step 44] Key: h | PRNG: 32 calls
+  Msg: You see here 7 darts.
+  Map updated (1 rows changed)
+[Step 45] Key: h | PRNG: 23 calls
+  Map updated (2 rows changed)
+[Step 46] Key: h | PRNG: 19 calls
+  Map updated (2 rows changed)
+[Step 47] Key: b | PRNG: 31 calls
+  Map updated (5 rows changed)
+[Step 48] Key: h | PRNG: 32 calls
+  Map updated (4 rows changed)
+[Step 49] Key: h | PRNG: 22 calls
+  Map updated (4 rows changed)
+[Step 50] Key: h | PRNG: 21 calls
+  Map updated (7 rows changed)
+  Status update: Padre the Aspirant             St:11 Dx:10 Co:17 In:9 Wi:17 Ch:10 Lawful | Dlvl:1 $:0 HP:11(14) Pw:8(8) AC:7 Xp:1
+[Step 51] Key: h | PRNG: 35 calls
+  Map updated (7 rows changed)
+[Step 52] Key: j | PRNG: 0 calls
+[Step 53] Key: j | PRNG: 0 calls
+[Step 54] Key: j | PRNG: 0 calls
+[Step 55] Key: s | PRNG: 21 calls
+[Step 56] Key: s | PRNG: 31 calls
+  Status update: Padre the Aspirant             St:11 Dx:10 Co:17 In:9 Wi:17 Ch:10 Lawful | Dlvl:1 $:0 HP:12(14) Pw:8(8) AC:7 Xp:1
+[Step 57] Key: s | PRNG: 17 calls
+[Step 58] Key: s | PRNG: 27 calls
+[Step 59] Key: s | PRNG: 27 calls
+[Step 60] Key: s | PRNG: 17 calls
+[Step 61] Key: s | PRNG: 17 calls
+  Status update: Padre the Aspirant             St:11 Dx:10 Co:17 In:9 Wi:17 Ch:10 Lawful | Dlvl:1 $:0 HP:13(14) Pw:8(8) AC:7 Xp:1
+[Step 62] Key: s | PRNG: 26 calls
+[Step 63] Key: s | PRNG: 27 calls
+[Step 64] Key: s | PRNG: 16 calls
+[Step 65] Key: s | PRNG: 26 calls
+  Map updated (1 rows changed)
+  Status update: Padre the Aspirant             St:11 Dx:10 Co:17 In:9 Wi:17 Ch:10 Lawful | Dlvl:1 $:0 HP:14(14) Pw:8(8) AC:7 Xp:1
+[Step 66] Key: s | PRNG: 29 calls
+[Step 67] Key: s | PRNG: 21 calls
+  Map updated (1 rows changed)
+[Step 68] Key: s | PRNG: 17 calls
+[Step 69] Key: s | PRNG: 16 calls
+[Step 70] Key: s | PRNG: 29 calls
+[Step 71] Key: s | PRNG: 15 calls
+  Map updated (1 rows changed)
+[Step 72] Key: s | PRNG: 20 calls
+  Map updated (1 rows changed)
+[Step 73] Key: s | PRNG: 15 calls
+  Map updated (1 rows changed)
+[Step 74] Key: s | PRNG: 20 calls
+  Map updated (1 rows changed)
+[Step 75] Key: . | PRNG: 15 calls
+  Map updated (1 rows changed)
+[Step 76] Key: h | PRNG: 22 calls
+  Map updated (5 rows changed)
+[Step 77] Key: j | PRNG: 31 calls
+  Map updated (2 rows changed)
+[Step 78] Key: j | PRNG: 0 calls
+  Msg: This door is locked.
+[Step 79] Key:  | PRNG: 0 calls
+  Msg: In what direction?
+[Step 80] Key: j | PRNG: 48 calls
+  Msg: Whammm!!
+  Map updated (1 rows changed)
+[Step 81] Key:  | PRNG: 0 calls
+  Msg: In what direction?
+[Step 82] Key: j | PRNG: 29 calls
+  Msg: Thwack!!
+  Map updated (2 rows changed)
+[Step 83] Key:  | PRNG: 0 calls
+  Msg: In what direction?
+[Step 84] Key: j | PRNG: 40 calls
+  Msg: As you kick the door, it crashes open!
+  Map updated (2 rows changed)
+[Step 85] Key: j | PRNG: 28 calls
+  Map updated (4 rows changed)
+[Step 86] Key: j | PRNG: 14 calls
+  Map updated (4 rows changed)
+[Step 87] Key: j | PRNG: 24 calls
+  Map updated (3 rows changed)
+[Step 88] Key: j | PRNG: 20 calls
+  Map updated (4 rows changed)
+[Step 89] Key: j | PRNG: 12 calls
+  Map updated (9 rows changed)
+[Step 90] Key: b | PRNG: 10 calls
+  Map updated (6 rows changed)
+[Step 91] Key: j | PRNG: 12 calls
+  Map updated (7 rows changed)
+[Step 92] Key: j | PRNG: 27 calls
+  Map updated (3 rows changed)
+[Step 93] Key: h | PRNG: 12 calls
+  Map updated (1 rows changed)
+[Step 94] Key: h | PRNG: 12 calls
+  Map updated (1 rows changed)
+[Step 95] Key: h | PRNG: 21 calls
+  Map updated (1 rows changed)
+[Step 96] Key: h | PRNG: 15 calls
+  Map updated (1 rows changed)
+[Step 97] Key: b | PRNG: 24 calls
+  Map updated (3 rows changed)
+[Step 98] Key: : | PRNG: 0 calls
+  Msg: There is a fountain here.
+[Step 99] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 100] Key: s | PRNG: 0 calls
+  Msg: # sit
+[Step 101] Key: i | PRNG: 0 calls
+  Msg: # sit
+[Step 102] Key: t | PRNG: 0 calls
+  Msg: # sit
+[Step 103] Key: 
+ | PRNG: 24 calls
+  Msg: Having fun sitting on the fountain?
+  Map updated (2 rows changed)
+[Step 104] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 105] Key: d | PRNG: 0 calls
+  Msg: # dip
+[Step 106] Key: i | PRNG: 0 calls
+  Msg: # dip
+[Step 107] Key: p | PRNG: 0 calls
+  Msg: # dip
+[Step 108] Key: 
+ | PRNG: 0 calls
+  Msg: What do you want to dip? [a-h or ?*]
+[Step 109] Key: d | PRNG: 0 calls
+  Msg: Dip 4 potions of holy water into the fountain? [yn] (n)
+[Step 110] Key: y | PRNG: 28 calls
+  Msg: Dip 4 potions of holy water into the fountain? [yn] (n)
+  Map updated (2 rows changed)
+[Step 111] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 112] Key: d | PRNG: 0 calls
+  Msg: # dip
+[Step 113] Key: i | PRNG: 0 calls
+  Msg: # dip
+[Step 114] Key: p | PRNG: 0 calls
+  Msg: # dip
+[Step 115] Key: 
+ | PRNG: 0 calls
+  Msg: What do you want to dip? [a-h or ?*]
+[Step 116] Key: e | PRNG: 0 calls
+  Msg: Dip 2 cloves of garlic into the fountain? [yn] (n)
+[Step 117] Key: y | PRNG: 16 calls
+  Msg: Nothing seems to happen.
+  Map updated (2 rows changed)
+[Step 118] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 119] Key: o | PRNG: 0 calls
+  Msg: # o
+[Step 120] Key: f | PRNG: 0 calls
+  Msg: # offer
+[Step 121] Key: f | PRNG: 0 calls
+  Msg: # offer
+[Step 122] Key: e | PRNG: 0 calls
+  Msg: # offer
+[Step 123] Key: r | PRNG: 0 calls
+  Msg: # offer
+[Step 124] Key: 
+ | PRNG: 0 calls
+  Msg: You are not on an altar.
+[Step 125] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 126] Key: e | PRNG: 0 calls
+  Msg: # enhance
+[Step 127] Key: n | PRNG: 0 calls
+  Msg: # enhance
+[Step 128] Key: h | PRNG: 0 calls
+  Msg: # enhance
+[Step 129] Key: a | PRNG: 0 calls
+  Msg: # enhance
+[Step 130] Key: n | PRNG: 0 calls
+  Msg: # enhance
+[Step 131] Key: c | PRNG: 0 calls
+  Msg: # enhance
+[Step 132] Key: e | PRNG: 0 calls
+  Msg: # enhance
+[Step 133] Key: 
+ | PRNG: 0 calls
+  Msg: Current skills:
+  Map updated (20 rows changed)
+  Status update: Spellcasting Skills | (1 of 2)
+[Step 134] Key: ESC | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Padre the Aspirant             St:11 Dx:10 Co:17 In:9 Wi:17 Ch:10 Lawful | Dlvl:1 $:0 HP:14(14) Pw:8(8) AC:7 Xp:1
+[Step 135] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 136] Key: a | PRNG: 0 calls
+  Msg: # a
+[Step 137] Key: n | PRNG: 0 calls
+  Msg: # annotate
+[Step 138] Key: n | PRNG: 0 calls
+  Msg: # annotate
+[Step 139] Key: o | PRNG: 0 calls
+  Msg: # annotate
+[Step 140] Key: t | PRNG: 0 calls
+  Msg: # annotate
+[Step 141] Key: a | PRNG: 0 calls
+  Msg: # annotate
+[Step 142] Key: t | PRNG: 0 calls
+  Msg: # annotate
+[Step 143] Key: e | PRNG: 0 calls
+  Msg: # annotate
+[Step 144] Key: 
+ | PRNG: 0 calls
+  Msg: What do you want to call this dungeon level?
+[Step 145] Key: T | PRNG: 0 calls
+  Msg: What do you want to call this dungeon level? T
+[Step 146] Key: e | PRNG: 0 calls
+  Msg: What do you want to call this dungeon level? Te
+[Step 147] Key: s | PRNG: 0 calls
+  Msg: What do you want to call this dungeon level? Tes
+[Step 148] Key: t | PRNG: 0 calls
+  Msg: What do you want to call this dungeon level? Test
+[Step 149] Key:   | PRNG: 0 calls
+  Msg: What do you want to call this dungeon level? Test
+[Step 150] Key: l | PRNG: 0 calls
+  Msg: What do you want to call this dungeon level? Test l
+[Step 151] Key: e | PRNG: 0 calls
+  Msg: What do you want to call this dungeon level? Test le
+[Step 152] Key: v | PRNG: 0 calls
+  Msg: What do you want to call this dungeon level? Test lev
+[Step 153] Key: e | PRNG: 0 calls
+  Msg: What do you want to call this dungeon level? Test leve
+[Step 154] Key: l | PRNG: 0 calls
+  Msg: What do you want to call this dungeon level? Test level
+[Step 155] Key: 
+ | PRNG: 0 calls
+[Step 156] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 157] Key: o | PRNG: 0 calls
+  Msg: # o
+[Step 158] Key: v | PRNG: 0 calls
+  Msg: # overview
+[Step 159] Key: e | PRNG: 0 calls
+  Msg: # overview
+[Step 160] Key: r | PRNG: 0 calls
+  Msg: # overview
+[Step 161] Key: v | PRNG: 0 calls
+  Msg: # overview
+[Step 162] Key: i | PRNG: 0 calls
+  Msg: # overview
+[Step 163] Key: e | PRNG: 0 calls
+  Msg: # overview
+[Step 164] Key: w | PRNG: 0 calls
+  Msg: # overview
+[Step 165] Key: 
+ | PRNG: 0 calls
+  Msg: The Dungeons of Doom:
+  Map updated (3 rows changed)
+[Step 166] Key: ESC | PRNG: 0 calls
+  Map updated (3 rows changed)
+[Step 167] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 168] Key: v | PRNG: 0 calls
+  Msg: # v
+[Step 169] Key: e | PRNG: 0 calls
+  Msg: # version
+[Step 170] Key: r | PRNG: 0 calls
+  Msg: # version
+[Step 171] Key: s | PRNG: 0 calls
+  Msg: # version
+[Step 172] Key: i | PRNG: 0 calls
+  Msg: # version
+[Step 173] Key: o | PRNG: 0 calls
+  Msg: # version
+[Step 174] Key: n | PRNG: 0 calls
+  Msg: # version
+[Step 175] Key: 
+ | PRNG: 2 calls
+  Msg: MacOS NetHack Version 5.0.0 - last build May  2 2026 12:00:00.
+  Map updated (20 rows changed)
+  Status update: Lua 5.4.8  Copyright (C) 1994-2025 Lua.org, PUC-Rio | --More--
+[Step 176] Key:   | PRNG: 0 calls
+  Msg: "Permission is hereby granted, free of charge, to any person obtaining
+  Map updated (18 rows changed)
+  Status update:  | --More--
+[Step 177] Key:   | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Padre the Aspirant             St:11 Dx:10 Co:17 In:9 Wi:17 Ch:10 Lawful | Dlvl:1 $:0 HP:14(14) Pw:8(8) AC:7 Xp:1
+[Step 178] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 179] Key: c | PRNG: 0 calls
+  Msg: # c
+[Step 180] Key: h | PRNG: 0 calls
+  Msg: # ch
+[Step 181] Key: r | PRNG: 0 calls
+  Msg: # chronicle
+[Step 182] Key: o | PRNG: 0 calls
+  Msg: # chronicle
+[Step 183] Key: n | PRNG: 0 calls
+  Msg: # chronicle
+[Step 184] Key: i | PRNG: 0 calls
+  Msg: # chronicle
+[Step 185] Key: c | PRNG: 0 calls
+  Msg: # chronicle
+[Step 186] Key: l | PRNG: 0 calls
+  Msg: # chronicle
+[Step 187] Key: e | PRNG: 0 calls
+  Msg: # chronicle
+[Step 188] Key: 
+ | PRNG: 0 calls
+  Msg: Logged events:
+  Map updated (20 rows changed)
+  Status update:  | --More--
+[Step 189] Key:   | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Padre the Aspirant             St:11 Dx:10 Co:17 In:9 Wi:17 Ch:10 Lawful | Dlvl:1 $:0 HP:14(14) Pw:8(8) AC:7 Xp:1
+[Step 190] Key: ESC | PRNG: 0 calls
+[Step 191] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 192] Key: c | PRNG: 0 calls
+  Msg: # c
+[Step 193] Key: o | PRNG: 0 calls
+  Msg: # conduct
+[Step 194] Key: n | PRNG: 0 calls
+  Msg: # conduct
+[Step 195] Key: d | PRNG: 0 calls
+  Msg: # conduct
+[Step 196] Key: u | PRNG: 0 calls
+  Msg: # conduct
+[Step 197] Key: c | PRNG: 0 calls
+  Msg: # conduct
+[Step 198] Key: t | PRNG: 0 calls
+  Msg: # conduct
+[Step 199] Key: 
+ | PRNG: 0 calls
+  Msg: Voluntary challenges:
+  Map updated (8 rows changed)
+[Step 200] Key:   | PRNG: 0 calls
+  Map updated (8 rows changed)
+[Step 201] Key: ESC | PRNG: 0 calls
+[Step 202] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 203] Key: v | PRNG: 0 calls
+  Msg: # v
+[Step 204] Key: a | PRNG: 0 calls
+  Msg: # vanquished
+[Step 205] Key: n | PRNG: 0 calls
+  Msg: # vanquished
+[Step 206] Key: q | PRNG: 0 calls
+  Msg: # vanquished
+[Step 207] Key: u | PRNG: 0 calls
+  Msg: # vanquished
+[Step 208] Key: i | PRNG: 0 calls
+  Msg: # vanquished
+[Step 209] Key: s | PRNG: 0 calls
+  Msg: # vanquished
+[Step 210] Key: h | PRNG: 0 calls
+  Msg: # vanquished
+[Step 211] Key: e | PRNG: 0 calls
+  Msg: # vanquished
+[Step 212] Key: d | PRNG: 0 calls
+  Msg: # vanquished
+[Step 213] Key: 
+ | PRNG: 0 calls
+  Msg: Vanquished creatures:
+  Map updated (5 rows changed)
+[Step 214] Key:   | PRNG: 0 calls
+  Map updated (5 rows changed)
+[Step 215] Key: ESC | PRNG: 0 calls
+[Step 216] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 217] Key: g | PRNG: 0 calls
+  Msg: # genocided
+[Step 218] Key: e | PRNG: 0 calls
+  Msg: # genocided
+[Step 219] Key: n | PRNG: 0 calls
+  Msg: # genocided
+[Step 220] Key: o | PRNG: 0 calls
+  Msg: # genocided
+[Step 221] Key: c | PRNG: 0 calls
+  Msg: # genocided
+[Step 222] Key: i | PRNG: 0 calls
+  Msg: # genocided
+[Step 223] Key: d | PRNG: 0 calls
+  Msg: # genocided
+[Step 224] Key: e | PRNG: 0 calls
+  Msg: # genocided
+[Step 225] Key: d | PRNG: 0 calls
+  Msg: # genocided
+[Step 226] Key: 
+ | PRNG: 0 calls
+  Msg: No creatures have been genocided.
+[Step 227] Key: ESC | PRNG: 0 calls
+[Step 228] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 229] Key: a | PRNG: 0 calls
+  Msg: # a
+[Step 230] Key: d | PRNG: 0 calls
+  Msg: # adjust
+[Step 231] Key: j | PRNG: 0 calls
+  Msg: # adjust
+[Step 232] Key: u | PRNG: 0 calls
+  Msg: # adjust
+[Step 233] Key: s | PRNG: 0 calls
+  Msg: # adjust
+[Step 234] Key: t | PRNG: 0 calls
+  Msg: # adjust
+[Step 235] Key: 
+ | PRNG: 0 calls
+  Msg: What do you want to adjust? [a-h or ?*]
+[Step 236] Key: a | PRNG: 0 calls
+  Msg: Adjust letter to what [ai-zA-Z] (? see used letters)?
+[Step 237] Key: ESC | PRNG: 0 calls
+  Msg: Never mind.
+[Step 238] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 239] Key: n | PRNG: 0 calls
+  Msg: # name
+[Step 240] Key: a | PRNG: 0 calls
+  Msg: # name
+[Step 241] Key: m | PRNG: 0 calls
+  Msg: # name
+[Step 242] Key: e | PRNG: 0 calls
+  Msg: # name
+[Step 243] Key: 
+ | PRNG: 0 calls
+  Msg: What do you want to name?
+  Map updated (7 rows changed)
+[Step 244] Key: ESC | PRNG: 0 calls
+  Map updated (7 rows changed)
+[Step 245] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 246] Key: t | PRNG: 0 calls
+  Msg: # t
+[Step 247] Key: e | PRNG: 0 calls
+  Msg: # terrain
+[Step 248] Key: r | PRNG: 0 calls
+  Msg: # terrain
+[Step 249] Key: r | PRNG: 0 calls
+  Msg: # terrain
+[Step 250] Key: a | PRNG: 0 calls
+  Msg: # terrain
+[Step 251] Key: i | PRNG: 0 calls
+  Msg: # terrain
+[Step 252] Key: n | PRNG: 0 calls
+  Msg: # terrain
+[Step 253] Key: 
+ | PRNG: 0 calls
+  Msg: View which?
+  Map updated (4 rows changed)
+[Step 254] Key: ESC | PRNG: 0 calls
+  Map updated (4 rows changed)
+[Step 255] Key: i | PRNG: 0 calls
+  Msg: Weapons
+  Map updated (13 rows changed)
+[Step 256] Key: ESC | PRNG: 0 calls
+  Map updated (13 rows changed)
+[Step 257] Key: + | PRNG: 0 calls
+  Msg: Currently known spells
+  Map updated (5 rows changed)
+[Step 258] Key: ESC | PRNG: 0 calls
+  Map updated (5 rows changed)
+[Step 259] Key: \ | PRNG: 0 calls
+  Msg: Discoveries, by order of discovery within each class
+  Map updated (19 rows changed)
+  Status update:  | --More--
+[Step 260] Key: ESC | PRNG: 0 calls
+  Map updated (19 rows changed)
+  Status update: Padre the Aspirant             St:11 Dx:10 Co:17 In:9 Wi:17 Ch:10 Lawful | Dlvl:1 $:0 HP:14(14) Pw:8(8) AC:7 Xp:1
+[Step 261] Key:  | PRNG: 0 calls
+  Msg: Padre the Priest's attributes:
+  Map updated (20 rows changed)
+  Status update: Your intelligence is 9. | (1 of 2)
+[Step 262] Key:   | PRNG: 0 calls
+  Msg: Your wisdom is 17 (current; peak:18).
+  Map updated (20 rows changed)
+  Status update:  | 
+[Step 263] Key: ESC | PRNG: 0 calls
+  Map updated (19 rows changed)
+  Status update: Padre the Aspirant             St:11 Dx:10 Co:17 In:9 Wi:17 Ch:10 Lawful | Dlvl:1 $:0 HP:14(14) Pw:8(8) AC:7 Xp:1
+[Step 264] Key: s | PRNG: 34 calls
+[Step 265] Key: s | PRNG: 17 calls
+  Map updated (2 rows changed)
+[Step 266] Key: : | PRNG: 0 calls
+  Msg: There is a fountain here.

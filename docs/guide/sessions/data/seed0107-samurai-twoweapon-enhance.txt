@@ -1,0 +1,207 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 2647 calls
+  Msg: It is written in the Book of Amaterasu Omikami:
+  Status: Bushi the Hatamoto             St:18 Dx:14 Co:18 In:9 Wi:8 Ch:7 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:0 Xp:1
+[Step 1] Key:   | PRNG: 2 calls
+  Msg: Konnichi wa Bushi, welcome to NetHack!  You are a lawful male human Samurai.
+  Map updated (15 rows changed)
+  Status update: Bushi the Hatamoto             St:18 Dx:14 Co:18 In:9 Wi:8 Ch:7 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:4 Xp:1
+[Step 2] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+  Map updated (5 rows changed)
+[Step 3] Key: n | PRNG: 0 calls
+  Map updated (4 rows changed)
+[Step 4] Key: s | PRNG: 7 calls
+[Step 5] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 6] Key: t | PRNG: 0 calls
+  Msg: # t
+[Step 7] Key: w | PRNG: 0 calls
+  Msg: # tw
+[Step 8] Key: o | PRNG: 0 calls
+  Msg: # two
+[Step 9] Key: w | PRNG: 0 calls
+  Msg: # twow
+[Step 10] Key: e | PRNG: 0 calls
+  Msg: # twowe
+[Step 11] Key: a | PRNG: 0 calls
+  Msg: # twowea
+[Step 12] Key: p | PRNG: 0 calls
+  Msg: # twoweap
+[Step 13] Key: o | PRNG: 0 calls
+  Msg: # twoweapo
+[Step 14] Key: n | PRNG: 0 calls
+  Msg: # twoweapon
+[Step 15] Key: 
+ | PRNG: 1 calls
+  Msg: You begin two-weapon combat.
+[Step 16] Key: b | PRNG: 12 calls
+  Map updated (2 rows changed)
+[Step 17] Key: b | PRNG: 0 calls
+[Step 18] Key: b | PRNG: 0 calls
+[Step 19] Key: b | PRNG: 0 calls
+[Step 20] Key: b | PRNG: 0 calls
+[Step 21] Key: b | PRNG: 0 calls
+[Step 22] Key: b | PRNG: 0 calls
+[Step 23] Key: b | PRNG: 0 calls
+[Step 24] Key: b | PRNG: 0 calls
+[Step 25] Key: h | PRNG: 12 calls
+  Map updated (1 rows changed)
+[Step 26] Key: H | PRNG: 0 calls
+[Step 27] Key: H | PRNG: 0 calls
+[Step 28] Key: H | PRNG: 0 calls
+[Step 29] Key: k | PRNG: 13 calls
+  Map updated (2 rows changed)
+[Step 30] Key: h | PRNG: 18 calls
+  Map updated (2 rows changed)
+[Step 31] Key: h | PRNG: 14 calls
+  Map updated (2 rows changed)
+[Step 32] Key: b | PRNG: 21 calls
+  Map updated (3 rows changed)
+[Step 33] Key: j | PRNG: 11 calls
+  Map updated (3 rows changed)
+[Step 34] Key: b | PRNG: 8 calls
+  Map updated (2 rows changed)
+[Step 35] Key: h | PRNG: 20 calls
+  Map updated (1 rows changed)
+[Step 36] Key: h | PRNG: 1 calls
+  Msg: The door opens.
+  Map updated (5 rows changed)
+[Step 37] Key: h | PRNG: 11 calls
+  Map updated (5 rows changed)
+[Step 38] Key: h | PRNG: 15 calls
+  Map updated (3 rows changed)
+[Step 39] Key: y | PRNG: 28 calls
+  Map updated (2 rows changed)
+[Step 40] Key: k | PRNG: 25 calls
+  Msg: You miss the lichen.  You kill the lichen!
+  Map updated (1 rows changed)
+[Step 41] Key: k | PRNG: 13 calls
+  Msg: You see here a lichen corpse.
+  Map updated (2 rows changed)
+[Step 42] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 43] Key: e | PRNG: 0 calls
+  Msg: # enhance
+[Step 44] Key: n | PRNG: 0 calls
+  Msg: # enhance
+[Step 45] Key: h | PRNG: 0 calls
+  Msg: # enhance
+[Step 46] Key: a | PRNG: 0 calls
+  Msg: # enhance
+[Step 47] Key: n | PRNG: 0 calls
+  Msg: # enhance
+[Step 48] Key: c | PRNG: 0 calls
+  Msg: # enhance
+[Step 49] Key: e | PRNG: 0 calls
+  Msg: # enhance
+[Step 50] Key: 
+ | PRNG: 0 calls
+  Msg: Current skills:
+  Map updated (20 rows changed)
+  Status update: attack spells     [Unskilled] | (1 of 2)
+[Step 51] Key: ESC | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Bushi the Hatamoto             St:18 Dx:14 Co:18 In:9 Wi:8 Ch:7 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:4 Xp:1
+[Step 52] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 53] Key: t | PRNG: 0 calls
+  Msg: # t
+[Step 54] Key: w | PRNG: 0 calls
+  Msg: # tw
+[Step 55] Key: o | PRNG: 0 calls
+  Msg: # two
+[Step 56] Key: w | PRNG: 0 calls
+  Msg: # twow
+[Step 57] Key: e | PRNG: 0 calls
+  Msg: # twowe
+[Step 58] Key: a | PRNG: 0 calls
+  Msg: # twowea
+[Step 59] Key: p | PRNG: 0 calls
+  Msg: # twoweap
+[Step 60] Key: o | PRNG: 0 calls
+  Msg: # twoweapo
+[Step 61] Key: n | PRNG: 0 calls
+  Msg: # twoweapon
+[Step 62] Key: 
+ | PRNG: 0 calls
+  Msg: You switch to your primary weapon.
+[Step 63] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 64] Key: t | PRNG: 0 calls
+  Msg: # t
+[Step 65] Key: w | PRNG: 0 calls
+  Msg: # tw
+[Step 66] Key: o | PRNG: 0 calls
+  Msg: # two
+[Step 67] Key: w | PRNG: 0 calls
+  Msg: # twow
+[Step 68] Key: e | PRNG: 0 calls
+  Msg: # twowe
+[Step 69] Key: a | PRNG: 0 calls
+  Msg: # twowea
+[Step 70] Key: p | PRNG: 0 calls
+  Msg: # twoweap
+[Step 71] Key: o | PRNG: 0 calls
+  Msg: # twoweapo
+[Step 72] Key: n | PRNG: 0 calls
+  Msg: # twoweapon
+[Step 73] Key: 
+ | PRNG: 1 calls
+  Msg: You begin two-weapon combat.
+[Step 74] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 75] Key: c | PRNG: 0 calls
+  Msg: # c
+[Step 76] Key: h | PRNG: 0 calls
+  Msg: # ch
+[Step 77] Key: a | PRNG: 0 calls
+  Msg: # chat
+[Step 78] Key: t | PRNG: 0 calls
+  Msg: # chat
+[Step 79] Key: 
+ | PRNG: 0 calls
+  Msg: Talk to whom? (in what direction)
+[Step 80] Key: l | PRNG: 0 calls
+[Step 81] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 82] Key: s | PRNG: 0 calls
+  Msg: # sit
+[Step 83] Key: i | PRNG: 0 calls
+  Msg: # sit
+[Step 84] Key: t | PRNG: 0 calls
+  Msg: # sit
+[Step 85] Key: 
+ | PRNG: 5 calls
+  Msg: You sit on the corpse.  It's not very comfortable...
+[Step 86] Key: i | PRNG: 0 calls
+  Msg: Weapons
+  Map updated (7 rows changed)
+[Step 87] Key: ESC | PRNG: 0 calls
+  Map updated (7 rows changed)
+[Step 88] Key: + | PRNG: 0 calls
+  Msg: You don't know any spells right now.
+[Step 89] Key: ESC | PRNG: 0 calls
+[Step 90] Key: \ | PRNG: 0 calls
+  Msg: Discoveries, by order of discovery within each class
+  Map updated (20 rows changed)
+  Status update: katana (samurai sword) | --More--
+[Step 91] Key: ESC | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Bushi the Hatamoto             St:18 Dx:14 Co:18 In:9 Wi:8 Ch:7 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:4 Xp:1
+[Step 92] Key:  | PRNG: 0 calls
+  Msg: Bushi the Samurai's attributes:
+  Map updated (19 rows changed)
+  Status update: Your intelligence is 9. | (1 of 2)
+[Step 93] Key:   | PRNG: 0 calls
+  Msg: Your wisdom is 8.
+  Map updated (20 rows changed)
+  Status update:  | 
+[Step 94] Key: ESC | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update: Bushi the Hatamoto             St:18 Dx:14 Co:18 In:9 Wi:8 Ch:7 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:4 Xp:1
+[Step 95] Key: s | PRNG: 6 calls
+[Step 96] Key: s | PRNG: 11 calls
+[Step 97] Key: : | PRNG: 0 calls
+  Msg: You see here a lichen corpse.

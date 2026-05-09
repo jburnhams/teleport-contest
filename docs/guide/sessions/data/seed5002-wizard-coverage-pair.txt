@@ -1,0 +1,641 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 2717 calls
+  Msg: Hello wizard, welcome to NetHack!  You are a neutral female human Wizard.
+  Status: Wizard the Evoker              St:11 Dx:13 Co:16 In:15 Wi:9 Ch:11 Neutral | Dlvl:1 $:0 HP:12(12) Pw:6(6) AC:9 Xp:1
+[Step 1] Key:   | PRNG: 2 calls
+  Msg: You are lucky!  Full moon tonight.
+  Map updated (1 rows changed)
+[Step 2] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 3] Key: 5 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 5
+[Step 4] Key: 
+ | PRNG: 3093 calls
+  Msg: You materialize on a different level!
+  Map updated (8 rows changed)
+  Status update: Wizard the Evoker              St:11 Dx:13 Co:16 In:15 Wi:9 Ch:11 Neutral | Dlvl:5 $:0 HP:12(12) Pw:6(6) AC:9 Xp:1
+[Step 5] Key:  | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 6] Key: w | PRNG: 0 calls
+  Msg: For what do you wish? w
+[Step 7] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? wa
+[Step 8] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? wan
+[Step 9] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? wand
+[Step 10] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? wand
+[Step 11] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? wand o
+[Step 12] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? wand of
+[Step 13] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? wand of
+[Step 14] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? wand of f
+[Step 15] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? wand of fi
+[Step 16] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? wand of fir
+[Step 17] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? wand of fire
+[Step 18] Key: 
+ | PRNG: 5 calls
+  Msg: n - an aluminum wand.
+[Step 19] Key:  | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 20] Key: w | PRNG: 0 calls
+  Msg: For what do you wish? w
+[Step 21] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? wa
+[Step 22] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? wan
+[Step 23] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? wand
+[Step 24] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? wand
+[Step 25] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? wand o
+[Step 26] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? wand of
+[Step 27] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? wand of
+[Step 28] Key: c | PRNG: 0 calls
+  Msg: For what do you wish? wand of c
+[Step 29] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? wand of co
+[Step 30] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? wand of col
+[Step 31] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? wand of cold
+[Step 32] Key: 
+ | PRNG: 5 calls
+  Msg: o - a pine wand.
+[Step 33] Key:  | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 34] Key: w | PRNG: 0 calls
+  Msg: For what do you wish? w
+[Step 35] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? wa
+[Step 36] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? wan
+[Step 37] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? wand
+[Step 38] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? wand
+[Step 39] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? wand o
+[Step 40] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? wand of
+[Step 41] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? wand of
+[Step 42] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? wand of l
+[Step 43] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? wand of li
+[Step 44] Key: g | PRNG: 0 calls
+  Msg: For what do you wish? wand of lig
+[Step 45] Key: h | PRNG: 0 calls
+  Msg: For what do you wish? wand of ligh
+[Step 46] Key: t | PRNG: 0 calls
+  Msg: For what do you wish? wand of light
+[Step 47] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? wand of lightn
+[Step 48] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? wand of lightni
+[Step 49] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? wand of lightnin
+[Step 50] Key: g | PRNG: 0 calls
+  Msg: For what do you wish? wand of lightning
+[Step 51] Key: 
+ | PRNG: 5 calls
+  Msg: p - a copper wand.
+[Step 52] Key:  | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 53] Key: w | PRNG: 0 calls
+  Msg: For what do you wish? w
+[Step 54] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? wa
+[Step 55] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? wan
+[Step 56] Key: d | PRNG: 0 calls
+  Msg: For what do you wish? wand
+[Step 57] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? wand
+[Step 58] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? wand o
+[Step 59] Key: f | PRNG: 0 calls
+  Msg: For what do you wish? wand of
+[Step 60] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? wand of
+[Step 61] Key: m | PRNG: 0 calls
+  Msg: For what do you wish? wand of m
+[Step 62] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? wand of ma
+[Step 63] Key: g | PRNG: 0 calls
+  Msg: For what do you wish? wand of mag
+[Step 64] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? wand of magi
+[Step 65] Key: c | PRNG: 0 calls
+  Msg: For what do you wish? wand of magic
+[Step 66] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? wand of magic
+[Step 67] Key: m | PRNG: 0 calls
+  Msg: For what do you wish? wand of magic m
+[Step 68] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? wand of magic mi
+[Step 69] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? wand of magic mis
+[Step 70] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? wand of magic miss
+[Step 71] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? wand of magic missi
+[Step 72] Key: l | PRNG: 0 calls
+  Msg: For what do you wish? wand of magic missil
+[Step 73] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? wand of magic missile
+[Step 74] Key: 
+ | PRNG: 6 calls
+  Msg: q - a tin wand.
+[Step 75] Key:  | PRNG: 0 calls
+  Msg: Create what kind of monster?
+[Step 76] Key: g | PRNG: 0 calls
+  Msg: Create what kind of monster? g
+[Step 77] Key: a | PRNG: 0 calls
+  Msg: Create what kind of monster? ga
+[Step 78] Key: s | PRNG: 0 calls
+  Msg: Create what kind of monster? gas
+[Step 79] Key:   | PRNG: 0 calls
+  Msg: Create what kind of monster? gas
+[Step 80] Key: s | PRNG: 0 calls
+  Msg: Create what kind of monster? gas s
+[Step 81] Key: p | PRNG: 0 calls
+  Msg: Create what kind of monster? gas sp
+[Step 82] Key: o | PRNG: 0 calls
+  Msg: Create what kind of monster? gas spo
+[Step 83] Key: r | PRNG: 0 calls
+  Msg: Create what kind of monster? gas spor
+[Step 84] Key: e | PRNG: 0 calls
+  Msg: Create what kind of monster? gas spore
+[Step 85] Key: 
+ | PRNG: 50 calls
+  Msg: A gas spore appears next to you.
+  Map updated (1 rows changed)
+[Step 86] Key: z | PRNG: 0 calls
+  Msg: What do you want to zap? [cnopq or ?*]
+[Step 87] Key: n | PRNG: 0 calls
+  Msg: In what direction?
+[Step 88] Key: l | PRNG: 5 calls
+  Msg: The bolt of fire bounces!  The bolt of fire hits you!--More--
+  Map updated (1 rows changed)
+[Step 89] Key: d | PRNG: 0 calls
+  Msg: The bolt of fire bounces!  The bolt of fire hits you!--More--
+[Step 90] Key:   | PRNG: 7 calls
+  Msg: Your cloak smoulders!  Your potion of invisibility boils and explodes!--More--
+[Step 91] Key: f | PRNG: 0 calls
+  Msg: Your cloak smoulders!  Your potion of invisibility boils and explodes!--More--
+[Step 92] Key:   | PRNG: 3 calls
+  Msg: For an instant you couldn't see yourself!--More--
+  Status update: Wizard the Evoker              St:11 Dx:13 Co:16 In:15 Wi:9 Ch:11 Neutral | Dlvl:5 $:0 HP:11(12) Pw:6(6) AC:9 Xp:1
+[Step 93] Key: h | PRNG: 0 calls
+  Msg: For an instant you couldn't see yourself!--More--
+[Step 94] Key: 
+ | PRNG: 6 calls
+  Msg: Your potion of oil ignites and explodes!--More--
+  Status update: Wizard the Evoker              St:11 Dx:13 Co:16 In:15 Wi:9 Ch:11 Neutral | Dlvl:5 $:0 HP:0(12) Pw:6(6) AC:9 Xp:1
+[Step 95] Key: y | PRNG: 0 calls
+  Msg: Your potion of oil ignites and explodes!--More--
+[Step 96] Key:   | PRNG: 0 calls
+  Msg: You die...--More--
+[Step 97] Key: y | PRNG: 0 calls
+  Msg: You die...--More--
+[Step 98] Key:   | PRNG: 0 calls
+  Msg: Die? [yn] (n)
+[Step 99] Key: y | PRNG: 1 calls
+  Msg: Do not pass Go.  Do not collect 200 zorkmids.--More--
+[Step 100] Key:   | PRNG: 46 calls
+  Msg: Save bones? [yn] (n)
+[Step 101] Key:   | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update: You were level 1 with a maximum of 12 hit points when you died. | --More--
+[Step 102] Key:   | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update:  | --More--
+[Step 103] Key:   | PRNG: 0 calls
+  Map updated (1 rows changed)
+  Status update:  | 
+
+=== SEGMENT 1 ===
+[Step 0] Key: NULL (Init) | PRNG: 2614 calls
+  Msg: Hello wizard, welcome to NetHack!  You are a neutral male human Wizard.
+  Status: Wizard the Evoker              St:12 Dx:14 Co:15 In:18 Wi:10 Ch:8 Neutral | Dlvl:1 $:0 HP:12(12) Pw:6(6) AC:9 Xp:1
+[Step 1] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 2] Key:  | PRNG: 0 calls
+  Msg: To what level do you want to teleport?
+[Step 3] Key: 5 | PRNG: 0 calls
+  Msg: To what level do you want to teleport? 5
+[Step 4] Key: 
+ | PRNG: 3026 calls
+  Msg: You materialize on a different level!
+  Map updated (12 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:14 Co:15 In:18 Wi:10 Ch:8 Neutral | Dlvl:5 $:0 HP:12(12) Pw:6(6) AC:9 Xp:1
+[Step 5] Key: y | PRNG: 10 calls
+  Map updated (2 rows changed)
+[Step 6] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 7] Key: : | PRNG: 0 calls
+  Msg: You see no objects here.
+[Step 8] Key:  | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 9] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? s
+[Step 10] Key: t | PRNG: 0 calls
+  Msg: For what do you wish? st
+[Step 11] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? ste
+[Step 12] Key: t | PRNG: 0 calls
+  Msg: For what do you wish? stet
+[Step 13] Key: h | PRNG: 0 calls
+  Msg: For what do you wish? steth
+[Step 14] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? stetho
+[Step 15] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? stethos
+[Step 16] Key: c | PRNG: 0 calls
+  Msg: For what do you wish? stethosc
+[Step 17] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? stethosco
+[Step 18] Key: p | PRNG: 0 calls
+  Msg: For what do you wish? stethoscop
+[Step 19] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? stethoscope
+[Step 20] Key: 
+ | PRNG: 3 calls
+  Msg: n - a stethoscope.
+[Step 21] Key:  | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 22] Key: m | PRNG: 0 calls
+  Msg: For what do you wish? m
+[Step 23] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? ma
+[Step 24] Key: g | PRNG: 0 calls
+  Msg: For what do you wish? mag
+[Step 25] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? magi
+[Step 26] Key: c | PRNG: 0 calls
+  Msg: For what do you wish? magic
+[Step 27] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? magic
+[Step 28] Key: m | PRNG: 0 calls
+  Msg: For what do you wish? magic m
+[Step 29] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? magic ma
+[Step 30] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? magic mar
+[Step 31] Key: k | PRNG: 0 calls
+  Msg: For what do you wish? magic mark
+[Step 32] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? magic marke
+[Step 33] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? magic marker
+[Step 34] Key: 
+ | PRNG: 4 calls
+  Msg: o - a magic marker.
+[Step 35] Key:  | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 36] Key: m | PRNG: 0 calls
+  Msg: For what do you wish? m
+[Step 37] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? mi
+[Step 38] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? mir
+[Step 39] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? mirr
+[Step 40] Key: o | PRNG: 0 calls
+  Msg: For what do you wish? mirro
+[Step 41] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? mirror
+[Step 42] Key: 
+ | PRNG: 3 calls
+  Msg: p - a looking glass.
+[Step 43] Key:  | PRNG: 0 calls
+  Msg: For what do you wish?
+[Step 44] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? e
+[Step 45] Key: x | PRNG: 0 calls
+  Msg: For what do you wish? ex
+[Step 46] Key: p | PRNG: 0 calls
+  Msg: For what do you wish? exp
+[Step 47] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? expe
+[Step 48] Key: n | PRNG: 0 calls
+  Msg: For what do you wish? expen
+[Step 49] Key: s | PRNG: 0 calls
+  Msg: For what do you wish? expens
+[Step 50] Key: i | PRNG: 0 calls
+  Msg: For what do you wish? expensi
+[Step 51] Key: v | PRNG: 0 calls
+  Msg: For what do you wish? expensiv
+[Step 52] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? expensive
+[Step 53] Key:   | PRNG: 0 calls
+  Msg: For what do you wish? expensive
+[Step 54] Key: c | PRNG: 0 calls
+  Msg: For what do you wish? expensive c
+[Step 55] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? expensive ca
+[Step 56] Key: m | PRNG: 0 calls
+  Msg: For what do you wish? expensive cam
+[Step 57] Key: e | PRNG: 0 calls
+  Msg: For what do you wish? expensive came
+[Step 58] Key: r | PRNG: 0 calls
+  Msg: For what do you wish? expensive camer
+[Step 59] Key: a | PRNG: 0 calls
+  Msg: For what do you wish? expensive camera
+[Step 60] Key: 
+ | PRNG: 4 calls
+  Msg: q - an expensive camera.
+[Step 61] Key: a | PRNG: 0 calls
+  Msg: What do you want to use or apply? [ck-q or ?*]
+[Step 62] Key: n | PRNG: 0 calls
+  Msg: In what direction?
+[Step 63] Key: . | PRNG: 0 calls
+  Msg: Status of wizard (nominally neutral):  Level 1  HP 12(12)  AC 9.
+[Step 64] Key: a | PRNG: 0 calls
+  Msg: What do you want to use or apply? [ck-q or ?*]
+[Step 65] Key: n | PRNG: 0 calls
+  Msg: In what direction?
+[Step 66] Key: h | PRNG: 46 calls
+  Msg: You hear nothing special.
+  Map updated (2 rows changed)
+[Step 67] Key: a | PRNG: 0 calls
+  Msg: What do you want to use or apply? [ck-q or ?*]
+[Step 68] Key: n | PRNG: 0 calls
+  Msg: In what direction?
+[Step 69] Key: j | PRNG: 0 calls
+  Msg: You hear nothing special.
+[Step 70] Key: a | PRNG: 0 calls
+  Msg: What do you want to use or apply? [ck-q or ?*]
+[Step 71] Key: n | PRNG: 0 calls
+  Msg: In what direction?
+[Step 72] Key: k | PRNG: 29 calls
+  Msg: You hear nothing special.  The giant bat bites!  The giant bat bites!
+  Map updated (1 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:14 Co:15 In:18 Wi:10 Ch:8 Neutral | Dlvl:5 $:0 HP:6(12) Pw:6(6) AC:9 Xp:1
+[Step 73] Key: a | PRNG: 0 calls
+  Msg: What do you want to use or apply? [ck-q or ?*]
+[Step 74] Key: n | PRNG: 0 calls
+  Msg: In what direction?
+[Step 75] Key: l | PRNG: 0 calls
+  Msg: That chest is really a small mimic.--More--
+  Map updated (1 rows changed)
+[Step 76] Key: k | PRNG: 0 calls
+  Msg: That chest is really a small mimic.--More--
+[Step 77] Key:   | PRNG: 0 calls
+  Msg: Status of the small mimic (neutral, medium):  Level 6  HP 22(22)  AC 7.
+[Step 78] Key: s | PRNG: 0 calls
+  Msg: You already found a monster.  Use 'm' prefix to force another search.
+[Step 79] Key: c | PRNG: 0 calls
+  Msg: In what direction?
+[Step 80] Key: r | PRNG: 0 calls
+  Msg: cmdassist: Invalid direction key!
+  Map updated (15 rows changed)
+  Status update:  | --More--
+[Step 81] Key: l | PRNG: 0 calls
+  Msg: cmdassist: Invalid direction key!
+[Step 82] Key: 
+ | PRNG: 0 calls
+  Map updated (15 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:14 Co:15 In:18 Wi:10 Ch:8 Neutral | Dlvl:5 $:0 HP:6(12) Pw:6(6) AC:9 Xp:1
+[Step 83] Key: a | PRNG: 0 calls
+  Msg: What do you want to use or apply? [ck-q or ?*]
+[Step 84] Key: o | PRNG: 0 calls
+  Msg: What do you want to write on? [*]
+[Step 85] Key: r | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 86] Key: g | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 87] Key:   | PRNG: 0 calls
+  Msg: What do you want to write on? [*]
+[Step 88] Key: c | PRNG: 0 calls
+  Msg: That is a silly thing to write on.
+[Step 89] Key: l | PRNG: 37 calls
+  Msg: You hit the small mimic.  The kitten bites the giant bat.--More--
+[Step 90] Key: d | PRNG: 0 calls
+  Msg: You hit the small mimic.  The kitten bites the giant bat.--More--
+[Step 91] Key: 
+ | PRNG: 8 calls
+  Msg: The giant bat misses the kitten.  The giant bat bites!--More--
+  Status update: Wizard the Evoker              St:12 Dx:14 Co:15 In:18 Wi:10 Ch:8 Neutral | Dlvl:5 $:0 HP:0(12) Pw:6(6) AC:9 Xp:1
+[Step 92] Key: l | PRNG: 0 calls
+  Msg: The giant bat misses the kitten.  The giant bat bites!--More--
+[Step 93] Key:   | PRNG: 0 calls
+  Msg: You die...--More--
+[Step 94] Key: f | PRNG: 0 calls
+  Msg: You die...--More--
+[Step 95] Key:   | PRNG: 0 calls
+  Msg: Die? [yn] (n)
+[Step 96] Key: f | PRNG: 0 calls
+  Msg: Die? [yn] (n)
+[Step 97] Key: i | PRNG: 0 calls
+  Msg: Die? [yn] (n)
+[Step 98] Key: r | PRNG: 0 calls
+  Msg: Die? [yn] (n)
+[Step 99] Key: e | PRNG: 0 calls
+  Msg: Die? [yn] (n)
+[Step 100] Key: 
+ | PRNG: 49 calls
+  Msg: OK, so you don't die.  The kitten bites the giant bat.--More--
+  Map updated (1 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:14 Co:15 In:18 Wi:10 Ch:8 Neutral | Dlvl:5 $:0 HP:12(12) Pw:6(6) AC:9 Xp:1
+[Step 101] Key: l | PRNG: 0 calls
+  Msg: OK, so you don't die.  The kitten bites the giant bat.--More--
+[Step 102] Key:   | PRNG: 0 calls
+  Msg: You survived that attempt on your life.
+[Step 103] Key: o | PRNG: 0 calls
+  Msg: In what direction?
+[Step 104] Key: f | PRNG: 0 calls
+  Msg: cmdassist: Invalid direction key!
+  Map updated (15 rows changed)
+  Status update:  | --More--
+[Step 105] Key:   | PRNG: 0 calls
+  Msg: Never mind.
+  Map updated (15 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:14 Co:15 In:18 Wi:10 Ch:8 Neutral | Dlvl:5 $:0 HP:12(12) Pw:6(6) AC:9 Xp:1
+[Step 106] Key: i | PRNG: 0 calls
+  Msg: Weapons
+  Map updated (21 rows changed)
+  Status update: o - a magic marker | (1 of 2)
+[Step 107] Key: d | PRNG: 0 calls
+  Msg: Do what with the ring of see invisible?
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 108] Key: e | PRNG: 0 calls
+  Msg: Do what with the ring of see invisible?
+[Step 109] Key: n | PRNG: 0 calls
+  Msg: Do what with the ring of see invisible?
+[Step 110] Key: t | PRNG: 0 calls
+  Msg: In what direction?
+  Map updated (9 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:14 Co:15 In:18 Wi:10 Ch:8 Neutral | Dlvl:5 $:0 HP:12(12) Pw:6(6) AC:9 Xp:1
+[Step 111] Key: i | PRNG: 0 calls
+  Msg: cmdassist: Invalid direction key!
+  Map updated (15 rows changed)
+  Status update:  | --More--
+[Step 112] Key: y | PRNG: 0 calls
+  Msg: cmdassist: Invalid direction key!
+[Step 113] Key: 
+ | PRNG: 0 calls
+  Map updated (15 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:14 Co:15 In:18 Wi:10 Ch:8 Neutral | Dlvl:5 $:0 HP:12(12) Pw:6(6) AC:9 Xp:1
+[Step 114] Key: r | PRNG: 0 calls
+  Msg: What do you want to read? [hijkl or ?*]
+[Step 115] Key: s | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 116] Key: t | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 117] Key: 
+ | PRNG: 0 calls
+  Msg: What do you want to read? [hijkl or ?*]
+[Step 118] Key:  | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 119] Key: g | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 120] Key:   | PRNG: 0 calls
+  Msg: What do you want to read? [hijkl or ?*]
+[Step 121] Key: w | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 122] Key: m | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 123] Key: 
+ | PRNG: 0 calls
+  Msg: What do you want to read? [hijkl or ?*]
+[Step 124] Key: F | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 125] Key: s | PRNG: 0 calls
+  Msg: You don't have that object.--More--
+[Step 126] Key: 
+ | PRNG: 0 calls
+  Msg: What do you want to read? [hijkl or ?*]
+[Step 127] Key:   | PRNG: 0 calls
+  Msg: Never mind.
+[Step 128] Key: m | PRNG: 0 calls
+[Step 129] Key: s | PRNG: 75 calls
+  Msg: The kitten misses the giant bat.  The giant bat bites!
+  Map updated (3 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:14 Co:15 In:18 Wi:10 Ch:8 Neutral | Dlvl:5 $:0 HP:7(12) Pw:6(6) AC:9 Xp:1
+[Step 130] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 131] Key: m | PRNG: 0 calls
+[Step 132] Key: s | PRNG: 63 calls
+  Msg: The kitten misses the giant bat.  The giant bat bites!--More--
+  Status update: Wizard the Evoker              St:12 Dx:14 Co:15 In:18 Wi:10 Ch:8 Neutral | Dlvl:5 $:0 HP:2(12) Pw:6(6) AC:9 Xp:1
+[Step 133] Key:   | PRNG: 9 calls
+  Msg: The kitten bites the giant bat.  The giant bat bites the kitten.--More--
+[Step 134] Key:   | PRNG: 72 calls
+  Msg: The kitten is killed!  The giant bat bites!
+  Map updated (1 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:14 Co:15 In:18 Wi:10 Ch:8 Neutral | Dlvl:5 $:0 HP:1(12) Pw:6(6) AC:9 Xp:1
+[Step 135] Key: m | PRNG: 0 calls
+[Step 136] Key: s | PRNG: 6 calls
+  Msg: The giant bat bites!--More--
+[Step 137] Key:   | PRNG: 0 calls
+  Msg: You die...--More--
+[Step 138] Key: e | PRNG: 0 calls
+  Msg: You die...--More--
+[Step 139] Key:   | PRNG: 0 calls
+  Msg: Die? [yn] (n)
+  Status update: Wizard the Evoker              St:12 Dx:14 Co:15 In:18 Wi:10 Ch:8 Neutral | Dlvl:5 $:0 HP:0(12) Pw:6(6) AC:9 Xp:1
+[Step 140] Key: c | PRNG: 0 calls
+  Msg: Die? [yn] (n)
+[Step 141] Key: o | PRNG: 0 calls
+  Msg: Die? [yn] (n)
+[Step 142] Key: r | PRNG: 0 calls
+  Msg: Die? [yn] (n)
+[Step 143] Key: p | PRNG: 0 calls
+  Msg: Die? [yn] (n)
+[Step 144] Key: s | PRNG: 0 calls
+  Msg: Die? [yn] (n)
+[Step 145] Key: e | PRNG: 0 calls
+  Msg: Die? [yn] (n)
+[Step 146] Key: 
+ | PRNG: 10 calls
+  Msg: OK, so you don't die.  You survived that attempt on your life.
+  Status update: Wizard the Evoker              St:12 Dx:14 Co:15 In:18 Wi:10 Ch:8 Neutral | Dlvl:5 $:0 HP:12(12) Pw:6(6) AC:9 Xp:1
+[Step 147] Key: e | PRNG: 0 calls
+  Msg: You don't have anything to eat.
+[Step 148] Key: , | PRNG: 0 calls
+  Msg: There is nothing here to pick up.
+[Step 149] Key: y | PRNG: 24 calls
+  Msg: You kill the giant bat!
+  Map updated (1 rows changed)
+[Step 150] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 151] Key: m | PRNG: 0 calls
+[Step 152] Key: s | PRNG: 17 calls
+[Step 153] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 154] Key: y | PRNG: 15 calls
+  Map updated (2 rows changed)
+[Step 155] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 156] Key: m | PRNG: 0 calls
+[Step 157] Key: s | PRNG: 22 calls
+[Step 158] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 159] Key: y | PRNG: 0 calls
+[Step 160] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 161] Key: m | PRNG: 0 calls
+[Step 162] Key: s | PRNG: 12 calls
+[Step 163] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 164] Key: y | PRNG: 0 calls
+[Step 165] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 166] Key: m | PRNG: 0 calls
+[Step 167] Key: s | PRNG: 15 calls
+[Step 168] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 169] Key: y | PRNG: 0 calls
+[Step 170] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 171] Key: m | PRNG: 0 calls
+[Step 172] Key: s | PRNG: 20 calls
+[Step 173] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 174] Key: y | PRNG: 0 calls
+[Step 175] Key: y | PRNG: 0 calls
+[Step 176] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 177] Key: y | PRNG: 0 calls
+[Step 178] Key: y | PRNG: 0 calls
+[Step 179] Key: y | PRNG: 0 calls
+[Step 180] Key: y | PRNG: 0 calls
+[Step 181] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 182] Key: n | PRNG: 19 calls
+  Map updated (2 rows changed)
+[Step 183] Key: y | PRNG: 21 calls
+  Map updated (2 rows changed)
+[Step 184] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 185] Key: y | PRNG: 0 calls
+[Step 186] Key: y | PRNG: 0 calls
+[Step 187] Key: y | PRNG: 0 calls
+[Step 188] Key: y | PRNG: 0 calls
+[Step 189] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 190] Key: n | PRNG: 18 calls
+  Msg: The small mimic hits!
+  Map updated (2 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:14 Co:15 In:18 Wi:10 Ch:8 Neutral | Dlvl:5 $:0 HP:4(12) Pw:6(6) AC:9 Xp:1
+[Step 191] Key: y | PRNG: 12 calls
+  Msg: The small mimic hits!--More--
+  Map updated (2 rows changed)
+  Status update: Wizard the Evoker              St:12 Dx:14 Co:15 In:18 Wi:10 Ch:8 Neutral | Dlvl:5 $:0 HP:0(12) Pw:6(6) AC:9 Xp:1
+[Step 192] Key:   | PRNG: 0 calls
+  Msg: You die...--More--

@@ -1,0 +1,143 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 2432 calls
+  Msg: It is written in the Book of Lugh:
+  Status: Sir the Gallant                St:15 Dx:8 Co:11 In:8 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:4(4) AC:0 Xp:1
+[Step 1] Key:   | PRNG: 2 calls
+  Msg: Salutations Sir, welcome to NetHack!  You are a lawful male human Knight.
+  Map updated (16 rows changed)
+  Status update: Sir the Gallant                St:15 Dx:8 Co:11 In:8 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:16(16) Pw:4(4) AC:3 Xp:1
+[Step 2] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+  Map updated (6 rows changed)
+[Step 3] Key: s | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+[Step 4] Key: n | PRNG: 0 calls
+  Map updated (5 rows changed)
+[Step 5] Key: s | PRNG: 6 calls
+[Step 6] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 7] Key: r | PRNG: 0 calls
+  Msg: # r
+[Step 8] Key: i | PRNG: 0 calls
+  Msg: # ride
+[Step 9] Key: d | PRNG: 0 calls
+  Msg: # ride
+[Step 10] Key: e | PRNG: 0 calls
+  Msg: # ride
+[Step 11] Key: 
+ | PRNG: 0 calls
+  Msg: In what direction?
+[Step 12] Key: l | PRNG: 2 calls
+  Msg: You slip while trying to get on the saddled pony.
+  Status update: Sir the Gallant                St:15 Dx:8 Co:11 In:8 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:3(16) Pw:4(4) AC:3 Xp:1
+[Step 13] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 14] Key: r | PRNG: 0 calls
+  Msg: # r
+[Step 15] Key: i | PRNG: 0 calls
+  Msg: # ride
+[Step 16] Key: d | PRNG: 0 calls
+  Msg: # ride
+[Step 17] Key: e | PRNG: 0 calls
+  Msg: # ride
+[Step 18] Key: 
+ | PRNG: 0 calls
+  Msg: In what direction?
+[Step 19] Key: l | PRNG: 11 calls
+  Msg: You mount the saddled pony.
+  Map updated (1 rows changed)
+  Status update: Sir the Gallant                St:15 Dx:8 Co:11 In:8 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:3(16) Pw:4(4) AC:3 Xp:1 Ride
+[Step 20] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 21] Key: r | PRNG: 0 calls
+  Msg: # r
+[Step 22] Key: i | PRNG: 0 calls
+  Msg: # ride
+[Step 23] Key: d | PRNG: 0 calls
+  Msg: # ride
+[Step 24] Key: e | PRNG: 0 calls
+  Msg: # ride
+[Step 25] Key: 
+ | PRNG: 37 calls
+  Msg: You've been through the dungeon on a pony with no name.
+  Map updated (3 rows changed)
+  Status update: Sir the Gallant                St:15 Dx:8 Co:11 In:8 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:4(16) Pw:4(4) AC:3 Xp:1
+[Step 26] Key: l | PRNG: 32 calls
+  Map updated (3 rows changed)
+[Step 27] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 28] Key: r | PRNG: 0 calls
+  Msg: # r
+[Step 29] Key: i | PRNG: 0 calls
+  Msg: # ride
+[Step 30] Key: d | PRNG: 0 calls
+  Msg: # ride
+[Step 31] Key: e | PRNG: 0 calls
+  Msg: # ride
+[Step 32] Key: 
+ | PRNG: 0 calls
+  Msg: In what direction?
+[Step 33] Key: l | PRNG: 14 calls
+  Msg: You mount the saddled pony.
+  Map updated (1 rows changed)
+  Status update: Sir the Gallant                St:15 Dx:8 Co:11 In:8 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:4(16) Pw:4(4) AC:3 Xp:1 Ride
+[Step 34] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 35] Key: r | PRNG: 0 calls
+  Msg: # r
+[Step 36] Key: i | PRNG: 0 calls
+  Msg: # ride
+[Step 37] Key: d | PRNG: 0 calls
+  Msg: # ride
+[Step 38] Key: e | PRNG: 0 calls
+  Msg: # ride
+[Step 39] Key: 
+ | PRNG: 15 calls
+  Msg: You've been through the dungeon on a pony with no name.--More--
+  Map updated (1 rows changed)
+  Status update: Sir the Gallant                St:15 Dx:8 Co:11 In:8 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:4(16) Pw:4(4) AC:3 Xp:1
+[Step 40] Key:   | PRNG: 2 calls
+  Msg: The saddled pony misses the kobold zombie.--More--
+[Step 41] Key:   | PRNG: 3 calls
+  Msg: The saddled pony bites the kobold zombie.--More--
+[Step 42] Key:   | PRNG: 44 calls
+  Msg: The kobold zombie is destroyed!
+  Map updated (2 rows changed)
+[Step 43] Key: l | PRNG: 37 calls
+  Map updated (2 rows changed)
+[Step 44] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 45] Key: r | PRNG: 0 calls
+  Msg: # r
+[Step 46] Key: i | PRNG: 0 calls
+  Msg: # ride
+[Step 47] Key: d | PRNG: 0 calls
+  Msg: # ride
+[Step 48] Key: e | PRNG: 0 calls
+  Msg: # ride
+[Step 49] Key: 
+ | PRNG: 0 calls
+  Msg: In what direction?
+[Step 50] Key: l | PRNG: 0 calls
+  Msg: I see nobody there.
+[Step 51] Key: # | PRNG: 0 calls
+  Msg: #
+[Step 52] Key: r | PRNG: 0 calls
+  Msg: # r
+[Step 53] Key: i | PRNG: 0 calls
+  Msg: # ride
+[Step 54] Key: d | PRNG: 0 calls
+  Msg: # ride
+[Step 55] Key: e | PRNG: 0 calls
+  Msg: # ride
+[Step 56] Key: 
+ | PRNG: 0 calls
+  Msg: In what direction?
+[Step 57] Key: h | PRNG: 2 calls
+  Msg: You slip while trying to get on the saddled pony.--More--
+  Status update: Sir the Gallant                St:15 Dx:8 Co:11 In:8 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:0(16) Pw:4(4) AC:3 Xp:1
+[Step 58] Key:   | PRNG: 1 calls
+  Msg: You die...--More--
+[Step 59] Key:   | PRNG: 0 calls
+  Msg: Do you want your possessions identified? [ynq] (n)

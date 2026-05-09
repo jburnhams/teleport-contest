@@ -1,0 +1,181 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 0 calls
+  Status:  | 
+[Step 1] Key: S | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 2] Key: w | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 3] Key: i | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 4] Key: m | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 5] Key: m | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 6] Key: e | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 7] Key: r | PRNG: 0 calls
+  Map updated (1 rows changed)
+[Step 8] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Shall I pick character's race, role, gender and alignment for you? [ynaq]
+[Step 9] Key: y | PRNG: 4 calls
+  Msg: Is this ok? [ynaq]
+  Map updated (6 rows changed)
+[Step 10] Key: y | PRNG: 3331 calls
+  Msg: It is written in the Book of Mars:
+  Map updated (15 rows changed)
+  Status update: Swimmer the Tenderfoot         St:14 Dx:11 Co:15 In:14 Wi:14 Ch:7 Chaotic | Dlvl:1 $:0 HP:14(14) Pw:3(3) AC:0 Xp:1
+[Step 11] Key:   | PRNG: 2 calls
+  Msg: Hello Swimmer, welcome to NetHack!  You are a chaotic female elven Ranger.
+  Map updated (15 rows changed)
+  Status update: Swimmer the Tenderfoot         St:14 Dx:11 Co:15 In:14 Wi:14 Ch:7 Chaotic | Dlvl:1 $:0 HP:14(14) Pw:3(3) AC:7 Xp:1
+[Step 12] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+  Map updated (6 rows changed)
+[Step 13] Key: y | PRNG: 165 calls
+  Msg: Entering the tutorial.--More--
+  Map updated (5 rows changed)
+[Step 14] Key:   | PRNG: 0 calls
+  Msg: Something is engraved here on the floor.--More--
+  Map updated (8 rows changed)
+  Status update: Swimmer the Tenderfoot         St:14 Dx:11 Co:15 In:14 Wi:14 Ch:7 Chaotic | Tutorial:1 $:0 HP:14(14) Pw:3(3) AC:7 Xp:1
+[Step 15] Key:   | PRNG: 0 calls
+  Msg: You read: "Move around with h j k l".--More--
+[Step 16] Key:   | PRNG: 0 calls
+  Status update: Swimmer the Tenderfoot         St:14 Dx:11 Co:15 In:14 Wi:14 Ch:7 Chaotic | Tutorial:1 $:0 HP:14(14) Pw:3(3) AC:10 Xp:1
+[Step 17] Key: y | PRNG: 7 calls
+  Map updated (2 rows changed)
+[Step 18] Key: H | PRNG: 12 calls
+  Msg: Something is engraved here on the floor.--More--
+  Map updated (1 rows changed)
+[Step 19] Key:   | PRNG: 7 calls
+  Msg: You read: "Move diagonally with b u n y".
+[Step 20] Key: h | PRNG: 7 calls
+  Map updated (1 rows changed)
+[Step 21] Key: h | PRNG: 6 calls
+  Map updated (6 rows changed)
+[Step 22] Key: b | PRNG: 6 calls
+  Map updated (6 rows changed)
+[Step 23] Key: J | PRNG: 0 calls
+  Msg: Something is engraved here on the floor.--More--
+  Map updated (2 rows changed)
+[Step 24] Key: ESC | PRNG: 7 calls
+  Msg: You read: "Some actions may require multiple tries before succeeding".
+[Step 25] Key: j | PRNG: 0 calls
+  Msg: Something is engraved here on the floor.--More--
+  Map updated (2 rows changed)
+[Step 26] Key: ESC | PRNG: 9 calls
+  Msg: You read: "Open the door by moving into it".
+[Step 27] Key: j | PRNG: 2 calls
+  Msg: The door resists!
+[Step 28] Key: j | PRNG: 2 calls
+  Msg: The door resists!
+[Step 29] Key: j | PRNG: 1 calls
+  Msg: The door opens.
+  Map updated (4 rows changed)
+[Step 30] Key: j | PRNG: 7 calls
+  Map updated (6 rows changed)
+[Step 31] Key: j | PRNG: 0 calls
+  Msg: Something is engraved here on the floor.--More--
+  Map updated (4 rows changed)
+[Step 32] Key: ESC | PRNG: 7 calls
+  Msg: You read: "Close the door with 'c'".
+[Step 33] Key: N | PRNG: 7 calls
+  Msg: It's a wall.
+  Map updated (2 rows changed)
+[Step 34] Key: l | PRNG: 6 calls
+  Map updated (1 rows changed)
+[Step 35] Key: n | PRNG: 0 calls
+  Msg: Something is engraved here on the floor.--More--
+  Map updated (3 rows changed)
+[Step 36] Key:   | PRNG: 7 calls
+  Msg: You read: "This door is locked. Kick it with 'Ctrl-D'".
+[Step 37] Key:  | PRNG: 0 calls
+  Msg: In what direction?
+[Step 38] Key: j | PRNG: 10 calls
+  Msg: Thwack!!
+[Step 39] Key:  | PRNG: 0 calls
+  Msg: In what direction?
+[Step 40] Key: j | PRNG: 9 calls
+  Msg: As you kick the door, it crashes open!
+  Map updated (8 rows changed)
+[Step 41] Key: j | PRNG: 7 calls
+  Msg: There is a broken door here.
+  Map updated (8 rows changed)
+[Step 42] Key: j | PRNG: 6 calls
+  Map updated (7 rows changed)
+[Step 43] Key: b | PRNG: 7 calls
+  Map updated (4 rows changed)
+[Step 44] Key: h | PRNG: 6 calls
+  Map updated (1 rows changed)
+[Step 45] Key: h | PRNG: 0 calls
+  Msg: You avoid stepping into the pool of water.--More--
+[Step 46] Key:   | PRNG: 0 calls
+  Msg: (Tip: use 'm' prefix to step in if you really want to.)
+[Step 47] Key: m | PRNG: 0 calls
+[Step 48] Key: h | PRNG: 8 calls
+  Msg: You fall into the pool of water!  You sink like a rock.--More--
+  Map updated (3 rows changed)
+[Step 49] Key:   | PRNG: 7 calls
+  Msg: You try to crawl out of the water.  Pheew!  That was close.
+  Map updated (1 rows changed)
+[Step 50] Key: j | PRNG: 6 calls
+  Map updated (2 rows changed)
+[Step 51] Key: j | PRNG: 6 calls
+  Map updated (2 rows changed)
+[Step 52] Key: h | PRNG: 0 calls
+  Msg: You avoid stepping into the wall of water.
+[Step 53] Key: m | PRNG: 0 calls
+[Step 54] Key: h | PRNG: 8 calls
+  Msg: You plunge into the wall of water!  You try to crawl out of the water.--More--
+  Map updated (1 rows changed)
+[Step 55] Key:   | PRNG: 6 calls
+  Msg: Pheew!  That was close.
+  Map updated (1 rows changed)
+[Step 56] Key: j | PRNG: 6 calls
+  Map updated (2 rows changed)
+[Step 57] Key: l | PRNG: 6 calls
+  Map updated (1 rows changed)
+[Step 58] Key: l | PRNG: 6 calls
+  Map updated (1 rows changed)
+[Step 59] Key: l | PRNG: 6 calls
+  Map updated (1 rows changed)
+[Step 60] Key: l | PRNG: 0 calls
+  Msg: You avoid stepping into the wall of lava.
+[Step 61] Key: m | PRNG: 0 calls
+[Step 62] Key: l | PRNG: 1 calls
+  Msg: You fall into the wall of lava!  You burn to a crisp...--More--
+  Map updated (1 rows changed)
+[Step 63] Key:   | PRNG: 0 calls
+  Msg: Do you want to see your attributes? [ynq] (n)
+  Status update: Swimmer the Tenderfoot         St:14 Dx:11 Co:15 In:14 Wi:14 Ch:7 Chaotic | Tutorial:1 $:0 HP:0(14) Pw:3(3) AC:10 Xp:1
+[Step 64] Key: y | PRNG: 0 calls
+  Msg: Swimmer the Ranger's attributes:
+  Map updated (20 rows changed)
+  Status update: Your intelligence was 14 (limit:20). | --More--
+[Step 65] Key:   | PRNG: 0 calls
+  Msg: Your wisdom was 14 (limit:20).
+  Map updated (21 rows changed)
+  Status update:  | 
+[Step 66] Key:   | PRNG: 0 calls
+  Msg: Do you want to see your conduct? [ynq] (n)
+  Map updated (20 rows changed)
+  Status update: Swimmer the Tenderfoot         St:14 Dx:11 Co:15 In:14 Wi:14 Ch:7 Chaotic | Tutorial:1 $:0 HP:0(14) Pw:3(3) AC:10 Xp:1
+[Step 67] Key: y | PRNG: 0 calls
+  Msg: Voluntary challenges:
+  Map updated (11 rows changed)
+[Step 68] Key:   | PRNG: 0 calls
+  Msg: Do you want to see the dungeon overview? [ynq] (n)
+  Map updated (11 rows changed)
+[Step 69] Key: y | PRNG: 0 calls
+  Msg: The Dungeons of Doom:
+  Map updated (6 rows changed)
+[Step 70] Key:   | PRNG: 0 calls
+  Map updated (21 rows changed)
+  Status update: You were level 1 with a maximum of 14 hit points when you burned. | --More--
+[Step 71] Key:   | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update:  | --More--
+[Step 72] Key:   | PRNG: 0 calls
+  Map updated (3 rows changed)
+  Status update:  | 

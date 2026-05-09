@@ -1,0 +1,92 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 2396 calls
+  Msg: It is written in the Book of Kos:
+  Status: Shade the Footpad              St:14 Dx:18 Co:12 In:10 Wi:11 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:0 Xp:1
+[Step 1] Key:   | PRNG: 2 calls
+  Msg: Hello Shade, welcome to NetHack!  You are a chaotic male orcish Rogue.
+  Map updated (14 rows changed)
+  Status update: Shade the Footpad              St:14 Dx:18 Co:12 In:10 Wi:11 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1
+[Step 2] Key: j | PRNG: 7 calls
+  Map updated (2 rows changed)
+[Step 3] Key: L | PRNG: 19 calls
+  Msg: The kitten bites the newt.  The newt misses the kitten.--More--
+  Map updated (1 rows changed)
+[Step 4] Key:   | PRNG: 18 calls
+  Msg: The kitten misses the newt.  The kitten bites the newt.--More--
+  Map updated (1 rows changed)
+[Step 5] Key:   | PRNG: 120 calls
+  Msg: The newt is killed!  The kitten picks up a gold piece.
+  Map updated (3 rows changed)
+[Step 6] Key: L | PRNG: 145 calls
+  Msg: The kitten drops a gold piece.
+  Map updated (3 rows changed)
+[Step 7] Key: k | PRNG: 40 calls
+  Map updated (3 rows changed)
+[Step 8] Key: H | PRNG: 0 calls
+[Step 9] Key: L | PRNG: 232 calls
+  Msg: You swap places with your kitten.
+  Map updated (9 rows changed)
+[Step 10] Key: L | PRNG: 0 calls
+[Step 11] Key: L | PRNG: 0 calls
+[Step 12] Key: L | PRNG: 0 calls
+[Step 13] Key: L | PRNG: 0 calls
+[Step 14] Key:  | PRNG: 0 calls
+  Msg: In what direction?
+[Step 15] Key: j | PRNG: 37 calls
+  Msg: You kick at empty space.
+[Step 16] Key: . | PRNG: 51 calls
+  Map updated (2 rows changed)
+[Step 17] Key: . | PRNG: 115 calls
+  Map updated (2 rows changed)
+[Step 18] Key:  | PRNG: 0 calls
+  Msg: In what direction?
+[Step 19] Key: j | PRNG: 40 calls
+  Msg: You kick at empty space.
+[Step 20] Key: . | PRNG: 37 calls
+  Map updated (2 rows changed)
+[Step 21] Key: . | PRNG: 44 calls
+[Step 22] Key: s | PRNG: 55 calls
+  Map updated (2 rows changed)
+[Step 23] Key: s | PRNG: 28 calls
+  Map updated (1 rows changed)
+[Step 24] Key: s | PRNG: 43 calls
+[Step 25] Key: s | PRNG: 44 calls
+[Step 26] Key: s | PRNG: 35 calls
+  Map updated (2 rows changed)
+[Step 27] Key:  | PRNG: 0 calls
+  Msg: In what direction?
+[Step 28] Key: l | PRNG: 32 calls
+  Msg: Ouch!  That hurts!
+  Map updated (1 rows changed)
+[Step 29] Key: i | PRNG: 0 calls
+  Msg: Weapons
+  Map updated (13 rows changed)
+[Step 30] Key: ESC | PRNG: 0 calls
+  Map updated (13 rows changed)
+[Step 31] Key: + | PRNG: 0 calls
+  Msg: You don't know any spells right now.
+[Step 32] Key: ESC | PRNG: 0 calls
+[Step 33] Key: \ | PRNG: 0 calls
+  Msg: Discoveries, by order of discovery within each class
+  Map updated (19 rows changed)
+  Status update:  | --More--
+[Step 34] Key: ESC | PRNG: 0 calls
+  Map updated (19 rows changed)
+  Status update: Shade the Footpad              St:14 Dx:18 Co:12 In:10 Wi:11 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1
+[Step 35] Key:  | PRNG: 0 calls
+  Msg: Shade the Rogue's attributes:
+  Map updated (19 rows changed)
+  Status update: Your intelligence is 10 (current; limit:16). | (1 of 2)
+[Step 36] Key:   | PRNG: 0 calls
+  Msg: Your wisdom is 11 (current; limit:16).
+  Map updated (20 rows changed)
+  Status update:  | 
+[Step 37] Key: ESC | PRNG: 0 calls
+  Map updated (18 rows changed)
+  Status update: Shade the Footpad              St:14 Dx:18 Co:12 In:10 Wi:11 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1
+[Step 38] Key: s | PRNG: 48 calls
+[Step 39] Key: s | PRNG: 38 calls
+  Map updated (1 rows changed)
+[Step 40] Key: : | PRNG: 0 calls
+  Msg: You see no objects here.

@@ -1,0 +1,100 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 2551 calls
+  Msg: It is written in the Book of Odin:
+  Status: Astrid the Stripling           St:17 Dx:14 Co:17 In:9 Wi:9 Ch:9 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:0 Xp:1
+[Step 1] Key:   | PRNG: 2 calls
+  Msg: Velkommen Astrid, welcome to NetHack!  You are a neutral human Valkyrie.
+  Map updated (15 rows changed)
+  Status update: Astrid the Stripling           St:17 Dx:14 Co:17 In:9 Wi:9 Ch:9 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:6 Xp:1
+[Step 2] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+  Map updated (5 rows changed)
+[Step 3] Key: n | PRNG: 0 calls
+  Map updated (4 rows changed)
+[Step 4] Key: l | PRNG: 9 calls
+  Msg: You swap places with your little dog.
+  Map updated (1 rows changed)
+[Step 5] Key: l | PRNG: 30 calls
+  Msg: You see here 5 gold pieces.
+  Map updated (2 rows changed)
+[Step 6] Key: l | PRNG: 23 calls
+  Map updated (2 rows changed)
+[Step 7] Key: l | PRNG: 26 calls
+  Map updated (1 rows changed)
+[Step 8] Key: l | PRNG: 31 calls
+  Map updated (2 rows changed)
+[Step 9] Key: l | PRNG: 39 calls
+  Map updated (1 rows changed)
+[Step 10] Key: l | PRNG: 21 calls
+  Map updated (2 rows changed)
+[Step 11] Key: l | PRNG: 23 calls
+  Map updated (1 rows changed)
+[Step 12] Key: k | PRNG: 32 calls
+  Map updated (3 rows changed)
+[Step 13] Key: k | PRNG: 31 calls
+  Msg: You hear a door open.
+  Map updated (9 rows changed)
+[Step 14] Key: k | PRNG: 17 calls
+  Map updated (3 rows changed)
+[Step 15] Key: l | PRNG: 17 calls
+  Map updated (8 rows changed)
+[Step 16] Key: l | PRNG: 23 calls
+  Map updated (7 rows changed)
+[Step 17] Key: k | PRNG: 26 calls
+  Msg: You swap places with your little dog.
+  Map updated (5 rows changed)
+[Step 18] Key: k | PRNG: 17 calls
+  Map updated (4 rows changed)
+[Step 19] Key: > | PRNG: 5465 calls
+  Msg: You descend the stairs.--More--
+[Step 20] Key:   | PRNG: 23 calls
+  Map updated (13 rows changed)
+  Status update: Astrid the Stripling           St:17 Dx:14 Co:17 In:9 Wi:9 Ch:9 Neutral | Dlvl:2 $:0 HP:16(16) Pw:2(2) AC:6 Xp:1
+[Step 21] Key: h | PRNG: 22 calls
+  Map updated (2 rows changed)
+[Step 22] Key: h | PRNG: 36 calls
+  Msg: You hear an F note squeak in the distance.
+  Map updated (3 rows changed)
+[Step 23] Key: h | PRNG: 0 calls
+[Step 24] Key: h | PRNG: 0 calls
+[Step 25] Key: h | PRNG: 0 calls
+[Step 26] Key: k | PRNG: 0 calls
+[Step 27] Key: . | PRNG: 20 calls
+  Map updated (2 rows changed)
+[Step 28] Key: . | PRNG: 40 calls
+  Msg: The little dog falls into a pit!  The little dog is killed!
+  Map updated (1 rows changed)
+[Step 29] Key: . | PRNG: 5 calls
+[Step 30] Key: s | PRNG: 8 calls
+[Step 31] Key: s | PRNG: 10 calls
+[Step 32] Key: i | PRNG: 0 calls
+  Msg: Weapons
+  Map updated (9 rows changed)
+[Step 33] Key: ESC | PRNG: 0 calls
+  Map updated (9 rows changed)
+[Step 34] Key: + | PRNG: 0 calls
+  Msg: You don't know any spells right now.
+[Step 35] Key: ESC | PRNG: 0 calls
+[Step 36] Key: \ | PRNG: 0 calls
+  Msg: Discoveries, by order of discovery within each class
+  Map updated (20 rows changed)
+  Status update: * dwarvish mattock (broad pick) | --More--
+[Step 37] Key: ESC | PRNG: 0 calls
+  Map updated (20 rows changed)
+  Status update: Astrid the Stripling           St:17 Dx:14 Co:17 In:9 Wi:9 Ch:9 Neutral | Dlvl:2 $:0 HP:16(16) Pw:2(2) AC:6 Xp:1
+[Step 38] Key:  | PRNG: 0 calls
+  Msg: Astrid the Valkyrie's attributes:
+  Map updated (19 rows changed)
+  Status update: Your intelligence is 9. | (1 of 2)
+[Step 39] Key:   | PRNG: 0 calls
+  Msg: Your wisdom is 9.
+  Map updated (20 rows changed)
+  Status update:  | 
+[Step 40] Key: ESC | PRNG: 0 calls
+  Map updated (11 rows changed)
+  Status update: Astrid the Stripling           St:17 Dx:14 Co:17 In:9 Wi:9 Ch:9 Neutral | Dlvl:2 $:0 HP:16(16) Pw:2(2) AC:6 Xp:1
+[Step 41] Key: s | PRNG: 5 calls
+[Step 42] Key: s | PRNG: 11 calls
+[Step 43] Key: : | PRNG: 0 calls
+  Msg: You see no objects here.

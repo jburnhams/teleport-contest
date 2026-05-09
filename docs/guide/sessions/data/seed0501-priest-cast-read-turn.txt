@@ -1,0 +1,74 @@
+
+=== SEGMENT 0 ===
+[Step 0] Key: NULL (Init) | PRNG: 2203 calls
+  Msg: It is written in the Book of The Lady:
+  Status: Clara the Aspirant             St:13 Dx:12 Co:13 In:10 Wi:18 Ch:9 Neutral | Dlvl:1 $:0 HP:14(14) Pw:6(6) AC:0 Xp:1
+[Step 1] Key:   | PRNG: 2 calls
+  Msg: Hello clara, welcome to NetHack!  You are a neutral human Priestess.--More--
+  Map updated (15 rows changed)
+  Status update: Clara the Aspirant             St:13 Dx:12 Co:13 In:10 Wi:18 Ch:9 Neutral | Dlvl:1 $:0 HP:14(14) Pw:6(6) AC:7 Xp:1
+[Step 2] Key:   | PRNG: 0 calls
+  Msg: Do you want a tutorial?
+  Map updated (4 rows changed)
+[Step 3] Key: n | PRNG: 0 calls
+  Map updated (4 rows changed)
+[Step 4] Key: Z | PRNG: 0 calls
+  Msg: Choose which spell to cast
+  Map updated (4 rows changed)
+[Step 5] Key: a | PRNG: 3 calls
+  Msg: In what direction?
+  Map updated (4 rows changed)
+  Status update: Clara the Aspirant             St:13 Dx:12 Co:13 In:10 Wi:18 Ch:9 Neutral | Dlvl:1 $:0 HP:14(14) Pw:1(6) AC:7 Xp:1
+[Step 6] Key: . | PRNG: 7 calls
+  Msg: You feel better.
+[Step 7] Key: r | PRNG: 0 calls
+  Msg: What do you want to read? [gh or ?*]
+[Step 8] Key: g | PRNG: 0 calls
+  Msg: You know "healing" quite well already.--More--
+[Step 9] Key: y | PRNG: 0 calls
+  Msg: You know "healing" quite well already.--More--
+[Step 10] Key: # | PRNG: 0 calls
+  Msg: You know "healing" quite well already.--More--
+[Step 11] Key: t | PRNG: 0 calls
+  Msg: You know "healing" quite well already.--More--
+[Step 12] Key: u | PRNG: 0 calls
+  Msg: You know "healing" quite well already.--More--
+[Step 13] Key: r | PRNG: 0 calls
+  Msg: You know "healing" quite well already.--More--
+[Step 14] Key: n | PRNG: 0 calls
+  Msg: You know "healing" quite well already.--More--
+[Step 15] Key: \r (Enter) | PRNG: 0 calls
+  Msg: Refresh your memory anyway? [yn] (n)
+[Step 16] Key: i | PRNG: 0 calls
+  Msg: Refresh your memory anyway? [yn] (n)
+[Step 17] Key: ESC | PRNG: 0 calls
+  Msg: Refresh your memory anyway? [yn] (n)
+[Step 18] Key: + | PRNG: 0 calls
+  Msg: Currently known spells
+  Map updated (5 rows changed)
+[Step 19] Key: ESC | PRNG: 0 calls
+  Map updated (5 rows changed)
+[Step 20] Key: \ | PRNG: 0 calls
+  Msg: Discoveries, by order of discovery within each class
+  Map updated (9 rows changed)
+  Status update:  | --More--
+[Step 21] Key: ESC | PRNG: 0 calls
+  Map updated (9 rows changed)
+  Status update: Clara the Aspirant             St:13 Dx:12 Co:13 In:10 Wi:18 Ch:9 Neutral | Dlvl:1 $:0 HP:14(14) Pw:1(6) AC:7 Xp:1
+[Step 22] Key:  | PRNG: 0 calls
+  Msg: Clara the Priestess's attributes:
+  Map updated (19 rows changed)
+  Status update: Your intelligence is 10. | (1 of 2)
+[Step 23] Key:   | PRNG: 0 calls
+  Msg: Your wisdom is 18.
+  Map updated (20 rows changed)
+  Status update:  | 
+[Step 24] Key: ESC | PRNG: 0 calls
+  Map updated (10 rows changed)
+  Status update: Clara the Aspirant             St:13 Dx:12 Co:13 In:10 Wi:18 Ch:9 Neutral | Dlvl:1 $:0 HP:14(14) Pw:1(6) AC:7 Xp:1
+[Step 25] Key: s | PRNG: 10 calls
+  Map updated (2 rows changed)
+[Step 26] Key: s | PRNG: 13 calls
+  Map updated (2 rows changed)
+[Step 27] Key: : | PRNG: 0 calls
+  Msg: There is a staircase up out of the dungeon here.
