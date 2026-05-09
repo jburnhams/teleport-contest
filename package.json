@@ -5,9 +5,11 @@
   "type": "module",
   "scripts": {
     "score": "bash frozen/score.sh",
-    "play": "echo 'Open index.html in a browser to play'"
+    "score:check": "bash frozen/score.sh > /tmp/nh-score.txt && node scripts/check-score.mjs /tmp/nh-score.txt scores/baseline.json",
+    "play": "echo 'Open index.html in a browser to play'",
+    "prepare": "git config core.hooksPath .githooks"
   },
   "engines": {
-    "node": ">=22.0.0"
+    "node": ">=24.0.0"
   }
 }

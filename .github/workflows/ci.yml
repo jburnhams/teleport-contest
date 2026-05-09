@@ -1,0 +1,87 @@
+name: CI – Score Gate
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  score-gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - uses: actions/checkout@v6.0.2
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v6.4.0
+        with:
+          node-version: '24'
+
+      - name: Verify frozen files unchanged
+        run: |
+          node - <<'EOF'
+          import { readFileSync } from 'fs';
+          import { createHash } from 'crypto';
+          const expected = JSON.parse(readFileSync('.teleport/frozen-hashes.json', 'utf8'));
+          let failed = false;
+          for (const [file, want] of Object.entries(expected)) {
+            let got;
+            try {
+              got = createHash('sha256').update(readFileSync(file)).digest('hex');
+            } catch {
+              console.error(`MISSING: ${file}`);
+              failed = true;
+              continue;
+            }
+            if (got !== want) {
+              console.error(`TAMPERED: ${file}`);
+              console.error(`  expected ${want}`);
+              console.error(`  got      ${got}`);
+              failed = true;
+            }
+          }
+          if (failed) {
+            console.error('\nFrozen files have been modified. These are judge-controlled.');
+            process.exit(1);
+          }
+          console.log('Frozen files OK');
+          EOF
+
+      - name: Verify baseline not manually modified
+        run: |
+          # baseline.json must only be touched by the promote-baseline action.
+          # Flag any PR that includes a manual edit to it.
+          BASE_SHA="${{ github.event.pull_request.base.sha }}"
+          if git diff --name-only "$BASE_SHA" HEAD | grep -q '^scores/baseline.json'; then
+            AUTHOR_EMAIL=$(git log --format='%ae' "$BASE_SHA"..HEAD -- scores/baseline.json | head -1)
+            if [[ "$AUTHOR_EMAIL" != "github-actions[bot]@users.noreply.github.com" ]]; then
+              echo "::error::scores/baseline.json was manually modified in this PR."
+              echo "It is maintained automatically by the promote-baseline workflow."
+              exit 1
+            fi
+          fi
+          echo "Baseline integrity OK"
+
+      - name: Overlay frozen fixture
+        run: |
+          cp frozen/isaac64.js js/isaac64.js
+          cp frozen/terminal.js js/terminal.js
+          cp frozen/storage.js js/storage.js
+
+      - name: Score public sessions
+        run: |
+          node frozen/ps_test_runner.mjs sessions/ \
+            2>score-stderr.txt | tee score-stdout.txt
+          cat score-stderr.txt >&2
+
+      - name: Check against baseline
+        run: node scripts/check-score.mjs score-stdout.txt scores/baseline.json
+
+      - name: Upload score results
+        if: always()
+        uses: actions/upload-artifact@v7.0.1
+        with:
+          name: score-results-pr-${{ github.event.pull_request.number }}
+          path: |
+            score-stdout.txt
+            score-stderr.txt

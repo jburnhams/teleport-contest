@@ -1,4 +1,4 @@
-name: Score
+name: Score + Promote Baseline
 on:
   push:
     branches: [main]
@@ -6,18 +6,55 @@ on:
 
 jobs:
   score:
+    # Skip commits made by this workflow to avoid infinite loops.
+    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
     runs-on: ubuntu-latest
-    timeout-minutes: 20
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '22'
+    timeout-minutes: 25
 
-      - name: Overlay frozen fixture (ISAAC64 + Terminal)
+    steps:
+      - uses: actions/checkout@v6.0.2
+        with:
+          token: ${{ secrets.BASELINE_PAT }}
+
+      - uses: actions/setup-node@v6.4.0
+        with:
+          node-version: '24'
+
+      - name: Verify frozen files unchanged
+        run: |
+          node - <<'EOF'
+          import { readFileSync } from 'fs';
+          import { createHash } from 'crypto';
+          const expected = JSON.parse(readFileSync('.teleport/frozen-hashes.json', 'utf8'));
+          let failed = false;
+          for (const [file, want] of Object.entries(expected)) {
+            let got;
+            try {
+              got = createHash('sha256').update(readFileSync(file)).digest('hex');
+            } catch {
+              console.error(`MISSING: ${file}`);
+              failed = true;
+              continue;
+            }
+            if (got !== want) {
+              console.error(`TAMPERED: ${file}`);
+              console.error(`  expected ${want}`);
+              console.error(`  got      ${got}`);
+              failed = true;
+            }
+          }
+          if (failed) {
+            console.error('\nFrozen files have been modified. These are judge-controlled.');
+            process.exit(1);
+          }
+          console.log('Frozen files OK');
+          EOF
+
+      - name: Overlay frozen fixture
         run: |
           cp frozen/isaac64.js js/isaac64.js
           cp frozen/terminal.js js/terminal.js
+          cp frozen/storage.js js/storage.js
 
       - name: Score public sessions
         run: |
@@ -27,7 +64,6 @@ jobs:
 
       - name: Extract score summary
         run: |
-          # Parse results JSON and create a summary
           node -e "
             const fs = require('fs');
             const raw = fs.readFileSync('score-stdout.txt', 'utf8');
@@ -45,10 +81,50 @@ jobs:
             fs.writeFileSync('score-summary.json', JSON.stringify({ passed, total, rngPct, timestamp: data.timestamp, results: results.map(r => ({ session: r.session, passed: r.passed, rng: r.metrics?.rngCalls, screen: r.metrics?.screens, cursor: r.metrics?.cursor })) }, null, 2));
           "
 
+      - name: Promote baseline if score improved
+        run: node scripts/promote-baseline.mjs score-stdout.txt scores/baseline.json
+
+      - name: Commit updated baseline
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add scores/baseline.json
+          if git diff --staged --quiet; then
+            echo "Baseline unchanged — nothing to commit"
+          else
+            git commit -m "chore: promote baseline score [skip ci]"
+            git push
+          fi
+
+      - name: Build Dashboard
+        run: |
+          node scripts/build-dashboard.mjs
+          cp -r js frozen tools _site/
+          cp -r sessions/*.session.json _site/sessions/
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site/
+
       - name: Upload results
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7.0.1
         with:
           name: score-results
           path: |
             score-summary.json
             score-stdout.txt
+
+  deploy-pages:
+    needs: score
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

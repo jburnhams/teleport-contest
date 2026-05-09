@@ -1,0 +1,10 @@
+{
+  "frozen/isaac64.js":        "0e6f41b795f49e58f0d410785c8d14c8dd9d68ac9143ae68319bd555ea247d1e",
+  "frozen/terminal.js":       "10fa540ff6e476421327ecc2f683221cef603565f75e988130992ab8cfd25b76",
+  "frozen/storage.js":        "a63c46c81fc54376baa5897e1940ebb6d024deec4ba0820b62b467068a89457e",
+  "frozen/ps_test_runner.mjs":"f6d28ad72fec3c8d24dfea9aba1564d41acb29c61a75937efcd04ba80a951e30",
+  "frozen/screen-decode.mjs": "cb4a0fbfed3dda28c14736e6ae9c8b9eb8c87d75916c50d6df80f40eb0368cbe",
+  "frozen/session_loader.mjs":"fb382efa89c272dae8cb700b7dadd075b926ff039ab3eb17480d84ed65029ce6",
+  "frozen/score.sh":          "623c61b34e3e107ec7860be04e3e91cacb77dcf060631ad18639484d3353f063",
+  "frozen/set-category.sh":   "a3051504f8fbe55622fca5e7686f8e7569a4a066528e445efa16713a0356c559"
+}
