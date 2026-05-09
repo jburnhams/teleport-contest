@@ -21,7 +21,12 @@ The fastforward.js scaffolding must be replaced with real implementations, in or
    - Fisher-Yates: `do { i = j + rn2(range-j); } while (objects[i].oc_name_known)` — no name_known objects at init, so exactly one rn2 per position
    - Total: ~193 RNG calls; sizes are constant across all seeds
 
-3. **Dungeon init** — replace fastforward_pre_mklev dungeon portion
+3. **mklev `themerooms_generate` early-exit** (high leverage — unblocks ALL non-seed8000 sessions)
+   - Root cause: `themerooms_generate()` runs 30 reservoir-sampling rn2() calls before checking if the rect fits any room. C exits with 0 RNG for small rects.
+   - Fix: add size check at top of `themerooms_generate()` BEFORE reservoir sampling; return false immediately if rect is too small (< MIN_ROOM_SIZE on either axis).
+   - Verified for seed0360: would align 102 rnd_rect calls at positions 1217–1318.
+
+4. **Dungeon init** — replace fastforward_pre_mklev dungeon portion
    - `init_dungeons()` consumes a block of rn2(100) calls and per-dungeon setup
    - Still needs analysis; for now keep fastforward for dungeon init, implement 1+2 above first
 
@@ -47,6 +52,8 @@ Once RNG is aligned, screens can start matching. Work through these roughly in o
 9. **Map rendering (`docrt`, `newsym`)** — terrain, monsters, items visible to player.
 10. **Message window** — `pline`, `--More--` prompts, multi-line message handling.
 11. **Command dispatch (`cmd.js`)** — all movement, `s` search, `e` eat, `d` drop, `i` inventory, `z` zap, `r` read, `q` quaff, `w` wield, `W` wear, `t` throw, `#` extended commands.
+    - ✅ Ctrl+X (`show_attributes`) — implemented, +2 screens for seed8000 (screens[17] and [18])
+    - Next: `i` inventory list (screen[11] in seed8000), `\` discoveries list (screen[15] in seed8000)
 12. **Inventory menus** — `invent.c` item lists, letter assignment, object naming.
 13. **Shop handling** — price display, buy/sell, shopkeeper dialogue.
 
