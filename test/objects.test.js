@@ -1,5 +1,6 @@
+import { POT_HEALING, FOOD_RATION } from "../js/objects.js";
 import { describe, it, expect } from 'vitest';
-import { objects, DART, CORPSE, HEAVY_IRON_BALL } from '../js/objects.js';
+import { objects, DART, CORPSE, HEAVY_IRON_BALL, IRON_CHAIN, POT_HEALING, FOOD_RATION } from '../js/objects.js';
 import * as Const from '../js/const.js';
 
 describe('objects[] array extraction', () => {
@@ -14,8 +15,8 @@ describe('objects[] array extraction', () => {
         expect(dart.oc_descr).toBe(null);
         expect(dart.oc_name_known).toBe(1);
         expect(dart.oc_merge).toBe(1);
-        expect(dart.oc_uses_known).toBe(0); // My script sets it to 0 as hardcoded in the macro logic, wait: C has 1, 0, 0, 60. `mgc` parameter for dart is 0! Wait, BITS(kn, mg, 1, 0, 0, 1, 0, 0, bi, 0, typ, sub, metal). So dart gets 1 for kn, 1 for mg.
-        expect(dart.oc_magic).toBe(1); // But wait, why is it 1 in the JS objects? Ah, because the arguments mapping for WEAPON is prob=args[5]. args[3] is mgc. But in WEAPON it's `WEAPON("dart", NoDes, 1, 1, 0, 60, ...)`. args[2]=1 (kn), args[3]=1 (mg), args[4]=0 (bi). Wait, wait.
+        expect(dart.oc_uses_known).toBe(0);
+        expect(dart.oc_magic).toBe(1);
         expect(dart.oc_charged).toBe(1);
         expect(dart.oc_unique).toBe(0);
         expect(dart.oc_nowish).toBe(0);
@@ -56,10 +57,10 @@ describe('objects[] array extraction', () => {
         expect(corpse.oc_subtyp).toBe(0);
         expect(corpse.oc_oprop).toBe(0);
         expect(corpse.oc_class).toBe(Const.FOOD_CLASS);
-        expect(corpse.oc_prob).toBe(0); // 0 in C for CORPSE probability since it's dropped by monsters
-        expect(corpse.oc_delay).toBe(1); // C has 1 delay for corpse
-        expect(corpse.oc_weight).toBe(0); // weight varies
-        expect(corpse.oc_cost).toBe(5); // 0 / 20 + 5
+        expect(corpse.oc_prob).toBe(0);
+        expect(corpse.oc_delay).toBe(1);
+        expect(corpse.oc_weight).toBe(0);
+        expect(corpse.oc_cost).toBe(5);
         expect(corpse.oc_wsdam).toBe(0);
         expect(corpse.oc_wldam).toBe(0);
         expect(corpse.oc_oc1).toBe(0);
@@ -95,5 +96,54 @@ describe('objects[] array extraction', () => {
         expect(ball.oc_oc1).toBe(0);
         expect(ball.oc_oc2).toBe(0);
         expect(ball.oc_color).toBe(Const.HI_METAL);
+    });
+
+    it('has correct properties for iron chain', () => {
+        const chain = objects[IRON_CHAIN];
+        expect(chain).toBeDefined();
+        expect(chain.oc_name).toBe("iron chain");
+        expect(chain.oc_descr).toBe(null);
+        expect(chain.oc_name_known).toBe(1);
+        expect(chain.oc_merge).toBe(0);
+        expect(chain.oc_uses_known).toBe(0);
+        expect(chain.oc_magic).toBe(0);
+        expect(chain.oc_charged).toBe(0);
+        expect(chain.oc_unique).toBe(0);
+        expect(chain.oc_nowish).toBe(0);
+        expect(chain.oc_big).toBe(0);
+        expect(chain.oc_tough).toBe(0);
+        expect(chain.oc_dir).toBe(Const.WHACK);
+        expect(chain.oc_material).toBe(Const.IRON);
+        expect(chain.oc_subtyp).toBe(0);
+        expect(chain.oc_oprop).toBe(0);
+        expect(chain.oc_class).toBe(Const.CHAIN_CLASS);
+        expect(chain.oc_prob).toBe(1000);
+        expect(chain.oc_delay).toBe(0);
+        expect(chain.oc_weight).toBe(120);
+        expect(chain.oc_cost).toBe(0);
+        expect(chain.oc_wsdam).toBe(4);
+        expect(chain.oc_wldam).toBe(4);
+        expect(chain.oc_oc1).toBe(0);
+        expect(chain.oc_oc2).toBe(0);
+        expect(chain.oc_color).toBe(Const.HI_METAL);
+    });
+});
+
+
+describe('objects[] additional extraction validations', () => {
+    it('has correct properties for potion of healing', () => {
+        const potion = objects[POT_HEALING];
+        expect(potion).toBeDefined();
+        expect(potion.oc_name).toBe("healing");
+        expect(potion.oc_class).toBe(Const.POTION_CLASS);
+        expect(potion.oc_material).toBe(Const.GLASS);
+    });
+
+    it('has correct properties for food ration', () => {
+        const ration = objects[FOOD_RATION];
+        expect(ration).toBeDefined();
+        expect(ration.oc_name).toBe("food ration");
+        expect(ration.oc_class).toBe(Const.FOOD_CLASS);
+        expect(ration.oc_material).toBe(Const.VEGGY);
     });
 });

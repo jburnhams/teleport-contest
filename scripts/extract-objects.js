@@ -10,7 +10,7 @@ let parenLevel = 0;
 
 const lines = text.split('\n');
 for (let line of lines) {
-    let match = line.match(/^(OBJECT|WEAPON|ARMOR|POTION|RING|AMULET|TOOL|CONTAINER|FOOD|SCROLL|SPELL|WAND|COIN|GEM|ROCK|VENOM|GENERIC|PROJECTILE|BOW|BULLET)\s*\(/);
+    let match = line.match(/^(OBJECT|WEAPON|ARMOR|POTION|RING|AMULET|TOOL|CONTAINER|FOOD|SCROLL|SPELL|WAND|COIN|GEM|ROCK|VENOM|GENERIC|PROJECTILE|BOW|BULLET|CHAIN|BALL)\s*\(/);
 
     if (!inObj) {
         if (match) {
@@ -87,7 +87,7 @@ for (let str of objStrs) {
     cleanStr = cleanStr.replace(/\s+/g, ' ');
     cleanStr = cleanStr.replace(/,\s*$/, '');
 
-    const match = cleanStr.match(/^(OBJECT|WEAPON|ARMOR|POTION|RING|AMULET|TOOL|CONTAINER|FOOD|SCROLL|SPELL|WAND|COIN|GEM|ROCK|VENOM|GENERIC|PROJECTILE|BOW|BULLET)\s*\(([\s\S]*)\)$/);
+    const match = cleanStr.match(/^(OBJECT|WEAPON|ARMOR|POTION|RING|AMULET|TOOL|CONTAINER|FOOD|SCROLL|SPELL|WAND|COIN|GEM|ROCK|VENOM|GENERIC|PROJECTILE|BOW|BULLET|CHAIN|BALL)\s*\(([\s\S]*)\)$/);
     if (!match) continue;
 
     const macro = match[1];
@@ -726,6 +726,8 @@ for (let obj of parsedObjects) {
     } else if (typeof sub === 'string' && sub.startsWith('-') && !sub.startsWith('-Const.')) {
         sub = `-Const.${sub.substring(1)}`;
     } else if (typeof sub === 'string' && sub === 'P_NONE') {
+        sub = `0`;
+    } else if (typeof sub === 'string' && sub === 'Const.P_NONE') {
         sub = `0`;
     }
     outJs += `        oc_subtyp: ${sub},\n`;
