@@ -20,7 +20,8 @@ jobs:
       - name: Verify frozen files unchanged
         run: |
           node - <<'EOF'
-          import { readFileSync, createHash } from 'fs';
+          import { readFileSync } from 'fs';
+          import { createHash } from 'crypto';
           const expected = JSON.parse(readFileSync('.teleport/frozen-hashes.json', 'utf8'));
           let failed = false;
           for (const [file, want] of Object.entries(expected)) {
