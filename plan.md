@@ -28,8 +28,11 @@ Every single RNG call must match C's, in order, or all subsequent screens fail. 
 
 | Task | C ref | Status |
 |------|-------|--------|
+| ✅ Vault fallback: `else if (rnd_rect() && create_vault())` | mklev.c | DONE |
+| ✅ `newpw` for all roles (Hea=4, Kni=4, Mon=2, Pri=3, Wiz=3) | exper.c | DONE |
 | Fix `themerooms_generate` early-exit before reservoir sampling | mklev.c | TODO |
 | Implement `chargen.js` — `pick_role/race/gend/align` | role.c | TODO |
+| Replace `fastforward_fill_mineralize` with real fill phase | mklev.c, makemon.c | TODO — HIGH VALUE |
 | Verify pre-mklev RNG match across multiple seeds | — | TODO |
 
 ---
@@ -62,7 +65,7 @@ Every single RNG call must match C's, in order, or all subsequent screens fail. 
 | `u_init` — role-specific hero setup, stats, skills | u_init.c | objects[], role tables |
 | `ini_inv` — starting inventory generation | u_init.c | mkobj |
 | `init_attr` / `initattributes` — stat init | attrib.c | role tables |
-| `newpw` — energy calculation (generalised) | exper.c | role tables |
+| ✅ `newpw` — energy calculation (generalised) | exper.c | role tables |
 | Moveloop preamble — `findgold`, `vision_reset` etc. | allmain.c | u_init, ini_inv |
 
 **Outcome:** Delete `fastforward_post_mklev()`. Hero state correct for any role/seed.
