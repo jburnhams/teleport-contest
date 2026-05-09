@@ -23,7 +23,7 @@ The background simulation resolves a trap interaction for the kitten.
 - This phase validates the engine's ability to process trap triggers and item interactions for independent AI entities with absolute deterministic precision.
 
 **Steps 25–27: The Misplaced Pick**
-Robin attempts to apply his lock pick (`e`) to a wall or doorway to his left (`l`).
+Robin attempts to apply his lock pick (e) to a wall or doorway to his right (l).
 - Step 27: The engine's tool-application subroutine performs a logical check and determines that no door entity exists at those coordinates.
 - 61 PRNG calls resolve the interaction: *You see no door there.*
 
