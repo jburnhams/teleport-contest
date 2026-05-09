@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Branching policy
+
+**Never commit directly to `main`.** Always create a feature branch (`feature/...`, `fix/...`), commit there, and open a PR against `main`. CI runs score gates on every PR and auto-promotes `scores/baseline.json` on merge.
+
 ## Working documents
 
 - `plan.md` — ordered implementation roadmap; consult before starting any new work
