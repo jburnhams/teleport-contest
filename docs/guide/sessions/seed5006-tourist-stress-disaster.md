@@ -39,7 +39,7 @@ Wizard invokes one last wish: *wand of death* → `s - a marble wand` (6 PRNG ca
 *Salutations wizard, welcome to NetHack!* A lawful male human Knight (St:14 Dx:8 Co:10 In:11 Wi:15 Ch:17) materialises on Level 1 with 16 HP.
 
 **Steps 2–7: Bones Retrieval**
-The Knight teleports to Dungeon Level 3 — the same level where the Tourist died. The engine detects the bones file: *Get bones? [yn]* → `y`. 49 PRNG calls resolve the bones-file loading. *Unlink bones?* The engine asks whether to remove the original. *You feel like you've been here before.*
+The Knight teleports to Dungeon Level 3 — the same level where the Tourist died. The engine detects the bones file: *Get bones? [yn]* → `y`. 49 PRNG calls resolve the bones-file loading. The engine then asks whether to remove the original: *Unlink bones? [yn] (n)*. The default answer is accepted. *You feel like you've been here before.*
 
 **Steps 9–22: Prayer and Divine Punishment**
 The Knight invokes `#pray`, confirming the action. *You begin praying to Lugh.* The engine prompts: *Force the gods to be pleased?* The Knight declines. 77 PRNG calls resolve the divine response: *"Thou art arrogant, mortal." "Thou must relearn thy lessons!"* Wi drops from 15 to 14. *You feel foolish!*
