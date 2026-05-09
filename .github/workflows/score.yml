@@ -96,6 +96,17 @@ jobs:
             git push
           fi
 
+      - name: Build Dashboard
+        run: |
+          node scripts/build-dashboard.mjs
+          cp -r js frozen tools _site/
+          cp -r sessions/*.session.json _site/sessions/
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site/
+
       - name: Upload results
         uses: actions/upload-artifact@v7.0.1
         with:
@@ -103,3 +114,17 @@ jobs:
           path: |
             score-summary.json
             score-stdout.txt
+
+  deploy-pages:
+    needs: score
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

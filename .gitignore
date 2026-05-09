@@ -1,2 +1,6 @@
 node_modules/
 .cache/
+_site/
+score-stderr.txt
+score-stdout.txt
+score-summary.json
