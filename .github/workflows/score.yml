@@ -99,7 +99,7 @@ jobs:
       - name: Build Dashboard
         run: |
           node scripts/build-dashboard.mjs
-          cp -r js frozen tools _site/
+          cp -r js frozen tools docs _site/
           cp -r sessions/*.session.json _site/sessions/
 
       - name: Upload Pages artifact

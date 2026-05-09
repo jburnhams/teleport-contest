@@ -279,6 +279,25 @@ async function loadAndCompute(sessionData, name) {
     classifyScreenDiffs();
     initUI();
     status(buildStatusSummary(name), 'ok');
+    
+    // Fetch Narrative
+    const narrativeEl = $('#narrative-detail');
+    if (narrativeEl) {
+        narrativeEl.innerHTML = '<em>Loading narrative...</em>';
+        try {
+            const mdName = name.replace('.session.json', '.md');
+            const mdUrl = `../../docs/guide/sessions/${mdName}`;
+            const rMd = await fetch(mdUrl);
+            if (rMd.ok) {
+                const text = await rMd.text();
+                narrativeEl.innerHTML = window.marked ? window.marked.parse(text) : text;
+            } else {
+                narrativeEl.innerHTML = '<em>No narrative available for this session.</em>';
+            }
+        } catch (err) {
+            narrativeEl.innerHTML = '<em>Failed to load narrative.</em>';
+        }
+    }
 }
 
 // Walk every step once and classify its screen diff into three independent
