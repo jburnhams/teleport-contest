@@ -1,4 +1,4 @@
-name: Score
+name: Score + Promote Baseline
 on:
   push:
     branches: [main]
@@ -6,18 +6,54 @@ on:
 
 jobs:
   score:
+    # Skip commits made by this workflow to avoid infinite loops.
+    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
+
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.BASELINE_PAT }}
+
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
 
-      - name: Overlay frozen fixture (ISAAC64 + Terminal)
+      - name: Verify frozen files unchanged
+        run: |
+          node - <<'EOF'
+          import { readFileSync, createHash } from 'fs';
+          const expected = JSON.parse(readFileSync('.teleport/frozen-hashes.json', 'utf8'));
+          let failed = false;
+          for (const [file, want] of Object.entries(expected)) {
+            let got;
+            try {
+              got = createHash('sha256').update(readFileSync(file)).digest('hex');
+            } catch {
+              console.error(`MISSING: ${file}`);
+              failed = true;
+              continue;
+            }
+            if (got !== want) {
+              console.error(`TAMPERED: ${file}`);
+              console.error(`  expected ${want}`);
+              console.error(`  got      ${got}`);
+              failed = true;
+            }
+          }
+          if (failed) {
+            console.error('\nFrozen files have been modified. These are judge-controlled.');
+            process.exit(1);
+          }
+          console.log('Frozen files OK');
+          EOF
+
+      - name: Overlay frozen fixture
         run: |
           cp frozen/isaac64.js js/isaac64.js
           cp frozen/terminal.js js/terminal.js
+          cp frozen/storage.js js/storage.js
 
       - name: Score public sessions
         run: |
@@ -27,7 +63,6 @@ jobs:
 
       - name: Extract score summary
         run: |
-          # Parse results JSON and create a summary
           node -e "
             const fs = require('fs');
             const raw = fs.readFileSync('score-stdout.txt', 'utf8');
@@ -44,6 +79,21 @@ jobs:
             console.log(JSON.stringify({ passed, total, rngPct, timestamp: data.timestamp }));
             fs.writeFileSync('score-summary.json', JSON.stringify({ passed, total, rngPct, timestamp: data.timestamp, results: results.map(r => ({ session: r.session, passed: r.passed, rng: r.metrics?.rngCalls, screen: r.metrics?.screens, cursor: r.metrics?.cursor })) }, null, 2));
           "
+
+      - name: Promote baseline if score improved
+        run: node scripts/promote-baseline.mjs score-stdout.txt scores/baseline.json
+
+      - name: Commit updated baseline
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add scores/baseline.json
+          if git diff --staged --quiet; then
+            echo "Baseline unchanged — nothing to commit"
+          else
+            git commit -m "chore: promote baseline score [skip ci]"
+            git push
+          fi
 
       - name: Upload results
         uses: actions/upload-artifact@v4

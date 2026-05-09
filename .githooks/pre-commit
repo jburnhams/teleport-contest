@@ -1,0 +1,30 @@
+#!/bin/bash
+# Prevent accidental commits of frozen infrastructure files or manual
+# edits to the baseline (which should only be touched by the CI action).
+set -euo pipefail
+
+STAGED=$(git diff --cached --name-only 2>/dev/null || true)
+
+if echo "$STAGED" | grep -qE '^frozen/'; then
+  echo ""
+  echo "ERROR: Staged changes include files under frozen/"
+  echo "Frozen files are judge-controlled and must not be modified."
+  echo ""
+  echo "  git restore --staged frozen/"
+  echo ""
+  exit 1
+fi
+
+if echo "$STAGED" | grep -q '^scores/baseline.json'; then
+  # Allow the initial commit that creates the file; block manual edits thereafter.
+  if git show HEAD:scores/baseline.json > /dev/null 2>&1; then
+    echo ""
+    echo "ERROR: scores/baseline.json is staged."
+    echo "This file is maintained automatically by the promote-baseline"
+    echo "GitHub Action and must not be edited by hand."
+    echo ""
+    echo "  git restore --staged scores/baseline.json"
+    echo ""
+    exit 1
+  fi
+fi
