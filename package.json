@@ -7,7 +7,13 @@
     "score": "bash frozen/score.sh",
     "score:check": "bash frozen/score.sh > /tmp/nh-score.txt && node scripts/check-score.mjs /tmp/nh-score.txt scores/baseline.json",
     "play": "echo 'Open index.html in a browser to play'",
-    "prepare": "git config core.hooksPath .githooks"
+    "prepare": "git config core.hooksPath .githooks",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "pages:build": "npm run build --prefix pages"
+  },
+  "devDependencies": {
+    "vitest": "^3.0.0"
   },
   "engines": {
     "node": ">=24.0.0"
