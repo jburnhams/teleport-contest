@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetHack Port Progress</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="header-container">
+    <h1>NetHack Port Progress</h1>
+    <div class="score">0 <span style="font-size: 3rem; color: #64748b; font-weight: 600;">/ 0</span></div>
+    <div class="score-label">Screens Matched</div>
+    
+    <a href="play.html" class="play-link">Play the Game</a>
+    
+    <div class="progress-container" style="margin-top: 2rem;">
+        <div class="progress-bar"></div>
+    </div>
+    
+    <div class="overall-stats">
+        <div>Overall RNG Match: <span>0%</span></div>
+        <div>Passed Sessions: <span>0 / 0</span></div>
+    </div>
+</div>
+
+<div class="layout-container">
+    <div class="main-content">
+        <div class="grid">
+            <!-- Cards will be injected by main.js -->
+        </div>
+    </div>
+    
+    <div class="sidebar">
+        <div class="doc-tabs">
+            <button class="doc-tab active" onclick="showDoc('diary')">diary</button>
+            <button class="doc-tab" onclick="showDoc('plan')">plan</button>
+            <button class="doc-tab" onclick="showDoc('learnings')">learnings</button>
+        </div>
+        <div class="doc-tabs" style="border-top: none; background: rgba(0,0,0,0.15);">
+            <button class="doc-tab" style="font-size: 0.8rem; padding: 0.5rem;" onclick="showDoc('tasks')">Tasks</button>
+            <button class="doc-tab" style="font-size: 0.8rem; padding: 0.5rem;" onclick="showDoc('task-a')">A</button>
+            <button class="doc-tab" style="font-size: 0.8rem; padding: 0.5rem;" onclick="showDoc('task-b')">B</button>
+            <button class="doc-tab" style="font-size: 0.8rem; padding: 0.5rem;" onclick="showDoc('task-c')">C</button>
+            <button class="doc-tab" style="font-size: 0.8rem; padding: 0.5rem;" onclick="showDoc('task-d')">D</button>
+            <button class="doc-tab" style="font-size: 0.8rem; padding: 0.5rem;" onclick="showDoc('task-e')">E</button>
+            <button class="doc-tab" style="font-size: 0.8rem; padding: 0.5rem;" onclick="showDoc('task-f')">F</button>
+        </div>
+        <div class="doc-tabs" style="border-top: none; background: rgba(0,0,0,0.3);">
+            <button class="doc-tab" style="font-size: 0.8rem; padding: 0.5rem;" onclick="showDoc('guide-history')">History</button>
+            <button class="doc-tab" style="font-size: 0.8rem; padding: 0.5rem;" onclick="showDoc('guide-project')">Project</button>
+        </div>
+        
+        <div class="doc-content" id="doc-diary"></div>
+        <div class="doc-content" id="doc-plan" style="display:none;"></div>
+        <div class="doc-content" id="doc-learnings" style="display:none;"></div>
+        
+        <div class="doc-content" id="doc-tasks" style="display:none;"></div>
+        <div class="doc-content" id="doc-task-a" style="display:none;"></div>
+        <div class="doc-content" id="doc-task-b" style="display:none;"></div>
+        <div class="doc-content" id="doc-task-c" style="display:none;"></div>
+        <div class="doc-content" id="doc-task-d" style="display:none;"></div>
+        <div class="doc-content" id="doc-task-e" style="display:none;"></div>
+        <div class="doc-content" id="doc-task-f" style="display:none;"></div>
+        
+        <div class="doc-content" id="doc-guide-history" style="display:none;"></div>
+        <div class="doc-content" id="doc-guide-project" style="display:none;"></div>
+    </div>
+</div>
+
+<footer>
+    Last updated: ...
+</footer>
+
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>
