@@ -16,7 +16,7 @@ import {
     SPRIG_OF_WOLFSBANE, DAGGER, BOW, ARROW, CLOAK_OF_DISPLACEMENT, CRAM_RATION, POT_SICKNESS,
     LOCK_PICK, KATANA, YUMI, YA, SPLINT_MAIL, DART, SCR_MAGIC_MAPPING, SCROLL_CLASS,
     HAWAIIAN_SHIRT, EXPENSIVE_CAMERA, CREDIT_CARD, SPEAR, QUARTERSTAFF, CLOAK_OF_MAGIC_RESISTANCE,
-    RING_CLASS, SPE_FORCE_BOLT, MAGIC_MARKER, SPE_PROTECTION, SPE_CONFUSE_MONSTER, TIN_OPENER, ORANGE, FORTUNE_COOKIE, MACE,
+    RING_CLASS, SPE_FORCE_BOLT, MAGIC_MARKER, SPE_PROTECTION, SPE_CONFUSE_MONSTER, TIN_OPENER, ORANGE, FORTUNE_COOKIE, MACE, GOLD_PIECE, COIN_CLASS,
     OIL_LAMP, BLINDFOLD, LEASH, TOWEL, WAN_WISHING, SHURIKEN
 } from './objects.js';
 
@@ -286,7 +286,7 @@ export const Monk = [
     { trotyp: FORTUNE_COOKIE, trspe: 0, trclass: FOOD_CLASS, quan_min: 3, quan_max: 3, trbless: "UNDEF_BLESS" }
 ];
 export const Priest = [
-    { trotyp: MACE, trspe: 1, trclass: WEAPON_CLASS, quan_min: 1, quan_max: 1, trbless: 1 },
+    { trotyp: MACE, GOLD_PIECE, COIN_CLASS, trspe: 1, trclass: WEAPON_CLASS, quan_min: 1, quan_max: 1, trbless: 1 },
     { trotyp: ROBE, trspe: 0, trclass: ARMOR_CLASS, quan_min: 1, quan_max: 1, trbless: "UNDEF_BLESS" },
     { trotyp: SMALL_SHIELD, trspe: 0, trclass: ARMOR_CLASS, quan_min: 1, quan_max: 1, trbless: "UNDEF_BLESS" },
     { trotyp: POT_WATER, trspe: 0, trclass: POTION_CLASS, quan_min: 4, quan_max: 4, trbless: 1 },
@@ -380,7 +380,6 @@ export const Money = [
     { trotyp: GOLD_PIECE, trspe: 0, trclass: COIN_CLASS, quan_min: 1, quan_max: 1, trbless: 0 }
 ];
 
-export const Money = [];
 export const M_spell = [Healing_book, Protection_book, Confuse_monster_book];
 
 
