@@ -194,3 +194,15 @@ Most frequent first-divergence locations across 44 canonical sessions:
       1     Context from C log: @ newpw(exper.c:52)
       1     Context from C log: @ fill_ordinary_room(mklev.c:998)
       1     Context from C log: @ blessorcurse(mkobj.c:1848)
+
+## 2026-05-10 — Stream C: Message System (C2)
+
+- Explored C2: pline.js — Message system.
+- Analyzed `nethack-c/upstream/src/pline.c` and `nethack-c/upstream/win/tty/topl.c` to see how `pline`, `You`, `verbalize` works, and how the TTY window system manages the top line string (`toplin`, `--More--`).
+- Hooked `botl.js` up into `js/display.js`. Verified using custom scripts that `bot1` and `bot2` are matching byte-for-byte in the recorded sessions!
+- Partially implemented `js/pline.js` with `pline()`, `more()`, `You()`, and `verbalize()`, along with adding `--More--` pausing and linking it to the input loop (`nhgetch`).
+- Integrated `botl` (C1) and `pline` (C2) properly across the display and core logic by injecting them correctly avoiding circular dependencies.
+- Confirmed no score regression (88/11406 screens passed, identical to baseline on `seed8000`).
+- The major gap preventing further score increases is C5: Window system basics, as actions like checking the inventory (`i`) try to pop up menus which we don't handle correctly yet.
+
+Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
