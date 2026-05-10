@@ -179,6 +179,14 @@ Gender indices: 0=male, 1=female. Align indices: 0=chaotic, 1=neutral, 2=lawful.
 
 ## New Additions
 
+- `place_object` places non-boulder objects underneath boulders. It follows `game.level.objects[x][y]` and inserts below `BOULDER`s if needed.
+- `game.level.objects` must be initialized as a 2D array, rather than a flat array as originally seen.
+- Extract functions (`extract_nexthere`, `extract_nobj`) should return the new head pointer. In JS, we cannot pass head pointers by reference directly unless they are encapsulated in an object property, so functions return the new head.
+
+## Monst and ID Generation
+- `DEADMONSTER` macro in C translates to `mon.mhp < 1`. Checking whether `mhp` is below 1 is necessary, especially because `DEADMONSTER(mon)` check comes before asserting vault guards in `place_monster()`, hence they can theoretically have 0 HP and trigger impossible states.
+- The `next_ident()` function maintains ID for generated objects and monsters and is statefully shared via `svc.context.ident`. Ported this to `game.context.ident`, initialized on `resetGame()`, to ensure matching PRNG loops with `rnd(2)` calls.
+- `m_at(x, y)` macro directly wraps `svl.level.monsters[x][y]` in C, bypassing `mon.mburied` flag when `mburied` isn't compiled. Handled using simple map checks in JS.
 <!-- 
 APPEND NEW LEARNINGS HERE. 
 The Librarian will periodically integrate these into the thematic sections above. 

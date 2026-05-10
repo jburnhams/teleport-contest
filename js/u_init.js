@@ -17,23 +17,27 @@ import {
 } from './const.js';
 import { objects } from './objects.js';
 import { PM_PONY } from './monst.js';
-import { WEAPON_CLASS, TOOL_CLASS, GEM_CLASS } from './const.js';
+import {
+    WEAPON_CLASS, ARMOR_CLASS, POTION_CLASS, SCROLL_CLASS, WAND_CLASS,
+    SPBOOK_CLASS, FOOD_CLASS, TOOL_CLASS, GEM_CLASS, RING_CLASS, COIN_CLASS
+} from './const.js';
 import { invent } from './decl.js';
 import { game } from './gstate.js';
 import { init_attr, vary_init_attr, acurrstr } from './attrib.js';
 import { newhp, newpw, adjabil } from './exper.js';
+import { next_ident } from './mkobj.js';
 
 import {
-    BULLWHIP, WEAPON_CLASS, LEATHER_JACKET, ARMOR_CLASS, FEDORA, FOOD_RATION, FOOD_CLASS,
-    PICK_AXE, TOOL_CLASS, TINNING_KIT, TOUCHSTONE, GEM_CLASS, SACK, TWO_HANDED_SWORD, AXE,
+    BULLWHIP, LEATHER_JACKET, FEDORA, FOOD_RATION,
+    PICK_AXE, TINNING_KIT, TOUCHSTONE, SACK, TWO_HANDED_SWORD, AXE,
     RING_MAIL, BATTLE_AXE, SHORT_SWORD, CLUB, SLING, FLINT, ROCK, LEATHER_ARMOR, SCALPEL,
-    LEATHER_GLOVES, STETHOSCOPE, POT_HEALING, POTION_CLASS, POT_EXTRA_HEALING, WAN_SLEEP,
-    WAND_CLASS, SPE_HEALING, SPBOOK_CLASS, SPE_EXTRA_HEALING, SPE_STONE_TO_FLESH, APPLE,
+    LEATHER_GLOVES, STETHOSCOPE, POT_HEALING, POT_EXTRA_HEALING, WAN_SLEEP,
+    SPE_HEALING, SPE_EXTRA_HEALING, SPE_STONE_TO_FLESH, APPLE,
     LONG_SWORD, LANCE, HELMET, SMALL_SHIELD, CARROT, ROBE, POT_WATER, CLOVE_OF_GARLIC,
     SPRIG_OF_WOLFSBANE, DAGGER, BOW, ARROW, CLOAK_OF_DISPLACEMENT, CRAM_RATION, POT_SICKNESS,
-    LOCK_PICK, KATANA, YUMI, YA, SPLINT_MAIL, DART, SCR_MAGIC_MAPPING, SCROLL_CLASS,
+    LOCK_PICK, KATANA, YUMI, YA, SPLINT_MAIL, DART, SCR_MAGIC_MAPPING,
     HAWAIIAN_SHIRT, EXPENSIVE_CAMERA, CREDIT_CARD, SPEAR, QUARTERSTAFF, CLOAK_OF_MAGIC_RESISTANCE,
-    RING_CLASS, SPE_FORCE_BOLT, MAGIC_MARKER, SPE_PROTECTION, SPE_CONFUSE_MONSTER, TIN_OPENER, ORANGE, FORTUNE_COOKIE, MACE, GOLD_PIECE, COIN_CLASS,
+    SPE_FORCE_BOLT, MAGIC_MARKER, SPE_PROTECTION, SPE_CONFUSE_MONSTER, TIN_OPENER, ORANGE, FORTUNE_COOKIE, MACE, GOLD_PIECE,
     OIL_LAMP, BLINDFOLD, LEASH, TOWEL, WAN_WISHING, SHURIKEN
 } from './objects.js';
 
@@ -651,7 +655,7 @@ export function ini_inv(trop) {
 
         if (otyp !== UNDEF_TYP) {
             // In C: obj = mksobj(otyp, TRUE, FALSE);
-            rnd(2); // next_ident
+            next_ident(); // next_ident
             // mksobj_init for scrolls and potions does blessorcurse -> rn2(4)
             if ((otyp >= 270 && otyp < 300) || (otyp >= 230 && otyp < 270)) {
                 rn2(4);
@@ -659,7 +663,7 @@ export function ini_inv(trop) {
         } else {
             // UNDEF_TYP -> randomly generated object class
             // obj = mkobj(t.trclass, FALSE);
-            rnd(2);
+            next_ident();
             // Since mkobj returns something, if it returns scroll/potion, it would consume rn2(4)
             // But we don't know the exact class returned by the stub.
         }
