@@ -173,6 +173,12 @@ JS instead produces `rn2(7)=1 @ make_niches` at position 1218 — meaning our ma
 
 Root cause: our `themerooms_generate()` unconditionally runs 30 reservoir-sampling `rn2()` calls before checking if a candidate rect is large enough for any room. C apparently performs the small-rect check BEFORE consuming reservoir RNG, so failed small rects add exactly 0 extra RNG. Fix: add early size check at the top of `themerooms_generate()` (before reservoir sampling) to return immediately if the rect is too small.
 
+## roles[] and races[] extraction
+- Added automated extraction scripts `scripts/extract-role.py` and `scripts/parse_roles_to_js.js` to parse the `roles` and `races` arrays directly from the C source (`role.c`) and generate `js/roles.js`. This guarantees bit-exact extraction including structs.
+- `STR18(x)` from C translates to `18 + x`. `STR18(100)` is 118.
+- Missing `_CLASS` constants (`ILLOBJ_CLASS`, etc.) added directly matching values in `defsym.h`. `BALL_CLASS` is 15, `CHAIN_CLASS` is 16, `VENOM_CLASS` is 17.
+- Use `C.STR18(x)` directly instead of hardcoding `118` to preserve C macro argument semantics.
+- Use `import * as M from './monst.js'` and `import * as O from './objects.js'` in `js/roles.js` to correctly resolve `M.PM_*` and `O.ART_*` constants because `js/const.js` does not export them. `MH_*` constants were mapped to `M2_*` constants and are found in `js/const.js`.
 ## u_init and exper
 - `u_init_role` runs first, allocating inventory and money (`rn1(1000, 1001)` = `1001 + rn2(1000)`).
 - Then `u_init_race` modifies inventory and flags based on species.
