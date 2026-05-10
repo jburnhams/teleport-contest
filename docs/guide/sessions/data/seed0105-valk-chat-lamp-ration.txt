@@ -22,7 +22,7 @@
   Msg: # chat
 [Step 8] Key: t | PRNG: 0 calls
   Msg: # chat
-[Step 9] Key: \r (Enter) | PRNG: 0 calls
+[Step 9] Key: \n | PRNG: 0 calls
   Msg: Talk to whom? (in what direction)
 [Step 10] Key: y | PRNG: 0 calls
   Msg: It's like talking to a wall.
@@ -53,7 +53,7 @@
   Msg: You don't have that object.--More--
 [Step 23] Key: ESC | PRNG: 0 calls
   Msg: What do you want to eat? [d or ?*]
-[Step 24] Key:  | PRNG: 0 calls
+[Step 24] Key: \x18 | PRNG: 0 calls
   Msg: You don't have that object.--More--
 [Step 25] Key:   | PRNG: 0 calls
   Msg: What do you want to eat? [d or ?*]

@@ -1,7 +1,6 @@
 
 === SEGMENT 0 ===
 [Step 0] Key: NULL (Init) | PRNG: 0 calls
-  Status:  | 
 [Step 1] Key: D | PRNG: 0 calls
   Map updated (1 rows changed)
 [Step 2] Key: o | PRNG: 0 calls
@@ -14,7 +13,7 @@
   Map updated (1 rows changed)
 [Step 6] Key: o | PRNG: 0 calls
   Map updated (1 rows changed)
-[Step 7] Key: \r (Enter) | PRNG: 0 calls
+[Step 7] Key: \n | PRNG: 0 calls
   Msg: Shall I pick character's race, role, gender and alignment for you? [ynaq]
 [Step 8] Key: n | PRNG: 0 calls
   Msg: Pick a role or profession
@@ -23,7 +22,6 @@
 [Step 9] Key: [ | PRNG: 0 calls
   Msg: Pick an alignment or creed
   Map updated (19 rows changed)
-  Status update:  | 
 [Step 10] Key: l | PRNG: 0 calls
   Msg: Pick a role or profession
   Map updated (16 rows changed)
@@ -64,7 +62,7 @@
   Msg: #
 [Step 23] Key: l | PRNG: 0 calls
   Msg: # loot
-[Step 24] Key: \r (Enter) | PRNG: 0 calls
+[Step 24] Key: \n | PRNG: 0 calls
   Msg: Hmmm, the chest turns out to be locked.
 [Step 25] Key: K | PRNG: 37 calls
   Msg: The little dog misses the lichen.  The little dog misses the lichen.--More--
@@ -79,7 +77,7 @@
   Msg: #
 [Step 29] Key: l | PRNG: 0 calls
   Msg: # loot
-[Step 30] Key: \r (Enter) | PRNG: 0 calls
+[Step 30] Key: \n | PRNG: 0 calls
   Msg: Do what with the ice box?
   Map updated (8 rows changed)
 [Step 31] Key: : | PRNG: 0 calls
@@ -120,7 +118,7 @@
 [Step 44] Key: b | PRNG: 0 calls
   Msg: Pick up what?
   Map updated (1 rows changed)
-[Step 45] Key: \r (Enter) | PRNG: 23 calls
+[Step 45] Key: \n | PRNG: 23 calls
   Msg: j - a bag.
   Map updated (6 rows changed)
 [Step 46] Key: n | PRNG: 22 calls
@@ -160,7 +158,6 @@
 [Step 59] Key: o | PRNG: 0 calls
   Msg: Autopickup what?
   Map updated (20 rows changed)
-  Status update:  | 
 [Step 60] Key: $ | PRNG: 0 calls
   Msg: Autopickup what?
   Map updated (1 rows changed)
@@ -179,20 +176,18 @@
 [Step 65] Key: ? | PRNG: 0 calls
   Msg: Autopickup what?
   Map updated (1 rows changed)
-[Step 66] Key: \r (Enter) | PRNG: 0 calls
+[Step 66] Key: \n | PRNG: 0 calls
   Msg: Options
   Map updated (20 rows changed)
   Status update: p - pushweapon              [ ] | (1 of 2)
 [Step 67] Key:   | PRNG: 0 calls
   Map updated (21 rows changed)
-  Status update:  | 
 [Step 68] Key: f | PRNG: 0 calls
   Msg: Options
   Map updated (21 rows changed)
   Status update: p - pushweapon              [ ] | (1 of 2)
 [Step 69] Key:   | PRNG: 0 calls
   Map updated (21 rows changed)
-  Status update:  | 
 [Step 70] Key:   | PRNG: 0 calls
   Map updated (20 rows changed)
   Status update: Dodeco the Candidate           St:13 Dx:18 Co:12 In:11 Wi:9 Ch:12 Lawful | Dlvl:1 $:2 HP:14(14) Pw:5(5) AC:4 Xp:1
@@ -610,13 +605,13 @@
 [Step 261] Key: $ | PRNG: 0 calls
   Msg: Put in what type of objects?
   Map updated (1 rows changed)
-[Step 262] Key: \r (Enter) | PRNG: 0 calls
+[Step 262] Key: \n | PRNG: 0 calls
   Msg: Put in what?
   Map updated (17 rows changed)
 [Step 263] Key: $ | PRNG: 0 calls
   Msg: Put in what?
   Map updated (1 rows changed)
-[Step 264] Key: \r (Enter) | PRNG: 11 calls
+[Step 264] Key: \n | PRNG: 11 calls
   Msg: You put 1163 gold pieces into the bag.
   Map updated (4 rows changed)
   Status update: Dodeco the Candidate           St:13 Dx:18 Co:12 In:11 Wi:9 Ch:12 Lawful | Dlvl:2 $:0 HP:14(14) Pw:5(5) AC:4 Xp:1
@@ -639,7 +634,7 @@
   Msg: "Hello stranger, who are you?" - Dodec
 [Step 273] Key: o | PRNG: 0 calls
   Msg: "Hello stranger, who are you?" - Dodeco
-[Step 274] Key: \r (Enter) | PRNG: 0 calls
+[Step 274] Key: \n | PRNG: 0 calls
   Msg: "I don't know you."  "You have hidden gold."--More--
 [Step 275] Key:   | PRNG: 0 calls
   Msg: "Most likely all your gold was stolen from this vault."--More--
@@ -659,7 +654,7 @@
 [Step 281] Key: $ | PRNG: 0 calls
   Msg: Take out what?
   Map updated (1 rows changed)
-[Step 282] Key: \r (Enter) | PRNG: 33 calls
+[Step 282] Key: \n | PRNG: 33 calls
   Msg: $ - 1163 gold pieces.
   Map updated (4 rows changed)
   Status update: Dodeco the Candidate           St:13 Dx:18 Co:12 In:11 Wi:9 Ch:12 Lawful | Dlvl:2 $:1163 HP:14(14) Pw:5(5) AC:4 Xp:1

@@ -109,3 +109,12 @@ Next: implement real fill phase (replace `fastforward_fill_mineralize` for non-s
 - Fixed `mkgold()` weight calculation. Added COIN_CLASS to `const.js`. Fixed `weight` computation for coins mirroring NetHack `(quan + 50) / 100` rather than random stubs.
 
 - Fixed `mkgold()` utilizing `level_difficulty()` and `depth()` ported to `hacklib.js`.
+## 2026-05-10
+
+- Worked on Stream A: Data Tables.
+- Generated \`js/monst.js\` from \`monst.c\` and \`monsters.h\` using a custom extractor script.
+- Implemented tests to verify length \`NUMMONS\` and spot-checked \`PM_GIANT_ANT\` and \`PM_NEWT\` to ensure exact matching and proper macro expansion (\`LVL\`, \`SIZ\`, \`ATTK\`).
+- Confirmed no regressions in the score.
+
+
+- Fixed `mons[]` extraction script: explicitly expand `SEDUCTION_ATTACKS` so incubus/succubus receive full 6-element attack arrays, correctly parse all bitmasks to remove `L`/`0L` suffixes, and populate `const.js` with missing macros to avoid `undefined` coercion in the generated output.

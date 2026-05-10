@@ -170,14 +170,13 @@
 [Step 77] Key: ESC | PRNG: 0 calls
   Map updated (9 rows changed)
   Status update: Touristo the Rambler           St:13 Dx:10 Co:12 In:12 Wi:11 Ch:17 Neutral | Dlvl:1 $:61 HP:10(10) Pw:2(2) AC:10 Xp:1/0 T:24
-[Step 78] Key:  | PRNG: 0 calls
+[Step 78] Key: \x18 | PRNG: 0 calls
   Msg: Touristo the Tourist's attributes:
   Map updated (19 rows changed)
   Status update: Your intelligence is 12. | (1 of 2)
 [Step 79] Key:   | PRNG: 0 calls
   Msg: Your wisdom is 11.
   Map updated (21 rows changed)
-  Status update:  | 
 [Step 80] Key: ESC | PRNG: 0 calls
   Map updated (15 rows changed)
   Status update: Touristo the Rambler           St:13 Dx:10 Co:12 In:12 Wi:11 Ch:17 Neutral | Dlvl:1 $:61 HP:10(10) Pw:2(2) AC:10 Xp:1/0 T:24

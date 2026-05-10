@@ -33,8 +33,7 @@
   Msg: # twoweapo
 [Step 14] Key: n | PRNG: 0 calls
   Msg: # twoweapon
-[Step 15] Key: 
- | PRNG: 1 calls
+[Step 15] Key: \n | PRNG: 1 calls
   Msg: You begin two-weapon combat.
 [Step 16] Key: b | PRNG: 12 calls
   Map updated (2 rows changed)
@@ -96,8 +95,7 @@
   Msg: # enhance
 [Step 49] Key: e | PRNG: 0 calls
   Msg: # enhance
-[Step 50] Key: 
- | PRNG: 0 calls
+[Step 50] Key: \n | PRNG: 0 calls
   Msg: Current skills:
   Map updated (20 rows changed)
   Status update: attack spells     [Unskilled] | (1 of 2)
@@ -124,8 +122,7 @@
   Msg: # twoweapo
 [Step 61] Key: n | PRNG: 0 calls
   Msg: # twoweapon
-[Step 62] Key: 
- | PRNG: 0 calls
+[Step 62] Key: \n | PRNG: 0 calls
   Msg: You switch to your primary weapon.
 [Step 63] Key: # | PRNG: 0 calls
   Msg: #
@@ -147,8 +144,7 @@
   Msg: # twoweapo
 [Step 72] Key: n | PRNG: 0 calls
   Msg: # twoweapon
-[Step 73] Key: 
- | PRNG: 1 calls
+[Step 73] Key: \n | PRNG: 1 calls
   Msg: You begin two-weapon combat.
 [Step 74] Key: # | PRNG: 0 calls
   Msg: #
@@ -160,8 +156,7 @@
   Msg: # chat
 [Step 78] Key: t | PRNG: 0 calls
   Msg: # chat
-[Step 79] Key: 
- | PRNG: 0 calls
+[Step 79] Key: \n | PRNG: 0 calls
   Msg: Talk to whom? (in what direction)
 [Step 80] Key: l | PRNG: 0 calls
 [Step 81] Key: # | PRNG: 0 calls
@@ -172,8 +167,7 @@
   Msg: # sit
 [Step 84] Key: t | PRNG: 0 calls
   Msg: # sit
-[Step 85] Key: 
- | PRNG: 5 calls
+[Step 85] Key: \n | PRNG: 5 calls
   Msg: You sit on the corpse.  It's not very comfortable...
 [Step 86] Key: i | PRNG: 0 calls
   Msg: Weapons
@@ -190,14 +184,13 @@
 [Step 91] Key: ESC | PRNG: 0 calls
   Map updated (20 rows changed)
   Status update: Bushi the Hatamoto             St:18 Dx:14 Co:18 In:9 Wi:8 Ch:7 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:4 Xp:1
-[Step 92] Key:  | PRNG: 0 calls
+[Step 92] Key: \x18 | PRNG: 0 calls
   Msg: Bushi the Samurai's attributes:
   Map updated (19 rows changed)
   Status update: Your intelligence is 9. | (1 of 2)
 [Step 93] Key:   | PRNG: 0 calls
   Msg: Your wisdom is 8.
   Map updated (20 rows changed)
-  Status update:  | 
 [Step 94] Key: ESC | PRNG: 0 calls
   Map updated (18 rows changed)
   Status update: Bushi the Hatamoto             St:18 Dx:14 Co:18 In:9 Wi:8 Ch:7 Lawful | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:4 Xp:1
