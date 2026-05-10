@@ -2,8 +2,8 @@
 import { game } from './gstate.js';
 import { fobj, set_fobj } from './decl.js';
 import { COIN_CLASS } from './const.js';
-import { BOULDER, GOLD_PIECE } from './objects.js';
-import { rnd, rn2 } from './rng.js';
+import { BOULDER, GOLD_PIECE, STRANGE_OBJECT, objects } from './objects.js';
+import { rnd, rn2, rn1 } from './rng.js';
 import { depth, level_difficulty } from './hacklib.js';
 
 export const OBJ_FREE = 0;
@@ -346,4 +346,28 @@ export function blessorcurse(otmp, chance) {
 
 export function bcsign(otmp) {
     return (otmp.blessed ? 1 : 0) - (otmp.cursed ? 1 : 0);
+}
+
+// C ref: objnam.c
+export function rnd_class(first, last) {
+    let sum = 0;
+
+    if (last > first) {
+        for (let i = first; i <= last; i++) {
+            sum += objects[i].oc_prob;
+        }
+        if (!sum) {
+            /* all zero, so equal probability */
+            return rn1(last - first + 1, first);
+        }
+
+        let x = rnd(sum);
+        for (let i = first; i <= last; i++) {
+            x -= objects[i].oc_prob;
+            if (x <= 0) {
+                return i;
+            }
+        }
+    }
+    return (first === last) ? first : STRANGE_OBJECT;
 }

@@ -208,3 +208,11 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Validated via unit testing that `blessorcurse` sequentially consumes the correct `rn2` calls matching PRNG log format correctly.
 - Achieved +0 regression score (88/11406 screens baseline).
 - Next step: D2.2 (Probability helpers / `rnd_class`) or D2.3.
+## 2024-05-16
+- Continued Stream D by completing subtask D2.2 (Probability helpers / `rnd_class`).
+- Defined and exported `bases` and `oclass_prob_totals` in `js/o_init.js` mirroring C's `init_objects()` functionality correctly without disrupting sequence logic.
+- Implemented `rnd_class` in `js/mkobj.js` replicating C `objnam.c` probability proportional picking behavior and zero-sum handling safely using `rn1`.
+- Wrote extensive unit tests in `test/mkobj.rnd_class.test.js` validating PRNG call formats mapping accurately to RNG inputs.
+- Cleaned up loose test scratchpads and incorporated `test/o_init.test.js` covering `MAXOCLASSES` index initialization.
+- Validated via scoring maintaining exact 100% baseline structural alignment (88/11406 screens pass).
+- Next steps: Proceed to D2.3 (Erosion & Quantity helpers) exploring `may_generate_eroded` functionality.
