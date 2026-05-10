@@ -76,6 +76,25 @@ export function bot2() {
     let uexp = game.u.uexp || 0;
     let moves = game.moves || 1;
 
+    let expr = '';
+    // if Upolyd, it would be HD:mlevel. We skip it for now.
+    // game.flags isn't defined yet usually, default showexp is TRUE in C unless set.
+    // wait, we can just use `game.flags?.showexp !== false` to assume true if undefined.
+    if (game.flags?.showexp !== false) {
+        expr = `Xp:${ulevel}/${uexp}`;
+    } else {
+        expr = `Xp:${ulevel}`;
+    }
+
+    let tmmv = '';
+    // game.flags?.time is FALSE by default in NetHack until set (except in some configs).
+    // BUT the expected screen in seed8000 DOES have it! So let's match the old static behavior
+    // when flags isn't present, or use flags.time if it is. The old code had:
+    // return `Dlvl:${...} ... Xp:${...} T:${game.moves}`;
+    if (game.flags?.time || game.flags?.time === undefined) {
+        tmmv = ` T:${moves}`; // leading space for joining
+    }
+
     let cond = '';
     const uhs = game.u.uhs ?? 1;
     if (uhs !== 1 && hu_stat[uhs]) {
@@ -87,7 +106,7 @@ export function bot2() {
     }
 
     let acStr = uac.toString().padEnd(2, ' ');
-    let newbot2 = `Dlvl:${dlvl} $:${Math.min(money, 999999)} HP:${Math.min(hp, 9999)}(${Math.min(hpmax, 9999)}) Pw:${Math.min(uen, 9999)}(${Math.min(uenmax, 9999)}) AC:${acStr} Xp:${ulevel}/${uexp} T:${moves}${cond}`;
+    let newbot2 = `Dlvl:${dlvl} $:${Math.min(money, 999999)} HP:${Math.min(hp, 9999)}(${Math.min(hpmax, 9999)}) Pw:${Math.min(uen, 9999)}(${Math.min(uenmax, 9999)}) AC:${acStr} ${expr}${tmmv}${cond}`;
 
     return newbot2;
 }

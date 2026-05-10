@@ -1,6 +1,6 @@
-import { describe, it, expect, vi } from 'vitest';
+import { describe, it, expect } from 'vitest';
 import { bot1, bot2 } from '../js/botl.js';
-import { A_STR, A_INT, A_WIS, A_DEX, A_CON, A_CHA, A_NEUTRAL, A_LAWFUL, A_CHAOTIC } from '../js/const.js';
+import { A_STR, A_INT, A_WIS, A_DEX, A_CON, A_CHA, A_NEUTRAL } from '../js/const.js';
 import { game } from '../js/gstate.js';
 
 game.plname = 'Contestant';
@@ -9,6 +9,7 @@ game.u = {
     ualign: { type: A_NEUTRAL }
 };
 game.urole = { name: { m: 'Tourist' }, rank: { m: 'Rambler' } };
+game.flags = {};
 
 // Fill stats
 game.u.acurr.a[A_STR] = 9;
@@ -51,7 +52,19 @@ describe('bot2', () => {
         game.u.ucap = 0;
         game.u.uz = { dnum: 0, dlevel: 1 };
 
-        const line2 = bot2();
-        expect(line2).toBe('Dlvl:1 $:757 HP:10(10) Pw:2(2) AC:10 Xp:1/0 T:2');
+        // With flags.time and flags.showexp
+        game.flags.time = true;
+        game.flags.showexp = true;
+        expect(bot2()).toBe('Dlvl:1 $:757 HP:10(10) Pw:2(2) AC:10 Xp:1/0 T:2');
+
+        // Without flags.time
+        game.flags.time = false;
+        game.flags.showexp = true;
+        expect(bot2()).toBe('Dlvl:1 $:757 HP:10(10) Pw:2(2) AC:10 Xp:1/0');
+
+        // Without flags.showexp
+        game.flags.time = true;
+        game.flags.showexp = false;
+        expect(bot2()).toBe('Dlvl:1 $:757 HP:10(10) Pw:2(2) AC:10 Xp:1 T:2');
     });
 });
