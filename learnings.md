@@ -187,8 +187,13 @@ Gender indices: 0=male, 1=female. Align indices: 0=chaotic, 1=neutral, 2=lawful.
 - `DEADMONSTER` macro in C translates to `mon.mhp < 1`. Checking whether `mhp` is below 1 is necessary, especially because `DEADMONSTER(mon)` check comes before asserting vault guards in `place_monster()`, hence they can theoretically have 0 HP and trigger impossible states.
 - The `next_ident()` function maintains ID for generated objects and monsters and is statefully shared via `svc.context.ident`. Ported this to `game.context.ident`, initialized on `resetGame()`, to ensure matching PRNG loops with `rnd(2)` calls.
 - `m_at(x, y)` macro directly wraps `svl.level.monsters[x][y]` in C, bypassing `mon.mburied` flag when `mburied` isn't compiled. Handled using simple map checks in JS.
+- `monsndx()` implementation in C resolves pointer differences (`ptr - mons`). In JS, this maps directly to `mons.indexOf(ptr)` avoiding the need for a separate `.pmidx` field on every monster struct, as Javascript maintains exact object reference identities to the generated constants table array elements.
+
 <!-- 
 APPEND NEW LEARNINGS HERE. 
 The Librarian will periodically integrate these into the thematic sections above. 
 Keep entries detailed; include C references, bitmasks, and specific RNG counts.
 -->
+
+- If tests throw a TypeError in `isaac64.js` (e.g., 'Cannot read properties of undefined (reading 'n')'), the PRNG context is missing. Ensure `initRng(seed)` is called before executing any function that consumes random numbers.
+- When testing logic that modifies global compile-time arrays (like `objects[i].oc_prob`), strictly isolate changes by saving the original state in `beforeEach` and restoring it in `afterEach` to prevent test contamination.
