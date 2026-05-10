@@ -296,6 +296,3 @@ export async function bot() {
 }
 
 // ── pline ──
-export async function pline_old(msg) {
-    game._pending_message = msg;
-}

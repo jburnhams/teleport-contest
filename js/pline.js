@@ -5,14 +5,15 @@ import { CLR_GRAY } from './terminal.js';
 
 function sprintf(format, ...args) {
     let i = 0;
-    return format.replace(/%[sd]/g, () => {
+    return format.replace(/%%|%[sd]/g, (match) => {
+        if (match === '%%') return '%';
         const val = args[i++];
         return val !== undefined ? String(val) : '';
     });
 }
 
 export async function pline(msgOrFormat, ...args) {
-    const msg = args.length > 0 ? sprintf(msgOrFormat, ...args) : msgOrFormat;
+    const msg = (args.length > 0 || msgOrFormat.includes('%')) ? sprintf(msgOrFormat, ...args) : msgOrFormat;
 
     if (!game.nhDisplay) {
         game._pending_message = msg;
@@ -31,30 +32,35 @@ export async function more() {
     if (!display) return;
 
     // Add --More-- to current message
-    const current = display.topMessage || '';
-    const moreStr = current + (current.length > 0 ? " " : "") + "--More--";
+    let current = display.topMessage || '';
+    const suffix = current.length > 0 ? " --More--" : "--More--";
+
+    // Ensure we don't overflow the 80 column terminal
+    if (current.length + suffix.length > 80) {
+        current = current.substring(0, 80 - suffix.length);
+    }
+
+    const moreStr = current + suffix;
 
     display.clearRow(0);
     display.putstr(0, 0, moreStr, CLR_GRAY);
     display.setCursor(moreStr.length, 0);
 
     // Wait for input
+    // Any key dismisses the more prompt
     let c = await input.nhgetch();
-    while (c !== 27 && c !== 32 && c !== 10 && c !== 13) {
-        c = await input.nhgetch();
-    }
 
     display.clearRow(0);
     display.toplin = 0; // TOPLINE_EMPTY
     display.topMessage = null;
 }
 
-export function You(msgOrFormat, ...args) {
-    const msg = args.length > 0 ? sprintf(msgOrFormat, ...args) : msgOrFormat;
-    return pline(`You ${msg}`);
+export async function You(msgOrFormat, ...args) {
+    const msg = (args.length > 0 || msgOrFormat.includes('%')) ? sprintf(msgOrFormat, ...args) : msgOrFormat;
+    return await pline(`You ${msg}`);
 }
 
-export function verbalize(msgOrFormat, ...args) {
-    const msg = args.length > 0 ? sprintf(msgOrFormat, ...args) : msgOrFormat;
-    return pline(`"${msg}"`);
+export async function verbalize(msgOrFormat, ...args) {
+    const msg = (args.length > 0 || msgOrFormat.includes('%')) ? sprintf(msgOrFormat, ...args) : msgOrFormat;
+    return await pline(`"${msg}"`);
 }
