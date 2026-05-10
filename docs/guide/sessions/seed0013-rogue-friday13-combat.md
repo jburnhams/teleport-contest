@@ -1,6 +1,6 @@
 # seed0013: Attacking the Architecture
 
-**Subsystem Focus:** Validates environmental datetime flags, forced-combat subroutines, and object dropping mechanics.
+**Subsystem Focus**: Validates environmental datetime flags, forced-combat subroutines, and object dropping mechanics.
 
 This session serves as a peculiar mechanical validation of the engine's forced-combat (`F`) logic. Having been warned of the cosmological dangers of playing on a Friday the 13th with a Full Moon, the user entity—a Rogue named *Sneaky*—chooses to express her frustrations by dropping her weapon and punching a wall.
 
