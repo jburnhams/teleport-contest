@@ -25,7 +25,7 @@ export function bot1() {
     if (nameStr.length > 0 && nameStr[0] >= 'a' && nameStr[0] <= 'z') {
         nameStr = nameStr[0].toUpperCase() + nameStr.slice(1);
     }
-
+    nameStr = nameStr.slice(0, BOTL_NSIZ);
     newbot1 += nameStr + " the ";
 
     let rankStr = game.urole?.rank?.m || game.urole?.name?.m || 'Adventurer';
