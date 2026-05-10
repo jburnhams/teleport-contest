@@ -1,7 +1,6 @@
 
 === SEGMENT 0 ===
 [Step 0] Key: NULL (Init) | PRNG: 0 calls
-  Status:  | 
 [Step 1] Key: D | PRNG: 0 calls
   Map updated (1 rows changed)
 [Step 2] Key: e | PRNG: 0 calls
@@ -12,7 +11,7 @@
   Map updated (1 rows changed)
 [Step 5] Key: a | PRNG: 0 calls
   Map updated (1 rows changed)
-[Step 6] Key: \r (Enter) | PRNG: 0 calls
+[Step 6] Key: \n | PRNG: 0 calls
   Msg: Shall I pick character's race, role, gender and alignment for you? [ynaq]
 [Step 7] Key: n | PRNG: 0 calls
   Msg: Pick a role or profession
@@ -21,11 +20,10 @@
 [Step 8] Key: v | PRNG: 1 calls
   Msg: Pick a race or species
   Map updated (19 rows changed)
-  Status update:  | 
 [Step 9] Key: d | PRNG: 0 calls
   Msg: Is this ok? [ynaq]
   Map updated (11 rows changed)
-[Step 10] Key: \r (Enter) | PRNG: 2953 calls
+[Step 10] Key: \n | PRNG: 2953 calls
   Msg: It is written in the Book of Tyr:
   Map updated (15 rows changed)
   Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:1 $:0 HP:18(18) Pw:1(1) AC:0 Xp:1
@@ -75,7 +73,6 @@
 [Step 26] Key: o | PRNG: 0 calls
   Msg: Autopickup what?
   Map updated (20 rows changed)
-  Status update:  | 
 [Step 27] Key: # | PRNG: 0 calls
   Msg: Autopickup what?
 [Step 28] Key: " | PRNG: 0 calls
@@ -99,11 +96,11 @@
 [Step 34] Key: / | PRNG: 0 calls
   Msg: Autopickup what?
   Map updated (1 rows changed)
-[Step 35] Key: \r (Enter) | PRNG: 0 calls
+[Step 35] Key: \n | PRNG: 0 calls
   Msg: Options
   Map updated (20 rows changed)
   Status update: p - pushweapon              [ ] | (1 of 2)
-[Step 36] Key: \r (Enter) | PRNG: 0 calls
+[Step 36] Key: \n | PRNG: 0 calls
   Map updated (20 rows changed)
   Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:1 $:4 HP:18(18) Pw:1(1) AC:6 Xp:1
 [Step 37] Key: h | PRNG: 25 calls
@@ -113,13 +110,13 @@
   Msg: #
 [Step 39] Key: l | PRNG: 0 calls
   Msg: # loot
-[Step 40] Key: \r (Enter) | PRNG: 0 calls
+[Step 40] Key: \n | PRNG: 0 calls
   Msg: Hmmm, the chest turns out to be locked.
 [Step 41] Key: # | PRNG: 0 calls
   Msg: #
 [Step 42] Key: f | PRNG: 0 calls
   Msg: # force
-[Step 43] Key: \r (Enter) | PRNG: 0 calls
+[Step 43] Key: \n | PRNG: 0 calls
   Msg: There is a locked chest here; force its lock? [ynq] (q)
 [Step 44] Key: y | PRNG: 35 calls
   Msg: You start bashing it with your dwarvish spear.--More--
@@ -341,7 +338,7 @@
   Msg: #
 [Step 146] Key: l | PRNG: 0 calls
   Msg: # loot
-[Step 147] Key: \r (Enter) | PRNG: 0 calls
+[Step 147] Key: \n | PRNG: 0 calls
   Msg: Hmmm, the chest turns out to be locked.
 [Step 148] Key: h | PRNG: 15 calls
   Map updated (2 rows changed)
@@ -401,7 +398,7 @@
   Msg: #
 [Step 172] Key: f | PRNG: 0 calls
   Msg: # force
-[Step 173] Key: \r (Enter) | PRNG: 0 calls
+[Step 173] Key: \n | PRNG: 0 calls
   Msg: There is a locked chest here; force its lock? [ynq] (q)
 [Step 174] Key: y | PRNG: 492 calls
   Msg: You start bashing it with your dwarvish spear.--More--
@@ -439,7 +436,7 @@
   Map updated (7 rows changed)
 [Step 188] Key: > | PRNG: 0 calls
   Msg: Can't find dungeon feature '>'.
-[Step 189] Key: \r (Enter) | PRNG: 0 calls
+[Step 189] Key: \n | PRNG: 0 calls
   Msg: unexplored area (no travel path)
 [Step 190] Key:   | PRNG: 0 calls
   Msg: unexplored area (no travel path)
@@ -578,12 +575,12 @@
   Msg: This door is locked.
 [Step 248] Key: l | PRNG: 0 calls
   Msg: This door is locked.
-[Step 249] Key:  | PRNG: 0 calls
+[Step 249] Key: \x04 | PRNG: 0 calls
   Msg: In what direction?
 [Step 250] Key: l | PRNG: 37 calls
   Msg: Whammm!!
   Map updated (2 rows changed)
-[Step 251] Key:  | PRNG: 0 calls
+[Step 251] Key: \x04 | PRNG: 0 calls
   Msg: In what direction?
 [Step 252] Key: l | PRNG: 34 calls
   Msg: As you kick the door, it shatters to pieces!
@@ -820,7 +817,6 @@
 [Step 344] Key:   | PRNG: 0 calls
   Msg: e - an uncursed oil lamp
   Map updated (21 rows changed)
-  Status update:  | 
 [Step 345] Key:   | PRNG: 0 calls
   Map updated (18 rows changed)
   Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:2 $:26 HP:18(18) Pw:1(1) AC:9 Xp:1
@@ -831,7 +827,6 @@
 [Step 347] Key:   | PRNG: 0 calls
   Msg: e - an uncursed oil lamp
   Map updated (21 rows changed)
-  Status update:  | 
 [Step 348] Key:   | PRNG: 0 calls
   Map updated (18 rows changed)
   Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:2 $:26 HP:18(18) Pw:1(1) AC:9 Xp:1
@@ -861,7 +856,7 @@
   Msg: Call a scroll labeled PRATYAVAYAH: helpin
 [Step 361] Key: g | PRNG: 0 calls
   Msg: Call a scroll labeled PRATYAVAYAH: helping
-[Step 362] Key: \r (Enter) | PRNG: 20 calls
+[Step 362] Key: \n | PRNG: 20 calls
   Map updated (2 rows changed)
 [Step 363] Key: i | PRNG: 0 calls
   Msg: Coins
@@ -882,7 +877,7 @@
   Msg: #
 [Step 370] Key: d | PRNG: 0 calls
   Msg: # dip
-[Step 371] Key: \r (Enter) | PRNG: 0 calls
+[Step 371] Key: \n | PRNG: 0 calls
   Msg: What do you want to dip? [a-eghj-np or ?*]
 [Step 372] Key: h | PRNG: 0 calls
   Msg: Dip a cursed -4 orcish helm (being worn) into the fountain? [yn] (n)
@@ -894,7 +889,7 @@
   Msg: #
 [Step 375] Key: d | PRNG: 0 calls
   Msg: # dip
-[Step 376] Key: \r (Enter) | PRNG: 0 calls
+[Step 376] Key: \n | PRNG: 0 calls
   Msg: What do you want to dip? [a-eghj-np or ?*]
 [Step 377] Key: h | PRNG: 0 calls
   Msg: Dip a cursed rusty -4 orcish helm (being worn) into the fountain? [yn] (n)
@@ -907,7 +902,7 @@
   Msg: #
 [Step 381] Key: d | PRNG: 0 calls
   Msg: # dip
-[Step 382] Key: \r (Enter) | PRNG: 0 calls
+[Step 382] Key: \n | PRNG: 0 calls
   Msg: What do you want to dip? [a-eghj-np or ?*]
 [Step 383] Key: h | PRNG: 0 calls
   Msg: Dip a cursed very rusty -4 orcish helm (being worn) into the fountain? [yn] (n)
@@ -917,7 +912,7 @@
   Msg: #
 [Step 386] Key: d | PRNG: 0 calls
   Msg: # dip
-[Step 387] Key: \r (Enter) | PRNG: 0 calls
+[Step 387] Key: \n | PRNG: 0 calls
   Msg: What do you want to dip? [a-eghj-np or ?*]
 [Step 388] Key: h | PRNG: 0 calls
   Msg: Dip a -4 orcish helm (being worn) into the fountain? [yn] (n)
@@ -928,7 +923,7 @@
   Msg: #
 [Step 391] Key: d | PRNG: 0 calls
   Msg: # dip
-[Step 392] Key: \r (Enter) | PRNG: 0 calls
+[Step 392] Key: \n | PRNG: 0 calls
   Msg: What do you want to dip? [a-eghj-np or ?*]
 [Step 393] Key: h | PRNG: 0 calls
   Msg: Dip a -4 orcish helm (being worn) into the fountain? [yn] (n)
@@ -939,7 +934,7 @@
   Msg: #
 [Step 396] Key: d | PRNG: 0 calls
   Msg: # dip
-[Step 397] Key: \r (Enter) | PRNG: 0 calls
+[Step 397] Key: \n | PRNG: 0 calls
   Msg: What do you want to dip? [a-eghj-np or ?*]
 [Step 398] Key: h | PRNG: 0 calls
   Msg: Dip a -4 orcish helm (being worn) into the fountain? [yn] (n)
@@ -950,7 +945,7 @@
   Msg: #
 [Step 401] Key: d | PRNG: 0 calls
   Msg: # dip
-[Step 402] Key: \r (Enter) | PRNG: 0 calls
+[Step 402] Key: \n | PRNG: 0 calls
   Msg: What do you want to dip? [a-eghj-np or ?*]
 [Step 403] Key: h | PRNG: 0 calls
   Msg: Dip a -4 orcish helm (being worn) into the fountain? [yn] (n)
@@ -961,7 +956,7 @@
   Msg: #
 [Step 406] Key: d | PRNG: 0 calls
   Msg: # dip
-[Step 407] Key: \r (Enter) | PRNG: 0 calls
+[Step 407] Key: \n | PRNG: 0 calls
   Msg: What do you want to dip? [a-eghj-np or ?*]
 [Step 408] Key: h | PRNG: 0 calls
   Msg: Dip a -4 orcish helm (being worn) into the fountain? [yn] (n)
@@ -993,7 +988,7 @@
   Msg: #
 [Step 421] Key: d | PRNG: 0 calls
   Msg: # dip
-[Step 422] Key: \r (Enter) | PRNG: 0 calls
+[Step 422] Key: \n | PRNG: 0 calls
   Msg: What do you want to dip? [a-eghjl-np or ?*]
 [Step 423] Key: h | PRNG: 0 calls
   Msg: Dip a -4 orcish helm (being worn) into the fountain? [yn] (n)
@@ -1061,7 +1056,7 @@
   Msg: # ch
 [Step 453] Key: a | PRNG: 0 calls
   Msg: # chat
-[Step 454] Key: \r (Enter) | PRNG: 0 calls
+[Step 454] Key: \n | PRNG: 0 calls
   Msg: Talk to whom? (in what direction)
 [Step 455] Key: n | PRNG: 68 calls
   Msg: The water nymph cajoles you.  The little dog misses the water nymph.--More--
@@ -1098,7 +1093,7 @@
 [Step 467] Key: b | PRNG: 0 calls
   Msg: Pick up what?
   Map updated (1 rows changed)
-[Step 468] Key: \r (Enter) | PRNG: 39 calls
+[Step 468] Key: \n | PRNG: 39 calls
   Msg: q - a pair of combat boots.  r - a looking glass.
   Map updated (7 rows changed)
 [Step 469] Key: W | PRNG: 0 calls
@@ -1114,7 +1109,6 @@
 [Step 472] Key:   | PRNG: 0 calls
   Msg: r - a looking glass
   Map updated (21 rows changed)
-  Status update:  | 
 [Step 473] Key:   | PRNG: 0 calls
   Map updated (18 rows changed)
   Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:2 $:26 HP:31(31) Pw:2(2) AC:17 Xp:2
@@ -1276,7 +1270,7 @@
 [Step 537] Key: j | PRNG: 23 calls
   Msg: Ouch!  You bump into a door.
   Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:4 $:31 HP:30(31) Pw:2(2) AC:17 Xp:2
-[Step 538] Key:  | PRNG: 0 calls
+[Step 538] Key: \x04 | PRNG: 0 calls
   Msg: In what direction?
 [Step 539] Key: j | PRNG: 29 calls
   Msg: As you kick the door, it crashes open!
@@ -1392,7 +1386,6 @@
 [Step 580] Key:   | PRNG: 0 calls
   Msg: e - an uncursed oil lamp
   Map updated (21 rows changed)
-  Status update:  | 
 [Step 581] Key:   | PRNG: 0 calls
   Map updated (21 rows changed)
   Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:5 $:36 HP:31(31) Pw:2(2) AC:17 Xp:2
@@ -1496,7 +1489,7 @@
   Msg: Wait!  There's something there you can't see!  It hits!
   Map updated (1 rows changed)
   Status update: Dequa the Stripling            St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8 Lawful | Dlvl:6 $:36 HP:27(31) Pw:2(2) AC:17 Xp:2
-[Step 622] Key:  | PRNG: 0 calls
+[Step 622] Key: \x04 | PRNG: 0 calls
   Msg: In what direction?
 [Step 623] Key: h | PRNG: 53 calls
   Msg: You kick it.
@@ -1692,7 +1685,7 @@
   Msg: #
 [Step 701] Key: d | PRNG: 0 calls
   Msg: # dip
-[Step 702] Key: \r (Enter) | PRNG: 0 calls
+[Step 702] Key: \n | PRNG: 0 calls
   Msg: What do you want to dip? [a-eghj-np-rtv or ?*]
 [Step 703] Key: h | PRNG: 0 calls
   Msg: Dip a -4 orcish helm (being worn) into the fountain? [yn] (n)
@@ -1707,7 +1700,7 @@
   Msg: #
 [Step 708] Key: d | PRNG: 0 calls
   Msg: # dip
-[Step 709] Key: \r (Enter) | PRNG: 0 calls
+[Step 709] Key: \n | PRNG: 0 calls
   Msg: What do you want to dip? [a-eghj-np-rtv or ?*]
 [Step 710] Key: h | PRNG: 0 calls
   Msg: Dip a -4 orcish helm (being worn) into the fountain? [yn] (n)

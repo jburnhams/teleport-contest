@@ -23,8 +23,7 @@
   Msg: # pray
 [Step 9] Key: y | PRNG: 0 calls
   Msg: # pray
-[Step 10] Key: 
- | PRNG: 0 calls
+[Step 10] Key: \n | PRNG: 0 calls
   Msg: Are you sure you want to pray? [yn] (n)
 [Step 11] Key: y | PRNG: 69 calls
   Msg: You begin praying to Amaterasu Omikami.  You finish your prayer.--More--
@@ -46,8 +45,7 @@
   Msg: # chat
 [Step 19] Key: t | PRNG: 0 calls
   Msg: # chat
-[Step 20] Key: 
- | PRNG: 0 calls
+[Step 20] Key: \n | PRNG: 0 calls
   Msg: Talk to whom? (in what direction)
 [Step 21] Key: l | PRNG: 0 calls
 [Step 22] Key: h | PRNG: 46 calls
@@ -63,15 +61,14 @@
   Msg: # chat
 [Step 27] Key: t | PRNG: 0 calls
   Msg: # chat
-[Step 28] Key: 
- | PRNG: 0 calls
+[Step 28] Key: \n | PRNG: 0 calls
   Msg: Talk to whom? (in what direction)
 [Step 29] Key: l | PRNG: 28 calls
   Msg: The little dog barks.
   Map updated (2 rows changed)
 [Step 30] Key: h | PRNG: 0 calls
   Msg: This door is locked.
-[Step 31] Key:  | PRNG: 0 calls
+[Step 31] Key: \x04 | PRNG: 0 calls
   Msg: In what direction?
 [Step 32] Key: h | PRNG: 23 calls
   Msg: As you kick the door, it crashes open!--More--
@@ -163,17 +160,17 @@
   Map updated (2 rows changed)
 [Step 78] Key: j | PRNG: 0 calls
   Msg: This door is locked.
-[Step 79] Key:  | PRNG: 0 calls
+[Step 79] Key: \x04 | PRNG: 0 calls
   Msg: In what direction?
 [Step 80] Key: j | PRNG: 48 calls
   Msg: Whammm!!
   Map updated (1 rows changed)
-[Step 81] Key:  | PRNG: 0 calls
+[Step 81] Key: \x04 | PRNG: 0 calls
   Msg: In what direction?
 [Step 82] Key: j | PRNG: 29 calls
   Msg: Thwack!!
   Map updated (2 rows changed)
-[Step 83] Key:  | PRNG: 0 calls
+[Step 83] Key: \x04 | PRNG: 0 calls
   Msg: In what direction?
 [Step 84] Key: j | PRNG: 40 calls
   Msg: As you kick the door, it crashes open!
@@ -214,8 +211,7 @@
   Msg: # sit
 [Step 102] Key: t | PRNG: 0 calls
   Msg: # sit
-[Step 103] Key: 
- | PRNG: 24 calls
+[Step 103] Key: \n | PRNG: 24 calls
   Msg: Having fun sitting on the fountain?
   Map updated (2 rows changed)
 [Step 104] Key: # | PRNG: 0 calls
@@ -226,8 +222,7 @@
   Msg: # dip
 [Step 107] Key: p | PRNG: 0 calls
   Msg: # dip
-[Step 108] Key: 
- | PRNG: 0 calls
+[Step 108] Key: \n | PRNG: 0 calls
   Msg: What do you want to dip? [a-h or ?*]
 [Step 109] Key: d | PRNG: 0 calls
   Msg: Dip 4 potions of holy water into the fountain? [yn] (n)
@@ -242,8 +237,7 @@
   Msg: # dip
 [Step 114] Key: p | PRNG: 0 calls
   Msg: # dip
-[Step 115] Key: 
- | PRNG: 0 calls
+[Step 115] Key: \n | PRNG: 0 calls
   Msg: What do you want to dip? [a-h or ?*]
 [Step 116] Key: e | PRNG: 0 calls
   Msg: Dip 2 cloves of garlic into the fountain? [yn] (n)
@@ -262,8 +256,7 @@
   Msg: # offer
 [Step 123] Key: r | PRNG: 0 calls
   Msg: # offer
-[Step 124] Key: 
- | PRNG: 0 calls
+[Step 124] Key: \n | PRNG: 0 calls
   Msg: You are not on an altar.
 [Step 125] Key: # | PRNG: 0 calls
   Msg: #
@@ -281,8 +274,7 @@
   Msg: # enhance
 [Step 132] Key: e | PRNG: 0 calls
   Msg: # enhance
-[Step 133] Key: 
- | PRNG: 0 calls
+[Step 133] Key: \n | PRNG: 0 calls
   Msg: Current skills:
   Map updated (20 rows changed)
   Status update: Spellcasting Skills | (1 of 2)
@@ -307,8 +299,7 @@
   Msg: # annotate
 [Step 143] Key: e | PRNG: 0 calls
   Msg: # annotate
-[Step 144] Key: 
- | PRNG: 0 calls
+[Step 144] Key: \n | PRNG: 0 calls
   Msg: What do you want to call this dungeon level?
 [Step 145] Key: T | PRNG: 0 calls
   Msg: What do you want to call this dungeon level? T
@@ -330,8 +321,7 @@
   Msg: What do you want to call this dungeon level? Test leve
 [Step 154] Key: l | PRNG: 0 calls
   Msg: What do you want to call this dungeon level? Test level
-[Step 155] Key: 
- | PRNG: 0 calls
+[Step 155] Key: \n | PRNG: 0 calls
 [Step 156] Key: # | PRNG: 0 calls
   Msg: #
 [Step 157] Key: o | PRNG: 0 calls
@@ -350,8 +340,7 @@
   Msg: # overview
 [Step 164] Key: w | PRNG: 0 calls
   Msg: # overview
-[Step 165] Key: 
- | PRNG: 0 calls
+[Step 165] Key: \n | PRNG: 0 calls
   Msg: The Dungeons of Doom:
   Map updated (3 rows changed)
 [Step 166] Key: ESC | PRNG: 0 calls
@@ -372,8 +361,7 @@
   Msg: # version
 [Step 174] Key: n | PRNG: 0 calls
   Msg: # version
-[Step 175] Key: 
- | PRNG: 2 calls
+[Step 175] Key: \n | PRNG: 2 calls
   Msg: MacOS NetHack Version 5.0.0 - last build May  2 2026 12:00:00.
   Map updated (20 rows changed)
   Status update: Lua 5.4.8  Copyright (C) 1994-2025 Lua.org, PUC-Rio | --More--
@@ -404,8 +392,7 @@
   Msg: # chronicle
 [Step 187] Key: e | PRNG: 0 calls
   Msg: # chronicle
-[Step 188] Key: 
- | PRNG: 0 calls
+[Step 188] Key: \n | PRNG: 0 calls
   Msg: Logged events:
   Map updated (20 rows changed)
   Status update:  | --More--
@@ -429,8 +416,7 @@
   Msg: # conduct
 [Step 198] Key: t | PRNG: 0 calls
   Msg: # conduct
-[Step 199] Key: 
- | PRNG: 0 calls
+[Step 199] Key: \n | PRNG: 0 calls
   Msg: Voluntary challenges:
   Map updated (8 rows changed)
 [Step 200] Key:   | PRNG: 0 calls
@@ -458,8 +444,7 @@
   Msg: # vanquished
 [Step 212] Key: d | PRNG: 0 calls
   Msg: # vanquished
-[Step 213] Key: 
- | PRNG: 0 calls
+[Step 213] Key: \n | PRNG: 0 calls
   Msg: Vanquished creatures:
   Map updated (5 rows changed)
 [Step 214] Key:   | PRNG: 0 calls
@@ -485,8 +470,7 @@
   Msg: # genocided
 [Step 225] Key: d | PRNG: 0 calls
   Msg: # genocided
-[Step 226] Key: 
- | PRNG: 0 calls
+[Step 226] Key: \n | PRNG: 0 calls
   Msg: No creatures have been genocided.
 [Step 227] Key: ESC | PRNG: 0 calls
 [Step 228] Key: # | PRNG: 0 calls
@@ -503,8 +487,7 @@
   Msg: # adjust
 [Step 234] Key: t | PRNG: 0 calls
   Msg: # adjust
-[Step 235] Key: 
- | PRNG: 0 calls
+[Step 235] Key: \n | PRNG: 0 calls
   Msg: What do you want to adjust? [a-h or ?*]
 [Step 236] Key: a | PRNG: 0 calls
   Msg: Adjust letter to what [ai-zA-Z] (? see used letters)?
@@ -520,8 +503,7 @@
   Msg: # name
 [Step 242] Key: e | PRNG: 0 calls
   Msg: # name
-[Step 243] Key: 
- | PRNG: 0 calls
+[Step 243] Key: \n | PRNG: 0 calls
   Msg: What do you want to name?
   Map updated (7 rows changed)
 [Step 244] Key: ESC | PRNG: 0 calls
@@ -542,8 +524,7 @@
   Msg: # terrain
 [Step 252] Key: n | PRNG: 0 calls
   Msg: # terrain
-[Step 253] Key: 
- | PRNG: 0 calls
+[Step 253] Key: \n | PRNG: 0 calls
   Msg: View which?
   Map updated (4 rows changed)
 [Step 254] Key: ESC | PRNG: 0 calls
@@ -565,14 +546,13 @@
 [Step 260] Key: ESC | PRNG: 0 calls
   Map updated (19 rows changed)
   Status update: Padre the Aspirant             St:11 Dx:10 Co:17 In:9 Wi:17 Ch:10 Lawful | Dlvl:1 $:0 HP:14(14) Pw:8(8) AC:7 Xp:1
-[Step 261] Key:  | PRNG: 0 calls
+[Step 261] Key: \x18 | PRNG: 0 calls
   Msg: Padre the Priest's attributes:
   Map updated (20 rows changed)
   Status update: Your intelligence is 9. | (1 of 2)
 [Step 262] Key:   | PRNG: 0 calls
   Msg: Your wisdom is 17 (current; peak:18).
   Map updated (20 rows changed)
-  Status update:  | 
 [Step 263] Key: ESC | PRNG: 0 calls
   Map updated (19 rows changed)
   Status update: Padre the Aspirant             St:11 Dx:10 Co:17 In:9 Wi:17 Ch:10 Lawful | Dlvl:1 $:0 HP:14(14) Pw:8(8) AC:7 Xp:1

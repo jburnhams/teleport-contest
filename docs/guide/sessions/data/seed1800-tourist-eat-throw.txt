@@ -44,7 +44,7 @@
   Msg: You don't have that object.--More--
 [Step 19] Key: ESC | PRNG: 0 calls
   Msg: What do you want to use or apply? [jk or ?*]
-[Step 20] Key:  | PRNG: 0 calls
+[Step 20] Key: \x18 | PRNG: 0 calls
   Msg: You don't have that object.--More--
 [Step 21] Key:   | PRNG: 0 calls
   Msg: What do you want to use or apply? [jk or ?*]

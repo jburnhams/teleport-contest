@@ -49,14 +49,13 @@
 [Step 20] Key: ESC | PRNG: 0 calls
   Map updated (13 rows changed)
   Status update: Ricky the Tenderfoot           St:15 Dx:11 Co:15 In:13 Wi:14 Ch:7 Chaotic | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:7 Xp:1
-[Step 21] Key:  | PRNG: 0 calls
+[Step 21] Key: \x18 | PRNG: 0 calls
   Msg: Ricky the Ranger's attributes:
   Map updated (18 rows changed)
   Status update: Your intelligence is 13. | (1 of 2)
 [Step 22] Key:   | PRNG: 0 calls
   Msg: Your wisdom is 14.
   Map updated (20 rows changed)
-  Status update:  | 
 [Step 23] Key: ESC | PRNG: 0 calls
   Map updated (9 rows changed)
   Status update: Ricky the Tenderfoot           St:15 Dx:11 Co:15 In:13 Wi:14 Ch:7 Chaotic | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:7 Xp:1
