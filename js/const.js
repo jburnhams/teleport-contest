@@ -2966,12 +2966,11 @@ export const GLASS = 19;
 export const GEMSTONE = 20;
 export const MINERAL = 21;
 
+
 // P_DART etc already exist in const.js or we'll make sure they do
-export const CHAIN_CLASS = 15;
-export const VENOM_CLASS = 16;
-export const MAXOCLASSES = 17;
 
 export const S_DEMON = 8;
+
 
 // Missing S_* constants
 export const S_ANT = 1;
