@@ -4,7 +4,7 @@
 
 This extremely brief session is a textbook validation of the game's environmental hazard protections, immediately followed by a validation of the user's ability to purposefully override those protections. The user entity—a chaotic Elven Ranger—demonstrates exactly how the engine handles deliberate self-immolation.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Steps 1–13: The Tenderfoot**
 The user names their entity `S, w, i, m, m, e, r`. They accept the default chaotic Elven Ranger role, and at Step 13, explicitly answer `y` to the prompt: *Do you want a tutorial?* 165 PRNG calls resolve the transition as the entity is teleported away from the standard dungeon generation and into the tutorial environment. The message line solemnly intones: *Entering the tutorial.*

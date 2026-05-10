@@ -4,7 +4,7 @@
 
 This session serves as a brief but tragic validation of the engine's trap resolution logic. The user entity—a human Valkyrie named *Astrid*—witnesses the immediate and final resolution of a pit trap as it interacts with her accompanying pet. 
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Steps 1–3: The Stripling Astrid**
 The engine performs 2,551 PRNG calls to generate the universe and character attributes (St:17 Dx:14 Co:17 In:9 Wi:9 Ch:9). Astrid declines the tutorial and begins her journey through the Dungeon of Doom with her loyal little dog.

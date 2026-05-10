@@ -179,3 +179,31 @@ Root cause: our `themerooms_generate()` unconditionally runs 30 reservoir-sampli
 - Missing `_CLASS` constants (`ILLOBJ_CLASS`, etc.) added directly matching values in `defsym.h`. `BALL_CLASS` is 15, `CHAIN_CLASS` is 16, `VENOM_CLASS` is 17.
 - Use `C.STR18(x)` directly instead of hardcoding `118` to preserve C macro argument semantics.
 - Use `import * as M from './monst.js'` and `import * as O from './objects.js'` in `js/roles.js` to correctly resolve `M.PM_*` and `O.ART_*` constants because `js/const.js` does not export them. `MH_*` constants were mapped to `M2_*` constants and are found in `js/const.js`.
+## u_init and exper
+- `u_init_role` runs first, allocating inventory and money (`rn1(1000, 1001)` = `1001 + rn2(1000)`).
+- Then `u_init_race` modifies inventory and flags based on species.
+- `u_init_misc` computes `newpw` and `newhp`, relying on `role.enadv`, `role.hpadv` and their racial counterparts. These values were successfully extracted directly from the C data structures.
+- In `u_init`, `ini_inv` invokes `mksobj` for specific types or `mkobj` for `UNDEF_TYP` (with specific fallback loop logic). As the item engine `Stream D` is not complete, we stubbed the inner rng consumption sequence (like `rnd(2)` for `next_ident()` and `rn2(4)` for `blessorcurse` over specific scrolls and potions).
+## Chargen terminal display mechanics
+
+**Banner placement**: `tty_init_nhwindows()` writes the copyright banner at rows 4-7 (1-indexed rows 4-7 = 0-indexed rows 4-7). The banner line with "Version X.Y.Z" is normalized away by the scorer. Use `NO_COLOR` for all banner/prompt writes to avoid color-code differences.
+
+**"Is this ok?" overlay column clearing**: C's TTY menu system calls `docorner(offx=41)` → `tty_curs(BASE_WINDOW, 41, y); cl_end()`. NetHack columns are 1-indexed, so col 41 (1-indexed) = col 40 (0-indexed). `cl_end()` clears from col 40 to EOL. This is why the banner text at col 40 (e.g., the 'u' from "Centrum" in row 5) is blank — it was cleared. Fix: in our implementation, clear cols 40-79 (not 41-79).
+
+**"Is this ok?" option columns**: The offx computed by C for this menu is 41. All options are written at col 41 (0-indexed):
+- Row 4: "y * Yes; start game" (selected, asterisk marker)
+- Row 5: "n - No; choose role again" (unselected)
+- Row 6: "a - Not yet; choose another name" (normalized away)
+- Row 7: "q - Quit"
+- Row 8: "(end)"
+
+**Terminal serializer blank cells within a row**: The `terminal.serialize()` function outputs EVERY cell from firstCol to lastCol, including blank (ch=' ') cells in between. Blank cells between non-blank cells produce color-coded spaces in the output (e.g., ESC[37m + spaces + ESC[39m if color is CLR_GRAY). `screensVisuallyEqual()` ignores color differences on space cells, so this doesn't affect scoring.
+
+**Manual vs auto chargen display state**:
+- Auto ('y' at "Shall I pick?"): no menus shown, banner stays at rows 4-7, name-prompt stays at row 12. "Is this ok?" shows banner (cols 0-39) + options (cols 41+) + name at row 12.
+- Manual ('n' at "Shall I pick?"): C's role menu is full-screen (too many items), clears the entire display. After menu sequence, banner and name-prompt are gone. "Is this ok?" shows only options with empty background. Fix: `display.clearScreen()` before `_putIsThisOk` for the manual path.
+## Object Management
+
+- `place_object` places non-boulder objects underneath boulders. It follows `game.level.objects[x][y]` and inserts below `BOULDER`s if needed.
+- `game.level.objects` must be initialized as a 2D array, rather than a flat array as originally seen.
+- Extract functions (`extract_nexthere`, `extract_nobj`) should return the new head pointer. In JS, we cannot pass head pointers by reference directly unless they are encapsulated in an object property, so functions return the new head.

@@ -4,7 +4,7 @@
 
 This session serves as a rigorous mechanical validation of the engine's religious and diagnostic subroutines. The user entity—a human Priest named *Padre*—demonstrates the immediate and painful consequences of divine arrogance and the engine's ability to render complex terrain visualisations.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Steps 1–3: The Aspirant Padre**
 The engine performs 2,554 PRNG calls to generate the universe and Padre's attributes (St:11 Dx:10 Co:17 In:9 Wi:18 Ch:10). Padre begins on Dungeon Level 1 and declines the tutorial.

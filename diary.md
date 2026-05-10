@@ -95,14 +95,89 @@ After vault fix + newpw fix, most fully-specified sessions now diverge in the fi
 
 Next: implement real fill phase (replace `fastforward_fill_mineralize` for non-seed8000).
 
+### Stream C Display - botl.js Status lines (+0 screens)
+
+Created `js/botl.js` to handle correct formatting of bottom lines using `bot1()` and `bot2()`.
+- Fixed stats mapping (e.g. `St:18/01`)
+- Handled C's specific spacing around title lines.
+- Extracted exact status condition texts.
+- Verified exact screen parity for the initial turns of seed8000 using Vitest and diff checking scripts.
+- Hooked `bot1()` and `bot2()` directly into `display.js` to clean up inline status line representations.
+- Restored the 21/23 passing screens metric for `seed8000`.
+## 2026-05-10
+- Set up Stream F branch (`feature/stream-f-hero-init`).
+- Created `js/attrib.js` containing `init_attr`, `vary_init_attr`, `acurrstr`, and base attribute management from `attrib.c`.
+- Created `js/exper.js` containing `newuexp`, `newpw`, `newhp`, and `adjabil` stubs.
+- Created `js/u_init.js` and ported `u_init_role`, `u_init_race`, `u_init_misc`, and `u_init_inventory_attrs`.
+- Added the 13 role-specific inventory lists from `u_init.c` via scripts and implemented a minimal subset of `ini_inv` to consume RNG logic for items correctly without having the full object tracking from `Stream D`. Tests and Score checks run cleanly.
+- Next step for this stream: complete F4/F5 integration and wire into `allmain.js` (B5 unblocked). F2 full implementation waits on `Stream D`.
+---
+## YYYY-MM-DD
+
+- Completed Stream D Sub-task D1 & D3 (Object System).
+- Wrote `js/mkobj.js` implementing `newobj`, `place_object`, `remove_object`, `obj_extract_self`.
+- Updated `js/game.js` to initialize `this.objects` as a 2D array of `null` pointers mirroring C's `svl.level.objects[x][y]`.
+- Implemented `mkgold` mirroring integer math accurately with `Math.trunc`.
+- Created `js/invent.js` with `findgold`.
+- Wrote unit tests for `mkobj` and `invent` verifying linked list behaviour.
+- `score:check` passed correctly with no regressions.
+- Next step: Continue with Stream D2: mkobj — object creation by investigating `mksobj_init` logic which spans over 200 lines and consumes RNG values differently for each object class.
+
+- Fixed `mkgold()` weight calculation. Added COIN_CLASS to `const.js`. Fixed `weight` computation for coins mirroring NetHack `(quan + 50) / 100` rather than random stubs.
+
+- Fixed `mkgold()` utilizing `level_difficulty()` and `depth()` ported to `hacklib.js`.
 ## 2026-05-10
 
+## 2026-05-10 — Chargen display UI (+67 screens)
+
+### Chargen screen rendering
+
+Implemented the full chargen display in `js/chargen.js` so interactive sessions (8 sessions with no role/race/gender/align in OPTIONS) now produce matching terminal screens during character creation.
+
+**What was implemented:**
+- `_putBanner(display)`: writes copyright banner at rows 4-7 (C ref: `tty_init_nhwindows()`)
+- `_putNamePrompt(display, name)`: writes "Who are you? " + typed chars at row 12
+- `_putShallIPick(display, prompt)`: writes "Shall I pick?" prompt at row 0
+- `_putIsThisOk(display, fullDesc)`: overlays "Is this ok? [ynaq]" with menu options on the startup screen
+- `buildHeroDesc(st, name)`: constructs the hero description string for row 2
+
+**Key technical findings:**
+
+1. **ATR_INVERSE = 1 (not 0x10)** — must import from terminal.js, not hard-code.
+
+2. **Column clearing for "Is this ok?" overlay**: C's `docorner(offx=41)` calls `tty_curs(BASE_WINDOW, 41, y)` + `cl_end()`. NetHack uses 1-indexed columns, so `tty_curs(41)` moves to 0-indexed col 40 and `cl_end()` clears from col 40 to EOL. This leaves banner text at cols 0-39 intact but clears cols 40-79. Our fix: clear cols 40-79 (not 41-79) and write options at col 41.
+
+3. **Terminal serializer behavior**: blank cells (ch=' ') between non-blank cells ARE output as characters (not as ESC[NC). The ESC[NC skip is ONLY for leading blank cells. So the color of blank cells affects the serialized output (e.g., CLR_GRAY cells between content → ESC[37m spaces). The `screensVisuallyEqual()` function ignores color on space cells, so this mismatch doesn't matter for scoring.
+
+4. **Manual path ('n') clears banner**: C's full-screen role menu (used when there are many roles) calls clearScreen. After the role/race/gender menus, the banner at rows 4-7 and the name prompt at row 12 are gone. Fix: call `display.clearScreen()` before `_putIsThisOk` for the manual pick path.
+
+5. **Auto path ('y') preserves banner**: When the user presses 'y' at "Shall I pick?", no full-screen menus are shown, and the banner/name-prompt remain. The "Is this ok?" screen has banner text (cols 0-39) + options (cols 41+).
+
+**Score result**: 21 → 88 matching screens total (+67). Chargen sessions now each match 7-9 screens.
+
+### Sessions improved
+- seed0002 (Healer, auto): 0 → 8 screens
+- seed0004 (Tetra, auto): 0 → 8 screens  
+- seed0006 (Wizard, manual): 0 → 9 screens
+- seed0007 (Rogue, auto): 0 → 9 screens
+- seed0009 (Swimmer, auto): 0 → 9 screens
+- seed0012 (Monk, manual): 0 → 9 screens
+- seed0014 (Dequa, manual): 0 → 7 screens
+- seed0077 (Rogue, manual): 0 → 8 screens
+
+### What's next
+- Role/race/gender selection menus (for manual path, steps 7-9 type) — would add 3+ screens per manual-pick session
+- u_init (hero initialization) to replace hardcoded Tourist state in allmain.js — needed for non-seed8000 post-chargen screens
+- fill_ordinary_room / makemon — needed to unblock RNG divergence at ~position 1009
+
+---
+
+## 2026-05-10 — Stream A: Data Tables
+
 - Worked on Stream A: Data Tables.
-- Generated \`js/monst.js\` from \`monst.c\` and \`monsters.h\` using a custom extractor script.
-- Implemented tests to verify length \`NUMMONS\` and spot-checked \`PM_GIANT_ANT\` and \`PM_NEWT\` to ensure exact matching and proper macro expansion (\`LVL\`, \`SIZ\`, \`ATTK\`).
+- Generated `js/monst.js` from `monst.c` and `monsters.h` using a custom extractor script.
+- Implemented tests to verify length `NUMMONS` and spot-checked `PM_GIANT_ANT` and `PM_NEWT` to ensure exact matching and proper macro expansion (`LVL`, `SIZ`, `ATTK`).
 - Confirmed no regressions in the score.
-
-
 - Fixed `mons[]` extraction script: explicitly expand `SEDUCTION_ATTACKS` so incubus/succubus receive full 6-element attack arrays, correctly parse all bitmasks to remove `L`/`0L` suffixes, and populate `const.js` with missing macros to avoid `undefined` coercion in the generated output.
 
 ## 2024-05-15
@@ -111,3 +186,17 @@ Next: implement real fill phase (replace `fastforward_fill_mineralize` for non-s
 - Confirmed missing object class constants (`WEAPON_CLASS`, etc.) in `js/const.js` and added/corrected them.
 - Verified test `test/roles.test.js` passes and `npm run score:check` maintains parity without regressions.
 - What's next: Begin work on Stream D (Object System) or Stream E (Monster System) since Stream A dependencies are met.
+Baseline pass rate (chargen+mklev): 100% (20/20)
+Most frequent first-divergence locations across 44 canonical sessions:
+      8     Context from C log: @ makelevel(mklev.c:1410)
+      6     Context from C log: @ lspo_map(sp_lev.c:6163)
+      6     Context from C log: @ fill_special_room(sp_lev.c:2769)
+      3     Context from C log: @ mkobj(mkobj.c:281)
+      2     Context from C log: @ somex(mkroom.c:669)
+      2     Context from C log: @ mkclass_aligned(makemon.c:1946)
+      2     Context from C log: @ makelevel(mklev.c:1295)
+      1     Context from C log: @ traptype_rnd(mklev.c:1951)
+      1     Context from C log: @ nh.rn2 src=themerms.lua:1039 parent=room([C]:-1)
+      1     Context from C log: @ newpw(exper.c:52)
+      1     Context from C log: @ fill_ordinary_room(mklev.c:998)
+      1     Context from C log: @ blessorcurse(mkobj.c:1848)

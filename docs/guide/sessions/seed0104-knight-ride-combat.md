@@ -4,7 +4,7 @@
 
 This session serves as a triumphant sequel to the catastrophic equestrian failure of `seed0103`. The user entity—a Knight once again named *Sir*—successfully demonstrates the engine's mounted combat logic and the developers' penchant for classic rock references.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Steps 1–3: The Gallant Sir Redux**
 The engine performs 2,620 PRNG calls to generate the universe and Sir's attributes (St:14 Dx:8 Co:12 In:8 Wi:15 Ch:18). Sir begins on Dungeon Level 1, accompanied by a saddled pony, and declines the tutorial.

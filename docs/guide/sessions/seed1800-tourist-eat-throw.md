@@ -4,7 +4,7 @@
 
 This session serves as a delightful mechanical validation of the engine's object-consumption and randomised-text subroutines. The user entity—a Tourist named *Touristo*—demonstrates the engine's ability to process the complex, multi-stage interaction of eating a fortune cookie and the subsequent deterministic selection of a fortune message.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Steps 1–3: The Rambler Touristo**
 The engine performs 2,360 PRNG calls to generate the universe and Touristo's attributes (St:15 Dx:10 Co:15 In:11 Wi:8). Touristo begins on Dungeon Level 1, armed with a starting inventory of food and darts.

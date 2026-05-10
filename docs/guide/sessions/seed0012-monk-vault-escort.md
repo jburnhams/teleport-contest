@@ -4,7 +4,7 @@
 
 This session serves as a rigorous mechanical test of the game's vault security logic. The user entity—a Monk named *Dodeco*—successfully triggers the highly specific AI behaviour of a Croesus vault guard, demonstrating the engine's ability to calculate pathfinding for an escort sequence.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Steps 1–16: Navigating the Void**
 Dodeco opts for complete manual character creation. Rather than accepting the defaults, the user process rapidly cycles through the UI selection trees, pressing `[`, `l`, `"`, `m`, `/`, and `h` to meticulously specify their exact role, creed, race, and gender. The UI state machine correctly handles this flurry of input. Upon pressing `y` to confirm, the mathematical engine awakens, generating the dungeon with a massive 3,066 PRNG call sequence.

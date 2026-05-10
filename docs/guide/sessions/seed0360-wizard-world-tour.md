@@ -4,7 +4,7 @@
 
 This session is a comprehensive mechanical stress test of the engine's debugging and level-generation infrastructure. The user entity—a Wizard named *Wizard*—demonstrates the engine's ability to handle rapid, non-linear jumps through the dungeon hierarchy while maintaining perfect state synchronisation and resolving complex physical interactions with boulders.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Steps 1–4: The Evoker Setup**
 The engine performs 2,896 PRNG calls to generate the initial state (St:9 Dx:13 Co:16 In:18 Wi:10 Ch:9). Wizard begins on Dungeon Level 1 and declines the tutorial.
