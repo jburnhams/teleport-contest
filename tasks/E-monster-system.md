@@ -15,7 +15,7 @@ Port the monster creation and movement system. Monsters are placed during mklev 
 - [x] Port `newmonst()`, monster linked list (`fmon`), `place_monster()`, `m_at(x,y)`
 
 ## E2. mondata.js — data helpers
-- [ ] Port `monsndx()`, species checks, movement-type helpers from mondata.c
+- [x] Port `monsndx()`, species checks, movement-type helpers from mondata.c
 
 ## E3. makemon — monster creation (CRITICAL for mklev RNG)
 - [ ] Port `makemon(ptr, x, y, mmflags)` from makemon.c

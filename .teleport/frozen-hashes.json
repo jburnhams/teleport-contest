@@ -5,5 +5,6 @@
   "frozen/ps_test_runner.mjs":"81eb9bebd50a3deadfc4695e69e99b13572261124940da2a983c8d2d45cdaabc",
   "frozen/screen-decode.mjs": "cb4a0fbfed3dda28c14736e6ae9c8b9eb8c87d75916c50d6df80f40eb0368cbe",
   "frozen/session_loader.mjs":"fb382efa89c272dae8cb700b7dadd075b926ff039ab3eb17480d84ed65029ce6",
-  "frozen/score.sh":          "40e05b43a20f12ba4fcc97c8c5c4f9ace272ceacc1b2919e48e53613ce828b93"
+  "frozen/score.sh":          "623c61b34e3e107ec7860be04e3e91cacb77dcf060631ad18639484d3353f063",
+  "frozen/set-category.sh":   "a3051504f8fbe55622fca5e7686f8e7569a4a066528e445efa16713a0356c559"
 }

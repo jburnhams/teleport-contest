@@ -193,3 +193,26 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Reviewed `extract-role.py` and `parse_roles_to_js.js`; these clearly processed `src/role.c` via intermediate temp files to build `js/roles.js`.
 - Validated `js/const.js` contains the added missing enums (e.g., `WEAPON_CLASS`, `S_ANT`, `G_NOGEN`) required for stream alignment.
 - This codebase layer (Stream A) is rock solid and completely ready to support upcoming work streams.
+
+## 2026-05-15
+- Continued Stream E, ticking subtask E2 (mondata.js — data helpers).
+- Created `js/mondata.js` and ported `monsndx` along with several movement-type macros (`is_flyer`, `is_swimmer`, `amphibious`, `passes_walls`, etc.) and species macros (`is_undead`, `is_demon`, `is_animal`, etc.).
+- Wrote vitest suite (`test/mondata.test.js`) verifying `monsndx` index retrieval and evaluating several bitflags against `mons[0]` (Giant Ant).
+- Achieved +0 regression score (88/11406 screens baseline) in validation.
+- Next step: Stream E3, the `makemon` core monster generation.
+
+## 2026-05-15
+- Continued Stream D by beginning D2.1: BUC assignment logic (`bcsign`, `curse`, `bless`, `blessorcurse`, `uncurse`).
+- Implemented and ported the BUC routines exactly tracking the C structure (including temporarily commenting out light adjustment functionality until `lamplit` logic is implemented).
+- Fixed the `rng.js` import bug in `test/mkobj.buc.test.js` missing `rn2`.
+- Validated via unit testing that `blessorcurse` sequentially consumes the correct `rn2` calls matching PRNG log format correctly.
+- Achieved +0 regression score (88/11406 screens baseline).
+- Next step: D2.2 (Probability helpers / `rnd_class`) or D2.3.
+## 2024-05-16
+- Continued Stream D by completing subtask D2.2 (Probability helpers / `rnd_class`).
+- Defined and exported `bases` and `oclass_prob_totals` in `js/o_init.js` mirroring C's `init_objects()` functionality correctly without disrupting sequence logic.
+- Implemented `rnd_class` in `js/mkobj.js` replicating C `objnam.c` probability proportional picking behavior and zero-sum handling safely using `rn1`.
+- Wrote extensive unit tests in `test/mkobj.rnd_class.test.js` validating PRNG call formats mapping accurately to RNG inputs.
+- Cleaned up loose test scratchpads and incorporated `test/o_init.test.js` covering `MAXOCLASSES` index initialization.
+- Validated via scoring maintaining exact 100% baseline structural alignment (88/11406 screens pass).
+- Next steps: Proceed to D2.3 (Erosion & Quantity helpers) exploring `may_generate_eroded` functionality.
