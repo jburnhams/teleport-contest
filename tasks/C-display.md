@@ -25,16 +25,16 @@ Port the display subsystem — status lines, message handling, map rendering imp
 - [x] Verify: compare output against seed8000 status line from session JSON
 
 ## C2. pline.js — Message system
-- [ ] Read C `src/pline.c` — understand `pline()`, `You()`, `verbalize()`, `raw_printf()`
-- [ ] Read C `src/topl.c` (if present) or relevant tty code — understand `--More--` prompting
-- [ ] Create `js/pline.js`
-- [ ] Port `pline()` — format string handling (like printf but simpler)
-- [ ] Port message line display — write to row 0 of terminal
-- [ ] Port `--More--` prompt — when message would overwrite previous unread message
+- [x] Read C `src/pline.c` — understand `pline()`, `You()`, `verbalize()`, `raw_printf()`
+- [x] Read C `src/topl.c` (if present) or relevant tty code — understand `--More--` prompting
+- [x] Create `js/pline.js`
+- [x] Port `pline()` — format string handling (like printf but simpler)
+- [x] Port message line display — write to row 0 of terminal
+- [x] Port `--More--` prompt — when message would overwrite previous unread message
 - [ ] Port `putmsghistory()` — message recall
-- [ ] Port `Sprintf`-style format helpers used by pline
+- [x] Port `Sprintf`-style format helpers used by pline
 - [ ] Handle `game.flags.verbose` — some messages only show in verbose mode
-- [ ] Wire into display.js, replacing simple `game._pending_message` approach
+- [x] Wire into display.js, replacing simple `game._pending_message` approach
 
 ## C3. Map rendering improvements
 - [ ] Read C `src/display.c` `newsym()` — full logic for what glyph to display at each cell
