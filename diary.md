@@ -200,3 +200,17 @@ Most frequent first-divergence locations across 44 canonical sessions:
       1     Context from C log: @ newpw(exper.c:52)
       1     Context from C log: @ fill_ordinary_room(mklev.c:998)
       1     Context from C log: @ blessorcurse(mkobj.c:1848)
+
+## 2026-05-10
+
+- Reviewed Stream A tasks (`tasks/A-data-tables.md`).
+- Confirmed that sub-tasks A1, A2, A3, and A4 are already marked as `[x]`.
+- As Stream A is fully complete and verified with no remaining sub-tasks, no new code changes were necessary in this session.
+- Next steps should proceed with Stream D (Object System) or Stream E (Monster System), as their dependencies on Stream A are now met.
+
+### Implementation Verification
+
+- Deep-dived into `scripts/extract-objects.js` and `scripts/extract-mons.js`. They are solidly built using simple but robust recursive bracket parsing to capture multi-line C macros from headers. Running them regenerates exact, bit-identical data into `js/objects.js` and `js/monst.js`.
+- Reviewed `extract-role.py` and `parse_roles_to_js.js`; these clearly processed `src/role.c` via intermediate temp files to build `js/roles.js`.
+- Validated `js/const.js` contains the added missing enums (e.g., `WEAPON_CLASS`, `S_ANT`, `G_NOGEN`) required for stream alignment.
+- This codebase layer (Stream A) is rock solid and completely ready to support upcoming work streams.
