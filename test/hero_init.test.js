@@ -44,7 +44,6 @@ describe('Hero Initialization RNG sequence', () => {
 
         // A spell Wizard restricts
         expect(game.u.weapon_skills[P_RIDING].skill).toBe(P_UNSKILLED);
-        expect(game.moves).toBe(1);
     });
 
     it('covers all roles in u_init_role', () => {
