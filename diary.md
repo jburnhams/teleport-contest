@@ -95,6 +95,22 @@ After vault fix + newpw fix, most fully-specified sessions now diverge in the fi
 
 Next: implement real fill phase (replace `fastforward_fill_mineralize` for non-seed8000).
 
+### Stream C Display - botl.js Status lines (+0 screens)
+
+Created `js/botl.js` to handle correct formatting of bottom lines using `bot1()` and `bot2()`.
+- Fixed stats mapping (e.g. `St:18/01`)
+- Handled C's specific spacing around title lines.
+- Extracted exact status condition texts.
+- Verified exact screen parity for the initial turns of seed8000 using Vitest and diff checking scripts.
+- Hooked `bot1()` and `bot2()` directly into `display.js` to clean up inline status line representations.
+- Restored the 21/23 passing screens metric for `seed8000`.
+## 2026-05-10
+- Set up Stream F branch (`feature/stream-f-hero-init`).
+- Created `js/attrib.js` containing `init_attr`, `vary_init_attr`, `acurrstr`, and base attribute management from `attrib.c`.
+- Created `js/exper.js` containing `newuexp`, `newpw`, `newhp`, and `adjabil` stubs.
+- Created `js/u_init.js` and ported `u_init_role`, `u_init_race`, `u_init_misc`, and `u_init_inventory_attrs`.
+- Added the 13 role-specific inventory lists from `u_init.c` via scripts and implemented a minimal subset of `ini_inv` to consume RNG logic for items correctly without having the full object tracking from `Stream D`. Tests and Score checks run cleanly.
+- Next step for this stream: complete F4/F5 integration and wire into `allmain.js` (B5 unblocked). F2 full implementation waits on `Stream D`.
 ---
 ## YYYY-MM-DD
 
@@ -163,3 +179,18 @@ Implemented the full chargen display in `js/chargen.js` so interactive sessions 
 - Implemented tests to verify length `NUMMONS` and spot-checked `PM_GIANT_ANT` and `PM_NEWT` to ensure exact matching and proper macro expansion (`LVL`, `SIZ`, `ATTK`).
 - Confirmed no regressions in the score.
 - Fixed `mons[]` extraction script: explicitly expand `SEDUCTION_ATTACKS` so incubus/succubus receive full 6-element attack arrays, correctly parse all bitmasks to remove `L`/`0L` suffixes, and populate `const.js` with missing macros to avoid `undefined` coercion in the generated output.
+
+Baseline pass rate (chargen+mklev): 100% (20/20)
+Most frequent first-divergence locations across 44 canonical sessions:
+      8     Context from C log: @ makelevel(mklev.c:1410)
+      6     Context from C log: @ lspo_map(sp_lev.c:6163)
+      6     Context from C log: @ fill_special_room(sp_lev.c:2769)
+      3     Context from C log: @ mkobj(mkobj.c:281)
+      2     Context from C log: @ somex(mkroom.c:669)
+      2     Context from C log: @ mkclass_aligned(makemon.c:1946)
+      2     Context from C log: @ makelevel(mklev.c:1295)
+      1     Context from C log: @ traptype_rnd(mklev.c:1951)
+      1     Context from C log: @ nh.rn2 src=themerms.lua:1039 parent=room([C]:-1)
+      1     Context from C log: @ newpw(exper.c:52)
+      1     Context from C log: @ fill_ordinary_room(mklev.c:998)
+      1     Context from C log: @ blessorcurse(mkobj.c:1848)

@@ -19,7 +19,9 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm install
+          npm install --prefix pages
 
       - name: Run tests
         run: npm run test:coverage
@@ -83,6 +85,10 @@ jobs:
 
       - name: Check against baseline
         run: node scripts/check-score.mjs score-stdout.txt scores/baseline.json
+
+      - name: Build Pages
+        run: |
+          npm run pages:build
 
       - name: Upload score results
         if: always()

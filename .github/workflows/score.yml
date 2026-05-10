@@ -19,6 +19,12 @@ jobs:
       - uses: actions/setup-node@v6.4.0
         with:
           node-version: '24'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: |
+          npm install
+          npm install --prefix pages
 
       - name: Verify frozen files unchanged
         run: |

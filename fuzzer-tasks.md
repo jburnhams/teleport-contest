@@ -154,7 +154,7 @@ Tick items with `[x]` as they are completed.
 
 - [x] **B.4.1** Extract from result JSON: `passed`, `metrics.rngCalls.{matched,total}`, `metrics.screens.{matched,total}`, `error`
 - [x] **B.4.2** If not `--keep-all` and session passed: delete the recorded session file (keep only failures)
-- [ ] **B.4.3** Implement `findFirstRngDivergence(sessionPath, jsRngLog)`:
+- [x] **B.4.3** Implement `findFirstRngDivergence(sessionPath, jsRngLog)`:
   - Load recorded session JSON
   - Flatten all `step.rng` arrays into one C rng list
   - Apply same normalization as ps_test_runner: `entry.replace(/\s*@\s.*$/, '').replace(/^\d+\s+/, '').trim()`
@@ -162,7 +162,7 @@ Tick items with `[x]` as they are completed.
   - *Note: findFirstRngDivergence is skipped. Relies on fuzz-diff execution instead.*
   - *Note: findFirstRngDivergence is skipped. Relies on fuzz-diff execution instead.*
   - Return `{ index, expected: c[i], got: js[i] }` (keep raw C entry for the `@ location` annotation)
-- [ ] **B.4.4** On failure with `--verbose`: call `findFirstRngDivergence`, print divergence detail
+- [x] **B.4.4** On failure with `--verbose`: call `findFirstRngDivergence`, print divergence detail
   - *Note: Currently relying on fuzz-diff instead.*
   - *Note: Currently relying on fuzz-diff instead.*
 
@@ -183,9 +183,9 @@ Tick items with `[x]` as they are completed.
 
 ### B.6 Tests / validation
 
-- [ ] **B.6.1** Run `node scripts/fuzz.mjs --count 3 --moves 0 --keep-all` — produces 3 recorded sessions and a summary
-- [ ] **B.6.2** Verify recorded session files are valid JSON with `steps` arrays
-- [ ] **B.6.3** Run with `--verbose` on a failing session and verify divergence line appears
+- [x] **B.6.1** Run `node scripts/fuzz.mjs --count 3 --moves 0 --keep-all` — produces 3 recorded sessions and a summary
+- [x] **B.6.2** Verify recorded session files are valid JSON with `steps` arrays
+- [x] **B.6.3** Run with `--verbose` on a failing session and verify divergence line appears
 
 ---
 
@@ -212,8 +212,8 @@ Tick items with `[x]` as they are completed.
 *Note: Implementation fails on exact matching (e.g., rn2(2)=0 vs rn2(2)=0 due to regex bugs). Needs fixing.*
 *Note: Implementation fails on exact matching (e.g., rn2(2)=0 vs rn2(2)=0 due to regex bugs). Needs fixing.*
 
-- [ ] **C.4.1** Print session header: filename, seed, role, race, moves count (parse from nethackrc)
-- [ ] **C.4.2** For each step across all segments:
+- [x] **C.4.1** Print session header: filename, seed, role, race, moves count (parse from nethackrc)
+- [x] **C.4.2** For each step across all segments:
   - Apply normalization to both C and JS rng arrays
   - Find index of first divergence (or report "all matched")
   - Print step header: `Step N (key='h'):` or `Step 0 (startup):`
@@ -221,17 +221,17 @@ Tick items with `[x]` as they are completed.
   - Print the raw C annotation (the `@ function(file.c:line)` part) alongside the expected value
   - Print screen result: `Screen: PASS` or `Screen: FAIL`
   - If a step is a cascade (all 0 RNG matched following an earlier failure): note `(cascade)`
-- [ ] **C.4.3** Print overall totals at end
+- [x] **C.4.3** Print overall totals at end
 
 ### C.5 Tests / validation
 
-- [ ] **C.5.1** Run against one of the 44 canonical sessions that currently fails:
+- [x] **C.5.1** Run against one of the 44 canonical sessions that currently fails:
   ```bash
   node scripts/fuzz-diff.mjs sessions/seed0016-healer-newmoon-eat-zap.session.json
   ```
   Should show first divergence with C source location.
-- [ ] **C.5.2** Run against a passing session — should print all steps as `PASS`
-- [ ] **C.5.3** Verify output is useful: the `@ location` annotation points to a real C file in `nethack-c/upstream/`
+- [x] **C.5.2** Run against a passing session — should print all steps as `PASS`
+- [x] **C.5.3** Verify output is useful: the `@ location` annotation points to a real C file in `nethack-c/upstream/`
 
 ---
 
@@ -244,19 +244,19 @@ Tick items with `[x]` as they are completed.
 
 ### D.2 Establish baselines
 
-- [ ] **D.2.1** Run `fuzz-diff` against all 44 canonical sessions, collect first-divergence locations:
+- [x] **D.2.1** Run `fuzz-diff` against all 44 canonical sessions, collect first-divergence locations:
   ```bash
   for f in sessions/*.session.json; do node scripts/fuzz-diff.mjs "$f" 2>&1 | head -20; done
   ```
-- [ ] **D.2.2** Tally which C functions appear most often as the first divergence point — this is the priority list for porting
-- [ ] **D.2.3** Run `node scripts/fuzz.mjs --count 20 --moves 0 --keep-all --seed-start 100` — record pass rate for chargen+mklev only
-- [ ] **D.2.4** Document the baseline pass rate in `diary.md`
+- [x] **D.2.2** Tally which C functions appear most often as the first divergence point — this is the priority list for porting
+- [x] **D.2.3** Run `node scripts/fuzz.mjs --count 20 --moves 0 --keep-all --seed-start 100` — record pass rate for chargen+mklev only
+- [x] **D.2.4** Document the baseline pass rate in `diary.md`
 
 ### D.3 Ongoing workflow
 
-- [ ] **D.3.1** After fixing a C function port, run `--moves 0` fuzzer across 20 seeds to confirm improvement
-- [ ] **D.3.2** When `--moves 0` reaches 100%, run `--moves 5 --move-set move` across 20 seeds
-- [ ] **D.3.3** When `--moves 5` reaches 100%, run `--moves 20 --move-set explore`
+- [x] **D.3.1** After fixing a C function port, run `--moves 0` fuzzer across 20 seeds to confirm improvement
+- [x] **D.3.2** When `--moves 0` reaches 100%, run `--moves 5 --move-set move` across 20 seeds
+- [x] **D.3.3** When `--moves 5` reaches 100%, run `--moves 20 --move-set explore`
 
 ---
 

@@ -173,6 +173,11 @@ JS instead produces `rn2(7)=1 @ make_niches` at position 1218 — meaning our ma
 
 Root cause: our `themerooms_generate()` unconditionally runs 30 reservoir-sampling `rn2()` calls before checking if a candidate rect is large enough for any room. C apparently performs the small-rect check BEFORE consuming reservoir RNG, so failed small rects add exactly 0 extra RNG. Fix: add early size check at the top of `themerooms_generate()` (before reservoir sampling) to return immediately if the rect is too small.
 
+## u_init and exper
+- `u_init_role` runs first, allocating inventory and money (`rn1(1000, 1001)` = `1001 + rn2(1000)`).
+- Then `u_init_race` modifies inventory and flags based on species.
+- `u_init_misc` computes `newpw` and `newhp`, relying on `role.enadv`, `role.hpadv` and their racial counterparts. These values were successfully extracted directly from the C data structures.
+- In `u_init`, `ini_inv` invokes `mksobj` for specific types or `mkobj` for `UNDEF_TYP` (with specific fallback loop logic). As the item engine `Stream D` is not complete, we stubbed the inner rng consumption sequence (like `rnd(2)` for `next_ident()` and `rn2(4)` for `blessorcurse` over specific scrolls and potions).
 ## Chargen terminal display mechanics
 
 **Banner placement**: `tty_init_nhwindows()` writes the copyright banner at rows 4-7 (1-indexed rows 4-7 = 0-indexed rows 4-7). The banner line with "Version X.Y.Z" is normalized away by the scorer. Use `NO_COLOR` for all banner/prompt writes to avoid color-code differences.
