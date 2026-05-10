@@ -3212,3 +3212,8 @@ export const AD_CURS = 253;
 export const NODIR = 1;
 export const IMMEDIATE = 2;
 export const RAY = 3;
+
+
+
+
+// Monster constants

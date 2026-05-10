@@ -190,8 +190,6 @@ function oinit() { /* no-op for contest */ }
 
 let _nextObjId = 1;
 
-// C ref: mkobj.c next_ident — rnd(2) for item identification
-function next_ident() { rnd(2); }
 
 // C ref: mkobj.c blessorcurse — rn2(4) BUC selection
 function blessorcurse(otmp) {
@@ -206,7 +204,7 @@ function blessorcurse(otmp) {
 // Minimal stub: consumes RNG for next_ident + type-specific init
 function mksobj(otyp, init, artif) {
     const otmp = { otyp, ox: 0, oy: 0, quan: 1, owt: 1, cursed: false, blessed: false, olocked: false, spe: 0 };
-    next_ident();
+    rnd(2);
     if (init) {
         mksobj_init(otmp, otyp);
     }
@@ -252,7 +250,7 @@ function mkgold(amount, x, y) {
         amount = 1 + rnd(level_difficulty() + 2) * mul;
     }
     // mksobj_at(GOLD_PIECE) calls next_ident
-    next_ident();
+    rnd(2);
 }
 
 function place_object(otmp, x, y) { /* stub */ }

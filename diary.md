@@ -200,3 +200,9 @@ Most frequent first-divergence locations across 44 canonical sessions:
       1     Context from C log: @ newpw(exper.c:52)
       1     Context from C log: @ fill_ordinary_room(mklev.c:998)
       1     Context from C log: @ blessorcurse(mkobj.c:1848)
+
+## 2026-05-10
+- Started Stream E.
+- Ported `newmonst()`, `fmon` list initialization, `place_monster()`, and `m_at(x,y)`.
+- Fixed `next_ident()` tracking by initializing `game.context.ident` inside `resetGame()`, resolving RNG mismatches.
+- Next step: E2 mondata.js helpers.
