@@ -95,6 +95,15 @@ After vault fix + newpw fix, most fully-specified sessions now diverge in the fi
 
 Next: implement real fill phase (replace `fastforward_fill_mineralize` for non-seed8000).
 
+### Stream C Display - botl.js Status lines (+0 screens)
+
+Created `js/botl.js` to handle correct formatting of bottom lines using `bot1()` and `bot2()`.
+- Fixed stats mapping (e.g. `St:18/01`)
+- Handled C's specific spacing around title lines.
+- Extracted exact status condition texts.
+- Verified exact screen parity for the initial turns of seed8000 using Vitest and diff checking scripts.
+- Hooked `bot1()` and `bot2()` directly into `display.js` to clean up inline status line representations.
+- Restored the 21/23 passing screens metric for `seed8000`.
 ## 2026-05-10
 - Set up Stream F branch (`feature/stream-f-hero-init`).
 - Created `js/attrib.js` containing `init_attr`, `vary_init_attr`, `acurrstr`, and base attribute management from `attrib.c`.
