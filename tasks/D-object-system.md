@@ -18,14 +18,14 @@ Port the object creation and management system. Objects are items in the game �
 - [x] Port `obj_extract_self()` — remove from any chain
 
 ## D2. mkobj — object creation
-- [ ] Read C `src/mkobj.c` — understand the full `mksobj()` function
-- [ ] Port `mksobj(otyp, init, artif)` — create object by type index
-- [ ] Port `mkobj(let, artif)` — create random object of a class (e.g., random potion)
-- [ ] Port `mkobj_at(let, x, y, artif)` — create and place on map
+- [x] Read C `src/mkobj.c` — understand the full `mksobj()` function
+- [x] Port `mksobj(otyp, init, artif)` — create object by type index
+- [x] Port `mkobj(let, artif)` — create random object of a class (e.g., random potion)
+- [x] Port `mkobj_at(let, x, y, artif)` — create and place on map
 - [ ] Port quantity generation — arrows/darts come in stacks, gold has random amount
-- [ ] Port BUC (blessed/uncursed/cursed) assignment — `bcsign()`, `curse()`, `bless()`
+- [x] Port BUC (blessed/uncursed/cursed) assignment — `bcsign()`, `curse()`, `bless()`
 - [ ] Port enchantment/charge assignment for weapons, armor, wands, rings
-- [ ] Port `rnd_class()` — pick random object class within probability distribution
+- [x] Port `rnd_class()` — pick random object class within probability distribution
 - [ ] Port `mkobjcnt()` — helper for object generation during mklev
 
 ## D3. Gold handling

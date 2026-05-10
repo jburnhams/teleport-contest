@@ -386,11 +386,34 @@ export const M_spell = [Healing_book, Protection_book, Confuse_monster_book];
 
 // These rely on the basic rng calls made during creation, assuming Stream D handles it fully later.
 // We just need to mimic the exact rng sequence from ini_inv.
+
 export function ini_inv_mkobj_filter(oclass, got_level1_spellbook) {
-    // mkobj internally consumes rn2 or rnd depending on class
-    // Stream D's mkobj stub just does `next_ident() -> rnd(2)`
-    // And mkobj wrapper passes it along
-    // We will mimic the mkobj call by just doing rnd(2) for next_ident
-    // actually, we must be careful with the exact object creation.
-    // wait, o_init.js already exists? Let's just import mkobj from mklev.js for now.
+    let obj = mkobj(oclass, false);
+    let otyp = obj.otyp;
+    let trycnt = 0;
+
+    // Simplistic stub just recreating the same C loop structure
+    // Since gn.nocreate etc aren't fully implemented in our JS, we'll just check the base case.
+    while (
+        otyp === 323 || // WAN_WISHING
+        otyp === 309 || // RIN_LEVITATION
+        otyp === 231 || // POT_HALLUCINATION
+        otyp === 252 || // POT_ACID
+        otyp === 289 || // SCR_AMNESIA
+        otyp === 280 || // SCR_FIRE
+        otyp === 297 || // SCR_BLANK_PAPER
+        otyp === 341 || // SPE_BLANK_PAPER
+        otyp === 302 || // RIN_AGGRAVATE_MONSTER
+        otyp === 303 || // RIN_HUNGER
+        otyp === 322 || // WAN_NOTHING
+        (obj.oclass === 10 && objects[otyp].oc_level > (got_level1_spellbook ? 3 : 1)) // SPBOOK_CLASS
+    ) {
+        if (++trycnt > 1000) {
+            obj = mksobj(364, true, false); // PANCAKE
+            break;
+        }
+        obj = mkobj(oclass, false);
+        otyp = obj.otyp;
+    }
+    return obj;
 }
