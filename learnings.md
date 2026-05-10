@@ -172,3 +172,9 @@ For seed0360 (Wizard, debug mode), RNG matches through all pre-mklev init (indic
 JS instead produces `rn2(7)=1 @ make_niches` at position 1218 — meaning our makerooms exits early (only 8 rooms placed, rect_cnt=2 still has rects to try), then proceeds to make_niches/generate_stairs.
 
 Root cause: our `themerooms_generate()` unconditionally runs 30 reservoir-sampling `rn2()` calls before checking if a candidate rect is large enough for any room. C apparently performs the small-rect check BEFORE consuming reservoir RNG, so failed small rects add exactly 0 extra RNG. Fix: add early size check at the top of `themerooms_generate()` (before reservoir sampling) to return immediately if the rect is too small.
+
+## Object Management
+
+- `place_object` places non-boulder objects underneath boulders. It follows `game.level.objects[x][y]` and inserts below `BOULDER`s if needed.
+- `game.level.objects` must be initialized as a 2D array, rather than a flat array as originally seen.
+- Extract functions (`extract_nexthere`, `extract_nobj`) should return the new head pointer. In JS, we cannot pass head pointers by reference directly unless they are encapsulated in an object property, so functions return the new head.
