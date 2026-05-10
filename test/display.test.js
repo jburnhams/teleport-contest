@@ -1,5 +1,6 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest';
-import { newsym, docrt, show_glyph_cell, pline, flush_screen, bot } from '../js/display.js';
+import { newsym, docrt, show_glyph_cell, flush_screen, bot } from '../js/display.js';
+import { pline } from '../js/pline.js';
 import { game, resetGame } from '../js/gstate.js';
 import { GameMap } from '../js/game.js';
 import { init_vision_globals, vision_reset, vision_recalc } from '../js/vision.js';
