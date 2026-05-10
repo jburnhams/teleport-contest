@@ -200,3 +200,11 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Wrote vitest suite (`test/mondata.test.js`) verifying `monsndx` index retrieval and evaluating several bitflags against `mons[0]` (Giant Ant).
 - Achieved +0 regression score (88/11406 screens baseline) in validation.
 - Next step: Stream E3, the `makemon` core monster generation.
+
+## 2026-05-15
+- Continued Stream D by beginning D2.1: BUC assignment logic (`bcsign`, `curse`, `bless`, `blessorcurse`, `uncurse`).
+- Implemented and ported the BUC routines exactly tracking the C structure (including temporarily commenting out light adjustment functionality until `lamplit` logic is implemented).
+- Fixed the `rng.js` import bug in `test/mkobj.buc.test.js` missing `rn2`.
+- Validated via unit testing that `blessorcurse` sequentially consumes the correct `rn2` calls matching PRNG log format correctly.
+- Achieved +0 regression score (88/11406 screens baseline).
+- Next step: D2.2 (Probability helpers / `rnd_class`) or D2.3.
