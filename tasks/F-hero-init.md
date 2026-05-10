@@ -13,7 +13,7 @@ Port hero initialization — stats, starting inventory, skills, attributes. This
 - [x] Read C `src/u_init.c` — full `u_init()` function
 - [x] Port `u_init()` — main hero setup: race/role/gender/alignment applied to `game.u`
 - [x] Port role-specific stat distributions (`init_attr()` from attrib.c)
-- [x] Port skill initialization (`skill_init()` from weapon.c)
+- [ ] Port skill initialization (`skill_init()` from weapon.c)
 - [x] Port alignment record initialization
 - [x] Port initial HP/energy calculation
 - [x] Port `adjabil()` — racial attribute adjustments
@@ -21,10 +21,10 @@ Port hero initialization — stats, starting inventory, skills, attributes. This
 ## F2. ini_inv — starting inventory (DEPENDS ON: D2)
 - [x] Port `ini_inv()` from u_init.c — create all starting items
 - [x] Port the 13 role-specific inventory tables (trobj arrays)
-- [x] Use `mksobj()` from Stream D for item creation
+- [ ] Use `mksobj()` from Stream D for item creation
 - [x] Handle quantity, BUC status, enchantment per role
-- [x] Port `knows_object()` — mark items as identified
-- [x] Port `uwep`, `uarm`, `uarmh` etc. — equip starting items
+- [ ] Port `knows_object()` — mark items as identified
+- [ ] Port `uwep`, `uarm`, `uarmh` etc. — equip starting items
 
 ## F3. newpw — energy calculation (generalized)
 - [x] Port `newpw()` from exper.c — works for all roles, not just Wizard
@@ -39,7 +39,7 @@ Port hero initialization — stats, starting inventory, skills, attributes. This
 
 ## F5. Experience system
 - [x] Port `newuexp()` — XP thresholds per level
-- [x] Port `check_experience()` — level up/down
+- [ ] Port `check_experience()` — level up/down
 - [x] Port `adjabil()` — intrinsics gained at specific levels
 
 ---

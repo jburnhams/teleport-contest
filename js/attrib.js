@@ -24,7 +24,7 @@ export function set_ATEMP(x, val) { game.u.atemp.a[x] = val; }
 export function ABON(x) { return game.u.abon.a[x]; }
 
 export function acurr(chridx) {
-    let tmp = game.u.abon.a[chridx] + game.u.atemp.a[chridx] + game.u.acurr.a[chridx];
+    let tmp = game.u.abon.a[chridx] + game.u.atemp.a[chridx] + game.u.abase.a[chridx];
     if (chridx === A_STR) {
         if (tmp >= 125) {
             // max strength handling logic if needed
@@ -110,6 +110,7 @@ export function init_attr(np) {
         set_AMAX(i, game.urole.attrbase[i]);
         set_ATEMP(i, 0); // ATIME not fully ported right now
         np -= game.urole.attrbase[i];
+        game.u.acurr.a[i] = game.urole.attrbase[i];
     }
 
     np = init_attr_role_redist(np, true);
