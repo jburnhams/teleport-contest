@@ -194,6 +194,15 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Validated `js/const.js` contains the added missing enums (e.g., `WEAPON_CLASS`, `S_ANT`, `G_NOGEN`) required for stream alignment.
 - This codebase layer (Stream A) is rock solid and completely ready to support upcoming work streams.
 
+## 2026-05-10
+- Completed Stream F2 (`ini_inv`) stubbing the correct RNG sequence according to C `u_init.c` and `mkobj.c`. Replicated quantity adjustment and BUC evaluation correctly using `while (quan > 0)`.
+- Completed Stream F5 by porting `newexplevel` (as `check_experience`), `pluslvl`, `losexp`, and `rndexp` to `exper.js` to handle the experience level RNG and logic. Used the proper `PM_` constants inside `enermod`.
+- Wrote and passed comprehensive tests inside `exper.test.js` to verify functionality. Verified no score regressions across 44 sessions on `main`.
+
+## 2026-05-10
+- Refactored `enermod` correctly using `PM_` constants from `const.js`.
+- Fixed `got_sp1` flag tracking to correctly update state inside `ini_inv`.
+- Replaced fragile hardcoded item class checking with `objects` metadata mapping exactly as directed.
 ## 2026-05-15
 - Continued Stream E, ticking subtask E2 (mondata.js — data helpers).
 - Created `js/mondata.js` and ported `monsndx` along with several movement-type macros (`is_flyer`, `is_swimmer`, `amphibious`, `passes_walls`, etc.) and species macros (`is_undead`, `is_demon`, `is_animal`, etc.).
