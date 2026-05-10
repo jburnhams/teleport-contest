@@ -1,10 +1,9 @@
 {
   "frozen/isaac64.js":        "0e6f41b795f49e58f0d410785c8d14c8dd9d68ac9143ae68319bd555ea247d1e",
   "frozen/terminal.js":       "10fa540ff6e476421327ecc2f683221cef603565f75e988130992ab8cfd25b76",
-  "frozen/storage.js":        "a63c46c81fc54376baa5897e1940ebb6d024deec4ba0820b62b467068a89457e",
-  "frozen/ps_test_runner.mjs":"f6d28ad72fec3c8d24dfea9aba1564d41acb29c61a75937efcd04ba80a951e30",
+  "frozen/storage.js":        "38804e1048c8b2520d60c2dcbe90f86c47627a6d3094a832b85af8756a07fe6c",
+  "frozen/ps_test_runner.mjs":"81eb9bebd50a3deadfc4695e69e99b13572261124940da2a983c8d2d45cdaabc",
   "frozen/screen-decode.mjs": "cb4a0fbfed3dda28c14736e6ae9c8b9eb8c87d75916c50d6df80f40eb0368cbe",
   "frozen/session_loader.mjs":"fb382efa89c272dae8cb700b7dadd075b926ff039ab3eb17480d84ed65029ce6",
-  "frozen/score.sh":          "623c61b34e3e107ec7860be04e3e91cacb77dcf060631ad18639484d3353f063",
-  "frozen/set-category.sh":   "a3051504f8fbe55622fca5e7686f8e7569a4a066528e445efa16713a0356c559"
+  "frozen/score.sh":          "40e05b43a20f12ba4fcc97c8c5c4f9ace272ceacc1b2919e48e53613ce828b93"
 }
