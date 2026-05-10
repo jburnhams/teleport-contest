@@ -182,3 +182,10 @@ Most frequent first-divergence locations across 44 canonical sessions:
 - Reviewed `extract-role.py` and `parse_roles_to_js.js`; these clearly processed `src/role.c` via intermediate temp files to build `js/roles.js`.
 - Validated `js/const.js` contains the added missing enums (e.g., `WEAPON_CLASS`, `S_ANT`, `G_NOGEN`) required for stream alignment.
 - This codebase layer (Stream A) is rock solid and completely ready to support upcoming work streams.
+
+## 2026-05-15
+- Continued Stream E, ticking subtask E2 (mondata.js — data helpers).
+- Created `js/mondata.js` and ported `monsndx` along with several movement-type macros (`is_flyer`, `is_swimmer`, `amphibious`, `passes_walls`, etc.) and species macros (`is_undead`, `is_demon`, `is_animal`, etc.).
+- Wrote vitest suite (`test/mondata.test.js`) verifying `monsndx` index retrieval and evaluating several bitflags against `mons[0]` (Giant Ant).
+- Achieved +0 regression score (88/11406 screens baseline) in validation.
+- Next step: Stream E3, the `makemon` core monster generation.
