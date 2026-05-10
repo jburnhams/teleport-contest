@@ -1,6 +1,8 @@
 
-### Fuzzer Implementation Learnings
-- **ESM Modules in Subprocess Wrappers**: When using `spawn()` to run dynamic code with `fs.writeFileSync`, Node's module resolution for `file:///` URLs expects full file paths, but imports from `.js` files might not properly expose exports unless they were exported properly. We had to use `path.join` and `process.env.REPO_ROOT` rather than hardcoding `/app` to remain portable.
-- **RNG Regexes in `ps_test_runner.mjs`**: The `ps_test_runner` compares logs using a specific regex to identify PRNG calls (`/^(rn2|rnd|rne|rnz|rn1|d|rnl)\(/`). This has to be reproduced perfectly in `scripts/fuzz-diff.mjs` to ensure the exact same normalization occurs when comparing RNG divergence. Careful escaping is required.
-- **JS RNG State Retrieval**: `ps_test_runner.mjs` running in `--worker-session` mode doesn't export the JS RNG log directly. Due to difficulties hooking it, `scripts/fuzz-diff.mjs` now directly executes the runner and attempts to extract error logs from standard output for diff reporting.
-- **Isolating Fastforwarding**: We reverted an attempt to isolate `fastforward_*` functions inside `allmain.js`. Modification of the core game files is not required or desired at this stage.
+# Fuzzer Learnings
+
+1. The `fuzz-diff.mjs` tool is incredibly valuable for finding exactly where the RNG diverges between C and JS implementations.
+2. There's a slight discrepancy in PRNG matching if we look at the raw steps; `fuzz-diff.mjs` accounts for this by filtering to only `rn2`, `rnd`, `rne`, `rnz`, `rn1`, `d`, `rnl` calls, just like `ps_test_runner.mjs`.
+3. We noticed that `makelevel` and `lspo_map` are frequent culprits for initial divergence during level generation, meaning they should be high-priority candidates for porting.
+4. Currently, the generated 0-move, 5-move, and 20-move fuzzer sessions pass perfectly, but this is primarily because these sessions don't trigger the specific edge cases causing failures in the canonical 44 sessions, or because the fast-forwarding mechanic successfully bypasses the divergence.
+5. To diff screens precisely, the normalizer must use the same `screensVisuallyEqual` function from `ps_test_runner.mjs` if we want strict output, though for `fuzz-diff.mjs` we mostly care if the PRNG has cascaded.
