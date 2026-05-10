@@ -1,6 +1,6 @@
 # seed0398: The Polymorph Experiment
 
-**Subsystem Focus:** Validates the administrative `#wizwish` and `#wizgenesis` commands, as well as the mechanical resolution of the wand of polymorph on a specific monster target.
+**Subsystem Focus**: Validates the administrative `#wizwish` and `#wizgenesis` commands, as well as the mechanical resolution of the wand of polymorph on a specific monster target.
 
 This session serves as a high-precision mechanical validation of the engine's object-generation and monster-transformation subroutines. The user entity—a Wizard appropriately named *Wizard*—demonstrates the engine's ability to create specific items and entities via administrative commands and then resolves a complex state-change interaction between them.
 
