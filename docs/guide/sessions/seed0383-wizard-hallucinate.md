@@ -4,7 +4,7 @@
 
 This session serves as a rigorous mechanical validation of the engine's perception-distortion subroutines. The user entity—a Wizard named *Wizard*—demonstrates the engine's ability to maintain a perfectly deterministic underlying reality while simultaneously rendering a chaotic, randomised overlay of monster names and environmental events.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Steps 1–3: The Evoker Setup**
 The engine performs 2,448 PRNG calls to generate the initial state (St:12 Dx:14 Co:12 In:15 Wi:12). Wizard begins on Dungeon Level 1 and declines the tutorial.

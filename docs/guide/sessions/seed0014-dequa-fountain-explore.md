@@ -4,7 +4,7 @@
 
 This session provides a rigorous mechanical shakedown of the object dipping subroutines. The user entity—a Lawful Dwarven Valkyrie named *Dequa*—demonstrates the engine's ability to handle complex item-environment interactions and the resulting legal repercussions in a procedurally generated dungeon.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Steps 1–13: The Stripling Valkyrie**
 Dequa is created through a sequence of manual menu selections (`v` for Valkyrie, `d` for Dwarf). The engine calculates her impressive Strength (18/02) and Constitution (18) across 2,953 PRNG calls. Upon materialising, she is greeted by the light of a Full Moon, granting her a deterministic luck bonus.

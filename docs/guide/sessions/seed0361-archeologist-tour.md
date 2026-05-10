@@ -4,7 +4,7 @@
 
 This session serves as a rigorous mechanical validation of the engine's debugging infrastructure from the perspective of an Archeologist. The user entity—appropriately named *Wizard*—demonstrates the engine's ability to handle rapid jumps through the dungeon hierarchy while maintaining role-specific state.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Steps 1–3: The Digger Setup**
 The engine performs 2,922 PRNG calls to generate the initial state for a neutral human Archeologist (St:10 Dx:11 Co:11 In:15 Wi:18). Wizard begins on Dungeon Level 1 and declines the tutorial.

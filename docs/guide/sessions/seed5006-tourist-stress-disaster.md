@@ -4,6 +4,7 @@
 
 This remarkable two-segment session is a methodical stress test of the engine's most exotic state transitions. In Segment 0, a Tourist named *Wizard* systematically accumulates cursed items, blindfolds herself, drinks a potion of confusion, and then misreads a scroll of teleportation before zapping herself with a wand of death. In Segment 1, a Knight—also named *Wizard*—teleports to the same level, retrieves the Tourist's bones file, prays unsuccessfully, and promptly repeats the self-zapping experiment. It is an exercise in administrative self-destruction of considerable thoroughness.
 
+### Mechanical Sequence
 ### Segment 0: The Tourist's Methodical Demise
 
 **Step 0: Initialisation**

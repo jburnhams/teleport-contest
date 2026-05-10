@@ -4,7 +4,7 @@
 
 This session serves as a rigorous mechanical validation of the engine's equipment-state logic. The user entity—a human Ranger named *Ricky*—demonstrates the engine's ability to handle the subtle distinction between "quivering" a projectile-launcher and actually "wielding" it, leading to a predictably suboptimal combat result.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Steps 1–3: The Tenderfoot**
 The engine performs 2,291 PRNG calls to generate the universe and Ricky's attributes (St:15 Dx:11 Co:15 In:13 Wi:14 Ch:7). Ricky begins her journey on Dungeon Level 1, declining the tutorial.

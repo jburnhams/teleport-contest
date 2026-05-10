@@ -4,7 +4,7 @@
 
 This session serves as a rigorous evaluation of the manual character creation menus and the brutal efficiency of the engine's area-of-effect spawning logic. The user entity—an Orcish Rogue styled as *Septor the Footpad*—navigates through multiple UI prompts to assert his existence, only to be promptly un-made by a fountain.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Steps 1–14: Asserting Identity**
 Unlike standard runs which rely on automatic generation, the user asserts direct control over the character creation process. They type `S, e, p, t, o, r` to name the entity. At Step 7, they explicitly decline automatic role selection (`n`), instead navigating the menus to manually request the role of Rogue (`r`), the male gender (`m`), and the Orcish race (`o`). 

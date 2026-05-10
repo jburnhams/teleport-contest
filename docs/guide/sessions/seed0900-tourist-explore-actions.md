@@ -4,7 +4,7 @@
 
 This session serves as a rigorous mechanical validation of the engine's administrative and combat-automation subroutines. The user entity—a Tourist named *Touristo*—demonstrates the engine's ability to handle the "non-scoring explore mode" flag, the queuing of repeated commands via count prefixes, and the deterministic resolution of a multi-turn melee between a pet and a monster.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Steps 1–3: The Explore Mode**
 The engine performs 2,471 PRNG calls to generate the universe and Touristo's attributes (St:13 Dx:10 Co:12 In:12 Wi:11). Immediately upon starting, the engine applies the administrative status flag: *You are in non-scoring explore/discovery mode.* This validates the engine's ability to bypass standard scoring logic while maintaining the integrity of the simulation.

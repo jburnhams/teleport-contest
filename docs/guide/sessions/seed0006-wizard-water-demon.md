@@ -4,7 +4,7 @@
 
 This session is a comprehensive end-to-end validation, beginning with one of the most elaborate character generation sequences in the public sessions, proceeding through options configuration and dungeon exploration, and culminating in a fatal encounter with a water demon. The user entity—a gnomish Wizard named *Hextra the Evoker* (St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7)—demonstrates the engine's ability to handle interactive menu-driven chargen, combat resolution, and cross-level monster pursuit.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Steps 1–35: The Elaborate Chargen**
 Unlike fully-specified sessions, this one exercises the interactive character creation menus extensively. The user types "Hextrum" as a name, answers `n` to auto-pick, and selects Wizard/Orc/female. The engine prompts *Is this ok?* — the user says `n`. They restart, retype "Hextra", then use the `~` filter command to select specific role constraints. After toggling eight filter flags (`a`, `b`, `c`, `r`, `R`, `H`, `E`, `D`), they reselect Wizard/Gnome/female. At Step 33, the engine consumes 1 PRNG call for the gnome race alignment resolution. At Step 35, the user confirms — and 2,498 PRNG calls explode into existence, generating the dungeon, inventory, and starting state. *It is written in the Book of Thoth.*

@@ -6,7 +6,7 @@ This session establishes the baseline validation for the core game loop. Rather 
 
 The entity generated is a "Tourist"—a purportedly human female named Contestant who arrives in the dungeon with a camera, a Hawaiian shirt, and exactly $757. On screen, she is represented by a single `@`. Let us review her short, deterministic life frame by frame.
 
-### Frame-by-Frame Execution Log
+### Mechanical Sequence
 
 **Step 0: Initialisation (NULL key)**
 The engine performs exactly 2,975 PRNG calls. This massive burst of computation seeds the universe: character attribute generation (St:9 Dx:14 Co:12 In:11 Wi:16 Ch:16), starting inventory, and the complete procedural generation of Dungeon Level 1. The message line warmly outputs: *Aloha Contestant, welcome to NetHack!*

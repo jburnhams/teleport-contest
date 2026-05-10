@@ -33,7 +33,7 @@ for (const file of files) {
     let md = `# ${file.replace('.session.json', '')}\n\n`;
     md += `**Subsystem Focus:** Validates general deterministic synchronisation and state persistence.\n\n`;
     md += `This document is an automated frame-by-frame mechanical breakdown of the canonical execution. It rigorously traces the entity's path through the engine's subsystems.\n\n`;
-    md += `### Frame-by-Frame Execution Log\n\n`;
+    md += `### Mechanical Sequence\n\n`;
     
     d.segments.forEach((seg, sIdx) => {
         let currentPhase = {
