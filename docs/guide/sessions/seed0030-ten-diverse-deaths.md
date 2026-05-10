@@ -2,12 +2,12 @@
 
 **Subsystem Focus:** Validates the post-mortem UI loops, bones file generation triggers, and a wide variety of combat resolution end-states.
 
-This extraordinary session is a stress test of the engine's mortality subroutines. Across ten distinct game segments, the user entity experiences ten unique deterministic deaths. It is a comprehensive validation of the post-mortem UI state machine, ensuring that every possible way to cease existing is mathematically accounted for.
+This extraordinary session is a stress test of the engine's mortality subroutines. Across ten distinct game segments, the user entity experiences a mixture of exploration and deterministic deaths. It is a comprehensive validation of the post-mortem UI state machine and input handling, ensuring that the engine maintains perfect synchronisation across multi-segment sessions.
 
 ### Frame-by-Frame Execution Highlights
 
-**Segment 0: The Gnome's Bow**
-Quincy the Tourist begins his journey. At Step 73, after a brief exchange of pleasantries with a gnome, the engine calculates a fatal projectile hit. *You die...* The post-mortem loop is validated for the first time.
+**Segment 0: The Healer's Stroll**
+Quincy the Healer begins her journey with 2,443 PRNG calls to generate the universe. She explores the dungeon level, wandering corridors with standard movement keys. The segment concludes without combat — the engine validates basic multi-step locomotion and the "Unknown command" response for spurious space-key inputs.
 
 **Segment 1: The Mimic's Deception**
 A new entity is generated. At Step 118, the engine resolves a combat interaction with a "small mimic" class object. The mimic hits, the entity's HP reaches zero, and the engine correctly triggers the death sequence.
@@ -22,12 +22,15 @@ A more complex death. At Step 286, a specialised entity named Maganasipi zaps a 
 At Step 192, a low-level canine entity (jackal) resolves a bite attack. The engine proves that even the most basic of predators can successfully terminate the player process if the PRNG dictates.
 
 **Segment 5: The Hidden Arrow**
-Environmental hazards are validated. At Step 244, the entity triggers a hidden trap. *You are hit by an arrow! You die...* The engine calculates 53 PRNG calls to resolve the post-mortem attributes.
+Environmental hazards are validated. The entity explores extensively over 236 steps, testing trap detection and interaction subroutines.
 
 **Segment 6: The Rebounding Wand**
-At Step 162, a wand-based combat interaction resolves in a fatality. The engine again validates the "possession identification" UI prompt, ensuring the user can see exactly what they were carrying when they were vaporised.
+At Step 244, a wand-based combat interaction resolves in a fatality. The engine again validates the "possession identification" UI prompt, ensuring the user can see exactly what they were carrying when they were vaporised.
 
-**Segments 7–9: Statistical Finality**
-The final three segments complete the ten-fold experiment, each concluding in a deterministic fatality. Each death serves to strengthen the engine's state-persistence validation, proving that the transition from "active process" to "bones file candidate" is perfectly reproducible across every conceivable combat scenario.
+**Segment 7: Swidnica's Theft**
+At Step 162, a combat death at the hands of Swidnica. The engine validates the item-theft-upon-death pathway: *You die... Swidnica takes all your possessions.*
+
+**Segments 8–9: Statistical Finality**
+The final two segments complete the experiment with extended exploration runs, each testing the engine's state-persistence validation across segment boundaries. The transition between segments proves that cross-session state (bones, save files) is maintained correctly.
 
 It is a poignant, algorithmic symphony of failure, proving that while there are many ways to die in the Dungeon of Doom, every single one of them is meticulously tracked by the mathematical engine.

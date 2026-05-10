@@ -1,7 +1,6 @@
 
 === SEGMENT 0 ===
 [Step 0] Key: NULL (Init) | PRNG: 0 calls
-  Status:  | 
 [Step 1] Key: H | PRNG: 0 calls
   Map updated (1 rows changed)
 [Step 2] Key: e | PRNG: 0 calls
@@ -16,7 +15,7 @@
   Map updated (1 rows changed)
 [Step 7] Key: m | PRNG: 0 calls
   Map updated (1 rows changed)
-[Step 8] Key: \r (Enter) | PRNG: 0 calls
+[Step 8] Key: \n | PRNG: 0 calls
   Msg: Shall I pick character's race, role, gender and alignment for you? [ynaq]
 [Step 9] Key: n | PRNG: 0 calls
   Msg: Pick a role or profession
@@ -25,7 +24,6 @@
 [Step 10] Key: w | PRNG: 0 calls
   Msg: Pick a race or species
   Map updated (19 rows changed)
-  Status update:  | 
 [Step 11] Key: o | PRNG: 1 calls
   Msg: Pick a gender or sex
   Map updated (13 rows changed)
@@ -46,7 +44,7 @@
   Map updated (1 rows changed)
 [Step 19] Key: a | PRNG: 0 calls
   Map updated (1 rows changed)
-[Step 20] Key: \r (Enter) | PRNG: 0 calls
+[Step 20] Key: \n | PRNG: 0 calls
   Msg: Is this ok? [ynaq]
   Map updated (6 rows changed)
 [Step 21] Key: n | PRNG: 0 calls
@@ -81,10 +79,9 @@
 [Step 30] Key: D | PRNG: 0 calls
   Msg: Pick all that apply
   Map updated (1 rows changed)
-[Step 31] Key: \r (Enter) | PRNG: 0 calls
+[Step 31] Key: \n | PRNG: 0 calls
   Msg: Pick a role or profession
   Map updated (19 rows changed)
-  Status update:  | 
 [Step 32] Key: w | PRNG: 0 calls
   Msg: Pick a race or species
   Map updated (4 rows changed)
@@ -94,7 +91,7 @@
 [Step 34] Key: f | PRNG: 0 calls
   Msg: Is this ok? [ynaq]
   Map updated (11 rows changed)
-[Step 35] Key: \r (Enter) | PRNG: 2498 calls
+[Step 35] Key: \n | PRNG: 2498 calls
   Msg: It is written in the Book of Thoth:
   Map updated (15 rows changed)
   Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:11(11) Pw:7(7) AC:0 Xp:1
@@ -138,7 +135,6 @@
 [Step 50] Key: o | PRNG: 0 calls
   Msg: Autopickup what?
   Map updated (20 rows changed)
-  Status update:  | 
 [Step 51] Key: $ | PRNG: 0 calls
   Msg: Autopickup what?
   Map updated (1 rows changed)
@@ -157,13 +153,12 @@
 [Step 56] Key: ? | PRNG: 0 calls
   Msg: Autopickup what?
   Map updated (1 rows changed)
-[Step 57] Key: \r (Enter) | PRNG: 0 calls
+[Step 57] Key: \n | PRNG: 0 calls
   Msg: Options
   Map updated (20 rows changed)
   Status update: p - pushweapon              [ ] | (1 of 2)
 [Step 58] Key:   | PRNG: 0 calls
   Map updated (21 rows changed)
-  Status update:  | 
 [Step 59] Key: e | PRNG: 0 calls
   Msg: Options
   Map updated (21 rows changed)
@@ -179,7 +174,6 @@
   Map updated (1 rows changed)
 [Step 63] Key:   | PRNG: 0 calls
   Map updated (21 rows changed)
-  Status update:  | 
 [Step 64] Key: f | PRNG: 0 calls
   Msg: Options
   Map updated (21 rows changed)
@@ -189,21 +183,18 @@
   Map updated (1 rows changed)
 [Step 66] Key:   | PRNG: 0 calls
   Map updated (21 rows changed)
-  Status update:  | 
 [Step 67] Key: l | PRNG: 0 calls
   Msg: Options
   Map updated (21 rows changed)
   Status update: p - pushweapon              [ ] | (1 of 2)
 [Step 68] Key:   | PRNG: 0 calls
   Map updated (21 rows changed)
-  Status update:  | 
 [Step 69] Key: p | PRNG: 0 calls
   Msg: Options
   Map updated (21 rows changed)
   Status update: p - pushweapon              [ ] | (1 of 2)
 [Step 70] Key:   | PRNG: 0 calls
   Map updated (21 rows changed)
-  Status update:  | 
 [Step 71] Key:   | PRNG: 0 calls
   Map updated (20 rows changed)
   Status update: Hextra the Evoker              St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7 Neutral | Dlvl:1 $:0 HP:11(11) Pw:7(7) AC:9 Xp:1/1 T:16
@@ -329,7 +320,6 @@
 [Step 111] Key:   | PRNG: 0 calls
   Msg: Gems/Stones
   Map updated (21 rows changed)
-  Status update:  | 
 [Step 112] Key:   | PRNG: 0 calls
   Msg: Do you want to see your attributes? [ynq] (n)
   Map updated (17 rows changed)
@@ -341,7 +331,7 @@
 [Step 114] Key:   | PRNG: 0 calls
   Msg: Your constitution was 11 (limit:18).
   Map updated (21 rows changed)
-  Status update: --More-- | 
+  Status update: --More--
 [Step 115] Key:   | PRNG: 0 calls
   Msg: Do you want an account of creatures vanquished? [ynaq] (n)
   Map updated (20 rows changed)

@@ -74,7 +74,7 @@
   Status update: Kira the Candidate             St:14 Dx:16 Co:13 In:8 Wi:15 Ch:9 Neutral | Dlvl:1 $:0 HP:14(14) Pw:5(5) AC:4 Xp:1/6 T:20
 [Step 25] Key:   | PRNG: 0 calls
   Msg: Unknown command ' '.
-[Step 26] Key:  | PRNG: 0 calls
+[Step 26] Key: \x04 | PRNG: 0 calls
   Msg: In what direction?
 [Step 27] Key: j | PRNG: 12 calls
   Msg: You kick at empty space.
@@ -96,14 +96,13 @@
 [Step 33] Key: ESC | PRNG: 0 calls
   Map updated (20 rows changed)
   Status update: Kira the Candidate             St:14 Dx:16 Co:13 In:8 Wi:15 Ch:9 Neutral | Dlvl:1 $:0 HP:14(14) Pw:5(5) AC:4 Xp:1/6 T:20
-[Step 34] Key:  | PRNG: 0 calls
+[Step 34] Key: \x18 | PRNG: 0 calls
   Msg: Kira the Monk's attributes:
   Map updated (19 rows changed)
   Status update: Your intelligence is 8. | (1 of 2)
 [Step 35] Key:   | PRNG: 0 calls
   Msg: Your wisdom is 15.
   Map updated (20 rows changed)
-  Status update:  | 
 [Step 36] Key: ESC | PRNG: 0 calls
   Map updated (12 rows changed)
   Status update: Kira the Candidate             St:14 Dx:16 Co:13 In:8 Wi:15 Ch:9 Neutral | Dlvl:1 $:0 HP:14(14) Pw:5(5) AC:4 Xp:1/6 T:20

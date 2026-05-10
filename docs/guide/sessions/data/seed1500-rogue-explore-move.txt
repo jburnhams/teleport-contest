@@ -73,14 +73,13 @@
 [Step 33] Key: ESC | PRNG: 0 calls
   Map updated (12 rows changed)
   Status update: Robin the Footpad              St:11 Dx:18 Co:11 In:12 Wi:11 Ch:12 Chaotic | Dlvl:1 $:0 HP:12(12) Pw:2(2) AC:7 Xp:1
-[Step 34] Key:  | PRNG: 0 calls
+[Step 34] Key: \x18 | PRNG: 0 calls
   Msg: Robin the Rogue's attributes:
   Map updated (19 rows changed)
   Status update: Your intelligence is 12. | (1 of 2)
 [Step 35] Key:   | PRNG: 0 calls
   Msg: Your wisdom is 11.
   Map updated (20 rows changed)
-  Status update:  | 
 [Step 36] Key: ESC | PRNG: 0 calls
   Map updated (14 rows changed)
   Status update: Robin the Footpad              St:11 Dx:18 Co:11 In:12 Wi:11 Ch:12 Chaotic | Dlvl:1 $:0 HP:12(12) Pw:2(2) AC:7 Xp:1

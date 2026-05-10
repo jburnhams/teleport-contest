@@ -37,7 +37,7 @@
   Msg: You know "healing" quite well already.--More--
 [Step 14] Key: n | PRNG: 0 calls
   Msg: You know "healing" quite well already.--More--
-[Step 15] Key: \r (Enter) | PRNG: 0 calls
+[Step 15] Key: \n | PRNG: 0 calls
   Msg: Refresh your memory anyway? [yn] (n)
 [Step 16] Key: i | PRNG: 0 calls
   Msg: Refresh your memory anyway? [yn] (n)
@@ -55,14 +55,13 @@
 [Step 21] Key: ESC | PRNG: 0 calls
   Map updated (9 rows changed)
   Status update: Clara the Aspirant             St:13 Dx:12 Co:13 In:10 Wi:18 Ch:9 Neutral | Dlvl:1 $:0 HP:14(14) Pw:1(6) AC:7 Xp:1
-[Step 22] Key:  | PRNG: 0 calls
+[Step 22] Key: \x18 | PRNG: 0 calls
   Msg: Clara the Priestess's attributes:
   Map updated (19 rows changed)
   Status update: Your intelligence is 10. | (1 of 2)
 [Step 23] Key:   | PRNG: 0 calls
   Msg: Your wisdom is 18.
   Map updated (20 rows changed)
-  Status update:  | 
 [Step 24] Key: ESC | PRNG: 0 calls
   Map updated (10 rows changed)
   Status update: Clara the Aspirant             St:13 Dx:12 Co:13 In:10 Wi:18 Ch:9 Neutral | Dlvl:1 $:0 HP:14(14) Pw:1(6) AC:7 Xp:1
