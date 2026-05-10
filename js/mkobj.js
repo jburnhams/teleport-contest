@@ -229,10 +229,12 @@ export function obj_extract_self(obj) {
 }
 
 
+
+
 export function next_ident() {
     let res = game.context.ident;
-    game.context.ident += rnd(2); /* ready for next new object or monster */
-    if (!game.context.ident)
+    game.context.ident = (game.context.ident + rnd(2)) >>> 0; /* ready for next new object or monster */
+    if (game.context.ident === 0)
         game.context.ident = rnd(2) + 1;   /* id 1 is reserved */
     return res;
 }

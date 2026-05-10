@@ -204,7 +204,7 @@ function blessorcurse(otmp) {
 // Minimal stub: consumes RNG for next_ident + type-specific init
 function mksobj(otyp, init, artif) {
     const otmp = { otyp, ox: 0, oy: 0, quan: 1, owt: 1, cursed: false, blessed: false, olocked: false, spe: 0 };
-    rnd(2);
+    next_ident();
     if (init) {
         mksobj_init(otmp, otyp);
     }
@@ -250,7 +250,7 @@ function mkgold(amount, x, y) {
         amount = 1 + rnd(level_difficulty() + 2) * mul;
     }
     // mksobj_at(GOLD_PIECE) calls next_ident
-    rnd(2);
+    next_ident();
 }
 
 function place_object(otmp, x, y) { /* stub */ }

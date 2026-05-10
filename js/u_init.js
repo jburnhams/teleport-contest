@@ -202,7 +202,7 @@ export function ini_inv(trop) {
 
         if (otyp !== UNDEF_TYP) {
             // In C: obj = mksobj(otyp, TRUE, FALSE);
-            rnd(2); // next_ident
+            next_ident(); // next_ident
             // mksobj_init for scrolls and potions does blessorcurse -> rn2(4)
             if ((otyp >= 270 && otyp < 300) || (otyp >= 230 && otyp < 270)) {
                 rn2(4);
@@ -210,7 +210,7 @@ export function ini_inv(trop) {
         } else {
             // UNDEF_TYP -> randomly generated object class
             // obj = mkobj(t.trclass, FALSE);
-            rnd(2);
+            next_ident();
             // Since mkobj returns something, if it returns scroll/potion, it would consume rn2(4)
             // But we don't know the exact class returned by the stub.
         }

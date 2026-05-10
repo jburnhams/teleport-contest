@@ -6,7 +6,5 @@ export let game = {};
 export function resetGame() {
     for (const key in game) delete game[key];
     game.context = { ident: 1 };
-    for (const key in game) delete game[key];
-    game.context = { ident: 1 };
     return game;
 }
