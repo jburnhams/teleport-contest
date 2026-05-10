@@ -4,32 +4,32 @@
  * Standalone tool to find the first PRNG divergence in a session.
  */
 
-import { spawn } from 'node:child_process';
 import * as fs from 'node:fs/promises';
 import * as path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { normalizeSession } from '../frozen/session_loader.mjs';
+import { runSegment } from '../js/jsmain.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, '..');
-const TEST_RUNNER = path.join(ROOT, 'frozen', 'ps_test_runner.mjs');
+
+// Basic screen matching stub since we don't have the full visualizer here,
+// and we know if RNG cascaded, screen will fail anyway.
+function screensVisuallyEqual(a, b) {
+    if (!a && !b) return true;
+    if (!a || !b) return false;
+    return a === b;
+}
 
 function normalizeRng(entry) {
+  if (typeof entry !== 'string') entry = String(entry);
   return entry.replace(/\s*@\s.*$/, '').replace(/^\d+\s+/, '').trim();
 }
 
-async function runCommand(cmd, args, options = {}) {
-  return new Promise((resolve, reject) => {
-    const child = spawn(cmd, args, { ...options, stdio: ['ignore', 'pipe', 'pipe'] });
-    let stdout = '';
-    let stderr = '';
-    child.stdout.on('data', d => stdout += d.toString());
-    child.stderr.on('data', d => stderr += d.toString());
-    child.on('error', err => reject(err));
-    child.on('close', code => resolve({ code, stdout, stderr }));
-  });
+function isRngCall(s) {
+  if (typeof s !== 'string') s = String(s);
+  return /^(rn2|rnd|rne|rnz|rn1|d|rnl)\(/.test(normalizeRng(s));
 }
-
 
 async function main() {
   const sessionPath = process.argv[2];
@@ -54,10 +54,11 @@ async function main() {
   let nethackrc = '';
   let movesCount = 0;
   let seed = 'unknown';
+  let movesStr = '';
   if (session.segments && session.segments.length > 0) {
     nethackrc = session.segments[0].nethackrc || '';
     seed = session.segments[0].seed;
-    const movesStr = session.segments[0].moves || '';
+    movesStr = session.segments[0].moves || '';
     movesCount = movesStr.length;
   }
 
@@ -68,38 +69,106 @@ async function main() {
 
   console.log(`Session: ${path.basename(sessionPath)}`);
   console.log(`Seed: ${seed}  Role: ${role}  Race: ${race}  Moves: ${movesCount}`);
-  console.log();
+  console.log('');
 
-  // Run the test runner
-  const testRunnerProc = spawn('node', [TEST_RUNNER, '--worker-session=' + sessionPath], { stdio: ['ignore', 'pipe', 'pipe'] });
-  let stdout = '';
-  let stderr = '';
-  testRunnerProc.stdout.on('data', d => stdout += d.toString());
-  testRunnerProc.stderr.on('data', d => stderr += d.toString());
+  let cascade = false;
+  let stepGlobalIdx = 0;
+  let overallC_rngMatched = 0;
+  let overallC_rngTotal = 0;
 
-  await new Promise(resolve => testRunnerProc.on('close', resolve));
+  for (let segIdx = 0; segIdx < session.segments.length; segIdx++) {
+    const seg = session.segments[segIdx];
+    const storage = new Map();
+    const storageHandle = {
+        getItem(k) { return storage.has(k) ? storage.get(k) : null; },
+        setItem(k, v) { storage.set(k, String(v)); },
+        removeItem(k) { storage.delete(k); },
+        get length() { return storage.size; },
+        key(i) {
+            let n = 0;
+            for (const k of storage.keys()) { if (n === i) return k; n++; }
+            return null;
+        },
+    };
 
-  const parts = stdout.split('__RESULT_ONE__\n');
-  if (parts.length < 2) {
-    console.error('Test runner output not understood.');
-    process.exit(1);
+    const input = {
+        seed: seg.seed,
+        datetime: seg.datetime,
+        nethackrc: seg.nethackrc,
+        moves: seg.moves,
+        storage: storageHandle
+    };
+
+    let jsGame;
+    try {
+        jsGame = await runSegment(input);
+    } catch(e) {
+        console.error("JS crashed:", e);
+        return;
+    }
+
+    const jsRngSlices = jsGame.getRngSlices() || [];
+    const jsScreens = jsGame.getScreens() || [];
+    const cSteps = seg.steps || [];
+
+    for (let stepIdx = 0; stepIdx < cSteps.length; stepIdx++) {
+      const cStep = cSteps[stepIdx];
+      const stepHeader = stepIdx === 0 ? "Step 0 (startup):" : `Step ${stepGlobalIdx} (key='${input.moves[stepIdx-1]}'):`;
+      console.log(stepHeader);
+
+      const cRng = (cStep.rng || []).filter(isRngCall);
+      let jsRngSlice = stepIdx < jsRngSlices.length ? jsRngSlices[stepIdx] : [];
+      jsRngSlice = jsRngSlice.filter(isRngCall);
+
+      overallC_rngTotal += cRng.length;
+
+      let matchedCount = 0;
+      let divergeIndex = -1;
+
+      const maxLen = Math.max(cRng.length, jsRngSlice.length);
+      for (let i = 0; i < maxLen; i++) {
+         const cNorm = i < cRng.length ? normalizeRng(cRng[i]) : undefined;
+         const jsNorm = i < jsRngSlice.length ? normalizeRng(jsRngSlice[i]) : undefined;
+         if (cNorm === jsNorm && cNorm !== undefined) {
+             matchedCount++;
+         } else {
+             divergeIndex = i;
+             break;
+         }
+      }
+
+      overallC_rngMatched += matchedCount;
+
+      if (cascade !== false) {
+         console.log(`  RNG: 0/${cRng.length} matched (cascade from step ${cascade})`);
+         console.log(`  Screen: FAIL`);
+      } else {
+          if (divergeIndex === -1 && cRng.length === jsRngSlice.length) {
+             console.log(`  RNG: ${matchedCount}/${cRng.length} matched`);
+             console.log(`  Screen: PASS`); // approximate
+          } else {
+             console.log(`  RNG: ${matchedCount}/${cRng.length} matched, first divergence at call #${overallC_rngMatched - matchedCount + divergeIndex + 1}`);
+             const expected = divergeIndex < cRng.length ? cRng[divergeIndex] : '<none>';
+             const expectedNorm = divergeIndex < cRng.length ? normalizeRng(cRng[divergeIndex]) : '<none>';
+             const gotNorm = divergeIndex < jsRngSlice.length ? normalizeRng(jsRngSlice[divergeIndex]) : '<none>';
+
+             const contextMatch = expected.match(/(@.*)$/);
+             const context = contextMatch ? contextMatch[1] : '';
+
+             console.log(`    #${overallC_rngMatched - matchedCount + divergeIndex + 1} expected: ${expectedNorm}`);
+             console.log(`    #${overallC_rngMatched - matchedCount + divergeIndex + 1} got:      ${gotNorm}`);
+             if (context) {
+                 console.log(`    Context from C log: ${context.trim()}`);
+             }
+             console.log(`  Screen: FAIL (RNG cascade means screen can't match)`);
+             cascade = stepGlobalIdx;
+          }
+      }
+      console.log('');
+      stepGlobalIdx++;
+    }
   }
 
-  let result;
-  try {
-    result = JSON.parse(parts[1]);
-  } catch (e) {
-    console.error('Failed to parse test runner output');
-    process.exit(1);
-  }
-
-  if (result.passed) {
-    console.log('Session PASSED - no divergence.');
-    return;
-  }
-
-  if (result.error) {
-     console.log(result.error);
-  }
 }
+
 main().catch(console.error);

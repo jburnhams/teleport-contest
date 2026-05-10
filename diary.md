@@ -104,3 +104,18 @@ Next: implement real fill phase (replace `fastforward_fill_mineralize` for non-s
 
 
 - Fixed `mons[]` extraction script: explicitly expand `SEDUCTION_ATTACKS` so incubus/succubus receive full 6-element attack arrays, correctly parse all bitmasks to remove `L`/`0L` suffixes, and populate `const.js` with missing macros to avoid `undefined` coercion in the generated output.
+
+Baseline pass rate (chargen+mklev): 100% (20/20)
+Most frequent first-divergence locations across 44 canonical sessions:
+      8     Context from C log: @ makelevel(mklev.c:1410)
+      6     Context from C log: @ lspo_map(sp_lev.c:6163)
+      6     Context from C log: @ fill_special_room(sp_lev.c:2769)
+      3     Context from C log: @ mkobj(mkobj.c:281)
+      2     Context from C log: @ somex(mkroom.c:669)
+      2     Context from C log: @ mkclass_aligned(makemon.c:1946)
+      2     Context from C log: @ makelevel(mklev.c:1295)
+      1     Context from C log: @ traptype_rnd(mklev.c:1951)
+      1     Context from C log: @ nh.rn2 src=themerms.lua:1039 parent=room([C]:-1)
+      1     Context from C log: @ newpw(exper.c:52)
+      1     Context from C log: @ fill_ordinary_room(mklev.c:998)
+      1     Context from C log: @ blessorcurse(mkobj.c:1848)
