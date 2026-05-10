@@ -95,6 +95,13 @@ After vault fix + newpw fix, most fully-specified sessions now diverge in the fi
 
 Next: implement real fill phase (replace `fastforward_fill_mineralize` for non-seed8000).
 
+## 2026-05-10
+- Set up Stream F branch (`feature/stream-f-hero-init`).
+- Created `js/attrib.js` containing `init_attr`, `vary_init_attr`, `acurrstr`, and base attribute management from `attrib.c`.
+- Created `js/exper.js` containing `newuexp`, `newpw`, `newhp`, and `adjabil` stubs.
+- Created `js/u_init.js` and ported `u_init_role`, `u_init_race`, `u_init_misc`, and `u_init_inventory_attrs`.
+- Added the 13 role-specific inventory lists from `u_init.c` via scripts and implemented a minimal subset of `ini_inv` to consume RNG logic for items correctly without having the full object tracking from `Stream D`. Tests and Score checks run cleanly.
+- Next step for this stream: complete F4/F5 integration and wire into `allmain.js` (B5 unblocked). F2 full implementation waits on `Stream D`.
 ---
 ## YYYY-MM-DD
 

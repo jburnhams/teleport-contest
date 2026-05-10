@@ -10,37 +10,37 @@ Port hero initialization — stats, starting inventory, skills, attributes. This
 ---
 
 ## F1. u_init — hero initialization
-- [ ] Read C `src/u_init.c` — full `u_init()` function
-- [ ] Port `u_init()` — main hero setup: race/role/gender/alignment applied to `game.u`
-- [ ] Port role-specific stat distributions (`init_attr()` from attrib.c)
+- [x] Read C `src/u_init.c` — full `u_init()` function
+- [x] Port `u_init()` — main hero setup: race/role/gender/alignment applied to `game.u`
+- [x] Port role-specific stat distributions (`init_attr()` from attrib.c)
 - [ ] Port skill initialization (`skill_init()` from weapon.c)
-- [ ] Port alignment record initialization
-- [ ] Port initial HP/energy calculation
-- [ ] Port `adjabil()` — racial attribute adjustments
+- [x] Port alignment record initialization
+- [x] Port initial HP/energy calculation
+- [x] Port `adjabil()` — racial attribute adjustments
 
 ## F2. ini_inv — starting inventory (DEPENDS ON: D2)
-- [ ] Port `ini_inv()` from u_init.c — create all starting items
-- [ ] Port the 13 role-specific inventory tables (trobj arrays)
+- [x] Port `ini_inv()` from u_init.c — create all starting items
+- [x] Port the 13 role-specific inventory tables (trobj arrays)
 - [ ] Use `mksobj()` from Stream D for item creation
-- [ ] Handle quantity, BUC status, enchantment per role
+- [x] Handle quantity, BUC status, enchantment per role
 - [ ] Port `knows_object()` — mark items as identified
 - [ ] Port `uwep`, `uarm`, `uarmh` etc. — equip starting items
 
 ## F3. newpw — energy calculation (generalized)
-- [ ] Port `newpw()` from exper.c — works for all roles, not just Wizard
-- [ ] Based on `role.enadv` and `race.enadv` tables
-- [ ] Called at ulevel==0 during init
+- [x] Port `newpw()` from exper.c — works for all roles, not just Wizard
+- [x] Based on `role.enadv` and `race.enadv` tables
+- [x] Called at ulevel==0 during init
 
 ## F4. Attribute system
-- [ ] Port `init_attr()` from attrib.c — base + racial + role attributes
-- [ ] Port `adjattrib()` — modify an attribute
-- [ ] Port `acurr()` — current attribute (base + modifiers)
-- [ ] Port strength 18/xx handling
+- [x] Port `init_attr()` from attrib.c — base + racial + role attributes
+- [x] Port `adjattrib()` — modify an attribute
+- [x] Port `acurr()` — current attribute (base + modifiers)
+- [x] Port strength 18/xx handling
 
 ## F5. Experience system
-- [ ] Port `newuexp()` — XP thresholds per level
+- [x] Port `newuexp()` — XP thresholds per level
 - [ ] Port `check_experience()` — level up/down
-- [ ] Port `adjabil()` — intrinsics gained at specific levels
+- [x] Port `adjabil()` — intrinsics gained at specific levels
 
 ---
 
