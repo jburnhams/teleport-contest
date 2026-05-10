@@ -194,3 +194,6 @@ APPEND NEW LEARNINGS HERE.
 The Librarian will periodically integrate these into the thematic sections above. 
 Keep entries detailed; include C references, bitmasks, and specific RNG counts.
 -->
+
+- If tests throw a TypeError in `isaac64.js` (e.g., 'Cannot read properties of undefined (reading 'n')'), the PRNG context is missing. Ensure `initRng(seed)` is called before executing any function that consumes random numbers.
+- When testing logic that modifies global compile-time arrays (like `objects[i].oc_prob`), strictly isolate changes by saving the original state in `beforeEach` and restoring it in `afterEach` to prevent test contamination.
