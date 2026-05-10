@@ -1,7 +1,6 @@
 
 === SEGMENT 0 ===
 [Step 0] Key: NULL (Init) | PRNG: 0 calls
-  Status:  | 
 [Step 1] Key: T | PRNG: 0 calls
   Map updated (1 rows changed)
 [Step 2] Key: e | PRNG: 0 calls
@@ -12,7 +11,7 @@
   Map updated (1 rows changed)
 [Step 5] Key: a | PRNG: 0 calls
   Map updated (1 rows changed)
-[Step 6] Key: \r (Enter) | PRNG: 0 calls
+[Step 6] Key: \n | PRNG: 0 calls
   Msg: Shall I pick character's race, role, gender and alignment for you? [ynaq]
 [Step 7] Key: y | PRNG: 4 calls
   Msg: Is this ok? [ynaq]
@@ -493,7 +492,7 @@
   Msg: #
 [Step 237] Key: l | PRNG: 0 calls
   Msg: # loot
-[Step 238] Key: \r (Enter) | PRNG: 0 calls
+[Step 238] Key: \n | PRNG: 0 calls
   Msg: Do what with the bag?
   Map updated (9 rows changed)
 [Step 239] Key: o | PRNG: 17 calls
@@ -509,7 +508,7 @@
 [Step 242] Key: d | PRNG: 0 calls
   Msg: Pick up what?
   Map updated (1 rows changed)
-[Step 243] Key: \r (Enter) | PRNG: 17 calls
+[Step 243] Key: \n | PRNG: 17 calls
   Msg: k - an empty bag.  l - a lamp.
   Map updated (7 rows changed)
 [Step 244] Key: , | PRNG: 0 calls
@@ -521,7 +520,7 @@
 [Step 246] Key: b | PRNG: 0 calls
   Msg: Pick up what?
   Map updated (1 rows changed)
-[Step 247] Key: \r (Enter) | PRNG: 32 calls
+[Step 247] Key: \n | PRNG: 32 calls
   Msg: m - 10 darts.  n - a poisoned dart.
   Map updated (4 rows changed)
 [Step 248] Key: n | PRNG: 26 calls
@@ -598,7 +597,7 @@
 [Step 282] Key: a | PRNG: 0 calls
   Msg: Pick up what?
   Map updated (1 rows changed)
-[Step 283] Key: \r (Enter) | PRNG: 16 calls
+[Step 283] Key: \n | PRNG: 16 calls
   Msg: $ - 5 gold pieces (9 in total).  q - an engagement ring.
   Map updated (5 rows changed)
   Status update: Tetra the Gallant              St:14 Dx:9 Co:11 In:10 Wi:14 Ch:17 Lawful | Dlvl:1 $:9 HP:16(16) Pw:4(4) AC:3 Xp:1
@@ -636,7 +635,7 @@
 [Step 298] Key: . | PRNG: 93 calls
   Msg: staircase down
   Map updated (2 rows changed)
-[Step 299] Key: \r (Enter) | PRNG: 11 calls
+[Step 299] Key: \n | PRNG: 11 calls
   Map updated (2 rows changed)
 [Step 300] Key: l | PRNG: 30 calls
   Msg: You miss the lichen.
@@ -666,7 +665,7 @@
 [Step 311] Key: h | PRNG: 0 calls
   Msg: wall
 [Step 312] Key: . | PRNG: 0 calls
-  Msg: │        the interior of a monster or a wall (wall)
+  Msg: x        the interior of a monster or a wall (wall)
 [Step 313] Key: l | PRNG: 39 calls
   Map updated (1 rows changed)
 [Step 314] Key: n | PRNG: 0 calls
@@ -692,7 +691,7 @@
   Msg: # ha
 [Step 325] Key: t | PRNG: 0 calls
   Msg: # hat
-[Step 326] Key: \r (Enter) | PRNG: 0 calls
+[Step 326] Key: \n | PRNG: 0 calls
   Msg: #hat: unknown extended command.
 [Step 327] Key: l | PRNG: 59 calls
   Msg: You swap places with your saddled pony.  The saddled pony kicks!--More--
@@ -709,7 +708,6 @@
 [Step 331] Key:   | PRNG: 0 calls
   Msg: i - a yellow gem
   Map updated (21 rows changed)
-  Status update:  | 
 [Step 332] Key:   | PRNG: 0 calls
   Map updated (20 rows changed)
   Status update: Tetra the Gallant              St:14 Dx:9 Co:11 In:10 Wi:14 Ch:17 Lawful | Dlvl:1 $:9 HP:14(16) Pw:4(4) AC:3 Xp:1
@@ -742,7 +740,7 @@
   Msg: # chat
 [Step 344] Key: t | PRNG: 0 calls
   Msg: # chat
-[Step 345] Key: \r (Enter) | PRNG: 0 calls
+[Step 345] Key: \n | PRNG: 0 calls
   Msg: Talk to whom? (in what direction)
 [Step 346] Key: l | PRNG: 0 calls
   Msg: The saddled pony is eating noisily.
@@ -866,14 +864,13 @@
 [Step 402] Key: ESC | PRNG: 0 calls
   Map updated (20 rows changed)
   Status update: Tetra the Gallant              St:14 Dx:9 Co:11 In:10 Wi:14 Ch:17 Lawful | Dlvl:1 $:9 HP:16(16) Pw:4(4) AC:3 Xp:1
-[Step 403] Key:  | PRNG: 0 calls
+[Step 403] Key: \x18 | PRNG: 0 calls
   Msg: Tetra the Knight's attributes:
   Map updated (20 rows changed)
   Status update: Your intelligence is 10. | (1 of 2)
 [Step 404] Key:   | PRNG: 0 calls
   Msg: Your wisdom is 14.
   Map updated (20 rows changed)
-  Status update:  | 
 [Step 405] Key: ESC | PRNG: 0 calls
   Map updated (20 rows changed)
   Status update: Tetra the Gallant              St:14 Dx:9 Co:11 In:10 Wi:14 Ch:17 Lawful | Dlvl:1 $:9 HP:16(16) Pw:4(4) AC:3 Xp:1

@@ -15,7 +15,7 @@
 [Step 4] Key: L | PRNG: 28 calls
   Msg: You hear an A note squeak in the distance.
   Map updated (2 rows changed)
-[Step 5] Key:  | PRNG: 363 calls
+[Step 5] Key: \x0c | PRNG: 363 calls
   Map updated (8 rows changed)
 [Step 6] Key: l | PRNG: 16 calls
   Map updated (8 rows changed)
@@ -58,8 +58,7 @@
   Msg: # chat
 [Step 30] Key: t | PRNG: 0 calls
   Msg: # chat
-[Step 31] Key: 
- | PRNG: 0 calls
+[Step 31] Key: \n | PRNG: 0 calls
   Msg: Talk to whom? (in what direction)
 [Step 32] Key: h | PRNG: 0 calls
   Msg: It's like talking to a wall.
@@ -106,14 +105,13 @@
 [Step 52] Key: ESC | PRNG: 0 calls
   Map updated (17 rows changed)
   Status update: Sneaky the Footpad             St:14 Dx:16 Co:14 In:10 Wi:12 Ch:9 Chaotic | Dlvl:1 $:0 HP:12(12) Pw:2(2) AC:7 Xp:1
-[Step 53] Key:  | PRNG: 0 calls
+[Step 53] Key: \x18 | PRNG: 0 calls
   Msg: Sneaky the Rogue's attributes:
   Map updated (20 rows changed)
   Status update: Your dexterity is 16. | (1 of 2)
 [Step 54] Key:   | PRNG: 0 calls
   Msg: Your constitution is 14.
   Map updated (20 rows changed)
-  Status update:  | 
 [Step 55] Key: ESC | PRNG: 0 calls
   Map updated (18 rows changed)
   Status update: Sneaky the Footpad             St:14 Dx:16 Co:14 In:10 Wi:12 Ch:9 Chaotic | Dlvl:1 $:0 HP:12(12) Pw:2(2) AC:7 Xp:1

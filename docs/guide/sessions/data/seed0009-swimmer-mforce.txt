@@ -1,7 +1,6 @@
 
 === SEGMENT 0 ===
 [Step 0] Key: NULL (Init) | PRNG: 0 calls
-  Status:  | 
 [Step 1] Key: S | PRNG: 0 calls
   Map updated (1 rows changed)
 [Step 2] Key: w | PRNG: 0 calls
@@ -16,7 +15,7 @@
   Map updated (1 rows changed)
 [Step 7] Key: r | PRNG: 0 calls
   Map updated (1 rows changed)
-[Step 8] Key: \r (Enter) | PRNG: 0 calls
+[Step 8] Key: \n | PRNG: 0 calls
   Msg: Shall I pick character's race, role, gender and alignment for you? [ynaq]
 [Step 9] Key: y | PRNG: 4 calls
   Msg: Is this ok? [ynaq]
@@ -90,11 +89,11 @@
   Map updated (3 rows changed)
 [Step 36] Key:   | PRNG: 7 calls
   Msg: You read: "This door is locked. Kick it with 'Ctrl-D'".
-[Step 37] Key:  | PRNG: 0 calls
+[Step 37] Key: \x04 | PRNG: 0 calls
   Msg: In what direction?
 [Step 38] Key: j | PRNG: 10 calls
   Msg: Thwack!!
-[Step 39] Key:  | PRNG: 0 calls
+[Step 39] Key: \x04 | PRNG: 0 calls
   Msg: In what direction?
 [Step 40] Key: j | PRNG: 9 calls
   Msg: As you kick the door, it crashes open!
@@ -156,7 +155,6 @@
 [Step 65] Key:   | PRNG: 0 calls
   Msg: Your wisdom was 14 (limit:20).
   Map updated (21 rows changed)
-  Status update:  | 
 [Step 66] Key:   | PRNG: 0 calls
   Msg: Do you want to see your conduct? [ynq] (n)
   Map updated (20 rows changed)
@@ -178,4 +176,3 @@
   Status update:  | --More--
 [Step 72] Key:   | PRNG: 0 calls
   Map updated (3 rows changed)
-  Status update:  | 

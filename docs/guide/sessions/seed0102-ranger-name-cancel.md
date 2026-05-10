@@ -4,7 +4,7 @@
 
 This session serves as a brief but thorough mechanical validation of the engine's UI state machine. The user entity—a human Ranger named *Ricky*—demonstrates the engine's ability to process and cancel complex naming commands and the robust handling of invalid directional inputs.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Steps 1–3: The Tenderfoot**
 The engine performs 4,440 PRNG calls to generate the universe and Ricky's attributes (St:14 Dx:11 Co:13 In:13 Wi:14 Ch:10). Ricky begins her journey on Dungeon Level 1, declining the tutorial.

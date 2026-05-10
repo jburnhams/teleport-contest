@@ -4,7 +4,7 @@
 
 This session serves as a rigorous mechanical validation of the engine's equipment and posture subroutines. The user entity—a human Samurai named *Bushi*—demonstrates the engine's ability to handle the specialised "two-weapon" combat state and the environmental interactions of the "sit" command.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Steps 1–3: The Hatamoto Bushi**
 The engine performs 2,647 PRNG calls to generate the universe and Bushi's attributes (St:18 Dx:14 Co:18 In:9 Wi:8 Ch:7). Bushi begins on Dungeon Level 1, armed with a katana and a wakizashi, and declines the tutorial.

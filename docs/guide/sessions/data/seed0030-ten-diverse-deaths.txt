@@ -1,175 +1,138 @@
 
 === SEGMENT 0 ===
-[Step 0] Key: NULL (Init) | PRNG: 6269 calls
-  Msg: Aloha Quincy, welcome to NetHack!  You are a neutral male human Tourist.
-  Status: Quincy the Rambler             St:11 Dx:12 Co:15 In:16 Wi:7 Ch:14 Neutral | Dlvl:1 $:420 HP:10(10) Pw:2(2) AC:10 Xp:1
+[Step 0] Key: NULL (Init) | PRNG: 2443 calls
+  Msg: Hello Quincy, welcome to NetHack!  You are a neutral female human Healer.
+  Status: Quincy the Rhizotomist         St:8 Dx:10 Co:17 In:9 Wi:15 Ch:16 Neutral | Dlvl:1 $:1352 HP:13(13) Pw:5(5) AC:8 Xp:1
 [Step 1] Key:   | PRNG: 0 calls
   Msg: Unknown command ' '.
-[Step 2] Key: k | PRNG: 0 calls
-[Step 3] Key: j | PRNG: 6 calls
+[Step 2] Key: k | PRNG: 4 calls
   Map updated (2 rows changed)
-[Step 4] Key: h | PRNG: 30 calls
+[Step 3] Key: j | PRNG: 8 calls
+  Map updated (3 rows changed)
+[Step 4] Key: h | PRNG: 28 calls
   Map updated (2 rows changed)
-[Step 5] Key: h | PRNG: 2 calls
+[Step 5] Key: h | PRNG: 10 calls
+  Map updated (2 rows changed)
+[Step 6] Key: h | PRNG: 0 calls
+[Step 7] Key: h | PRNG: 0 calls
+[Step 8] Key: h | PRNG: 0 calls
+[Step 9] Key: j | PRNG: 49 calls
+  Map updated (3 rows changed)
+[Step 10] Key: j | PRNG: 0 calls
+[Step 11] Key: j | PRNG: 0 calls
+[Step 12] Key: n | PRNG: 0 calls
+[Step 13] Key: n | PRNG: 0 calls
+[Step 14] Key: l | PRNG: 50 calls
+  Map updated (1 rows changed)
+[Step 15] Key: l | PRNG: 27 calls
+  Map updated (2 rows changed)
+[Step 16] Key: l | PRNG: 50 calls
+  Map updated (2 rows changed)
+[Step 17] Key: l | PRNG: 15 calls
+  Map updated (2 rows changed)
+[Step 18] Key: l | PRNG: 2 calls
   Msg: The door resists!
-[Step 6] Key: h | PRNG: 1 calls
+[Step 19] Key: l | PRNG: 1 calls
   Msg: The door opens.
   Map updated (1 rows changed)
-[Step 7] Key: h | PRNG: 28 calls
-  Msg: The kitten picks up a gold piece.
-  Map updated (3 rows changed)
-[Step 8] Key: h | PRNG: 18 calls
-  Map updated (1 rows changed)
-[Step 9] Key: j | PRNG: 39 calls
-  Map updated (3 rows changed)
-[Step 10] Key: j | PRNG: 36 calls
-  Map updated (4 rows changed)
-[Step 11] Key: j | PRNG: 29 calls
-  Map updated (3 rows changed)
-[Step 12] Key: n | PRNG: 22 calls
-  Map updated (4 rows changed)
-[Step 13] Key: n | PRNG: 37 calls
-  Msg: The kitten drops a gold piece.
-  Map updated (4 rows changed)
-[Step 14] Key: l | PRNG: 20 calls
-  Map updated (1 rows changed)
-[Step 15] Key: l | PRNG: 23 calls
-  Map updated (1 rows changed)
-[Step 16] Key: l | PRNG: 31 calls
-  Map updated (1 rows changed)
-[Step 17] Key: l | PRNG: 25 calls
-  Map updated (3 rows changed)
-[Step 18] Key: l | PRNG: 35 calls
+[Step 20] Key: l | PRNG: 16 calls
   Map updated (2 rows changed)
-[Step 19] Key: l | PRNG: 16 calls
-  Map updated (2 rows changed)
-[Step 20] Key: l | PRNG: 18 calls
-  Map updated (2 rows changed)
-[Step 21] Key: l | PRNG: 28 calls
-  Map updated (4 rows changed)
-[Step 22] Key: l | PRNG: 19 calls
-  Map updated (5 rows changed)
+[Step 21] Key: l | PRNG: 9 calls
+  Map updated (1 rows changed)
+[Step 22] Key: l | PRNG: 0 calls
 [Step 23] Key: l | PRNG: 0 calls
-  Msg: There's some graffiti on the floor here.--More--
-  Map updated (2 rows changed)
 [Step 24] Key:   | PRNG: 0 calls
-  Msg: You read: "Never mind the monsters hit?i?c yc?.  thcy ?us? ?eplace ?hc
-  Map updated (1 rows changed)
-[Step 25] Key:   | PRNG: 45 calls
-  Map updated (2 rows changed)
-[Step 26] Key: u | PRNG: 29 calls
-  Map updated (3 rows changed)
-[Step 27] Key: n | PRNG: 32 calls
-  Map updated (2 rows changed)
-[Step 28] Key: > | PRNG: 3736 calls
-  Msg: You descend the stairs.--More--
-[Step 29] Key:   | PRNG: 34 calls
-  Msg: The kitten bites the newt.  The newt is killed!--More--
-  Map updated (14 rows changed)
-  Status update: Quincy the Rambler             St:11 Dx:12 Co:15 In:16 Wi:7 Ch:14 Neutral | Dlvl:2 $:420 HP:10(10) Pw:2(2) AC:10 Xp:1
-[Step 30] Key:   | PRNG: 11 calls
-  Msg: Your kitten eats a newt corpse.
+  Msg: Unknown command ' '.
+[Step 25] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 26] Key: u | PRNG: 0 calls
+[Step 27] Key: n | PRNG: 0 calls
+[Step 28] Key: > | PRNG: 0 calls
+  Msg: You can't go down here.
+[Step 29] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 30] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
 [Step 31] Key:   | PRNG: 0 calls
   Msg: Unknown command ' '.
-[Step 32] Key: h | PRNG: 14 calls
+[Step 32] Key: h | PRNG: 37 calls
+  Msg: You swap places with your little dog.
   Map updated (2 rows changed)
-[Step 33] Key: h | PRNG: 13 calls
-  Map updated (1 rows changed)
-[Step 34] Key: h | PRNG: 19 calls
-  Map updated (4 rows changed)
-[Step 35] Key: h | PRNG: 29 calls
-  Map updated (3 rows changed)
-[Step 36] Key: y | PRNG: 27 calls
-  Map updated (4 rows changed)
-[Step 37] Key: b | PRNG: 20 calls
-  Map updated (3 rows changed)
-[Step 38] Key: h | PRNG: 16 calls
-  Map updated (3 rows changed)
-[Step 39] Key: h | PRNG: 23 calls
+[Step 33] Key: h | PRNG: 33 calls
+  Msg: You hear some noises.
   Map updated (2 rows changed)
-[Step 40] Key: h | PRNG: 18 calls
-  Map updated (5 rows changed)
-[Step 41] Key: h | PRNG: 22 calls
-  Msg: You kill the newt!
+[Step 34] Key: h | PRNG: 13 calls
   Map updated (1 rows changed)
-[Step 42] Key: b | PRNG: 15 calls
-  Map updated (4 rows changed)
+[Step 35] Key: h | PRNG: 11 calls
+  Msg: You hear some noises in the distance.
+  Map updated (1 rows changed)
+[Step 36] Key: y | PRNG: 22 calls
+  Map updated (2 rows changed)
+[Step 37] Key: b | PRNG: 14 calls
+  Map updated (2 rows changed)
+[Step 38] Key: h | PRNG: 0 calls
+[Step 39] Key: h | PRNG: 0 calls
+[Step 40] Key: h | PRNG: 0 calls
+[Step 41] Key: h | PRNG: 0 calls
+[Step 42] Key: b | PRNG: 0 calls
 [Step 43] Key: n | PRNG: 0 calls
-[Step 44] Key: j | PRNG: 25 calls
+[Step 44] Key: j | PRNG: 0 calls
+[Step 45] Key: > | PRNG: 0 calls
+  Msg: You can't go down here.
+[Step 46] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 47] Key: u | PRNG: 10 calls
   Map updated (2 rows changed)
-[Step 45] Key: > | PRNG: 3022 calls
-  Msg: You descend the stairs.--More--
-[Step 46] Key:   | PRNG: 17 calls
-  Map updated (9 rows changed)
-  Status update: Quincy the Rambler             St:11 Dx:12 Co:15 In:16 Wi:7 Ch:14 Neutral | Dlvl:3 $:420 HP:10(10) Pw:2(2) AC:10 Xp:1
-[Step 47] Key: u | PRNG: 44 calls
-  Msg: The gnome hits!
+[Step 48] Key: u | PRNG: 27 calls
+  Map updated (2 rows changed)
+[Step 49] Key: u | PRNG: 47 calls
+  Map updated (2 rows changed)
+[Step 50] Key: u | PRNG: 13 calls
   Map updated (3 rows changed)
-  Status update: Quincy the Rambler             St:11 Dx:12 Co:15 In:16 Wi:7 Ch:14 Neutral | Dlvl:3 $:420 HP:9(10) Pw:2(2) AC:10 Xp:1
-[Step 48] Key: u | PRNG: 43 calls
-  Msg: The gnome hits!
-  Map updated (3 rows changed)
-  Status update: Quincy the Rambler             St:11 Dx:12 Co:15 In:16 Wi:7 Ch:14 Neutral | Dlvl:3 $:420 HP:5(10) Pw:2(2) AC:10 Xp:1
-[Step 49] Key: u | PRNG: 62 calls
-  Map updated (3 rows changed)
-[Step 50] Key: u | PRNG: 11 calls
-  Msg: The phial crashes on your head and breaks into shards.--More--
-  Map updated (3 rows changed)
-  Status update: Quincy the Rambler             St:11 Dx:12 Co:15 In:16 Wi:7 Ch:14 Neutral | Dlvl:3 $:420 HP:4(10) Pw:2(2) AC:10 Xp:1
-[Step 51] Key:   | PRNG: 84 calls
-  Msg: The sky blue potion evaporates.  You feel rather tired.--More--
-  Map updated (1 rows changed)
+[Step 51] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
 [Step 52] Key:   | PRNG: 0 calls
-  Msg: You can move again.
+  Msg: Unknown command ' '.
 [Step 53] Key: u | PRNG: 0 calls
 [Step 54] Key: u | PRNG: 0 calls
 [Step 55] Key: u | PRNG: 0 calls
 [Step 56] Key: u | PRNG: 0 calls
 [Step 57] Key: u | PRNG: 0 calls
 [Step 58] Key: u | PRNG: 0 calls
-[Step 59] Key: j | PRNG: 37 calls
-  Map updated (3 rows changed)
-[Step 60] Key: j | PRNG: 48 calls
-  Map updated (3 rows changed)
-[Step 61] Key: j | PRNG: 56 calls
-  Msg: You hit the gnome.
-[Step 62] Key: j | PRNG: 15 calls
-  Msg: You miss the gnome.  The gnome swings his bow.  The gnome hits!--More--
-  Status update: Quincy the Rambler             St:11 Dx:12 Co:15 In:16 Wi:7 Ch:14 Neutral | Dlvl:3 $:420 HP:0(10) Pw:2(2) AC:10 Xp:1
-[Step 63] Key: j | PRNG: 0 calls
-  Msg: You miss the gnome.  The gnome swings his bow.  The gnome hits!--More--
-[Step 64] Key: j | PRNG: 0 calls
-  Msg: You miss the gnome.  The gnome swings his bow.  The gnome hits!--More--
-[Step 65] Key: j | PRNG: 0 calls
-  Msg: You miss the gnome.  The gnome swings his bow.  The gnome hits!--More--
-[Step 66] Key: j | PRNG: 0 calls
-  Msg: You miss the gnome.  The gnome swings his bow.  The gnome hits!--More--
-[Step 67] Key: j | PRNG: 0 calls
-  Msg: You miss the gnome.  The gnome swings his bow.  The gnome hits!--More--
-[Step 68] Key: j | PRNG: 0 calls
-  Msg: You miss the gnome.  The gnome swings his bow.  The gnome hits!--More--
-[Step 69] Key: j | PRNG: 0 calls
-  Msg: You miss the gnome.  The gnome swings his bow.  The gnome hits!--More--
-[Step 70] Key: j | PRNG: 0 calls
-  Msg: You miss the gnome.  The gnome swings his bow.  The gnome hits!--More--
-[Step 71] Key: j | PRNG: 0 calls
-  Msg: You miss the gnome.  The gnome swings his bow.  The gnome hits!--More--
-[Step 72] Key: y | PRNG: 0 calls
-  Msg: You miss the gnome.  The gnome swings his bow.  The gnome hits!--More--
-[Step 73] Key:   | PRNG: 1 calls
-  Msg: You die...--More--
-[Step 74] Key: y | PRNG: 0 calls
-  Msg: You die...--More--
-[Step 75] Key:   | PRNG: 0 calls
-  Map updated (18 rows changed)
-  Status update: You were level 1 with a maximum of 10 hit points when you died. | --More--
-[Step 76] Key:   | PRNG: 0 calls
-  Map updated (18 rows changed)
-  Status update:  | --More--
-[Step 77] Key: y | PRNG: 0 calls
-[Step 78] Key:   | PRNG: 0 calls
+[Step 59] Key: j | PRNG: 43 calls
+  Msg: You swap places with your little dog.
+  Map updated (2 rows changed)
+[Step 60] Key: j | PRNG: 28 calls
+  Map updated (2 rows changed)
+[Step 61] Key: j | PRNG: 29 calls
+  Map updated (2 rows changed)
+[Step 62] Key: j | PRNG: 11 calls
   Map updated (4 rows changed)
-  Status update:  | 
+[Step 63] Key: j | PRNG: 0 calls
+[Step 64] Key: j | PRNG: 0 calls
+[Step 65] Key: j | PRNG: 0 calls
+[Step 66] Key: j | PRNG: 0 calls
+[Step 67] Key: j | PRNG: 0 calls
+[Step 68] Key: j | PRNG: 0 calls
+[Step 69] Key: j | PRNG: 0 calls
+[Step 70] Key: j | PRNG: 0 calls
+[Step 71] Key: j | PRNG: 0 calls
+[Step 72] Key: y | PRNG: 24 calls
+  Map updated (4 rows changed)
+[Step 73] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 74] Key: y | PRNG: 30 calls
+  Map updated (3 rows changed)
+[Step 75] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 76] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 77] Key: y | PRNG: 49 calls
+  Map updated (4 rows changed)
+[Step 78] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
+[Step 79] Key:   | PRNG: 0 calls
+  Msg: Unknown command ' '.
 
 === SEGMENT 1 ===
 [Step 0] Key: NULL (Init) | PRNG: 2165 calls
@@ -435,8 +398,7 @@
   Status update:  | --More--
 [Step 122] Key: y | PRNG: 0 calls
 [Step 123] Key:   | PRNG: 0 calls
-  Map updated (6 rows changed)
-  Status update:  | 
+  Map updated (4 rows changed)
 
 === SEGMENT 2 ===
 [Step 0] Key: NULL (Init) | PRNG: 2261 calls
@@ -617,8 +579,7 @@
   Status update:  | --More--
 [Step 91] Key: y | PRNG: 0 calls
 [Step 92] Key:   | PRNG: 0 calls
-  Map updated (8 rows changed)
-  Status update:  | 
+  Map updated (6 rows changed)
 
 === SEGMENT 3 ===
 [Step 0] Key: NULL (Init) | PRNG: 2828 calls
@@ -1112,8 +1073,7 @@
   Map updated (18 rows changed)
   Status update:  | --More--
 [Step 290] Key:   | PRNG: 0 calls
-  Map updated (11 rows changed)
-  Status update:  | 
+  Map updated (9 rows changed)
 
 === SEGMENT 4 ===
 [Step 0] Key: NULL (Init) | PRNG: 2457 calls
@@ -1460,8 +1420,7 @@
   Map updated (18 rows changed)
   Status update:  | --More--
 [Step 197] Key:   | PRNG: 0 calls
-  Map updated (13 rows changed)
-  Status update:  | 
+  Map updated (11 rows changed)
 
 === SEGMENT 5 ===
 [Step 0] Key: NULL (Init) | PRNG: 3076 calls
@@ -1993,47 +1952,47 @@
   Map updated (1 rows changed)
 [Step 62] Key: k | PRNG: 0 calls
   Msg: This door is locked.
-[Step 63] Key:  | PRNG: 0 calls
+[Step 63] Key: \x04 | PRNG: 0 calls
   Msg: In what direction?
 [Step 64] Key: k | PRNG: 16 calls
   Msg: Whammm!!
-[Step 65] Key:  | PRNG: 0 calls
+[Step 65] Key: \x04 | PRNG: 0 calls
   Msg: In what direction?
 [Step 66] Key: k | PRNG: 16 calls
   Msg: Thwack!!
-[Step 67] Key:  | PRNG: 0 calls
+[Step 67] Key: \x04 | PRNG: 0 calls
   Msg: In what direction?
 [Step 68] Key: k | PRNG: 18 calls
   Msg: Thwack!!
-[Step 69] Key:  | PRNG: 0 calls
+[Step 69] Key: \x04 | PRNG: 0 calls
   Msg: In what direction?
 [Step 70] Key: k | PRNG: 19 calls
   Msg: Whammm!!
-[Step 71] Key:  | PRNG: 0 calls
+[Step 71] Key: \x04 | PRNG: 0 calls
   Msg: In what direction?
 [Step 72] Key: k | PRNG: 19 calls
   Msg: Whammm!!
-[Step 73] Key:  | PRNG: 0 calls
+[Step 73] Key: \x04 | PRNG: 0 calls
   Msg: In what direction?
 [Step 74] Key: k | PRNG: 20 calls
   Msg: Whammm!!
-[Step 75] Key:  | PRNG: 0 calls
+[Step 75] Key: \x04 | PRNG: 0 calls
   Msg: In what direction?
 [Step 76] Key: k | PRNG: 21 calls
   Msg: Whammm!!
-[Step 77] Key:  | PRNG: 0 calls
+[Step 77] Key: \x04 | PRNG: 0 calls
   Msg: In what direction?
 [Step 78] Key: k | PRNG: 16 calls
   Msg: Thwack!!
-[Step 79] Key:  | PRNG: 0 calls
+[Step 79] Key: \x04 | PRNG: 0 calls
   Msg: In what direction?
 [Step 80] Key: k | PRNG: 19 calls
   Msg: Whammm!!
-[Step 81] Key:  | PRNG: 0 calls
+[Step 81] Key: \x04 | PRNG: 0 calls
   Msg: In what direction?
 [Step 82] Key: k | PRNG: 19 calls
   Msg: Whammm!!
-[Step 83] Key:  | PRNG: 0 calls
+[Step 83] Key: \x04 | PRNG: 0 calls
   Msg: In what direction?
 [Step 84] Key: k | PRNG: 16 calls
   Msg: As you kick the door, it crashes open!
@@ -2353,7 +2312,6 @@
 [Step 251] Key: a | PRNG: 0 calls
 [Step 252] Key:   | PRNG: 0 calls
   Map updated (9 rows changed)
-  Status update:  | 
 
 === SEGMENT 7 ===
 [Step 0] Key: NULL (Init) | PRNG: 2662 calls
@@ -2703,8 +2661,7 @@
 [Step 169] Key: F | PRNG: 0 calls
 [Step 170] Key: l | PRNG: 0 calls
 [Step 171] Key:   | PRNG: 0 calls
-  Map updated (17 rows changed)
-  Status update:  | 
+  Map updated (15 rows changed)
 
 === SEGMENT 8 ===
 [Step 0] Key: NULL (Init) | PRNG: 3024 calls
@@ -2724,7 +2681,7 @@
 [Step 6] Key:   | PRNG: 0 calls
   Msg: You finish taking off your mail.
   Status update: Galen the Hatamoto             St:15 Dx:15 Co:18 In:9 Wi:8 Ch:8 Lawful | Dlvl:1 $:0 HP:14(15) Pw:2(2) AC:10 Xp:1
-[Step 7] Key: \r (Enter) | PRNG: 12 calls
+[Step 7] Key: \n | PRNG: 12 calls
   Msg: You swap places with Hachi.  Hachi misses the jackal.--More--
   Map updated (2 rows changed)
 [Step 8] Key: w | PRNG: 0 calls
@@ -2734,7 +2691,7 @@
 [Step 10] Key:   | PRNG: 40 calls
   Msg: The jackal bites!  Hachi bites the jackal.  The jackal bites Hachi.
   Status update: Galen the Hatamoto             St:15 Dx:15 Co:18 In:9 Wi:8 Ch:8 Lawful | Dlvl:1 $:0 HP:12(15) Pw:2(2) AC:10 Xp:1
-[Step 11] Key: \r (Enter) | PRNG: 23 calls
+[Step 11] Key: \n | PRNG: 23 calls
   Msg: Hachi misses the jackal.
   Map updated (3 rows changed)
 [Step 12] Key: d | PRNG: 0 calls
@@ -2745,7 +2702,7 @@
   Status update: Galen the Hatamoto             St:15 Dx:15 Co:18 In:9 Wi:8 Ch:8 Lawful | Dlvl:1 $:0 HP:13(15) Pw:2(2) AC:10 Xp:1
 [Step 14] Key:   | PRNG: 0 calls
   Msg: Unknown command ' '.
-[Step 15] Key: \r (Enter) | PRNG: 22 calls
+[Step 15] Key: \n | PRNG: 22 calls
   Msg: Hachi eats a jackal corpse.
   Map updated (5 rows changed)
 [Step 16] Key: F | PRNG: 0 calls
@@ -2783,8 +2740,7 @@
   Msg: # quit
 [Step 35] Key: t | PRNG: 0 calls
   Msg: # quit
-[Step 36] Key: 
- | PRNG: 0 calls
+[Step 36] Key: \n | PRNG: 0 calls
   Msg: Really quit without saving? [yn] (n)
 [Step 37] Key: y | PRNG: 0 calls
   Msg: Sayonara Galen the Samurai...
@@ -2792,7 +2748,6 @@
   Status update:  | --More--
 [Step 38] Key:   | PRNG: 0 calls
   Map updated (14 rows changed)
-  Status update:  | 
 
 === SEGMENT 9 ===
 [Step 0] Key: NULL (Init) | PRNG: 2586 calls
@@ -3410,10 +3365,10 @@
 [Step 351] Key: k | PRNG: 0 calls
   Msg: floor of a room
 [Step 352] Key: . | PRNG: 0 calls
-  Msg: ·        a doorway or the floor of a room or the dark part of a room or ice
+  Msg: ~        a doorway or the floor of a room or the dark part of a room or ice
   Map updated (1 rows changed)
 [Step 353] Key: " | PRNG: 0 calls
-  Msg: ·        a doorway or the floor of a room or the dark part of a room or ice
+  Msg: ~        a doorway or the floor of a room or the dark part of a room or ice
 [Step 354] Key:   | PRNG: 0 calls
   Map updated (1 rows changed)
 [Step 355] Key:   | PRNG: 0 calls

@@ -4,7 +4,7 @@
 
 This session serves as a high-entropy mechanical validation of the engine's endgame infrastructure. The user entity—a Barbarian named *Wizard*—utilises administrative powers to jump directly into the Elemental Planes, forcing the engine to resolve complex environmental flags like extreme heat and lack of gravity.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Steps 1–3: The Plunderer Setup**
 The engine performs 2,510 PRNG calls to generate the initial state (St:18/02 Dx:17 Co:17 In:8 Wi:7). Wizard begins on Dungeon Level 1 and declines the tutorial.

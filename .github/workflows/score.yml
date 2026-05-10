@@ -19,6 +19,12 @@ jobs:
       - uses: actions/setup-node@v6.4.0
         with:
           node-version: '24'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: |
+          npm install
+          npm install --prefix pages
 
       - name: Verify frozen files unchanged
         run: |
@@ -96,11 +102,9 @@ jobs:
             git push
           fi
 
-      - name: Build Dashboard
+      - name: Build Pages
         run: |
-          node scripts/build-dashboard.mjs
-          cp -r js frozen tools docs _site/
-          cp -r sessions/*.session.json _site/sessions/
+          npm run pages:build
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

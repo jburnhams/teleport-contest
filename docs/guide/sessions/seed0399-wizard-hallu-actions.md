@@ -4,7 +4,7 @@
 
 This session serves as a high-precision mechanical validation of the engine's debugging state machine. The user entity—a Wizard named *Wizard*—demonstrates the engine's ability to cheat death itself, along with the associated administrative prompts for deity intervention and immortality.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Steps 1–3: The Evoker Setup**
 The engine performs 2,783 PRNG calls to generate the initial state (St:11 Dx:11 Co:12 In:18 Wi:15). Wizard begins on Dungeon Level 1 and declines the tutorial.

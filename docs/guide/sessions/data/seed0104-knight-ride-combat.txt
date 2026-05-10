@@ -23,8 +23,7 @@
   Msg: # ride
 [Step 9] Key: e | PRNG: 0 calls
   Msg: # ride
-[Step 10] Key: 
- | PRNG: 0 calls
+[Step 10] Key: \n | PRNG: 0 calls
   Msg: In what direction?
 [Step 11] Key: l | PRNG: 17 calls
   Msg: You mount the saddled pony.
@@ -57,8 +56,7 @@
   Msg: # ride
 [Step 27] Key: e | PRNG: 0 calls
   Msg: # ride
-[Step 28] Key: 
- | PRNG: 1 calls
+[Step 28] Key: \n | PRNG: 1 calls
   Msg: You've been through the dungeon on a pony with no name.--More--
   Map updated (5 rows changed)
   Status update: Sir the Gallant                St:14 Dx:8 Co:12 In:8 Wi:15 Ch:18 Lawful | Dlvl:1 $:0 HP:16(16) Pw:5(5) AC:3 Xp:1
@@ -82,14 +80,13 @@
 [Step 36] Key: ESC | PRNG: 0 calls
   Map updated (20 rows changed)
   Status update: Sir the Gallant                St:14 Dx:8 Co:12 In:8 Wi:15 Ch:18 Lawful | Dlvl:1 $:0 HP:16(16) Pw:5(5) AC:3 Xp:1
-[Step 37] Key:  | PRNG: 0 calls
+[Step 37] Key: \x18 | PRNG: 0 calls
   Msg: Sir the Knight's attributes:
   Map updated (19 rows changed)
   Status update: Your intelligence is 8. | (1 of 2)
 [Step 38] Key:   | PRNG: 0 calls
   Msg: Your wisdom is 15.
   Map updated (20 rows changed)
-  Status update:  | 
 [Step 39] Key: ESC | PRNG: 0 calls
   Map updated (11 rows changed)
   Status update: Sir the Gallant                St:14 Dx:8 Co:12 In:8 Wi:15 Ch:18 Lawful | Dlvl:1 $:0 HP:16(16) Pw:5(5) AC:3 Xp:1

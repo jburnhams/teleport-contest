@@ -4,7 +4,7 @@
 
 This session serves as a high-stress mechanical validation of the engine's debugging and level-transition logic. The user entity—appropriately named *Wizard*—demonstrates the engine's ability to process administrative commands and handle rapid, non-linear jumps across multiple procedurally generated dungeon levels.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Steps 1–3: The Evoker Wizard**
 The engine performs 2,763 PRNG calls to generate the universe and Wizard's attributes (St:8 Dx:18 Co:12 In:18 Wi:10 Ch:9). Wizard begins on Dungeon Level 1 and declines the tutorial.
