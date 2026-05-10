@@ -478,6 +478,24 @@ async function makerooms() {
     }
 }
 
+const THEMEROOM_FILLS_META = [
+    { name: "Ice room", frequency: 1 },
+    { name: "Cloud room", frequency: 1 },
+    { name: "Boulder room", frequency: 1, mindiff: 4 },
+    { name: "Spider nest", frequency: 1 },
+    { name: "Trap room", frequency: 1 },
+    { name: "Garden", frequency: 1, req_lit: true },
+    { name: "Buried treasure", frequency: 1 },
+    { name: "Buried zombies", frequency: 1 },
+    { name: "Massacre", frequency: 1 },
+    { name: "Statuary", frequency: 1 },
+    { name: "Light source", frequency: 1, req_lit: false },
+    { name: "Temple of the gods", frequency: 1 },
+    { name: "Ghost of an Adventurer", frequency: 1 },
+    { name: "Storeroom", frequency: 1 },
+    { name: "Teleportation hub", frequency: 1 }
+];
+
 // Themed room metadata — must match C's themerms.lua frequency table exactly.
 // Generated from themeroom_meta.js (31 rooms).
 const THEMEROOM_META = [
@@ -486,9 +504,9 @@ const THEMEROOM_META = [
     { name: 'Room in a room', frequency: 1 },
     { name: 'Huge room with another room inside', frequency: 1 },
     { name: 'Nesting rooms', frequency: 1 },
-    { name: 'Default room with themed fill', frequency: 6 },
-    { name: 'Unlit room with themed fill', frequency: 2 },
-    { name: 'Room with both normal contents and themed fill', frequency: 2 },
+    { name: 'Default room with themed fill', frequency: 6, has_fill: true },
+    { name: 'Unlit room with themed fill', frequency: 2, has_fill: true },
+    { name: 'Room with both normal contents and themed fill', frequency: 2, has_fill: true },
     { name: 'Pillars', frequency: 1 },
     { name: 'Mausoleum', frequency: 1 },
     { name: 'Random dungeon feature', frequency: 1 },
@@ -535,13 +553,13 @@ async function themerooms_generate(difficulty) {
         }
     }
     if (!pick) return false;
-    // For 'ordinary' rooms, create a standard room
-    // For themed rooms with dynamic dimensions, consume those rn2 calls first
-    const chance = 100;
-    if (pick.name !== 'ordinary') {
-        // Themed room — not expected for seed8000, but handle RNG correctly
-        rn2(100); // chance check (build_room)
-    }
+
+    // All themed rooms go through create_room for placement via build_room.
+    // In C, build_room has: xint16 rtype = (!r->chance || rn2(100) < r->chance) ? r->rtype : OROOM;
+    // `chance` defaults to 100 in Lua parsing (get_table_int_opt(L, "chance", 100)).
+    // Thus `!r->chance` is false (100 != 0), so `rn2(100)` is evaluated!
+    rn2(100);
+
     // All themed rooms go through create_room for placement
     const ok = create_room(-1, -1, -1, -1, -1, -1, OROOM, -1);
     if (ok) {
@@ -550,6 +568,30 @@ async function themerooms_generate(difficulty) {
         if (aroom) {
             topologize(aroom);
             aroom.needfill = FILL_NORMAL;
+
+            // Check if we also need to do a fill reservoir sampling
+            if (pick.has_fill) {
+                let fill_pick = null;
+                let fill_total_frequency = 0;
+
+                for (const fmeta of THEMEROOM_FILLS_META) {
+                    // Check mindiff / maxdiff
+                    if (fmeta.mindiff != null && difficulty < fmeta.mindiff) continue;
+                    if (fmeta.maxdiff != null && difficulty > fmeta.maxdiff) continue;
+
+                    // Check lit reqs now that we have aroom.rlit
+                    if (fmeta.req_lit === true && !aroom.rlit) continue;
+                    if (fmeta.req_lit === false && aroom.rlit) continue;
+
+                    const this_frequency = fmeta.frequency || 1;
+                    fill_total_frequency += this_frequency;
+                    if (this_frequency > 0) {
+                        if (rn2(fill_total_frequency) < this_frequency) {
+                            fill_pick = fmeta;
+                        }
+                    }
+                }
+            }
         }
     }
     return ok;
