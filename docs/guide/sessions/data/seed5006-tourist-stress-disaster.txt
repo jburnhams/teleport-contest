@@ -6,16 +6,15 @@
 [Step 1] Key:   | PRNG: 2 calls
   Msg: You are lucky!  Full moon tonight.
   Map updated (1 rows changed)
-[Step 2] Key:  | PRNG: 0 calls
+[Step 2] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 3] Key: 2 | PRNG: 0 calls
   Msg: To what level do you want to teleport? 2
-[Step 4] Key: 
- | PRNG: 4133 calls
+[Step 4] Key: \n | PRNG: 4133 calls
   Msg: You materialize on a different level!
   Map updated (8 rows changed)
   Status update: Wizard the Rambler             St:10 Dx:12 Co:15 In:13 Wi:10 Ch:15 Neutral | Dlvl:2 $:307 HP:10(10) Pw:2(2) AC:10 Xp:1
-[Step 5] Key:  | PRNG: 0 calls
+[Step 5] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 6] Key: c | PRNG: 0 calls
   Msg: For what do you wish? c
@@ -59,10 +58,9 @@
   Msg: For what do you wish? cursed leather glove
 [Step 26] Key: s | PRNG: 0 calls
   Msg: For what do you wish? cursed leather gloves
-[Step 27] Key: 
- | PRNG: 7 calls
+[Step 27] Key: \n | PRNG: 7 calls
   Msg: m - a pair of fencing gloves.
-[Step 28] Key:  | PRNG: 0 calls
+[Step 28] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 29] Key: r | PRNG: 0 calls
   Msg: For what do you wish? r
@@ -104,10 +102,9 @@
   Msg: For what do you wish? ring of regeneratio
 [Step 48] Key: n | PRNG: 0 calls
   Msg: For what do you wish? ring of regeneration
-[Step 49] Key: 
- | PRNG: 5 calls
+[Step 49] Key: \n | PRNG: 5 calls
   Msg: n - a clay ring.
-[Step 50] Key:  | PRNG: 0 calls
+[Step 50] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 51] Key: b | PRNG: 0 calls
   Msg: For what do you wish? b
@@ -127,10 +124,9 @@
   Msg: For what do you wish? blindfol
 [Step 59] Key: d | PRNG: 0 calls
   Msg: For what do you wish? blindfold
-[Step 60] Key: 
- | PRNG: 3 calls
+[Step 60] Key: \n | PRNG: 3 calls
   Msg: o - a blindfold.
-[Step 61] Key:  | PRNG: 0 calls
+[Step 61] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 62] Key: s | PRNG: 0 calls
   Msg: For what do you wish? s
@@ -178,10 +174,9 @@
   Msg: For what do you wish? scroll of teleportatio
 [Step 84] Key: n | PRNG: 0 calls
   Msg: For what do you wish? scroll of teleportation
-[Step 85] Key: 
- | PRNG: 5 calls
+[Step 85] Key: \n | PRNG: 5 calls
   Msg: p - a scroll labeled YUM YUM.
-[Step 86] Key:  | PRNG: 0 calls
+[Step 86] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 87] Key: c | PRNG: 0 calls
   Msg: For what do you wish? c
@@ -225,8 +220,7 @@
   Msg: For what do you wish? cursed bag of holdin
 [Step 107] Key: g | PRNG: 0 calls
   Msg: For what do you wish? cursed bag of holding
-[Step 108] Key: 
- | PRNG: 9 calls
+[Step 108] Key: \n | PRNG: 9 calls
   Msg: q - a bag.
 [Step 109] Key: P | PRNG: 0 calls
   Msg: What do you want to put on? [no or ?*]
@@ -275,7 +269,7 @@
   Msg: The kitten bites the sewer rat.  The sewer rat is killed!
   Map updated (1 rows changed)
   Status update: Wizard the Rambler             St:10 Dx:12 Co:15 In:13 Wi:10 Ch:15 Neutral | Dlvl:2 $:307 HP:10(10) Pw:2(2) AC:9 Xp:1
-[Step 128] Key:  | PRNG: 0 calls
+[Step 128] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 129] Key: c | PRNG: 0 calls
   Msg: For what do you wish? c
@@ -329,8 +323,7 @@
   Msg: For what do you wish? cursed potion of confusio
 [Step 154] Key: n | PRNG: 0 calls
   Msg: For what do you wish? cursed potion of confusion
-[Step 155] Key: 
- | PRNG: 4 calls
+[Step 155] Key: \n | PRNG: 4 calls
   Msg: r - a puce potion.
 [Step 156] Key: q | PRNG: 0 calls
   Msg: What do you want to drink? [hr or ?*]
@@ -350,14 +343,13 @@
   Msg: Being confused, you mispronounce the magic words...--More--
 [Step 163] Key:   | PRNG: 0 calls
   Msg: To what level do you want to teleport?
-[Step 164] Key: 
- | PRNG: 2433 calls
+[Step 164] Key: \n | PRNG: 2433 calls
   Msg: Oops...--More--
 [Step 165] Key:   | PRNG: 39 calls
   Msg: You materialize on a different level!
   Map updated (9 rows changed)
   Status update: Wizard the Rambler             St:10 Dx:12 Co:15 In:13 Wi:10 Ch:15 Neutral | Dlvl:3 $:307 HP:10(10) Pw:2(2) AC:9 Xp:1 Conf
-[Step 166] Key:  | PRNG: 0 calls
+[Step 166] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 167] Key: w | PRNG: 0 calls
   Msg: For what do you wish? w
@@ -385,8 +377,7 @@
   Msg: For what do you wish? wand of deat
 [Step 179] Key: h | PRNG: 0 calls
   Msg: For what do you wish? wand of death
-[Step 180] Key: 
- | PRNG: 6 calls
+[Step 180] Key: \n | PRNG: 6 calls
   Msg: s - a marble wand.
 [Step 181] Key: z | PRNG: 0 calls
   Msg: What do you want to zap? [s or ?*]
@@ -413,7 +404,6 @@
 [Step 192] Key: y | PRNG: 0 calls
 [Step 193] Key:   | PRNG: 0 calls
   Map updated (1 rows changed)
-  Status update:  | 
 
 === SEGMENT 1 ===
 [Step 0] Key: NULL (Init) | PRNG: 2669 calls
@@ -422,12 +412,11 @@
 [Step 1] Key:   | PRNG: 2 calls
   Msg: You are lucky!  Full moon tonight.
   Map updated (1 rows changed)
-[Step 2] Key:  | PRNG: 0 calls
+[Step 2] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 3] Key: 3 | PRNG: 0 calls
   Msg: To what level do you want to teleport? 3
-[Step 4] Key: 
- | PRNG: 1 calls
+[Step 4] Key: \n | PRNG: 1 calls
   Msg: Get bones? [yn] (n)
   Map updated (1 rows changed)
   Status update: Wizard the Gallant             St:14 Dx:8 Co:10 In:11 Wi:15 Ch:17 Lawful | Dlvl:3 $:0 HP:16(16) Pw:5(5) AC:3 Xp:1
@@ -450,8 +439,7 @@
   Msg: # pray
 [Step 13] Key: y | PRNG: 0 calls
   Msg: # pray
-[Step 14] Key: 
- | PRNG: 0 calls
+[Step 14] Key: \n | PRNG: 0 calls
   Msg: Are you sure you want to pray? [yn] (n)
 [Step 15] Key: y | PRNG: 0 calls
   Msg: You begin praying to Lugh.--More--
@@ -473,7 +461,7 @@
   Msg: You feel foolish!
 [Step 23] Key:   | PRNG: 0 calls
   Msg: Unknown command ' '.
-[Step 24] Key:  | PRNG: 0 calls
+[Step 24] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 25] Key: w | PRNG: 0 calls
   Msg: For what do you wish? w
@@ -501,8 +489,7 @@
   Msg: For what do you wish? wand of deat
 [Step 37] Key: h | PRNG: 0 calls
   Msg: For what do you wish? wand of death
-[Step 38] Key: 
- | PRNG: 5 calls
+[Step 38] Key: \n | PRNG: 5 calls
   Msg: i - an aluminum wand.
 [Step 39] Key: z | PRNG: 0 calls
   Msg: What do you want to zap? [i or ?*]
@@ -533,4 +520,3 @@
 [Step 53] Key: y | PRNG: 0 calls
 [Step 54] Key:   | PRNG: 0 calls
   Map updated (1 rows changed)
-  Status update:  | 

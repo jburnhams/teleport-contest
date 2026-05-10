@@ -42,12 +42,11 @@
 [Step 16] Key: . | PRNG: 19 calls
   Map updated (2 rows changed)
   Status update: Wizard the Evoker              St:10 Dx:14 Co:14 In:18 Wi:10 Ch:9 Neutral | Dlvl:1 $:0 HP:12(12) Pw:6(6) AC:9 Xp:1/0 T:6
-[Step 17] Key:  | PRNG: 0 calls
+[Step 17] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 18] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 19] Key: 
- | PRNG: 0 calls
+[Step 19] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (20 rows changed)
   Status update: s -   wizard3: 47 | (1 of 3)
@@ -55,12 +54,11 @@
   Msg: You materialize on a different level!
   Map updated (20 rows changed)
   Status update: Wizard the Evoker              St:10 Dx:14 Co:14 In:18 Wi:10 Ch:9 Neutral | Dlvl:12 $:0 HP:12(12) Pw:6(6) AC:9 Xp:1/0 T:6
-[Step 21] Key:  | PRNG: 0 calls
+[Step 21] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 22] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 23] Key: 
- | PRNG: 0 calls
+[Step 23] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (20 rows changed)
   Status update: s -   wizard3: 47 | (1 of 3)
@@ -89,14 +87,13 @@
 [Step 31] Key: ESC | PRNG: 0 calls
   Map updated (20 rows changed)
   Status update: Wizard the Evoker              St:10 Dx:14 Co:14 In:18 Wi:10 Ch:9 Neutral | Dlvl:5 $:0 HP:12(12) Pw:6(6) AC:9 Xp:1/0 T:6
-[Step 32] Key:  | PRNG: 0 calls
+[Step 32] Key: \x18 | PRNG: 0 calls
   Msg: Wizard the Wizard's attributes:
   Map updated (20 rows changed)
   Status update: Your intelligence is 18. | (1 of 2)
 [Step 33] Key:   | PRNG: 0 calls
   Msg: Your wisdom is 10.
   Map updated (21 rows changed)
-  Status update:  | 
 [Step 34] Key: ESC | PRNG: 0 calls
   Map updated (20 rows changed)
   Status update: Wizard the Evoker              St:10 Dx:14 Co:14 In:18 Wi:10 Ch:9 Neutral | Dlvl:5 $:0 HP:12(12) Pw:6(6) AC:9 Xp:1/0 T:6

@@ -15,7 +15,7 @@
 [Step 4] Key: L | PRNG: 28 calls
   Msg: You hear an A note squeak in the distance.
   Map updated (2 rows changed)
-[Step 5] Key:  | PRNG: 363 calls
+[Step 5] Key: \x0c | PRNG: 363 calls
   Map updated (8 rows changed)
 [Step 6] Key: l | PRNG: 16 calls
   Map updated (8 rows changed)
@@ -58,8 +58,7 @@
   Msg: # chat
 [Step 30] Key: t | PRNG: 0 calls
   Msg: # chat
-[Step 31] Key: 
- | PRNG: 0 calls
+[Step 31] Key: \n | PRNG: 0 calls
   Msg: Talk to whom? (in what direction)
 [Step 32] Key: h | PRNG: 0 calls
   Msg: It's like talking to a wall.
@@ -96,7 +95,6 @@
 [Step 48] Key: y | PRNG: 0 calls
   Msg: Be seeing you...
   Map updated (10 rows changed)
-  Status update:  | 
 
 === SEGMENT 1 ===
 [Step 0] Key: NULL (Init) | PRNG: 2 calls
@@ -113,15 +111,14 @@
 [Step 4] Key:   | PRNG: 0 calls
   Map updated (17 rows changed)
   Status update: Sneaky the Footpad             St:14 Dx:16 Co:14 In:10 Wi:12 Ch:9 Chaotic | Dlvl:1 $:0 HP:12(12) Pw:2(2) AC:7 Xp:1
-[Step 5] Key:  | PRNG: 0 calls
+[Step 5] Key: \x18 | PRNG: 0 calls
   Msg: Sneaky the Rogue's attributes:
   Map updated (20 rows changed)
   Status update: Your constitution is 14. | (1 of 2)
 [Step 6] Key:   | PRNG: 0 calls
   Msg: Your intelligence is 10.
   Map updated (20 rows changed)
-  Status update:  | 
-[Step 7] Key:  | PRNG: 0 calls
+[Step 7] Key: \x0f | PRNG: 0 calls
   Msg: Your intelligence is 10.
 [Step 8] Key:   | PRNG: 0 calls
   Map updated (17 rows changed)
@@ -183,8 +180,7 @@
   Msg: Tip: Farlooking or selecting a map location
 [Step 35] Key: d | PRNG: 0 calls
   Msg: Tip: Farlooking or selecting a map location
-[Step 36] Key: 
- | PRNG: 0 calls
+[Step 36] Key: \n | PRNG: 0 calls
   Msg: (For instructions type a '?')  Move cursor to anything of interest:
   Map updated (6 rows changed)
 [Step 37] Key:   | PRNG: 0 calls
@@ -205,8 +201,7 @@
   Msg: Done.--More--
 [Step 45] Key: t | PRNG: 0 calls
   Msg: Done.--More--
-[Step 46] Key: 
- | PRNG: 0 calls
+[Step 46] Key: \n | PRNG: 0 calls
   Map updated (2 rows changed)
 [Step 47] Key:   | PRNG: 0 calls
   Msg: Unknown command ' '.
@@ -215,4 +210,3 @@
 [Step 49] Key: y | PRNG: 0 calls
   Msg: Be seeing you...
   Map updated (10 rows changed)
-  Status update:  | 

@@ -36,15 +36,13 @@
   Msg: # levelchange
 [Step 15] Key: e | PRNG: 0 calls
   Msg: # levelchange
-[Step 16] Key: 
- | PRNG: 0 calls
+[Step 16] Key: \n | PRNG: 0 calls
   Msg: To what experience level do you want to be set?
 [Step 17] Key: 2 | PRNG: 0 calls
   Msg: To what experience level do you want to be set? 2
 [Step 18] Key: 0 | PRNG: 0 calls
   Msg: To what experience level do you want to be set? 20
-[Step 19] Key: 
- | PRNG: 3 calls
+[Step 19] Key: \n | PRNG: 3 calls
   Msg: You feel more experienced.  Welcome to experience level 2.--More--
   Status update: Wizard the Evoker              St:11 Dx:11 Co:12 In:18 Wi:15 Ch:8 Neutral | Dlvl:1 $:0 HP:19(19) Pw:15(15) AC:9 Xp:2
 [Step 20] Key:   | PRNG: 3 calls
@@ -103,12 +101,11 @@
 [Step 38] Key:   | PRNG: 1 calls
   Msg: You feel more experienced.  Welcome to experience level 20.
   Status update: Wizard the Sorcerer            St:11 Dx:11 Co:12 In:18 Wi:15 Ch:8 Neutral | Dlvl:1 $:0 HP:99(99) Pw:213(213) AC:9 Xp:20
-[Step 39] Key:  | PRNG: 0 calls
+[Step 39] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 40] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 41] Key: 
- | PRNG: 0 calls
+[Step 41] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (20 rows changed)
   Status update: s -   wizard3: 40 | (1 of 3)
@@ -116,7 +113,7 @@
   Msg: You materialize on a different level!
   Map updated (20 rows changed)
   Status update: Wizard the Sorcerer            St:11 Dx:11 Co:12 In:18 Wi:15 Ch:8 Neutral | Dlvl:12 $:0 HP:99(99) Pw:213(213) AC:9 Xp:20
-[Step 43] Key:  | PRNG: 0 calls
+[Step 43] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 44] Key: b | PRNG: 0 calls
   Msg: For what do you wish? b
@@ -176,10 +173,9 @@
   Msg: For what do you wish? blessed amulet of life savin
 [Step 72] Key: g | PRNG: 0 calls
   Msg: For what do you wish? blessed amulet of life saving
-[Step 73] Key: 
- | PRNG: 5 calls
+[Step 73] Key: \n | PRNG: 5 calls
   Msg: o - an octagonal amulet.
-[Step 74] Key:  | PRNG: 0 calls
+[Step 74] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 75] Key: b | PRNG: 0 calls
   Msg: For what do you wish? b
@@ -247,8 +243,7 @@
   Msg: For what do you wish? blessed +3 gray dragon scale mai
 [Step 107] Key: l | PRNG: 0 calls
   Msg: For what do you wish? blessed +3 gray dragon scale mail
-[Step 108] Key: 
- | PRNG: 7 calls
+[Step 108] Key: \n | PRNG: 7 calls
   Msg: p - a gray dragon scale mail.
 [Step 109] Key: T | PRNG: 43 calls
   Msg: You were wearing an uncursed +0 cloak of magic resistance.
@@ -273,7 +268,7 @@
   Map updated (9 rows changed)
 [Step 118] Key:   | PRNG: 0 calls
   Msg: Unknown command ' '.
-[Step 119] Key:  | PRNG: 0 calls
+[Step 119] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 120] Key: b | PRNG: 0 calls
   Msg: For what do you wish? b
@@ -311,10 +306,9 @@
   Msg: For what do you wish? blessed 20 dagger
 [Step 137] Key: s | PRNG: 0 calls
   Msg: For what do you wish? blessed 20 daggers
-[Step 138] Key: 
- | PRNG: 10 calls
+[Step 138] Key: \n | PRNG: 10 calls
   Msg: q - 20 daggers.
-[Step 139] Key:  | PRNG: 0 calls
+[Step 139] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 140] Key: b | PRNG: 0 calls
   Msg: For what do you wish? b
@@ -360,11 +354,10 @@
   Msg: For what do you wish? blessed 30 gold piece
 [Step 161] Key: s | PRNG: 0 calls
   Msg: For what do you wish? blessed 30 gold pieces
-[Step 162] Key: 
- | PRNG: 2 calls
+[Step 162] Key: \n | PRNG: 2 calls
   Msg: $ - 30 gold pieces.
   Status update: Wizard the Sorcerer            St:11 Dx:11 Co:12 In:18 Wi:15 Ch:8 Neutral | Dlvl:12 $:30 HP:99(99) Pw:213(213) AC:10 Xp:20
-[Step 163] Key:  | PRNG: 0 calls
+[Step 163] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 164] Key: b | PRNG: 0 calls
   Msg: For what do you wish? b
@@ -418,10 +411,9 @@
   Msg: For what do you wish? blessed scroll of identif
 [Step 189] Key: y | PRNG: 0 calls
   Msg: For what do you wish? blessed scroll of identify
-[Step 190] Key: 
- | PRNG: 5 calls
+[Step 190] Key: \n | PRNG: 5 calls
   Msg: r - a scroll labeled KO BATE.
-[Step 191] Key:  | PRNG: 0 calls
+[Step 191] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 192] Key: b | PRNG: 0 calls
   Msg: For what do you wish? b
@@ -467,10 +459,9 @@
   Msg: For what do you wish? blessed scroll of mai
 [Step 213] Key: l | PRNG: 0 calls
   Msg: For what do you wish? blessed scroll of mail
-[Step 214] Key: 
- | PRNG: 3 calls
+[Step 214] Key: \n | PRNG: 3 calls
   Msg: s - a stamped scroll.
-[Step 215] Key:  | PRNG: 0 calls
+[Step 215] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 216] Key: 2 | PRNG: 0 calls
   Msg: For what do you wish? 2
@@ -520,10 +511,9 @@
   Msg: For what do you wish? 2 cursed fortune cookie
 [Step 239] Key: s | PRNG: 0 calls
   Msg: For what do you wish? 2 cursed fortune cookies
-[Step 240] Key: 
- | PRNG: 4 calls
+[Step 240] Key: \n | PRNG: 4 calls
   Msg: t - 2 fortune cookies.
-[Step 241] Key:  | PRNG: 0 calls
+[Step 241] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 242] Key: b | PRNG: 0 calls
   Msg: For what do you wish? b
@@ -551,10 +541,9 @@
   Msg: For what do you wish? blessed appl
 [Step 254] Key: e | PRNG: 0 calls
   Msg: For what do you wish? blessed apple
-[Step 255] Key: 
- | PRNG: 4 calls
+[Step 255] Key: \n | PRNG: 4 calls
   Msg: u - an apple.
-[Step 256] Key:  | PRNG: 0 calls
+[Step 256] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 257] Key: b | PRNG: 0 calls
   Msg: For what do you wish? b
@@ -592,10 +581,9 @@
   Msg: For what do you wish? blessed magic lam
 [Step 274] Key: p | PRNG: 0 calls
   Msg: For what do you wish? blessed magic lamp
-[Step 275] Key: 
- | PRNG: 4 calls
+[Step 275] Key: \n | PRNG: 4 calls
   Msg: v - a lamp.
-[Step 276] Key:  | PRNG: 0 calls
+[Step 276] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 277] Key: b | PRNG: 0 calls
   Msg: For what do you wish? b
@@ -643,10 +631,9 @@
   Msg: For what do you wish? blessed bell of openin
 [Step 299] Key: g | PRNG: 0 calls
   Msg: For what do you wish? blessed bell of opening
-[Step 300] Key: 
- | PRNG: 3 calls
+[Step 300] Key: \n | PRNG: 3 calls
   Msg: w - a silver bell.
-[Step 301] Key:  | PRNG: 0 calls
+[Step 301] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 302] Key: b | PRNG: 0 calls
   Msg: For what do you wish? b
@@ -684,10 +671,9 @@
   Msg: For what do you wish? blessed magic har
 [Step 319] Key: p | PRNG: 0 calls
   Msg: For what do you wish? blessed magic harp
-[Step 320] Key: 
- | PRNG: 4 calls
+[Step 320] Key: \n | PRNG: 4 calls
   Msg: x - a harp.
-[Step 321] Key:  | PRNG: 0 calls
+[Step 321] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 322] Key: b | PRNG: 0 calls
   Msg: For what do you wish? b
@@ -715,10 +701,9 @@
   Msg: For what do you wish? blessed leas
 [Step 334] Key: h | PRNG: 0 calls
   Msg: For what do you wish? blessed leash
-[Step 335] Key: 
- | PRNG: 3 calls
+[Step 335] Key: \n | PRNG: 3 calls
   Msg: y - a leash.
-[Step 336] Key:  | PRNG: 0 calls
+[Step 336] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 337] Key: b | PRNG: 0 calls
   Msg: For what do you wish? b
@@ -770,10 +755,9 @@
   Msg: For what do you wish? blessed wand of polymorp
 [Step 361] Key: h | PRNG: 0 calls
   Msg: For what do you wish? blessed wand of polymorph
-[Step 362] Key: 
- | PRNG: 6 calls
+[Step 362] Key: \n | PRNG: 6 calls
   Msg: z - a hexagonal wand.
-[Step 363] Key:  | PRNG: 0 calls
+[Step 363] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 364] Key: b | PRNG: 0 calls
   Msg: For what do you wish? b
@@ -843,8 +827,7 @@
   Msg: For what do you wish? blessed spellbook of magic missil
 [Step 397] Key: e | PRNG: 0 calls
   Msg: For what do you wish? blessed spellbook of magic missile
-[Step 398] Key: 
- | PRNG: 3 calls
+[Step 398] Key: \n | PRNG: 3 calls
   Msg: A - a spellbook of magic missile.--More--
 [Step 399] Key: # | PRNG: 0 calls
   Msg: A - a spellbook of magic missile.--More--
@@ -872,16 +855,14 @@
   Msg: A - a spellbook of magic missile.--More--
 [Step 411] Key: c | PRNG: 0 calls
   Msg: A - a spellbook of magic missile.--More--
-[Step 412] Key: 
- | PRNG: 1 calls
+[Step 412] Key: \n | PRNG: 1 calls
   Msg: Your movements are slowed slightly because of your load.
   Status update: Wizard the Sorcerer            St:11 Dx:11 Co:12 In:18 Wi:15 Ch:8 Neutral | Dlvl:12 $:30 HP:99(99) Pw:213(213) AC:10 Xp:20 Burdened
 [Step 413] Key: h | PRNG: 54 calls
   Msg: You hit the soldier ant.  The soldier ant bites!--More--
   Map updated (2 rows changed)
   Status update: Wizard the Sorcerer            St:11 Dx:11 Co:12 In:18 Wi:15 Ch:8 Neutral | Dlvl:12 $:30 HP:96(99) Pw:213(213) AC:10 Xp:20 Burdened
-[Step 414] Key: 
- | PRNG: 11 calls
+[Step 414] Key: \n | PRNG: 11 calls
   Msg: The soldier ant stings!  The soldier ant bites!--More--
   Status update: Wizard the Sorcerer            St:11 Dx:11 Co:12 In:18 Wi:15 Ch:8 Neutral | Dlvl:12 $:30 HP:81(99) Pw:213(213) AC:10 Xp:20 Burdened
 [Step 415] Key:   | PRNG: 62 calls
@@ -964,8 +945,7 @@
   Msg: The soldier ant stings!--More--
 [Step 447] Key: h | PRNG: 0 calls
   Msg: The soldier ant stings!--More--
-[Step 448] Key: 
- | PRNG: 1 calls
+[Step 448] Key: \n | PRNG: 1 calls
   Msg: You die...  But wait...  Your medallion begins to glow!--More--
   Status update: Wizard the Sorcerer            St:11 Dx:11 Co:12 In:18 Wi:15 Ch:8 Neutral | Dlvl:12 $:30 HP:0(99) Pw:213(213) AC:10 Xp:20
 [Step 449] Key: : | PRNG: 0 calls
@@ -979,8 +959,7 @@
 [Step 452] Key: Z | PRNG: 0 calls
   Msg: Choose which spell to cast
   Map updated (4 rows changed)
-[Step 453] Key: 
- | PRNG: 0 calls
+[Step 453] Key: \n | PRNG: 0 calls
   Map updated (4 rows changed)
 [Step 454] Key: h | PRNG: 26 calls
   Msg: You hit the soldier ant.  The soldier ant bites!--More--
@@ -1000,8 +979,7 @@
   Msg: You hit the soldier ant.  The soldier ant bites!--More--
 [Step 461] Key: e | PRNG: 0 calls
   Msg: You hit the soldier ant.  The soldier ant bites!--More--
-[Step 462] Key: 
- | PRNG: 11 calls
+[Step 462] Key: \n | PRNG: 11 calls
   Msg: The soldier ant stings!  The soldier ant bites!--More--
   Status update: Wizard the Sorcerer            St:11 Dx:11 Co:11 In:18 Wi:15 Ch:8 Neutral | Dlvl:12 $:30 HP:65(99) Pw:213(213) AC:10 Xp:20
 [Step 463] Key: w | PRNG: 0 calls
@@ -1053,12 +1031,11 @@
   Msg: The straw golem hits!  The straw golem hits again!--More--
   Map updated (9 rows changed)
   Status update: Wizard the Sorcerer            St:11 Dx:11 Co:11 In:18 Wi:15 Ch:8 Neutral | Dlvl:12 $:30 HP:36(99) Pw:213(213) AC:10 Xp:20
-[Step 485] Key:  | PRNG: 0 calls
+[Step 485] Key: \x16 | PRNG: 0 calls
   Msg: The straw golem hits!  The straw golem hits again!--More--
 [Step 486] Key: ? | PRNG: 0 calls
   Msg: The straw golem hits!  The straw golem hits again!--More--
-[Step 487] Key: 
- | PRNG: 11 calls
+[Step 487] Key: \n | PRNG: 11 calls
   Msg: The soldier ant bites!  The soldier ant stings!--More--
   Status update: Wizard the Sorcerer            St:11 Dx:11 Co:11 In:18 Wi:15 Ch:8 Neutral | Dlvl:12 $:30 HP:23(99) Pw:213(213) AC:10 Xp:20
 [Step 488] Key: c | PRNG: 0 calls
@@ -1087,8 +1064,7 @@
   Msg: Unknown command ' '.
 [Step 499] Key: q | PRNG: 0 calls
   Msg: What do you want to drink? [fgh or ?*]
-[Step 500] Key: 
- | PRNG: 0 calls
+[Step 500] Key: \n | PRNG: 0 calls
   Msg: Never mind.
 [Step 501] Key: # | PRNG: 0 calls
   Msg: #
@@ -1100,8 +1076,7 @@
   Msg: # pray
 [Step 505] Key: y | PRNG: 0 calls
   Msg: # pray
-[Step 506] Key: 
- | PRNG: 0 calls
+[Step 506] Key: \n | PRNG: 0 calls
   Msg: Are you sure you want to pray? [yn] (n)
 [Step 507] Key: y | PRNG: 0 calls
   Msg: You begin praying to Thoth.--More--
@@ -1146,7 +1121,7 @@
 [Step 525] Key: ESC | PRNG: 14 calls
   Msg: OK, so you don't die.  The soldier ant bites!  The soldier ant stings!--More--
   Status update: Wizard the Sorcerer            St:8 Dx:11 Co:11 In:18 Wi:15 Ch:8 Neutral | Dlvl:12 $:30 HP:83(99) Pw:213(213) AC:10 Xp:20 Burdened
-[Step 526] Key:  | PRNG: 0 calls
+[Step 526] Key: \x18 | PRNG: 0 calls
   Msg: OK, so you don't die.  The soldier ant bites!  The soldier ant stings!--More--
 [Step 527] Key:   | PRNG: 11 calls
   Msg: The soldier ant bites!  The soldier ant stings!--More--
