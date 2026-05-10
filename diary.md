@@ -104,3 +104,10 @@ Next: implement real fill phase (replace `fastforward_fill_mineralize` for non-s
 
 
 - Fixed `mons[]` extraction script: explicitly expand `SEDUCTION_ATTACKS` so incubus/succubus receive full 6-element attack arrays, correctly parse all bitmasks to remove `L`/`0L` suffixes, and populate `const.js` with missing macros to avoid `undefined` coercion in the generated output.
+
+## 2024-05-15
+- Completed Stream A subtasks A3 and A4.
+- Extracted and formatted `roles`, `races`, `aligns`, and `genders` tables from C source into `js/roles.js`.
+- Confirmed missing object class constants (`WEAPON_CLASS`, etc.) in `js/const.js` and added/corrected them.
+- Verified test `test/roles.test.js` passes and `npm run score:check` maintains parity without regressions.
+- What's next: Begin work on Stream D (Object System) or Stream E (Monster System) since Stream A dependencies are met.
