@@ -107,3 +107,5 @@ Next: implement real fill phase (replace `fastforward_fill_mineralize` for non-s
 - Next step: Continue with Stream D2: mkobj — object creation by investigating `mksobj_init` logic which spans over 200 lines and consumes RNG values differently for each object class.
 
 - Fixed `mkgold()` weight calculation. Added COIN_CLASS to `const.js`. Fixed `weight` computation for coins mirroring NetHack `(quan + 50) / 100` rather than random stubs.
+
+- Fixed `mkgold()` utilizing `level_difficulty()` and `depth()` ported to `hacklib.js`.

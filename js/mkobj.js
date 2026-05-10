@@ -3,7 +3,7 @@ import { game } from './gstate.js';
 import { fobj, set_fobj } from './decl.js';
 import { BOULDER, COIN_CLASS, GOLD_PIECE } from './objects.js';
 import { rnd } from './rng.js';
-import { depth } from './hacklib.js';
+import { depth, level_difficulty } from './hacklib.js';
 
 export const OBJ_FREE = 0;
 export const OBJ_FLOOR = 1;
@@ -153,8 +153,8 @@ export function mkgold(amount, x, y) {
 
     if (amount <= 0) {
         const depthVal = depth(game.u?.uz);
-        const dunLevel = depthVal; // FIXME: level_difficulty needs to be implemented properly, but using depth for now
-        const mul = rnd(Math.trunc(30 / Math.max(12 - dunLevel, 2)));
+        const dunLevel = level_difficulty();
+        const mul = rnd(Math.trunc(30 / Math.max(12 - depthVal, 2)));
 
         amount = 1 + rnd(dunLevel + 2) * mul;
     }
