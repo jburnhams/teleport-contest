@@ -178,3 +178,8 @@ Most frequent first-divergence locations across 44 canonical sessions:
 - Reviewed `extract-role.py` and `parse_roles_to_js.js`; these clearly processed `src/role.c` via intermediate temp files to build `js/roles.js`.
 - Validated `js/const.js` contains the added missing enums (e.g., `WEAPON_CLASS`, `S_ANT`, `G_NOGEN`) required for stream alignment.
 - This codebase layer (Stream A) is rock solid and completely ready to support upcoming work streams.
+
+## 2026-05-10
+- Completed Stream F2 (`ini_inv`) stubbing the correct RNG sequence according to C `u_init.c` and `mkobj.c`. Replicated quantity adjustment and BUC evaluation correctly using `while (quan > 0)`.
+- Completed Stream F5 by porting `newexplevel` (as `check_experience`), `pluslvl`, `losexp`, and `rndexp` to `exper.js` to handle the experience level RNG and logic. Used the proper `PM_` constants inside `enermod`.
+- Wrote and passed comprehensive tests inside `exper.test.js` to verify functionality. Verified no score regressions across 44 sessions on `main`.

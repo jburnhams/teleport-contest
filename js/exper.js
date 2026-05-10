@@ -3,17 +3,20 @@
 
 import { rn2, rnd, rn1 } from './rng.js';
 import { game } from './gstate.js';
+import {
+    PM_CLERIC, PM_WIZARD, PM_HEALER, PM_KNIGHT, PM_BARBARIAN, PM_VALKYRIE
+} from './const.js';
 
 function enermod(en) {
     switch (game.urole.mnum) {
-    case 6: // PM_CLERIC
-    case 12: // PM_WIZARD
+    case PM_CLERIC:
+    case PM_WIZARD:
         return (2 * en);
-    case 3: // PM_HEALER
-    case 4: // PM_KNIGHT
+    case PM_HEALER:
+    case PM_KNIGHT:
         return Math.floor((3 * en) / 2);
-    case 1: // PM_BARBARIAN
-    case 11: // PM_VALKYRIE
+    case PM_BARBARIAN:
+    case PM_VALKYRIE:
         return Math.floor((3 * en) / 4);
     default:
         return en;
