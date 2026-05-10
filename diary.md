@@ -202,3 +202,10 @@ Most frequent first-divergence locations across 44 canonical sessions:
 - Appeased logic rules restoring the `P_RIDING` implementation parity utilizing the specific property `gu.urole.petnum == PM_PONY` verified against the latest `weapon.c`.
 - Completed all relevant missing imports (`WEAPON_CLASS`, `TOOL_CLASS`, `GEM_CLASS`) resolving missing scope reference exceptions in JS ES module architectures.
 - Added comprehensive unit testing to `vitest` covering `weapon_skills` defaults, special class overrides (`P_HEALING_SPELL`), and proper initial lengths.
+
+## 2026-05-10
+- Addressed code review feedback for the `skill_init()` implementation:
+  - Corrected `weapon_type()` objclass filter using strictly the imported constants `WEAPON_CLASS`, `TOOL_CLASS`, and `GEM_CLASS` to match NetHack logic securely avoiding string literal mismatch.
+  - Replaced the improperly mapped `PM_PONY` logic with a direct import from `monst.js` ensuring correct integer alignment with actual game monsters.
+  - Eradicated trailing code-comment assumptions left inside `u_init.js` logic retaining clean parity with C.
+  - Re-ran tests across the entire workspace preserving accurate baseline compatibility (+0 baseline deviations).

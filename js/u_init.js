@@ -11,11 +11,13 @@ import {
     P_ENCHANTMENT_SPELL, P_CLERIC_SPELL, P_ESCAPE_SPELL, P_MATTER_SPELL,
     P_BARE_HANDED_COMBAT, P_TWO_WEAPON_COMBAT, P_RIDING, P_NUM_SKILLS,
     P_MARTIAL_ARTS, P_ISRESTRICTED, P_UNSKILLED, P_BASIC, P_SKILLED,
-    P_EXPERT, P_MASTER, P_GRAND_MASTER, PM_PONY, PM_ARCHEOLOGIST, PM_BARBARIAN,
+    P_EXPERT, P_MASTER, P_GRAND_MASTER, PM_ARCHEOLOGIST, PM_BARBARIAN,
     PM_CAVE_DWELLER, PM_HEALER, PM_KNIGHT, PM_MONK, PM_CLERIC,
     PM_ROGUE, PM_RANGER, PM_SAMURAI, PM_TOURIST, PM_VALKYRIE, PM_WIZARD
 } from './const.js';
-import { objects, WEAPON_CLASS, TOOL_CLASS, GEM_CLASS } from './objects.js';
+import { objects } from './objects.js';
+import { PM_PONY } from './monst.js';
+import { WEAPON_CLASS, TOOL_CLASS, GEM_CLASS } from './const.js';
 import { invent } from './decl.js';
 import { game } from './gstate.js';
 import { init_attr, vary_init_attr, acurrstr } from './attrib.js';
