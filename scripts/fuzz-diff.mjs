@@ -76,20 +76,22 @@ async function main() {
   let overallC_rngMatched = 0;
   let overallC_rngTotal = 0;
 
+  const storage = new Map();
+  const storageHandle = {
+      getItem(k) { return storage.has(k) ? storage.get(k) : null; },
+      setItem(k, v) { storage.set(k, String(v)); },
+      removeItem(k) { storage.delete(k); },
+      get length() { return storage.size; },
+      key(i) {
+          let n = 0;
+          for (const k of storage.keys()) { if (n === i) return k; n++; }
+          return null;
+      },
+  };
+
   for (let segIdx = 0; segIdx < session.segments.length; segIdx++) {
     const seg = session.segments[segIdx];
-    const storage = new Map();
-    const storageHandle = {
-        getItem(k) { return storage.has(k) ? storage.get(k) : null; },
-        setItem(k, v) { storage.set(k, String(v)); },
-        removeItem(k) { storage.delete(k); },
-        get length() { return storage.size; },
-        key(i) {
-            let n = 0;
-            for (const k of storage.keys()) { if (n === i) return k; n++; }
-            return null;
-        },
-    };
+
 
     const input = {
         seed: seg.seed,
@@ -104,7 +106,7 @@ async function main() {
         jsGame = await runSegment(input);
     } catch(e) {
         console.error("JS crashed:", e);
-        return;
+        process.exit(1);
     }
 
     const jsRngSlices = jsGame.getRngSlices() || [];
