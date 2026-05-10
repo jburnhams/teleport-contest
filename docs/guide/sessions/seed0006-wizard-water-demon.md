@@ -1,6 +1,6 @@
 # seed0006: Wizard vs. Water Demon
 
-**Subsystem Focus:** Validates the interactive character generation menus, options configuration, combat calculation matrices, level descent, fountain quaff resolution, and cross-level entity tracking.
+**Subsystem Focus**: Validates the interactive character generation menus, options configuration, combat calculation matrices, level descent, fountain quaff resolution, and cross-level entity tracking.
 
 This session is a comprehensive end-to-end validation, beginning with one of the most elaborate character generation sequences in the public sessions, proceeding through options configuration and dungeon exploration, and culminating in a fatal encounter with a water demon. The user entity—a gnomish Wizard named *Hextra the Evoker* (St:13 Dx:15 Co:11 In:19 Wi:10 Ch:7)—demonstrates the engine's ability to handle interactive menu-driven chargen, combat resolution, and cross-level monster pursuit.
 

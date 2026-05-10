@@ -1,6 +1,6 @@
 # seed1500: Robin and the Reluctant Kitten
 
-**Subsystem Focus:** Validates pet pathfinding over corpses, trap-trigger resolution for non-player entities, and the boundary checks for the `apply` command.
+**Subsystem Focus**: Validates pet pathfinding over corpses, trap-trigger resolution for non-player entities, and the boundary checks for the `apply` command.
 
 This session serves as a rigorous mechanical validation of the engine's background entity AI and environmental interaction subroutines. The user entity—a human Rogue named *Robin*—demonstrates the engine's ability to coordinate complex pet behaviours, including dietary reluctance and independent trap evasion.
 

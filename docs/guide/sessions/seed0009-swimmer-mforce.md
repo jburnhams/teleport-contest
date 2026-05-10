@@ -1,6 +1,6 @@
 # seed0009: Swimmer and the Lava
 
-**Subsystem Focus:** Validates tutorial generation, environmental hazard checks, and the `m` (force move) override command.
+**Subsystem Focus**: Validates tutorial generation, environmental hazard checks, and the `m` (force move) override command.
 
 This extremely brief session is a textbook validation of the game's environmental hazard protections, immediately followed by a validation of the user's ability to purposefully override those protections. The user entity—a chaotic Elven Ranger—demonstrates exactly how the engine handles deliberate self-immolation.
 

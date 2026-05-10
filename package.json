@@ -10,10 +10,12 @@
     "prepare": "git config core.hooksPath .githooks",
     "test": "vitest run",
     "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
     "pages:build": "npm run build --prefix pages"
   },
   "devDependencies": {
-    "vitest": "^3.0.0"
+    "@vitest/coverage-v8": "^3.2.4",
+    "vitest": "^3.2.4"
   },
   "engines": {
     "node": ">=24.0.0"
