@@ -1,8 +1,7 @@
 // C ref: obj.h
 import { game } from './gstate.js';
 import { fobj, set_fobj } from './decl.js';
-import { BOULDER, GOLD_PIECE } from './objects.js';
-import { COIN_CLASS } from './const.js';
+import { BOULDER, COIN_CLASS, GOLD_PIECE } from './objects.js';
 import { rnd } from './rng.js';
 import { depth, level_difficulty } from './hacklib.js';
 
