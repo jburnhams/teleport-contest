@@ -4,7 +4,7 @@
 
 This session serves as a rigorous mechanical validation of the engine's debugging and equipment-state logic. The user entity—a human Wizard named *Wizard*—utilises administrative powers to jump between dungeon levels and test the robust handling of armor and equipment flags.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Steps 1–6: The Wizard Mode Setup**
 The engine performs 2,968 PRNG calls to generate the initial state (St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9). Wizard begins on Dungeon Level 1 and, after a brief moment of indecision, declines the tutorial.

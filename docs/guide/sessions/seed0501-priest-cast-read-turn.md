@@ -4,7 +4,7 @@
 
 This session serves as a rigorous mechanical validation of the engine's magical infrastructure. The user entity—a human Priestess named *Clara*—demonstrates the engine's ability to process spell selection, mana consumption, and the redundant reading of known spellbooks.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Steps 1–3: The Aspirant Clara**
 The engine performs 2,203 PRNG calls to generate the initial state (St:13 Dx:12 Co:13 In:10 Wi:18). Clara begins on Dungeon Level 1 and declines the tutorial.

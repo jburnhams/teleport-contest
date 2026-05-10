@@ -4,7 +4,7 @@
 
 This session serves as a rigorous mechanical validation of the engine's UI state machine and interaction boundary checks. The user entity—a human Valkyrie named *Astrid*—demonstrates the engine's ability to handle conversational failure and the systematic rejection of invalid inventory items.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Steps 1–3: The Stripling Astrid**
 The engine performs 2,466 PRNG calls to generate the universe and Astrid's attributes (St:17 Dx:13 Co:18 In:7 Wi:10 Ch:14). Astrid begins on Dungeon Level 1 and declines the tutorial.

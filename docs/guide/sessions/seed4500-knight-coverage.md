@@ -4,7 +4,7 @@
 
 This session serves as a comprehensive mechanical coverage test of the engine's movement and branching subroutines. The user entity—a Knight named *Wizard*—demonstrates the engine's ability to handle complex navigational commands like jumping, while also validating the procedural generation of class-specific Quest branches.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Steps 1–2: The New Moon Penalty**
 The engine performs 2,776 PRNG calls to generate the initial state (St:18/01 Dx:9 Co:12 In:7 Wi:14). The initialisation logic detects the "New Moon" condition from the system clock and applies the deterministic luck penalty: *Be careful! New moon tonight.*
