@@ -105,3 +105,5 @@ Next: implement real fill phase (replace `fastforward_fill_mineralize` for non-s
 - Wrote unit tests for `mkobj` and `invent` verifying linked list behaviour.
 - `score:check` passed correctly with no regressions.
 - Next step: Continue with Stream D2: mkobj — object creation by investigating `mksobj_init` logic which spans over 200 lines and consumes RNG values differently for each object class.
+
+- Fixed `mkgold()` weight calculation. Added COIN_CLASS to `const.js`. Fixed `weight` computation for coins mirroring NetHack `(quan + 50) / 100` rather than random stubs.
