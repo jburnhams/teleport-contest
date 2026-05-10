@@ -191,3 +191,8 @@ Root cause: our `themerooms_generate()` unconditionally runs 30 reservoir-sampli
 **Manual vs auto chargen display state**:
 - Auto ('y' at "Shall I pick?"): no menus shown, banner stays at rows 4-7, name-prompt stays at row 12. "Is this ok?" shows banner (cols 0-39) + options (cols 41+) + name at row 12.
 - Manual ('n' at "Shall I pick?"): C's role menu is full-screen (too many items), clears the entire display. After menu sequence, banner and name-prompt are gone. "Is this ok?" shows only options with empty background. Fix: `display.clearScreen()` before `_putIsThisOk` for the manual path.
+## Object Management
+
+- `place_object` places non-boulder objects underneath boulders. It follows `game.level.objects[x][y]` and inserts below `BOULDER`s if needed.
+- `game.level.objects` must be initialized as a 2D array, rather than a flat array as originally seen.
+- Extract functions (`extract_nexthere`, `extract_nobj`) should return the new head pointer. In JS, we cannot pass head pointers by reference directly unless they are encapsulated in an object property, so functions return the new head.

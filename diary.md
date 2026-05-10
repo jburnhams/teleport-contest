@@ -96,6 +96,21 @@ After vault fix + newpw fix, most fully-specified sessions now diverge in the fi
 Next: implement real fill phase (replace `fastforward_fill_mineralize` for non-seed8000).
 
 ---
+## YYYY-MM-DD
+
+- Completed Stream D Sub-task D1 & D3 (Object System).
+- Wrote `js/mkobj.js` implementing `newobj`, `place_object`, `remove_object`, `obj_extract_self`.
+- Updated `js/game.js` to initialize `this.objects` as a 2D array of `null` pointers mirroring C's `svl.level.objects[x][y]`.
+- Implemented `mkgold` mirroring integer math accurately with `Math.trunc`.
+- Created `js/invent.js` with `findgold`.
+- Wrote unit tests for `mkobj` and `invent` verifying linked list behaviour.
+- `score:check` passed correctly with no regressions.
+- Next step: Continue with Stream D2: mkobj — object creation by investigating `mksobj_init` logic which spans over 200 lines and consumes RNG values differently for each object class.
+
+- Fixed `mkgold()` weight calculation. Added COIN_CLASS to `const.js`. Fixed `weight` computation for coins mirroring NetHack `(quan + 50) / 100` rather than random stubs.
+
+- Fixed `mkgold()` utilizing `level_difficulty()` and `depth()` ported to `hacklib.js`.
+## 2026-05-10
 
 ## 2026-05-10 — Chargen display UI (+67 screens)
 

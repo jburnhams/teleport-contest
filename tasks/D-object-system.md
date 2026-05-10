@@ -10,12 +10,12 @@ Port the object creation and management system. Objects are items in the game �
 ---
 
 ## D1. Object struct and linked list
-- [ ] Read C `include/obj.h` — the `obj` struct definition
-- [ ] Define JS object shape: `{ otyp, oclass, ox, oy, quan, owt, spe, oeroded, cursed, blessed, known, dknown, bknown, ... }`
-- [ ] Port `newobj()` — allocate a new object
-- [ ] Port object linked list management: `fobj` (floor objects), `invent` (hero inventory)
-- [ ] Port `place_object()` / `remove_object()` — put object on/off map
-- [ ] Port `obj_extract_self()` — remove from any chain
+- [x] Read C `include/obj.h` — the `obj` struct definition
+- [x] Define JS object shape: `{ otyp, oclass, ox, oy, quan, owt, spe, oeroded, cursed, blessed, known, dknown, bknown, ... }`
+- [x] Port `newobj()` — allocate a new object
+- [x] Port object linked list management: `fobj` (floor objects), `invent` (hero inventory)
+- [x] Port `place_object()` / `remove_object()` — put object on/off map
+- [x] Port `obj_extract_self()` — remove from any chain
 
 ## D2. mkobj — object creation
 - [ ] Read C `src/mkobj.c` — understand the full `mksobj()` function
@@ -29,9 +29,9 @@ Port the object creation and management system. Objects are items in the game �
 - [ ] Port `mkobjcnt()` — helper for object generation during mklev
 
 ## D3. Gold handling
-- [ ] Port `mkgold()` — create gold objects
+- [x] Port `mkgold()` — create gold objects
 - [ ] Port `goldobj_to_gobj()` — gold amount calculation
-- [ ] Port `findgold()` — count gold in inventory
+- [x] Port `findgold()` — count gold in inventory
 
 ## D4. Object naming (partial — enough for display)
 - [ ] Read C `src/objnam.c` — understand `xname()`, `doname()`, `an()`, `the()`
