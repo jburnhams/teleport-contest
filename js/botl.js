@@ -109,6 +109,7 @@ export function bot2() {
     const cap = game.u.ucap ?? 0;
     if (cap > 0 && enc_stat[cap]) cond += ` ${enc_stat[cap]}`;
 
+    // In C, it checks macro Blind, Deaf, Stunned, etc.
     if (game.u.ublindf || game.u.ublind) cond += " Blind";
     if (game.u.udeaf) cond += " Deaf";
     if (game.u.ustun) cond += " Stun";
