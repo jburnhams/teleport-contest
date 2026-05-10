@@ -13,7 +13,7 @@
     "pages:build": "npm run build --prefix pages"
   },
   "devDependencies": {
-    "vitest": "^3.2.4"
+    "vitest": "^3.0.0"
   },
   "engines": {
     "node": ">=24.0.0"

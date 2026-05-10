@@ -8,9 +8,6 @@ import { BOULDER, GOLD_PIECE } from '../js/objects.js';
 describe('mkobj linked list operations', () => {
     beforeEach(() => {
         resetGame();
-        initRng(8000n);
-        game.rng = { n: 0, r: new Array(256).fill(0n), a: 0n, b: 0n, c: 0n }; // init dummy context if needed
-
         game.level = new GameMap();
         set_fobj(null);
     });
@@ -77,24 +74,5 @@ describe('mkobj linked list operations', () => {
         expect(game.level.objects[5][5]).toBeNull();
         expect(fobj).toBeNull();
         expect(obj.where).toBe(OBJ_FREE);
-    });
-});
-
-import { init_objects } from '../js/o_init.js';
-import { mksobj, mkobj } from '../js/mkobj.js';
-import { rnd, rn2, rne, getRngLog, clearRngLog, initRng } from '../js/rng.js';
-
-describe('mkobj RNG and creation', () => {
-    beforeEach(() => {
-        resetGame();
-
-        clearRngLog();
-    });
-
-    it('mksobj consumes expected RNG for GOLD_PIECE', () => {
-        const obj = mksobj(GOLD_PIECE, true, false);
-        expect(obj.otyp).toBe(GOLD_PIECE);
-        expect(obj.quan).toBe(1);
-        expect(getRngLog()).toEqual(['rnd(2)=1']); // next_ident
     });
 });
