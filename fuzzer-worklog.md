@@ -26,3 +26,17 @@ Record of fuzzing sessions, discovered divergences, and fixes.
 APPEND NEW FUZZING RESULTS HERE.
 Include timestamp, seed, moves, divergence point, and fix status.
 -->
+
+## 2026-05-10 18:25 - `rn2(100)` chance check and fill sampling for themed rooms
+
+**Target**: `moves: 0`, `role: Healer` (gnome)
+
+### Divergence Found
+- **Seed**: `8340`
+- **Session**: `fuzz-sessions/fuzz-8340-healer-0moves.session.json`
+- **Divergence**: RNG call #349 (`rn2(1) = 0` vs `rn2(3) = 2`)
+- **C Context**: `@ nh.rn2 src=themerms.lua:1039 parent=room([C]:-1)`
+
+### Analysis & Fix
+- **Root Cause**: The JS code missed the inner reservoir sampling loop that runs when a `themerooms` meta configuration selects a room type that specifies a `themeroom_fill` (like `Default room with themed fill`). Also missed the `rn2(100)` chance check called from `build_room` via `create_room`.
+- **Fix**: Added `THEMEROOM_FILLS_META` and ported the reservoir sampling logic for fill contents into `themerooms_generate`. Shifted the logic so the fill sampling properly follows room creation where the room's `rlit` property becomes accessible to evaluate lighting requirements accurately.
