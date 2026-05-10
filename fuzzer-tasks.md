@@ -209,8 +209,8 @@ Tick items with `[x]` as they are completed.
 - [x] **C.3.3** Flatten per-step RNG arrays per segment into `{ segIdx, stepIdx, key, rng[], screen }` records
 
 ### C.4 Per-step diff output
-*Note: Implementation fails on exact matching (e.g., rn2(2)=0 vs rn2(2)=0 due to regex bugs). Needs fixing.*
-*Note: Implementation fails on exact matching (e.g., rn2(2)=0 vs rn2(2)=0 due to regex bugs). Needs fixing.*
+
+
 
 - [x] **C.4.1** Print session header: filename, seed, role, race, moves count (parse from nethackrc)
 - [x] **C.4.2** For each step across all segments:

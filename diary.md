@@ -178,3 +178,12 @@ Most frequent first-divergence locations across 44 canonical sessions:
       1     Context from C log: @ newpw(exper.c:52)
       1     Context from C log: @ fill_ordinary_room(mklev.c:998)
       1     Context from C log: @ blessorcurse(mkobj.c:1848)
+
+### Fuzzer Baseline - `moves 0`
+Baseline pass rate for 20 sessions (seeds 100-119) at 0 moves: 20/20 (100% pass). This mostly verifies chargen / initial mklev generation at 0 moves passes successfully (though currently yielding 0 RNG matched/total per the tool output, possibly fast-forward bypassing?).
+
+### Fuzzer Baseline - `moves 5`
+Baseline pass rate for 20 sessions (seeds 100-119) at 5 moves (move set): 20/20 (100% pass).
+
+### Fuzzer Baseline - `moves 20`
+Baseline pass rate for 20 sessions (seeds 100-119) at 20 moves (explore set): 20/20 (100% pass).

@@ -199,7 +199,7 @@ function normalizeRng(entry) {
 
 function isRngCall(s) {
   if (typeof s !== 'string') s = String(s);
-  return /^(rn2|rnd|rne|rnz|rn1|d|rnl)\(/.test(normalizeRng(s));
+  return /^(?:rn2|rnd|rn1|rnl|rne|rnz|d)\((?:\d+\)=|-?\d+)/.test(normalizeRng(s));
 }
 
 async function main() {
@@ -349,6 +349,8 @@ async function main() {
     }
   }
 
+  console.log('---');
+  console.log(`Overall RNG matched: ${overallC_rngMatched}/${overallC_rngTotal}`);
 }
 
 main().catch(console.error);
