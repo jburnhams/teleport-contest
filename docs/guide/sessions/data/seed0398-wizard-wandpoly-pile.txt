@@ -3,7 +3,7 @@
 [Step 0] Key: NULL (Init) | PRNG: 2764 calls
   Msg: Hello wizard, welcome to NetHack!  You are a neutral female human Wizard.
   Status: Wizard the Evoker              St:10 Dx:14 Co:15 In:18 Wi:7 Ch:11 Neutral | Dlvl:1 $:0 HP:12(12) Pw:7(7) AC:9 Xp:1
-[Step 1] Key:  | PRNG: 0 calls
+[Step 1] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 2] Key: w | PRNG: 0 calls
   Msg: For what do you wish? w
@@ -53,50 +53,43 @@
   Msg: For what do you wish? wand of polymorph (0:30
 [Step 25] Key: ) | PRNG: 0 calls
   Msg: For what do you wish? wand of polymorph (0:30)
-[Step 26] Key: 
- | PRNG: 6 calls
+[Step 26] Key: \n | PRNG: 6 calls
   Msg: o - a silver wand.
 [Step 27] Key: d | PRNG: 0 calls
   Msg: What do you want to drop? [a-o or ?*]
 [Step 28] Key: f | PRNG: 6 calls
   Msg: What do you want to drop? [a-o or ?*]
-[Step 29] Key: 
- | PRNG: 17 calls
+[Step 29] Key: \n | PRNG: 17 calls
   Map updated (2 rows changed)
 [Step 30] Key: d | PRNG: 0 calls
   Msg: What do you want to drop? [a-eg-o or ?*]
 [Step 31] Key: g | PRNG: 9 calls
   Msg: What do you want to drop? [a-eg-o or ?*]
-[Step 32] Key: 
- | PRNG: 0 calls
+[Step 32] Key: \n | PRNG: 0 calls
   Msg: That door is closed.
 [Step 33] Key: d | PRNG: 0 calls
   Msg: What do you want to drop? [a-eh-o or ?*]
 [Step 34] Key: h | PRNG: 9 calls
   Msg: What do you want to drop? [a-eh-o or ?*]
-[Step 35] Key: 
- | PRNG: 0 calls
+[Step 35] Key: \n | PRNG: 0 calls
   Msg: That door is closed.
 [Step 36] Key: d | PRNG: 0 calls
   Msg: What do you want to drop? [a-ei-o or ?*]
 [Step 37] Key: i | PRNG: 9 calls
   Msg: What do you want to drop? [a-ei-o or ?*]
-[Step 38] Key: 
- | PRNG: 0 calls
+[Step 38] Key: \n | PRNG: 0 calls
   Msg: That door is closed.
 [Step 39] Key: d | PRNG: 0 calls
   Msg: What do you want to drop? [a-ej-o or ?*]
 [Step 40] Key: j | PRNG: 9 calls
   Msg: What do you want to drop? [a-ej-o or ?*]
-[Step 41] Key: 
- | PRNG: 0 calls
+[Step 41] Key: \n | PRNG: 0 calls
   Msg: That door is closed.
 [Step 42] Key: d | PRNG: 0 calls
   Msg: What do you want to drop? [a-ek-o or ?*]
 [Step 43] Key: k | PRNG: 9 calls
   Msg: What do you want to drop? [a-ek-o or ?*]
-[Step 44] Key: 
- | PRNG: 0 calls
+[Step 44] Key: \n | PRNG: 0 calls
   Msg: That door is closed.
 [Step 45] Key: l | PRNG: 12 calls
   Msg: A gush of water hits you!
@@ -140,8 +133,7 @@
   Msg: # wizgenesi
 [Step 64] Key: s | PRNG: 0 calls
   Msg: # wizgenesis
-[Step 65] Key: 
- | PRNG: 0 calls
+[Step 65] Key: \n | PRNG: 0 calls
   Msg: Create what kind of monster?
 [Step 66] Key: j | PRNG: 0 calls
   Msg: Create what kind of monster? j
@@ -155,8 +147,7 @@
   Msg: Create what kind of monster? jacka
 [Step 71] Key: l | PRNG: 0 calls
   Msg: Create what kind of monster? jackal
-[Step 72] Key: 
- | PRNG: 51 calls
+[Step 72] Key: \n | PRNG: 51 calls
   Msg: A jackal appears next to you.
   Map updated (1 rows changed)
 [Step 73] Key:   | PRNG: 0 calls
@@ -178,8 +169,7 @@
   Msg: # quit
 [Step 82] Key: t | PRNG: 0 calls
   Msg: # quit
-[Step 83] Key: 
- | PRNG: 0 calls
+[Step 83] Key: \n | PRNG: 0 calls
   Msg: Really quit without saving? [yn] (n)
 [Step 84] Key: y | PRNG: 0 calls
   Msg: Dump core? [ynq] (q)
@@ -187,4 +177,3 @@
   Msg: Dump core? [ynq] (q)
 [Step 86] Key: ESC | PRNG: 0 calls
   Map updated (7 rows changed)
-  Status update:  | 

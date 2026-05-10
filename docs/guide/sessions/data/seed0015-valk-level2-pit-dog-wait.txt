@@ -83,14 +83,13 @@
 [Step 37] Key: ESC | PRNG: 0 calls
   Map updated (20 rows changed)
   Status update: Astrid the Stripling           St:17 Dx:14 Co:17 In:9 Wi:9 Ch:9 Neutral | Dlvl:2 $:0 HP:16(16) Pw:2(2) AC:6 Xp:1
-[Step 38] Key:  | PRNG: 0 calls
+[Step 38] Key: \x18 | PRNG: 0 calls
   Msg: Astrid the Valkyrie's attributes:
   Map updated (19 rows changed)
   Status update: Your intelligence is 9. | (1 of 2)
 [Step 39] Key:   | PRNG: 0 calls
   Msg: Your wisdom is 9.
   Map updated (20 rows changed)
-  Status update:  | 
 [Step 40] Key: ESC | PRNG: 0 calls
   Map updated (11 rows changed)
   Status update: Astrid the Stripling           St:17 Dx:14 Co:17 In:9 Wi:9 Ch:9 Neutral | Dlvl:2 $:0 HP:16(16) Pw:2(2) AC:6 Xp:1

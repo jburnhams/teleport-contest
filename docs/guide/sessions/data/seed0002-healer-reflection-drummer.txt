@@ -1,7 +1,6 @@
 
 === SEGMENT 0 ===
 [Step 0] Key: NULL (Init) | PRNG: 0 calls
-  Status:  | 
 [Step 1] Key: D | PRNG: 0 calls
   Map updated (1 rows changed)
 [Step 2] Key: a | PRNG: 0 calls
@@ -12,7 +11,7 @@
   Map updated (1 rows changed)
 [Step 5] Key: d | PRNG: 0 calls
   Map updated (1 rows changed)
-[Step 6] Key: \r (Enter) | PRNG: 0 calls
+[Step 6] Key: \n | PRNG: 0 calls
   Msg: Shall I pick character's race, role, gender and alignment for you? [ynaq]
 [Step 7] Key: y | PRNG: 4 calls
   Msg: Is this ok? [ynaq]
@@ -134,7 +133,7 @@
 [Step 50] Key: c | PRNG: 0 calls
   Msg: Pick up what?
   Map updated (1 rows changed)
-[Step 51] Key: \r (Enter) | PRNG: 42 calls
+[Step 51] Key: \n | PRNG: 42 calls
   Msg: r - 11 darts.  s - 2 white gems.
   Map updated (8 rows changed)
 [Step 52] Key: e | PRNG: 0 calls
@@ -203,7 +202,7 @@
   Msg: Call a ruby potion: like slime mold juic
 [Step 82] Key: e | PRNG: 0 calls
   Msg: Call a ruby potion: like slime mold juice
-[Step 83] Key: \r (Enter) | PRNG: 39 calls
+[Step 83] Key: \n | PRNG: 39 calls
   Map updated (2 rows changed)
 [Step 84] Key: q | PRNG: 0 calls
   Msg: What do you want to drink? [defgn or ?*]
@@ -341,7 +340,7 @@
   Msg: Call a scroll labeled XOR OTA: helpig yo
 [Step 139] Key: u | PRNG: 0 calls
   Msg: Call a scroll labeled XOR OTA: helpig you
-[Step 140] Key: \r (Enter) | PRNG: 39 calls
+[Step 140] Key: \n | PRNG: 39 calls
   Map updated (1 rows changed)
 [Step 141] Key: i | PRNG: 0 calls
   Msg: Coins
@@ -350,7 +349,6 @@
 [Step 142] Key:   | PRNG: 0 calls
   Msg: p - a wand of sleep
   Map updated (21 rows changed)
-  Status update:  | 
 [Step 143] Key:   | PRNG: 0 calls
   Map updated (15 rows changed)
   Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1223 HP:13(13) Pw:5(5) AC:8 Xp:1
@@ -408,7 +406,7 @@
   Msg: #
 [Step 168] Key: l | PRNG: 0 calls
   Msg: # loot
-[Step 169] Key: \r (Enter) | PRNG: 0 calls
+[Step 169] Key: \n | PRNG: 0 calls
   Msg: Hmmm, the chest turns out to be locked.
 [Step 170] Key: h | PRNG: 21 calls
   Map updated (1 rows changed)
@@ -450,7 +448,6 @@
 [Step 187] Key:   | PRNG: 0 calls
   Msg: p - a wand of sleep
   Map updated (21 rows changed)
-  Status update:  | 
 [Step 188] Key:   | PRNG: 0 calls
   Map updated (15 rows changed)
   Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1225 HP:13(13) Pw:5(5) AC:8 Xp:1
@@ -543,7 +540,6 @@
 [Step 224] Key:   | PRNG: 0 calls
   Msg: p - a wand of sleep
   Map updated (21 rows changed)
-  Status update:  | 
 [Step 225] Key:   | PRNG: 0 calls
   Map updated (20 rows changed)
   Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1225 HP:13(13) Pw:5(5) AC:8 Xp:1 Burdened
@@ -554,7 +550,6 @@
 [Step 227] Key:   | PRNG: 0 calls
   Msg: p - a wand of sleep
   Map updated (21 rows changed)
-  Status update:  | 
 [Step 228] Key:   | PRNG: 0 calls
   Map updated (20 rows changed)
   Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1225 HP:13(13) Pw:5(5) AC:8 Xp:1 Burdened
@@ -575,7 +570,6 @@
 [Step 234] Key:   | PRNG: 0 calls
   Msg: p - a wand of sleep
   Map updated (21 rows changed)
-  Status update:  | 
 [Step 235] Key:   | PRNG: 0 calls
   Map updated (20 rows changed)
   Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1225 HP:13(13) Pw:5(5) AC:3 Xp:1 Burdened
@@ -615,7 +609,7 @@
   Msg: Call a brown potion: bownbooz
 [Step 251] Key: e | PRNG: 0 calls
   Msg: Call a brown potion: bownbooze
-[Step 252] Key: \r (Enter) | PRNG: 35 calls
+[Step 252] Key: \n | PRNG: 35 calls
   Map updated (2 rows changed)
 [Step 253] Key: n | PRNG: 61 calls
   Map updated (2 rows changed)
@@ -728,7 +722,6 @@
 [Step 300] Key:   | PRNG: 0 calls
   Msg: c - an uncursed stethoscope
   Map updated (21 rows changed)
-  Status update:  | 
 [Step 301] Key:   | PRNG: 0 calls
   Map updated (20 rows changed)
   Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1225 HP:5(13) Pw:5(5) AC:3 Xp:1 Burdened
@@ -867,7 +860,7 @@
   Msg: Pay for which items?
 [Step 355] Key: W | PRNG: 0 calls
   Msg: Pay for which items?
-[Step 356] Key: \r (Enter) | PRNG: 0 calls
+[Step 356] Key: \n | PRNG: 0 calls
   Map updated (2 rows changed)
 [Step 357] Key: p | PRNG: 0 calls
   Msg: Pay for which items?
@@ -875,7 +868,7 @@
 [Step 358] Key: a | PRNG: 0 calls
   Msg: Pay for which items?
   Map updated (1 rows changed)
-[Step 359] Key: \r (Enter) | PRNG: 1 calls
+[Step 359] Key: \n | PRNG: 1 calls
   Msg: You bought a polished silver shield for 50 gold pieces.--More--
   Map updated (2 rows changed)
   Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:2 $:1175 HP:14(14) Pw:5(5) AC:3 Xp:1 Burdened
@@ -933,11 +926,11 @@
   Map updated (8 rows changed)
 [Step 383] Key: h | PRNG: 0 calls
   Msg: This door is locked.
-[Step 384] Key:  | PRNG: 0 calls
+[Step 384] Key: \x04 | PRNG: 0 calls
   Msg: In what direction?
 [Step 385] Key: h | PRNG: 44 calls
   Msg: Thwack!!
-[Step 386] Key:  | PRNG: 0 calls
+[Step 386] Key: \x04 | PRNG: 0 calls
   Msg: In what direction?
 [Step 387] Key: h | PRNG: 41 calls
   Msg: As you kick the door, it crashes open!
@@ -1168,7 +1161,7 @@
   Msg: # loot
 [Step 499] Key: l | PRNG: 0 calls
   Msg: # ll
-[Step 500] Key: \r (Enter) | PRNG: 0 calls
+[Step 500] Key: \n | PRNG: 0 calls
   Msg: #ll: unknown extended command.
 [Step 501] Key:  | PRNG: 0 calls
   Msg: View which?
@@ -1184,7 +1177,7 @@
   Msg: #
 [Step 506] Key: l | PRNG: 0 calls
   Msg: # loot
-[Step 507] Key: \r (Enter) | PRNG: 0 calls
+[Step 507] Key: \n | PRNG: 0 calls
   Msg: Loot in what direction?
 [Step 508] Key: # | PRNG: 0 calls
   Msg: cmdassist: Invalid direction key!
@@ -1192,7 +1185,7 @@
   Status update:  | --More--
 [Step 509] Key: f | PRNG: 0 calls
   Msg: cmdassist: Invalid direction key!
-[Step 510] Key: \r (Enter) | PRNG: 0 calls
+[Step 510] Key: \n | PRNG: 0 calls
   Msg: Never mind.
   Map updated (19 rows changed)
   Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1175 HP:14(14) Pw:5(5) AC:1 Xp:1 Burdened
@@ -1210,28 +1203,28 @@
   Msg: #
 [Step 517] Key: f | PRNG: 0 calls
   Msg: # force
-[Step 518] Key: \r (Enter) | PRNG: 33 calls
+[Step 518] Key: \n | PRNG: 33 calls
   Msg: You decide not to force the issue.
   Map updated (2 rows changed)
 [Step 519] Key: # | PRNG: 0 calls
   Msg: #
 [Step 520] Key: f | PRNG: 0 calls
   Msg: # force
-[Step 521] Key: \r (Enter) | PRNG: 31 calls
+[Step 521] Key: \n | PRNG: 31 calls
   Msg: You decide not to force the issue.
   Map updated (2 rows changed)
 [Step 522] Key: # | PRNG: 0 calls
   Msg: #
-[Step 523] Key: \r (Enter) | PRNG: 0 calls
+[Step 523] Key: \n | PRNG: 0 calls
 [Step 524] Key: b | PRNG: 97 calls
   Map updated (2 rows changed)
 [Step 525] Key: a | PRNG: 0 calls
   Msg: What do you want to use or apply? [ch-kop or ?*]
-[Step 526] Key: \r (Enter) | PRNG: 0 calls
+[Step 526] Key: \n | PRNG: 0 calls
   Msg: Never mind.
 [Step 527] Key: a | PRNG: 0 calls
   Msg: What do you want to use or apply? [ch-kop or ?*]
-[Step 528] Key: \r (Enter) | PRNG: 0 calls
+[Step 528] Key: \n | PRNG: 0 calls
   Msg: Never mind.
 [Step 529] Key: i | PRNG: 0 calls
   Msg: Coins
@@ -1240,10 +1233,9 @@
 [Step 530] Key: k | PRNG: 0 calls
   Msg: Do what with the spellbook of stone to flesh?
   Map updated (21 rows changed)
-  Status update:  | 
 [Step 531] Key: e | PRNG: 0 calls
   Msg: Do what with the spellbook of stone to flesh?
-[Step 532] Key: \r (Enter) | PRNG: 0 calls
+[Step 532] Key: \n | PRNG: 0 calls
   Map updated (8 rows changed)
   Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1175 HP:14(14) Pw:5(5) AC:1 Xp:1 Burdened
 [Step 533] Key: n | PRNG: 63 calls
@@ -1370,14 +1362,13 @@
 [Step 588] Key: ESC | PRNG: 0 calls
   Map updated (20 rows changed)
   Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1175 HP:14(14) Pw:5(5) AC:1 Xp:1 Burdened Deaf
-[Step 589] Key:  | PRNG: 0 calls
+[Step 589] Key: \x18 | PRNG: 0 calls
   Msg: David the Healer's attributes:
   Map updated (20 rows changed)
   Status update: Your intelligence is 11. | (1 of 2)
 [Step 590] Key:   | PRNG: 0 calls
   Msg: Your wisdom is 18.
   Map updated (20 rows changed)
-  Status update:  | 
 [Step 591] Key: ESC | PRNG: 0 calls
   Map updated (19 rows changed)
   Status update: David the Rhizotomist          St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17 Neutral | Dlvl:1 $:1175 HP:14(14) Pw:5(5) AC:1 Xp:1 Burdened Deaf

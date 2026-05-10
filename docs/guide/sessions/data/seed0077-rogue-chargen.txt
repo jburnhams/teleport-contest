@@ -1,7 +1,6 @@
 
 === SEGMENT 0 ===
 [Step 0] Key: NULL (Init) | PRNG: 0 calls
-  Status:  | 
 [Step 1] Key: S | PRNG: 0 calls
   Map updated (1 rows changed)
 [Step 2] Key: h | PRNG: 0 calls
@@ -12,7 +11,7 @@
   Map updated (1 rows changed)
 [Step 5] Key: e | PRNG: 0 calls
   Map updated (1 rows changed)
-[Step 6] Key: \r (Enter) | PRNG: 0 calls
+[Step 6] Key: \n | PRNG: 0 calls
   Msg: Shall I pick character's race, role, gender and alignment for you? [ynaq]
 [Step 7] Key: n | PRNG: 0 calls
   Msg: Pick a role or profession
@@ -21,7 +20,6 @@
 [Step 8] Key: r | PRNG: 1 calls
   Msg: Pick a race or species
   Map updated (19 rows changed)
-  Status update:  | 
 [Step 9] Key: h | PRNG: 0 calls
   Msg: Pick a gender or sex
   Map updated (4 rows changed)
@@ -70,14 +68,13 @@
 [Step 26] Key: ESC | PRNG: 0 calls
   Map updated (14 rows changed)
   Status update: Shade the Footpad              St:11 Dx:18 Co:18 In:9 Wi:9 Ch:10 Chaotic | Dlvl:1 $:0 HP:12(12) Pw:2(2) AC:7 Xp:1
-[Step 27] Key:  | PRNG: 0 calls
+[Step 27] Key: \x18 | PRNG: 0 calls
   Msg: Shade the Rogue's attributes:
   Map updated (19 rows changed)
   Status update: Your intelligence is 9. | (1 of 2)
 [Step 28] Key:   | PRNG: 0 calls
   Msg: Your wisdom is 9.
   Map updated (20 rows changed)
-  Status update:  | 
 [Step 29] Key: ESC | PRNG: 0 calls
   Map updated (17 rows changed)
   Status update: Shade the Footpad              St:11 Dx:18 Co:18 In:9 Wi:9 Ch:10 Chaotic | Dlvl:1 $:0 HP:12(12) Pw:2(2) AC:7 Xp:1

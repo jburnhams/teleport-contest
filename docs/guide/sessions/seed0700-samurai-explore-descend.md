@@ -4,7 +4,7 @@
 
 This session serves as a rigorous mechanical validation of the engine's basic exploration and physical interaction subroutines. The user entity—a human Samurai named *Musashi*—demonstrates the engine's ability to coordinate player movement with a pet entity and the deterministic resolution of door-interaction failure.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Steps 1–3: The Hatamoto Musashi**
 The engine performs 2,728 PRNG calls to generate the universe and Musashi's attributes (St:18/01 Dx:14 Co:18 In:8 Wi:9). Musashi begins on Dungeon Level 1, armed with his katana and wakizashi, and accompanied by his faithful dog, Hachi.

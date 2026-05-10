@@ -4,7 +4,7 @@
 
 This deterministic sequence forces the user entity through the interactive character creation menus before rigorously testing the pet interaction logic. It provides a precise validation of the pathfinding and object consumption subroutines implemented in the monster AI loop, elegantly masked as equestrian care.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Steps 1–9: Character Selection Prompts**
 Unlike `seed8000`, this session begins by validating the interactive character generation menus. The user types `T, e, t, r, a`, naming the entity "Tetra". They answer `y` (yes) to the prompt asking if the engine should pick their race/role/gender. The engine assigns them the role of "Knight" (St:14 Dx:9 Co:11 In:10 Wi:14 Ch:17 Lawful). A massive burst of 3,682 PRNG calls generates the dungeon and the entity's starting inventory, including a saddled pony. 

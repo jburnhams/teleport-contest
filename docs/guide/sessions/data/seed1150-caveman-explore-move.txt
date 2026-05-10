@@ -121,14 +121,13 @@
 [Step 44] Key: ESC | PRNG: 0 calls
   Map updated (11 rows changed)
   Status update: Grok the Troglodyte            St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:8 Xp:1/0 T:24
-[Step 45] Key:  | PRNG: 0 calls
+[Step 45] Key: \x18 | PRNG: 0 calls
   Msg: Grok the Caveman's attributes:
   Map updated (19 rows changed)
   Status update: Your intelligence is 7. | (1 of 2)
 [Step 46] Key:   | PRNG: 0 calls
   Msg: Your wisdom is 9.
   Map updated (21 rows changed)
-  Status update:  | 
 [Step 47] Key: ESC | PRNG: 0 calls
   Map updated (17 rows changed)
   Status update: Grok the Troglodyte            St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13 Neutral | Dlvl:1 $:0 HP:16(16) Pw:2(2) AC:8 Xp:1/0 T:24

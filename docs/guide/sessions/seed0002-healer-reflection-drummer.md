@@ -4,7 +4,7 @@
 
 This execution path stresses item generation and complex object interactions. The initial state configures the user entity as a "Healer" (styled as *David the Rhizotomist*) who begins with an unusually chaotic inventory. Throughout this massive 595-step simulation, the `rn2` engine resolves over 27,000 calls. Let us examine the highlights of this rather erratic lifecycle.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Step 0–500: The Wandering Healer**
 The engine generates the level and character attributes (St:8 Dx:7 Co:14 In:11 Wi:18 Ch:17). The user entity navigates the dungeon, constantly recalculating line-of-sight and monster movements. The sheer volume of PRNG calls in this phase rigidly validates the deterministic pathfinding and map generation subroutines.

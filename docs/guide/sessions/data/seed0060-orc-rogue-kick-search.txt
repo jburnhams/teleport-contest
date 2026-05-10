@@ -31,7 +31,7 @@
 [Step 11] Key: L | PRNG: 0 calls
 [Step 12] Key: L | PRNG: 0 calls
 [Step 13] Key: L | PRNG: 0 calls
-[Step 14] Key:  | PRNG: 0 calls
+[Step 14] Key: \x04 | PRNG: 0 calls
   Msg: In what direction?
 [Step 15] Key: j | PRNG: 37 calls
   Msg: You kick at empty space.
@@ -39,7 +39,7 @@
   Map updated (2 rows changed)
 [Step 17] Key: . | PRNG: 115 calls
   Map updated (2 rows changed)
-[Step 18] Key:  | PRNG: 0 calls
+[Step 18] Key: \x04 | PRNG: 0 calls
   Msg: In what direction?
 [Step 19] Key: j | PRNG: 40 calls
   Msg: You kick at empty space.
@@ -54,7 +54,7 @@
 [Step 25] Key: s | PRNG: 44 calls
 [Step 26] Key: s | PRNG: 35 calls
   Map updated (2 rows changed)
-[Step 27] Key:  | PRNG: 0 calls
+[Step 27] Key: \x04 | PRNG: 0 calls
   Msg: In what direction?
 [Step 28] Key: l | PRNG: 32 calls
   Msg: Ouch!  That hurts!
@@ -74,14 +74,13 @@
 [Step 34] Key: ESC | PRNG: 0 calls
   Map updated (19 rows changed)
   Status update: Shade the Footpad              St:14 Dx:18 Co:12 In:10 Wi:11 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1
-[Step 35] Key:  | PRNG: 0 calls
+[Step 35] Key: \x18 | PRNG: 0 calls
   Msg: Shade the Rogue's attributes:
   Map updated (19 rows changed)
   Status update: Your intelligence is 10 (current; limit:16). | (1 of 2)
 [Step 36] Key:   | PRNG: 0 calls
   Msg: Your wisdom is 11 (current; limit:16).
   Map updated (20 rows changed)
-  Status update:  | 
 [Step 37] Key: ESC | PRNG: 0 calls
   Map updated (18 rows changed)
   Status update: Shade the Footpad              St:14 Dx:18 Co:12 In:10 Wi:11 Ch:11 Chaotic | Dlvl:1 $:0 HP:11(11) Pw:2(2) AC:7 Xp:1

@@ -16,6 +16,15 @@ jobs:
       - uses: actions/setup-node@v6.4.0
         with:
           node-version: '24'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: |
+          npm install
+          npm install --prefix pages
+
+      - name: Run tests
+        run: npm test
 
       - name: Verify frozen files unchanged
         run: |
@@ -76,6 +85,10 @@ jobs:
 
       - name: Check against baseline
         run: node scripts/check-score.mjs score-stdout.txt scores/baseline.json
+
+      - name: Build Pages
+        run: |
+          npm run pages:build
 
       - name: Upload score results
         if: always()

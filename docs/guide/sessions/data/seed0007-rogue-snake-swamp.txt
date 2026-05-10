@@ -1,7 +1,6 @@
 
 === SEGMENT 0 ===
 [Step 0] Key: NULL (Init) | PRNG: 0 calls
-  Status:  | 
 [Step 1] Key: S | PRNG: 0 calls
   Map updated (1 rows changed)
 [Step 2] Key: e | PRNG: 0 calls
@@ -14,7 +13,7 @@
   Map updated (1 rows changed)
 [Step 6] Key: r | PRNG: 0 calls
   Map updated (1 rows changed)
-[Step 7] Key: \r (Enter) | PRNG: 0 calls
+[Step 7] Key: \n | PRNG: 0 calls
   Msg: Shall I pick character's race, role, gender and alignment for you? [ynaq]
 [Step 8] Key: y | PRNG: 4 calls
   Msg: Is this ok? [ynaq]
@@ -26,7 +25,6 @@
 [Step 10] Key: r | PRNG: 1 calls
   Msg: Pick a race or species
   Map updated (19 rows changed)
-  Status update:  | 
 [Step 11] Key: " | PRNG: 0 calls
   Msg: Pick a gender or sex
   Map updated (3 rows changed)
@@ -105,7 +103,6 @@
 [Step 35] Key:   | PRNG: 0 calls
   Msg: a - suppress_alert          [(none)]
   Map updated (21 rows changed)
-  Status update:  | 
 [Step 36] Key:   | PRNG: 0 calls
   Msg: 'autopickup' option toggled on.  'lit_corridor' option toggled on.--More--
   Map updated (19 rows changed)
@@ -139,7 +136,7 @@
 [Step 46] Key: / | PRNG: 0 calls
   Msg: Autopickup what?
   Map updated (1 rows changed)
-[Step 47] Key: \r (Enter) | PRNG: 0 calls
+[Step 47] Key: \n | PRNG: 0 calls
   Map updated (20 rows changed)
 [Step 48] Key: H | PRNG: 116 calls
   Map updated (2 rows changed)
@@ -314,7 +311,7 @@
   Msg: #
 [Step 105] Key: l | PRNG: 0 calls
   Msg: # loot
-[Step 106] Key: \r (Enter) | PRNG: 0 calls
+[Step 106] Key: \n | PRNG: 0 calls
   Msg: Hmmm, the large box turns out to be locked.--More--
 [Step 107] Key:   | PRNG: 0 calls
   Msg: Unlock it with your lock pick? [ynq] (q)
@@ -326,7 +323,7 @@
   Msg: #
 [Step 110] Key: l | PRNG: 0 calls
   Msg: # loot
-[Step 111] Key: \r (Enter) | PRNG: 0 calls
+[Step 111] Key: \n | PRNG: 0 calls
   Msg: Do what with the large box?
   Map updated (8 rows changed)
 [Step 112] Key: : | PRNG: 0 calls
@@ -341,13 +338,13 @@
 [Step 115] Key: @ | PRNG: 0 calls
   Msg: Take out what type of objects?
   Map updated (4 rows changed)
-[Step 116] Key: \r (Enter) | PRNG: 0 calls
+[Step 116] Key: \n | PRNG: 0 calls
   Msg: Take out what?
   Map updated (12 rows changed)
 [Step 117] Key: @ | PRNG: 0 calls
   Msg: Take out what?
   Map updated (4 rows changed)
-[Step 118] Key: \r (Enter) | PRNG: 0 calls
+[Step 118] Key: \n | PRNG: 0 calls
   Msg: $ - 118 gold pieces.  i - a scroll labeled FOOBIE BLETCH.--More--
   Map updated (9 rows changed)
   Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:1(11) Pw:2(2) AC:7 Xp:1/1 T:93 Satiated
@@ -429,7 +426,7 @@
   Msg: #
 [Step 143] Key: l | PRNG: 0 calls
   Msg: # loot
-[Step 144] Key: \r (Enter) | PRNG: 0 calls
+[Step 144] Key: \n | PRNG: 0 calls
   Msg: Hmmm, the large box turns out to be locked.--More--
 [Step 145] Key:   | PRNG: 0 calls
   Msg: Unlock it with your lock pick? [ynq] (q)
@@ -440,7 +437,7 @@
   Msg: #
 [Step 148] Key: l | PRNG: 0 calls
   Msg: # loot
-[Step 149] Key: \r (Enter) | PRNG: 0 calls
+[Step 149] Key: \n | PRNG: 0 calls
   Msg: Do what with the large box?
   Map updated (9 rows changed)
 [Step 150] Key: a | PRNG: 0 calls
@@ -449,7 +446,7 @@
 [Step 151] Key: @ | PRNG: 0 calls
   Msg: Take out what?
   Map updated (3 rows changed)
-[Step 152] Key: \r (Enter) | PRNG: 28 calls
+[Step 152] Key: \n | PRNG: 28 calls
   Msg: l - an apple.  m - a food ration.  n - a tin.
   Map updated (5 rows changed)
   Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:8(11) Pw:2(2) AC:9 Xp:1/1 T:132 Satiated
@@ -775,7 +772,6 @@
 [Step 259] Key:   | PRNG: 0 calls
   Msg: k - a yellow gem
   Map updated (21 rows changed)
-  Status update:  | 
 [Step 260] Key:   | PRNG: 0 calls
   Map updated (20 rows changed)
   Status update: Septor the Footpad             St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11 Chaotic | Dlvl:1 $:118 HP:11(11) Pw:2(2) AC:9 Xp:1/8 T:350
@@ -881,7 +877,6 @@
 [Step 294] Key:   | PRNG: 0 calls
   Msg: f - an empty uncursed sack
   Map updated (21 rows changed)
-  Status update:  | 
 [Step 295] Key:   | PRNG: 0 calls
   Msg: Do you want to see your attributes? [ynq] (n)
   Map updated (9 rows changed)
@@ -897,7 +892,6 @@
 [Step 298] Key:   | PRNG: 0 calls
   Msg: Total elapsed playing time was none.
   Map updated (18 rows changed)
-  Status update:  | 
 [Step 299] Key:   | PRNG: 0 calls
   Msg: Do you want an account of creatures vanquished? [ynaq] (n)
   Map updated (7 rows changed)

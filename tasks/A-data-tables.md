@@ -20,15 +20,15 @@ Extract the large data tables from C source into JS. This is pure data work — 
 - [x] Cross-check 5-10 entries by hand against C source
 
 ## A2. mons[] array
-- [ ] Read C `src/monst.c` — understand the `MON()` / `MON3()` macros
-- [ ] Read C `include/monflag.h` — all M1_, M2_, M3_ flags
-- [ ] Read C `include/monattk.h` — attack type/damage structs
-- [ ] Write `scripts/extract-mons.js` — parse C monst.c and generate JS
-- [ ] Generate `js/monst.js` — full `mons[]` array as JS objects
-- [ ] Fields needed: `mname`, `mlet` (symbol class), `mlevel`, `mmove`, `ac`, `mr`, `maligntyp`, `geno`, `mattk[]` (attack array), `cwt`, `cnutrit`, `msound`, `msize`, `mresists`, `mconveys`, `mflags1`, `mflags2`, `mflags3`, `mcolor`
-- [ ] Export named constants for key monster indices (e.g., `PM_NEWT`, `PM_GRID_BUG`, `PM_SHOPKEEPER`)
-- [ ] Verify: `mons.length === NUMMONS` matches C
-- [ ] Cross-check 5-10 entries by hand
+- [x] Read C `src/monst.c` — understand the `MON()` / `MON3()` macros
+- [x] Read C `include/monflag.h` — all M1_, M2_, M3_ flags
+- [x] Read C `include/monattk.h` — attack type/damage structs
+- [x] Write `scripts/extract-mons.js` — parse C monst.c and generate JS
+- [x] Generate `js/monst.js` — full `mons[]` array as JS objects
+- [x] Fields needed: `mname`, `mlet` (symbol class), `mlevel`, `mmove`, `ac`, `mr`, `maligntyp`, `geno`, `mattk[]` (attack array), `cwt`, `cnutrit`, `msound`, `msize`, `mresists`, `mconveys`, `mflags1`, `mflags2`, `mflags3`, `mcolor`
+- [x] Export named constants for key monster indices (e.g., `PM_NEWT`, `PM_GRID_BUG`, `PM_SHOPKEEPER`)
+- [x] Verify: `mons.length === NUMMONS` matches C
+- [x] Cross-check 5-10 entries by hand
 
 ## A3. Expand role.js — full role/race data tables
 - [ ] Port complete `roles[]` array from role.c (13 roles) with ALL fields

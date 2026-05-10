@@ -4,7 +4,7 @@
 
 This session serves as a rigorous mechanical validation of the engine's status effect subroutines. The user entity—a Gnomish Healer named *Healix*—demonstrates the engine's ability to handle nutrition, the "New Moon" luck penalty, and the precise deterministic duration of self-inflicted sleep.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Steps 1–2: The New Moon**
 The engine performs 2,491 PRNG calls to generate the universe and character attributes (St:8 Dx:10 Co:14 In:12 Wi:14 Ch:17). The initialisation logic detects the local system clock and applies a deterministic luck penalty. The message line warns: *Be careful! New moon tonight.*
