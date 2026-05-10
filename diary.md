@@ -94,3 +94,13 @@ After vault fix + newpw fix, most fully-specified sessions now diverge in the fi
 - `fill_ordinary_room` / `fill_special_room` — require `makemon` and full monster selection logic
 
 Next: implement real fill phase (replace `fastforward_fill_mineralize` for non-seed8000).
+
+### Stream C Display - botl.js Status lines (+0 screens)
+
+Created `js/botl.js` to handle correct formatting of bottom lines using `bot1()` and `bot2()`.
+- Fixed stats mapping (e.g. `St:18/01`)
+- Handled C's specific spacing around title lines.
+- Extracted exact status condition texts.
+- Verified exact screen parity for the initial turns of seed8000 using Vitest and diff checking scripts.
+- Hooked `bot1()` and `bot2()` directly into `display.js` to clean up inline status line representations.
+- Restored the 21/23 passing screens metric for `seed8000`.
