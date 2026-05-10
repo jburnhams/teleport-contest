@@ -94,3 +94,14 @@ After vault fix + newpw fix, most fully-specified sessions now diverge in the fi
 - `fill_ordinary_room` / `fill_special_room` — require `makemon` and full monster selection logic
 
 Next: implement real fill phase (replace `fastforward_fill_mineralize` for non-seed8000).
+
+## YYYY-MM-DD
+
+- Completed Stream D Sub-task D1 & D3 (Object System).
+- Wrote `js/mkobj.js` implementing `newobj`, `place_object`, `remove_object`, `obj_extract_self`.
+- Updated `js/game.js` to initialize `this.objects` as a 2D array of `null` pointers mirroring C's `svl.level.objects[x][y]`.
+- Implemented `mkgold` mirroring integer math accurately with `Math.trunc`.
+- Created `js/invent.js` with `findgold`.
+- Wrote unit tests for `mkobj` and `invent` verifying linked list behaviour.
+- `score:check` passed correctly with no regressions.
+- Next step: Continue with Stream D2: mkobj — object creation by investigating `mksobj_init` logic which spans over 200 lines and consumes RNG values differently for each object class.
