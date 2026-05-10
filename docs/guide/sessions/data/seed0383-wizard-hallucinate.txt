@@ -36,15 +36,13 @@
   Msg: # levelchange
 [Step 15] Key: e | PRNG: 0 calls
   Msg: # levelchange
-[Step 16] Key: 
- | PRNG: 0 calls
+[Step 16] Key: \n | PRNG: 0 calls
   Msg: To what experience level do you want to be set?
 [Step 17] Key: 2 | PRNG: 0 calls
   Msg: To what experience level do you want to be set? 2
 [Step 18] Key: 0 | PRNG: 0 calls
   Msg: To what experience level do you want to be set? 20
-[Step 19] Key: 
- | PRNG: 3 calls
+[Step 19] Key: \n | PRNG: 3 calls
   Msg: You feel more experienced.  Welcome to experience level 2.--More--
   Status update: Wizard the Evoker              St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:1 $:0 HP:19(19) Pw:24(24) AC:9 Xp:2
 [Step 20] Key:   | PRNG: 3 calls
@@ -103,12 +101,11 @@
 [Step 38] Key:   | PRNG: 1 calls
   Msg: You feel more experienced.  Welcome to experience level 20.
   Status update: Wizard the Sorcerer            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:1 $:0 HP:106(106) Pw:196(196) AC:9 Xp:20
-[Step 39] Key:  | PRNG: 0 calls
+[Step 39] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 40] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 41] Key: 
- | PRNG: 0 calls
+[Step 41] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (20 rows changed)
   Status update: s -   wizard3: 44 | (1 of 3)
@@ -116,7 +113,7 @@
   Msg: You materialize on a different level!
   Map updated (20 rows changed)
   Status update: Wizard the Sorcerer            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:12 $:0 HP:106(106) Pw:196(196) AC:9 Xp:20
-[Step 43] Key:  | PRNG: 0 calls
+[Step 43] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 44] Key: b | PRNG: 0 calls
   Msg: For what do you wish? b
@@ -176,10 +173,9 @@
   Msg: For what do you wish? blessed amulet of life savin
 [Step 72] Key: g | PRNG: 0 calls
   Msg: For what do you wish? blessed amulet of life saving
-[Step 73] Key: 
- | PRNG: 5 calls
+[Step 73] Key: \n | PRNG: 5 calls
   Msg: n - a hexagonal amulet.
-[Step 74] Key:  | PRNG: 0 calls
+[Step 74] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 75] Key: b | PRNG: 0 calls
   Msg: For what do you wish? b
@@ -247,10 +243,9 @@
   Msg: For what do you wish? blessed +3 gray dragon scale mai
 [Step 107] Key: l | PRNG: 0 calls
   Msg: For what do you wish? blessed +3 gray dragon scale mail
-[Step 108] Key: 
- | PRNG: 7 calls
+[Step 108] Key: \n | PRNG: 7 calls
   Msg: o - a gray dragon scale mail.
-[Step 109] Key:  | PRNG: 0 calls
+[Step 109] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 110] Key: b | PRNG: 0 calls
   Msg: For what do you wish? b
@@ -298,8 +293,7 @@
   Msg: For what do you wish? blessed +3 wand of fir
 [Step 132] Key: e | PRNG: 0 calls
   Msg: For what do you wish? blessed +3 wand of fire
-[Step 133] Key: 
- | PRNG: 5 calls
+[Step 133] Key: \n | PRNG: 5 calls
   Msg: p - a curved wand.
 [Step 134] Key: T | PRNG: 40 calls
   Msg: You were wearing an uncursed +0 cloak of magic resistance.
@@ -365,16 +359,14 @@
   Msg: # wizintrinsic
 [Step 161] Key: c | PRNG: 0 calls
   Msg: # wizintrinsic
-[Step 162] Key: 
- | PRNG: 0 calls
+[Step 162] Key: \n | PRNG: 0 calls
   Msg: Which intrinsics?
   Map updated (20 rows changed)
   Status update: t - monster detection | (1 of 4)
 [Step 163] Key: h | PRNG: 0 calls
   Msg: Which intrinsics?
   Map updated (1 rows changed)
-[Step 164] Key: 
- | PRNG: 0 calls
+[Step 164] Key: \n | PRNG: 0 calls
   Msg: Oh wow!  Everything looks so cosmic!--More--
   Map updated (20 rows changed)
   Status update: Wizard the Sorcerer            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:12 $:0 HP:94(106) Pw:196(196) AC:-2 Xp:20 Hallu
@@ -451,12 +443,11 @@
 [Step 191] Key:   | PRNG: 0 calls
   Msg: Unknown command ' '.
   Map updated (9 rows changed)
-[Step 192] Key:  | PRNG: 0 calls
+[Step 192] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 193] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 194] Key: 
- | PRNG: 0 calls
+[Step 194] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (20 rows changed)
   Status update: s -   wizard3: 44 | (1 of 3)
@@ -512,7 +503,7 @@
 [Step 212] Key: ESC | PRNG: 0 calls
   Map updated (20 rows changed)
   Status update: Wizard the Sorcerer            St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10 Neutral | Dlvl:8 $:0 HP:77(106) Pw:196(196) AC:-2 Xp:20 Hallu
-[Step 213] Key:  | PRNG: 0 calls
+[Step 213] Key: \x18 | PRNG: 0 calls
   Msg: Wizard the Wizard's attributes:
   Map updated (18 rows changed)
   Status update: Your intelligence is 15. | (1 of 3)

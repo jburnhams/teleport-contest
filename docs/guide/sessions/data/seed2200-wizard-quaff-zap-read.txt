@@ -71,7 +71,7 @@
   Msg: What do you want to write in the dust here? Elberet
 [Step 32] Key: h | PRNG: 0 calls
   Msg: What do you want to write in the dust here? Elbereth
-[Step 33] Key: \r (Enter) | PRNG: 54 calls
+[Step 33] Key: \n | PRNG: 54 calls
 [Step 34] Key: / | PRNG: 0 calls
   Msg: What do you want to look at:
   Map updated (13 rows changed)
@@ -118,7 +118,7 @@
 [Step 53] Key: j | PRNG: 0 calls
   Msg: floor of a room
 [Step 54] Key: . | PRNG: 0 calls
-  Msg: ·        a doorway or the floor of a room or the dark part of a room or ice
+  Msg: ~        a doorway or the floor of a room or the dark part of a room or ice
   Map updated (1 rows changed)
 [Step 55] Key:   | PRNG: 0 calls
   Msg: Pick a monster, object or location.
@@ -144,7 +144,7 @@
 [Step 65] Key: H | PRNG: 0 calls
   Msg: floor of a room
 [Step 66] Key: . | PRNG: 0 calls
-  Msg: ·        a doorway or the floor of a room or the dark part of a room or ice
+  Msg: ~        a doorway or the floor of a room or the dark part of a room or ice
   Map updated (1 rows changed)
 [Step 67] Key:   | PRNG: 0 calls
   Msg: Pick a monster, object or location.
@@ -174,7 +174,7 @@
   Msg: Specify what? (type the word) fountai
 [Step 79] Key: n | PRNG: 0 calls
   Msg: Specify what? (type the word) fountain
-[Step 80] Key: \r (Enter) | PRNG: 0 calls
+[Step 80] Key: \n | PRNG: 0 calls
   Msg: Rest! This little Fountain runs
   Map updated (15 rows changed)
 [Step 81] Key:   | PRNG: 0 calls
@@ -642,14 +642,13 @@
 [Step 223] Key: ESC | PRNG: 0 calls
   Map updated (20 rows changed)
   Status update: Merlin the Evoker              St:12 Dx:12 Co:13 In:18 Wi:12 Ch:8 Neutral | Dlvl:1 $:0 HP:12(12) Pw:8(8) AC:9 Xp:1
-[Step 224] Key:  | PRNG: 0 calls
+[Step 224] Key: \x18 | PRNG: 0 calls
   Msg: Merlin the Wizard's attributes:
   Map updated (20 rows changed)
   Status update: Your intelligence is 18. | (1 of 2)
 [Step 225] Key:   | PRNG: 0 calls
   Msg: Your wisdom is 12.
   Map updated (20 rows changed)
-  Status update:  | 
 [Step 226] Key: ESC | PRNG: 0 calls
   Map updated (19 rows changed)
   Status update: Merlin the Evoker              St:12 Dx:12 Co:13 In:18 Wi:12 Ch:8 Neutral | Dlvl:1 $:0 HP:12(12) Pw:8(8) AC:9 Xp:1

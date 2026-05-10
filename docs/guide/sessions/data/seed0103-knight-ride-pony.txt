@@ -25,8 +25,7 @@
   Msg: # ride
 [Step 10] Key: e | PRNG: 0 calls
   Msg: # ride
-[Step 11] Key: 
- | PRNG: 0 calls
+[Step 11] Key: \n | PRNG: 0 calls
   Msg: In what direction?
 [Step 12] Key: l | PRNG: 2 calls
   Msg: You slip while trying to get on the saddled pony.
@@ -41,8 +40,7 @@
   Msg: # ride
 [Step 17] Key: e | PRNG: 0 calls
   Msg: # ride
-[Step 18] Key: 
- | PRNG: 0 calls
+[Step 18] Key: \n | PRNG: 0 calls
   Msg: In what direction?
 [Step 19] Key: l | PRNG: 11 calls
   Msg: You mount the saddled pony.
@@ -58,8 +56,7 @@
   Msg: # ride
 [Step 24] Key: e | PRNG: 0 calls
   Msg: # ride
-[Step 25] Key: 
- | PRNG: 37 calls
+[Step 25] Key: \n | PRNG: 37 calls
   Msg: You've been through the dungeon on a pony with no name.
   Map updated (3 rows changed)
   Status update: Sir the Gallant                St:15 Dx:8 Co:11 In:8 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:4(16) Pw:4(4) AC:3 Xp:1
@@ -75,8 +72,7 @@
   Msg: # ride
 [Step 31] Key: e | PRNG: 0 calls
   Msg: # ride
-[Step 32] Key: 
- | PRNG: 0 calls
+[Step 32] Key: \n | PRNG: 0 calls
   Msg: In what direction?
 [Step 33] Key: l | PRNG: 14 calls
   Msg: You mount the saddled pony.
@@ -92,8 +88,7 @@
   Msg: # ride
 [Step 38] Key: e | PRNG: 0 calls
   Msg: # ride
-[Step 39] Key: 
- | PRNG: 15 calls
+[Step 39] Key: \n | PRNG: 15 calls
   Msg: You've been through the dungeon on a pony with no name.--More--
   Map updated (1 rows changed)
   Status update: Sir the Gallant                St:15 Dx:8 Co:11 In:8 Wi:14 Ch:17 Lawful | Dlvl:1 $:0 HP:4(16) Pw:4(4) AC:3 Xp:1
@@ -116,8 +111,7 @@
   Msg: # ride
 [Step 48] Key: e | PRNG: 0 calls
   Msg: # ride
-[Step 49] Key: 
- | PRNG: 0 calls
+[Step 49] Key: \n | PRNG: 0 calls
   Msg: In what direction?
 [Step 50] Key: l | PRNG: 0 calls
   Msg: I see nobody there.
@@ -131,8 +125,7 @@
   Msg: # ride
 [Step 55] Key: e | PRNG: 0 calls
   Msg: # ride
-[Step 56] Key: 
- | PRNG: 0 calls
+[Step 56] Key: \n | PRNG: 0 calls
   Msg: In what direction?
 [Step 57] Key: h | PRNG: 2 calls
   Msg: You slip while trying to get on the saddled pony.--More--
