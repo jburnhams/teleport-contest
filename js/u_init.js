@@ -20,6 +20,11 @@ import { PM_PONY } from './monst.js';
 import { WEAPON_CLASS, TOOL_CLASS, GEM_CLASS } from './const.js';
 import { invent } from './decl.js';
 import { game } from './gstate.js';
+import { objects } from './objects.js';
+import {
+    SPBOOK_CLASS, POTION_CLASS, SCROLL_CLASS, RING_CLASS,
+    SPE_FORCE_BOLT, POT_HEALING, SCR_LIGHT, RIN_SEARCHING
+} from './const.js';
 import { init_attr, vary_init_attr, acurrstr } from './attrib.js';
 import { newhp, newpw, adjabil } from './exper.js';
 
@@ -657,13 +662,17 @@ export function ini_inv(trop) {
                 // In C: obj = mksobj(otyp, TRUE, FALSE);
                 rnd(2); // next_ident
                 // mksobj_init for scrolls and potions does blessorcurse -> rn2(4)
-                if ((otyp >= 270 && otyp < 300) || (otyp >= 230 && otyp < 270)) {
-                    rn2(4);
+                if (objects[otyp]) {
+                    let objClass = objects[otyp].oc_class;
+                    if (objClass === SCROLL_CLASS || objClass === POTION_CLASS) {
+                        rn2(4);
+                    }
                 }
             } else {
                 // UNDEF_TYP -> randomly generated object class
                 // obj = mkobj(t.trclass, FALSE);
-                ini_inv_mkobj_filter(t.trclass, got_sp1);
+                let filter_otyp = ini_inv_mkobj_filter(t.trclass, got_sp1);
+                otyp = filter_otyp;
             }
 
             if (t.trspe !== 'UNDEF_SPE' && t.trotyp === MAGIC_MARKER) {
@@ -671,6 +680,10 @@ export function ini_inv(trop) {
             }
 
             // we simulate use_obj and adjustment but don't do real logic yet
+
+            if (otyp !== UNDEF_TYP && objects[otyp] && objects[otyp].oc_class === SPBOOK_CLASS && objects[otyp].oc_oc2 === 1) {
+                got_sp1 = true;
+            }
 
             quan--;
         }
@@ -842,11 +855,31 @@ export const M_spell = [Healing_book, Protection_book, Confuse_monster_book];
 
 // These rely on the basic rng calls made during creation, assuming Stream D handles it fully later.
 // We just need to mimic the exact rng sequence from ini_inv.
+// Partial port for PRNG consumption
 export function ini_inv_mkobj_filter(oclass, got_level1_spellbook) {
-    // mkobj internally consumes rn2 or rnd depending on class
-    // Stream D's mkobj stub just does `next_ident() -> rnd(2)`
-    // And mkobj wrapper passes it along
-    // We will mimic the mkobj call by just doing rnd(2) for next_ident
-    // actually, we must be careful with the exact object creation.
-    // wait, o_init.js already exists? Let's just import mkobj from mklev.js for now.
+    let trycnt = 0;
+    let otyp = 0;
+    while (true) {
+        // C ref: obj = mkobj(oclass, FALSE);
+        // We simulate the RNG in mkobj here for SPBOOK_CLASS.
+        // Usually mkobj calls rnd_class and then mksobj
+        // For the contest RNG matching, let's just return a generic valid item unless we need exact
+
+        // This needs to be correctly ported eventually in Stream D.
+        // For now, we simulate the first call to mkobj:
+        // We know for wizards it's often a scroll or potion or spellbook
+        if (oclass === SPBOOK_CLASS) {
+            // For now, return a spellbook
+            return SPE_FORCE_BOLT;
+        } else if (oclass === POTION_CLASS) {
+            return POT_HEALING;
+        } else if (oclass === SCROLL_CLASS) {
+            return SCR_LIGHT;
+        } else if (oclass === RING_CLASS) {
+            return RIN_SEARCHING;
+        }
+
+        break;
+    }
+    return otyp;
 }

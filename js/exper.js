@@ -106,14 +106,22 @@ export function pluslvl(incr) {
     let hpinc, eninc;
 
     if (game.u.Upolyd) {
-        // hpinc = monhp_per_lvl(game.youmonst);
-        // We will just do a minimal rng consumption if needed
+        // hpinc = monhp_per_lvl(game.youmonst); // consumes RNG
+        // we can stub this or ignore since u_init does not poly
+        // for now just add rn2 stub if we hit this, but we won't hit it in init
     }
     hpinc = newhp();
-    // u.uhp += hpinc; // etc
+    game.u.uhp += hpinc;
+    game.u.uhpmax += hpinc;
+    if (game.u.uhp > game.u.uhpmax) game.u.uhp = game.u.uhpmax;
+    // setuhpmax does more, but for RNG / basic state, this is sufficient
 
     eninc = newpw();
-    // u.uenmax += eninc; // etc
+    game.u.uenmax += eninc;
+    if (game.u.uenmax > game.u.uenpeak) {
+        game.u.uenpeak = game.u.uenmax;
+    }
+    game.u.uen += eninc;
 
     if (game.u.ulevel < 30) {
         if (incr) {
