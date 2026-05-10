@@ -12,6 +12,7 @@ import { init_objects } from './o_init.js';
 import { init_dungeons, init_castle_tune, u_init_misc } from './dungeon_init.js';
 import { role_init_extra, roleNameToIdx, ROLE_WIZ } from './role_init.js';
 import { rnd } from './rng.js';
+import { tty_player_selection } from './chargen.js';
 
 // C ref: allmain.c newgame()
 export async function newgame() {
@@ -47,8 +48,20 @@ export async function newgame() {
         if (newpwInrnd > 0) rnd(newpwInrnd);
         u_init_misc();
     } else {
-        // Chargen RNG not yet implemented — fall back to fastforward (seed8000 only).
-        fastforward_pre_mklev();
+        // Non-fully-specified: run real chargen (tty_player_selection) then real init.
+        const chargen = await tty_player_selection(g);
+        const charRole = chargen ? chargen.role : 0;
+
+        // C ref: allmain.c newgame() init order (same as fully-specified path)
+        init_objects();
+        role_init_extra(charRole);
+
+        const ROLE_ENADV_INRND = [0, 0, 0, 4, 4, 2, 3, 0, 0, 0, 0, 0, 3];
+        const newpwInrnd = ROLE_ENADV_INRND[charRole] ?? 0;
+        init_dungeons(wizard);
+        init_castle_tune();
+        if (newpwInrnd > 0) rnd(newpwInrnd);
+        u_init_misc();
     }
 
     // C ref: allmain.c l_nhcore_init() — second Lua shuffle (nhcore.lua)
