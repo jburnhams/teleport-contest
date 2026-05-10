@@ -4,7 +4,7 @@
 
 This session serves as a rigorous evaluation of the combat pathways and multi-level state persistence. The user entity—a "Wizard" (styled as *Hextra the Evoker*) with an impressive 19 Intelligence but a dismal 11 Constitution—engages a "Water Demon" class object. It is a highly efficient execution of the monster AI loop, validating the integrity of the RNG sequences governing combat resolution across dungeon levels.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Steps 1–97: The Ruby Ring**
 Hextra completes the character generation prompts and begins exploring Dungeon Level 1. The pathing algorithms are validated as she wanders the corridors. At Step 92, the engine calculates the generation of a floor item: *You see here a ruby ring.* Hextra issues the pickup command (`,`), triggering a precise state change in her inventory. 

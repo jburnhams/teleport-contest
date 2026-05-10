@@ -4,7 +4,7 @@
 
 This session serves as a rigorous mechanical validation of the engine's environmental-luck and combat-death subroutines. The user entity—a Wizard named *Wizard*—demonstrates the engine's ability to process temporal luck modifiers and complex entity-combat interactions, culminating in a terminal state transition.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Step 1: The Full Moon Luck**
 The engine performs 2,717 PRNG calls to generate the initial state (St:11 Dx:13 Co:16 In:15 Wi:9). The initialisation logic detects the "Full Moon" condition from the system clock and applies the deterministic luck bonus: *You are lucky! Full moon tonight.*

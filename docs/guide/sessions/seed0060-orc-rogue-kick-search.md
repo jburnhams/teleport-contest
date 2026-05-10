@@ -4,7 +4,7 @@
 
 This session serves as a rigorous mechanical validation of the engine's physical interaction subroutines. The user entity—an Orcish Rogue named *Shade*—demonstrates the engine's ability to process search attempts, kicks against various targets, and the secondary combat effects of pet entities.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Steps 1–6: The Kitten's Prowess**
 Shade begins his journey on Dungeon Level 1. The engine performs 2,396 PRNG calls to generate his starting state (St:14 Dx:18 Co:12 In:10 Wi:11 Ch:11). Immediately upon starting, Shade's accompanying kitten engages a local newt. 

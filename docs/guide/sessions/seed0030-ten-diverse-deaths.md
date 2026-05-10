@@ -4,7 +4,7 @@
 
 This extraordinary session is a stress test of the engine's mortality subroutines. Across ten distinct game segments, the user entity experiences ten unique deterministic deaths. It is a comprehensive validation of the post-mortem UI state machine, ensuring that every possible way to cease existing is mathematically accounted for.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Segment 0: The Gnome's Bow**
 Quincy the Tourist begins his journey. At Step 73, after a brief exchange of pleasantries with a gnome, the engine calculates a fatal projectile hit. *You die...* The post-mortem loop is validated for the first time.

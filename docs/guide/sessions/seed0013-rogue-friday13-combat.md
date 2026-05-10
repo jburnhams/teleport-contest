@@ -4,7 +4,7 @@
 
 This session serves as a peculiar mechanical validation of the engine's forced-combat (`F`) logic. Having been warned of the cosmological dangers of playing on a Friday the 13th with a Full Moon, the user entity—a Rogue named *Sneaky*—chooses to express her frustrations by dropping her weapon and punching a wall.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Steps 0–22: The Superstitious Setup**
 The engine performs exactly 3,824 PRNG calls to seed the universe, immediately noticing the local system clock and outputting the twin astrological warnings: *You are lucky! Full moon tonight.* and *Watch out! Bad things can happen on Friday the 13th.* Sneaky wanders around the starting room (`L, l, J, K...`), testing line-of-sight and basic locomotion.

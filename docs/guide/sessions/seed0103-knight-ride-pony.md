@@ -4,7 +4,7 @@
 
 This brief but poignant session serves as a rigorous mechanical validation of the engine's riding subroutines. The user entity—a human Knight appropriately named *Sir*—demonstrates the catastrophic deterministic consequences of attempting to mount a pony with low Dexterity (8).
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Steps 1–4: The Gallant Sir**
 The engine performs 2,432 PRNG calls to generate the universe and Sir's attributes (St:15 Dx:8 Co:11 In:8 Wi:14 Ch:17). Sir begins on Dungeon Level 1, accompanied by a saddled pony, and declines the tutorial.

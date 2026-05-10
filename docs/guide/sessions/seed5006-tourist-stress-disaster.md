@@ -4,7 +4,7 @@
 
 This session serves as a rigorous mechanical validation of the engine's most terminal state transitions. The user entity—a Tourist named *Wizard*—demonstrates the engine's ability to handle the "Full Moon" luck bonus, administrative wishing for lethal objects, and the subsequent resolution of self-inflicted death and bones-file persistence.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Step 1: The Full Moon Luck**
 The engine performs 4,180 PRNG calls to generate the initial state (St:10 Dx:12 Co:15 In:13 Wi:10). The initialisation logic detects the "Full Moon" condition from the system clock and applies the deterministic luck bonus: *You are lucky! Full moon tonight.*

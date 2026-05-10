@@ -4,7 +4,7 @@
 
 This session serves as a rigorous mechanical validation of the engine's consumption and information-retrieval subroutines. The user entity—a human Wizard named *Merlin*—demonstrates the engine's ability to handle the immediate effects of potions, wands, and scrolls, culminating in the detection of the legendary *Elbereth* sigil.
 
-### Frame-by-Frame Execution Highlights
+### Mechanical Sequence
 
 **Steps 1–3: The Evoker Merlin**
 The engine performs 2,722 PRNG calls to generate the initial state (St:12 Dx:12 Co:13 In:18 Wi:12). Merlin begins on Dungeon Level 1, armed with his starting magical arsenal.
