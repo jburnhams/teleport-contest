@@ -22,7 +22,7 @@
   Msg: # name
 [Step 8] Key: e | PRNG: 0 calls
   Msg: # name
-[Step 9] Key: \r (Enter) | PRNG: 0 calls
+[Step 9] Key: \n | PRNG: 0 calls
   Msg: What do you want to name?
   Map updated (7 rows changed)
 [Step 10] Key: ESC | PRNG: 0 calls
@@ -49,14 +49,13 @@
 [Step 18] Key: ESC | PRNG: 0 calls
   Map updated (13 rows changed)
   Status update: Ricky the Tenderfoot           St:14 Dx:11 Co:13 In:13 Wi:14 Ch:10 Chaotic | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:7 Xp:1
-[Step 19] Key:  | PRNG: 0 calls
+[Step 19] Key: \x18 | PRNG: 0 calls
   Msg: Ricky the Ranger's attributes:
   Map updated (19 rows changed)
   Status update: Your intelligence is 13. | (1 of 2)
 [Step 20] Key:   | PRNG: 0 calls
   Msg: Your wisdom is 14.
   Map updated (20 rows changed)
-  Status update:  | 
 [Step 21] Key: ESC | PRNG: 0 calls
   Map updated (11 rows changed)
   Status update: Ricky the Tenderfoot           St:14 Dx:11 Co:13 In:13 Wi:14 Ch:10 Chaotic | Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:7 Xp:1

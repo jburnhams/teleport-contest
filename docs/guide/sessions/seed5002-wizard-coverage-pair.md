@@ -1,29 +1,33 @@
-# seed5002: The Mimic's Fatal Surprise
+# seed5002: The Wizard's Arsenal Catastrophe
 
-**Subsystem Focus:** Validates the "Full Moon" luck bonus, administrative wishing for elemental wands, and the deterministic resolution of a fatal mimic encounter.
+**Subsystem Focus:** Validates the `#wizwish` administrative wishing, multi-wand zapping, bolt-bounce physics, and the deterministic resolution of self-inflicted elemental damage.
 
-This session serves as a rigorous mechanical validation of the engine's environmental-luck and combat-death subroutines. The user entity—a Wizard named *Wizard*—demonstrates the engine's ability to process temporal luck modifiers and complex entity-combat interactions, culminating in a terminal state transition.
+This session is a comprehensive stress test of the engine's object-creation, wand-zapping, and damage-resolution subroutines. Across two segments, a Wizard named *wizard* systematically wishes for an arsenal of elemental wands, then discovers that bouncing bolts and exploding potions are far more dangerous to the caster than to any monster.
 
 ### Mechanical Sequence
 
-**Step 1: The Full Moon Luck**
-The engine performs 2,717 PRNG calls to generate the initial state (St:11 Dx:13 Co:16 In:15 Wi:9). The initialisation logic detects the "Full Moon" condition from the system clock and applies the deterministic luck bonus: *You are lucky! Full moon tonight.*
+**Segment 0: Full Moon and Five Wishes**
 
-**Steps 2–18: The Administrative Arsenal**
-Wizard immediately invokes administrative powers to jump to Dungeon Level 5 and secure a powerful weapon.
-- Step 4: 3,093 PRNG calls resolve the generation of the fifth floor.
-- Step 5: Wizard invokes `#wizwish` and meticulously types: *wand of fire*.
-- This validates the engine's ability to handle administrative object creation and multi-level generation in rapid succession.
+**Step 0–1:** The engine initialises the universe. The "Full Moon" condition is detected: *You are lucky! Full moon tonight.*
 
-**Steps 156–182: The Mimic Dance**
-Wizard encounters a "small mimic" entity.
-- The session validates the engine's ability to handle rapid, interrupted commands (`m, s, y`).
-- Step 182: The engine resolves a movement for the mimic. 19 PRNG calls are consumed.
+**Steps 2–4: Teleport to DL5**
+Wizard invokes `Ctrl-V` to teleport to dungeon level 5. 3,093 PRNG calls generate the new level.
 
-**Steps 190–192: The Terminal Transition**
-The small mimic engages Wizard in melee.
-- Step 190: 18 PRNG calls resolve a successful hit: *The small mimic hits!* Wizard's HP drops to 4.
-- Step 191: 12 PRNG calls resolve the final fatal blow: *The small mimic hits!* 
-- Step 192: Wizard's hit points reach zero, triggering the death state machine: *You die...*
+**Steps 5–74: The Wishing Spree**
+Wizard invokes `#wizwish` (Ctrl-W) five times, requesting:
+- *wand of fire* (step 18: "an aluminum wand")
+- *wand of cold* (step 32: "a pine wand")
+- *wand of lightning* (step 51: "a copper wand")
+- *wand of magic missile* (step 74: "a tin wand")
+- (A fifth wish for *wand of death* is typed across steps 98–112 but gets buffered during the chaos that follows)
 
-It is a succinct mechanical validation of the engine's combat and state-transition logic, proving that even with the luck of a full moon and a wand of fire, the deterministic reality of a mimic's attack can lead to a terminal result. The Wizard's overconfidence and the mimic's accuracy are perfectly synced within the simulation.
+**Step 75–85: Monster Creation**
+Wizard invokes `Ctrl-G` to create a *gas spore* next to themselves.
+
+**Steps 86–120: The Self-Inflicted Inferno**
+Wizard begins zapping wands in rapid succession — fire, cold, lightning, magic missile — each bolt bouncing off walls and striking the caster. The engine resolves each bolt trajectory, bounce angle, and damage calculation. Potions of invisibility and oil in inventory ignite and explode. After cascading damage across 35 steps, the engine reaches the terminal state at step 120: *You die...*
+
+**Segment 1: The Second Attempt**
+A new wizard arrives and repeats a similar pattern — administrative wishes, exploration, and eventual death at step 132. This segment validates that the full wishing-and-combat pipeline remains deterministically reproducible across fresh game instances with a different PRNG state.
+
+It is a vivid demonstration that the engine's bolt-physics and item-interaction subroutines are perfectly synchronised, even when the player's strategy is to point every available destructive force at themselves.

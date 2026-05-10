@@ -21,12 +21,11 @@
   Map updated (6 rows changed)
 [Step 7] Key: . | PRNG: 8 calls
   Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:1 $:0 HP:12(12) Pw:8(8) AC:9 Xp:1/0 T:2
-[Step 8] Key:  | PRNG: 0 calls
+[Step 8] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 9] Key: 2 | PRNG: 0 calls
   Msg: To what level do you want to teleport? 2
-[Step 10] Key: 
- | PRNG: 2538 calls
+[Step 10] Key: \n | PRNG: 2538 calls
   Msg: You materialize on a different level!
   Map updated (11 rows changed)
   Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:2 $:0 HP:12(12) Pw:8(8) AC:9 Xp:1/0 T:2
@@ -80,7 +79,7 @@
   Msg: Unknown command ' '.
 [Step 31] Key:   | PRNG: 0 calls
   Msg: Unknown command ' '.
-[Step 32] Key:  | PRNG: 0 calls
+[Step 32] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 33] Key: r | PRNG: 0 calls
   Msg: For what do you wish? r
@@ -130,8 +129,7 @@
   Msg: For what do you wish? ring of teleport contro
 [Step 56] Key: l | PRNG: 0 calls
   Msg: For what do you wish? ring of teleport control
-[Step 57] Key: 
- | PRNG: 5 calls
+[Step 57] Key: \n | PRNG: 5 calls
   Msg: o - an ivory ring.
 [Step 58] Key: P | PRNG: 0 calls
   Msg: What do you want to put on? [deo or ?*]
@@ -141,7 +139,7 @@
   Msg: o - an ivory ring (on right hand).
   Map updated (2 rows changed)
   Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:2 $:0 HP:12(12) Pw:8(8) AC:10 Xp:1/0 T:14
-[Step 61] Key:  | PRNG: 0 calls
+[Step 61] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 62] Key: w | PRNG: 0 calls
   Msg: For what do you wish? w
@@ -173,8 +171,7 @@
   Msg: For what do you wish? wand of diggin
 [Step 76] Key: g | PRNG: 0 calls
   Msg: For what do you wish? wand of digging
-[Step 77] Key: 
- | PRNG: 5 calls
+[Step 77] Key: \n | PRNG: 5 calls
   Msg: p - a curved wand.
 [Step 78] Key: z | PRNG: 0 calls
   Msg: What do you want to zap? [cp or ?*]
@@ -228,7 +225,7 @@
   Msg: # pray
 [Step 100] Key: y | PRNG: 0 calls
   Msg: # pray
-[Step 101] Key: \r (Enter) | PRNG: 0 calls
+[Step 101] Key: \n | PRNG: 0 calls
   Msg: Are you sure you want to pray? [yn] (n)
 [Step 102] Key: y | PRNG: 0 calls
   Msg: You begin praying to Thoth.--More--
@@ -240,12 +237,11 @@
   Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:2 $:0 HP:12(12) Pw:8(8) AC:10 Xp:1/0 T:24
 [Step 105] Key:   | PRNG: 6 calls
   Msg: You feel that Thoth is satisfied.
-[Step 106] Key:  | PRNG: 0 calls
+[Step 106] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 107] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 108] Key: 
- | PRNG: 0 calls
+[Step 108] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (20 rows changed)
   Status update: s -   wizard3: 44 | (1 of 3)
@@ -253,12 +249,11 @@
   Msg: You materialize on a different level!
   Map updated (20 rows changed)
   Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:10 $:0 HP:12(12) Pw:8(8) AC:10 Xp:1/0 T:24
-[Step 110] Key:  | PRNG: 0 calls
+[Step 110] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 111] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 112] Key: 
- | PRNG: 0 calls
+[Step 112] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (20 rows changed)
   Status update: s -   wizard3: 44 | (1 of 3)
@@ -289,14 +284,13 @@
 [Step 120] Key: ESC | PRNG: 0 calls
   Map updated (20 rows changed)
   Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:2 $:0 HP:12(12) Pw:8(8) AC:10 Xp:1/0 T:24
-[Step 121] Key:  | PRNG: 0 calls
+[Step 121] Key: \x18 | PRNG: 0 calls
   Msg: Wizard the Wizard's attributes:
   Map updated (20 rows changed)
   Status update: Your intelligence is 18. | (1 of 2)
 [Step 122] Key:   | PRNG: 0 calls
   Msg: Your wisdom is 13.
   Map updated (21 rows changed)
-  Status update:  | 
 [Step 123] Key: ESC | PRNG: 0 calls
   Map updated (20 rows changed)
   Status update: Wizard the Evoker              St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9 Neutral | Dlvl:2 $:0 HP:12(12) Pw:8(8) AC:10 Xp:1/0 T:24

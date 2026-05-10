@@ -39,15 +39,13 @@
   Msg: # levelchange
 [Step 16] Key: e | PRNG: 0 calls
   Msg: # levelchange
-[Step 17] Key: 
- | PRNG: 0 calls
+[Step 17] Key: \n | PRNG: 0 calls
   Msg: To what experience level do you want to be set?
 [Step 18] Key: 2 | PRNG: 0 calls
   Msg: To what experience level do you want to be set? 2
 [Step 19] Key: 0 | PRNG: 0 calls
   Msg: To what experience level do you want to be set? 20
-[Step 20] Key: 
- | PRNG: 3 calls
+[Step 20] Key: \n | PRNG: 3 calls
   Msg: You feel more experienced.  Welcome to experience level 2.--More--
   Status update: Wizard the Evoker              St:9 Dx:13 Co:16 In:18 Wi:10 Ch:9 Neutral | Dlvl:1 $:0 HP:21(21) Pw:17(17) AC:9 Xp:2
 [Step 21] Key:   | PRNG: 3 calls
@@ -106,7 +104,7 @@
 [Step 39] Key:   | PRNG: 1 calls
   Msg: You feel more experienced.  Welcome to experience level 20.
   Status update: Wizard the Sorcerer            St:9 Dx:13 Co:16 In:18 Wi:10 Ch:9 Neutral | Dlvl:1 $:0 HP:136(136) Pw:213(213) AC:9 Xp:20
-[Step 40] Key:  | PRNG: 0 calls
+[Step 40] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 41] Key: b | PRNG: 0 calls
   Msg: For what do you wish? b
@@ -174,10 +172,9 @@
   Msg: For what do you wish? blessed +3 gray dragon scale mai
 [Step 73] Key: l | PRNG: 0 calls
   Msg: For what do you wish? blessed +3 gray dragon scale mail
-[Step 74] Key: 
- | PRNG: 7 calls
+[Step 74] Key: \n | PRNG: 7 calls
   Msg: o - a gray dragon scale mail.
-[Step 75] Key:  | PRNG: 0 calls
+[Step 75] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 76] Key: b | PRNG: 0 calls
   Msg: For what do you wish? b
@@ -223,10 +220,9 @@
   Msg: For what do you wish? blessed +3 speed boot
 [Step 97] Key: s | PRNG: 0 calls
   Msg: For what do you wish? blessed +3 speed boots
-[Step 98] Key: 
- | PRNG: 7 calls
+[Step 98] Key: \n | PRNG: 7 calls
   Msg: p - a pair of mud boots.
-[Step 99] Key:  | PRNG: 0 calls
+[Step 99] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 100] Key: b | PRNG: 0 calls
   Msg: For what do you wish? b
@@ -286,8 +282,7 @@
   Msg: For what do you wish? blessed amulet of life savin
 [Step 128] Key: g | PRNG: 0 calls
   Msg: For what do you wish? blessed amulet of life saving
-[Step 129] Key: 
- | PRNG: 5 calls
+[Step 129] Key: \n | PRNG: 5 calls
   Msg: q - a cubical amulet.
 [Step 130] Key: T | PRNG: 9 calls
   Msg: You were wearing an uncursed +0 cloak of magic resistance.
@@ -317,12 +312,11 @@
   Status update: Wizard the Sorcerer            St:9 Dx:13 Co:16 In:18 Wi:10 Ch:9 Neutral | Dlvl:1 $:0 HP:132(136) Pw:213(213) AC:6 Xp:20
 [Step 141] Key:   | PRNG: 13 calls
   Msg: The kitten misses the goblin.
-[Step 142] Key:  | PRNG: 0 calls
+[Step 142] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 143] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 144] Key: 
- | PRNG: 0 calls
+[Step 144] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (20 rows changed)
   Status update: s -   wizard3: 43 | (1 of 3)
@@ -346,12 +340,11 @@
   Map updated (5 rows changed)
 [Step 155] Key: . | PRNG: 0 calls
   Msg: Are you waiting to get hit?  Use 'm' prefix to force a no-op (to rest).
-[Step 156] Key:  | PRNG: 0 calls
+[Step 156] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 157] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 158] Key: 
- | PRNG: 0 calls
+[Step 158] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (20 rows changed)
   Status update: s -   wizard3: 43 | (1 of 3)
@@ -360,12 +353,11 @@
   Map updated (20 rows changed)
   Status update: Wizard the Sorcerer            St:9 Dx:13 Co:16 In:18 Wi:10 Ch:9 Neutral | Dlvl:25 $:0 HP:132(136) Pw:213(213) AC:6 Xp:20
 [Step 160] Key: . | PRNG: 114 calls
-[Step 161] Key:  | PRNG: 0 calls
+[Step 161] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 162] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 163] Key: 
- | PRNG: 0 calls
+[Step 163] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (20 rows changed)
   Status update: s -   wizard3: 43 | (1 of 3)
@@ -380,12 +372,11 @@
 [Step 167] Key:   | PRNG: 0 calls
   Msg: You hear groans and moans everywhere.
 [Step 168] Key: . | PRNG: 2 calls
-[Step 169] Key:  | PRNG: 0 calls
+[Step 169] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 170] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 171] Key: 
- | PRNG: 0 calls
+[Step 171] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (20 rows changed)
   Status update: s -   wizard3: 43 | (1 of 3)
@@ -401,12 +392,11 @@
   Msg: You smell smoke...
 [Step 175] Key: . | PRNG: 100 calls
   Status update: Wizard the Sorcerer            St:9 Dx:13 Co:16 In:18 Wi:10 Ch:9 Neutral | Dlvl:47 $:0 HP:133(136) Pw:213(213) AC:6 Xp:20
-[Step 176] Key:  | PRNG: 0 calls
+[Step 176] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 177] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 178] Key: 
- | PRNG: 0 calls
+[Step 178] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (20 rows changed)
   Status update: s -   wizard3: 43 | (1 of 3)
@@ -430,12 +420,11 @@
   Msg: You see no objects here.
 [Step 187] Key: . | PRNG: 39 calls
   Status update: Wizard the Sorcerer            St:9 Dx:13 Co:16 In:18 Wi:10 Ch:9 Neutral | Dlvl:6 $:0 HP:135(136) Pw:213(213) AC:6 Xp:20
-[Step 188] Key:  | PRNG: 0 calls
+[Step 188] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 189] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 190] Key: 
- | PRNG: 0 calls
+[Step 190] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (20 rows changed)
   Status update: s -   wizard3: 43 | (1 of 3)
@@ -466,12 +455,11 @@
   Msg: The gnome picks up a blue gem.
   Map updated (4 rows changed)
 [Step 206] Key: . | PRNG: 27 calls
-[Step 207] Key:  | PRNG: 0 calls
+[Step 207] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 208] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 209] Key: 
- | PRNG: 0 calls
+[Step 209] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (20 rows changed)
   Status update: s -   wizard3: 43 | (1 of 3)
@@ -490,12 +478,11 @@
 [Step 216] Key: : | PRNG: 0 calls
   Msg: You see no objects here.
 [Step 217] Key: . | PRNG: 0 calls
-[Step 218] Key:  | PRNG: 0 calls
+[Step 218] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 219] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 220] Key: 
- | PRNG: 0 calls
+[Step 220] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (20 rows changed)
   Status update: s -   wizard3: 43 | (1 of 3)
@@ -526,12 +513,11 @@
 [Step 232] Key: : | PRNG: 0 calls
   Msg: You see no objects here.
 [Step 233] Key: . | PRNG: 4 calls
-[Step 234] Key:  | PRNG: 0 calls
+[Step 234] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 235] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 236] Key: 
- | PRNG: 0 calls
+[Step 236] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (20 rows changed)
   Status update: s -   wizard3: 43 | (1 of 3)
@@ -550,12 +536,11 @@
 [Step 243] Key: : | PRNG: 0 calls
   Msg: You see no objects here.
 [Step 244] Key: . | PRNG: 0 calls
-[Step 245] Key:  | PRNG: 0 calls
+[Step 245] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 246] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 247] Key: 
- | PRNG: 0 calls
+[Step 247] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (20 rows changed)
   Status update: s -   wizard3: 43 | (1 of 3)
@@ -581,12 +566,11 @@
 [Step 256] Key: : | PRNG: 0 calls
   Msg: You see no objects here.
 [Step 257] Key: . | PRNG: 4 calls
-[Step 258] Key:  | PRNG: 0 calls
+[Step 258] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 259] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 260] Key: 
- | PRNG: 0 calls
+[Step 260] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (20 rows changed)
   Status update: s -   wizard3: 43 | (1 of 3)
@@ -599,12 +583,11 @@
   Map updated (21 rows changed)
   Status update: Wizard the Sorcerer            St:9 Dx:13 Co:16 In:18 Wi:10 Ch:9 Neutral | Dlvl:34 $:0 HP:136(136) Pw:213(213) AC:6 Xp:20
 [Step 263] Key: . | PRNG: 13 calls
-[Step 264] Key:  | PRNG: 0 calls
+[Step 264] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 265] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 266] Key: 
- | PRNG: 0 calls
+[Step 266] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (20 rows changed)
   Status update: s -   wizard3: 43 | (1 of 3)
@@ -617,12 +600,11 @@
   Map updated (21 rows changed)
   Status update: Wizard the Sorcerer            St:9 Dx:13 Co:16 In:18 Wi:10 Ch:9 Neutral | Dlvl:35 $:0 HP:136(136) Pw:213(213) AC:6 Xp:20
 [Step 269] Key: . | PRNG: 9 calls
-[Step 270] Key:  | PRNG: 0 calls
+[Step 270] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 271] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 272] Key: 
- | PRNG: 0 calls
+[Step 272] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (20 rows changed)
   Status update: s -   wizard3: 43 | (1 of 3)
@@ -647,12 +629,11 @@
 [Step 285] Key: : | PRNG: 0 calls
   Msg: You see no objects here.
 [Step 286] Key: . | PRNG: 1 calls
-[Step 287] Key:  | PRNG: 0 calls
+[Step 287] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 288] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 289] Key: 
- | PRNG: 0 calls
+[Step 289] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (20 rows changed)
   Status update: s -   wizard3: 43 | (1 of 3)
@@ -661,12 +642,11 @@
   Map updated (20 rows changed)
   Status update: Wizard the Sorcerer            St:9 Dx:13 Co:16 In:18 Wi:10 Ch:9 Neutral | Dlvl:21 $:0 HP:136(136) Pw:213(213) AC:6 Xp:20
 [Step 291] Key: . | PRNG: 44 calls
-[Step 292] Key:  | PRNG: 0 calls
+[Step 292] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 293] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 294] Key: 
- | PRNG: 0 calls
+[Step 294] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (20 rows changed)
   Status update: s -   wizard3: 43 | (1 of 3)
@@ -678,12 +658,11 @@
   Msg: You already found a monster.  Use 'm' prefix to force another search.
 [Step 297] Key: . | PRNG: 0 calls
   Msg: Are you waiting to get hit?  Use 'm' prefix to force a no-op (to rest).
-[Step 298] Key:  | PRNG: 0 calls
+[Step 298] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 299] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 300] Key: 
- | PRNG: 0 calls
+[Step 300] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (20 rows changed)
   Status update: s -   wizard3: 43 | (1 of 3)
@@ -694,12 +673,11 @@
 [Step 302] Key:   | PRNG: 0 calls
   Msg: You enter what seems to be an older, more primitive world.
 [Step 303] Key: . | PRNG: 0 calls
-[Step 304] Key:  | PRNG: 0 calls
+[Step 304] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 305] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 306] Key: 
- | PRNG: 0 calls
+[Step 306] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (20 rows changed)
   Status update: s -   wizard3: 43 | (1 of 3)
@@ -710,12 +688,11 @@
 [Step 308] Key:   | PRNG: 0 calls
   Msg: You smell smoke...
 [Step 309] Key: . | PRNG: 26 calls
-[Step 310] Key:  | PRNG: 0 calls
+[Step 310] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 311] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 312] Key: 
- | PRNG: 0 calls
+[Step 312] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (20 rows changed)
   Status update: s -   wizard3: 43 | (1 of 3)
@@ -724,12 +701,11 @@
   Map updated (20 rows changed)
   Status update: Wizard the Sorcerer            St:9 Dx:13 Co:16 In:18 Wi:10 Ch:9 Neutral | Dlvl:31 $:0 HP:136(136) Pw:213(213) AC:6 Xp:20
 [Step 314] Key: . | PRNG: 0 calls
-[Step 315] Key:  | PRNG: 0 calls
+[Step 315] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 316] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 317] Key: 
- | PRNG: 0 calls
+[Step 317] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (20 rows changed)
   Status update: s -   wizard3: 43 | (1 of 3)
@@ -740,12 +716,11 @@
 [Step 319] Key:   | PRNG: 0 calls
   Msg: You smell smoke...
 [Step 320] Key: . | PRNG: 15 calls
-[Step 321] Key:  | PRNG: 0 calls
+[Step 321] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 322] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 323] Key: 
- | PRNG: 0 calls
+[Step 323] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (20 rows changed)
   Status update: s -   wizard3: 43 | (1 of 3)
@@ -756,12 +731,11 @@
 [Step 325] Key: : | PRNG: 0 calls
   Msg: You see no objects here.
 [Step 326] Key: . | PRNG: 2 calls
-[Step 327] Key:  | PRNG: 0 calls
+[Step 327] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 328] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 329] Key: 
- | PRNG: 0 calls
+[Step 329] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (20 rows changed)
   Status update: s -   wizard3: 43 | (1 of 3)
@@ -786,12 +760,11 @@
 [Step 339] Key: : | PRNG: 0 calls
   Msg: You see no objects here.
 [Step 340] Key: . | PRNG: 40 calls
-[Step 341] Key:  | PRNG: 0 calls
+[Step 341] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 342] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 343] Key: 
- | PRNG: 0 calls
+[Step 343] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (20 rows changed)
   Status update: s -   wizard3: 43 | (1 of 3)
@@ -801,24 +774,22 @@
   Status update: Wizard the Sorcerer            St:9 Dx:13 Co:16 In:18 Wi:10 Ch:9 Neutral | Dlvl:42 $:0 HP:136(136) Pw:213(213) AC:6 Xp:20
 [Step 345] Key: . | PRNG: 0 calls
   Msg: You materialize on a different level!--More--
-[Step 346] Key:  | PRNG: 0 calls
+[Step 346] Key: \x16 | PRNG: 0 calls
   Msg: You materialize on a different level!--More--
 [Step 347] Key: ? | PRNG: 0 calls
   Msg: You materialize on a different level!--More--
-[Step 348] Key: 
- | PRNG: 0 calls
+[Step 348] Key: \n | PRNG: 0 calls
   Msg: Things that are here:
   Map updated (3 rows changed)
 [Step 349] Key: s | PRNG: 0 calls
   Msg: Things that are here:
 [Step 350] Key: . | PRNG: 0 calls
   Msg: Things that are here:
-[Step 351] Key:  | PRNG: 0 calls
+[Step 351] Key: \x16 | PRNG: 0 calls
   Msg: Things that are here:
 [Step 352] Key: ? | PRNG: 0 calls
   Msg: Things that are here:
-[Step 353] Key: 
- | PRNG: 0 calls
+[Step 353] Key: \n | PRNG: 0 calls
   Map updated (3 rows changed)
 [Step 354] Key:   | PRNG: 0 calls
   Msg: Unknown command ' '.
@@ -828,12 +799,11 @@
   Msg: You don't have that object.--More--
 [Step 357] Key: . | PRNG: 0 calls
   Msg: You don't have that object.--More--
-[Step 358] Key:  | PRNG: 0 calls
+[Step 358] Key: \x16 | PRNG: 0 calls
   Msg: You don't have that object.--More--
 [Step 359] Key: ? | PRNG: 0 calls
   Msg: You don't have that object.--More--
-[Step 360] Key: 
- | PRNG: 0 calls
+[Step 360] Key: \n | PRNG: 0 calls
   Msg: What do you want to throw? [*]
 [Step 361] Key:   | PRNG: 0 calls
   Msg: Never mind.
@@ -850,12 +820,11 @@
   Msg: You see no objects here.
 [Step 368] Key: . | PRNG: 17 calls
   Map updated (2 rows changed)
-[Step 369] Key:  | PRNG: 0 calls
+[Step 369] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 370] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 371] Key: 
- | PRNG: 0 calls
+[Step 371] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (20 rows changed)
   Status update: s -   wizard3: 43 | (1 of 3)
@@ -886,8 +855,7 @@
   Msg: # chat
 [Step 381] Key: t | PRNG: 0 calls
   Msg: # chat
-[Step 382] Key: 
- | PRNG: 0 calls
+[Step 382] Key: \n | PRNG: 0 calls
   Msg: Talk to whom? (in what direction)
 [Step 383] Key: . | PRNG: 0 calls
   Msg: Talking to yourself is a bad habit for a dungeoneer.
@@ -900,8 +868,7 @@
   Map updated (8 rows changed)
 [Step 387] Key: > | PRNG: 0 calls
   Msg: Tip: Farlooking or selecting a map location
-[Step 388] Key: 
- | PRNG: 0 calls
+[Step 388] Key: \n | PRNG: 0 calls
   Msg: (For instructions type a '?')  Move cursor to the desired destination:
   Map updated (8 rows changed)
 [Step 389] Key:   | PRNG: 0 calls
@@ -916,8 +883,7 @@
   Msg: Where do you want to travel to?  (For instructions type a '?')
 [Step 394] Key: > | PRNG: 0 calls
   Msg: Can't find dungeon feature '>'.
-[Step 395] Key: 
- | PRNG: 0 calls
+[Step 395] Key: \n | PRNG: 0 calls
   Msg: unexplored area (no travel path)
 [Step 396] Key:   | PRNG: 0 calls
   Msg: unexplored area (no travel path)
@@ -940,13 +906,12 @@
   Msg: # chat
 [Step 405] Key: t | PRNG: 0 calls
   Msg: # chat
-[Step 406] Key: 
- | PRNG: 0 calls
+[Step 406] Key: \n | PRNG: 0 calls
   Msg: Talk to whom? (in what direction)
 [Step 407] Key: h | PRNG: 0 calls
 [Step 408] Key: y | PRNG: 70 calls
   Map updated (2 rows changed)
-[Step 409] Key:  | PRNG: 0 calls
+[Step 409] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 410] Key: b | PRNG: 0 calls
   Msg: For what do you wish? b
@@ -980,10 +945,9 @@
   Msg: For what do you wish? blessed Mjollni
 [Step 425] Key: r | PRNG: 0 calls
   Msg: For what do you wish? blessed Mjollnir
-[Step 426] Key: 
- | PRNG: 11 calls
+[Step 426] Key: \n | PRNG: 11 calls
   Msg: r - a war hammer named Mjollnir.
-[Step 427] Key:  | PRNG: 0 calls
+[Step 427] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 428] Key: b | PRNG: 0 calls
   Msg: For what do you wish? b
@@ -1043,10 +1007,9 @@
   Msg: For what do you wish? blessed +3 gauntlets of powe
 [Step 456] Key: r | PRNG: 0 calls
   Msg: For what do you wish? blessed +3 gauntlets of power
-[Step 457] Key: 
- | PRNG: 11 calls
+[Step 457] Key: \n | PRNG: 11 calls
   Msg: s - a pair of padded gloves.
-[Step 458] Key:  | PRNG: 0 calls
+[Step 458] Key: \x17 | PRNG: 0 calls
   Msg: For what do you wish?
 [Step 459] Key: b | PRNG: 0 calls
   Msg: For what do you wish? b
@@ -1112,8 +1075,7 @@
   Msg: For what do you wish? blessed +3 cloak of displacemen
 [Step 490] Key: t | PRNG: 0 calls
   Msg: For what do you wish? blessed +3 cloak of displacement
-[Step 491] Key: 
- | PRNG: 11 calls
+[Step 491] Key: \n | PRNG: 11 calls
   Msg: t - a tattered cape.
 [Step 492] Key: w | PRNG: 0 calls
   Msg: What do you want to wield? [- ar or ?*]
@@ -1167,8 +1129,7 @@
   Msg: # chat
 [Step 516] Key: t | PRNG: 0 calls
   Msg: # chat
-[Step 517] Key: 
- | PRNG: 0 calls
+[Step 517] Key: \n | PRNG: 0 calls
   Msg: Talk to whom? (in what direction)
 [Step 518] Key: l | PRNG: 0 calls
 [Step 519] Key:   | PRNG: 0 calls
@@ -1178,8 +1139,7 @@
   Msg: Where do you want to travel to?  (For instructions type a '?')
 [Step 522] Key: > | PRNG: 0 calls
   Msg: Can't find dungeon feature '>'.
-[Step 523] Key: 
- | PRNG: 0 calls
+[Step 523] Key: \n | PRNG: 0 calls
   Msg: fog/vapor cloud
 [Step 524] Key:   | PRNG: 0 calls
   Msg: fog/vapor cloud
@@ -1196,8 +1156,7 @@
   Msg: Where do you want to travel to?  (For instructions type a '?')
 [Step 530] Key: > | PRNG: 0 calls
   Msg: Can't find dungeon feature '>'.
-[Step 531] Key: 
- | PRNG: 0 calls
+[Step 531] Key: \n | PRNG: 0 calls
   Msg: dark part of a room
 [Step 532] Key:   | PRNG: 0 calls
   Msg: dark part of a room
@@ -1214,8 +1173,7 @@
   Msg: Where do you want to travel to?  (For instructions type a '?')
 [Step 538] Key: > | PRNG: 0 calls
   Msg: Can't find dungeon feature '>'.
-[Step 539] Key: 
- | PRNG: 0 calls
+[Step 539] Key: \n | PRNG: 0 calls
   Msg: stone (no travel path)
 [Step 540] Key:   | PRNG: 0 calls
   Msg: stone (no travel path)
@@ -1226,19 +1184,19 @@
 [Step 543] Key: . | PRNG: 3001 calls
   Msg: stone (no travel path)
   Map updated (12 rows changed)
-[Step 544] Key:  | PRNG: 0 calls
+[Step 544] Key: \x04 | PRNG: 0 calls
   Msg: In what direction?
 [Step 545] Key: j | PRNG: 270 calls
   Msg: Ouch!  That hurts!
   Map updated (2 rows changed)
   Status update: Wizard the Sorcerer            St:25 Dx:13 Co:16 In:18 Wi:10 Ch:9 Neutral | Home 1 $:0 HP:134(136) Pw:213(213) AC:-2 Xp:20
-[Step 546] Key:  | PRNG: 0 calls
+[Step 546] Key: \x04 | PRNG: 0 calls
   Msg: In what direction?
 [Step 547] Key: j | PRNG: 97 calls
   Msg: Ouch!  That hurts!
   Map updated (1 rows changed)
   Status update: Wizard the Sorcerer            St:25 Dx:12 Co:16 In:18 Wi:10 Ch:9 Neutral | Home 1 $:0 HP:131(136) Pw:213(213) AC:-2 Xp:20
-[Step 548] Key:  | PRNG: 0 calls
+[Step 548] Key: \x04 | PRNG: 0 calls
   Msg: Your right leg is in no shape for kicking.--More--
 [Step 549] Key: j | PRNG: 0 calls
   Msg: Your right leg is in no shape for kicking.--More--
@@ -1349,14 +1307,13 @@
 [Step 622] Key: j | PRNG: 0 calls
 [Step 623] Key: > | PRNG: 0 calls
   Msg: You can't go down here.
-[Step 624] Key:  | PRNG: 1 calls
+[Step 624] Key: \x06 | PRNG: 1 calls
   Map updated (20 rows changed)
 [Step 625] Key: _ | PRNG: 0 calls
   Msg: Where do you want to travel to?  (For instructions type a '?')
 [Step 626] Key: > | PRNG: 0 calls
   Msg: blocked staircase down (no travel path)
-[Step 627] Key: 
- | PRNG: 0 calls
+[Step 627] Key: \n | PRNG: 0 calls
   Msg: dark part of a room
 [Step 628] Key: > | PRNG: 0 calls
   Msg: blocked staircase down (no travel path)
@@ -1424,7 +1381,7 @@
   Msg: fog/vapor cloud
 [Step 660] Key: b | PRNG: 0 calls
   Msg: dark part of a room
-[Step 661] Key:  | PRNG: 0 calls
+[Step 661] Key: \x04 | PRNG: 0 calls
   Msg: Unknown direction: '^D' (use 'h', 'j', 'k', 'l' or '.').
 [Step 662] Key: j | PRNG: 0 calls
   Msg: stone (no travel path)
@@ -1432,7 +1389,7 @@
   Msg: stone (no travel path)
 [Step 664] Key: > | PRNG: 0 calls
   Msg: blocked staircase down (no travel path)
-[Step 665] Key:  | PRNG: 0 calls
+[Step 665] Key: \x14 | PRNG: 0 calls
   Msg: Unknown direction: '^T' (use 'h', 'j', 'k', 'l' or '.').
 [Step 666] Key: 4 | PRNG: 0 calls
   Msg: Unknown direction: '4' (use 'h', 'j', 'k', 'l' or '.').
@@ -1446,8 +1403,7 @@
   Msg: A mysterious force prevents the tengu from teleporting!--More--
 [Step 670] Key: 1 | PRNG: 0 calls
   Msg: A mysterious force prevents the tengu from teleporting!--More--
-[Step 671] Key: 
- | PRNG: 25 calls
+[Step 671] Key: \n | PRNG: 25 calls
   Msg: The quasit strikes at your displaced image and misses you!--More--
   Map updated (2 rows changed)
 [Step 672] Key: > | PRNG: 0 calls
@@ -1457,7 +1413,7 @@
   Map updated (7 rows changed)
 [Step 674] Key: ESC | PRNG: 0 calls
 [Step 675] Key: ESC | PRNG: 0 calls
-[Step 676] Key:  | PRNG: 0 calls
+[Step 676] Key: \x14 | PRNG: 0 calls
   Msg: Where do you want to be teleported?  (For instructions type a '?')
 [Step 677] Key: h | PRNG: 0 calls
   Msg: floor of a room
@@ -1479,7 +1435,7 @@
 [Step 685] Key: j | PRNG: 0 calls
   Msg: wall
 [Step 686] Key: . | PRNG: 0 calls
-  Msg: │        the interior of a monster or a wall (wall)
+  Msg: x        the interior of a monster or a wall (wall)
 [Step 687] Key:   | PRNG: 0 calls
   Msg: Unknown command ' '.
 [Step 688] Key: ESC | PRNG: 0 calls
@@ -1490,7 +1446,7 @@
 [Step 691] Key: j | PRNG: 0 calls
   Msg: floor of a room
 [Step 692] Key: . | PRNG: 0 calls
-  Msg: ·        a doorway or the floor of a room or the dark part of a room or ice
+  Msg: ~        a doorway or the floor of a room or the dark part of a room or ice
   Map updated (1 rows changed)
 [Step 693] Key: ESC | PRNG: 0 calls
   Map updated (1 rows changed)
@@ -1499,7 +1455,7 @@
 [Step 695] Key: h | PRNG: 0 calls
   Msg: floor of a room
 [Step 696] Key: . | PRNG: 0 calls
-  Msg: ·        a doorway or the floor of a room or the dark part of a room or ice
+  Msg: ~        a doorway or the floor of a room or the dark part of a room or ice
   Map updated (1 rows changed)
 [Step 697] Key: ESC | PRNG: 0 calls
   Map updated (1 rows changed)
@@ -1528,57 +1484,52 @@
   Msg: You can't go down here.
 [Step 712] Key:   | PRNG: 0 calls
   Msg: Unknown command ' '.
-[Step 713] Key:  | PRNG: 1 calls
+[Step 713] Key: \x06 | PRNG: 1 calls
 [Step 714] Key: _ | PRNG: 0 calls
   Msg: Where do you want to travel to?  (For instructions type a '?')
 [Step 715] Key: > | PRNG: 0 calls
   Msg: blocked staircase down (no travel path)
-[Step 716] Key: 
- | PRNG: 0 calls
+[Step 716] Key: \n | PRNG: 0 calls
   Msg: dark part of a room (no travel path)
 [Step 717] Key: > | PRNG: 0 calls
   Msg: blocked staircase down (no travel path)
-[Step 718] Key:  | PRNG: 0 calls
+[Step 718] Key: \x06 | PRNG: 0 calls
   Msg: Unknown direction: '^F' (use 'h', 'j', 'k', 'l' or '.').
 [Step 719] Key: _ | PRNG: 0 calls
   Msg: Can't find dungeon feature '_'.
 [Step 720] Key: > | PRNG: 0 calls
   Msg: blocked staircase down (no travel path)
-[Step 721] Key: 
- | PRNG: 0 calls
+[Step 721] Key: \n | PRNG: 0 calls
   Msg: dark part of a room (no travel path)
 [Step 722] Key: > | PRNG: 0 calls
   Msg: blocked staircase down (no travel path)
-[Step 723] Key:  | PRNG: 0 calls
+[Step 723] Key: \x06 | PRNG: 0 calls
   Msg: Unknown direction: '^F' (use 'h', 'j', 'k', 'l' or '.').
 [Step 724] Key: _ | PRNG: 0 calls
   Msg: Can't find dungeon feature '_'.
 [Step 725] Key: > | PRNG: 0 calls
   Msg: blocked staircase down (no travel path)
-[Step 726] Key: 
- | PRNG: 0 calls
+[Step 726] Key: \n | PRNG: 0 calls
   Msg: dark part of a room (no travel path)
 [Step 727] Key: > | PRNG: 0 calls
   Msg: blocked staircase down (no travel path)
-[Step 728] Key:  | PRNG: 0 calls
+[Step 728] Key: \x16 | PRNG: 0 calls
   Msg: Unknown direction: '^V' (use 'h', 'j', 'k', 'l' or '.').
 [Step 729] Key: ? | PRNG: 0 calls
   Msg: Use 'h', 'j', 'k', 'l' to move the cursor to the desired destination.
   Map updated (16 rows changed)
-[Step 730] Key: 
- | PRNG: 0 calls
+[Step 730] Key: \n | PRNG: 0 calls
   Msg: Move cursor to the desired destination:
   Map updated (16 rows changed)
 [Step 731] Key: ESC | PRNG: 0 calls
 [Step 732] Key: . | PRNG: 85 calls
   Map updated (1 rows changed)
   Status update: Wizard the Sorcerer            St:25 Dx:13 Co:16 In:18 Wi:10 Ch:9 Neutral | Home 1 $:0 HP:135(136) Pw:213(213) AC:-2 Xp:20
-[Step 733] Key:  | PRNG: 0 calls
+[Step 733] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 734] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 735] Key: 
- | PRNG: 0 calls
+[Step 735] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (21 rows changed)
   Status update: s -   wizard3: 43 | (1 of 3)
@@ -1597,12 +1548,11 @@
 [Step 740] Key: . | PRNG: 295 calls
   Map updated (3 rows changed)
   Status update: Wizard the Sorcerer            St:25 Dx:13 Co:16 In:18 Wi:10 Ch:9 Neutral | Home 1 $:0 HP:136(136) Pw:213(213) AC:-2 Xp:20
-[Step 741] Key:  | PRNG: 0 calls
+[Step 741] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 742] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 743] Key: 
- | PRNG: 0 calls
+[Step 743] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (21 rows changed)
   Status update: s -   wizard3: 43 | (1 of 3)
@@ -1616,32 +1566,29 @@
   Status update: Wizard the Sorcerer            St:25 Dx:13 Co:16 In:18 Wi:10 Ch:9 Neutral | Home 1 $:0 HP:136(136) Pw:213(213) AC:-2 Xp:20
 [Step 746] Key: . | PRNG: 239 calls
   Map updated (3 rows changed)
-[Step 747] Key:  | PRNG: 0 calls
+[Step 747] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 748] Key: 1 | PRNG: 0 calls
   Msg: To what level do you want to teleport? 1
 [Step 749] Key: 6 | PRNG: 0 calls
   Msg: To what level do you want to teleport? 16
-[Step 750] Key: 
- | PRNG: 0 calls
+[Step 750] Key: \n | PRNG: 0 calls
   Msg: A mysterious force prevents you from descending.
 [Step 751] Key:   | PRNG: 0 calls
   Msg: Unknown command ' '.
-[Step 752] Key:  | PRNG: 0 calls
+[Step 752] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 753] Key: 1 | PRNG: 0 calls
   Msg: To what level do you want to teleport? 1
 [Step 754] Key: 8 | PRNG: 0 calls
   Msg: To what level do you want to teleport? 18
-[Step 755] Key: 
- | PRNG: 0 calls
+[Step 755] Key: \n | PRNG: 0 calls
   Msg: A mysterious force prevents you from descending.
-[Step 756] Key:  | PRNG: 0 calls
+[Step 756] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 757] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 758] Key: 
- | PRNG: 0 calls
+[Step 758] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (21 rows changed)
   Status update: s -   wizard3: 43 | (1 of 3)
@@ -1652,12 +1599,11 @@
 [Step 760] Key: y | PRNG: 0 calls
   Map updated (21 rows changed)
   Status update: Wizard the Sorcerer            St:25 Dx:13 Co:16 In:18 Wi:10 Ch:9 Neutral | Home 1 $:0 HP:136(136) Pw:213(213) AC:-2 Xp:20
-[Step 761] Key:  | PRNG: 0 calls
+[Step 761] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 762] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 763] Key: 
- | PRNG: 0 calls
+[Step 763] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (21 rows changed)
   Status update: s -   wizard3: 43 | (1 of 3)
@@ -1687,12 +1633,11 @@
   Map updated (3 rows changed)
 [Step 775] Key: : | PRNG: 0 calls
   Msg: You see no objects here.
-[Step 776] Key:  | PRNG: 0 calls
+[Step 776] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 777] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 778] Key: 
- | PRNG: 0 calls
+[Step 778] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (20 rows changed)
   Status update: s -   wizard3: 43 | (1 of 3)
@@ -1706,48 +1651,43 @@
   Status update: Wizard the Sorcerer            St:25 Dx:13 Co:16 In:18 Wi:10 Ch:9 Neutral | Home 3 $:0 HP:136(136) Pw:213(213) AC:-2 Xp:20
 [Step 781] Key:   | PRNG: 0 calls
   Msg: Wisps of fog swirl nearby.  You feel that the Dark One's lair is close.
-[Step 782] Key:  | PRNG: 0 calls
+[Step 782] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 783] Key: 2 | PRNG: 0 calls
   Msg: To what level do you want to teleport? 2
-[Step 784] Key: 
- | PRNG: 1854 calls
+[Step 784] Key: \n | PRNG: 1854 calls
   Msg: You materialize on a different level!
   Map updated (21 rows changed)
   Status update: Wizard the Sorcerer            St:25 Dx:13 Co:16 In:18 Wi:10 Ch:9 Neutral | Home 2 $:0 HP:136(136) Pw:213(213) AC:-2 Xp:20
-[Step 785] Key:  | PRNG: 0 calls
+[Step 785] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 786] Key: 4 | PRNG: 0 calls
   Msg: To what level do you want to teleport? 4
-[Step 787] Key: 
- | PRNG: 1691 calls
+[Step 787] Key: \n | PRNG: 1691 calls
   Msg: You materialize on a different level!
   Map updated (8 rows changed)
   Status update: Wizard the Sorcerer            St:25 Dx:13 Co:16 In:18 Wi:10 Ch:9 Neutral | Home 4 $:0 HP:136(136) Pw:213(213) AC:-2 Xp:20
-[Step 788] Key:  | PRNG: 0 calls
+[Step 788] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 789] Key: 5 | PRNG: 0 calls
   Msg: To what level do you want to teleport? 5
-[Step 790] Key: 
- | PRNG: 1672 calls
+[Step 790] Key: \n | PRNG: 1672 calls
   Msg: You materialize on a different level!
   Map updated (7 rows changed)
   Status update: Wizard the Sorcerer            St:25 Dx:13 Co:16 In:18 Wi:10 Ch:9 Neutral | Home 5 $:0 HP:136(136) Pw:213(213) AC:-2 Xp:20
-[Step 791] Key:  | PRNG: 0 calls
+[Step 791] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 792] Key: 1 | PRNG: 0 calls
   Msg: To what level do you want to teleport? 1
-[Step 793] Key: 
- | PRNG: 32 calls
+[Step 793] Key: \n | PRNG: 32 calls
   Msg: You materialize on a different level!
   Map updated (20 rows changed)
   Status update: Wizard the Sorcerer            St:25 Dx:13 Co:16 In:18 Wi:10 Ch:9 Neutral | Home 1 $:0 HP:136(136) Pw:213(213) AC:-2 Xp:20
-[Step 794] Key:  | PRNG: 0 calls
+[Step 794] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 795] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 796] Key: 
- | PRNG: 0 calls
+[Step 796] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (21 rows changed)
   Status update: s -   wizard3: 43 | (1 of 3)
@@ -1757,12 +1697,11 @@
   Status update: Wizard the Sorcerer            St:25 Dx:13 Co:16 In:18 Wi:10 Ch:9 Neutral | Dlvl:11 $:0 HP:136(136) Pw:213(213) AC:-2 Xp:20
 [Step 798] Key: s | PRNG: 0 calls
   Msg: You already found a monster.  Use 'm' prefix to force another search.
-[Step 799] Key:  | PRNG: 0 calls
+[Step 799] Key: \x16 | PRNG: 0 calls
   Msg: To what level do you want to teleport?
 [Step 800] Key: ? | PRNG: 0 calls
   Msg: To what level do you want to teleport? ?
-[Step 801] Key: 
- | PRNG: 0 calls
+[Step 801] Key: \n | PRNG: 0 calls
   Msg: Level teleport to where:
   Map updated (20 rows changed)
   Status update: s -   wizard3: 43 | (1 of 3)
@@ -1827,7 +1766,7 @@
 [Step 826] Key: ESC | PRNG: 0 calls
   Map updated (20 rows changed)
   Status update: Wizard the Sorcerer            St:25 Dx:13 Co:16 In:18 Wi:10 Ch:9 Neutral | Dlvl:6 $:0 HP:136(136) Pw:213(213) AC:-2 Xp:20
-[Step 827] Key:  | PRNG: 0 calls
+[Step 827] Key: \x18 | PRNG: 0 calls
   Msg: Wizard the Wizard's attributes:
   Map updated (20 rows changed)
   Status update: Your intelligence is 18. | (1 of 3)
