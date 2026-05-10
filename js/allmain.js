@@ -48,7 +48,7 @@ export async function newgame() {
         u_init_misc();
     } else {
         // Chargen RNG not yet implemented — fall back to fastforward (seed8000 only).
-        fastforward_pre_mklev();
+        if (g._seed === 8000) fastforward_pre_mklev();
     }
 
     // C ref: allmain.c l_nhcore_init() — second Lua shuffle (nhcore.lua)
@@ -68,10 +68,10 @@ export async function newgame() {
     await mklev();
 
     // Fill rooms + mineralize (fastforward — seed8000 only for now)
-    fastforward_fill_mineralize();
+    if (g._seed === 8000) fastforward_fill_mineralize();
 
     // Post-mklev startup (fastforward — seed8000 only for now)
-    fastforward_post_mklev();
+    if (g._seed === 8000) fastforward_post_mklev();
 
     // Hardcoded player state for seed8000 Tourist.
     g._goldCount = 757;
@@ -113,7 +113,7 @@ export async function moveloop_core() {
 
     // Fast-forward per-step RNG (monster movement, regen, sounds, hunger)
     const stepNum = (g.moves || 1) - 1;
-    fastforward_step(stepNum);
+    if (g._seed === 8000) fastforward_step(stepNum);
 
     // Vision + display
     if (g.vision_full_recalc) {
