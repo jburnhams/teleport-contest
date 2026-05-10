@@ -96,14 +96,28 @@ export function bot2() {
     }
 
     let cond = '';
+    if (game.u.ustoned) cond += " Stone";
+    if (game.u.uslimed) cond += " Slime";
+    if (game.u.ustrangled) cond += " Strngl";
+    if (game.u.usick_type) {
+        if (game.u.usick_type & 1) cond += " FoodPois"; // SICK_VOMITABLE
+        if (game.u.usick_type & 2) cond += " TermIll"; // SICK_NONVOMITABLE
+    }
+
     const uhs = game.u.uhs ?? 1;
-    if (uhs !== 1 && hu_stat[uhs]) {
-        cond += ` ${hu_stat[uhs]}`;
-    }
+    if (uhs !== 1 && hu_stat[uhs]) cond += ` ${hu_stat[uhs]}`;
     const cap = game.u.ucap ?? 0;
-    if (cap > 0 && enc_stat[cap]) {
-        cond += ` ${enc_stat[cap]}`;
-    }
+    if (cap > 0 && enc_stat[cap]) cond += ` ${enc_stat[cap]}`;
+
+    if (game.u.ublindf || game.u.ublind) cond += " Blind";
+    if (game.u.udeaf) cond += " Deaf";
+    if (game.u.ustun) cond += " Stun";
+    if (game.u.uconf) cond += " Conf";
+    if (game.u.uhallu) cond += " Hallu";
+    // Levitation, Flying, and Riding checks usually involve complex conditions. Let's do basic for now
+    if (game.u.ulev) cond += " Lev";
+    if (game.u.ufly) cond += " Fly";
+    if (game.u.usteed) cond += " Ride";
 
     let acStr = uac.toString().padEnd(2, ' ');
     let newbot2 = `Dlvl:${dlvl} $:${Math.min(money, 999999)} HP:${Math.min(hp, 9999)}(${Math.min(hpmax, 9999)}) Pw:${Math.min(uen, 9999)}(${Math.min(uenmax, 9999)}) AC:${acStr} ${expr}${tmmv}${cond}`;
