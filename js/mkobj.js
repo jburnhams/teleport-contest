@@ -173,8 +173,19 @@ export function mkgold(amount, x, y) {
     return gold;
 }
 
-export function weight(otmp) {
-    return otmp?.owt || 1; // Stub
+export function weight(obj) {
+    if (!obj) return 0;
+
+    // In C, wt is initialized to objects[obj->otyp].oc_weight.
+    // We haven't implemented full objects.js import for oc_weight for all items yet,
+    // but we can implement the COIN_CLASS specific logic requested by the user.
+    if (obj.oclass === COIN_CLASS) {
+        let wt = Math.trunc((obj.quan + 50) / 100);
+        return Math.max(wt, 1);
+    }
+
+    // Fallback for non-gold items until full weight is ported
+    return obj.owt || 1;
 }
 
 export function remove_object(otmp) {
