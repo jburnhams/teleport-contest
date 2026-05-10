@@ -15,7 +15,7 @@ import {
     PM_CAVE_DWELLER, PM_HEALER, PM_KNIGHT, PM_MONK, PM_CLERIC,
     PM_ROGUE, PM_RANGER, PM_SAMURAI, PM_TOURIST, PM_VALKYRIE, PM_WIZARD
 } from './const.js';
-import { objects } from './objects.js';
+import { objects, WEAPON_CLASS, TOOL_CLASS, GEM_CLASS } from './objects.js';
 import { invent } from './decl.js';
 import { game } from './gstate.js';
 import { init_attr, vary_init_attr, acurrstr } from './attrib.js';
@@ -554,7 +554,7 @@ function practice_needed_to_advance(level) {
 
 function weapon_type(obj) {
     if (!obj) return P_BARE_HANDED_COMBAT;
-    if (obj.oclass !== 2 && obj.oclass !== 4 && obj.oclass !== 9) {
+    if (obj.oclass !== WEAPON_CLASS && obj.oclass !== TOOL_CLASS && obj.oclass !== GEM_CLASS) {
         // Not a weapon, weapon-tool, or ammo
         return P_NONE;
     }
@@ -574,18 +574,11 @@ export function skill_init(class_skill) {
 
     // Set skill for all weapons in inventory to be basic
     for (let obj = invent; obj; obj = obj.nobj) {
-        // simple stub for is_ammo:
-        if ((objects[obj.otyp].oc_subtyp >= P_BOW && objects[obj.otyp].oc_subtyp <= P_CROSSBOW) ||
-            objects[obj.otyp].oc_subtyp === -P_BOW ||
-            objects[obj.otyp].oc_subtyp === -P_CROSSBOW ||
-            objects[obj.otyp].oc_subtyp === -P_SLING ||
-            objects[obj.otyp].oc_subtyp === -P_DART ||
-            objects[obj.otyp].oc_subtyp === -P_SHURIKEN) {
-                // Actually C checks is_ammo(obj) which checks if oc_skill < 0
-                // For now, we will just use the simple oc_subtyp < 0 check
-        }
         let oc_skill = objects[obj.otyp].oc_subtyp;
-        if (oc_skill < 0) continue; // Ammo
+        // is_ammo(otmp) from obj.h
+        let is_ammo = (obj.oclass === WEAPON_CLASS || obj.oclass === GEM_CLASS) &&
+                      (oc_skill >= -P_CROSSBOW && oc_skill <= -P_BOW);
+        if (is_ammo || obj.oclass === GEM_CLASS) continue;
 
         let skill = weapon_type(obj);
         if (skill !== P_NONE) {
@@ -618,6 +611,7 @@ export function skill_init(class_skill) {
         game.u.weapon_skills[P_BARE_HANDED_COMBAT].skill = P_BASIC;
     }
 
+    // Roles that start with a horse know how to ride it
     if (game.urole.petnum === PM_PONY) game.u.weapon_skills[P_RIDING].skill = P_BASIC;
 
     for (let skill = 0; skill < P_NUM_SKILLS; skill++) {
@@ -625,7 +619,7 @@ export function skill_init(class_skill) {
             if (game.u.weapon_skills[skill].max_skill < game.u.weapon_skills[skill].skill) {
                 game.u.weapon_skills[skill].max_skill = game.u.weapon_skills[skill].skill;
             }
-            game.u.weapon_skills[skill].advance = practice_needed_to_advance(game.u.weapon_skills[skill].skill - 1);
+            game.u.weapon_skills[skill].advance = practice_needed_to_advance(game.u.weapon_skills[skill].skill);
         }
     }
 
