@@ -14,7 +14,7 @@ let inMonster = false;
 let parenCount = 0;
 
 for (let line of lines) {
-    if (!inMonster && line.match(/^\s*MON\(/)) {
+    if (!inMonster && (line.match(/^\s*MON\(/) || line.match(/^\s*MON3\(/))) {
         inMonster = true;
         currentMonster = line;
         parenCount += (line.match(/\(/g) || []).length;
@@ -26,12 +26,16 @@ for (let line of lines) {
     }
 
     if (inMonster && parenCount === 0) {
-        let inner = currentMonster.replace(/^\s*MON\s*\(/, '').replace(/\)\s*,?\s*$/, '');
+        let inner = currentMonster.replace(/^\s*MON3?\s*\(/, '').replace(/\)\s*,?\s*$/, '');
 
         let mname = '';
         let namMatch = inner.match(/NAM\s*\(\s*"([^"]+)"\s*\)/);
+        let namsMatch = inner.match(/NAMS\s*\(\s*"([^"]+)"\s*,\s*"([^"]+)"\s*,\s*"([^"]+)"\s*\)/);
+
         if (namMatch) {
             mname = namMatch[1];
+        } else if (namsMatch) {
+            mname = namsMatch[1];
         } else {
             let strMatch = inner.match(/"([^"]+)"/);
             if (strMatch) mname = strMatch[1];
@@ -40,13 +44,17 @@ for (let line of lines) {
         let args = [];
         let currentArg = '';
         let pCount = 0;
+        let inQuotes = false;
 
         for (let i = 0; i < inner.length; i++) {
             let char = inner[i];
-            if (char === '(') pCount++;
-            else if (char === ')') pCount--;
+            if (char === '"' && inner[i-1] !== '\\') inQuotes = !inQuotes;
+            if (!inQuotes) {
+                if (char === '(') pCount++;
+                else if (char === ')') pCount--;
+            }
 
-            if (char === ',' && pCount === 0) {
+            if (char === ',' && pCount === 0 && !inQuotes) {
                 args.push(currentArg.trim());
                 currentArg = '';
             } else {
@@ -65,69 +73,98 @@ for (let line of lines) {
             let mr = lvlArgs ? lvlArgs[4].trim() : "0";
             let maligntyp = lvlArgs ? lvlArgs[5].trim() : "0";
             if (maligntyp === 'A_NONE') maligntyp = 'C.A_NONE';
-            else if (maligntyp.startsWith('A_')) maligntyp = 'C.' + maligntyp;
+            else if (maligntyp.match(/^[A-Za-z_][A-Za-z0-9_]*$/) && !maligntyp.match(/^[0-9]+$/)) maligntyp = 'C.' + maligntyp;
 
             let sizArgs = siz.match(/SIZ\s*\(([^,]+),\s*([^,]+),\s*([^,]+),\s*([^)]+)\)/);
             let cwt = sizArgs ? sizArgs[1].trim() : "0";
-            if (cwt.startsWith('WT_')) cwt = 'C.' + cwt;
+            if (cwt.match(/^[A-Za-z_][A-Za-z0-9_]*$/) && !cwt.match(/^[0-9]+$/)) cwt = 'C.' + cwt;
             let cnutrit = sizArgs ? sizArgs[2].trim() : "0";
+            if (cnutrit.match(/^[A-Za-z_][A-Za-z0-9_]*$/) && !cnutrit.match(/^[0-9]+$/)) cnutrit = 'C.' + cnutrit;
             let msound = sizArgs ? sizArgs[3].trim() : "0";
             let msize = sizArgs ? sizArgs[4].trim() : "0";
 
-            let atkMatch = atk.match(/A\s*\((.*)\)/);
-            let mattkStr = "[]";
-            if (atkMatch) {
-                let innerAtk = atkMatch[1];
-                let aArgs = [];
-                let aArg = '';
-                let aPCount = 0;
-                for (let i = 0; i < innerAtk.length; i++) {
-                    let char = innerAtk[i];
-                    if (char === '(') aPCount++;
-                    else if (char === ')') aPCount--;
-                    if (char === ',' && aPCount === 0) {
-                        aArgs.push(aArg.trim());
-                        aArg = '';
-                    } else {
-                        aArg += char;
-                    }
+            let mattkStr = "[\n            { at: 0, ad: 0, damn: 0, damd: 0 },\n            { at: 0, ad: 0, damn: 0, damd: 0 },\n            { at: 0, ad: 0, damn: 0, damd: 0 },\n            { at: 0, ad: 0, damn: 0, damd: 0 },\n            { at: 0, ad: 0, damn: 0, damd: 0 },\n            { at: 0, ad: 0, damn: 0, damd: 0 }\n        ]";
+
+            let isSuccubus = atk.includes('SEDUCTION_ATTACKS_YES') || atk.includes('SEDUCTION_ATTACKS_NO');
+            if (isSuccubus) {
+                let attacks = [];
+                if (atk.includes('SEDUCTION_ATTACKS_YES')) {
+                    attacks.push(`{ at: C.AT_BITE, ad: C.AD_SSEX, damn: 0, damd: 0 }`);
+                    attacks.push(`{ at: C.AT_CLAW, ad: C.AD_PHYS, damn: 1, damd: 3 }`);
+                    attacks.push(`{ at: C.AT_CLAW, ad: C.AD_PHYS, damn: 1, damd: 3 }`);
+                } else {
+                    attacks.push(`{ at: C.AT_CLAW, ad: C.AD_PHYS, damn: 1, damd: 3 }`);
+                    attacks.push(`{ at: C.AT_CLAW, ad: C.AD_PHYS, damn: 1, damd: 3 }`);
+                    attacks.push(`{ at: C.AT_BITE, ad: C.AD_DRLI, damn: 2, damd: 6 }`);
                 }
-                aArgs.push(aArg.trim());
-
-                let parsedAtks = aArgs.map(a => {
-                    if (a === 'NO_ATTK') return `{ at: 0, ad: 0, damn: 0, damd: 0 }`;
-                    let match = a.match(/ATTK\s*\(([^,]+),\s*([^,]+),\s*([^,]+),\s*([^)]+)\)/);
-                    if (match) {
-                        let at = match[1].trim();
-                        if (at === '0') at = 'C.AT_NONE';
-                        else if (!at.startsWith('C.')) at = 'C.' + at;
-
-                        let ad = match[2].trim();
-                        if (ad === '0') ad = 'C.AD_PHYS';
-                        else if (!ad.startsWith('C.')) ad = 'C.' + ad;
-
-                        return `{ at: ${at}, ad: ${ad}, damn: ${match[3].trim()}, damd: ${match[4].trim()} }`;
+                while(attacks.length < 6) attacks.push(`{ at: 0, ad: 0, damn: 0, damd: 0 }`);
+                mattkStr = `[\n            ${attacks.join(',\n            ')}\n        ]`;
+            } else {
+                let atkMatch = atk.match(/A\s*\((.*)\)/);
+                if (atkMatch) {
+                    let innerAtk = atkMatch[1];
+                    let aArgs = [];
+                    let aArg = '';
+                    let aPCount = 0;
+                    for (let i = 0; i < innerAtk.length; i++) {
+                        let char = innerAtk[i];
+                        if (char === '(') aPCount++;
+                        else if (char === ')') aPCount--;
+                        if (char === ',' && aPCount === 0) {
+                            aArgs.push(aArg.trim());
+                            aArg = '';
+                        } else {
+                            aArg += char;
+                        }
                     }
-                    return `{ at: 0, ad: 0, damn: 0, damd: 0 }`;
-                });
-                mattkStr = `[\n            ${parsedAtks.join(',\n            ')}\n        ]`;
+                    aArgs.push(aArg.trim());
+
+                    let parsedAtks = aArgs.map(a => {
+                        if (a === 'NO_ATTK') return `{ at: 0, ad: 0, damn: 0, damd: 0 }`;
+                        let match = a.match(/ATTK\s*\(([^,]+),\s*([^,]+),\s*([^,]+),\s*([^)]+)\)/);
+                        if (match) {
+                            let at = match[1].trim();
+                            if (at.match(/^[A-Za-z_][A-Za-z0-9_]*$/) && !at.match(/^[0-9]+$/)) {
+                                if (at !== 'NO_ATTK') at = 'C.' + at;
+                                else at = '0';
+                            }
+
+                            let ad = match[2].trim();
+                            if (ad.match(/^[A-Za-z_][A-Za-z0-9_]*$/) && !ad.match(/^[0-9]+$/)) {
+                                ad = 'C.' + ad;
+                            }
+
+                            return `{ at: ${at}, ad: ${ad}, damn: ${match[3].trim()}, damd: ${match[4].trim()} }`;
+                        }
+                        return `{ at: 0, ad: 0, damn: 0, damd: 0 }`;
+                    });
+
+                    while(parsedAtks.length < 6) parsedAtks.push(`{ at: 0, ad: 0, damn: 0, damd: 0 }`);
+                    mattkStr = `[\n            ${parsedAtks.slice(0, 6).join(',\n            ')}\n        ]`;
+                }
             }
 
-            let cleanGen = gen.replace(/G_[A-Z0-9_]+/g, match => 'C.' + match);
-            let cleanMr1 = mr1.replace(/MR_[A-Z0-9_]+/g, match => 'C.' + match);
-            let cleanMr2 = mr2.replace(/MR_[A-Z0-9_]+/g, match => 'C.' + match);
-            let cleanFlg1 = flg1.replace(/M1_[A-Z0-9_]+/g, match => 'C.' + match);
-            cleanFlg1 = cleanFlg1.replace(/0L/g, '0');
-            let cleanFlg2 = flg2.replace(/M2_[A-Z0-9_]+/g, match => 'C.' + match);
-            let cleanFlg3 = flg3.replace(/M3_[A-Z0-9_]+/g, match => 'C.' + match);
+            function cleanBitmask(str) {
+                // remove 0L, L, replace tokens
+                str = str.replace(/0L/g, '0');
+                str = str.replace(/([0-9]+)L/g, '$1');
+                str = str.replace(/\b([A-Za-z_][A-Za-z0-9_]*)\b/g, match => {
+                    return 'C.' + match;
+                });
+                return str;
+            }
 
-            let cleanCol = col.replace(/CLR_[A-Z0-9_]+/g, match => 'C.' + match);
-            cleanCol = cleanCol.replace(/HI_[A-Z0-9_]+/g, match => 'C.' + match);
-            cleanCol = cleanCol.replace(/DRAGON_SILVER/g, 'C.DRAGON_SILVER');
+            let cleanGen = cleanBitmask(gen);
+            let cleanMr1 = cleanBitmask(mr1);
+            let cleanMr2 = cleanBitmask(mr2);
+            let cleanFlg1 = cleanBitmask(flg1);
+            let cleanFlg2 = cleanBitmask(flg2);
+            let cleanFlg3 = cleanBitmask(flg3);
 
-            let cleanSym = sym.replace(/S_[A-Z0-9_]+/g, match => 'C.' + match);
-            let cleanSound = msound.replace(/MS_[A-Z0-9_]+/g, match => 'C.' + match);
-            let cleanSize = msize.replace(/MZ_[A-Z0-9_]+/g, match => 'C.' + match);
+            let cleanCol = cleanBitmask(col);
+            let cleanSym = cleanBitmask(sym);
+            let cleanSound = cleanBitmask(msound);
+            let cleanSize = cleanBitmask(msize);
 
             output += `    {\n`;
             output += `        mname: "${mname}",\n`;

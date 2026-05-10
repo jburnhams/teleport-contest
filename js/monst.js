@@ -6224,7 +6224,14 @@ export const mons = [
         mlet: C.S_DEMON,
         mlevel: 6, mmove: 12, ac: 0, mr: 70, maligntyp: -9,
         geno: (C.G_NOCORPSE | 1),
-        mattk: [],
+        mattk: [
+            { at: C.AT_BITE, ad: C.AD_SSEX, damn: 0, damd: 0 },
+            { at: C.AT_CLAW, ad: C.AD_PHYS, damn: 1, damd: 3 },
+            { at: C.AT_CLAW, ad: C.AD_PHYS, damn: 1, damd: 3 },
+            { at: 0, ad: 0, damn: 0, damd: 0 },
+            { at: 0, ad: 0, damn: 0, damd: 0 },
+            { at: 0, ad: 0, damn: 0, damd: 0 }
+        ],
         cwt: C.WT_HUMAN, cnutrit: 400, msound: C.MS_SEDUCE, msize: C.MZ_HUMAN,
         mresists: C.MR_FIRE | C.MR_POISON, mconveys: 0,
         mflags1: C.M1_HUMANOID | C.M1_FLY | C.M1_POIS,
