@@ -31,20 +31,20 @@ Extract the large data tables from C source into JS. This is pure data work — 
 - [x] Cross-check 5-10 entries by hand
 
 ## A3. Expand role.js — full role/race data tables
-- [ ] Port complete `roles[]` array from role.c (13 roles) with ALL fields
-- [ ] Include: `name`, `rank` titles (9 levels), `lgod`/`ngod`/`cgod`, `attr` bonuses, `cutoff` levels, `mhrace`, `allow`, `enadv`, `hpadv`, `spelbase`, `spelheal`, `spelshld`, `spelarmr`
-- [ ] Port complete `races[]` array (5 races) with all fields
-- [ ] Port `align_data[]` — alignment constants
-- [ ] Port `genders[]` — gender data
-- [ ] Verify bitmask compatibility against learnings.md
+- [x] Port complete `roles[]` array from role.c (13 roles) with ALL fields
+- [x] Include: `name`, `rank` titles (9 levels), `lgod`/`ngod`/`cgod`, `attr` bonuses, `cutoff` levels, `mhrace`, `allow`, `enadv`, `hpadv`, `spelbase`, `spelheal`, `spelshld`, `spelarmr`
+- [x] Port complete `races[]` array (5 races) with all fields
+- [x] Port `align_data[]` — alignment constants
+- [x] Port `genders[]` — gender data
+- [x] Verify bitmask compatibility against learnings.md
 
 ## A4. Add missing constants to const.js
-- [ ] Object class constants (`WEAPON_CLASS`, `ARMOR_CLASS`, `FOOD_CLASS`, etc.)
-- [ ] Monster class constants (symbol letters `S_ANT`, `S_HUMAN`, etc.)
-- [ ] Material constants (`METAL`, `WOOD`, `CLOTH`, etc.)
-- [ ] Attack type/damage constants (`AT_CLAW`, `AD_PHYS`, etc.)
-- [ ] Geno flags (`G_GENOD`, `G_EXTINCT`, `G_NOGEN`, etc.)
-- [ ] Any other constants referenced by objects[] or mons[]
+- [x] Object class constants (`WEAPON_CLASS`, `ARMOR_CLASS`, `FOOD_CLASS`, etc.)
+- [x] Monster class constants (symbol letters `S_ANT`, `S_HUMAN`, etc.)
+- [x] Material constants (`METAL`, `WOOD`, `CLOTH`, etc.)
+- [x] Attack type/damage constants (`AT_CLAW`, `AD_PHYS`, etc.)
+- [x] Geno flags (`G_GENOD`, `G_EXTINCT`, `G_NOGEN`, etc.)
+- [x] Any other constants referenced by objects[] or mons[]
 
 ---
 

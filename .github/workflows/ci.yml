@@ -24,7 +24,7 @@ jobs:
           npm install --prefix pages
 
       - name: Run tests
-        run: npm test
+        run: npm run test:coverage
 
       - name: Verify frozen files unchanged
         run: |

@@ -5,3 +5,7 @@ score-stderr.txt
 score-stdout.txt
 score-summary.json
 fuzz-sessions/
+coverage/
+pages/dist/
+pages-dist/
+.DS_Store
