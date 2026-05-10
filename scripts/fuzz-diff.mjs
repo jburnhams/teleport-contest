@@ -78,41 +78,52 @@ async function main() {
   // Wait, let's just run it as-is, and maybe read the log from game.getRngLog()
   // by writing a small wrapper that imports Nethack.
 
-  const wrapperCode = `
+
+const wrapperCode = `
 import * as fs from 'fs';
-import { NethackGame } from 'file:///app/js/jsmain.js';
-import { normalizeSession } from 'file:///app/frozen/session_loader.mjs';
+import { runSegment } from 'file://${path.join(ROOT, 'js/jsmain.js').replace(/\\/g, '/')}';
+import { normalizeSession } from 'file://${path.join(ROOT, 'frozen/session_loader.mjs').replace(/\\/g, '/')}';
 
 function isRngCall(entry) {
-    return /^(rn2|rnd|rne|rnz|rn1|d|rnl)\\(/.test(normalizeRng(entry));
+    return /^(rn2|rnd|rne|rnz|rn1|d|rnl)\\\(/.test(normalizeRng(entry));
 }
 function normalizeRng(entry) {
-    return entry.replace(/\\s*@\\s.*$/, '').replace(/^\\d+\\s+/, '').trim();
+    return entry.replace(/\\s*@\\s.*\$/, '').replace(/^\\d+\\s+/, '').trim();
 }
 
-const raw = JSON.parse(fs.readFileSync(process.argv[2], 'utf8'));
-const cSession = normalizeSession(raw);
-const game = new NethackGame({ seed: cSession.segments[0].seed });
+async function main() {
+    const raw = JSON.parse(fs.readFileSync(process.argv[2], 'utf8'));
+    const cSession = normalizeSession(raw);
+    let prevGame = null;
 
-for (let i = 0; i < cSession.segments.length; i++) {
-  const seg = cSession.segments[i];
-  if (i === 0) {
-      game.start({ datetime: seg.datetime, nethackrc: seg.nethackrc });
-  } else {
-      game.restore(Buffer.from(seg.savefile, 'base64'));
-  }
+    let fullLog = [];
+    for (let i = 0; i < cSession.segments.length; i++) {
+        const seg = cSession.segments[i];
 
-  const moves = seg.moves || '';
-  for (let j = 0; j < moves.length; j++) {
-      game.sendInput(moves[j]);
-  }
+        try {
+            prevGame = await runSegment(seg, prevGame);
+            fullLog.push(...(prevGame.getRngLog() || []));
+        } catch (err) {
+            if (err.message && err.message.includes('Input queue empty')) {
+                // Ignore
+            } else {
+                throw err;
+            }
+        }
+    }
+
+    if (prevGame) {
+        const rngLog = prevGame.getRngLog() || [];
+        const jsRng = rngLog.map(e => e.replace(/^\\d+\\s+/, '')).filter(isRngCall);
+        fs.writeFileSync('/tmp/fuzz_diff_js_rng.json', JSON.stringify(jsRng));
+    } else {
+        fs.writeFileSync('/tmp/fuzz_diff_js_rng.json', "[]");
+    }
 }
 
-const rngLog = game.getRngLog() || [];
-const jsRng = rngLog.map(e => e.replace(/^\\d+\\s+/, '')).filter(isRngCall);
-
-fs.writeFileSync('/tmp/fuzz_diff_js_rng.json', JSON.stringify(jsRng));
+main().catch(console.error);
 `;
+
 
   await fs.writeFile('/tmp/fuzz_diff_wrapper.mjs', wrapperCode);
   const res = await runCommand('node', ['/tmp/fuzz_diff_wrapper.mjs', sessionPath]);
