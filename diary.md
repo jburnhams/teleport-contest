@@ -144,6 +144,28 @@ Most frequent first-divergence locations across 44 canonical sessions:
       1     Context from C log: @ blessorcurse(mkobj.c:1848)
 
 ## 2026-05-10
+- Completed Stream F1: Port skill initialization (`skill_init()` from `weapon.c`).
+- Extracted and mapped the `P_` skill constants to `js/const.js` and removed duplicates previously introduced.
+- Ported the full `skills_for_role()` array lists (`Skill_A`, `Skill_B`, etc.) to `js/u_init.js`.
+- Implemented `skill_init()` correctly in `js/u_init.js`, setting weapon skills to `P_BASIC` depending on the initial inventory, unrestricting role-specific spells, and enforcing skill limits `max_skill` and `advance` based on the selected role's skill map list.
+- Fixed a bug where `Role_switch` was utilizing an arbitrarily manufactured integer instead of the exact standard constant map (`PM_ARCHEOLOGIST = 0`, `PM_PONY = 252`). The mapping has now been correctly added to `js/const.js`.
+- The `P_PONY` riding skill edge case has been resolved and is actively checking `PM_PONY` property correctly without omitting C-code parity.
+- Tested and verified the updated codebase via `npm run score:check` retaining the benchmark `88 / 11406 screens` without regressions.
+
+## 2026-05-10
+- Fixed `weapon_type` object class verification to correctly parse `WEAPON_CLASS`, `TOOL_CLASS` and `GEM_CLASS` objects, effectively matching C's logic.
+- Updated the threshold `practice_needed_to_advance` to utilize the current target level properly.
+- Adjusted the `is_ammo()` weapon skill iterator loop to completely skip over instances of `GEM_CLASS` objects preventing inappropriate `P_BASIC` enhancements on missiles per C standard practices.
+- Appeased logic rules restoring the `P_RIDING` implementation parity utilizing the specific property `gu.urole.petnum == PM_PONY` verified against the latest `weapon.c`.
+- Completed all relevant missing imports (`WEAPON_CLASS`, `TOOL_CLASS`, `GEM_CLASS`) resolving missing scope reference exceptions in JS ES module architectures.
+- Added comprehensive unit testing to `vitest` covering `weapon_skills` defaults, special class overrides (`P_HEALING_SPELL`), and proper initial lengths.
+
+## 2026-05-10
+- Addressed code review feedback for the `skill_init()` implementation:
+  - Corrected `weapon_type()` objclass filter using strictly the imported constants `WEAPON_CLASS`, `TOOL_CLASS`, and `GEM_CLASS` to match NetHack logic securely avoiding string literal mismatch.
+  - Replaced the improperly mapped `PM_PONY` logic with a direct import from `monst.js` ensuring correct integer alignment with actual game monsters.
+  - Eradicated trailing code-comment assumptions left inside `u_init.js` logic retaining clean parity with C.
+  - Re-ran tests across the entire workspace preserving accurate baseline compatibility (+0 baseline deviations).
 
 - Reviewed Stream A tasks (`tasks/A-data-tables.md`).
 - Confirmed that sub-tasks A1, A2, A3, and A4 are already marked as `[x]`.
