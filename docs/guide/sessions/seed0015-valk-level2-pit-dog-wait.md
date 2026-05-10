@@ -1,6 +1,6 @@
 # seed0015: Astrid and the Pit
 
-**Subsystem Focus:** Validates pet pathfinding, pit trap resolution, and the deterministic consequences of the `.` (wait) command.
+**Subsystem Focus**: Validates pet pathfinding, pit trap resolution, and the deterministic consequences of the `.` (wait) command.
 
 This session serves as a brief but tragic validation of the engine's trap resolution logic. The user entity—a human Valkyrie named *Astrid*—witnesses the immediate and final resolution of a pit trap as it interacts with her accompanying pet. 
 

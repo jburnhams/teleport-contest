@@ -143,7 +143,22 @@ Most frequent first-divergence locations across 44 canonical sessions:
       1     Context from C log: @ fill_ordinary_room(mklev.c:998)
       1     Context from C log: @ blessorcurse(mkobj.c:1848)
 
+## 2026-05-10 — Stream C: Message System (C2)
+
+- Explored C2: pline.js — Message system.
+- Analyzed `nethack-c/upstream/src/pline.c` and `nethack-c/upstream/win/tty/topl.c` to see how `pline`, `You`, `verbalize` works, and how the TTY window system manages the top line string (`toplin`, `--More--`).
+- Hooked `botl.js` up into `js/display.js`. Verified using custom scripts that `bot1` and `bot2` are matching byte-for-byte in the recorded sessions!
+- Partially implemented `js/pline.js` with `pline()`, `more()`, `You()`, and `verbalize()`, along with adding `--More--` pausing and linking it to the input loop (`nhgetch`).
+- Integrated `botl` (C1) and `pline` (C2) properly across the display and core logic by injecting them correctly avoiding circular dependencies.
+- Confirmed no score regression (88/11406 screens passed, identical to baseline on `seed8000`).
+- The major gap preventing further score increases is C5: Window system basics, as actions like checking the inventory (`i`) try to pop up menus which we don't handle correctly yet.
+
+Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 ## 2026-05-10
+- Started Stream E.
+- Ported `newmonst()`, `fmon` list initialization, `place_monster()`, and `m_at(x,y)`.
+- Fixed `next_ident()` tracking by initializing `game.context.ident` inside `resetGame()`, resolving RNG mismatches.
+- Next step: E2 mondata.js helpers.
 - Completed Stream F1: Port skill initialization (`skill_init()` from `weapon.c`).
 - Extracted and mapped the `P_` skill constants to `js/const.js` and removed duplicates previously introduced.
 - Ported the full `skills_for_role()` array lists (`Skill_A`, `Skill_B`, etc.) to `js/u_init.js`.
@@ -188,3 +203,25 @@ Most frequent first-divergence locations across 44 canonical sessions:
 - Refactored `enermod` correctly using `PM_` constants from `const.js`.
 - Fixed `got_sp1` flag tracking to correctly update state inside `ini_inv`.
 - Replaced fragile hardcoded item class checking with `objects` metadata mapping exactly as directed.
+## 2026-05-15
+- Continued Stream E, ticking subtask E2 (mondata.js — data helpers).
+- Created `js/mondata.js` and ported `monsndx` along with several movement-type macros (`is_flyer`, `is_swimmer`, `amphibious`, `passes_walls`, etc.) and species macros (`is_undead`, `is_demon`, `is_animal`, etc.).
+- Wrote vitest suite (`test/mondata.test.js`) verifying `monsndx` index retrieval and evaluating several bitflags against `mons[0]` (Giant Ant).
+- Achieved +0 regression score (88/11406 screens baseline) in validation.
+- Next step: Stream E3, the `makemon` core monster generation.
+
+## 2026-05-15
+- Continued Stream D by beginning D2.1: BUC assignment logic (`bcsign`, `curse`, `bless`, `blessorcurse`, `uncurse`).
+- Implemented and ported the BUC routines exactly tracking the C structure (including temporarily commenting out light adjustment functionality until `lamplit` logic is implemented).
+- Fixed the `rng.js` import bug in `test/mkobj.buc.test.js` missing `rn2`.
+- Validated via unit testing that `blessorcurse` sequentially consumes the correct `rn2` calls matching PRNG log format correctly.
+- Achieved +0 regression score (88/11406 screens baseline).
+- Next step: D2.2 (Probability helpers / `rnd_class`) or D2.3.
+## 2024-05-16
+- Continued Stream D by completing subtask D2.2 (Probability helpers / `rnd_class`).
+- Defined and exported `bases` and `oclass_prob_totals` in `js/o_init.js` mirroring C's `init_objects()` functionality correctly without disrupting sequence logic.
+- Implemented `rnd_class` in `js/mkobj.js` replicating C `objnam.c` probability proportional picking behavior and zero-sum handling safely using `rn1`.
+- Wrote extensive unit tests in `test/mkobj.rnd_class.test.js` validating PRNG call formats mapping accurately to RNG inputs.
+- Cleaned up loose test scratchpads and incorporated `test/o_init.test.js` covering `MAXOCLASSES` index initialization.
+- Validated via scoring maintaining exact 100% baseline structural alignment (88/11406 screens pass).
+- Next steps: Proceed to D2.3 (Erosion & Quantity helpers) exploring `may_generate_eroded` functionality.

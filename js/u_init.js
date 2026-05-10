@@ -17,7 +17,10 @@ import {
 } from './const.js';
 import { objects } from './objects.js';
 import { PM_PONY } from './monst.js';
-import { WEAPON_CLASS, TOOL_CLASS, GEM_CLASS } from './const.js';
+import {
+    WEAPON_CLASS, ARMOR_CLASS, POTION_CLASS, SCROLL_CLASS, WAND_CLASS,
+    SPBOOK_CLASS, FOOD_CLASS, TOOL_CLASS, GEM_CLASS, RING_CLASS, COIN_CLASS
+} from './const.js';
 import { invent } from './decl.js';
 import { game } from './gstate.js';
 import { objects } from './objects.js';
@@ -27,18 +30,19 @@ import {
 } from './const.js';
 import { init_attr, vary_init_attr, acurrstr } from './attrib.js';
 import { newhp, newpw, adjabil } from './exper.js';
+import { next_ident } from './mkobj.js';
 
 import {
-    BULLWHIP, WEAPON_CLASS, LEATHER_JACKET, ARMOR_CLASS, FEDORA, FOOD_RATION, FOOD_CLASS,
-    PICK_AXE, TOOL_CLASS, TINNING_KIT, TOUCHSTONE, GEM_CLASS, SACK, TWO_HANDED_SWORD, AXE,
+    BULLWHIP, LEATHER_JACKET, FEDORA, FOOD_RATION,
+    PICK_AXE, TINNING_KIT, TOUCHSTONE, SACK, TWO_HANDED_SWORD, AXE,
     RING_MAIL, BATTLE_AXE, SHORT_SWORD, CLUB, SLING, FLINT, ROCK, LEATHER_ARMOR, SCALPEL,
-    LEATHER_GLOVES, STETHOSCOPE, POT_HEALING, POTION_CLASS, POT_EXTRA_HEALING, WAN_SLEEP,
-    WAND_CLASS, SPE_HEALING, SPBOOK_CLASS, SPE_EXTRA_HEALING, SPE_STONE_TO_FLESH, APPLE,
+    LEATHER_GLOVES, STETHOSCOPE, POT_HEALING, POT_EXTRA_HEALING, WAN_SLEEP,
+    SPE_HEALING, SPE_EXTRA_HEALING, SPE_STONE_TO_FLESH, APPLE,
     LONG_SWORD, LANCE, HELMET, SMALL_SHIELD, CARROT, ROBE, POT_WATER, CLOVE_OF_GARLIC,
     SPRIG_OF_WOLFSBANE, DAGGER, BOW, ARROW, CLOAK_OF_DISPLACEMENT, CRAM_RATION, POT_SICKNESS,
-    LOCK_PICK, KATANA, YUMI, YA, SPLINT_MAIL, DART, SCR_MAGIC_MAPPING, SCROLL_CLASS,
+    LOCK_PICK, KATANA, YUMI, YA, SPLINT_MAIL, DART, SCR_MAGIC_MAPPING,
     HAWAIIAN_SHIRT, EXPENSIVE_CAMERA, CREDIT_CARD, SPEAR, QUARTERSTAFF, CLOAK_OF_MAGIC_RESISTANCE,
-    RING_CLASS, SPE_FORCE_BOLT, MAGIC_MARKER, SPE_PROTECTION, SPE_CONFUSE_MONSTER, TIN_OPENER, ORANGE, FORTUNE_COOKIE, MACE, GOLD_PIECE, COIN_CLASS,
+    SPE_FORCE_BOLT, MAGIC_MARKER, SPE_PROTECTION, SPE_CONFUSE_MONSTER, TIN_OPENER, ORANGE, FORTUNE_COOKIE, MACE, GOLD_PIECE,
     OIL_LAMP, BLINDFOLD, LEASH, TOWEL, WAN_WISHING, SHURIKEN
 } from './objects.js';
 
@@ -855,31 +859,34 @@ export const M_spell = [Healing_book, Protection_book, Confuse_monster_book];
 
 // These rely on the basic rng calls made during creation, assuming Stream D handles it fully later.
 // We just need to mimic the exact rng sequence from ini_inv.
-// Partial port for PRNG consumption
+
 export function ini_inv_mkobj_filter(oclass, got_level1_spellbook) {
+    let obj = mkobj(oclass, false);
+    let otyp = obj.otyp;
     let trycnt = 0;
-    let otyp = 0;
-    while (true) {
-        // C ref: obj = mkobj(oclass, FALSE);
-        // We simulate the RNG in mkobj here for SPBOOK_CLASS.
-        // Usually mkobj calls rnd_class and then mksobj
-        // For the contest RNG matching, let's just return a generic valid item unless we need exact
 
-        // This needs to be correctly ported eventually in Stream D.
-        // For now, we simulate the first call to mkobj:
-        // We know for wizards it's often a scroll or potion or spellbook
-        if (oclass === SPBOOK_CLASS) {
-            // For now, return a spellbook
-            return SPE_FORCE_BOLT;
-        } else if (oclass === POTION_CLASS) {
-            return POT_HEALING;
-        } else if (oclass === SCROLL_CLASS) {
-            return SCR_LIGHT;
-        } else if (oclass === RING_CLASS) {
-            return RIN_SEARCHING;
+    // Simplistic stub just recreating the same C loop structure
+    // Since gn.nocreate etc aren't fully implemented in our JS, we'll just check the base case.
+    while (
+        otyp === WAN_WISHING || // WAN_WISHING
+        otyp === RIN_LEVITATION || // RIN_LEVITATION
+        otyp === POT_HALLUCINATION || // POT_HALLUCINATION
+        otyp === POT_ACID || // POT_ACID
+        otyp === SCR_AMNESIA || // SCR_AMNESIA
+        otyp === SCR_FIRE || // SCR_FIRE
+        otyp === SCR_BLANK_PAPER || // SCR_BLANK_PAPER
+        otyp === SPE_BLANK_PAPER || // SPE_BLANK_PAPER
+        otyp === RIN_AGGRAVATE_MONSTER || // RIN_AGGRAVATE_MONSTER
+        otyp === RIN_HUNGER || // RIN_HUNGER
+        otyp === WAN_NOTHING || // WAN_NOTHING
+        (obj.oclass === SPBOOK_CLASS && objects[otyp].oc_level > (got_level1_spellbook ? 3 : 1)) // SPBOOK_CLASS
+    ) {
+        if (++trycnt > 1000) {
+            obj = mksobj(PANCAKE, true, false); // PANCAKE
+            break;
         }
-
-        break;
+        obj = mkobj(oclass, false);
+        otyp = obj.otyp;
     }
-    return otyp;
+    return obj;
 }

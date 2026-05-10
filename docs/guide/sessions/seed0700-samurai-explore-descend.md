@@ -1,6 +1,6 @@
 # seed0700: Musashi and the Resistant Door
 
-**Subsystem Focus:** Validates standard locomotion, entity-swapping with pets, and the mechanical resistance of closed doors to non-standard entry.
+**Subsystem Focus**: Validates standard locomotion, entity-swapping with pets, and the mechanical resistance of closed doors to non-standard entry.
 
 This session serves as a rigorous mechanical validation of the engine's basic exploration and physical interaction subroutines. The user entity—a human Samurai named *Musashi*—demonstrates the engine's ability to coordinate player movement with a pet entity and the deterministic resolution of door-interaction failure.
 

@@ -1,6 +1,6 @@
 # seed0017: Akira and the Unanswered Prayer
 
-**Subsystem Focus:** Validates the `#pray` extended command, the piety/luck resolution engine, deity-specific message strings, and the character-name entry UI.
+**Subsystem Focus**: Validates the `#pray` extended command, the piety/luck resolution engine, deity-specific message strings, and the character-name entry UI.
 
 This session serves as a focused mechanical shakedown of the engine's prayer subroutines. The user entity—a Samurai named *Akira*—demonstrates the immediate and deterministic consequences of pestering a deity too early in the game.
 
