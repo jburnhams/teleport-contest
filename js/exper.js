@@ -1,8 +1,24 @@
 // exper.js — Experience system
 // C ref: exper.c
 
-import { rn2, rnd } from './rng.js';
+import { rn2, rnd, rn1 } from './rng.js';
 import { game } from './gstate.js';
+
+function enermod(en) {
+    switch (game.urole.mnum) {
+    case 6: // PM_CLERIC
+    case 12: // PM_WIZARD
+        return (2 * en);
+    case 3: // PM_HEALER
+    case 4: // PM_KNIGHT
+        return Math.floor((3 * en) / 2);
+    case 1: // PM_BARBARIAN
+    case 11: // PM_VALKYRIE
+        return Math.floor((3 * en) / 4);
+    default:
+        return en;
+    }
+}
 import { acurr, A_WIS } from './attrib.js';
 
 export function newuexp(lev) {
@@ -33,8 +49,12 @@ export function newpw() {
             enfix = game.urole.enadv.hifix + game.urace.enadv.hifix;
         }
         en = enfix;
-        if (enrnd > 0) en += rnd(enrnd);
+        if (enrnd > 0) {
+            en += rnd(enrnd);
+        }
+        en = enermod(en);
     }
+    if (en <= 0) en = 1;
     return en;
 }
 
@@ -68,4 +88,71 @@ export function newhp() {
 export function adjabil(oldlevel, newlevel) {
     // Only RNG we care about right now is whether abilities gained cause rn2 checks?
     // They don't seem to based on attrib.c.
+}
+
+// C ref: exper.c newexplevel()
+export function check_experience() {
+    // In C, check_experience() doesn't exist, it's newexplevel()
+    if (game.u.ulevel < 30 && game.u.uexp >= newuexp(game.u.ulevel)) { // MAXULEV = 30
+        pluslvl(true);
+    }
+}
+
+// C ref: exper.c pluslvl()
+export function pluslvl(incr) {
+    let hpinc, eninc;
+
+    if (game.u.Upolyd) {
+        // hpinc = monhp_per_lvl(game.youmonst);
+        // We will just do a minimal rng consumption if needed
+    }
+    hpinc = newhp();
+    // u.uhp += hpinc; // etc
+
+    eninc = newpw();
+    // u.uenmax += eninc; // etc
+
+    if (game.u.ulevel < 30) {
+        if (incr) {
+            let tmp = newuexp(game.u.ulevel + 1);
+            if (game.u.uexp >= tmp) game.u.uexp = tmp - 1;
+        } else {
+            if (game.u.uexp < newuexp(game.u.ulevel)) {
+                game.u.uexp = newuexp(game.u.ulevel);
+            }
+        }
+        game.u.ulevel++;
+        adjabil(game.u.ulevel - 1, game.u.ulevel);
+    }
+}
+
+// C ref: exper.c losexp()
+export function losexp(drainer) {
+    if (game.u.ulevel > 1) {
+        game.u.ulevel -= 1;
+        adjabil(game.u.ulevel + 1, game.u.ulevel);
+    } else {
+        game.u.uexp = 0;
+    }
+
+    if (game.u.uexp > 0)
+        game.u.uexp = newuexp(game.u.ulevel) - 1;
+
+    // other stats loss
+}
+
+// C ref: exper.c rndexp()
+export function rndexp(gaining) {
+    let minexp = (game.u.ulevel === 1) ? 0 : newuexp(game.u.ulevel - 1);
+    let maxexp = newuexp(game.u.ulevel);
+    let diff = maxexp - minexp;
+    let factor = 1;
+    // In JS we don't have LARGEST_INT wrapping issues usually, but match C logic if needed.
+    // For rn2, C diff must be an int
+    let result = minexp + factor * rn2(diff);
+    if (game.u.ulevel === 30 && gaining) {
+        result += (game.u.uexp - minexp);
+        if (result < game.u.uexp) result = game.u.uexp;
+    }
+    return result;
 }

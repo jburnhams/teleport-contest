@@ -640,32 +640,39 @@ function trquan(trop) {
 export function ini_inv(trop) {
     if (!trop) return;
 
+    let got_sp1 = false;
+
     // We iterate through the array of items.
     for (let i = 0; i < trop.length; i++) {
         let t = trop[i];
         if (t.trotyp === 0 && t.trclass === 0 && t.quan_min === 0) break; // null terminator
 
         let quan = trquan(t);
-        let otyp = t.trotyp;
-        let obj = null;
 
-        if (otyp !== UNDEF_TYP) {
-            // In C: obj = mksobj(otyp, TRUE, FALSE);
-            rnd(2); // next_ident
-            // mksobj_init for scrolls and potions does blessorcurse -> rn2(4)
-            if ((otyp >= 270 && otyp < 300) || (otyp >= 230 && otyp < 270)) {
-                rn2(4);
+        while (quan > 0) {
+            let otyp = t.trotyp;
+            let obj = null;
+
+            if (otyp !== UNDEF_TYP) {
+                // In C: obj = mksobj(otyp, TRUE, FALSE);
+                rnd(2); // next_ident
+                // mksobj_init for scrolls and potions does blessorcurse -> rn2(4)
+                if ((otyp >= 270 && otyp < 300) || (otyp >= 230 && otyp < 270)) {
+                    rn2(4);
+                }
+            } else {
+                // UNDEF_TYP -> randomly generated object class
+                // obj = mkobj(t.trclass, FALSE);
+                ini_inv_mkobj_filter(t.trclass, got_sp1);
             }
-        } else {
-            // UNDEF_TYP -> randomly generated object class
-            // obj = mkobj(t.trclass, FALSE);
-            rnd(2);
-            // Since mkobj returns something, if it returns scroll/potion, it would consume rn2(4)
-            // But we don't know the exact class returned by the stub.
-        }
 
-        if (t.trspe !== 'UNDEF_SPE' && t.trotyp === MAGIC_MARKER) {
-            rn2(4);
+            if (t.trspe !== 'UNDEF_SPE' && t.trotyp === MAGIC_MARKER) {
+                rn2(4); // from adjustment
+            }
+
+            // we simulate use_obj and adjustment but don't do real logic yet
+
+            quan--;
         }
     }
 }
