@@ -48,14 +48,13 @@
 [Step 16] Key: ESC | PRNG: 0 calls
   Map updated (13 rows changed)
   Status update: Contestant the Rambler         St:9 Dx:14 Co:12 In:11 Wi:16 Ch:16 Neutral | Dlvl:1 $:757 HP:10(10) Pw:2(2) AC:10 Xp:1/0 T:11
-[Step 17] Key:  | PRNG: 0 calls
+[Step 17] Key: \x18 | PRNG: 0 calls
   Msg: Contestant the Tourist's attributes:
   Map updated (20 rows changed)
   Status update: Your intelligence is 11. | (1 of 2)
 [Step 18] Key:   | PRNG: 0 calls
   Msg: Your wisdom is 16.
   Map updated (20 rows changed)
-  Status update:  | 
 [Step 19] Key:   | PRNG: 0 calls
   Map updated (14 rows changed)
   Status update: Contestant the Rambler         St:9 Dx:14 Co:12 In:11 Wi:16 Ch:16 Neutral | Dlvl:1 $:757 HP:10(10) Pw:2(2) AC:10 Xp:1/0 T:11

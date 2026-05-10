@@ -68,14 +68,13 @@
 [Step 29] Key: ESC | PRNG: 0 calls
   Map updated (12 rows changed)
   Status update: Healix the Rhizotomist         St:8 Dx:10 Co:14 In:12 Wi:14 Ch:17 Neutral | Dlvl:1 $:1170 HP:12(12) Pw:6(6) AC:8 Xp:1
-[Step 30] Key:  | PRNG: 0 calls
+[Step 30] Key: \x18 | PRNG: 0 calls
   Msg: Healix the Healer's attributes:
   Map updated (18 rows changed)
   Status update: Your constitution is 14. | (1 of 2)
 [Step 31] Key:   | PRNG: 0 calls
   Msg: Your intelligence is 12 (current; limit:19).
   Map updated (20 rows changed)
-  Status update:  | 
 [Step 32] Key: ESC | PRNG: 0 calls
   Map updated (11 rows changed)
   Status update: Healix the Rhizotomist         St:8 Dx:10 Co:14 In:12 Wi:14 Ch:17 Neutral | Dlvl:1 $:1170 HP:12(12) Pw:6(6) AC:8 Xp:1

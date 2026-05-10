@@ -138,3 +138,13 @@ Implemented the full chargen display in `js/chargen.js` so interactive sessions 
 - Role/race/gender selection menus (for manual path, steps 7-9 type) — would add 3+ screens per manual-pick session
 - u_init (hero initialization) to replace hardcoded Tourist state in allmain.js — needed for non-seed8000 post-chargen screens
 - fill_ordinary_room / makemon — needed to unblock RNG divergence at ~position 1009
+
+---
+
+## 2026-05-10 — Stream A: Data Tables
+
+- Worked on Stream A: Data Tables.
+- Generated `js/monst.js` from `monst.c` and `monsters.h` using a custom extractor script.
+- Implemented tests to verify length `NUMMONS` and spot-checked `PM_GIANT_ANT` and `PM_NEWT` to ensure exact matching and proper macro expansion (`LVL`, `SIZ`, `ATTK`).
+- Confirmed no regressions in the score.
+- Fixed `mons[]` extraction script: explicitly expand `SEDUCTION_ATTACKS` so incubus/succubus receive full 6-element attack arrays, correctly parse all bitmasks to remove `L`/`0L` suffixes, and populate `const.js` with missing macros to avoid `undefined` coercion in the generated output.
