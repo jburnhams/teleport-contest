@@ -1,6 +1,6 @@
 # seed1150: Grok and the Sling Shot
 
-**Subsystem Focus:** Validates pet inventory interactions, the `shoot` command for projectile-launchers, and the associated inventory-state updates.
+**Subsystem Focus**: Validates pet inventory interactions, the `shoot` command for projectile-launchers, and the associated inventory-state updates.
 
 This session serves as a rigorous mechanical validation of the engine's ranged-combat and pet-AI subroutines. The user entity—a Caveman named *Grok*—demonstrates the engine's ability to handle multi-step pet item interactions and the deterministic resolution of a sling-based projectile launch.
 

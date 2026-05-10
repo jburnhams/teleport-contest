@@ -7,7 +7,8 @@
 
 import { game } from './gstate.js';
 import { nhgetch } from './input.js';
-import { newsym, flush_screen, pline } from './display.js';
+import { newsym, flush_screen } from './display.js';
+import { pline } from "./pline.js";
 import { vision_recalc } from './vision.js';
 import { COLNO, ROWNO, STONE, DOOR, D_CLOSED, D_LOCKED,
          IS_WALL, IS_OBSTRUCTED } from './const.js';
@@ -45,7 +46,6 @@ export async function rhack(key) {
 
     if (isMovementKey(ch)) {
         await domove(DIR_DX[ch], DIR_DY[ch]);
-        game.context.move = 1;
     } else if (ch === 's') {
         // search adjacent cells — consumes a turn, no display change when nothing found
         game.context.move = 1;
@@ -184,4 +184,5 @@ async function domove(dx, dy) {
     newsym(oldx, oldy);
     vision_recalc(1);
     newsym(newx, newy);
+    game.context.move = 1;
 }

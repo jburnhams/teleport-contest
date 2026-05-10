@@ -10,31 +10,31 @@ Port the display subsystem — status lines, message handling, map rendering imp
 ---
 
 ## C1. botl.js — Status line rendering
-- [ ] Read C `src/botl.c` — understand `bot()`, `bot1()`, `bot2()` structure
-- [ ] Read C `src/botl.c` — understand field positioning, cursor-forward codes, conditional fields
-- [ ] Create `js/botl.js`
-- [ ] Port `bot1()` — title line: "Name the Role" + stats (St/Dx/Co/In/Wi/Ch) + alignment
-- [ ] Handle strength 18/xx display (e.g., "18/03", "18/**")
-- [ ] Port `bot2()` — status line: Dlvl, $, HP(max), Pw(max), AC, Xp/level, T:turns
-- [ ] Port hunger status display ("Satiated", "Hungry", "Weak", etc.)
-- [ ] Port encumbrance display ("Burdened", "Stressed", etc.)
-- [ ] Port condition flags ("Conf", "Blind", "Stun", "Hallu", etc.)
-- [ ] Match exact column positions — C uses `curs()` and `putstr()` with specific coordinates
+- [x] Read C `src/botl.c` — understand `bot()`, `bot1()`, `bot2()` structure
+- [x] Read C `src/botl.c` — understand field positioning, cursor-forward codes, conditional fields
+- [x] Create `js/botl.js`
+- [x] Port `bot1()` — title line: "Name the Role" + stats (St/Dx/Co/In/Wi/Ch) + alignment
+- [x] Handle strength 18/xx display (e.g., "18/03", "18/**")
+- [x] Port `bot2()` — status line: Dlvl, $, HP(max), Pw(max), AC, Xp/level, T:turns
+- [x] Port hunger status display ("Satiated", "Hungry", "Weak", etc.)
+- [x] Port encumbrance display ("Burdened", "Stressed", etc.)
+- [x] Port condition flags ("Conf", "Blind", "Stun", "Hallu", etc.)
+- [x] Match exact column positions — C uses `curs()` and `putstr()` with specific coordinates
 - [ ] Handle the `iflags.statuslines` option (1 or 2 status lines)
-- [ ] Wire `bot()` into display.js `flush_screen()`, replacing inline `_statusLine1/2`
-- [ ] Verify: compare output against seed8000 status line from session JSON
+- [x] Wire `bot()` into display.js `flush_screen()`, replacing inline `_statusLine1/2`
+- [x] Verify: compare output against seed8000 status line from session JSON
 
 ## C2. pline.js — Message system
-- [ ] Read C `src/pline.c` — understand `pline()`, `You()`, `verbalize()`, `raw_printf()`
-- [ ] Read C `src/topl.c` (if present) or relevant tty code — understand `--More--` prompting
-- [ ] Create `js/pline.js`
-- [ ] Port `pline()` — format string handling (like printf but simpler)
-- [ ] Port message line display — write to row 0 of terminal
-- [ ] Port `--More--` prompt — when message would overwrite previous unread message
+- [x] Read C `src/pline.c` — understand `pline()`, `You()`, `verbalize()`, `raw_printf()`
+- [x] Read C `src/topl.c` (if present) or relevant tty code — understand `--More--` prompting
+- [x] Create `js/pline.js`
+- [x] Port `pline()` — format string handling (like printf but simpler)
+- [x] Port message line display — write to row 0 of terminal
+- [x] Port `--More--` prompt — when message would overwrite previous unread message
 - [ ] Port `putmsghistory()` — message recall
-- [ ] Port `Sprintf`-style format helpers used by pline
+- [x] Port `Sprintf`-style format helpers used by pline
 - [ ] Handle `game.flags.verbose` — some messages only show in verbose mode
-- [ ] Wire into display.js, replacing simple `game._pending_message` approach
+- [x] Wire into display.js, replacing simple `game._pending_message` approach
 
 ## C3. Map rendering improvements
 - [ ] Read C `src/display.c` `newsym()` — full logic for what glyph to display at each cell
