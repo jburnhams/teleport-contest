@@ -51,43 +51,6 @@ async function runCommand(cmd, args, options = {}) {
   });
 }
 
-function normalizeRng(entry) {
-  return entry.replace(/\\s*@\\s.*$/, '').replace(/^\\d+\\s+/, '').trim();
-}
-
-async function findFirstRngDivergence(sessionPath, jsRngLog) {
-  const cSession = JSON.parse(await fs.readFile(sessionPath, 'utf8'));
-  const cRng = [];
-
-  if (cSession.segments) {
-    for (const seg of cSession.segments) {
-      if (seg.steps) {
-        for (const step of seg.steps) {
-          if (step.rng) cRng.push(...step.rng);
-        }
-      }
-    }
-  }
-
-  const minLen = Math.min(cRng.length, jsRngLog.length);
-  for (let i = 0; i < minLen; i++) {
-    const cNorm = normalizeRng(cRng[i]);
-    const jsNorm = normalizeRng(jsRngLog[i]);
-    if (cNorm !== jsNorm) {
-      return { index: i, expected: cRng[i], got: jsRngLog[i] };
-    }
-  }
-
-  if (cRng.length !== jsRngLog.length) {
-    return {
-      index: minLen,
-      expected: cRng[minLen] || 'EOF',
-      got: jsRngLog[minLen] || 'EOF'
-    };
-  }
-
-  return null;
-}
 
 async function main() {
   try {
