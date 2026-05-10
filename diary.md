@@ -94,3 +94,10 @@ After vault fix + newpw fix, most fully-specified sessions now diverge in the fi
 - `fill_ordinary_room` / `fill_special_room` — require `makemon` and full monster selection logic
 
 Next: implement real fill phase (replace `fastforward_fill_mineralize` for non-seed8000).
+
+## 2026-05-10
+
+- Worked on Stream A: Data Tables.
+- Generated \`js/monst.js\` from \`monst.c\` and \`monsters.h\` using a custom extractor script.
+- Implemented tests to verify length \`NUMMONS\` and spot-checked \`PM_GIANT_ANT\` and \`PM_NEWT\` to ensure exact matching and proper macro expansion (\`LVL\`, \`SIZ\`, \`ATTK\`).
+- Confirmed no regressions in the score.
