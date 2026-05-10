@@ -162,12 +162,6 @@ async function main() {
     process.exit(1);
   }
 
-  const ALIGN_NAMES = {
-    law: 'lawful',
-    neu: 'neutral',
-    cha: 'chaotic'
-  };
-
   let align = opts.align || randomChoice(role.aligns);
   if (!role.aligns.includes(align)) {
     console.error(`Invalid/incompatible alignment ${align} for role ${role.name}`);
@@ -175,14 +169,9 @@ async function main() {
   }
 
   let gender = opts.gender || randomChoice(['male', 'female']);
-  // Valkyries are always female
-  if (role.key === 'val') gender = 'female';
-  // Knights are always male (in some versions, check NetHack 5.0)
-  // Actually, in 5.0, Knights can be female.
-  // Samurai are always male? No, can be female.
 
   const moves = randomMoves(opts.moves, opts.moveSet);
-  const nethackrc = buildNethackrc({ role, race, gender, align: ALIGN_NAMES[align] });
+  const nethackrc = buildNethackrc({ role, race, gender, align });
 
   const stub = {
     version: 5,

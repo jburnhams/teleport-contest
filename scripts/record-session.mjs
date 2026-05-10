@@ -371,13 +371,6 @@ async function clearStaleState(installDir) {
         }
     }
     await ensureScorefiles(installDir);
-    // Ensure sysconf exists to avoid "Unable to open SYSCF_FILE" error
-    const sysconfPath = path.join(installDir, 'sysconf');
-    try {
-        await fs.access(sysconfPath);
-    } catch {
-        await fs.writeFile(sysconfPath, '');
-    }
 }
 
 async function recordSegment({

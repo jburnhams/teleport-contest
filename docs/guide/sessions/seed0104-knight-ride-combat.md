@@ -1,6 +1,6 @@
 # seed0104: Sir and the Nameless Pony
 
-**Subsystem Focus**: Validates the `#ride` success pathways, mounted combat resolution, and the culturally literate dismount subroutines.
+**Subsystem Focus:** Validates the `#ride` success pathways, mounted combat resolution, and the culturally literate dismount subroutines.
 
 This session serves as a triumphant sequel to the catastrophic equestrian failure of `seed0103`. The user entity—a Knight once again named *Sir*—successfully demonstrates the engine's mounted combat logic and the developers' penchant for classic rock references.
 

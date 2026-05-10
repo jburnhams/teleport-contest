@@ -4,73 +4,65 @@ Key insights discovered during the port. Add entries as discoveries are made.
 
 ---
 
-## Core Mechanics & Infrastructure
+## Scoring mechanics
 
-### Scoring mechanics
 - Score = count of matching 24×80 screens, not sessions. Partial credit per step.
 - PRNG parity is a structural prerequisite — one off-by-one RNG call cascades through the entire dungeon and no subsequent screen can match.
 - `frozen/score.sh` overlays `js/isaac64.js`, `js/terminal.js`, `js/storage.js` from `frozen/` before every run — local edits to these are silently overwritten.
 - RNG scoring is positional: for each C position i, both the argument N and return value M of `rn2(N)=M` must match. Even if you consume the right total count, being off by one position fails all subsequent matches.
 
-### Environment & Tools
-- **CRLF / WSL**: `frozen/score.sh` and `frozen/set-category.sh` shipped with Windows CRLF line endings, breaking bash on WSL (`$'\r': command not found`). Fixed with `sed -i 's/\r//' <file>`.
-- **Screen comparison**: Semantic, not byte-exact. `frozen/screen-decode.mjs` renders cells via `renderCell()` before comparing. DEC line-drawing chars (`\x0e` + 'l') and Unicode box chars ('┌') compare as EQUAL. Map screens can match even though `terminal.serialize()` raw bytes differ from the session JSON.
-- **ANSI Colors**: `display.putstr` defaults to `CLR_GRAY` (7) -> `\x1b[37m`. Must pass `NO_COLOR` (8 -> ANSI 39) explicitly when writing text that should match plain C output.
+## CRLF / WSL
 
----
+- `frozen/score.sh` and `frozen/set-category.sh` shipped with Windows CRLF line endings, breaking bash on WSL (`$'\r': command not found`). Fixed with `sed -i 's/\r//' <file>`.
 
-## PRNG & Seeding
+## PRNG
 
-### Contexts & Evaluation
 - Three independent PRNG contexts: core (gameplay), Lua (special levels), display (hallucination). All three must be reproduced in the correct interleaved order.
 - JavaScript evaluates function arguments left-to-right, matching clang's behaviour. The C recorder is built with clang for exactly this reason — gcc evaluates right-to-left and produces a completely different RNG sequence.
 - The seed is passed as a 64-bit integer, split into 8 little-endian bytes, and fed to ISAAC64 (`js/rng.js:initRng`).
 
-### fastforward.js
-- Hardcoded RNG replay for **seed8000 only**. Never generalizes. Must be replaced function-by-function with real C ports.
+## fastforward.js
+
+- Hardcoded RNG replay for seed8000 only. Never generalizes. Must be replaced function-by-function with real C ports.
 - Covers: pre-mklev startup (o_init shuffles, dungeon init, u_init_misc), post-mklev startup (u_init_role, ini_inv, attributes, moveloop preamble), and per-step monster/regen/sound/hunger calls.
 - The pre-mklev block alone consumes ~303 RNG calls (session indices 0–308).
-- **First divergence point**: All non-seed8000 sessions diverge very early. Root cause: `o_init` and `u_init` are not implemented — the fastforward block fakes them only for seed8000's exact RNG values.
 
----
+## First divergence point for non-seed8000 sessions
 
-## Game Initialization & Chargen
+- All non-seed8000 sessions diverge very early (RNG match drops to ~50–1200 out of thousands).
+- Root cause: `o_init` (object shuffle) and `u_init` (hero initialization) are not implemented — the fastforward block fakes them only for seed8000's exact RNG values.
 
-### Ordering & Timing
-- **Chargen happens BEFORE o_init**: For sessions without fully-specified OPTIONS, the game calls `tty_player_selection()` to prompt for role/race/gender/alignment. These `pick_role/race/gend/align` calls consume RNG BEFORE `init_objects()` runs.
+## Chargen happens BEFORE o_init (critical ordering)
+
+- For sessions without fully-specified OPTIONS in nethackrc, the game calls `tty_player_selection()` to prompt for role/race/gender/alignment. These `pick_role/race/gend/align` calls consume RNG BEFORE `init_objects()` runs.
 - Call order inside `tty_player_selection`: pick_role → pick_race → pick_gend → pick_align.
-- `pick_role(racenum, gendnum, alignnum, pickhow)` counts valid roles matching constraints and calls `rn2(count)`. `pick_race`, `pick_gend`, `pick_align` follow the same pattern.
+- `pick_role(racenum, gendnum, alignnum, pickhow)` counts valid roles matching constraints and calls `rn2(count)`.
+- `pick_race`, `pick_gend`, `pick_align` follow the same pattern.
+- This means chargen must be implemented BEFORE o_init in the call sequence.
 
-### Role & Race Logic
-- **role_init() RNG pattern** (C ref: role.c lines 2022–2078):
-  1. **Leader gender**: `is_neuter→2, is_female→1, is_male→0, else rn2(100)<50`. ALL quest leaders have explicit M2_MALE or M2_FEMALE, so NO rn2(100) calls here for any role.
-  2. **Nemesis gender**: same logic. Only two nemeses lack explicit gender flags → rn2(100):
-     - Arc (0): MINION_OF_HUHETOTL — no M2_MALE/M2_FEMALE/M2_NEUTER
-     - Wiz (12): DARK_ONE — no M2_MALE/M2_FEMALE/M2_NEUTER
-     - All other nemeses: explicit gender → no rn2
-  3. **Priest pantheon**: `while (!roles[pantheon].lgod && ++trycnt < 100) pantheon = randrole(FALSE)`. Only Priest has `lgod=NULL`, so only Priest calls `rn2(13)` here. One call usually suffices.
-- **Role index order**: **Rogue (7) precedes Ranger (8)** — this is intentional in NetHack (comment in role.c: "Rogue precedes Ranger so that use of `-R' on the command line retains its traditional meaning").
-- **newpw() enadv.inrnd per role**: `newpw()` (exper.c, called from u_init at ulevel=0) calls `rnd(urole.enadv.inrnd)` if > 0. Role values:
-  - Arc=0, Bar=0, Cav=0, **Hea=4**, **Kni=4**, **Mon=2**, **Pri=3**, Rog=0, Ran=0, Sam=0, Tou=0, Val=0, **Wiz=3**.
+## o_init shuffle sizes (verified from session RNG logs — constant across seeds)
 
-### Chargen Terminal Mechanics
-- **Banner placement**: `tty_init_nhwindows()` writes the copyright banner at rows 4-7. The banner line with "Version X.Y.Z" is normalized away by the scorer. Use `NO_COLOR` for all banner/prompt writes.
-- **"Is this ok?" overlay column clearing**: C calls `docorner(offx=41)` → `tty_curs(BASE_WINDOW, 41, y); cl_end()`. NetHack columns are 1-indexed, so col 41 (1-indexed) = col 40 (0-indexed). `cl_end()` clears from col 40 to EOL. Fix: clear cols 40-79.
-- **"Is this ok?" option columns**: All options are written at col 41 (0-indexed):
-  - Row 4: "y * Yes; start game" (selected, asterisk marker)
-  - Row 5: "n - No; choose role again" (unselected)
-  - Row 6: "a - Not yet; choose another name" (normalized away)
-  - Row 7: "q - Quit"
-  - Row 8: "(end)"
-- **Manual vs auto chargen display state**:
-  - Auto ('y'): no menus shown, banner stays at rows 4-7.
-  - Manual ('n'): C's role menu is full-screen, clears the entire display. After menu sequence, banner and name-prompt are gone. Fix: `display.clearScreen()` before `_putIsThisOk` for the manual path.
+Object table is static (compile-time constant), so shuffle sizes never change across seeds:
 
----
+- `randomize_gem_colors()`: rn2(2), rn2(2), rn2(4) — always exactly 3 calls
+- AMULET shuffle: rn2(11)..rn2(1) — 11 calls
+- POTION shuffle: rn2(25)..rn2(1) — 25 calls
+- RING shuffle: rn2(28)..rn2(1) — 28 calls
+- SCROLL shuffle: rn2(41)..rn2(1) — 41 calls
+- SPBOOK shuffle: rn2(41)..rn2(1) — 41 calls
+- WAND shuffle: rn2(28)..rn2(1) — 28 calls
+- VENOM shuffle: rn2(2)..rn2(1) — 2 calls
+- Sub-range HELMET: rn2(4)..rn2(1) — 4 calls
+- Sub-range LEATHER_GLOVES: rn2(4)..rn2(1) — 4 calls
+- Sub-range CLOAK_OF_PROTECTION: rn2(4)..rn2(1) — 4 calls
+- Sub-range SPEED_BOOTS: rn2(7)..rn2(1) — 7 calls
+- WAN_NOTHING direction: rn2(2) — 1 call
 
-## Data Extraction & Reference Data
+Fisher-Yates inner loop: `do { i = j + rn2(range - j); } while (objects[i].oc_name_known)` — for the shuffle classes used, no object is name-known at init time, so it's always exactly one rn2 per position.
 
-### Bitmask constants
+## Role/race bitmask compatibility matrices
+
+Bitmask constants:
 ```
 MH_HUMAN=0x08, MH_ELF=0x10, MH_DWARF=0x20, MH_GNOME=0x40, MH_ORC=0x80
 ROLE_MALE=0x1000, ROLE_FEMALE=0x2000
@@ -79,7 +71,7 @@ ROLE_RACEMASK=0x0ff8, ROLE_GENDMASK=0xf000, ROLE_ALIGNMASK=0x07
 ROLE_NONE=-1, ROLE_RANDOM=-2, ROLE_GENDERS=2, ROLE_ALIGNS=3
 ```
 
-### Role `allow` masks (indices 0–12)
+Role `allow` masks (indices 0–12):
 ```
 0  Arc: MH_HUMAN|MH_DWARF|MH_GNOME | ROLE_MALE|ROLE_FEMALE | ROLE_LAWFUL|ROLE_NEUTRAL
 1  Bar: MH_HUMAN|MH_ORC             | ROLE_MALE|ROLE_FEMALE | ROLE_NEUTRAL|ROLE_CHAOTIC
@@ -96,7 +88,7 @@ ROLE_NONE=-1, ROLE_RANDOM=-2, ROLE_GENDERS=2, ROLE_ALIGNS=3
 12 Wiz: MH_HUMAN|MH_ELF|MH_GNOME|MH_ORC | ROLE_MALE|ROLE_FEMALE | ROLE_NEUTRAL|ROLE_CHAOTIC
 ```
 
-### Race `allow` masks
+Race `allow` masks:
 ```
 0 hum: MH_HUMAN | ROLE_MALE|ROLE_FEMALE | ROLE_LAWFUL|ROLE_NEUTRAL|ROLE_CHAOTIC
 1 elf: MH_ELF   | ROLE_MALE|ROLE_FEMALE | ROLE_CHAOTIC
@@ -104,80 +96,113 @@ ROLE_NONE=-1, ROLE_RANDOM=-2, ROLE_GENDERS=2, ROLE_ALIGNS=3
 3 gno: MH_GNOME | ROLE_MALE|ROLE_FEMALE | ROLE_NEUTRAL
 4 orc: MH_ORC   | ROLE_MALE|ROLE_FEMALE | ROLE_CHAOTIC
 ```
+
 Gender indices: 0=male, 1=female. Align indices: 0=chaotic, 1=neutral, 2=lawful.
 
-### Extraction & Macros
-- **Automated extraction**: `scripts/extract-role.py` and `scripts/parse_roles_to_js.js` parse the `roles` and `races` arrays directly from `role.c`.
-- **C Macros**: `STR18(x)` from C translates to `18 + x`.
-- **Missing `_CLASS` constants**: `BALL_CLASS` is 15, `CHAIN_CLASS` is 16, `VENOM_CLASS` is 17.
+## role_init() RNG pattern (C ref: role.c lines 2022–2078)
 
-### Object & Monster Reference
-- **o_init shuffle sizes** (constant across seeds):
-  - `randomize_gem_colors()`: rn2(2), rn2(2), rn2(4) — always exactly 3 calls
-  - AMULET shuffle: rn2(11)..rn2(1) — 11 calls
-  - POTION shuffle: rn2(25)..rn2(1) — 25 calls
-  - RING shuffle: rn2(28)..rn2(1) — 28 calls
-  - SCROLL shuffle: rn2(41)..rn2(1) — 41 calls
-  - SPBOOK shuffle: rn2(41)..rn2(1) — 41 calls
-  - WAND shuffle: rn2(28)..rn2(1) — 28 calls
-  - VENOM shuffle: rn2(2)..rn2(1) — 2 calls
-  - Sub-range HELMET: 4, LEATHER_GLOVES: 4, CLOAK_OF_PROTECTION: 4, SPEED_BOOTS: 7.
-  - WAN_NOTHING direction: rn2(2) — 1 call
-- **Fisher-Yates inner loop**: `do { i = j + rn2(range - j); } while (objects[i].oc_name_known)` — for the shuffle classes used, no object is name-known at init time, so it's always exactly one rn2 per position.
-- **Nemesis/Leader Monster Gender Flags**:
-  - All quest leaders: LORD_CARNARVON, PELIAS, SHAMAN_KARNOV, etc. — all have explicit `M2_MALE` or `M2_FEMALE`.
-  - Nemeses with explicit gender: THOTH_AMON (M), CHROMATIC_DRAGON (F), etc.
-  - Nemeses with NO gender (random → `rn2(100)`): MINION_OF_HUHETOTL (Arc), DARK_ONE (Wiz).
+Three sequential checks, all at init time, in this order:
 
----
+1. **Leader gender**: `is_neuter→2, is_female→1, is_male→0, else rn2(100)<50`. ALL quest leaders have explicit M2_MALE or M2_FEMALE, so NO rn2(100) calls here for any role.
 
-## Level Generation & Dungeon Logic
+2. **Nemesis gender**: same logic. Only two nemeses lack explicit gender flags → rn2(100):
+   - Arc (0): MINION_OF_HUHETOTL — no M2_MALE/M2_FEMALE/M2_NEUTER
+   - Wiz (12): DARK_ONE — no M2_MALE/M2_FEMALE/M2_NEUTER
+   - All other nemeses: explicit gender → no rn2
 
-### Modes & Checks
-- **init_dungeons mode**:
-  - **Debug mode**: skips ALL chance rn2(100) calls. Only calls: first Lua shuffle, depth rn2 for ranged dungeons, parent_dlevel rn2, place_level rn2.
-  - **Normal mode**: adds 9 dungeon chance rn2(100) + 37 level chance rn2(100) calls = 46 extra rn2 calls.
-- **Dungeon chance checks**: Default chance=100. A chance check only skips if `chance <= rn2(100)` AND chance is <100 (bigrm has chance=40).
+3. **Priest pantheon**: `while (!roles[pantheon].lgod && ++trycnt < 100) pantheon = randrole(FALSE)`. Only Priest has `lgod=NULL`, so only Priest calls `rn2(13)` here. One call usually suffices (the first non-Priest result exits the loop). In practice rn2(13)=11 (Valkyrie, which has lgod) for seed0367.
 
-### Room & Vault Logic
-- **vault fallback**: C makelevel:1334: `else if (rnd_rect() && create_vault())`. `create_vault()` calls `create_room` with vault=TRUE. The do-while loop retries `rnd_rect()` up to 101 times. For seed0360: 1 outer rnd_rect + 101 inner = 102 consecutive rn2(2) at positions 1217–1318.
-- **fill phase**: `fastforward_fill_mineralize()` is seed8000-only. Different sessions have 6–9 fillable rooms. Requires real implementation:
-  1. `rn2(fillable_room_count)` for bonus-item room.
-  2. `fill_ordinary_room` per room → `makemon` (random monster selection via `rndmonst_adj`).
-  3. `fill_special_room` per special room.
-- **mklev makerooms divergence (seed0360)**: Root cause: `themerooms_generate()` was running 30 reservoir-sampling `rn2()` calls before checking if a candidate rect is large enough. C performs the small-rect check BEFORE reservoir RNG.
+## Role index order (C ref: role.c roles[] array)
 
----
+**Rogue (7) precedes Ranger (8)** — this is intentional in NetHack (comment in role.c: "Rogue precedes Ranger so that use of `-R' on the command line retains its traditional meaning"). Do not swap them.
 
-## State & Object Management
+## init_dungeons mode (wizard/debug vs normal)
 
-### Object Management
-- **`place_object`**: Places non-boulder objects underneath boulders. Inserts below `BOULDER`s if needed.
-- **`game.level.objects`**: Must be initialized as a 2D array.
-- **Linked Lists**: Extract functions (`extract_nexthere`, `extract_nobj`) must return the new head pointer.
+- **Debug mode** (`playmode:debug` in OPTIONS): skips ALL chance rn2(100) calls (both dungeon and level), skips dungeon-level chance checks. Only calls: first Lua shuffle (rn2(3)+rn2(2)), depth rn2 for ranged dungeons, parent_dlevel rn2, place_level rn2.
+- **Normal mode**: adds 9 dungeon chance rn2(100) + 37 level chance rn2(100) calls = 46 extra rn2 calls.
+- Default chance=100 for all dungeons and levels (from `dungeon.c:1014`: `get_table_int_opt(L, "chance", 100)`). A chance check only skips if `chance <= rn2(100)` AND chance is <100 (bigrm has chance=40).
 
-### u_init and exper
-- `u_init_role` runs first (inventory/money), then `u_init_race`.
-- `u_init_misc` computes `newpw` and `newhp`.
-- `ini_inv`: invokes `mksobj` for specific types or `mkobj` for `UNDEF_TYP`. Stubbed inner RNG (e.g., `rnd(2)` for `next_ident()` and `rn2(4)` for `blessorcurse` over specific scrolls and potions).
+## Nemesis/leader monster gender flags summary
 
----
+All quest leaders: LORD_CARNARVON, PELIAS, SHAMAN_KARNOV, HIPPOCRATES, KING_ARTHUR, GRAND_MASTER, ARCH_PRIEST, MASTER_OF_THIEVES (Rog), ORION (Ran), LORD_SATO, TWOFLOWER, NORN (Val, female), NEFERET_THE_GREEN (Wiz, female) — all have explicit M2_MALE or M2_FEMALE.
 
-## UI & Display Specifics
+Nemeses with explicit gender: THOTH_AMON (M), CHROMATIC_DRAGON (F), CYCLOPS (M), IXOTH (M), MASTER_KAEN (M), NALZOK (M), MASTER_ASSASSIN (M), SCORPIUS (M), ASHIKAGA_TAKAUJI (M), MASTER_OF_THIEVES (M/Tou), LORD_SURTUR (M).
 
-### Attribute Screens (Ctrl+X)
-- **Display pattern**: Two-page display using `display.clearScreen()` + `display.putstr(NO_COLOR)` + `display.setCursor()` + `nhgetch()`. Each nhgetch call triggers `_preNhgetchHook`, capturing the screen. The two calls produce screens[17] and screens[18] in seed8000.
-- **God names for Tourist (index 10)**: Blind Io (lawful), The Lady (neutral), Offler (chaotic).
-- **Dungeon name**: strip leading "The " from `game.dungeons[0].dname` to get "Dungeons of Doom".
-- **Energy string logic**: "both" if en==enmax==2, "a single" if 1, "all N" if N>2 and full, otherwise "N out of M".
+Nemeses with NO gender (random → rn2(100)): MINION_OF_HUHETOTL (Arc), DARK_ONE (Wiz).
 
-### Terminal Serializer
-- Outputs EVERY cell from `firstCol` to `lastCol`, including blank (ch=' ') cells.
-- Blank cells between non-blank cells produce color-coded spaces. `screensVisuallyEqual()` ignores color differences on space cells.
+## Screen comparison is semantic, not byte-exact
 
----
+`frozen/screen-decode.mjs` `diffCell()` renders cells via `renderCell()` before comparing. DEC line-drawing chars (`\x0e` + 'l') and Unicode box chars ('┌') compare as EQUAL. Map screens can match even though `terminal.serialize()` raw bytes differ from the session JSON. Raw string comparison is misleading — always use the scorer output.
 
-## New Additions
+## putstr() color for plain-text attribute screens
+
+`display.putstr(col, row, str, color, attr)` defaults color to `CLR_GRAY` (7), which emits `\x1b[37m` ANSI escape codes. Session JSON records plain text with no color codes. Must pass `NO_COLOR` (8 → ANSI 39 → no escape codes) explicitly when writing text that should match plain C output. Example: `display.putstr(col, row, str, NO_COLOR, 0)`.
+
+## show_attributes (Ctrl+X) display pattern
+
+Two-page display using `display.clearScreen()` + `display.putstr(NO_COLOR)` + `display.setCursor()` + `nhgetch()`. Each nhgetch call triggers `_preNhgetchHook`, capturing the screen and advancing `_screens[]`. The two nhgetch calls produce screens[17] and screens[18] in the seed8000 session.
+
+God names for Tourist (index 10): Blind Io (lawful), The Lady (neutral), Offler (chaotic). Dungeon name: strip leading "The " from `game.dungeons[0].dname` to get "Dungeons of Doom" (the article comes from the sentence context). Energy string: "both" if en==enmax==2, "a single" if 1, "all N" if N>2 and full, otherwise "N out of M".
+
+## newpw() enadv.inrnd per role
+
+`newpw()` (exper.c, called from u_init at ulevel=0) calls `rnd(urole.enadv.inrnd)` if > 0. Role values from role.c:
+- Arc=0, Bar=0, Cav=0, **Hea=4**, **Kni=4**, **Mon=2**, **Pri=3**, Rog=0, Ran=0, Sam=0, Tou=0, Val=0, **Wiz=3**
+All race enadv.inrnd values are 0 — no rnd() call for urace.enadv.inrnd ever fires.
+
+## vault fallback: create_vault() must be called
+
+C makelevel:1334: `else if (rnd_rect() && create_vault())`. `create_vault()` calls `create_room` with vault=TRUE. The do-while loop inside create_room retries `rnd_rect()` up to 101 times when the vault rect is too small (vault needs dx=dy=1 plus xlim/ylim padding; no rn2 for dx/dy so retries produce ONLY consecutive rnd_rect calls). For seed0360: 1 outer rnd_rect (the condition check) + 101 inner = 102 consecutive rn2(2) at positions 1217–1318.
+
+Fix: `else if (rnd_rect() && create_vault()) { ... handle result ... }` — always call create_vault().
+
+## fill phase: fastforward_fill_mineralize is seed8000-only
+
+`fastforward_fill_mineralize()` starts with `rn2(8)` for `rn2(fillable_room_count)`. Different sessions have 6–9 fillable rooms, so `rn2(8)` is wrong for them. The fill phase requires real implementation:
+1. `rn2(fillable_room_count)` to choose bonus-item room
+2. `fill_ordinary_room` per room → `makemon` (random monster selection via `rndmonst_adj`)
+3. `fill_special_room` per special room (shops, temples, etc.)
+
+`rndmonst_adj` does weighted reservoir sampling over eligible monsters filtered by level difficulty. At level 1 wizard debug, only ~3 eligible monsters (produces rn2(3), rn2(4), rn2(5)).
+
+## mklev makerooms divergence pattern (seed0360)
+
+For seed0360 (Wizard, debug mode), RNG matches through all pre-mklev init (indices 0–1217), then diverges at 1218. C has 102 consecutive `rn2(2)=? @ rnd_rect(rect.c:106)` calls at positions 1217–1318 with no other RNG interleaved, followed by `rn2(7)=5 @ generate_stairs_find_room`.
+
+JS instead produces `rn2(7)=1 @ make_niches` at position 1218 — meaning our makerooms exits early (only 8 rooms placed, rect_cnt=2 still has rects to try), then proceeds to make_niches/generate_stairs.
+
+Root cause: our `themerooms_generate()` unconditionally runs 30 reservoir-sampling `rn2()` calls before checking if a candidate rect is large enough for any room. C apparently performs the small-rect check BEFORE consuming reservoir RNG, so failed small rects add exactly 0 extra RNG. Fix: add early size check at the top of `themerooms_generate()` (before reservoir sampling) to return immediately if the rect is too small.
+
+## roles[] and races[] extraction
+- Added automated extraction scripts `scripts/extract-role.py` and `scripts/parse_roles_to_js.js` to parse the `roles` and `races` arrays directly from the C source (`role.c`) and generate `js/roles.js`. This guarantees bit-exact extraction including structs.
+- `STR18(x)` from C translates to `18 + x`. `STR18(100)` is 118.
+- Missing `_CLASS` constants (`ILLOBJ_CLASS`, etc.) added directly matching values in `defsym.h`. `BALL_CLASS` is 15, `CHAIN_CLASS` is 16, `VENOM_CLASS` is 17.
+- Use `C.STR18(x)` directly instead of hardcoding `118` to preserve C macro argument semantics.
+- Use `import * as M from './monst.js'` and `import * as O from './objects.js'` in `js/roles.js` to correctly resolve `M.PM_*` and `O.ART_*` constants because `js/const.js` does not export them. `MH_*` constants were mapped to `M2_*` constants and are found in `js/const.js`.
+## u_init and exper
+- `u_init_role` runs first, allocating inventory and money (`rn1(1000, 1001)` = `1001 + rn2(1000)`).
+- Then `u_init_race` modifies inventory and flags based on species.
+- `u_init_misc` computes `newpw` and `newhp`, relying on `role.enadv`, `role.hpadv` and their racial counterparts. These values were successfully extracted directly from the C data structures.
+- In `u_init`, `ini_inv` invokes `mksobj` for specific types or `mkobj` for `UNDEF_TYP` (with specific fallback loop logic). As the item engine `Stream D` is not complete, we stubbed the inner rng consumption sequence (like `rnd(2)` for `next_ident()` and `rn2(4)` for `blessorcurse` over specific scrolls and potions).
+## Chargen terminal display mechanics
+
+**Banner placement**: `tty_init_nhwindows()` writes the copyright banner at rows 4-7 (1-indexed rows 4-7 = 0-indexed rows 4-7). The banner line with "Version X.Y.Z" is normalized away by the scorer. Use `NO_COLOR` for all banner/prompt writes to avoid color-code differences.
+
+**"Is this ok?" overlay column clearing**: C's TTY menu system calls `docorner(offx=41)` → `tty_curs(BASE_WINDOW, 41, y); cl_end()`. NetHack columns are 1-indexed, so col 41 (1-indexed) = col 40 (0-indexed). `cl_end()` clears from col 40 to EOL. This is why the banner text at col 40 (e.g., the 'u' from "Centrum" in row 5) is blank — it was cleared. Fix: in our implementation, clear cols 40-79 (not 41-79).
+
+**"Is this ok?" option columns**: The offx computed by C for this menu is 41. All options are written at col 41 (0-indexed):
+- Row 4: "y * Yes; start game" (selected, asterisk marker)
+- Row 5: "n - No; choose role again" (unselected)
+- Row 6: "a - Not yet; choose another name" (normalized away)
+- Row 7: "q - Quit"
+- Row 8: "(end)"
+
+**Terminal serializer blank cells within a row**: The `terminal.serialize()` function outputs EVERY cell from firstCol to lastCol, including blank (ch=' ') cells in between. Blank cells between non-blank cells produce color-coded spaces in the output (e.g., ESC[37m + spaces + ESC[39m if color is CLR_GRAY). `screensVisuallyEqual()` ignores color differences on space cells, so this doesn't affect scoring.
+
+**Manual vs auto chargen display state**:
+- Auto ('y' at "Shall I pick?"): no menus shown, banner stays at rows 4-7, name-prompt stays at row 12. "Is this ok?" shows banner (cols 0-39) + options (cols 41+) + name at row 12.
+- Manual ('n' at "Shall I pick?"): C's role menu is full-screen (too many items), clears the entire display. After menu sequence, banner and name-prompt are gone. "Is this ok?" shows only options with empty background. Fix: `display.clearScreen()` before `_putIsThisOk` for the manual path.
+## Object Management
 
 - `place_object` places non-boulder objects underneath boulders. It follows `game.level.objects[x][y]` and inserts below `BOULDER`s if needed.
 - `game.level.objects` must be initialized as a 2D array, rather than a flat array as originally seen.
@@ -187,8 +212,3 @@ Gender indices: 0=male, 1=female. Align indices: 0=chaotic, 1=neutral, 2=lawful.
 - `DEADMONSTER` macro in C translates to `mon.mhp < 1`. Checking whether `mhp` is below 1 is necessary, especially because `DEADMONSTER(mon)` check comes before asserting vault guards in `place_monster()`, hence they can theoretically have 0 HP and trigger impossible states.
 - The `next_ident()` function maintains ID for generated objects and monsters and is statefully shared via `svc.context.ident`. Ported this to `game.context.ident`, initialized on `resetGame()`, to ensure matching PRNG loops with `rnd(2)` calls.
 - `m_at(x, y)` macro directly wraps `svl.level.monsters[x][y]` in C, bypassing `mon.mburied` flag when `mburied` isn't compiled. Handled using simple map checks in JS.
-<!-- 
-APPEND NEW LEARNINGS HERE. 
-The Librarian will periodically integrate these into the thematic sections above. 
-Keep entries detailed; include C references, bitmasks, and specific RNG counts.
--->

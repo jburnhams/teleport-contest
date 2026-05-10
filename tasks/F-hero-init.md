@@ -13,7 +13,7 @@ Port hero initialization — stats, starting inventory, skills, attributes. This
 - [x] Read C `src/u_init.c` — full `u_init()` function
 - [x] Port `u_init()` — main hero setup: race/role/gender/alignment applied to `game.u`
 - [x] Port role-specific stat distributions (`init_attr()` from attrib.c)
-- [x] Port skill initialization (`skill_init()` from `weapon.c`)
+- [ ] Port skill initialization (`skill_init()` from weapon.c)
 - [x] Port alignment record initialization
 - [x] Port initial HP/energy calculation
 - [x] Port `adjabil()` — racial attribute adjustments
