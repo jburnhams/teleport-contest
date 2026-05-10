@@ -8,7 +8,10 @@
 import { game } from './gstate.js';
 import { GameMap } from './game.js';
 import { rn2, rnd, rn1 } from './rng.js';
-import { next_ident } from './mkobj.js';
+import {
+    next_ident, mkobj, mksobj, mksobj_at, mkobj_at, mkgold,
+    blessorcurse_simple as blessorcurse, place_object, curse, weight
+} from './mkobj.js';
 import { init_rect, rnd_rect, get_rect, split_rects } from './rect.js';
 import { depth as depth_of_level, level_difficulty } from './hacklib.js';
 import {
@@ -178,79 +181,11 @@ function oinit() { /* no-op for contest */ }
 
 
 // ============================================================
-// Stub functions for object/monster/trap creation
+// Stub functions for monster/trap creation
 // These consume the exact RNG calls that C makes.
 // ============================================================
 
-let _nextObjId = 1;
-
-
-// C ref: mkobj.c blessorcurse — rn2(4) BUC selection
-function blessorcurse(otmp) {
-    const r = rn2(4);
-    if (otmp) {
-        otmp.cursed = (r === 0);
-        otmp.blessed = false;
-    }
-}
-
-// C ref: mkobj.c mksobj — create a specific object
-// Minimal stub: consumes RNG for next_ident + type-specific init
-function mksobj(otyp, init, artif) {
-    const otmp = { otyp, ox: 0, oy: 0, quan: 1, owt: 1, cursed: false, blessed: false, olocked: false, spe: 0 };
-    next_ident();
-    if (init) {
-        mksobj_init(otmp, otyp);
-    }
-    return otmp;
-}
-
-// C ref: mkobj.c mksobj initialization RNG consumption
-// This varies by object class. For the contest, we need enough to match
-// the session's RNG pattern for objects created during mklev.
-function mksobj_init(otmp, otyp) {
-    // For BOULDER, GOLD_PIECE: no extra init RNG
-    // For scrolls: blessorcurse
-    // For potions: blessorcurse
-    // For general objects: varies
-    // We just do blessorcurse for scrolls/potions
-    if (otyp >= 270 && otyp < 300) { // scrolls
-        blessorcurse(otmp);
-    } else if (otyp >= 230 && otyp < 270) { // potions
-        blessorcurse(otmp);
-    }
-}
-
-function mksobj_at(otyp, x, y, init, artif) {
-    return mksobj(otyp, init, artif);
-}
-
-function mkobj(oclass, artif) {
-    // Class-based random object creation
-    // For contest, just consume the right RNG
-    return mksobj(0, false, artif);
-}
-
-function mkobj_at(oclass, x, y, artif) {
-    return mkobj(oclass, artif);
-}
-
-function mkgold(amount, x, y) {
-    // C ref: mkobj.c mkgold()
-    if (amount <= 0) {
-        // C ref: mkobj.c:2008-2010
-        const depthVal = depth_of_level(game.u?.uz);
-        const mul = rnd(Math.trunc(30 / Math.max(12 - depthVal, 2)));
-        amount = 1 + rnd(level_difficulty() + 2) * mul;
-    }
-    // mksobj_at(GOLD_PIECE) calls next_ident
-    next_ident();
-}
-
-function place_object(otmp, x, y) { /* stub */ }
 function dealloc_obj(otmp) { /* stub */ }
-function curse(otmp) { if (otmp) otmp.cursed = true; }
-function weight(otmp) { return otmp?.owt || 1; }
 function add_to_container(container, otmp) { /* stub */ }
 function sobj_at(otyp, x, y) { return false; }
 
