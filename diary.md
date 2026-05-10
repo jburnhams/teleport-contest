@@ -185,3 +185,12 @@ Most frequent first-divergence locations across 44 canonical sessions:
       1     Context from C log: @ newpw(exper.c:52)
       1     Context from C log: @ fill_ordinary_room(mklev.c:998)
       1     Context from C log: @ blessorcurse(mkobj.c:1848)
+
+## 2026-05-10
+- Completed Stream F1: Port skill initialization (`skill_init()` from `weapon.c`).
+- Extracted and mapped the `P_` skill constants to `js/const.js` and removed duplicates previously introduced.
+- Ported the full `skills_for_role()` array lists (`Skill_A`, `Skill_B`, etc.) to `js/u_init.js`.
+- Implemented `skill_init()` correctly in `js/u_init.js`, setting weapon skills to `P_BASIC` depending on the initial inventory, unrestricting role-specific spells, and enforcing skill limits `max_skill` and `advance` based on the selected role's skill map list.
+- Fixed a bug where `Role_switch` was utilizing an arbitrarily manufactured integer instead of the exact standard constant map (`PM_ARCHEOLOGIST = 0`, `PM_PONY = 252`). The mapping has now been correctly added to `js/const.js`.
+- The `P_PONY` riding skill edge case has been resolved and is actively checking `PM_PONY` property correctly without omitting C-code parity.
+- Tested and verified the updated codebase via `npm run score:check` retaining the benchmark `88 / 11406 screens` without regressions.
