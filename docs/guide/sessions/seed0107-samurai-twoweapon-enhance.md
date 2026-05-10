@@ -1,6 +1,6 @@
 # seed0107: Bushi's Blade and Bone
 
-**Subsystem Focus:** Validates the `#twoweapon` and `#sit` extended commands, and the engine's ability to process multiple-weapon equipment states.
+**Subsystem Focus**: Validates the `#twoweapon` and `#sit` extended commands, and the engine's ability to process multiple-weapon equipment states.
 
 This session serves as a rigorous mechanical validation of the engine's equipment and posture subroutines. The user entity—a human Samurai named *Bushi*—demonstrates the engine's ability to handle the specialised "two-weapon" combat state and the environmental interactions of the "sit" command.
 

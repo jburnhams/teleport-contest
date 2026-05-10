@@ -1,6 +1,6 @@
 # seed0200: Kira and the Forbidden Feast
 
-**Subsystem Focus:** Validates Monk-specific vegetarianism constraints, nutritional status changes, and the ethical-penalty subroutines.
+**Subsystem Focus**: Validates Monk-specific vegetarianism constraints, nutritional status changes, and the ethical-penalty subroutines.
 
 This session serves as a rigorous mechanical validation of the engine's role-based ethical constraints. The user entity—a human Monk named *Kira*—demonstrates the engine's ability to calculate nutritional state changes while simultaneously applying the psychological and luck penalties associated with violating a monastic vow of vegetarianism.
 

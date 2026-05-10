@@ -1,6 +1,6 @@
 # seed0105: Astrid and the Wall
 
-**Subsystem Focus:** Validates the `#chat` extended command, the `eat` interaction state machine, and the error-handling subroutines for invalid object selection.
+**Subsystem Focus**: Validates the `#chat` extended command, the `eat` interaction state machine, and the error-handling subroutines for invalid object selection.
 
 This session serves as a rigorous mechanical validation of the engine's UI state machine and interaction boundary checks. The user entity—a human Valkyrie named *Astrid*—demonstrates the engine's ability to handle conversational failure and the systematic rejection of invalid inventory items.
 
