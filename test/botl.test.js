@@ -67,4 +67,33 @@ describe('bot2', () => {
         game.flags.showexp = false;
         expect(bot2()).toBe('Dlvl:1 $:757 HP:10(10) Pw:2(2) AC:10 Xp:1 T:2');
     });
+
+    it('should show status conditions', () => {
+        game.u.ustoned = true;
+        game.u.ublind = true;
+        game.u.uhs = 2; // Hungry
+        game.u.ucap = 1; // Burdened
+        expect(bot2()).toContain('Stone');
+        expect(bot2()).toContain('Blind');
+        expect(bot2()).toContain('Hungry');
+        expect(bot2()).toContain('Burdened');
+    });
+
+    it('should show sickness conditions', () => {
+        game.u = { ...game.u, ustoned: false, ublind: false, uhs: 1, ucap: 0 };
+        game.u.usick_type = 1; // FoodPois
+        expect(bot2()).toContain('FoodPois');
+        game.u.usick_type = 2; // TermIll
+        expect(bot2()).toContain('TermIll');
+    });
+
+    it('should show movement conditions', () => {
+        game.u = { ...game.u, usick_type: 0 };
+        game.u.ulev = true;
+        game.u.ufly = true;
+        game.u.usteed = true;
+        expect(bot2()).toContain('Lev');
+        expect(bot2()).toContain('Fly');
+        expect(bot2()).toContain('Ride');
+    });
 });
