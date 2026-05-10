@@ -395,21 +395,21 @@ export function ini_inv_mkobj_filter(oclass, got_level1_spellbook) {
     // Simplistic stub just recreating the same C loop structure
     // Since gn.nocreate etc aren't fully implemented in our JS, we'll just check the base case.
     while (
-        otyp === 323 || // WAN_WISHING
-        otyp === 309 || // RIN_LEVITATION
-        otyp === 231 || // POT_HALLUCINATION
-        otyp === 252 || // POT_ACID
-        otyp === 289 || // SCR_AMNESIA
-        otyp === 280 || // SCR_FIRE
-        otyp === 297 || // SCR_BLANK_PAPER
-        otyp === 341 || // SPE_BLANK_PAPER
-        otyp === 302 || // RIN_AGGRAVATE_MONSTER
-        otyp === 303 || // RIN_HUNGER
-        otyp === 322 || // WAN_NOTHING
-        (obj.oclass === 10 && objects[otyp].oc_level > (got_level1_spellbook ? 3 : 1)) // SPBOOK_CLASS
+        otyp === WAN_WISHING || // WAN_WISHING
+        otyp === RIN_LEVITATION || // RIN_LEVITATION
+        otyp === POT_HALLUCINATION || // POT_HALLUCINATION
+        otyp === POT_ACID || // POT_ACID
+        otyp === SCR_AMNESIA || // SCR_AMNESIA
+        otyp === SCR_FIRE || // SCR_FIRE
+        otyp === SCR_BLANK_PAPER || // SCR_BLANK_PAPER
+        otyp === SPE_BLANK_PAPER || // SPE_BLANK_PAPER
+        otyp === RIN_AGGRAVATE_MONSTER || // RIN_AGGRAVATE_MONSTER
+        otyp === RIN_HUNGER || // RIN_HUNGER
+        otyp === WAN_NOTHING || // WAN_NOTHING
+        (obj.oclass === SPBOOK_CLASS && objects[otyp].oc_level > (got_level1_spellbook ? 3 : 1)) // SPBOOK_CLASS
     ) {
         if (++trycnt > 1000) {
-            obj = mksobj(364, true, false); // PANCAKE
+            obj = mksobj(PANCAKE, true, false); // PANCAKE
             break;
         }
         obj = mkobj(oclass, false);

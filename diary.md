@@ -185,3 +185,12 @@ Most frequent first-divergence locations across 44 canonical sessions:
       1     Context from C log: @ newpw(exper.c:52)
       1     Context from C log: @ fill_ordinary_room(mklev.c:998)
       1     Context from C log: @ blessorcurse(mkobj.c:1848)
+
+## 2026-05-10 — Stream D2 Object Creation (mkobj)
+
+- Ported \`mksobj\`, \`mkobj\`, \`mksobj_init\`, \`bless\`, \`curse\`, \`blessorcurse\` to \`js/mkobj.js\`.
+- Ported \`rnd_class\` to \`js/mkobj.js\`.
+- Ported \`init_oclass_probs\`, \`setup_bases\`, and \`setgemprobs\` to \`js/o_init.js\` so that \`rnd_class\` can look up probability totals per object class correctly.
+- Ported \`ini_inv_mkobj_filter\` to \`js/u_init.js\` to filter out powerful generated items (e.g. \`WAN_WISHING\`) during initial inventory creation, which is necessary to preserve exact RNG parity.
+- Fixed an issue where the wrong \`blessorcurse\` chance value caused an RNG divergence for \`seed8000-tourist-starter.session.json\`.
+- All RNG paths pass baseline validation with no regressions in \`npm run score:check\`.
