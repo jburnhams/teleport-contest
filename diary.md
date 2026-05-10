@@ -95,6 +95,7 @@ After vault fix + newpw fix, most fully-specified sessions now diverge in the fi
 
 Next: implement real fill phase (replace `fastforward_fill_mineralize` for non-seed8000).
 
+---
 ## YYYY-MM-DD
 
 - Completed Stream D Sub-task D1 & D3 (Object System).
@@ -111,10 +112,54 @@ Next: implement real fill phase (replace `fastforward_fill_mineralize` for non-s
 - Fixed `mkgold()` utilizing `level_difficulty()` and `depth()` ported to `hacklib.js`.
 ## 2026-05-10
 
+## 2026-05-10 — Chargen display UI (+67 screens)
+
+### Chargen screen rendering
+
+Implemented the full chargen display in `js/chargen.js` so interactive sessions (8 sessions with no role/race/gender/align in OPTIONS) now produce matching terminal screens during character creation.
+
+**What was implemented:**
+- `_putBanner(display)`: writes copyright banner at rows 4-7 (C ref: `tty_init_nhwindows()`)
+- `_putNamePrompt(display, name)`: writes "Who are you? " + typed chars at row 12
+- `_putShallIPick(display, prompt)`: writes "Shall I pick?" prompt at row 0
+- `_putIsThisOk(display, fullDesc)`: overlays "Is this ok? [ynaq]" with menu options on the startup screen
+- `buildHeroDesc(st, name)`: constructs the hero description string for row 2
+
+**Key technical findings:**
+
+1. **ATR_INVERSE = 1 (not 0x10)** — must import from terminal.js, not hard-code.
+
+2. **Column clearing for "Is this ok?" overlay**: C's `docorner(offx=41)` calls `tty_curs(BASE_WINDOW, 41, y)` + `cl_end()`. NetHack uses 1-indexed columns, so `tty_curs(41)` moves to 0-indexed col 40 and `cl_end()` clears from col 40 to EOL. This leaves banner text at cols 0-39 intact but clears cols 40-79. Our fix: clear cols 40-79 (not 41-79) and write options at col 41.
+
+3. **Terminal serializer behavior**: blank cells (ch=' ') between non-blank cells ARE output as characters (not as ESC[NC). The ESC[NC skip is ONLY for leading blank cells. So the color of blank cells affects the serialized output (e.g., CLR_GRAY cells between content → ESC[37m spaces). The `screensVisuallyEqual()` function ignores color on space cells, so this mismatch doesn't matter for scoring.
+
+4. **Manual path ('n') clears banner**: C's full-screen role menu (used when there are many roles) calls clearScreen. After the role/race/gender menus, the banner at rows 4-7 and the name prompt at row 12 are gone. Fix: call `display.clearScreen()` before `_putIsThisOk` for the manual pick path.
+
+5. **Auto path ('y') preserves banner**: When the user presses 'y' at "Shall I pick?", no full-screen menus are shown, and the banner/name-prompt remain. The "Is this ok?" screen has banner text (cols 0-39) + options (cols 41+).
+
+**Score result**: 21 → 88 matching screens total (+67). Chargen sessions now each match 7-9 screens.
+
+### Sessions improved
+- seed0002 (Healer, auto): 0 → 8 screens
+- seed0004 (Tetra, auto): 0 → 8 screens  
+- seed0006 (Wizard, manual): 0 → 9 screens
+- seed0007 (Rogue, auto): 0 → 9 screens
+- seed0009 (Swimmer, auto): 0 → 9 screens
+- seed0012 (Monk, manual): 0 → 9 screens
+- seed0014 (Dequa, manual): 0 → 7 screens
+- seed0077 (Rogue, manual): 0 → 8 screens
+
+### What's next
+- Role/race/gender selection menus (for manual path, steps 7-9 type) — would add 3+ screens per manual-pick session
+- u_init (hero initialization) to replace hardcoded Tourist state in allmain.js — needed for non-seed8000 post-chargen screens
+- fill_ordinary_room / makemon — needed to unblock RNG divergence at ~position 1009
+
+---
+
+## 2026-05-10 — Stream A: Data Tables
+
 - Worked on Stream A: Data Tables.
-- Generated \`js/monst.js\` from \`monst.c\` and \`monsters.h\` using a custom extractor script.
-- Implemented tests to verify length \`NUMMONS\` and spot-checked \`PM_GIANT_ANT\` and \`PM_NEWT\` to ensure exact matching and proper macro expansion (\`LVL\`, \`SIZ\`, \`ATTK\`).
+- Generated `js/monst.js` from `monst.c` and `monsters.h` using a custom extractor script.
+- Implemented tests to verify length `NUMMONS` and spot-checked `PM_GIANT_ANT` and `PM_NEWT` to ensure exact matching and proper macro expansion (`LVL`, `SIZ`, `ATTK`).
 - Confirmed no regressions in the score.
-
-
 - Fixed `mons[]` extraction script: explicitly expand `SEDUCTION_ATTACKS` so incubus/succubus receive full 6-element attack arrays, correctly parse all bitmasks to remove `L`/`0L` suffixes, and populate `const.js` with missing macros to avoid `undefined` coercion in the generated output.

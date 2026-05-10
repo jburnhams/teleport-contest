@@ -173,6 +173,24 @@ JS instead produces `rn2(7)=1 @ make_niches` at position 1218 — meaning our ma
 
 Root cause: our `themerooms_generate()` unconditionally runs 30 reservoir-sampling `rn2()` calls before checking if a candidate rect is large enough for any room. C apparently performs the small-rect check BEFORE consuming reservoir RNG, so failed small rects add exactly 0 extra RNG. Fix: add early size check at the top of `themerooms_generate()` (before reservoir sampling) to return immediately if the rect is too small.
 
+## Chargen terminal display mechanics
+
+**Banner placement**: `tty_init_nhwindows()` writes the copyright banner at rows 4-7 (1-indexed rows 4-7 = 0-indexed rows 4-7). The banner line with "Version X.Y.Z" is normalized away by the scorer. Use `NO_COLOR` for all banner/prompt writes to avoid color-code differences.
+
+**"Is this ok?" overlay column clearing**: C's TTY menu system calls `docorner(offx=41)` → `tty_curs(BASE_WINDOW, 41, y); cl_end()`. NetHack columns are 1-indexed, so col 41 (1-indexed) = col 40 (0-indexed). `cl_end()` clears from col 40 to EOL. This is why the banner text at col 40 (e.g., the 'u' from "Centrum" in row 5) is blank — it was cleared. Fix: in our implementation, clear cols 40-79 (not 41-79).
+
+**"Is this ok?" option columns**: The offx computed by C for this menu is 41. All options are written at col 41 (0-indexed):
+- Row 4: "y * Yes; start game" (selected, asterisk marker)
+- Row 5: "n - No; choose role again" (unselected)
+- Row 6: "a - Not yet; choose another name" (normalized away)
+- Row 7: "q - Quit"
+- Row 8: "(end)"
+
+**Terminal serializer blank cells within a row**: The `terminal.serialize()` function outputs EVERY cell from firstCol to lastCol, including blank (ch=' ') cells in between. Blank cells between non-blank cells produce color-coded spaces in the output (e.g., ESC[37m + spaces + ESC[39m if color is CLR_GRAY). `screensVisuallyEqual()` ignores color differences on space cells, so this doesn't affect scoring.
+
+**Manual vs auto chargen display state**:
+- Auto ('y' at "Shall I pick?"): no menus shown, banner stays at rows 4-7, name-prompt stays at row 12. "Is this ok?" shows banner (cols 0-39) + options (cols 41+) + name at row 12.
+- Manual ('n' at "Shall I pick?"): C's role menu is full-screen (too many items), clears the entire display. After menu sequence, banner and name-prompt are gone. "Is this ok?" shows only options with empty background. Fix: `display.clearScreen()` before `_putIsThisOk` for the manual path.
 ## Object Management
 
 - `place_object` places non-boulder objects underneath boulders. It follows `game.level.objects[x][y]` and inserts below `BOULDER`s if needed.
