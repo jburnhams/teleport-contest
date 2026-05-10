@@ -2,8 +2,18 @@ import { game } from './gstate.js';
 import { BOTL_NSIZ, A_CHAOTIC, A_NEUTRAL, A_LAWFUL, COLNO, A_STR, A_DEX, A_CON, A_INT, A_WIS, A_CHA } from './const.js';
 
 function get_strength_str() {
-    const st = game.u?.acurr?.a?.[0] || '?';
-    return st;
+    const st = game.u?.acurr?.a?.[0] || 0;
+    if (st > 18) {
+        if (st > 118) {
+            return (st - 100).toString().padStart(2, ' ');
+        } else if (st < 118) {
+            return `18/${(st - 18).toString().padStart(2, '0')}`;
+        } else {
+            return '18/**';
+        }
+    } else {
+        return st.toString().padEnd(1, ' ');
+    }
 }
 
 export function bot1() {
@@ -25,13 +35,17 @@ export function bot1() {
     const gap = Math.max(1, 31 - title.length);
     let output = '';
 
-    const statsStr = `St:${get_strength_str()} Dx:${game.u?.acurr?.a?.[1] || '?'} Co:${game.u?.acurr?.a?.[2] || '?'} In:${game.u?.acurr?.a?.[3] || '?'} Wi:${game.u?.acurr?.a?.[4] || '?'} Ch:${game.u?.acurr?.a?.[5] || '?'}`;
+    const u = game.u;
+    const statsStr = `St:${get_strength_str()} Dx:${u.acurr?.a?.[1] || '?'} Co:${u.acurr?.a?.[2] || '?'} In:${u.acurr?.a?.[3] || '?'} Wi:${u.acurr?.a?.[4] || '?'} Ch:${u.acurr?.a?.[5] || '?'}`;
 
-        const alignType = game.u?.ualign?.type ?? 0;
+    const alignType = game.u.ualign?.type ?? 0;
     const alignStr = alignType === A_CHAOTIC ? " Chaotic" : alignType === A_NEUTRAL ? " Neutral" : " Lawful";
 
-    if (gap > 4) output = `${title}\x1b[${gap}C${statsStr}${alignStr}`;
-    else output = `${title}${' '.repeat(gap)}${statsStr}${alignStr}`;
+    if (gap > 4) {
+        output = `${title}\x1b[${gap}C${statsStr}${alignStr}`;
+    } else {
+        output = `${title}${' '.repeat(gap)}${statsStr}${alignStr}`;
+    }
 
     return output;
 }
@@ -107,7 +121,8 @@ export function bot2() {
     if (game.u.ufly) cond += " Fly";
     if (game.u.usteed) cond += " Ride";
 
-    let newbot2 = `Dlvl:${game.u?.uz?.dlevel || 1} $:${game._goldCount || 0} HP:${game.u?.uhp || 0}(${game.u?.uhpmax || 0}) Pw:${game.u?.uen || 0}(${game.u?.uenmax || 0}) AC:${game.u?.uac ?? 10} Xp:${game.u?.ulevel || 1}/${game.u?.uexp || 0} T:${game.moves || 1}`;
+    let acStr = uac.toString().padEnd(2, ' ');
+    let newbot2 = `Dlvl:${dlvl} $:${Math.min(money, 999999)} HP:${Math.min(hp, 9999)}(${Math.min(hpmax, 9999)}) Pw:${Math.min(uen, 9999)}(${Math.min(uenmax, 9999)}) AC:${acStr} ${expr}${tmmv}${cond}`;
 
     return newbot2;
 }
