@@ -2,9 +2,11 @@ import fs from 'fs';
 
 let jsOutput = "import * as C from './const.js';\n\nexport const roles = [\n";
 
-// We need to regenerate js/roles.js as it somehow got lost/reset
 const cText = fs.readFileSync('/tmp/roles_intermediate.js', 'utf8');
-let text = cText.substring(cText.indexOf('{') + 1, cText.lastIndexOf('}'));
+
+// STRIP #if 0 ... #endif
+let cleanText = cText.replace(/#if 0[\s\S]*?#endif/g, '');
+let text = cleanText.substring(cleanText.indexOf('{') + 1, cleanText.lastIndexOf('}'));
 
 function extractArrayItems(str) {
     let items = [];
@@ -100,7 +102,8 @@ function processCStructToJs(text) {
     for (let p of prefixes) {
         text = text.replace(new RegExp('\\b(' + p + '[A-Za-z0-9_]+)\\b', 'g'), 'C.$1');
     }
-    text = text.replace(/STR18\(([0-9]+)\)/g, '118');
+    // STR18 logic uses C.STR18()
+    text = text.replace(/STR18\(([0-9]+)\)/g, 'C.STR18($1)');
     return text;
 }
 let textRacesProc = processCStructToJs(textRacesStr);
@@ -122,7 +125,7 @@ raceBlocks.forEach(block => {
     let attrmin = fields[12];
     jsOutput += `        attrmin: [ ${attrmin.substring(1, attrmin.length - 1)} ],\n`;
     let attrmax = fields[13];
-    jsOutput += `        attrmax: [ ${attrmax.substring(1, attrmax.length - 1).replace(/118/g, 'C.STR18(100)')} ],\n`;
+    jsOutput += `        attrmax: [ ${attrmax.substring(1, attrmax.length - 1)} ],\n`;
     let hpadv = extractArrayItems(fields[14].substring(1, fields[14].length - 1));
     jsOutput += `        hpadv: { infix: ${hpadv[0]}, inrnd: ${hpadv[1]}, lofix: ${hpadv[2]}, lornd: ${hpadv[3]}, hifix: ${hpadv[4]}, hirnd: ${hpadv[5]} },\n`;
     let enadv = extractArrayItems(fields[15].substring(1, fields[15].length - 1));

@@ -652,7 +652,7 @@ export const races = [
         lovemask: C.MH_DWARF | C.MH_GNOME,
         hatemask: C.MH_HUMAN,
         attrmin: [  3, 3, 3, 3, 3, 3  ],
-        attrmax: [  C.STR18(100), 19, 18, 18, 18, 18  ],
+        attrmax: [  C.STR18(50), 19, 18, 18, 18, 18  ],
         hpadv: { infix: 1, inrnd: 0, lofix: 0, lornd: 1, hifix: 0, hirnd: 0 },
         enadv: { infix: 2, inrnd: 0, lofix: 2, lornd: 0, hifix: 2, hirnd: 0 }
     },
@@ -670,7 +670,7 @@ export const races = [
         lovemask: 0,
         hatemask: C.MH_HUMAN | C.MH_ELF | C.MH_DWARF,
         attrmin: [  3, 3, 3, 3, 3, 3  ],
-        attrmax: [  C.STR18(100), 16, 16, 18, 18, 16  ],
+        attrmax: [  C.STR18(50), 16, 16, 18, 18, 16  ],
         hpadv: { infix: 1, inrnd: 0, lofix: 0, lornd: 1, hifix: 0, hirnd: 0 },
         enadv: { infix: 1, inrnd: 0, lofix: 1, lornd: 0, hifix: 1, hirnd: 0 }
     },

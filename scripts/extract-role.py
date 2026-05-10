@@ -9,7 +9,7 @@ def process_c_struct_to_js(text, struct_type):
     for p in prefixes:
         text = re.sub(r'\b(' + p + r'[A-Za-z0-9_]+)\b', r'C.\1', text)
 
-    text = re.sub(r'STR18\(([0-9]+)\)', r'118', text)
+    text = re.sub(r'STR18\(([0-9]+)\)', r'C.STR18(\1)', text)
 
     return text
 

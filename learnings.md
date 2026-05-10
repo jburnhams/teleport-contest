@@ -177,3 +177,4 @@ Root cause: our `themerooms_generate()` unconditionally runs 30 reservoir-sampli
 - Added automated extraction scripts `scripts/extract-role.py` and `scripts/parse_roles_to_js.js` to parse the `roles` and `races` arrays directly from the C source (`role.c`) and generate `js/roles.js`. This guarantees bit-exact extraction including structs.
 - `STR18(x)` from C translates to `18 + x`. `STR18(100)` is 118.
 - Missing `_CLASS` constants (`ILLOBJ_CLASS`, etc.) added directly matching values in `defsym.h`. `BALL_CLASS` is 15, `CHAIN_CLASS` is 16, `VENOM_CLASS` is 17.
+- Use `C.STR18(x)` directly instead of hardcoding `118` to preserve C macro argument semantics.
