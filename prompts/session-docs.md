@@ -1,0 +1,1 @@
+review session docs (docs/guide/sessions) - for each one the source data is in data dir. review them against docs/guide/STYLEGUIDE.md and see if any can be improved
