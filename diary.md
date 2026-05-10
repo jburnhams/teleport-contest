@@ -200,3 +200,10 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Wrote vitest suite (`test/mondata.test.js`) verifying `monsndx` index retrieval and evaluating several bitflags against `mons[0]` (Giant Ant).
 - Achieved +0 regression score (88/11406 screens baseline) in validation.
 - Next step: Stream E3, the `makemon` core monster generation.
+
+## 2024-05-10
+- Implemented random monster selection logic (`rndmonnum`, `rndmonst`, and `_adj` variants) in `js/mkmon.js`.
+- Moved constants for difficulty alignment logic (`montooweak`, `montoostrong`, `monmin_difficulty`, `monmax_difficulty`) into `js/mondata.js`.
+- Fixed the PRNG seed setup and successfully wrote separate test files (`mkmon.test.js`, `mkmon-rnd.test.js`) to handle unmocked PRNG.
+- Successfully passed the regression check preserving 88/11406 score!
+- Next: Move onto `goodpos` and `enexto` functionality!
