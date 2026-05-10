@@ -115,10 +115,44 @@ Analysed the full RNG init sequence by reading:
 ---
 
 ## New Additions
-
 <!-- 
 APPEND NEW LOG ENTRIES HERE. 
 The Diary Secretary will periodically merge these into the chronological sections above. 
 Keep entries technical; include file names, function names, and specific findings.
 Use ## YYYY-MM-DD for new headers if you know the date.
 -->
+
+## 2024-05-15
+- Completed Stream A subtasks A3 and A4.
+- Extracted and formatted `roles`, `races`, `aligns`, and `genders` tables from C source into `js/roles.js`.
+- Confirmed missing object class constants (`WEAPON_CLASS`, etc.) in `js/const.js` and added/corrected them.
+- Verified test `test/roles.test.js` passes and `npm run score:check` maintains parity without regressions.
+- What's next: Begin work on Stream D (Object System) or Stream E (Monster System) since Stream A dependencies are met.
+Baseline pass rate (chargen+mklev): 100% (20/20)
+Most frequent first-divergence locations across 44 canonical sessions:
+      8     Context from C log: @ makelevel(mklev.c:1410)
+      6     Context from C log: @ lspo_map(sp_lev.c:6163)
+      6     Context from C log: @ fill_special_room(sp_lev.c:2769)
+      3     Context from C log: @ mkobj(mkobj.c:281)
+      2     Context from C log: @ somex(mkroom.c:669)
+      2     Context from C log: @ mkclass_aligned(makemon.c:1946)
+      2     Context from C log: @ makelevel(mklev.c:1295)
+      1     Context from C log: @ traptype_rnd(mklev.c:1951)
+      1     Context from C log: @ nh.rn2 src=themerms.lua:1039 parent=room([C]:-1)
+      1     Context from C log: @ newpw(exper.c:52)
+      1     Context from C log: @ fill_ordinary_room(mklev.c:998)
+      1     Context from C log: @ blessorcurse(mkobj.c:1848)
+
+## 2026-05-10
+
+- Reviewed Stream A tasks (`tasks/A-data-tables.md`).
+- Confirmed that sub-tasks A1, A2, A3, and A4 are already marked as `[x]`.
+- As Stream A is fully complete and verified with no remaining sub-tasks, no new code changes were necessary in this session.
+- Next steps should proceed with Stream D (Object System) or Stream E (Monster System), as their dependencies on Stream A are now met.
+
+### Implementation Verification
+
+- Deep-dived into `scripts/extract-objects.js` and `scripts/extract-mons.js`. They are solidly built using simple but robust recursive bracket parsing to capture multi-line C macros from headers. Running them regenerates exact, bit-identical data into `js/objects.js` and `js/monst.js`.
+- Reviewed `extract-role.py` and `parse_roles_to_js.js`; these clearly processed `src/role.c` via intermediate temp files to build `js/roles.js`.
+- Validated `js/const.js` contains the added missing enums (e.g., `WEAPON_CLASS`, `S_ANT`, `G_NOGEN`) required for stream alignment.
+- This codebase layer (Stream A) is rock solid and completely ready to support upcoming work streams.
