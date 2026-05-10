@@ -1,13 +1,15 @@
-import { describe, it, expect, beforeEach } from 'vitest';
+import { describe, it, expect, beforeEach, vi } from 'vitest';
 import { rhack } from '../js/cmd.js';
 import { game, resetGame } from '../js/gstate.js';
 import { GameMap } from '../js/game.js';
 import { init_vision_globals, vision_reset, vision_recalc } from '../js/vision.js';
 import { ROOM } from '../js/const.js';
+import { pushKeys, resetInputState } from '../js/input.js';
 
 describe('cmd.js', () => {
     beforeEach(() => {
         resetGame();
+        resetInputState();
         init_vision_globals();
         game.level = new GameMap();
         for (let y = 0; y < 21; y++) {
@@ -28,13 +30,38 @@ describe('cmd.js', () => {
         expect(game.context.move).toBe(1);
     });
 
-    it('handles searching with "s"', async () => {
-        await rhack('s'.charCodeAt(0));
-        expect(game.context.move).toBe(1);
+    it('handles spells with "+"', async () => {
+        pushKeys(' '); // Space to dismiss message
+        await rhack('+'.charCodeAt(0));
+        expect(game.context.move).toBe(0);
     });
 
-    it('handles unknown commands', async () => {
-        await rhack('?'.charCodeAt(0));
+    it('handles looking with ":"', async () => {
+        pushKeys(' '); // Space to dismiss message
+        await rhack(':'.charCodeAt(0));
+        expect(game.context.move).toBe(0);
+    });
+
+    it('handles attribute display with Ctrl+X', async () => {
+        // Mock nhDisplay
+        game.nhDisplay = {
+            clearScreen: vi.fn(),
+            putstr: vi.fn(),
+            setCursor: vi.fn()
+        };
+        
+        pushKeys('  '); // Two spaces for two pages
+        // Ctrl+X is 0x18
+        await rhack(0x18);
+        
+        expect(game.nhDisplay.clearScreen).toHaveBeenCalled();
+        expect(game.nhDisplay.putstr).toHaveBeenCalled();
+    });
+
+    it('handles blocking movement', async () => {
+        game.level.at(11, 10).typ = 1; // Wall
+        await rhack('l'.charCodeAt(0));
+        expect(game.u.ux).toBe(10); // Didn't move
         expect(game.context.move).toBe(0);
     });
 });

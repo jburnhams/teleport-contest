@@ -1,5 +1,5 @@
-import { describe, it, expect, beforeEach } from 'vitest';
-import { newsym, docrt, show_glyph_cell, pline } from '../js/display.js';
+import { describe, it, expect, beforeEach, vi } from 'vitest';
+import { newsym, docrt, show_glyph_cell, pline, flush_screen, bot } from '../js/display.js';
 import { game, resetGame } from '../js/gstate.js';
 import { GameMap } from '../js/game.js';
 import { init_vision_globals, vision_reset, vision_recalc } from '../js/vision.js';
@@ -16,7 +16,8 @@ describe('display.js', () => {
                 game.level.at(x, y).lit = true;
             }
         }
-        game.u = { ux: 10, uy: 10 };
+        game.u = { ux: 10, uy: 10, acurr: { a: [] } };
+        game.urole = { rank: { m: 'Hero' } };
         vision_reset();
         vision_recalc();
     });
