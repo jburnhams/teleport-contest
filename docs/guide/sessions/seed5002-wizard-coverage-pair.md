@@ -8,7 +8,7 @@ This session is a comprehensive stress test of the engine's object-creation, wan
 
 **Segment 0: Full Moon and Five Wishes**
 
-**Step 0–1:** The engine initialises the universe. The "Full Moon" condition is detected: *You are lucky! Full moon tonight.*
+**Step 0–1:** The engine initialises the universe with 2,717 PRNG calls. The "Full Moon" condition is detected: *You are lucky! Full moon tonight.*
 
 **Steps 2–4: Teleport to DL5**
 Wizard invokes `Ctrl-V` to teleport to dungeon level 5. 3,093 PRNG calls generate the new level.
