@@ -1,0 +1,5 @@
+feat: finalise fuzzer diff exact matching and fastforward scoping
+
+- Fixed exact string matching regex bug for isRngCall inside fuzz-diff.mjs.
+- Ensure only seed 8000 uses fastforward operations inside jsmain.js/allmain.js to prevent early cascade deviations.
+- Validated pass rate and updated fuzzer-learnings.md along with marking tasks complete in fuzzer-tasks.md.

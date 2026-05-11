@@ -84,6 +84,7 @@ export class NethackGame {
 
     async start() {
         const g = resetGame();
+        g.seed = this._seed;
 
         // Parse nethackrc
         const opts = parseNethackrc(this._nethackrc);
