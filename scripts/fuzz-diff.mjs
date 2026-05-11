@@ -197,9 +197,8 @@ function normalizeRng(entry) {
   return entry.replace(/\s*@\s.*$/, '').replace(/^\d+\s+/, '').trim();
 }
 
-function isRngCall(s) {
-  if (typeof s !== 'string') s = String(s);
-  return /^(rn2|rnd|rne|rnz|rn1|d|rnl)\(/.test(normalizeRng(s));
+function isRngCall(entry) {
+    return typeof entry === 'string' && /^(?:rn2|rnd|rn1|rnl|rne|rnz|d)\(/.test(normalizeRng(entry));
 }
 
 async function main() {
