@@ -197,3 +197,5 @@ Keep entries detailed; include C references, bitmasks, and specific RNG counts.
 
 - If tests throw a TypeError in `isaac64.js` (e.g., 'Cannot read properties of undefined (reading 'n')'), the PRNG context is missing. Ensure `initRng(seed)` is called before executing any function that consumes random numbers.
 - When testing logic that modifies global compile-time arrays (like `objects[i].oc_prob`), strictly isolate changes by saving the original state in `beforeEach` and restoring it in `afterEach` to prevent test contamination.
+
+- The `WEPTOOL`, `EYEWEAR` and `MARKER` C-macros were intentionally omitted inside `extract-objects.js` and are bypassed smoothly by falling back to subclass evaluation using their respective sub-skills (e.g., `P_PICK_AXE`, `P_FLAIL`, `P_UNICORN_HORN`) via the `oc_subtyp` field safely maintaining code consistency across tools.

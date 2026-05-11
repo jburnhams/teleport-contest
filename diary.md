@@ -225,3 +225,10 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Cleaned up loose test scratchpads and incorporated `test/o_init.test.js` covering `MAXOCLASSES` index initialization.
 - Validated via scoring maintaining exact 100% baseline structural alignment (88/11406 screens pass).
 - Next steps: Proceed to D2.3 (Erosion & Quantity helpers) exploring `may_generate_eroded` functionality.
+
+## 2026-05-16
+- Completed subtask D2.3 (Erosion & Quantity helpers).
+- Implemented `is_rustprone`, `is_crackable`, `is_corrodeable`, `is_damageable`, `is_flammable`, `is_rottable` mirroring NetHack C logic perfectly mapping to `oc_material` properties exported by `js/const.js`.
+- Bypassed `WEPTOOL` lack of existence inside `objects.js` elegantly utilizing subskill matching utilizing `oc_subtyp` constants directly (`P_PICK_AXE`, `P_FLAIL`, `P_UNICORN_HORN`).
+- Added comprehensive vitest unit tests in `test/mkobj.erosions.test.js` resolving dependency logic issues and verifying accurate condition logic.
+- Ensured 100% regression match, retaining exact 88 baseline screens correctly without causing any issues with `mkobj` instantiation loops. Next step: subtask D2.4 (Monster & Corpse Helpers).
