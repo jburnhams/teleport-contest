@@ -11,9 +11,7 @@ This is the scoring-critical path. Every RNG call must match C's in order or all
 
 ## B1. themerooms_generate early-exit ⚡ HIGH LEVERAGE
 - [ ] Read C `themerooms_generate()` in mklev.c — understand size check before reservoir sampling
-- [ ] Read C `rnd_rect()` in rect.c — understand how small rects are handled
-- [ ] In JS `js/mklev.js`: add size check at top of `themerooms_generate()` BEFORE any rn2() calls
-- [ ] Return false immediately if rect is too small (< MIN_ROOM_SIZE on either axis)
+- [ ] Read C `rnd_rect()` in rect.c and match exactly with our own implementation
 - [ ] Verify: seed0360 should now have 102 `rnd_rect` calls at positions 1217–1318
 - [ ] Run `npm run score:check` — no regression, RNG% should improve for many sessions
 - [ ] Update `learnings.md` with findings

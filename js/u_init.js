@@ -23,9 +23,14 @@ import {
 } from './const.js';
 import { invent } from './decl.js';
 import { game } from './gstate.js';
+import { objects } from './objects.js';
+import {
+    SPBOOK_CLASS, POTION_CLASS, SCROLL_CLASS, RING_CLASS,
+    SPE_FORCE_BOLT, POT_HEALING, SCR_LIGHT, RIN_SEARCHING
+} from './const.js';
 import { init_attr, vary_init_attr, acurrstr } from './attrib.js';
 import { newhp, newpw, adjabil } from './exper.js';
-import { next_ident } from './mkobj.js';
+import { next_ident, mkobj, mksobj } from './mkobj.js';
 
 import {
     BULLWHIP, LEATHER_JACKET, FEDORA, FOOD_RATION,
@@ -38,7 +43,10 @@ import {
     LOCK_PICK, KATANA, YUMI, YA, SPLINT_MAIL, DART, SCR_MAGIC_MAPPING,
     HAWAIIAN_SHIRT, EXPENSIVE_CAMERA, CREDIT_CARD, SPEAR, QUARTERSTAFF, CLOAK_OF_MAGIC_RESISTANCE,
     SPE_FORCE_BOLT, MAGIC_MARKER, SPE_PROTECTION, SPE_CONFUSE_MONSTER, TIN_OPENER, ORANGE, FORTUNE_COOKIE, MACE, GOLD_PIECE,
-    OIL_LAMP, BLINDFOLD, LEASH, TOWEL, WAN_WISHING, SHURIKEN
+    OIL_LAMP, BLINDFOLD, LEASH, TOWEL, WAN_WISHING, SHURIKEN,
+    RIN_LEVITATION, POT_HALLUCINATION, POT_ACID, SCR_AMNESIA, SCR_FIRE,
+    SCR_BLANK_PAPER, SPE_BLANK_PAPER, RIN_AGGRAVATE_MONSTER, RIN_HUNGER,
+    WAN_NOTHING, PANCAKE
 } from './objects.js';
 
 // Also UNDEF_TYP is 0
@@ -644,32 +652,47 @@ function trquan(trop) {
 export function ini_inv(trop) {
     if (!trop) return;
 
+    let got_sp1 = false;
+
     // We iterate through the array of items.
     for (let i = 0; i < trop.length; i++) {
         let t = trop[i];
         if (t.trotyp === 0 && t.trclass === 0 && t.quan_min === 0) break; // null terminator
 
         let quan = trquan(t);
-        let otyp = t.trotyp;
-        let obj = null;
 
-        if (otyp !== UNDEF_TYP) {
-            // In C: obj = mksobj(otyp, TRUE, FALSE);
-            next_ident(); // next_ident
-            // mksobj_init for scrolls and potions does blessorcurse -> rn2(4)
-            if ((otyp >= 270 && otyp < 300) || (otyp >= 230 && otyp < 270)) {
-                rn2(4);
+        while (quan > 0) {
+            let otyp = t.trotyp;
+            let obj = null;
+
+            if (otyp !== UNDEF_TYP) {
+                // In C: obj = mksobj(otyp, TRUE, FALSE);
+                rnd(2); // next_ident
+                // mksobj_init for scrolls and potions does blessorcurse -> rn2(4)
+                if (objects[otyp]) {
+                    let objClass = objects[otyp].oc_class;
+                    if (objClass === SCROLL_CLASS || objClass === POTION_CLASS) {
+                        rn2(4);
+                    }
+                }
+            } else {
+                // UNDEF_TYP -> randomly generated object class
+                // obj = mkobj(t.trclass, FALSE);
+                let filter_otyp = ini_inv_mkobj_filter(t.trclass, got_sp1);
+                otyp = filter_otyp;
             }
-        } else {
-            // UNDEF_TYP -> randomly generated object class
-            // obj = mkobj(t.trclass, FALSE);
-            next_ident();
-            // Since mkobj returns something, if it returns scroll/potion, it would consume rn2(4)
-            // But we don't know the exact class returned by the stub.
-        }
 
-        if (t.trspe !== 'UNDEF_SPE' && t.trotyp === MAGIC_MARKER) {
-            rn2(4);
+            if (t.trspe !== 'UNDEF_SPE' && t.trotyp === MAGIC_MARKER) {
+                rn2(4); // from adjustment
+            }
+
+            // we simulate use_obj and adjustment but don't do real logic yet
+
+            if (otyp !== UNDEF_TYP && objects[otyp] && objects[otyp].oc_class === SPBOOK_CLASS && objects[otyp].oc_oc2 === 1) {
+                got_sp1 = true;
+            }
+
+            quan--;
         }
     }
 }
@@ -839,11 +862,34 @@ export const M_spell = [Healing_book, Protection_book, Confuse_monster_book];
 
 // These rely on the basic rng calls made during creation, assuming Stream D handles it fully later.
 // We just need to mimic the exact rng sequence from ini_inv.
+
 export function ini_inv_mkobj_filter(oclass, got_level1_spellbook) {
-    // mkobj internally consumes rn2 or rnd depending on class
-    // Stream D's mkobj stub just does `next_ident() -> rnd(2)`
-    // And mkobj wrapper passes it along
-    // We will mimic the mkobj call by just doing rnd(2) for next_ident
-    // actually, we must be careful with the exact object creation.
-    // wait, o_init.js already exists? Let's just import mkobj from mklev.js for now.
+    let obj = mkobj(oclass, false);
+    let otyp = obj.otyp;
+    let trycnt = 0;
+
+    // Simplistic stub just recreating the same C loop structure
+    // Since gn.nocreate etc aren't fully implemented in our JS, we'll just check the base case.
+    while (
+        otyp === WAN_WISHING || // WAN_WISHING
+        otyp === RIN_LEVITATION || // RIN_LEVITATION
+        otyp === POT_HALLUCINATION || // POT_HALLUCINATION
+        otyp === POT_ACID || // POT_ACID
+        otyp === SCR_AMNESIA || // SCR_AMNESIA
+        otyp === SCR_FIRE || // SCR_FIRE
+        otyp === SCR_BLANK_PAPER || // SCR_BLANK_PAPER
+        otyp === SPE_BLANK_PAPER || // SPE_BLANK_PAPER
+        otyp === RIN_AGGRAVATE_MONSTER || // RIN_AGGRAVATE_MONSTER
+        otyp === RIN_HUNGER || // RIN_HUNGER
+        otyp === WAN_NOTHING || // WAN_NOTHING
+        (obj.oclass === SPBOOK_CLASS && objects[otyp].oc_level > (got_level1_spellbook ? 3 : 1)) // SPBOOK_CLASS
+    ) {
+        if (++trycnt > 1000) {
+            obj = mksobj(PANCAKE, true, false); // PANCAKE
+            break;
+        }
+        obj = mkobj(oclass, false);
+        otyp = obj.otyp;
+    }
+    return obj;
 }

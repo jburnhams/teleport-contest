@@ -16,7 +16,7 @@ Key insights discovered during the port. Add entries as discoveries are made.
 - **CRLF / WSL**: `frozen/score.sh` and `frozen/set-category.sh` shipped with Windows CRLF line endings, breaking bash on WSL (`$'\r': command not found`). Fixed with `sed -i 's/\r//' <file>`.
 - **Screen comparison**: Semantic, not byte-exact. `frozen/screen-decode.mjs` renders cells via `renderCell()` before comparing. DEC line-drawing chars (`\x0e` + 'l') and Unicode box chars ('┌') compare as EQUAL. Map screens can match even though `terminal.serialize()` raw bytes differ from the session JSON.
 - **ANSI Colors**: `display.putstr` defaults to `CLR_GRAY` (7) -> `\x1b[37m`. Must pass `NO_COLOR` (8 -> ANSI 39) explicitly when writing text that should match plain C output.
-
+- When testing logic that modifies global compile-time arrays (like `objects[i].oc_prob`), strictly isolate changes by saving the original state in `beforeEach` and restoring it in `afterEach` to prevent test contamination.
 ---
 
 ## PRNG & Seeding
@@ -25,6 +25,7 @@ Key insights discovered during the port. Add entries as discoveries are made.
 - Three independent PRNG contexts: core (gameplay), Lua (special levels), display (hallucination). All three must be reproduced in the correct interleaved order.
 - JavaScript evaluates function arguments left-to-right, matching clang's behaviour. The C recorder is built with clang for exactly this reason — gcc evaluates right-to-left and produces a completely different RNG sequence.
 - The seed is passed as a 64-bit integer, split into 8 little-endian bytes, and fed to ISAAC64 (`js/rng.js:initRng`).
+- If tests throw a TypeError in `isaac64.js` (e.g., 'Cannot read properties of undefined (reading 'n')'), the PRNG context is missing. Ensure `initRng(seed)` is called before executing any function that consumes random numbers.
 
 ### fastforward.js
 - Hardcoded RNG replay for **seed8000 only**. Never generalizes. Must be replaced function-by-function with real C ports.
@@ -152,14 +153,22 @@ Gender indices: 0=male, 1=female. Align indices: 0=chaotic, 1=neutral, 2=lawful.
 ## State & Object Management
 
 ### Object Management
-- **`place_object`**: Places non-boulder objects underneath boulders. Inserts below `BOULDER`s if needed.
-- **`game.level.objects`**: Must be initialized as a 2D array.
-- **Linked Lists**: Extract functions (`extract_nexthere`, `extract_nobj`) must return the new head pointer.
+- **`place_object`**: Places non-boulder objects underneath boulders. It follows `game.level.objects[x][y]` and inserts below `BOULDER`s if needed.
+- **`game.level.objects`**: Must be initialized as a 2D array, rather than a flat array as originally seen.
+- **Linked Lists**: Extract functions (`extract_nexthere`, `extract_nobj`) should return the new head pointer. In JS, we cannot pass head pointers by reference directly unless they are encapsulated in an object property, so functions return the new head.
 
 ### u_init and exper
 - `u_init_role` runs first (inventory/money), then `u_init_race`.
 - `u_init_misc` computes `newpw` and `newhp`.
 - `ini_inv`: invokes `mksobj` for specific types or `mkobj` for `UNDEF_TYP`. Stubbed inner RNG (e.g., `rnd(2)` for `next_ident()` and `rn2(4)` for `blessorcurse` over specific scrolls and potions).
+
+---
+
+### Monst and ID Generation
+- `DEADMONSTER` macro in C translates to `mon.mhp < 1`. Checking whether `mhp` is below 1 is necessary, especially because `DEADMONSTER(mon)` check comes before asserting vault guards in `place_monster()`, hence they can theoretically have 0 HP and trigger impossible states.
+- The `next_ident()` function maintains ID for generated objects and monsters and is statefully shared via `svc.context.ident`. Ported this to `game.context.ident`, initialized on `resetGame()`, to ensure matching PRNG loops with `rnd(2)` calls.
+- `m_at(x, y)` macro directly wraps `svl.level.monsters[x][y]` in C, bypassing `mon.mburied` flag when `mburied` isn't compiled. Handled using simple map checks in JS.
+- `monsndx()` implementation in C resolves pointer differences (`ptr - mons`). In JS, this maps directly to `mons.indexOf(ptr)` avoiding the need for a separate `.pmidx` field on every monster struct, as Javascript maintains exact object reference identities to the generated constants table array elements.
 
 ---
 
@@ -178,16 +187,6 @@ Gender indices: 0=male, 1=female. Align indices: 0=chaotic, 1=neutral, 2=lawful.
 ---
 
 ## New Additions
-
-- `place_object` places non-boulder objects underneath boulders. It follows `game.level.objects[x][y]` and inserts below `BOULDER`s if needed.
-- `game.level.objects` must be initialized as a 2D array, rather than a flat array as originally seen.
-- Extract functions (`extract_nexthere`, `extract_nobj`) should return the new head pointer. In JS, we cannot pass head pointers by reference directly unless they are encapsulated in an object property, so functions return the new head.
-
-## Monst and ID Generation
-- `DEADMONSTER` macro in C translates to `mon.mhp < 1`. Checking whether `mhp` is below 1 is necessary, especially because `DEADMONSTER(mon)` check comes before asserting vault guards in `place_monster()`, hence they can theoretically have 0 HP and trigger impossible states.
-- The `next_ident()` function maintains ID for generated objects and monsters and is statefully shared via `svc.context.ident`. Ported this to `game.context.ident`, initialized on `resetGame()`, to ensure matching PRNG loops with `rnd(2)` calls.
-- `m_at(x, y)` macro directly wraps `svl.level.monsters[x][y]` in C, bypassing `mon.mburied` flag when `mburied` isn't compiled. Handled using simple map checks in JS.
-- `monsndx()` implementation in C resolves pointer differences (`ptr - mons`). In JS, this maps directly to `mons.indexOf(ptr)` avoiding the need for a separate `.pmidx` field on every monster struct, as Javascript maintains exact object reference identities to the generated constants table array elements.
 
 <!-- 
 APPEND NEW LEARNINGS HERE. 

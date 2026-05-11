@@ -19,14 +19,14 @@ Port the object creation and management system. Objects are items in the game �
 
 ## D2. mkobj — object creation
 - [ ] Read C `src/mkobj.c` — understand the full `mksobj()` function
-- [ ] Port `mksobj(otyp, init, artif)` — create object by type index
-- [ ] Port `mkobj(let, artif)` — create random object of a class (e.g., random potion)
-- [ ] Port `mkobj_at(let, x, y, artif)` — create and place on map
-- [ ] Port quantity generation — arrows/darts come in stacks, gold has random amount
-- [ ] Port BUC (blessed/uncursed/cursed) assignment — `bcsign()`, `curse()`, `bless()`
-- [ ] Port enchantment/charge assignment for weapons, armor, wands, rings
-- [ ] Port `rnd_class()` — pick random object class within probability distribution
-- [ ] Port `mkobjcnt()` — helper for object generation during mklev
+- [x] D2.1: Port BUC assignment (`bcsign`, `curse`, `bless`, `blessorcurse`, `uncurse`)
+- [x] D2.2: Port Probability helpers (`rnd_class`)
+- [ ] D2.3: Port Erosion & Quantity helpers (`may_generate_eroded`, `mkobj_erosions`, `is_multigen`)
+- [ ] D2.4: Port Monster & Corpse helpers (`rndmonnum`, `rndmonnum_adj`, `undead_to_corpse`, `set_tin_variety`, `can_be_hatched`, `dead_species`)
+- [ ] D2.5: Port `mksobj_init` (class-specific initialisation, enchantment, charges)
+- [ ] D2.6: Port `mksobj` core (create object by type index)
+- [ ] D2.7: Port `mkobj` and probability tables (create random object of a class)
+- [ ] D2.8: Port `mkobj_at` and `mkobjcnt`
 
 ## D3. Gold handling
 - [x] Port `mkgold()` — create gold objects
