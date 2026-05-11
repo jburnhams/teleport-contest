@@ -22,7 +22,7 @@ Immediately recovering from the bouncing sleep ray, the user selects a *leather 
 - The PRNG calculates the area-of-effect audio radius. An adjacent entity (a pet dog) fails a morale check. The engine notes: *The little dog turns to flee.*
 - The user entity's status line updates to apply the `Deaf` condition. 
 
-**Steps 581–595: Final State Validation**
+**Steps 581–594: Final State Validation**
 The now-deafened user entity attempts to go up stairs (`<`) where none exist, checks their inventory one last time (triggering 0 PRNG calls as the simulation pauses for UI rendering), and finally searches the floor (`s`) before the session terminates.
 
 It is a rigorous validation of the memory structures and state flags, played out via the high-stakes drama of a lone healer bouncing sleep rays off a shield and frantically banging a drum in a dark cavern until their dog runs away.
