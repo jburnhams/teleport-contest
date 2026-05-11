@@ -194,6 +194,15 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Validated `js/const.js` contains the added missing enums (e.g., `WEAPON_CLASS`, `S_ANT`, `G_NOGEN`) required for stream alignment.
 - This codebase layer (Stream A) is rock solid and completely ready to support upcoming work streams.
 
+## 2026-05-10
+- Completed Stream F2 (`ini_inv`) stubbing the correct RNG sequence according to C `u_init.c` and `mkobj.c`. Replicated quantity adjustment and BUC evaluation correctly using `while (quan > 0)`.
+- Completed Stream F5 by porting `newexplevel` (as `check_experience`), `pluslvl`, `losexp`, and `rndexp` to `exper.js` to handle the experience level RNG and logic. Used the proper `PM_` constants inside `enermod`.
+- Wrote and passed comprehensive tests inside `exper.test.js` to verify functionality. Verified no score regressions across 44 sessions on `main`.
+
+## 2026-05-10
+- Refactored `enermod` correctly using `PM_` constants from `const.js`.
+- Fixed `got_sp1` flag tracking to correctly update state inside `ini_inv`.
+- Replaced fragile hardcoded item class checking with `objects` metadata mapping exactly as directed.
 ## 2026-05-15
 - Continued Stream E, ticking subtask E2 (mondata.js — data helpers).
 - Created `js/mondata.js` and ported `monsndx` along with several movement-type macros (`is_flyer`, `is_swimmer`, `amphibious`, `passes_walls`, etc.) and species macros (`is_undead`, `is_demon`, `is_animal`, etc.).
@@ -201,6 +210,16 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Achieved +0 regression score (88/11406 screens baseline) in validation.
 - Next step: Stream E3, the `makemon` core monster generation.
 
+## 2024-05-10
+- Implemented random monster selection logic (`rndmonnum`, `rndmonst`, and `_adj` variants) in `js/mkmon.js`.
+- Moved constants for difficulty alignment logic (`montooweak`, `montoostrong`, `monmin_difficulty`, `monmax_difficulty`) into `js/mondata.js`.
+- Fixed the PRNG seed setup and successfully wrote separate test files (`mkmon.test.js`, `mkmon-rnd.test.js`) to handle unmocked PRNG.
+- Successfully passed the regression check preserving 88/11406 score!
+- Next: Move onto `goodpos` and `enexto` functionality!
+
+- Feedback received during code review: the PRNG parity requires `weight` iterations of `rn2` instead of a single `rn2` call because NetHack 5.0 (or the exact patched C source we're comparing against) iterates through a loop of size weight. Fixed the `rndmonst` logic to implement `for (let count = 0; count < weight; count++) { totalweight++; if (rn2(totalweight) === 0) selected_mndx = mndx; }`.
+
+- Changed `Math.floor` to `Math.trunc` in `js/mkmon.js` (for `align_shift`) to guarantee bit-exact behavior mirroring C's integer division.
 ## 2026-05-15
 - Continued Stream D by beginning D2.1: BUC assignment logic (`bcsign`, `curse`, `bless`, `blessorcurse`, `uncurse`).
 - Implemented and ported the BUC routines exactly tracking the C structure (including temporarily commenting out light adjustment functionality until `lamplit` logic is implemented).

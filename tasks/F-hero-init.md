@@ -39,7 +39,7 @@ Port hero initialization — stats, starting inventory, skills, attributes. This
 
 ## F5. Experience system
 - [x] Port `newuexp()` — XP thresholds per level
-- [ ] Port `check_experience()` — level up/down
+- [x] Port `check_experience()` — level up/down
 - [x] Port `adjabil()` — intrinsics gained at specific levels
 
 ---
