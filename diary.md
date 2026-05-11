@@ -207,3 +207,7 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Fixed the PRNG seed setup and successfully wrote separate test files (`mkmon.test.js`, `mkmon-rnd.test.js`) to handle unmocked PRNG.
 - Successfully passed the regression check preserving 88/11406 score!
 - Next: Move onto `goodpos` and `enexto` functionality!
+
+- Feedback received during code review: the PRNG parity requires `weight` iterations of `rn2` instead of a single `rn2` call because NetHack 5.0 (or the exact patched C source we're comparing against) iterates through a loop of size weight. Fixed the `rndmonst` logic to implement `for (let count = 0; count < weight; count++) { totalweight++; if (rn2(totalweight) === 0) selected_mndx = mndx; }`.
+
+- Changed `Math.floor` to `Math.trunc` in `js/mkmon.js` (for `align_shift`) to guarantee bit-exact behavior mirroring C's integer division.

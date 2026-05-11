@@ -144,13 +144,13 @@ export function align_shift(ptr) {
             alshift = 0;
             break;
         case C.AM_LAWFUL:
-            alshift = Math.floor((ptr.maligntyp + 20) / (2 * C.ALIGNWEIGHT));
+            alshift = Math.trunc((ptr.maligntyp + 20) / (2 * C.ALIGNWEIGHT));
             break;
         case C.AM_NEUTRAL:
-            alshift = Math.floor((20 - Math.abs(ptr.maligntyp)) / C.ALIGNWEIGHT);
+            alshift = Math.trunc((20 - Math.abs(ptr.maligntyp)) / C.ALIGNWEIGHT);
             break;
         case C.AM_CHAOTIC:
-            alshift = Math.floor((-(ptr.maligntyp - 20)) / (2 * C.ALIGNWEIGHT));
+            alshift = Math.trunc((-(ptr.maligntyp - 20)) / (2 * C.ALIGNWEIGHT));
             break;
     }
     return alshift;
@@ -168,11 +168,11 @@ export function isupper_monsym(ptr) {
     return ptr.mlet >= C.S_ANGEL && ptr.mlet <= C.S_ZOMBIE;
 }
 
+import { PM_LONG_WORM_TAIL } from './monst.js';
+
 export function rndmonst() {
     return rndmonst_adj(0, 0);
 }
-
-const PM_LONG_WORM_TAIL_INDEX = 335; // We cache this, in C it's a macro
 
 export function rndmonst_adj(minadj, maxadj) {
     let ptr;
@@ -184,7 +184,7 @@ export function rndmonst_adj(minadj, maxadj) {
     let upper = C.Is_rogue_level();
     let elemlevel = C.In_endgame() && !C.Is_astralevel();
 
-    for (let mndx = C.LOW_PM; mndx < PM_LONG_WORM_TAIL_INDEX; ++mndx) {
+    for (let mndx = C.LOW_PM; mndx < PM_LONG_WORM_TAIL; ++mndx) {
         ptr = mons[mndx];
 
         if (mondata.montooweak(mndx, minmlev) || mondata.montoostrong(mndx, maxmlev))
@@ -206,9 +206,11 @@ export function rndmonst_adj(minadj, maxadj) {
         }
 
         if (weight > 0) {
-            totalweight += weight;
-            if (rn2(totalweight) < weight)
-                selected_mndx = mndx;
+            for (let count = 0; count < weight; count++) {
+                totalweight++;
+                if (rn2(totalweight) === 0)
+                    selected_mndx = mndx;
+            }
         }
     }
 
@@ -230,7 +232,7 @@ export function rndmonnum_adj(minadj, maxadj) {
     let excludeflags = C.G_UNIQ | C.G_NOGEN | (hacklib.Inhell() ? C.G_NOHELL : C.G_HELL);
     let i;
     do {
-        i = rn1(PM_LONG_WORM_TAIL_INDEX - C.LOW_PM, C.LOW_PM);
+        i = rn1(PM_LONG_WORM_TAIL - C.LOW_PM, C.LOW_PM);
         ptr = mons[i];
     } while ((ptr.geno & excludeflags) !== 0);
 
