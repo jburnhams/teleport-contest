@@ -8,3 +8,4 @@
 6. **RNG Reporting**: If a session reports `0/0 RNG`, it's a strong indicator that the game failed to start properly or is stuck in an early menu.
 7. **Bit-Exactness**: The `fuzz-diff.mjs` tool is the most reliable way to trace divergences back to the specific C source line (e.g., `mklev.c:990`).
 8. **Display Parity**: `gen-session.mjs` now uses full alignment names (`lawful`, `neutral`, `chaotic`) to ensure the C binary recognizes them reliably.
+9. **Level Generation Order**: In C's `makerooms()`, vaults are immediately populated by calling `fill_special_room()` right after they are created, before `makevtele()` is called. In contrast, ordinary rooms are filled later in a separate pass. Deferring `fill_special_room()` to the end of the `mklev()` process causes an RNG divergence because `makevtele()` consumes RNG (`rn2(3)`) before the vault's contents are generated.

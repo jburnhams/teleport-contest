@@ -7,7 +7,7 @@ import { mklev, l_nhcore_init, u_on_upstairs } from './mklev.js';
 import { rhack } from './cmd.js';
 import { docrt, cls, bot, flush_screen, pline } from './display.js';
 import { vision_recalc, vision_reset, init_vision_globals } from './vision.js';
-import { fastforward_pre_mklev, fastforward_post_mklev, fastforward_step, fastforward_fill_mineralize } from './fastforward.js';
+import { fastforward_pre_mklev, fastforward_post_mklev, fastforward_step } from './fastforward.js';
 import { init_objects } from './o_init.js';
 import { init_dungeons, init_castle_tune, u_init_misc } from './dungeon_init.js';
 import { role_init_extra, roleNameToIdx, ROLE_WIZ } from './role_init.js';
@@ -68,9 +68,6 @@ export async function newgame() {
 
     // Real mklev generates the level with correct room positions
     await mklev();
-
-    // Fill rooms + mineralize (fastforward — seed8000 only for now)
-    fastforward_fill_mineralize();
 
     // Post-mklev startup (fastforward — seed8000 only for now)
     fastforward_post_mklev();
