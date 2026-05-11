@@ -9,6 +9,8 @@ import {
 import { BOULDER, GOLD_PIECE, STRANGE_OBJECT, objects } from './objects.js';
 import { rnd, rn2, rn1 } from './rng.js';
 import { depth, level_difficulty } from './hacklib.js';
+import { rndmonst_adj } from './makemon.js';
+import { monsndx } from './mondata.js';
 
 export const OBJ_FREE = 0;
 export const OBJ_FLOOR = 1;
@@ -425,4 +427,36 @@ export function mkobj_at(oclass, x, y, artif) {
     const otmp = mkobj(oclass, artif);
     place_object(otmp, x, y);
     return otmp;
+}
+
+
+
+export function rndmonnum() {
+    return rndmonnum_adj(0, 0);
+}
+
+export function rndmonnum_adj(minadj, maxadj) {
+    // Plan A: get a level-appropriate common monster
+    const ptr = rndmonst_adj(minadj, maxadj);
+    if (ptr) {
+        return monsndx(ptr);
+    }
+
+    // Plan B: get any common monster
+    // Inhell: boolean, assuming false for now unless we import Inhell logic
+    // We should implement Inhell() similar to makemon.js
+    let in_hell = false;
+    if (game && game.u && game.u.uz && game.svd && game.svd.dungeons) {
+        in_hell = game.svd.dungeons[game.u.uz.dnum].flags.hellish !== 0;
+    }
+
+    const excludeflags = C.G_UNIQ | C.G_NOGEN | (in_hell ? C.G_NOHELL : C.G_HELL);
+    let i;
+    let fallback_ptr;
+    do {
+        i = rn1(C.SPECIAL_PM - C.LOW_PM, C.LOW_PM);
+        fallback_ptr = mons[i];
+    } while ((fallback_ptr.geno & excludeflags) !== 0);
+
+    return i;
 }

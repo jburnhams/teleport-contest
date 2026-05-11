@@ -3230,3 +3230,5 @@ export const PM_SAMURAI = 9;
 export const PM_TOURIST = 10;
 export const PM_VALKYRIE = 11;
 export const PM_WIZARD = 12;
+
+export const SPECIAL_PM = 335; // PM_LONG_WORM_TAIL

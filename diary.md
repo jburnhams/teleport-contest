@@ -225,3 +225,12 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Cleaned up loose test scratchpads and incorporated `test/o_init.test.js` covering `MAXOCLASSES` index initialization.
 - Validated via scoring maintaining exact 100% baseline structural alignment (88/11406 screens pass).
 - Next steps: Proceed to D2.3 (Erosion & Quantity helpers) exploring `may_generate_eroded` functionality.
+
+## 2026-05-11
+- Completed Stream E task: Port `rndmonst()` / `rndmonnum()` logic (random monster generation and selection).
+- Implemented `rndmonst` and `rndmonst_adj` in a new file `js/makemon.js`, replicating the weighted reservoir sampling mechanism for matching C's selection behavior accurately without omitting constraints (difficulty matching, elemental levels, `In_hell` states).
+- Ported matching helpers `monmin_difficulty`, `montoostrong`, `is_whirly`, `monsym`, `align_shift`, and others into `js/mondata.js` or appropriately integrated inside `makemon.js` retaining behavioral exactitude.
+- Implemented `rndmonnum` falling back safely to `rn1(SPECIAL_PM - LOW_PM, LOW_PM)` via `js/mkobj.js`.
+- Verified RNG parity directly against C logs inside tests `test/makemon.rndmonst.test.js` and `test/mkobj.rndmonnum.test.js`.
+- Score evaluation preserved baseline 88/11406 score, avoiding regressions completely.
+- Next step: proceed down E3 `makemon` checklist, porting the central core `makemon` structure, placement verifications (`goodpos`), or object generation subsets.

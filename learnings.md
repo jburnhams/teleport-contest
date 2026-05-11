@@ -197,3 +197,8 @@ Keep entries detailed; include C references, bitmasks, and specific RNG counts.
 
 - If tests throw a TypeError in `isaac64.js` (e.g., 'Cannot read properties of undefined (reading 'n')'), the PRNG context is missing. Ensure `initRng(seed)` is called before executing any function that consumes random numbers.
 - When testing logic that modifies global compile-time arrays (like `objects[i].oc_prob`), strictly isolate changes by saving the original state in `beforeEach` and restoring it in `afterEach` to prevent test contamination.
+
+## E3: Random Monster Selection
+- \`rndmonst()\` and \`rndmonst_adj()\` (and their \`num\` variants) rely heavily on proper indexing limits via \`LOW_PM\` (0) and \`SPECIAL_PM\` (335 / \`PM_LONG_WORM_TAIL\`).
+- The random monster generation incorporates complex weight alignment evaluating factors such as elemental levels (using \`is_home_elemental\`, \`wrong_elem_type\`), Hell status, upper/lower casing preferences for rogue levels, and difficulty limits parsing constraints (\`montooweak\`, \`montoostrong\`, \`uncommon\`).
+- \`rndmonnum_adj\` utilizes a backup sequence (\`rn1\`) if no generated suitable monsters bypass the ruleset constraints.

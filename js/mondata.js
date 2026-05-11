@@ -1,6 +1,7 @@
 // C ref: mondata.c
 import { mons } from './monst.js';
 import * as C from './const.js';
+import { game } from './gstate.js';
 
 export function monsndx(ptr) {
     return mons.indexOf(ptr);
@@ -84,4 +85,52 @@ export function is_animal(ptr) {
 
 export function nohands(ptr) {
     return (ptr.mflags1 & C.M1_NOHANDS) !== 0;
+}
+
+export function monmin_difficulty(levdif) {
+    return Math.floor(levdif / 6);
+}
+
+export function monmax_difficulty(levdif) {
+    return Math.floor((levdif + game.u.ulevel) / 2);
+}
+
+export function montooweak(monindx, lev) {
+    return mons[monindx].difficulty < lev;
+}
+
+export function montoostrong(monindx, lev) {
+    return mons[monindx].difficulty > lev;
+}
+
+export function pm_resistance(ptr, typ) {
+    return ((ptr.mresists & typ) !== 0);
+}
+
+export function is_whirly(ptr) {
+    return ptr.mlet === C.S_VORTEX || mons.indexOf(ptr) === C.PM_AIR_ELEMENTAL;
+}
+
+export function noncorporeal(ptr) {
+    return ptr.mlet === C.S_GHOST;
+}
+
+export function monsym(ptr) {
+    // Port of monsym(ptr) (def_monsyms[(int) (ptr)->mlet].sym)
+    // From defsym.h mapping: S_ANT is 'a', S_BLOB is 'b', etc.
+    const chars = [
+        '\0', // 0
+        'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', // 1-16
+        'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', // 17-26
+        'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', // 27-52
+        '@', // 53 HUMAN
+        ' ', // 54 GHOST
+        "'", // 55 GOLEM
+        '&', // 56 DEMON
+        ';', // 57 EEL
+        ':', // 58 LIZARD
+        '~', // 59 WORM_TAIL
+        ']'  // 60 MIMIC_DEF
+    ];
+    return chars[ptr.mlet] || '\0';
 }
