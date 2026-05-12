@@ -7,7 +7,7 @@ This session serves as a rigorous mechanical validation of the engine's administ
 ### Mechanical Sequence
 
 **Steps 1–3: The Explore Mode**
-The engine performs 2,471 PRNG calls to generate the universe and Touristo's attributes (St:13 Dx:10 Co:12 In:12 Wi:11). Immediately upon starting, the engine applies the administrative status flag: *You are in non-scoring explore/discovery mode.* This validates the engine's ability to bypass standard scoring logic while maintaining the integrity of the simulation.
+The engine performs 2,471 PRNG calls to generate the universe and Touristo's attributes (St:13 Dx:10 Co:12 In:12 Wi:11 Ch:17). Immediately upon starting, the engine applies the administrative status flag: *You are in non-scoring explore/discovery mode.* This validates the engine's ability to bypass standard scoring logic while maintaining the integrity of the simulation.
 
 **Steps 6–7: The Inedible Selection**
 Touristo decides to eat (`e`). He selects an item from his inventory (`a`).

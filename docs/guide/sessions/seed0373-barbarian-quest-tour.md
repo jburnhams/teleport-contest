@@ -7,7 +7,7 @@ This session serves as a high-entropy mechanical validation of the engine's endg
 ### Mechanical Sequence
 
 **Steps 1–3: The Plunderer Setup**
-The engine performs 2,510 PRNG calls to generate the initial state (St:18/02 Dx:17 Co:17 In:8 Wi:7). Wizard begins on Dungeon Level 1 and declines the tutorial.
+The engine performs 2,510 PRNG calls to generate the initial state (St:18/02 Dx:17 Co:17 In:8 Wi:7 Ch:6). Wizard begins on Dungeon Level 1 and declines the tutorial.
 
 **Steps 4–16: The Teleportation Protocol (`#levelchange`)**
 Wizard immediately invokes the administrative command `#levelchange`. This validates the engine's ability to bypass the standard dungeon progression and jump directly to specific endgame coordinates.

@@ -10,7 +10,7 @@ This session serves as a rigorous mechanical test of the game's vault security l
 Dodeco opts for complete manual character creation. Rather than accepting the defaults, the user process rapidly cycles through the UI selection trees, pressing `[`, `l`, `"`, `m`, `/`, and `h` to meticulously specify their exact role, creed, race, and gender. The UI state machine correctly handles this flurry of input. Upon pressing `y` to confirm, the mathematical engine awakens, generating the dungeon with a massive 3,066 PRNG call sequence.
 
 **Steps 17–293: The Intrusion**
-Dodeco navigates the dungeon corridors. For several hundred steps, the engine resolves standard locomotion, line-of-sight, and basic monster pathfinding. Eventually, Dodeco breaches the walls of a procedurally generated gold vault. 
+Dodeco (attributes St:13 Dx:18 Co:12 In:11 Wi:9 Ch:12) navigates the dungeon corridors. For several hundred steps, the engine resolves standard locomotion, line-of-sight, and basic monster pathfinding. Eventually, Dodeco breaches the walls of a procedurally generated gold vault.
 
 **Step 294: The Security Protocol**
 Recognising the unauthorised presence within the vault boundaries, the engine spawns a specialised Vault Guard entity. The combat pathways are explicitly bypassed in favour of the escort subroutine. The guard accosts Dodeco, and the message line sternly outputs: *"Move along!"*

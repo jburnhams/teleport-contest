@@ -7,7 +7,7 @@ This session serves as a peculiar mechanical validation of the engine's forced-c
 ### Mechanical Sequence
 
 **Steps 0–22: The Superstitious Setup**
-The engine performs exactly 3,824 PRNG calls to seed the universe, immediately noticing the local system clock and outputting the twin astrological warnings: *You are lucky! Full moon tonight.* and *Watch out! Bad things can happen on Friday the 13th.* Sneaky wanders around the starting room (`L, l, J, K...`), testing line-of-sight and basic locomotion.
+The engine performs (generating attributes St:14 Dx:16 Co:14 In:10 Wi:12 Ch:9) exactly 3,824 PRNG calls to seed the universe, immediately noticing the local system clock and outputting the twin astrological warnings: *You are lucky! Full moon tonight.* and *Watch out! Bad things can happen on Friday the 13th.* Sneaky wanders around the starting room (`L, l, J, K...`), testing line-of-sight and basic locomotion.
 
 **Steps 23–24: Disarmament**
 Sneaky decides her current loadout is unsatisfactory. She issues the drop command (`d`) and selects her primary weapon (`a`). The engine removes the object from her inventory and places it on the floor matrix. *You drop a +0 short sword.*
