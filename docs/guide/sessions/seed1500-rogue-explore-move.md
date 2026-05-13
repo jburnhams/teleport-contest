@@ -2,7 +2,7 @@
 
 **Subsystem Focus**: Validates pet pathfinding over corpses, trap-trigger resolution for non-player entities, and the boundary checks for the `apply` command.
 
-This session serves as a rigorous mechanical validation of the engine's background entity AI and environmental interaction subroutines. The user entity—a human Rogue named *Robin*—demonstrates the engine's ability to coordinate complex pet behaviours, including dietary reluctance and independent trap evasion.
+This session serves as a rigorous mechanical validation of the engine's background entity AI and environmental interaction subroutines. The user entity—a human Rogue named *Robin* (St:11 Dx:18 Co:11 In:12 Wi:11 Ch:12)—demonstrates the engine's ability to coordinate complex pet behaviours, including dietary reluctance and independent trap evasion.
 
 ### Mechanical Sequence
 

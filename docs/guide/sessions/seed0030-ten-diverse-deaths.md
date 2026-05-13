@@ -7,7 +7,7 @@ This extraordinary session is a stress test of the engine's mortality subroutine
 ### Mechanical Sequence
 
 **Segment 0: The Healer's Stroll**
-Quincy the Healer begins her journey with 2,443 PRNG calls to generate the universe. She explores the dungeon level, wandering corridors with standard movement keys. The segment concludes without combat — the engine validates basic multi-step locomotion and the "Unknown command" response for spurious space-key inputs.
+Quincy the Healer (St:8 Dx:10 Co:17 In:9 Wi:15 Ch:16) begins her journey with 2,443 PRNG calls to generate the universe. She explores the dungeon level, wandering corridors with standard movement keys. The segment concludes without combat — the engine validates basic multi-step locomotion and the "Unknown command" response for spurious space-key inputs.
 
 **Segment 1: Brigid and the Small Mimic**
 2,165 PRNG calls generate Brigid the Tourist (St:13 Dx:12 Co:16 In:13 Wi:6 Ch:17) with $984. She explores extensively, her kitten picking up and dropping a triangular amulet along the way. At Step 92, she bumps into what appears to be a chest: *That chest is a small mimic!* The ensuing combat runs 17 steps of melee. The mimic hits twice (Steps 102 and 109), dropping Brigid from 10 HP to 0. She, too, continues pressing movement keys while dead. At Step 118, 1 PRNG call resolves the final state: *You die...*

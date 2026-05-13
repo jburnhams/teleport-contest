@@ -2,7 +2,7 @@
 
 **Subsystem Focus**: Validates tutorial generation, environmental hazard checks, and the `m` (force move) override command.
 
-This extremely brief session is a textbook validation of the game's environmental hazard protections, immediately followed by a validation of the user's ability to purposefully override those protections. The user entity—a chaotic Elven Ranger—demonstrates exactly how the engine handles deliberate self-immolation.
+This extremely brief session is a textbook validation of the game's environmental hazard protections, immediately followed by a validation of the user's ability to purposefully override those protections. The user entity—a chaotic Elven Ranger (St:14 Dx:11 Co:15 In:14 Wi:14 Ch:7)—demonstrates exactly how the engine handles deliberate self-immolation.
 
 ### Mechanical Sequence
 
