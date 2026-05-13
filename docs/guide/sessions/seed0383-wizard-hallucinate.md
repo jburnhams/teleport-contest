@@ -2,7 +2,7 @@
 
 **Subsystem Focus**: Validates the "Hallucination" status effect, its impact on entity name rendering, and the persistence of background AI events during sensory distortion.
 
-This session serves as a rigorous mechanical validation of the engine's perception-distortion subroutines. The user entity—a Wizard named *Wizard*—demonstrates the engine's ability to maintain a perfectly deterministic underlying reality while simultaneously rendering a chaotic, randomised overlay of monster names and environmental events.
+This session serves as a rigorous mechanical validation of the engine's perception-distortion subroutines. The user entity—a Wizard named *Wizard* (St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10)—demonstrates the engine's ability to maintain a perfectly deterministic underlying reality while simultaneously rendering a chaotic, randomised overlay of monster names and environmental events.
 
 ### Mechanical Sequence
 

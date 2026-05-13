@@ -2,7 +2,7 @@
 
 **Subsystem Focus**: Validates environmental datetime flags, forced-combat subroutines, and object dropping mechanics.
 
-This session serves as a peculiar mechanical validation of the engine's forced-combat (`F`) logic. Having been warned of the cosmological dangers of playing on a Friday the 13th with a Full Moon, the user entity—a Rogue named *Sneaky*—chooses to express her frustrations by dropping her weapon and punching a wall.
+This session serves as a peculiar mechanical validation of the engine's forced-combat (`F`) logic. Having been warned of the cosmological dangers of playing on a Friday the 13th with a Full Moon, the user entity—a Rogue named *Sneaky* (St:14 Dx:16 Co:14 In:10 Wi:12 Ch:9)—chooses to express her frustrations by dropping her weapon and punching a wall.
 
 ### Mechanical Sequence
 
