@@ -235,3 +235,10 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Cleaned up loose test scratchpads and incorporated `test/o_init.test.js` covering `MAXOCLASSES` index initialization.
 - Validated via scoring maintaining exact 100% baseline structural alignment (88/11406 screens pass).
 - Next steps: Proceed to D2.3 (Erosion & Quantity helpers) exploring `may_generate_eroded` functionality.
+## 2026-05-18 - Stream C: Window and Menu System (C5)
+- Explored the window system from `nethack-c/upstream/win/tty/wintty.c` to see how `NHW_TEXT` and `NHW_MENU` are populated.
+- Ported the basic lifecycle functions `create_nhwindow`, `destroy_nhwindow`, `clear_nhwindow`, and `display_nhwindow` into `js/game_display.js` using a modal overlay design matching C's flow.
+- Ported the basic menu functions `start_menu`, `add_menu`, `end_menu`, and `select_menu` into `js/game_display.js`.
+- Verified behavior using Vitest, confirming windows are isolated and strings persist up to the row constraints.
+- Validated via scoring maintaining the exact 88/11406 score regression baseline.
+- Next steps should continue within Stream C focusing on `newsym()` and terminal attribute rendering (C3, C4).
