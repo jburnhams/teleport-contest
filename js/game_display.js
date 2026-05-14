@@ -12,6 +12,7 @@
 //   // display.topMessage, display.putstr_message are NetHack-specific
 
 import { Terminal, CLR_GRAY } from './terminal.js';
+import { NHW_TEXT } from './const.js';
 
 const TOPLINE_EMPTY = 0;
 const TOPLINE_NEED_MORE = 1;
@@ -119,4 +120,90 @@ export class GameDisplay {
     moveCursorTo(col, row = 0) {
         this.setCursor(col, row);
     }
+
+    // --- Window system basics ---
+
+    create_nhwindow(type) {
+        if (!this.windows) this.windows = [];
+        const win = { type: type, lines: [], items: [], active: false, maxrow: 0 };
+        this.windows.push(win);
+        return this.windows.length - 1; // Return window id
+    }
+
+    destroy_nhwindow(winid) {
+        if (!this.windows || !this.windows[winid]) return;
+        this.windows[winid] = null; // Free slot
+    }
+
+    clear_nhwindow(winid) {
+        if (!this.windows || !this.windows[winid]) return;
+        const win = this.windows[winid];
+        win.lines = [];
+        win.items = [];
+    }
+
+    display_nhwindow(winid, blocking) {
+        if (!this.windows || !this.windows[winid]) return;
+        const win = this.windows[winid];
+        win.active = true;
+
+        if (win.type === NHW_TEXT) {
+            this.clearScreen();
+            for (let i = 0; i < win.lines.length; i++) {
+                if (i >= this.terminal.rows - 1) break;
+
+
+                this.terminal.putstr(0, i, win.lines[i].str, 0, win.lines[i].attr);
+            }
+            if (blocking) {
+
+                this.setCursor(0, Math.min(win.lines.length, this.terminal.rows - 1));
+            }
+        }
+    }
+
+    putstr_window(winid, attr, str) {
+        if (!this.windows || !this.windows[winid]) return;
+        const win = this.windows[winid];
+        win.lines.push({ attr, str });
+    }
+
+    start_menu(winid) {
+        if (!this.windows || !this.windows[winid]) return;
+        const win = this.windows[winid];
+        win.items = [];
+    }
+
+    add_menu(winid, glyph, identifier, accelerator, group_accel, attr, str, preselected) {
+        if (!this.windows || !this.windows[winid]) return;
+        const win = this.windows[winid];
+        win.items.push({ glyph, identifier, accelerator, group_accel, attr, str, preselected });
+    }
+
+    end_menu(winid, prompt) {
+        if (!this.windows || !this.windows[winid]) return;
+        const win = this.windows[winid];
+        win.prompt = prompt;
+    }
+
+    select_menu(winid, how) {
+        if (!this.windows || !this.windows[winid]) return [];
+        const win = this.windows[winid];
+        // Render menu
+        this.clearScreen();
+        let row = 0;
+        if (win.prompt) {
+            this.terminal.putstr(0, row++, win.prompt, 0, 0);
+        }
+        for (let i = 0; i < win.items.length; i++) {
+            if (row >= this.terminal.rows - 1) break;
+            const item = win.items[i];
+            const acc = item.accelerator ? item.accelerator + ' - ' : '    ';
+            this.terminal.putstr(0, row++, acc + item.str, 0, item.attr);
+        }
+
+
+        return [];
+    }
+
 }
