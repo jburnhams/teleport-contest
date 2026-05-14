@@ -7,7 +7,7 @@ This session provides a rigorous mechanical shakedown of the object dipping subr
 ### Mechanical Sequence
 
 **Steps 1–13: The Stripling Valkyrie**
-Dequa is created through a sequence of manual menu selections (`v` for Valkyrie, `d` for Dwarf). The engine calculates her impressive Strength (18/02) and Constitution (18) across 2,953 PRNG calls. Upon materialising, she is greeted by the light of a Full Moon, granting her a deterministic luck bonus.
+Dequa is created through a sequence of manual menu selections (`v` for Valkyrie, `d` for Dwarf). The engine calculates her impressive Strength (18/02) and Constitution (18) across 2,953 PRNG calls. Upon materialising, she is greeted by the light of a Full Moon, granting her a deterministic luck bonus. The initial state resolves to (St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8).
 
 **Steps 14–700: The Exploration**
 For nearly 700 steps, Dequa explores the dungeon. This phase validates the core locomotion, line-of-sight, and monster movement algorithms. Along the way, she acquires and dons an *orcish helm* with a dismal -4 enchantment, a fact that the mathematical engine tracks with cold, binary precision.

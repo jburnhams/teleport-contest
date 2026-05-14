@@ -7,7 +7,7 @@ This session provides a rigorous mechanical evaluation of the engine's tool inte
 ### Mechanical Sequence
 
 **Steps 1–11: The Rogue Reborn**
-The user opts for a manual character generation sequence, meticulously selecting their role (`r` for Rogue), race (`h` for Human), and gender (`m` for Male). Upon pressing `y` to confirm these deterministic choices, the mathematical engine performs 3,192 PRNG calls to generate the starting floor, Shade's high Dexterity and Constitution (both 18), and his starting inventory of throwing daggers and a lock pick.
+The user opts for a manual character generation sequence, meticulously selecting their role (`r` for Rogue), race (`h` for Human), and gender (`m` for Male). Upon pressing `y` to confirm these deterministic choices, the mathematical engine performs 3,192 PRNG calls to generate the starting floor, Shade's high Dexterity and Constitution (both 18), and his starting inventory of throwing daggers and a lock pick. The initial state resolves to (St:11 Dx:18 Co:18 In:9 Wi:9 Ch:10).
 
 **Steps 12–19: Approaching the Threshold**
 Shade begins exploring Dungeon Level 1. The engine calculates standard locomotion and basic monster AI as Shade wanders toward a nearby doorway. At Step 18, he initiates the apply command (`a`), selecting his lock pick (`e`).
