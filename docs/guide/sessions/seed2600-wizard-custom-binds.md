@@ -7,7 +7,7 @@ This session serves as a rigorous mechanical validation of the engine's input-ha
 ### Mechanical Sequence
 
 **Steps 1–4: The Evoker Setup**
-The engine performs 2,828 PRNG calls to generate the initial state (St:10 Dx:14 Co:14 In:18 Wi:10). Wizard begins on Dungeon Level 1 and declines the tutorial.
+The engine performs 2,828 PRNG calls to generate the initial state (St:10 Dx:14 Co:14 In:18 Wi:10 Ch:9). Wizard begins on Dungeon Level 1 and declines the tutorial.
 
 **Steps 11–12: The Feline Swap**
 Wizard begins exploring the initial room, coordinating his movement with his pet kitten.

@@ -7,7 +7,7 @@ This session serves as a rigorous mechanical validation of the engine's debuggin
 ### Mechanical Sequence
 
 **Steps 1–3: The Digger Setup**
-The engine performs 2,922 PRNG calls to generate the initial state for a neutral human Archeologist (St:10 Dx:11 Co:11 In:15 Wi:18). Wizard begins on Dungeon Level 1 and declines the tutorial.
+The engine performs 2,922 PRNG calls to generate the initial state for a neutral human Archeologist (St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10). Wizard begins on Dungeon Level 1 and declines the tutorial.
 
 **Steps 4–16: The Teleportation Protocol (`#levelchange`)**
 Wizard immediately invokes the administrative command `#levelchange`.
