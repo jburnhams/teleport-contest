@@ -9,7 +9,7 @@ This session is fundamentally an infrastructure test disguised as superstitious 
 #### Segment 0: The Superstitious Setup
 
 **Steps 0–3: Astrological Initialisation**
-The engine performs 3,824 PRNG calls to generate the dungeon and the entity—a Chaotic female human Rogue named *Sneaky*. The initialisation logic specifically checks the provided system clock parameters and modifies the game state accordingly. The message line validates these conditional branches: 
+The engine performs 3,824 PRNG calls to generate the dungeon and the entity—a Chaotic female human Rogue named *Sneaky* (St:14 Dx:16 Co:14 In:10 Wi:12 Ch:9). The initialisation logic specifically checks the provided system clock parameters and modifies the game state accordingly. The message line validates these conditional branches:
 - *You are lucky! Full moon tonight.*
 - *Watch out! Bad things can happen on Friday the 13th.*
 
