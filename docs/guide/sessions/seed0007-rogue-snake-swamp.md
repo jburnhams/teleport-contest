@@ -8,7 +8,7 @@ This session serves as a rigorous evaluation of the manual character creation me
 
 **Steps 1–14: Asserting Identity**
 Unlike standard runs which rely on automatic generation, the user asserts direct control over the character creation process. They type `S, e, p, t, o, r` to name the entity. At Step 7, they explicitly decline automatic role selection (`n`), instead navigating the menus to manually request the role of Rogue (`r`), the male gender (`m`), and the Orcish race (`o`). 
-At Step 14, the engine validates these choices with a massive 2,817 PRNG call sequence, generating the dungeon and dropping Septor into existence with a lock pick and an empty sack.
+At Step 14, the engine validates these choices with a massive 2,817 PRNG call sequence, generating the dungeon and dropping Septor into existence (St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11) with a lock pick and an empty sack.
 
 **Steps 15–287: The Descent**
 Septor successfully descends to Dungeon Level 2. The simulation validates standard locomotion, pathfinding, and line-of-sight algorithms over several hundred steps. He encounters a magical amulet and equips it (`P`), triggering 40 PRNG calls as the engine updates his equipment status. 

@@ -7,7 +7,7 @@ This session serves as a rigorous mechanical test of the game's vault security l
 ### Mechanical Sequence
 
 **Steps 1–16: Navigating the Void**
-Dodeco opts for complete manual character creation. Rather than accepting the defaults, the user process rapidly cycles through the UI selection trees, pressing `[`, `l`, `"`, `m`, `/`, and `h` to meticulously specify their exact role, creed, race, and gender. The UI state machine correctly handles this flurry of input. Upon pressing `y` to confirm, the mathematical engine awakens, generating the dungeon with a massive 3,066 PRNG call sequence.
+Dodeco opts for complete manual character creation. Rather than accepting the defaults, the user process rapidly cycles through the UI selection trees, pressing `[`, `l`, `"`, `m`, `/`, and `h` to meticulously specify their exact role, creed, race, and gender. The UI state machine correctly handles this flurry of input. Upon pressing `y` to confirm, the mathematical engine awakens, generating the dungeon with a massive 3,066 PRNG call sequence, creating Dodeco (St:13 Dx:18 Co:12 In:11 Wi:9 Ch:12).
 
 **Steps 17–293: The Intrusion**
 Dodeco navigates the dungeon corridors. For several hundred steps, the engine resolves standard locomotion, line-of-sight, and basic monster pathfinding. Eventually, Dodeco breaches the walls of a procedurally generated gold vault. 

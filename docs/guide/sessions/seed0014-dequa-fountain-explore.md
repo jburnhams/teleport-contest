@@ -2,7 +2,7 @@
 
 **Subsystem Focus**: Validates the `#dip` extended command, equipment attribute modification, and town watchman AI triggers.
 
-This session provides a rigorous mechanical shakedown of the object dipping subroutines. The user entity—a Lawful Dwarven Valkyrie named *Dequa*—demonstrates the engine's ability to handle complex item-environment interactions and the resulting legal repercussions in a procedurally generated dungeon.
+This session provides a rigorous mechanical shakedown of the object dipping subroutines. The user entity—a Lawful Dwarven Valkyrie named *Dequa* (St:18/02 Dx:12 Co:18 In:8 Wi:9 Ch:8)—demonstrates the engine's ability to handle complex item-environment interactions and the resulting legal repercussions in a procedurally generated dungeon.
 
 ### Mechanical Sequence
 
