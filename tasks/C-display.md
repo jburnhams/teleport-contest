@@ -56,12 +56,12 @@ Port the display subsystem — status lines, message handling, map rendering imp
 - [ ] Verify with the scorer's `diffCell()` / `renderCell()` comparison logic
 
 ## C5. Window system basics
-- [ ] Read C `src/wintty.c` — understand `tty_putstr()`, `tty_curs()`, `tty_clear_nhwindow()`
-- [ ] Port `create_nhwindow()` / `destroy_nhwindow()` — window management
-- [ ] Port `display_nhwindow()` — show a completed window
-- [ ] Port menu display — `start_menu()`, `add_menu()`, `end_menu()`, `select_menu()`
+- [x] Read C `src/wintty.c` — understand `tty_putstr()`, `tty_curs()`, `tty_clear_nhwindow()`
+- [x] Port `create_nhwindow()` / `destroy_nhwindow()` — window management
+- [x] Port `display_nhwindow()` — show a completed window
+- [x] Port menu display — `start_menu()`, `add_menu()`, `end_menu()`, `select_menu()`
 - [ ] This is needed for inventory display, spell lists, extended command menus, etc.
-- [ ] Wire into `js/game_display.js`
+- [x] Wire into `js/game_display.js`
 
 ## C6. Ctrl+X / insight.js improvements
 - [ ] Read C `src/insight.c` — the full `doattributes()` / `enlightenment()` logic

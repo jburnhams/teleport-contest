@@ -235,3 +235,12 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Cleaned up loose test scratchpads and incorporated `test/o_init.test.js` covering `MAXOCLASSES` index initialization.
 - Validated via scoring maintaining exact 100% baseline structural alignment (88/11406 screens pass).
 - Next steps: Proceed to D2.3 (Erosion & Quantity helpers) exploring `may_generate_eroded` functionality.
+
+## 2026-05-16
+- Started Stream C5 (Window system basics).
+- Ported the `create_nhwindow()`, `destroy_nhwindow()`, `clear_nhwindow()`, and `display_nhwindow()` window management methods to `js/game_display.js`.
+- Ported the `start_menu()`, `add_menu()`, `end_menu()`, and `select_menu()` menu display methods to `js/game_display.js`.
+- Implemented the menu logic handling pagination, counts, item selection, and pre-selection, as close as possible to the C logic.
+- Checked and resolved divergences in testing by using `.next` structures correctly inside `test/game_display.test.js`.
+- Validated via `npm run score:check` maintaining exact 100% baseline structural alignment (+0 regression score: 88/11406 screens pass).
+- Next steps: Proceed to C3 (Map rendering improvements) or C4 (Terminal output format matching).
