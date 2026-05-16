@@ -17,6 +17,8 @@ Key insights discovered during the port. Add entries as discoveries are made.
 - **Screen comparison**: Semantic, not byte-exact. `frozen/screen-decode.mjs` renders cells via `renderCell()` before comparing. DEC line-drawing chars (`\x0e` + 'l') and Unicode box chars ('┌') compare as EQUAL. Map screens can match even though `terminal.serialize()` raw bytes differ from the session JSON.
 - **ANSI Colors**: `display.putstr` defaults to `CLR_GRAY` (7) -> `\x1b[37m`. Must pass `NO_COLOR` (8 -> ANSI 39) explicitly when writing text that should match plain C output.
 - When testing logic that modifies global compile-time arrays (like `objects[i].oc_prob`), strictly isolate changes by saving the original state in `beforeEach` and restoring it in `afterEach` to prevent test contamination.
+- **Tests with PRNG**: If testing functions that mutate the PRNG, keep them isolated in unmocked files to prevent global `vi.mock()` hoisting issues (e.g. `vi.mock('../js/rng.js')` breaking the real RNG calls).
+
 ---
 
 ## PRNG & Seeding
@@ -172,6 +174,11 @@ Gender indices: 0=male, 1=female. Align indices: 0=chaotic, 1=neutral, 2=lawful.
 
 ---
 
+### Monster System
+- **`rndmonst` / `rndmonnum`**: The PRNG selection (`rndmonst_adj`) implements a weighted reservoir sampling. It consumes `rn2` checks to replace the `selected_mndx` when `rn2(totalweight) < weight`. The upper limit for looping is `PM_LONG_WORM_TAIL`, not `NUMMONS`.
+
+---
+
 ## UI & Display Specifics
 
 ### Attribute Screens (Ctrl+X)
@@ -193,6 +200,3 @@ APPEND NEW LEARNINGS HERE.
 The Librarian will periodically integrate these into the thematic sections above. 
 Keep entries detailed; include C references, bitmasks, and specific RNG counts.
 -->
-## Monster System
-- **`rndmonst` / `rndmonnum`**: The PRNG selection (`rndmonst_adj`) implements a weighted reservoir sampling. It consumes `rn2` checks to replace the `selected_mndx` when `rn2(totalweight) < weight`. The upper limit for looping is `PM_LONG_WORM_TAIL`, not `NUMMONS`.
-- **Tests with PRNG**: If testing functions that mutate the PRNG, keep them isolated in unmocked files to prevent global `vi.mock()` hoisting issues (e.g. `vi.mock('../js/rng.js')` breaking the real RNG calls).
