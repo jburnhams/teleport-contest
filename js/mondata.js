@@ -154,3 +154,11 @@ export function noncorporeal(ptr) {
 export function is_whirly(ptr) {
     return ptr.mlet === C.S_VORTEX || ptr === mons[C.PM_AIR_ELEMENTAL];
 }
+
+export function is_golem(ptr) {
+    return ptr.mlet === C.S_GOLEM;
+}
+
+export function is_rider(ptr) {
+    return ptr === mons[C.PM_DEATH] || ptr === mons[C.PM_FAMINE] || ptr === mons[C.PM_PESTILENCE];
+}
