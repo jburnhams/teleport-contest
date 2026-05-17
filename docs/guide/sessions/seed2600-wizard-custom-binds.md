@@ -2,7 +2,7 @@
 
 **Subsystem Focus**: Validates Wizard Mode administrative navigation and the engine's ability to handle custom key-binding states within the input state machine.
 
-This session serves as a rigorous mechanical validation of the engine's input-handling and level-generation infrastructure. The user entity—a human Wizard named *Wizard*—demonstrates the engine's ability to coordinate rapid administrative jumps across dungeon levels while maintaining a consistent deterministic reality, regardless of the underlying key-binding configuration.
+This session serves as a rigorous mechanical validation of the engine's input-handling and level-generation infrastructure. The user entity—a human Wizard named *Wizard* (St:10 Dx:14 Co:14 In:18 Wi:10 Ch:9)—demonstrates the engine's ability to coordinate rapid administrative jumps across dungeon levels while maintaining a consistent deterministic reality, regardless of the underlying key-binding configuration.
 
 ### Mechanical Sequence
 
