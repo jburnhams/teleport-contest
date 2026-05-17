@@ -18,12 +18,12 @@ Port the monster creation and movement system. Monsters are placed during mklev 
 - [x] Port `monsndx()`, species checks, movement-type helpers from mondata.c
 
 ## E3. makemon — monster creation (CRITICAL for mklev RNG)
-- [ ] Port `makemon(ptr, x, y, mmflags)` from makemon.c
+- [x] Port `makemon(ptr, x, y, mmflags)` from makemon.c
 - [x] Port `rndmonst()` / `rndmonnum()` — random monster selection
-- [ ] Port `goodpos()` / `enexto()` — valid placement
-- [ ] Port monster HP, speed, level adjustment
+- [x] Port `goodpos()` / `enexto()` — valid placement
+- [x] Port monster HP, speed, level adjustment
 - [ ] Port `m_initweap()` / `m_initinv()` — monster starting items (depends on D2)
-- [ ] Port `m_initgrp()` — monster groups
+- [x] Port `m_initgrp()` — monster groups
 - [ ] Port `peace_minded()` / `set_malign()`
 
 ## E4. Pet creation
