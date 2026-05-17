@@ -115,6 +115,14 @@ Analysed the full RNG init sequence by reading:
 ---
 
 ## New Additions
+
+## 2024-05-16
+- Successfully completed Stream D subtask D2.3 (Erosion & Quantity helpers).
+- Ported `may_generate_eroded`, `mkobj_erosions`, `is_multigen` and property checks (`is_flammable`, `is_rustprone`, etc.) from C to JS inside `js/mkobj.js`.
+- Cleaned up manual mapping bugs and correctly utilized the exported constants. Addressed code review feedback about importing the global `game` object properly from `gstate.js`.
+- Added comprehensive unit tests checking material conditions, weapon types logic, and ensuring the unmocked ISAAC64 PRNG runs appropriately without regression inside `test/mkobj.erosion.test.js`.
+- Scorer validation completed ensuring baseline alignment remains fully stable (+0 regressions, 88/11406 score).
+
 <!-- 
 APPEND NEW LOG ENTRIES HERE. 
 The Diary Secretary will periodically merge these into the chronological sections above. 
