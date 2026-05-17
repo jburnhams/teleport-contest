@@ -2,7 +2,7 @@
 
 **Subsystem Focus**: Validates Wizard Mode administrative navigation (`#levelchange`), role-specific attribute generation, and the mass-level generation subroutines for the Archeologist class.
 
-This session serves as a rigorous mechanical validation of the engine's debugging infrastructure from the perspective of an Archeologist. The user entity—appropriately named *Wizard*—demonstrates the engine's ability to handle rapid jumps through the dungeon hierarchy while maintaining role-specific state.
+This session serves as a rigorous mechanical validation of the engine's debugging infrastructure from the perspective of an Archeologist. The user entity—appropriately named *Wizard* (St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10)—demonstrates the engine's ability to handle rapid jumps through the dungeon hierarchy while maintaining role-specific state.
 
 ### Mechanical Sequence
 

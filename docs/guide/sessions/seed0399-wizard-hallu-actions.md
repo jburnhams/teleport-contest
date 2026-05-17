@@ -2,7 +2,7 @@
 
 **Subsystem Focus**: Validates Wizard Mode death-prevention subroutines, administrative prayer overrides, and poison-based attribute degradation.
 
-This session serves as a high-precision mechanical validation of the engine's debugging state machine. The user entity—a Wizard named *Wizard*—demonstrates the engine's ability to cheat death itself, along with the associated administrative prompts for deity intervention and immortality.
+This session serves as a high-precision mechanical validation of the engine's debugging state machine. The user entity—a Wizard named *Wizard* (St:11 Dx:11 Co:12 In:18 Wi:15 Ch:8)—demonstrates the engine's ability to cheat death itself, along with the associated administrative prompts for deity intervention and immortality.
 
 ### Mechanical Sequence
 

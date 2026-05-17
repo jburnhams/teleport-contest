@@ -2,7 +2,7 @@
 
 **Subsystem Focus**: Validates "Explore Mode" status, the command-count prefix logic, and the resolution of long-duration pet combat.
 
-This session serves as a rigorous mechanical validation of the engine's administrative and combat-automation subroutines. The user entity—a Tourist named *Touristo*—demonstrates the engine's ability to handle the "non-scoring explore mode" flag, the queuing of repeated commands via count prefixes, and the deterministic resolution of a multi-turn melee between a pet and a monster.
+This session serves as a rigorous mechanical validation of the engine's administrative and combat-automation subroutines. The user entity—a Tourist named *Touristo* (St:13 Dx:10 Co:12 In:12 Wi:11 Ch:17)—demonstrates the engine's ability to handle the "non-scoring explore mode" flag, the queuing of repeated commands via count prefixes, and the deterministic resolution of a multi-turn melee between a pet and a monster.
 
 ### Mechanical Sequence
 
