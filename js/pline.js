@@ -12,6 +12,30 @@ function sprintf(format, ...args) {
     });
 }
 
+export function putmsghistory(msg, restoring_msghist) {
+    if (!game.nhDisplay) return;
+
+    if (restoring_msghist) {
+        if (game.nhDisplay.snapshot_mesgs) {
+            game.nhDisplay.snapshot_mesgs = null;
+        }
+    }
+
+    if (msg) {
+        if (game.nhDisplay.toplin === 1) {
+            game.nhDisplay.toplin = 2;
+        }
+
+        game.nhDisplay.messages.push(msg);
+        game.nhDisplay.toplines = msg;
+    } else if (game.nhDisplay.snapshot_mesgs) {
+        for (const m of game.nhDisplay.snapshot_mesgs) {
+            game.nhDisplay.messages.push(m);
+        }
+        game.nhDisplay.snapshot_mesgs = null;
+    }
+}
+
 export async function pline(msgOrFormat, ...args) {
     const msg = (args.length > 0 || msgOrFormat.includes('%')) ? sprintf(msgOrFormat, ...args) : msgOrFormat;
 
@@ -21,21 +45,28 @@ export async function pline(msgOrFormat, ...args) {
     }
 
     const display = game.nhDisplay;
-    if (display.toplin === 1) { // TOPLINE_NEED_MORE
+    if (display.toplin === 1) {
         await more();
     }
     display.putstr_message(msg);
+}
+
+export async function vpline(msgOrFormat, ...args) {
+    if (!game.flags || !game.flags.verbose) return;
+    await pline(msgOrFormat, ...args);
+}
+
+export function Sprintf(format, ...args) {
+    return sprintf(format, ...args);
 }
 
 export async function more() {
     const display = game.nhDisplay;
     if (!display) return;
 
-    // Add --More-- to current message
     let current = display.topMessage || '';
     const suffix = current.length > 0 ? " --More--" : "--More--";
 
-    // Ensure we don't overflow the 80 column terminal
     if (current.length + suffix.length > 80) {
         current = current.substring(0, 80 - suffix.length);
     }
@@ -46,12 +77,10 @@ export async function more() {
     display.putstr(0, 0, moreStr, CLR_GRAY);
     display.setCursor(moreStr.length, 0);
 
-    // Wait for input
-    // Any key dismisses the more prompt
     let c = await input.nhgetch();
 
     display.clearRow(0);
-    display.toplin = 0; // TOPLINE_EMPTY
+    display.toplin = 0;
     display.topMessage = null;
 }
 
