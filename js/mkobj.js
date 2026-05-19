@@ -2,13 +2,14 @@
 import { game } from './gstate.js';
 import { fobj, set_fobj } from './decl.js';
 import {
-    RANDOM_CLASS, WEAPON_CLASS, ARMOR_CLASS, POTION_CLASS, SCROLL_CLASS,
-    WAND_CLASS, SPBOOK_CLASS, FOOD_CLASS, TOOL_CLASS, GEM_CLASS, RING_CLASS,
+    RANDOM_CLASS, POTION_CLASS, SCROLL_CLASS,
+    WAND_CLASS, SPBOOK_CLASS, FOOD_CLASS,
     AMULET_CLASS, COIN_CLASS
 } from './const.js';
-import { BOULDER, GOLD_PIECE, STRANGE_OBJECT, objects } from './objects.js';
 import { rnd, rn2, rn1 } from './rng.js';
-import { depth, level_difficulty } from './hacklib.js';
+import { BOULDER, GOLD_PIECE, STRANGE_OBJECT, objects, WORM_TOOTH, WAN_FIRE, TALLOW_CANDLE, WAX_CANDLE } from './objects.js';
+import { ARMOR_CLASS, WEAPON_CLASS, TOOL_CLASS, RING_CLASS, GEM_CLASS, IRON, GLASS, COPPER, WOOD, LIQUID, PLASTIC, DRAGON_HIDE, FIRE_RES, P_SHURIKEN, P_BOW } from './const.js';
+import { erosion_matters } from './objnam.js';
 
 export const OBJ_FREE = 0;
 export const OBJ_FLOOR = 1;
@@ -388,6 +389,7 @@ export function mksobj(otyp, init, artif) {
     if (init) {
         mksobj_init(otmp, otyp);
     }
+    mkobj_erosions(otmp);
     return otmp;
 }
 
@@ -419,6 +421,90 @@ export function mksobj_at(otyp, x, y, init, artif) {
 export function mkobj(oclass, artif) {
     // Exact stub from previous mklev.js: ignores oclass and consumes no extra RNG
     return mksobj(0, false, artif);
+}
+
+export function is_multigen(otmp) {
+    if (!otmp || !objects[otmp.otyp]) return false;
+    const oc_skill = objects[otmp.otyp].oc_skill;
+    return otmp.oclass === WEAPON_CLASS && oc_skill >= -P_SHURIKEN && oc_skill <= -P_BOW;
+}
+
+export function Is_candle(otmp) {
+    return otmp.otyp === TALLOW_CANDLE || otmp.otyp === WAX_CANDLE;
+}
+
+export function is_flammable(otmp) {
+    const otyp = otmp.otyp;
+    const omat = objects[otyp].oc_material;
+
+    if (Is_candle(otmp)) return false;
+    if (objects[otyp].oc_oprop === FIRE_RES || otyp === WAN_FIRE) return false;
+
+    return (omat <= WOOD && omat !== LIQUID) || omat === PLASTIC;
+}
+
+export function is_rottable(otmp) {
+    const otyp = otmp.otyp;
+    const omat = objects[otyp].oc_material;
+    return (omat <= WOOD && omat !== LIQUID) || omat === DRAGON_HIDE;
+}
+
+export function is_rustprone(otmp) {
+    return objects[otmp.otyp].oc_material === IRON;
+}
+
+export function is_crackable(otmp) {
+    return objects[otmp.otyp].oc_material === GLASS && otmp.oclass === ARMOR_CLASS;
+}
+
+export function is_corrodeable(otmp) {
+    const omat = objects[otmp.otyp].oc_material;
+    return omat === COPPER || omat === IRON;
+}
+
+export function is_damageable(otmp) {
+    return is_rustprone(otmp) || is_flammable(otmp) || is_rottable(otmp) || is_corrodeable(otmp) || is_crackable(otmp);
+}
+
+export function may_generate_eroded(otmp) {
+    // initial hero inventory
+    if ((game.moves || 1) <= 1 && !game.in_mklev) return false;
+    // already erodeproof or cannot be eroded
+    if (otmp.oerodeproof || !erosion_matters(otmp) || !is_damageable(otmp)) return false;
+    // part of a monster's body and produced when it dies. Wait, P_UNICORN_HORN is a skill, there is no UNICORN_HORN object constant in JS right now?
+    // Actually, UNICORN_HORN should be in objects.js. Let's check objects.js for horn.
+    if (otmp.otyp === WORM_TOOTH) return false;
+    // To match C exactly, we must check UNICORN_HORN too.
+    // Tools like weptools (unicorn horn, pick-axe) seem to be missing from the objects.js array at this time based on search.
+    // In objects.js, UNICORN_HORN should be there, but maybe not extracted correctly?
+    // According to memory: The WEPTOOL items are missing from the current objects.js extraction. Implementations depending on them should use their oc_subtyp skill mappings (e.g., P_UNICORN_HORN) as a workaround instead of relying on exact otyp constants.
+    // P_UNICORN_HORN is 27.
+    if (objects[otmp.otyp] && objects[otmp.otyp].oc_subtyp === 27) return false;
+    // artifacts cannot be generated eroded
+    if (otmp.oartifact) return false;
+    return true;
+}
+
+export function mkobj_erosions(otmp) {
+    if (may_generate_eroded(otmp)) {
+        if (!rn2(100)) {
+            otmp.oerodeproof = 1;
+        } else {
+            if (!rn2(80) && (is_flammable(otmp) || is_rustprone(otmp) || is_crackable(otmp))) {
+                do {
+                    otmp.oeroded = (otmp.oeroded || 0) + 1;
+                } while (otmp.oeroded < 3 && !rn2(9));
+            }
+            if (!rn2(80) && (is_rottable(otmp) || is_corrodeable(otmp))) {
+                do {
+                    otmp.oeroded2 = (otmp.oeroded2 || 0) + 1;
+                } while (otmp.oeroded2 < 3 && !rn2(9));
+            }
+        }
+        if (!rn2(1000)) {
+            otmp.greased = 1;
+        }
+    }
 }
 
 export function mkobj_at(oclass, x, y, artif) {

@@ -235,3 +235,10 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Cleaned up loose test scratchpads and incorporated `test/o_init.test.js` covering `MAXOCLASSES` index initialization.
 - Validated via scoring maintaining exact 100% baseline structural alignment (88/11406 screens pass).
 - Next steps: Proceed to D2.3 (Erosion & Quantity helpers) exploring `may_generate_eroded` functionality.
+
+## 2026-05-19
+- Ported Erosion & Quantity helpers (`may_generate_eroded`, `mkobj_erosions`, `is_multigen`, `is_damageable`, `is_flammable`, etc) to `js/mkobj.js`, completing Stream D2.3.
+- Discovered that weptools are missing from `objects.js` and implemented a temporary workaround using `oc_subtyp` mappings to match C's PRNG behavior.
+- Discovered that `otyp` is an integer index, not an object reference, and fixed `is_weptool` to properly look up `oc_skill` via `objects[obj.otyp]`.
+- Validated with vitest and `npm run score:check`, verifying +0 regression.
+- Next step: D2.4 (Monster & Corpse helpers).
