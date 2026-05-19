@@ -134,7 +134,7 @@ describe('mkobj_erosions and helpers', () => {
         // without tracing, but we know it consumes rng.
         // For a full bit-exact test, we assert the log matches the known call trace.
         // A simple snapshot or length check ensures the sequence was consumed.
-        expect(logs[0]).toBe('100@rn2');
+        expect(logs[0]).toBe('rn2(100)=41');
 
         objects[3] = origObj;
     });
