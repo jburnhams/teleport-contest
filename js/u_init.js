@@ -1,3 +1,4 @@
+import { objects } from './objects.js';
 // u_init.js — Hero Initialization
 // C ref: u_init.c
 
@@ -15,7 +16,8 @@ import {
     PM_CAVE_DWELLER, PM_HEALER, PM_KNIGHT, PM_MONK, PM_CLERIC,
     PM_ROGUE, PM_RANGER, PM_SAMURAI, PM_TOURIST, PM_VALKYRIE, PM_WIZARD
 } from './const.js';
-import { objects } from './objects.js';
+import { bases } from './o_init.js';
+import { CORNUTHAUM, DUNCE_CAP } from './objects.js';
 import { PM_PONY } from './monst.js';
 import {
     WEAPON_CLASS, ARMOR_CLASS, POTION_CLASS, SCROLL_CLASS, WAND_CLASS,
@@ -23,7 +25,6 @@ import {
 } from './const.js';
 import { invent } from './decl.js';
 import { game } from './gstate.js';
-import { objects } from './objects.js';
 import {
     SPBOOK_CLASS, POTION_CLASS, SCROLL_CLASS, RING_CLASS,
     SPE_FORCE_BOLT, POT_HEALING, SCR_LIGHT, RIN_SEARCHING
@@ -697,199 +698,42 @@ export function ini_inv(trop) {
     }
 }
 
-export function knows_object(obj, override_pauper) {}
-export function knows_class(sym) {}
-
-export const Archeologist = [
-    { trotyp: BULLWHIP, trspe: 2, trclass: WEAPON_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: LEATHER_JACKET, trspe: 0, trclass: ARMOR_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: FEDORA, trspe: 0, trclass: ARMOR_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: FOOD_RATION, trspe: 0, trclass: FOOD_CLASS, quan_min: 3, quan_max: 3, trbless: 0 },
-    { trotyp: PICK_AXE, trspe: 127, trclass: TOOL_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: TINNING_KIT, trspe: 127, trclass: TOOL_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: TOUCHSTONE, trspe: 0, trclass: GEM_CLASS, quan_min: 1, quan_max: 1, trbless: 0 },
-    { trotyp: SACK, trspe: 0, trclass: TOOL_CLASS, quan_min: 1, quan_max: 1, trbless: 0 }
-];
-export const Barbarian_0 = [
-    { trotyp: TWO_HANDED_SWORD, trspe: 0, trclass: WEAPON_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: AXE, trspe: 0, trclass: WEAPON_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: RING_MAIL, trspe: 0, trclass: ARMOR_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: FOOD_RATION, trspe: 0, trclass: FOOD_CLASS, quan_min: 1, quan_max: 1, trbless: 0 }
-];
-export const Barbarian_1 = [
-    { trotyp: BATTLE_AXE, trspe: 0, trclass: WEAPON_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: SHORT_SWORD, trspe: 0, trclass: WEAPON_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: RING_MAIL, trspe: 0, trclass: ARMOR_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: FOOD_RATION, trspe: 0, trclass: FOOD_CLASS, quan_min: 1, quan_max: 1, trbless: 0 }
-];
-export const Cave_man = [
-    { trotyp: CLUB, trspe: 1, trclass: WEAPON_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: SLING, trspe: 2, trclass: WEAPON_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: FLINT, trspe: 0, trclass: GEM_CLASS, quan_min: 10, quan_max: 20, trbless: 2 },
-    { trotyp: ROCK, trspe: 0, trclass: GEM_CLASS, quan_min: 3, quan_max: 3, trbless: 0 },
-    { trotyp: LEATHER_ARMOR, trspe: 0, trclass: ARMOR_CLASS, quan_min: 1, quan_max: 1, trbless: 2 }
-];
-export const Healer = [
-    { trotyp: SCALPEL, trspe: 0, trclass: WEAPON_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: LEATHER_GLOVES, trspe: 1, trclass: ARMOR_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: STETHOSCOPE, trspe: 0, trclass: TOOL_CLASS, quan_min: 1, quan_max: 1, trbless: 0 },
-    { trotyp: POT_HEALING, trspe: 0, trclass: POTION_CLASS, quan_min: 4, quan_max: 4, trbless: 2 },
-    { trotyp: POT_EXTRA_HEALING, trspe: 0, trclass: POTION_CLASS, quan_min: 4, quan_max: 4, trbless: 2 },
-    { trotyp: WAN_SLEEP, trspe: 127, trclass: WAND_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: SPE_HEALING, trspe: 0, trclass: SPBOOK_CLASS, quan_min: 1, quan_max: 1, trbless: 1 },
-    { trotyp: SPE_EXTRA_HEALING, trspe: 0, trclass: SPBOOK_CLASS, quan_min: 1, quan_max: 1, trbless: 1 },
-    { trotyp: SPE_STONE_TO_FLESH, trspe: 0, trclass: SPBOOK_CLASS, quan_min: 1, quan_max: 1, trbless: 1 },
-    { trotyp: APPLE, trspe: 0, trclass: FOOD_CLASS, quan_min: 5, quan_max: 5, trbless: 0 }
-];
-export const Knight = [
-    { trotyp: LONG_SWORD, trspe: 1, trclass: WEAPON_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: LANCE, trspe: 1, trclass: WEAPON_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: RING_MAIL, trspe: 1, trclass: ARMOR_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: HELMET, trspe: 0, trclass: ARMOR_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: SMALL_SHIELD, trspe: 0, trclass: ARMOR_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: LEATHER_GLOVES, trspe: 0, trclass: ARMOR_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: APPLE, trspe: 0, trclass: FOOD_CLASS, quan_min: 10, quan_max: 10, trbless: 0 },
-    { trotyp: CARROT, trspe: 0, trclass: FOOD_CLASS, quan_min: 10, quan_max: 10, trbless: 0 }
-];
-export const Monk = [
-    { trotyp: LEATHER_GLOVES, trspe: 2, trclass: ARMOR_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: ROBE, trspe: 1, trclass: ARMOR_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: UNDEF_TYP, trspe: 127, trclass: SCROLL_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: POT_HEALING, trspe: 0, trclass: POTION_CLASS, quan_min: 3, quan_max: 3, trbless: 2 },
-    { trotyp: FOOD_RATION, trspe: 0, trclass: FOOD_CLASS, quan_min: 3, quan_max: 3, trbless: 0 },
-    { trotyp: APPLE, trspe: 0, trclass: FOOD_CLASS, quan_min: 5, quan_max: 5, trbless: 2 },
-    { trotyp: ORANGE, trspe: 0, trclass: FOOD_CLASS, quan_min: 5, quan_max: 5, trbless: 2 },
-    { trotyp: FORTUNE_COOKIE, trspe: 0, trclass: FOOD_CLASS, quan_min: 3, quan_max: 3, trbless: 2 }
-];
-export const Priest = [
-    { trotyp: MACE, trspe: 1, trclass: WEAPON_CLASS, quan_min: 1, quan_max: 1, trbless: 1 },
-    { trotyp: ROBE, trspe: 0, trclass: ARMOR_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: SMALL_SHIELD, trspe: 0, trclass: ARMOR_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: POT_WATER, trspe: 0, trclass: POTION_CLASS, quan_min: 4, quan_max: 4, trbless: 1 },
-    { trotyp: CLOVE_OF_GARLIC, trspe: 0, trclass: FOOD_CLASS, quan_min: 1, quan_max: 1, trbless: 0 },
-    { trotyp: SPRIG_OF_WOLFSBANE, trspe: 0, trclass: FOOD_CLASS, quan_min: 1, quan_max: 1, trbless: 0 },
-    { trotyp: UNDEF_TYP, trspe: 127, trclass: SPBOOK_CLASS, quan_min: 2, quan_max: 2, trbless: 2 }
-];
-export const Ranger = [
-    { trotyp: DAGGER, trspe: 1, trclass: WEAPON_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: BOW, trspe: 1, trclass: WEAPON_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: ARROW, trspe: 2, trclass: WEAPON_CLASS, quan_min: 50, quan_max: 59, trbless: 2 },
-    { trotyp: ARROW, trspe: 0, trclass: WEAPON_CLASS, quan_min: 30, quan_max: 39, trbless: 2 },
-    { trotyp: CLOAK_OF_DISPLACEMENT, trspe: 2, trclass: ARMOR_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: CRAM_RATION, trspe: 0, trclass: FOOD_CLASS, quan_min: 4, quan_max: 4, trbless: 0 }
-];
-export const Rogue = [
-    { trotyp: SHORT_SWORD, trspe: 0, trclass: WEAPON_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: DAGGER, trspe: 0, trclass: WEAPON_CLASS, quan_min: 6, quan_max: 15, trbless: 0 },
-    { trotyp: LEATHER_ARMOR, trspe: 1, trclass: ARMOR_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: POT_SICKNESS, trspe: 0, trclass: POTION_CLASS, quan_min: 1, quan_max: 1, trbless: 0 },
-    { trotyp: LOCK_PICK, trspe: 0, trclass: TOOL_CLASS, quan_min: 1, quan_max: 1, trbless: 0 },
-    { trotyp: SACK, trspe: 0, trclass: TOOL_CLASS, quan_min: 1, quan_max: 1, trbless: 0 }
-];
-export const Samurai = [
-    { trotyp: KATANA, trspe: 0, trclass: WEAPON_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: SHORT_SWORD, trspe: 0, trclass: WEAPON_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: YUMI, trspe: 0, trclass: WEAPON_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: YA, trspe: 0, trclass: WEAPON_CLASS, quan_min: 26, quan_max: 45, trbless: 2 },
-    { trotyp: SPLINT_MAIL, trspe: 0, trclass: ARMOR_CLASS, quan_min: 1, quan_max: 1, trbless: 2 }
-];
-export const Tourist = [
-    { trotyp: DART, trspe: 2, trclass: WEAPON_CLASS, quan_min: 21, quan_max: 40, trbless: 2 },
-    { trotyp: UNDEF_TYP, trspe: 127, trclass: FOOD_CLASS, quan_min: 10, quan_max: 10, trbless: 0 },
-    { trotyp: POT_EXTRA_HEALING, trspe: 0, trclass: POTION_CLASS, quan_min: 2, quan_max: 2, trbless: 2 },
-    { trotyp: SCR_MAGIC_MAPPING, trspe: 0, trclass: SCROLL_CLASS, quan_min: 4, quan_max: 4, trbless: 2 },
-    { trotyp: HAWAIIAN_SHIRT, trspe: 0, trclass: ARMOR_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: EXPENSIVE_CAMERA, trspe: 127, trclass: TOOL_CLASS, quan_min: 1, quan_max: 1, trbless: 0 },
-    { trotyp: CREDIT_CARD, trspe: 0, trclass: TOOL_CLASS, quan_min: 1, quan_max: 1, trbless: 0 }
-];
-export const Valkyrie = [
-    { trotyp: SPEAR, trspe: 1, trclass: WEAPON_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: DAGGER, trspe: 0, trclass: WEAPON_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: SMALL_SHIELD, trspe: 3, trclass: ARMOR_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: FOOD_RATION, trspe: 0, trclass: FOOD_CLASS, quan_min: 1, quan_max: 1, trbless: 0 }
-];
-export const Wizard = [
-    { trotyp: QUARTERSTAFF, trspe: 1, trclass: WEAPON_CLASS, quan_min: 1, quan_max: 1, trbless: 1 },
-    { trotyp: CLOAK_OF_MAGIC_RESISTANCE, trspe: 0, trclass: ARMOR_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: UNDEF_TYP, trspe: 127, trclass: WAND_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: UNDEF_TYP, trspe: 127, trclass: RING_CLASS, quan_min: 2, quan_max: 2, trbless: 2 },
-    { trotyp: UNDEF_TYP, trspe: 127, trclass: POTION_CLASS, quan_min: 3, quan_max: 3, trbless: 2 },
-    { trotyp: UNDEF_TYP, trspe: 127, trclass: SCROLL_CLASS, quan_min: 3, quan_max: 3, trbless: 2 },
-    { trotyp: SPE_FORCE_BOLT, trspe: 0, trclass: SPBOOK_CLASS, quan_min: 1, quan_max: 1, trbless: 1 },
-    { trotyp: UNDEF_TYP, trspe: 127, trclass: SPBOOK_CLASS, quan_min: 1, quan_max: 1, trbless: 2 },
-    { trotyp: MAGIC_MARKER, trspe: 19, trclass: TOOL_CLASS, quan_min: 1, quan_max: 1, trbless: 0 }
-];
-export const Healing_book = [
-    { trotyp: SPE_HEALING, trspe: 127, trclass: SPBOOK_CLASS, quan_min: 1, quan_max: 1, trbless: 1 }
-];
-export const Protection_book = [
-    { trotyp: SPE_PROTECTION, trspe: 127, trclass: SPBOOK_CLASS, quan_min: 1, quan_max: 1, trbless: 1 }
-];
-export const Confuse_monster_book = [
-    { trotyp: SPE_CONFUSE_MONSTER, trspe: 127, trclass: SPBOOK_CLASS, quan_min: 1, quan_max: 1, trbless: 1 }
-];
-export const Tinopener = [
-    { trotyp: TIN_OPENER, trspe: 0, trclass: TOOL_CLASS, quan_min: 1, quan_max: 1, trbless: 0 }
-];
-export const Magicmarker = [
-    { trotyp: MAGIC_MARKER, trspe: 19, trclass: TOOL_CLASS, quan_min: 1, quan_max: 1, trbless: 0 }
-];
-export const Lamp = [
-    { trotyp: OIL_LAMP, trspe: 1, trclass: TOOL_CLASS, quan_min: 1, quan_max: 1, trbless: 0 }
-];
-export const Blindfold = [
-    { trotyp: BLINDFOLD, trspe: 0, trclass: TOOL_CLASS, quan_min: 1, quan_max: 1, trbless: 0 }
-];
-export const Xtra_food = [
-    { trotyp: UNDEF_TYP, trspe: 127, trclass: FOOD_CLASS, quan_min: 2, quan_max: 2, trbless: 0 }
-];
-export const Leash = [
-    { trotyp: LEASH, trspe: 0, trclass: TOOL_CLASS, quan_min: 1, quan_max: 1, trbless: 0 }
-];
-export const Towel = [
-    { trotyp: TOWEL, trspe: 0, trclass: TOOL_CLASS, quan_min: 1, quan_max: 1, trbless: 0 }
-];
-export const Wishing = [
-    { trotyp: WAN_WISHING, trspe: 3, trclass: WAND_CLASS, quan_min: 1, quan_max: 1, trbless: 0 }
-];
-export const Money = [
-    { trotyp: GOLD_PIECE, trspe: 0, trclass: COIN_CLASS, quan_min: 1, quan_max: 1, trbless: 0 }
-];
-
-export const M_spell = [Healing_book, Protection_book, Confuse_monster_book];
-
-
-
-// These rely on the basic rng calls made during creation, assuming Stream D handles it fully later.
-// We just need to mimic the exact rng sequence from ini_inv.
-
-export function ini_inv_mkobj_filter(oclass, got_level1_spellbook) {
-    let obj = mkobj(oclass, false);
-    let otyp = obj.otyp;
-    let trycnt = 0;
-
-    // Simplistic stub just recreating the same C loop structure
-    // Since gn.nocreate etc aren't fully implemented in our JS, we'll just check the base case.
-    while (
-        otyp === WAN_WISHING || // WAN_WISHING
-        otyp === RIN_LEVITATION || // RIN_LEVITATION
-        otyp === POT_HALLUCINATION || // POT_HALLUCINATION
-        otyp === POT_ACID || // POT_ACID
-        otyp === SCR_AMNESIA || // SCR_AMNESIA
-        otyp === SCR_FIRE || // SCR_FIRE
-        otyp === SCR_BLANK_PAPER || // SCR_BLANK_PAPER
-        otyp === SPE_BLANK_PAPER || // SPE_BLANK_PAPER
-        otyp === RIN_AGGRAVATE_MONSTER || // RIN_AGGRAVATE_MONSTER
-        otyp === RIN_HUNGER || // RIN_HUNGER
-        otyp === WAN_NOTHING || // WAN_NOTHING
-        (obj.oclass === SPBOOK_CLASS && objects[otyp].oc_level > (got_level1_spellbook ? 3 : 1)) // SPBOOK_CLASS
-    ) {
-        if (++trycnt > 1000) {
-            obj = mksobj(PANCAKE, true, false); // PANCAKE
-            break;
-        }
-        obj = mkobj(oclass, false);
-        otyp = obj.otyp;
+export function discover_object(obj, a, b, c) {
+    if (objects[obj]) {
+        objects[obj].oc_name_known = 1;
     }
-    return obj;
+}
+
+export function knows_object(obj, override_pauper) {
+    if (game.u.uroleplay && game.u.uroleplay.pauper && !override_pauper) return;
+    discover_object(obj, true, false, false);
+}
+
+export function knows_class(sym) {
+    if (game.u.uroleplay && game.u.uroleplay.pauper) return;
+
+    for (let ct = bases[sym]; ct < bases[sym + 1]; ct++) {
+        if (ct === CORNUTHAUM || ct === DUNCE_CAP || ct === SMALL_SHIELD) continue;
+        if (sym === WEAPON_CLASS) {
+
+            let oc_skill = objects[ct].oc_subtyp;
+            let oclass = objects[ct].oc_class;
+
+            // is_pole -> we need to map oc_subtyp
+            let is_pole = (oclass === WEAPON_CLASS || oclass === TOOL_CLASS) && (oc_skill === P_POLEARMS || oc_skill === P_LANCE);
+            let is_launcher = (oclass === WEAPON_CLASS) && (oc_skill >= P_BOW && oc_skill <= P_CROSSBOW);
+            let is_ammo = (oclass === WEAPON_CLASS || oclass === GEM_CLASS) && (oc_skill >= -P_CROSSBOW && oc_skill <= -P_BOW);
+            let is_spear = (oclass === WEAPON_CLASS) && (oc_skill === P_SPEAR);
+
+            if ((game.urole.mnum !== PM_KNIGHT && game.urole.mnum !== PM_SAMURAI) && is_pole) continue;
+
+            if (game.urole.mnum === PM_RANGER && (!is_launcher && !is_ammo && !is_spear)) continue;
+
+            if (game.urole.mnum === PM_ROGUE && oc_skill !== P_DAGGER) continue;
+        }
+
+        if (objects[ct].oc_class === sym && !objects[ct].oc_magic) {
+            knows_object(ct, false);
+        }
+    }
 }
