@@ -349,6 +349,8 @@ async function main() {
     }
   }
 
+
+  console.log(`Overall RNG Matched: ${overallC_rngMatched}/${overallC_rngTotal}`);
 }
 
 main().catch(console.error);
