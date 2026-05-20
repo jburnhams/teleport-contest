@@ -7,7 +7,7 @@ This session serves as a delightful mechanical validation of the engine's object
 ### Mechanical Sequence
 
 **Steps 1–3: The Rambler Touristo**
-The engine performs 2,360 PRNG calls to generate the universe and Touristo's attributes (St:15 Dx:10 Co:15 In:11 Wi:8). Touristo begins on Dungeon Level 1, armed with a starting inventory of food and darts.
+The engine performs 2,360 PRNG calls to generate the universe and Touristo's attributes (St:15 Dx:10 Co:15 In:11 Wi:8 Ch:16). Touristo begins on Dungeon Level 1, armed with a starting inventory of food and darts.
 
 **Steps 4–7: The Cookie Resolution**
 Touristo decides to address his starting hunger by eating a fortune cookie (`b`).

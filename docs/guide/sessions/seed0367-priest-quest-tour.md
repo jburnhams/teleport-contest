@@ -7,7 +7,7 @@ This session serves as a rigorous mechanical validation of the engine's debuggin
 ### Mechanical Sequence
 
 **Steps 1–3: The Aspirant Priestess**
-The engine performs 1,846 PRNG calls to generate the initial state for a chaotic human Priestess (St:9 Dx:15 Co:9 In:11 Wi:17). Wizard begins on Dungeon Level 1 and declines the tutorial.
+The engine performs 1,846 PRNG calls to generate the initial state for a chaotic human Priestess (St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14). Wizard begins on Dungeon Level 1 and declines the tutorial.
 
 **Steps 4–16: The Teleportation Protocol (`#levelchange`)**
 Wizard immediately invokes the administrative command `#levelchange`.

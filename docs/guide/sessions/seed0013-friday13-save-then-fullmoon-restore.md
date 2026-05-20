@@ -2,7 +2,7 @@
 
 **Subsystem Focus**: Validates environmental datetime flags, the Virtual File System (VFS), and the state serialization/deserialization routines.
 
-This session is fundamentally an infrastructure test disguised as superstitious dungeon crawling. The engine is deliberately fed a specific local datetime (Friday the 13th, during a Full Moon) to validate the datetime logic, before rigorously testing the game's ability to save the entire engine state to disk and successfully restore it in a new segment.
+This session is fundamentally an infrastructure test disguised as superstitious dungeon crawling. The engine is deliberately fed a specific local datetime (Friday the 13th, during a Full Moon) to validate the datetime logic, before rigorously testing the game's ability to save the entire engine state to disk and successfully restore it in a new segment. The entity is generated with attributes: St:14 Dx:16 Co:14 In:10 Wi:12 Ch:9.
 
 ### Mechanical Sequence
 

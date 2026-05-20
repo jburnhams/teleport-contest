@@ -4,6 +4,8 @@
 
 This session provides a rigorous mechanical evaluation of the engine's tool interaction subroutines. The user entity—a human Rogue named *Shade*—demonstrates the engine's ability to process manual character creation selections and the logical boundary checks of the lock pick application code.
 
+The entity begins with attributes: (St:11 Dx:18 Co:18 In:9 Wi:9 Ch:10).
+
 ### Mechanical Sequence
 
 **Steps 1–11: The Rogue Reborn**
