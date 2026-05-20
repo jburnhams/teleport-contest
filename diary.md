@@ -235,3 +235,11 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Cleaned up loose test scratchpads and incorporated `test/o_init.test.js` covering `MAXOCLASSES` index initialization.
 - Validated via scoring maintaining exact 100% baseline structural alignment (88/11406 screens pass).
 - Next steps: Proceed to D2.3 (Erosion & Quantity helpers) exploring `may_generate_eroded` functionality.
+
+## 2026-05-18 - Stream C: Message System (C2) continued
+- Implemented `putmsghistory()` in `js/pline.js` which pushes messages into `game.nhDisplay.messages`. The JS port currently caps this at 20 messages, aligning with the `game_display.js` implementation simulating message recall buffer. The `restoring_msghist` argument from C's `tty_putmsghistory` is accepted.
+- Implemented `vpline()` wrapper in `js/pline.js` to correctly conditionally log verbose messages if `game.flags.verbose` is set, replacing the need to scatter `if (flags.verbose)` checks manually.
+- Checked off "Port putmsghistory() — message recall" and "Handle game.flags.verbose" in `tasks/C-display.md`.
+- Wrote tests in `test/pline.test.js` to verify behavior.
+- Passed `npm run score:check` without regression.
+- Next step: Stream C3 (Map rendering improvements) to add monster/object layers and glyph priorities, or C4 (Terminal output format matching).
