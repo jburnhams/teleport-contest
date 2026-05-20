@@ -7,7 +7,7 @@ This session serves as a comprehensive mechanical coverage test of the engine's 
 ### Mechanical Sequence
 
 **Steps 1–2: The New Moon Penalty**
-The engine performs 2,776 PRNG calls to generate the initial state (St:18/01 Dx:9 Co:12 In:7 Wi:14). The initialisation logic detects the "New Moon" condition from the system clock and applies the deterministic luck penalty: *Be careful! New moon tonight.*
+The engine performs 2,776 PRNG calls to generate the initial state (St:18/01 Dx:9 Co:12 In:7 Wi:14 Ch:17). The initialisation logic detects the "New Moon" condition from the system clock and applies the deterministic luck penalty: *Be careful! New moon tonight.*
 
 **Steps 3–16: The Leap of Faith (`#jump`)**
 Wizard immediately tests the Knight's mobility by invoking the `#jump` extended command. 

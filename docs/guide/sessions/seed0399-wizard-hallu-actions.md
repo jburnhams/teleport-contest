@@ -7,7 +7,7 @@ This session serves as a high-precision mechanical validation of the engine's de
 ### Mechanical Sequence
 
 **Steps 1–3: The Evoker Setup**
-The engine performs 2,783 PRNG calls to generate the initial state (St:11 Dx:11 Co:12 In:18 Wi:15). Wizard begins on Dungeon Level 1 and declines the tutorial.
+The engine performs 2,783 PRNG calls to generate the initial state (St:11 Dx:11 Co:12 In:18 Wi:15 Ch:8). Wizard begins on Dungeon Level 1 and declines the tutorial.
 
 **Steps 506–508: Administrative Prayer**
 Deep in the dungeon (Level 12), Wizard attempts to pray.

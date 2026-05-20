@@ -7,7 +7,7 @@ This session serves as a rigorous mechanical validation of the engine's magical 
 ### Mechanical Sequence
 
 **Steps 1–3: The Aspirant Clara**
-The engine performs 2,203 PRNG calls to generate the initial state (St:13 Dx:12 Co:13 In:10 Wi:18). Clara begins on Dungeon Level 1 and declines the tutorial.
+The engine performs 2,203 PRNG calls to generate the initial state (St:13 Dx:12 Co:13 In:10 Wi:18 Ch:9). Clara begins on Dungeon Level 1 and declines the tutorial.
 
 **Steps 4–6: Casting the Light (`Z`)**
 Clara decides to test her divine powers immediately. She issues the cast command (`Z`) and selects her healing spell (`a`).

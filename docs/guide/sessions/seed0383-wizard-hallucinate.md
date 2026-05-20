@@ -7,7 +7,7 @@ This session serves as a rigorous mechanical validation of the engine's percepti
 ### Mechanical Sequence
 
 **Steps 1–3: The Evoker Setup**
-The engine performs 2,448 PRNG calls to generate the initial state (St:12 Dx:14 Co:12 In:15 Wi:12). Wizard begins on Dungeon Level 1 and declines the tutorial.
+The engine performs 2,448 PRNG calls to generate the initial state (St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10). Wizard begins on Dungeon Level 1 and declines the tutorial.
 
 **Steps 4–16: The Teleportation Protocol (`#levelchange`)**
 Wizard immediately invokes the administrative command `#levelchange`. This validates the engine's ability to jump directly to specific dungeon depths (reaching Level 8 by Step 198) and apply specific status effects for testing.
