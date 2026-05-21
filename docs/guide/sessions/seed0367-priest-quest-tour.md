@@ -1,4 +1,4 @@
-# seed0367: The Priestess's Quest Tour
+# seed0367-priest-quest-tour
 
 **Subsystem Focus**: Validates Wizard Mode administrative navigation (`#levelchange`), role-specific attribute generation for the Priest class, and the bones-level detection subroutines.
 

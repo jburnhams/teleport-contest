@@ -1,4 +1,4 @@
-# seed0399: The Wizard's Death Defiance
+# seed0399-wizard-hallu-actions
 
 **Subsystem Focus**: Validates Wizard Mode death-prevention subroutines, administrative prayer overrides, and poison-based attribute degradation.
 

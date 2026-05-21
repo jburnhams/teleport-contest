@@ -1,4 +1,4 @@
-# seed8000: The Tourist Starter
+# seed8000-tourist-starter
 
 **Subsystem Focus**: Validates the `u_init` pathways, standard cursor event dispatching, and initial procedural generation.
 

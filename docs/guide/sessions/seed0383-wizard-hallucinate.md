@@ -1,4 +1,4 @@
-# seed0383: The Wizard's Hallucinatory Jaunt
+# seed0383-wizard-hallucinate
 
 **Subsystem Focus**: Validates the "Hallucination" status effect, its impact on entity name rendering, and the persistence of background AI events during sensory distortion.
 

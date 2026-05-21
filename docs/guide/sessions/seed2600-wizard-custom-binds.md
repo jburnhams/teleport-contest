@@ -1,4 +1,4 @@
-# seed2600: The Wizard's Bound Multiverse
+# seed2600-wizard-custom-binds
 
 **Subsystem Focus**: Validates Wizard Mode administrative navigation and the engine's ability to handle custom key-binding states within the input state machine.
 

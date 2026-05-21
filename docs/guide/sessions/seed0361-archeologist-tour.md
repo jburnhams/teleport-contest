@@ -1,4 +1,4 @@
-# seed0361: The Archeologist's Debug Tour
+# seed0361-archeologist-tour
 
 **Subsystem Focus**: Validates Wizard Mode administrative navigation (`#levelchange`), role-specific attribute generation, and the mass-level generation subroutines for the Archeologist class.
 
