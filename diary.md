@@ -235,3 +235,9 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Cleaned up loose test scratchpads and incorporated `test/o_init.test.js` covering `MAXOCLASSES` index initialization.
 - Validated via scoring maintaining exact 100% baseline structural alignment (88/11406 screens pass).
 - Next steps: Proceed to D2.3 (Erosion & Quantity helpers) exploring `may_generate_eroded` functionality.
+
+## 2026-05-21
+- Completed Stream F2 sub-tasks: ported `knows_object()`, `knows_class()`, and inventory equipment logic (`uwep`, `uarm`, etc.).
+- Verified equipment mask properties and linked starting items to the hero's inventory accurately using `set_invent`.
+- Maintained perfect baseline scoring (88/11406 screens) after integrating new logic.
+- What's next: Begin F3 or F4 to finish out Stream F character and attribute logic.

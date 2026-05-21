@@ -3230,3 +3230,12 @@ export const PM_SAMURAI = 9;
 export const PM_TOURIST = 10;
 export const PM_VALKYRIE = 11;
 export const PM_WIZARD = 12;
+
+
+export const ARM_SUIT = 0;
+export const ARM_SHIELD = 1;
+export const ARM_HELM = 2;
+export const ARM_GLOVES = 3;
+export const ARM_BOOTS = 4;
+export const ARM_CLOAK = 5;
+export const ARM_SHIRT = 6;
