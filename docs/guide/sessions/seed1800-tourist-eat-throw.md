@@ -1,4 +1,4 @@
-# seed1800: Touristo and the Proverbial Cookie
+# seed1800-tourist-eat-throw
 
 **Subsystem Focus**: Validates the `eat` command specifically for fortune cookies, the deterministic generation of fortune strings, and the `throw` command logic for projectiles.
 

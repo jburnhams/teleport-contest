@@ -1,4 +1,4 @@
-# seed2200: Merlin and the Dusty Sigil
+# seed2200-wizard-quaff-zap-read
 
 **Subsystem Focus**: Validates the `quaff`, `zap`, and `read` command interactions, specifically the resolution of magic mapping effects and floor-based engraving detection.
 

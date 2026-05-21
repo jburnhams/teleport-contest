@@ -1,4 +1,4 @@
-# seed0017: Akira and the Unanswered Prayer
+# seed0017-samurai-altar-pray
 
 **Subsystem Focus**: Validates the `#pray` extended command, the piety/luck resolution engine, deity-specific message strings, and the character-name entry UI.
 

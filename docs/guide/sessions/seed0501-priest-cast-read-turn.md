@@ -1,4 +1,4 @@
-# seed0501: Clara and the Healing Light
+# seed0501-priest-cast-read-turn
 
 **Subsystem Focus**: Validates spellcasting subroutines (`Z`), spellbook-reading interactions (`r`), and the associated Power (Pw) expenditure logic.
 
