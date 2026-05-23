@@ -1,4 +1,4 @@
-# seed5006: The Tourist's Self-Inflicted Disaster
+# seed5006-tourist-stress-disaster
 
 **Subsystem Focus**: Validates the administrative wishing system, cursed-item interactions, blindfold state transitions, confused scroll reading, bones-file generation, and cross-segment bones-file retrieval.
 

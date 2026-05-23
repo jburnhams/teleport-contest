@@ -1,4 +1,4 @@
-# seed0030: The Ten-Fold Demise
+# seed0030-ten-diverse-deaths
 
 **Subsystem Focus**: Validates the post-mortem UI loops, bones file generation triggers, multi-segment game state reset, and a comprehensive catalogue of combat resolution end-states.
 
@@ -7,7 +7,7 @@ This extraordinary session is a stress test of the engine's mortality subroutine
 ### Mechanical Sequence
 
 **Segment 0: The Healer's Stroll**
-Quincy the Healer begins her journey with 2,443 PRNG calls to generate the universe. She explores the dungeon level, wandering corridors with standard movement keys. The segment concludes without combat — the engine validates basic multi-step locomotion and the "Unknown command" response for spurious space-key inputs.
+Quincy the Healer (St:8 Dx:10 Co:17 In:9 Wi:15 Ch:16) begins her journey with 2,443 PRNG calls to generate the universe. She explores the dungeon level, wandering corridors with standard movement keys. The segment concludes without combat — the engine validates basic multi-step locomotion and the "Unknown command" response for spurious space-key inputs.
 
 **Segment 1: Brigid and the Small Mimic**
 2,165 PRNG calls generate Brigid the Tourist (St:13 Dx:12 Co:16 In:13 Wi:6 Ch:17) with $984. She explores extensively, her kitten picking up and dropping a triangular amulet along the way. At Step 92, she bumps into what appears to be a chest: *That chest is a small mimic!* The ensuing combat runs 17 steps of melee. The mimic hits twice (Steps 102 and 109), dropping Brigid from 10 HP to 0. She, too, continues pressing movement keys while dead. At Step 118, 1 PRNG call resolves the final state: *You die...*
@@ -33,4 +33,4 @@ At Step 162, a combat death at the hands of Swidnica. The engine validates the i
 **Segments 8–9: Statistical Finality**
 The final two segments complete the experiment with extended exploration runs, each testing the engine's state-persistence validation across segment boundaries. The transition between segments proves that cross-session state (bones, save files) is maintained correctly.
 
-It is a poignant, algorithmic symphony of failure across 1,953 screens, proving that while there are many ways to die in the Dungeons of Doom, every single one of them is meticulously tracked by the mathematical engine. The cumulative PRNG load across ten lifetimes and ten deaths is staggering, making this the most demanding session in the public corpus for state management validation.
+It is a poignant, algorithmic symphony of failure across 1,953 screens, proving that while there are many ways to die in the Dungeons of Doom, every single one of them is meticulously tracked by the mathematical engine. The cumulative PRNG load across ten lifetimes—all rendered via simple ASCII glyphs— and ten deaths is staggering, making this the most demanding session in the public corpus for state management validation.
