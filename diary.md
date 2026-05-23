@@ -235,3 +235,12 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Cleaned up loose test scratchpads and incorporated `test/o_init.test.js` covering `MAXOCLASSES` index initialization.
 - Validated via scoring maintaining exact 100% baseline structural alignment (88/11406 screens pass).
 - Next steps: Proceed to D2.3 (Erosion & Quantity helpers) exploring `may_generate_eroded` functionality.
+
+## 2026-05-23
+- Continued Stream D: Object System.
+- Ported Erosion & Quantity helpers for sub-task D2.3 (`may_generate_eroded`, `mkobj_erosions`, `is_multigen`, and property checkers).
+- Translated property checker C macros directly into JS helper functions in `js/mkobj.js`.
+- Utilized actual bitwise and negative indexing constraints properly referencing constants (`P_SHURIKEN`, `P_BOW`) to emulate missile boundary validations.
+- Wrote unit tests inside `test/mkobj.buc.test.js` validating PRNG consumption using real un-mocked PRNG.
+- Cleaned up temp scripts and maintained 100% score alignment.
+- Next step: D2.4 (Monster & Corpse helpers).
