@@ -1,4 +1,4 @@
-# seed0030: The Ten-Fold Demise
+# seed0030-ten-diverse-deaths
 
 **Subsystem Focus**: Validates the post-mortem UI loops, bones file generation triggers, multi-segment game state reset, and a comprehensive catalogue of combat resolution end-states.
 

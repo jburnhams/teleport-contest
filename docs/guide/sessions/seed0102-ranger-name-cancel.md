@@ -1,4 +1,4 @@
-# seed0102: Ricky and the Cancelled Name
+# seed0102-ranger-name-cancel
 
 **Subsystem Focus**: Validates the `#name` extended command, the `cmdassist` directional helper subroutines, and the graceful handling of command cancellation.
 

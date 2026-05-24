@@ -1,4 +1,4 @@
-# seed0107: Bushi's Blade and Bone
+# seed0107-samurai-twoweapon-enhance
 
 **Subsystem Focus**: Validates the `#twoweapon` and `#sit` extended commands, and the engine's ability to process multiple-weapon equipment states.
 
