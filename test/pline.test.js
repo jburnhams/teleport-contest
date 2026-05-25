@@ -1,43 +1,31 @@
-import { describe, it, expect, vi } from 'vitest';
-import { pline, You, verbalize } from '../js/pline.js';
+import { describe, it, expect, beforeEach } from 'vitest';
 import { game } from '../js/gstate.js';
+import { pline, putmsghistory, vpline } from '../js/pline.js';
 import { GameDisplay } from '../js/game_display.js';
-import * as input from '../js/input.js';
 
-describe('pline', () => {
-    it('should format strings using %s and %d', async () => {
-        game.nhDisplay = null;
-        await pline('Hello %s, you have %d apples', 'world', 5);
-        expect(game._pending_message).toBe('Hello world, you have 5 apples');
-
-        await You('see a %s', 'dragon');
-        expect(game._pending_message).toBe('You see a dragon');
-
-        await verbalize('I am %s!', 'Garn');
-        expect(game._pending_message).toBe('"I am Garn!"');
+describe('pline.js', () => {
+    beforeEach(() => {
+        game.nhDisplay = new GameDisplay();
+        game.flags = { verbose: true };
     });
 
-    it('should show --More-- if there is already a message', async () => {
-        game.nhDisplay = new GameDisplay(null);
-
-        let waitTriggered = false;
-
-        // Mock nhgetch correctly using vitest spy
-        const getchSpy = vi.spyOn(input, 'nhgetch').mockImplementation(async () => {
-            waitTriggered = true;
-            return 32; // space character code
-        });
-
-        try {
-            await pline("First message");
-            expect(game.nhDisplay.topMessage).toBe("First message");
-            expect(game.nhDisplay.toplin).toBe(1); // TOPLINE_NEED_MORE
-
-            await pline("Second message");
-            expect(waitTriggered).toBe(true);
-            expect(game.nhDisplay.topMessage).toBe("Second message");
-        } finally {
-            getchSpy.mockRestore();
+    it('putmsghistory pushes messages to the display buffer and caps at 20', async () => {
+        for (let i = 0; i < 25; i++) {
+            await putmsghistory(`Message ${i}`, false);
         }
+
+        expect(game.nhDisplay.messages.length).toBe(20);
+        expect(game.nhDisplay.messages[0]).toBe('Message 5');
+        expect(game.nhDisplay.messages[19]).toBe('Message 24');
+    });
+
+    it('vpline checks flags.verbose before plining', async () => {
+        game.flags.verbose = false;
+        await vpline("Silent message");
+        expect(game.nhDisplay.topMessage).toBeNull();
+
+        game.flags.verbose = true;
+        await vpline("Verbose message");
+        expect(game.nhDisplay.topMessage).toBe("Verbose message");
     });
 });

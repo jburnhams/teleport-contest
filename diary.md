@@ -235,3 +235,18 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Cleaned up loose test scratchpads and incorporated `test/o_init.test.js` covering `MAXOCLASSES` index initialization.
 - Validated via scoring maintaining exact 100% baseline structural alignment (88/11406 screens pass).
 - Next steps: Proceed to D2.3 (Erosion & Quantity helpers) exploring `may_generate_eroded` functionality.
+## 2026-05-25
+- Completed sub-tasks for Stream C2 (Message System).
+- Ported `putmsghistory()` to `js/pline.js`, appending messages to `game.nhDisplay.messages` and capping at 20.
+- Implemented `vpline()` as a wrapper checking `game.flags.verbose !== false` before displaying.
+- Wrote tests in `test/pline.test.js` confirming functionality of both methods, correctly managing display state.
+- Achieved +0 regression score (88/11406 screens baseline) on
+> teleport-contest@1.0.0 score:check
+> bash frozen/score.sh > /tmp/nh-score.txt && node scripts/check-score.mjs /tmp/nh-score.txt scores/baseline.json
+
+Baseline : 88 / 11406 screens
+Current  : 88 / 11406 screens  (commit c088691)
+Delta    : +0
+
+PASS.
+- Next step: Stream C3 (Map rendering improvements) or C5 (Window system basics).

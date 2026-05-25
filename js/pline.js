@@ -64,3 +64,22 @@ export async function verbalize(msgOrFormat, ...args) {
     const msg = (args.length > 0 || msgOrFormat.includes('%')) ? sprintf(msgOrFormat, ...args) : msgOrFormat;
     return await pline(`"${msg}"`);
 }
+
+export async function putmsghistory(msg, is_restoring) {
+    if (!game.nhDisplay) return;
+    if (!msg) return; // sometimes called with null
+
+    // C ref: windows.c genl_putmsghistory
+    // Pushes messages into game.nhDisplay.messages (capped at 20) without displaying them
+    game.nhDisplay.messages.push(msg);
+    if (game.nhDisplay.messages.length > 20) {
+        game.nhDisplay.messages.shift();
+    }
+}
+
+export async function vpline(msgOrFormat, ...args) {
+    // C ref: various places checking flags.verbose
+    if (game.flags?.verbose !== false) {
+        return await pline(msgOrFormat, ...args);
+    }
+}
