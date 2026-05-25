@@ -1,10 +1,13 @@
-# seed0012: The Vault Escort
+# seed0012-monk-vault-escort
 
 **Subsystem Focus**: Validates complex character generation navigation and the specialized Vault Guard AI escort subroutine.
 
 This session serves as a rigorous mechanical test of the game's vault security logic. The user entity—a Monk named *Dodeco*—successfully triggers the highly specific AI behaviour of a Croesus vault guard, demonstrating the engine's ability to calculate pathfinding for an escort sequence.
 
 ### Mechanical Sequence
+
+**Starting Stats:** St:13 Dx:18 Co:12 In:11 Wi:9 Ch:12
+
 
 **Steps 1–16: Navigating the Void**
 Dodeco opts for complete manual character creation. Rather than accepting the defaults, the user process rapidly cycles through the UI selection trees, pressing `[`, `l`, `"`, `m`, `/`, and `h` to meticulously specify their exact role, creed, race, and gender. The UI state machine correctly handles this flurry of input. Upon pressing `y` to confirm, the mathematical engine awakens, generating the dungeon with a massive 3,066 PRNG call sequence.

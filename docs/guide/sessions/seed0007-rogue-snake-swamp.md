@@ -1,10 +1,13 @@
-# seed0007: Rogue vs. The Snake Swamp
+# seed0007-rogue-snake-swamp
 
 **Subsystem Focus**: Validates manual character generation menus, fountain effect matrices, and multiple-entity combat resolution.
 
 This session serves as a rigorous evaluation of the manual character creation menus and the brutal efficiency of the engine's area-of-effect spawning logic. The user entity—an Orcish Rogue styled as *Septor the Footpad*—navigates through multiple UI prompts to assert his existence, only to be promptly un-made by a fountain.
 
 ### Mechanical Sequence
+
+**Starting Stats:** St:13 Dx:17 Co:14 In:10 Wi:10 Ch:11
+
 
 **Steps 1–14: Asserting Identity**
 Unlike standard runs which rely on automatic generation, the user asserts direct control over the character creation process. They type `S, e, p, t, o, r` to name the entity. At Step 7, they explicitly decline automatic role selection (`n`), instead navigating the menus to manually request the role of Rogue (`r`), the male gender (`m`), and the Orcish race (`o`). 
