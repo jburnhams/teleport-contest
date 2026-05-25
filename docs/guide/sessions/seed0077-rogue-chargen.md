@@ -1,10 +1,13 @@
-# seed0077: Shade's Lock Pick Logic
+# seed0077-rogue-chargen
 
 **Subsystem Focus**: Validates manual character generation menus, the `apply` command logic for tools, and pet inventory interaction.
 
 This session provides a rigorous mechanical evaluation of the engine's tool interaction subroutines. The user entity—a human Rogue named *Shade*—demonstrates the engine's ability to process manual character creation selections and the logical boundary checks of the lock pick application code.
 
 ### Mechanical Sequence
+
+**Starting Stats:** St:11 Dx:18 Co:18 In:9 Wi:9 Ch:10
+
 
 **Steps 1–11: The Rogue Reborn**
 The user opts for a manual character generation sequence, meticulously selecting their role (`r` for Rogue), race (`h` for Human), and gender (`m` for Male). Upon pressing `y` to confirm these deterministic choices, the mathematical engine performs 3,192 PRNG calls to generate the starting floor, Shade's high Dexterity and Constitution (both 18), and his starting inventory of throwing daggers and a lock pick.
