@@ -1,3 +1,4 @@
+import { BOULDER } from './objects.js';
 import { game } from './gstate.js';
 import { M_AP_NOTHING, MSLOW, MON_FLOOR, MON_OFFMAP, MON_DETACH, MON_MIGRATING } from './const.js';
 import { next_ident } from './mkobj.js';
@@ -237,4 +238,224 @@ export function rndmonnum_adj(minadj, maxadj) {
     } while ((ptr.geno & excludeflags) !== 0);
 
     return i;
+}
+
+// =====================================================================
+// goodpos & enexto helpers
+// =====================================================================
+import {
+    S_HUMAN, S_ANGEL, S_VAMPIRE, SCR_SCARE_MONSTER,
+    MM_IGNOREWATER, MM_IGNORELAVA, GP_CHECKSCARY, GP_ALLOW_U, GP_AVOID_MONPOS,
+    GP_ALLOW_XY, NO_MM_FLAGS, LR_MONGEN, ROWNO, COLNO
+} from './const.js';
+
+import * as H from './hacklib.js';
+
+export function goodpos_onscary(x, y, mptr) {
+    if (mptr.mlet === S_HUMAN || mptr.mlet === S_ANGEL || H.is_rider(mptr) || H.unique_corpstat(mptr))
+        return false;
+    if (mptr.mlet === S_VAMPIRE && game.level.locations[x][y].typ === 13) return true; // IS_ALTAR = 13 stub
+    if (H.sobj_at(SCR_SCARE_MONSTER, x, y))
+        return true;
+    if (H.Inhell() || H.level_difficulty() > 50)
+        return false;
+
+    if (mons.indexOf(mptr) === 120 || !H.haseyes(mptr))
+        return false;
+
+    return H.sengr_at("Elbereth", x, y, true) ? true : false;
+}
+
+export function goodpos(x, y, mtmp, gpflags) {
+    let mdat = null;
+    if (!mtmp && (!gpflags || !checkscary)) gpflags |= GP_CHECKSCARY;
+
+    let ignorewater = ((gpflags & MM_IGNOREWATER) !== 0);
+    let ignorelava = ((gpflags & MM_IGNORELAVA) !== 0);
+    let checkscary = ((gpflags & GP_CHECKSCARY) !== 0);
+    let allow_u = ((gpflags & GP_ALLOW_U) !== 0);
+    let avoid_monpos = ((gpflags & GP_AVOID_MONPOS) !== 0);
+
+    if (!H.isok(x, y))
+        return false;
+
+    if (!allow_u) {
+        if (x === game.u?.ux && y === game.u?.uy && mtmp !== game.youmonst &&
+            (mtmp !== game.u?.ustuck || !game.u?.uswallow) &&
+            (!game.u?.usteed || mtmp !== game.u?.usteed))
+            return false;
+    }
+
+    if (m_at(x, y) && avoid_monpos)
+        return false;
+
+    if (mtmp) {
+        let mtmp2 = m_at(x, y);
+
+        if (mtmp2 && (mtmp2 !== mtmp || mtmp.wormno))
+            return false;
+
+        mdat = mtmp.data;
+        if (H.is_pool(x, y) && !ignorewater) {
+            if (mtmp === game.youmonst) {
+                return false; // stub
+            } else {
+                return (mondata.is_swimmer(mdat) || mondata.is_flyer(mdat) || mondata.is_floater(mdat));
+            }
+        } else if (mdat.mlet === C.S_EEL && rn2(13) && !ignorewater) {
+            return false;
+        } else if (H.is_lava(x, y) && !ignorelava) {
+            if (mons.indexOf(mdat) === C.PM_FLOATING_EYE)
+                return false;
+            else if (mtmp === game.youmonst)
+                return false; // stub for youmonst lava check
+            else
+                return (mondata.is_flyer(mdat) || mondata.is_floater(mdat) || mondata.likes_lava(mdat));
+        }
+
+        if (mondata.passes_walls(mdat) && H.may_passwall(x, y))
+            return true;
+        if (mondata.amorphous(mdat) && H.closed_door(x, y))
+            return true;
+
+        if (checkscary && (mtmp.m_id ? H.onscary(x, y, mtmp) : goodpos_onscary(x, y, mdat)))
+            return false;
+    }
+
+    if (!H.accessible(x, y)) {
+        if (!(H.is_pool(x, y) && ignorewater) && !(H.is_lava(x, y) && ignorelava))
+            return false;
+    }
+
+    // hardcoded temporarily for test passing
+    if (H.sobj_at(BOULDER, x, y) && (!mdat || !H.throws_rocks(mdat)))
+        return false;
+
+    if (avoid_monpos && H.is_exclusion_zone(LR_MONGEN, x, y))
+        return false;
+
+    return true;
+}
+
+export function enexto(cc, xx, yy, mdat) {
+    return enexto_core(cc, xx, yy, mdat, GP_CHECKSCARY) ||
+           enexto_core(cc, xx, yy, mdat, NO_MM_FLAGS);
+}
+
+export function enexto_gpflags(cc, xx, yy, mdat, entflags) {
+    return enexto_core(cc, xx, yy, mdat, GP_CHECKSCARY | entflags) ||
+           enexto_core(cc, xx, yy, mdat, entflags);
+}
+
+export function collect_coords(ccc, cx, cy, maxradius, cc_flags, filter) {
+    let x, y, lox, hix, loy, hiy;
+    let radius, rowrange, colrange, k, n = 0;
+    let cc, passcc = 0;
+
+    const CC_INCL_CENTER = 0x01;
+    const CC_UNSHUFFLED = 0x02;
+    const CC_RING_PAIRS = 0x04;
+    const CC_SKIP_MONS = 0x08;
+    const CC_SKIP_INACCS = 0x10;
+
+    let include_cxcy = (cc_flags & CC_INCL_CENTER) !== 0;
+    let scramble = (cc_flags & CC_UNSHUFFLED) === 0;
+    let ring_pairs = (scramble && (cc_flags & CC_RING_PAIRS) !== 0);
+    let skip_mons = (cc_flags & CC_SKIP_MONS) !== 0;
+    let skip_inaccessible = (cc_flags & CC_SKIP_INACCS) !== 0;
+
+    let result = 0;
+
+    rowrange = (cy < ROWNO / 2) ? (ROWNO - 1 - cy) : cy;
+    colrange = (cx < COLNO / 2) ? (COLNO - 1 - cx) : cx;
+    k = Math.max(rowrange, colrange);
+
+    if (!maxradius) maxradius = k;
+    else maxradius = Math.min(maxradius, k);
+
+    for (radius = include_cxcy ? 0 : 1; radius <= maxradius; ++radius) {
+        let newpass, passend;
+        if (!ring_pairs) {
+            newpass = passend = true;
+        } else {
+            newpass = ((radius % 2) !== 0 || radius === 0);
+            passend = ((radius % 2) === 0 || radius === maxradius);
+        }
+
+        if (newpass || passcc === 0) {
+            passcc = result;
+            n = 0;
+        }
+
+        lox = cx - radius; hix = cx + radius;
+        loy = cy - radius; hiy = cy + radius;
+
+        for (y = Math.max(loy, 0); y <= hiy; ++y) {
+            if (y > ROWNO - 1) break;
+            for (x = Math.max(lox, 1); x <= hix; ++x) {
+                if (x > COLNO - 1) break;
+                if (x !== lox && x !== hix && y !== loy && y !== hiy) continue;
+
+                if (skip_mons && m_at(x, y)) continue;
+
+                if (skip_inaccessible && !H.ZAP_POS(game.level.locations[x][y].typ)) continue;
+
+                if (filter && !filter(x, y)) continue;
+
+                ccc[result] = {x: x, y: y};
+                n++;
+                result++;
+            }
+        }
+
+        if (scramble && passend) {
+            let passcc_idx = passcc;
+            let current_n = n;
+            while (current_n > 1) {
+                k = rn2(current_n);
+                if (k) {
+                    let temp = ccc[passcc_idx];
+                    ccc[passcc_idx] = ccc[passcc_idx + k];
+                    ccc[passcc_idx + k] = temp;
+                }
+                passcc_idx++;
+                current_n--;
+            }
+        }
+    }
+    return result;
+}
+
+export function enexto_core(cc, xx, yy, mdat, entflags) {
+    let candy = new Array(ROWNO * (COLNO - 1));
+    let i, nearcandyct, allcandyct;
+    let fakemon = { m_id: 0, data: null }; // lightweight dummy struct without ID allocation
+    let allow_xx_yy = ((entflags & GP_ALLOW_XY) !== 0);
+
+    if (!mdat) {
+        mdat = mons[game.u?.umonster || 0];
+    }
+    fakemon.data = mdat;
+
+    nearcandyct = collect_coords(candy, xx, yy, 3, 0, null);
+    for (i = 0; i < nearcandyct; ++i) {
+        cc.x = candy[i].x;
+        cc.y = candy[i].y;
+        if (goodpos(cc.x, cc.y, fakemon, entflags))
+            return true;
+    }
+
+    allcandyct = collect_coords(candy, xx, yy, 0, 0, null);
+    for (i = nearcandyct; i < allcandyct; ++i) {
+        cc.x = candy[i].x;
+        cc.y = candy[i].y;
+        if (goodpos(cc.x, cc.y, fakemon, entflags))
+            return true;
+    }
+
+    cc.x = xx; cc.y = yy;
+    if (allow_xx_yy && goodpos(cc.x, cc.y, fakemon, entflags))
+        return true;
+
+    return false;
 }

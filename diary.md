@@ -235,3 +235,11 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Cleaned up loose test scratchpads and incorporated `test/o_init.test.js` covering `MAXOCLASSES` index initialization.
 - Validated via scoring maintaining exact 100% baseline structural alignment (88/11406 screens pass).
 - Next steps: Proceed to D2.3 (Erosion & Quantity helpers) exploring `may_generate_eroded` functionality.
+## 2024-05-18 — Stream E: Monster System (E3)
+
+- Implemented `goodpos` and `goodpos_onscary` in `js/mkmon.js` matching `teleport.c` placement validation logic.
+- Implemented `enexto`, `enexto_gpflags`, `enexto_core` and `collect_coords` for valid position sampling.
+- Stubs were added to `js/hacklib.js` for `is_pool`, `is_lava`, `is_ice`, `is_moat`, `accessible` to support `goodpos`.
+- Addressed testing issues where `DOOR` was undefined (mapped `DOOR` directly to its integer `23`).
+- Wrote tests in `test/goodpos.test.js` covering basic accessibility checks and adjacent free spot finding.
+- Baseline score of 88/11406 screens was preserved (+0 delta).
