@@ -1,4 +1,4 @@
-# seed5006: The Tourist's Self-Inflicted Disaster
+# seed5006-tourist-stress-disaster
 
 **Subsystem Focus**: Validates the administrative wishing system, cursed-item interactions, blindfold state transitions, confused scroll reading, bones-file generation, and cross-segment bones-file retrieval.
 
@@ -37,7 +37,7 @@ Wizard invokes one last wish: *wand of death* → `s - a marble wand` (6 PRNG ca
 ### Segment 1: The Knight's Pilgrimage to the Bones
 
 **Step 0: A Fresh Start**
-*Salutations wizard, welcome to NetHack!* A lawful male human Knight (St:14 Dx:8 Co:10 In:11 Wi:15 Ch:17) materialises on Level 1 with 16 HP.
+*Salutations wizard, welcome to NetHack!* A lawful male human Knight (St:10 Dx:12 Co:15 In:13 Wi:10 Ch:15) materialises on Level 1 with 16 HP.
 
 **Steps 2–7: Bones Retrieval**
 The Knight teleports to Dungeon Level 3 — the same level where the Tourist died. The engine detects the bones file: *Get bones? [yn]* → `y`. 49 PRNG calls resolve the bones-file loading. The engine then asks whether to remove the original: *Unlink bones? [yn] (n)*. The default answer is accepted. *You feel like you've been here before.*

@@ -1,4 +1,4 @@
-# seed0015: Astrid and the Pit
+# seed0015-valk-level2-pit-dog-wait
 
 **Subsystem Focus**: Validates pet pathfinding, pit trap resolution, and the deterministic consequences of the `.` (wait) command.
 

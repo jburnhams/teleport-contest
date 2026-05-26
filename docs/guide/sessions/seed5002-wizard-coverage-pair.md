@@ -1,4 +1,4 @@
-# seed5002: The Wizard's Arsenal Catastrophe
+# seed5002-wizard-coverage-pair
 
 **Subsystem Focus**: Validates the `#wizwish` administrative wishing, multi-wand zapping, bolt-bounce physics, and the deterministic resolution of self-inflicted elemental damage.
 
@@ -6,7 +6,7 @@ This session is a comprehensive stress test of the engine's object-creation, wan
 
 ### Mechanical Sequence
 
-**Segment 0: Full Moon and Five Wishes**
+**Segment 0: Full Moon and Five Wishes** (St:11 Dx:13 Co:16 In:15 Wi:9 Ch:11)
 
 **Step 0–1:** The engine initialises the universe. The "Full Moon" condition is detected: *You are lucky! Full moon tonight.*
 
