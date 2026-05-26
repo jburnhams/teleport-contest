@@ -1,4 +1,4 @@
-# seed0200: Kira and the Forbidden Feast
+# seed0200-monk-north-search
 
 **Subsystem Focus**: Validates Monk-specific vegetarianism constraints, nutritional status changes, and the ethical-penalty subroutines.
 

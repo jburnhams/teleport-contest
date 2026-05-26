@@ -1,4 +1,4 @@
-# seed0014: Dequa and the Fountain Dip
+# seed0014-dequa-fountain-explore
 
 **Subsystem Focus**: Validates the `#dip` extended command, equipment attribute modification, and town watchman AI triggers.
 

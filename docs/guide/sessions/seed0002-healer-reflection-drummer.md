@@ -1,4 +1,4 @@
-# seed0002: Healer, Reflection, Drummer
+# seed0002-healer-reflection-drummer
 
 **Subsystem Focus**: Stresses item generation, inventory constraints, spell reflection mechanics, and deterministic line-of-sight calculations.
 
