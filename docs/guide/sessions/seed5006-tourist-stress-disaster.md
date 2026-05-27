@@ -1,4 +1,4 @@
-# seed5006: The Tourist's Self-Inflicted Disaster
+# seed5006-tourist-stress-disaster
 
 **Subsystem Focus**: Validates the administrative wishing system, cursed-item interactions, blindfold state transitions, confused scroll reading, bones-file generation, and cross-segment bones-file retrieval.
 
@@ -8,7 +8,7 @@ This remarkable two-segment session is a methodical stress test of the engine's 
 ### Segment 0: The Tourist's Methodical Demise
 
 **Step 0: Initialisation**
-The engine performs 4,180 PRNG calls. Wizard the Rambler emerges as a neutral female human Tourist (St:10 Dx:12 Co:15 In:13 Wi:10 Ch:15) with $307 and the Full Moon luck bonus.
+The engine performs 4,180 PRNG calls. Wizard the Rambler emerges as a neutral female human Tourist (St:14 Dx:8 Co:10 In:11 Wi:14 Ch:17) with $307 and the Full Moon luck bonus.
 
 **Steps 2–4: Administrative Teleportation**
 Wizard immediately invokes `Ctrl+V` (level teleport) and descends to Dungeon Level 2. 4,133 PRNG calls generate the new level.

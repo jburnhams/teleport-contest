@@ -1,4 +1,4 @@
-# seed0009: Swimmer and the Lava
+# seed0009-swimmer-mforce
 
 **Subsystem Focus**: Validates tutorial generation, environmental hazard checks, and the `m` (force move) override command.
 

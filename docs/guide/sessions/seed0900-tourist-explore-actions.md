@@ -1,4 +1,4 @@
-# seed0900: Touristo's Non-Scoring Adventure
+# seed0900-tourist-explore-actions
 
 **Subsystem Focus**: Validates "Explore Mode" status, the command-count prefix logic, and the resolution of long-duration pet combat.
 

@@ -1,4 +1,4 @@
-# seed0700: Musashi and the Resistant Door
+# seed0700-samurai-explore-descend
 
 **Subsystem Focus**: Validates standard locomotion, entity-swapping with pets, and the mechanical resistance of closed doors to non-standard entry.
 

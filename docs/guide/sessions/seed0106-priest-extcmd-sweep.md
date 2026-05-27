@@ -1,4 +1,4 @@
-# seed0106: Padre and the Divine Rebukes
+# seed0106-priest-extcmd-sweep
 
 **Subsystem Focus**: Validates the `#pray` and `#terrain` extended commands, deity-specific dialogue trees, and the permanent attribute-penalty subroutines.
 
@@ -7,7 +7,7 @@ This session serves as a rigorous mechanical validation of the engine's religiou
 ### Mechanical Sequence
 
 **Steps 1–3: The Aspirant Padre**
-The engine performs 2,554 PRNG calls to generate the universe and Padre's attributes (St:11 Dx:10 Co:17 In:9 Wi:18 Ch:10). Padre begins on Dungeon Level 1 and declines the tutorial.
+The engine performs 2,554 PRNG calls to generate the universe and Padre's attributes (St:11 Dx:10 Co:17 In:9 Wi:17 Ch:10). Padre begins on Dungeon Level 1 and declines the tutorial.
 
 **Steps 4–14: The Arrogant Petition**
 Padre immediately attempts to use the extended command `#pray`.
