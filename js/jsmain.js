@@ -111,7 +111,7 @@ export class NethackGame {
         g.urace = { adj: 'human' };
 
         // Initialize PRNG
-        initRng(this._seed);
+        g.rng_seed = this._seed; initRng(this._seed);
         enableRngLog();
 
         // Install display
