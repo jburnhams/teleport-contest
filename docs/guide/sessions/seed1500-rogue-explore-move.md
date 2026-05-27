@@ -1,4 +1,4 @@
-# seed1500: Robin and the Reluctant Kitten
+# seed1500-rogue-explore-move
 
 **Subsystem Focus**: Validates pet pathfinding over corpses, trap-trigger resolution for non-player entities, and the boundary checks for the `apply` command.
 

@@ -1,4 +1,4 @@
-# seed0004: Feeding the Pony
+# seed0004-feeding-pony
 
 **Subsystem Focus**: Validates character generation menus, pet AI pathfinding algorithms, and object consumption logic.
 

@@ -1,4 +1,4 @@
-# seed0013: Attacking the Architecture
+# seed0013-rogue-friday13-combat
 
 **Subsystem Focus**: Validates environmental datetime flags, forced-combat subroutines, and object dropping mechanics.
 

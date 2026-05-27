@@ -1,4 +1,4 @@
-# seed0360: The Wizard Mode World Tour
+# seed0360-wizard-world-tour
 
 **Subsystem Focus**: Validates Wizard Mode administrative navigation (`#levelchange`), mass-level generation, and the physical interaction subroutines for heavy object displacement.
 
@@ -7,7 +7,7 @@ This session is a comprehensive mechanical stress test of the engine's debugging
 ### Mechanical Sequence
 
 **Steps 1–4: The Evoker Setup**
-The engine performs 2,896 PRNG calls to generate the initial state (St:9 Dx:13 Co:16 In:18 Wi:10 Ch:9). Wizard begins on Dungeon Level 1 and declines the tutorial.
+The engine performs 2,896 PRNG calls to generate the initial state (St:25 Dx:13 Co:16 In:18 Wi:10 Ch:9). Wizard begins on Dungeon Level 1 and declines the tutorial.
 
 **Steps 5–16: The Teleportation Protocol (`#levelchange`)**
 Wizard immediately invokes the administrative command `#levelchange`.

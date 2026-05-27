@@ -1,4 +1,4 @@
-# seed4500: The Knight's Quest for Coverage
+# seed4500-knight-coverage
 
 **Subsystem Focus**: Validates the `#jump` extended command, the "New Moon" luck penalty, and the generation of Quest-specific branches like the Knight's "Home" levels.
 
