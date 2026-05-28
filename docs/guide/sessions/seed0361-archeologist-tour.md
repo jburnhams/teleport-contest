@@ -1,4 +1,4 @@
-# seed0361: The Archeologist's Debug Tour
+# seed0361-archeologist-tour
 
 **Subsystem Focus**: Validates Wizard Mode administrative navigation (`#levelchange`), role-specific attribute generation, and the mass-level generation subroutines for the Archeologist class.
 
@@ -25,6 +25,6 @@ Wizard continues his diagnostic tour, initiating another level-teleport.
 - The engine's state-machine successfully handles the transition without losing track of the entity's high Wisdom (18).
 
 **Steps 353–365: Final Debug Analytics**
-The session concludes with Wizard reviewing his inventory, known spells, and attributes. He confirms his "debug mode" status and his peak Wisdom (18). He performs two final searches (`s`) and inspects the floor (`:`), ensuring the Archeologist's reality remains deterministic.
+The session concludes with Wizard reviewing his inventory, known spells, and attributes (St:10 Dx:11 Co:11 In:15 Wi:18 Ch:10). He confirms his "debug mode" status and his peak Wisdom (18). He performs two final searches (`s`) and inspects the floor (`:`), ensuring the Archeologist's reality remains deterministic.
 
 It is a flawless mechanical validation of the engine's administrative infrastructure, proving that it can successfully coordinate rapid-fire level generation and complex role-specific attribute management with absolute precision. The Wizard's tour continues to demonstrate the engine's stability across different classes.

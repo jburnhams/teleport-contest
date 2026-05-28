@@ -1,4 +1,4 @@
-# seed0360: The Wizard Mode World Tour
+# seed0360-wizard-world-tour
 
 **Subsystem Focus**: Validates Wizard Mode administrative navigation (`#levelchange`), mass-level generation, and the physical interaction subroutines for heavy object displacement.
 

@@ -1,4 +1,4 @@
-# seed0383: The Wizard's Hallucinatory Jaunt
+# seed0383-wizard-hallucinate
 
 **Subsystem Focus**: Validates the "Hallucination" status effect, its impact on entity name rendering, and the persistence of background AI events during sensory distortion.
 
@@ -22,6 +22,6 @@ Wizard's status line now includes the `Hallu` flag. The engine's rendering logic
 Even in a state of sensory distortion, the engine continues to resolve global events. At Step 203, a distant sound is processed: *You hear a distant explosion.* This proves that the hallucination overlay does not interfere with the engine's ability to calculate and report independent environmental events.
 
 **Steps 213–218: Final Debug Analytics**
-Wizard reviews his attributes, confirming his Intelligence (15) and Wisdom (12). He performs two final searches (`s`) and inspects the floor (`:`). Throughout these final steps, the map continues to refresh with randomised ASCII symbols, a visual representation of his distorted mental state.
+Wizard reviews his attributes (St:12 Dx:14 Co:12 In:15 Wi:12 Ch:10), confirming his Intelligence (15) and Wisdom (12). He performs two final searches (`s`) and inspects the floor (`:`). Throughout these final steps, the map continues to refresh with randomised ASCII symbols, a visual representation of his distorted mental state.
 
 It is a flawless mechanical validation of the engine's perception layer, proving that it can successfully maintain a deterministic simulation of "truth" while simultaneously generating a consistent but randomised "lie" for the user interface. The basement cat may have a sword, but the engine knows exactly how many PRNG calls were required to give it to him.

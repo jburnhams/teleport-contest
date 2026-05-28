@@ -1,4 +1,4 @@
-# seed0399: The Wizard's Death Defiance
+# seed0399-wizard-hallu-actions
 
 **Subsystem Focus**: Validates Wizard Mode death-prevention subroutines, administrative prayer overrides, and poison-based attribute degradation.
 
@@ -30,6 +30,6 @@ The relentless attacks reduce Wizard's hit points to zero.
 - Wizard's HP is restored from 0 to 83.
 
 **Steps 526–531: Final Analytics**
-The session concludes with Wizard enduring further attacks before performing a final review of his attributes. He confirms his Intelligence (18) and diminished Wisdom (14) before attempting a search and inspecting the floor (`:`). 
+The session concludes with Wizard enduring further attacks before performing a final review of his attributes (St:11 Dx:11 Co:12 In:18 Wi:15 Ch:8). He confirms his Intelligence (18) and diminished Wisdom (14) before attempting a search and inspecting the floor (`:`).
 
 It is a flawless mechanical validation of the engine's immortality subroutines, proving that the state machine can successfully roll back a terminal state change and restore the entity to an active, playable condition with absolute deterministic precision. Wizard may have been stung, poisoned, and killed, but in the eyes of the engine, he was merely testing the limits of existence.

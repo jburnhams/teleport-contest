@@ -1,4 +1,4 @@
-# seed0077: Shade's Lock Pick Logic
+# seed0077-rogue-chargen
 
 **Subsystem Focus**: Validates manual character generation menus, the `apply` command logic for tools, and pet inventory interaction.
 
@@ -19,7 +19,7 @@ Shade attempts to apply the lock pick to the doorway below him (`j`). However, t
 - The message line correctly identifies the user's tactical error: *You cannot lock an open door.*
 
 **Steps 21–32: The Towel Incident**
-Shade performs a methodical review of his inventory, attributes, and discoveries. During this analytical phase, the background pet AI resolves an interesting interaction:
+Shade performs a methodical review of his inventory, attributes (St:11 Dx:18 Co:18 In:9 Wi:9 Ch:10), and discoveries. During this analytical phase, the background pet AI resolves an interesting interaction:
 - Step 31: While Shade is busy checking his Intelligence (9) and Wisdom (9), the engine calculates the movement of his kitten.
 - 17 PRNG calls resolve a floor-item interaction, resulting in the message: *The kitten picks up a towel.* 
 

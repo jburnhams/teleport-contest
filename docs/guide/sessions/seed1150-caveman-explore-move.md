@@ -1,4 +1,4 @@
-# seed1150: Grok and the Sling Shot
+# seed1150-caveman-explore-move
 
 **Subsystem Focus**: Validates pet inventory interactions, the `shoot` command for projectile-launchers, and the associated inventory-state updates.
 
@@ -27,6 +27,6 @@ Grok decides to test his starting equipment. He wields his +2 sling and fires.
 - This validates the engine's ability to handle multi-projectile ammunition resolution (firing more than one stone per turn) and the resulting trajectory calculations.
 
 **Steps 39–50: Final Analytics**
-Grok methodically reviews his inventory, known spells, discoveries, and attributes. He confirms his dismal Intelligence (7) and Wisdom (9) before performing two final searches (`s`) and inspecting the floor (`:`).
+Grok methodically reviews his inventory, known spells, discoveries, and attributes (St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13). He confirms his dismal Intelligence (7) and Wisdom (9) before performing two final searches (`s`) and inspecting the floor (`:`).
 
 It is a succinct mechanical validation of the engine's ranged-combat and pet-inventory logic, proving that it can successfully coordinate complex entity-item interactions and multi-projectile launches with absolute deterministic precision. Grok may be a troglodyte, but his sling-work is mathematically flawless.

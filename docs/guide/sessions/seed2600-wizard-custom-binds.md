@@ -1,4 +1,4 @@
-# seed2600: The Wizard's Bound Multiverse
+# seed2600-wizard-custom-binds
 
 **Subsystem Focus**: Validates Wizard Mode administrative navigation and the engine's ability to handle custom key-binding states within the input state machine.
 
@@ -26,6 +26,6 @@ Unsatisfied with the depths, Wizard jumps again.
 - This validates the engine's ability to handle rapid, high-entropy transitions between levels without losing track of the entity's high Intelligence (18).
 
 **Steps 26–37: Final Analytics**
-The session concludes with Wizard reviewing his inventory, known spells, discoveries, and attributes. He confirms his Intelligence (18) and Wisdom (10) before performing two final searches (`s`) and inspecting the floor (`:`). 
+The session concludes with Wizard reviewing his inventory, known spells, discoveries, and attributes (St:10 Dx:14 Co:14 In:18 Wi:10 Ch:9). He confirms his Intelligence (18) and Wisdom (10) before performing two final searches (`s`) and inspecting the floor (`:`).
 
 It is a succinct mechanical validation of the engine's administrative and input infrastructure, proving that it can successfully handle rapid-fire level generation and complex UI states with absolute precision. Whether the user is using standard keys or custom binds, the engine resolves the underlying simulation with absolute deterministic grace.
