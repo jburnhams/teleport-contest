@@ -1,4 +1,4 @@
-# seed0009: Swimmer and the Lava
+# seed0009-swimmer-mforce
 
 **Subsystem Focus**: Validates tutorial generation, environmental hazard checks, and the `m` (force move) override command.
 
@@ -22,6 +22,6 @@ Refusing to be told what to do by a procedural safety check, the user presses `m
 - The message line updates with absolute deterministic certainty: *You fall into the wall of lava! You burn to a crisp...*
 
 **Steps 63–72: Post-Mortem Analytics**
-The session concludes with the user process systematically reviewing their character attributes, confirming their 14 Intelligence, and reading the final status line: *You were level 1 with a maximum of 14 hit points when you burned.*
+The session concludes with the user process systematically reviewing their character attributes (St:14 Dx:11 Co:15 In:14 Wi:14 Ch:7), confirming their 14 Intelligence, and reading the final status line: *You were level 1 with a maximum of 14 hit points when you burned.*
 
 It is a flawless mechanical test of the `m` command, presented as the rather ironic tale of an elf named Swimmer who demanded a tutorial on how to dive into molten rock.

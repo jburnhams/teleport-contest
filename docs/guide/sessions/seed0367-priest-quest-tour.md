@@ -1,4 +1,4 @@
-# seed0367: The Priestess's Quest Tour
+# seed0367-priest-quest-tour
 
 **Subsystem Focus**: Validates Wizard Mode administrative navigation (`#levelchange`), role-specific attribute generation for the Priest class, and the bones-level detection subroutines.
 
@@ -25,7 +25,7 @@ Wizard continues her diagnostic tour, initiating another level-teleport.
 - The engine successfully handles the transition without losing track of the entity's high Wisdom (17).
 
 **Steps 309–323: Final Debug Analytics**
-The session concludes with Wizard reviewing her inventory, known spells, and attributes.
+The session concludes with Wizard reviewing her inventory, known spells, and attributes (St:9 Dx:15 Co:9 In:11 Wi:17 Ch:14).
 - Step 309: She attempts to move a boulder: *You try to move the boulder, but in vain.*
 - Step 319: The engine's diagnostic attributes are checked: *You haven't encountered any bones levels.*
 - This validates the engine's ability to track global state flags (like bones-level encounters) across administrative jumps.

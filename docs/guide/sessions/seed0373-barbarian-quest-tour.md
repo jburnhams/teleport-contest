@@ -1,4 +1,4 @@
-# seed0373: The Barbarian's Astral Tour
+# seed0373-barbarian-quest-tour
 
 **Subsystem Focus**: Validates Wizard Mode administrative navigation, elemental plane generation subroutines, and the associated environmental status effects.
 

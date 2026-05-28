@@ -1,4 +1,4 @@
-# seed1500: Robin and the Reluctant Kitten
+# seed1500-rogue-explore-move
 
 **Subsystem Focus**: Validates pet pathfinding over corpses, trap-trigger resolution for non-player entities, and the boundary checks for the `apply` command.
 
@@ -28,6 +28,6 @@ Robin attempts to apply his lock pick (e) to a wall or doorway to his right (l).
 - 61 PRNG calls resolve the interaction: *You see no door there.*
 
 **Steps 28–39: Final Analytics**
-Robin methodically reviews his inventory, known spells, discoveries, and attributes. He confirms his Intelligence (12) and Wisdom (11) before performing two final searches (`s`) and inspecting the floor (`:`).
+Robin methodically reviews his inventory, known spells, discoveries, and attributes (St:11 Dx:18 Co:11 In:12 Wi:11 Ch:12). He confirms his Intelligence (12) and Wisdom (11) before performing two final searches (`s`) and inspecting the floor (`:`).
 
 It is a succinct mechanical validation of the engine's pet-AI and trap-resolution logic, proving that the simulation is alive with independent activity even when the player is merely walking down a hallway. Robin may have missed the door, but his kitten didn't miss the dart.

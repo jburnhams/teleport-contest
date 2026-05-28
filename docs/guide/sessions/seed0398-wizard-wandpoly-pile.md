@@ -1,4 +1,4 @@
-# seed0398: The Polymorph Experiment
+# seed0398-wizard-wandpoly-pile
 
 **Subsystem Focus**: Validates the administrative `#wizwish` and `#wizgenesis` commands, as well as the mechanical resolution of the wand of polymorph on a specific monster target.
 
@@ -7,7 +7,9 @@ This session serves as a high-precision mechanical validation of the engine's ob
 ### Mechanical Sequence
 
 **Steps 1–39: The Wish for Change**
-The engine performs 2,764 PRNG calls to generate the initial state (St:10 Dx:14 Co:15 In:18 Wi:7). Wizard immediately invokes the administrative wishing command `#wizwish`.
+Initial attributes are (St:10 Dx:14 Co:15 In:18 Wi:7 Ch:11).
+
+The engine performs 2,764 PRNG calls to generate the initial state. Wizard immediately invokes the administrative wishing command `#wizwish`.
 - He meticulously types out: *wand of polymorph*.
 - This validates the engine's ability to parse complex object strings and generate the associated item with absolute deterministic accuracy.
 

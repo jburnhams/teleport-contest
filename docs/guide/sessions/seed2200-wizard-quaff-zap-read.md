@@ -1,4 +1,4 @@
-# seed2200: Merlin and the Dusty Sigil
+# seed2200-wizard-quaff-zap-read
 
 **Subsystem Focus**: Validates the `quaff`, `zap`, and `read` command interactions, specifically the resolution of magic mapping effects and floor-based engraving detection.
 
@@ -7,7 +7,9 @@ This session serves as a rigorous mechanical validation of the engine's consumpt
 ### Mechanical Sequence
 
 **Steps 1–3: The Evoker Merlin**
-The engine performs 2,722 PRNG calls to generate the initial state (St:12 Dx:12 Co:13 In:18 Wi:12). Merlin begins on Dungeon Level 1, armed with his starting magical arsenal.
+Initial attributes are (St:12 Dx:12 Co:13 In:18 Wi:12 Ch:8).
+
+The engine performs 2,722 PRNG calls to generate the initial state. Merlin begins on Dungeon Level 1, armed with his starting magical arsenal.
 
 **Steps 4–5: The Smooth Quaff**
 Merlin decides to test a potion (`h`).

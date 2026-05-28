@@ -1,4 +1,4 @@
-# seed0501: Clara and the Healing Light
+# seed0501-priest-cast-read-turn
 
 **Subsystem Focus**: Validates spellcasting subroutines (`Z`), spellbook-reading interactions (`r`), and the associated Power (Pw) expenditure logic.
 
@@ -24,6 +24,6 @@ Clara decides to review her starting spellbook of healing (`g`).
 - Clara chooses to cancel with `ESC`.
 
 **Steps 18–27: Final Analytics**
-The session concludes with Clara reviewing her known spells, discoveries, and attributes. She confirms her high Wisdom (18) and Intelligence (10) before performing two final searches (`s`) and inspecting the floor (`:`), identifying the staircase up.
+The session concludes with Clara reviewing her known spells, discoveries, and attributes (St:13 Dx:12 Co:13 In:10 Wi:18 Ch:9). She confirms her high Wisdom (18) and Intelligence (10) before performing two final searches (`s`) and inspecting the floor (`:`), identifying the staircase up.
 
 It is a succinct mechanical validation of the engine's magical state machine, proving that it can successfully coordinate mana expenditure, spell-effect resolution, and complex study-logic boundary checks with absolute deterministic precision. Clara's memory is perfectly intact, and the engine's Power counter is perfectly synced.
