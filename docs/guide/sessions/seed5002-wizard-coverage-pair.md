@@ -1,4 +1,4 @@
-# seed5002: The Wizard's Arsenal Catastrophe
+# seed5002-wizard-coverage-pair
 
 **Subsystem Focus**: Validates the `#wizwish` administrative wishing, multi-wand zapping, bolt-bounce physics, and the deterministic resolution of self-inflicted elemental damage.
 
@@ -11,7 +11,7 @@ This session is a comprehensive stress test of the engine's object-creation, wan
 **Step 0–1:** The engine initialises the universe. The "Full Moon" condition is detected: *You are lucky! Full moon tonight.*
 
 **Steps 2–4: Teleport to DL5**
-Wizard invokes `Ctrl-V` to teleport to dungeon level 5. 3,093 PRNG calls generate the new level.
+Wizard invokes `Ctrl-V` to teleport to dungeon level 5. 3,093 PRNG calls generate the new level. The character's initial attributes are configured as (St:11 Dx:13 Co:16 In:15 Wi:9 Ch:11).
 
 **Steps 5–74: The Wishing Spree**
 Wizard invokes `#wizwish` (Ctrl-W) five times, requesting:

@@ -1,4 +1,4 @@
-# seed0016: Healix, Apples, and Self-Induced Slumber
+# seed0016-healer-newmoon-eat-zap
 
 **Subsystem Focus**: Validates environmental datetime flags, object consumption (nutrition), and self-targeted projectile interactions with status effect durations.
 

@@ -1,4 +1,4 @@
-# seed1500: Robin and the Reluctant Kitten
+# seed1500-rogue-explore-move
 
 **Subsystem Focus**: Validates pet pathfinding over corpses, trap-trigger resolution for non-player entities, and the boundary checks for the `apply` command.
 
@@ -7,7 +7,7 @@ This session serves as a rigorous mechanical validation of the engine's backgrou
 ### Mechanical Sequence
 
 **Steps 1–3: The Footpad Robin**
-The engine performs 2,284 PRNG calls to generate the initial state (St:11 Dx:18 Co:11 In:12 Wi:11). Robin begins on Dungeon Level 1, accompanied by his loyal kitten.
+The engine performs 2,284 PRNG calls to generate the initial state (St:11 Dx:18 Co:11 In:12 Wi:11). Robin begins on Dungeon Level 1, accompanied by his loyal kitten. The character's initial attributes are configured as (St:11 Dx:18 Co:11 In:12 Wi:11 Ch:12).
 
 **Steps 13–20: Feline Hesitation**
 Robin observes his kitten navigating the corridor. 

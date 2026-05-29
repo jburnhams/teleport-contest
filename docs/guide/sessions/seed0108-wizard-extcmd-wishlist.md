@@ -1,4 +1,4 @@
-# seed0108: Wizard Mode and the Multiverse
+# seed0108-wizard-extcmd-wishlist
 
 **Subsystem Focus**: Validates the Wizard Mode (debug) extended commands, specifically `#wizwish` and `#levelport`, along with the resulting mass-level generation subroutines.
 
