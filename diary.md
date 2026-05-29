@@ -115,6 +115,15 @@ Analysed the full RNG init sequence by reading:
 ---
 
 ## New Additions
+
+## YYYY-MM-DD
+- Stream E progress: completed `goodpos`, `enexto`, `makemon`, `m_initsgrp`, `m_initlgrp`.
+- Implemented `newmonhp`, `adj_lev`, `golemhp` for HP, speed, and level adjustment.
+- Ported `peace_minded` and `set_malign`.
+- Stubbed `m_initweap` and `m_initinv` due to Stream D dependency.
+- The `makemon` core creation logic integrates these modules successfully, establishing the baseline RNG flow.
+- Baseline 88 / 11406 score retained.
+- What's next: Pet creation (`makedog` / `initedog`) or Monster movement logic.
 <!-- 
 APPEND NEW LOG ENTRIES HERE. 
 The Diary Secretary will periodically merge these into the chronological sections above. 
