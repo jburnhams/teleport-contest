@@ -1,4 +1,4 @@
-# seed0009: Swimmer and the Lava
+# seed0009-swimmer-mforce
 
 **Subsystem Focus**: Validates tutorial generation, environmental hazard checks, and the `m` (force move) override command.
 
@@ -13,7 +13,7 @@ The user names their entity `S, w, i, m, m, e, r`. They accept the default chaot
 Swimmer navigates the tutorial space, encountering various engraved instructions. The engine calculates line-of-sight and basic locomotion as she wanders toward a highly dangerous environmental feature. 
 
 **Step 60: The Warning**
-Swimmer attempts to move right (`l`) directly into an adjacent wall of lava. The mathematical engine performs a safety check. Recognising the hazard, it overrides the movement and outputs a helpful warning: *You avoid stepping into the wall of lava.* The engine successfully protects the user from accidental death.
+Swimmer attempts to move right (`l`) directly into an adjacent wall of lava. The mathematical engine performs a safety check. Recognising the hazard, it overrides the movement and outputs a helpful warning: *You avoid stepping into the wall of lava.* The engine successfully protects the user from accidental death. The character's initial attributes are configured as (St:14 Dx:11 Co:15 In:14 Wi:14 Ch:7).
 
 **Steps 61–62: The Override**
 Refusing to be told what to do by a procedural safety check, the user presses `m` (the prefix command to force movement) followed immediately by `l` (right). 

@@ -1,4 +1,4 @@
-# seed1150: Grok and the Sling Shot
+# seed1150-caveman-explore-move
 
 **Subsystem Focus**: Validates pet inventory interactions, the `shoot` command for projectile-launchers, and the associated inventory-state updates.
 
@@ -7,7 +7,7 @@ This session serves as a rigorous mechanical validation of the engine's ranged-c
 ### Mechanical Sequence
 
 **Steps 1–5: The Troglodyte Grok**
-The engine performs 2,398 PRNG calls to generate the initial state (St:15 Dx:14 Co:17 In:7 Wi:9). Grok begins on Dungeon Level 1, accompanied by his pet little dog, Slasher. The engine identifies that this is an explore mode session.
+The engine performs 2,398 PRNG calls to generate the initial state (St:15 Dx:14 Co:17 In:7 Wi:9). Grok begins on Dungeon Level 1, accompanied by his pet little dog, Slasher. The engine identifies that this is an explore mode session. The character's initial attributes are configured as (St:15 Dx:14 Co:17 In:7 Wi:9 Ch:13).
 
 **Steps 6–8: The Ration Retrieval**
 Grok observes a food ration on the floor. 

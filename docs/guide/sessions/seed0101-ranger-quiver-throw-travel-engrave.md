@@ -1,4 +1,4 @@
-# seed0101: Ricky's Readiness Error
+# seed0101-ranger-quiver-throw-travel-engrave
 
 **Subsystem Focus**: Validates the `quiver` (`Q`) and `travel` (`_`) subroutines, as well as the mechanical distinction between readying a weapon and wielding it.
 

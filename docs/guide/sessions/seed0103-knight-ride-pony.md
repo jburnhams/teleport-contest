@@ -1,4 +1,4 @@
-# seed0103: Sir's Short-Lived Equestrian Career
+# seed0103-knight-ride-pony
 
 **Subsystem Focus**: Validates the `#ride` extended command, the dexterity-based success checks for mounting, and fall-damage resolution.
 
