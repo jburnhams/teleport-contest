@@ -154,3 +154,79 @@ export function noncorporeal(ptr) {
 export function is_whirly(ptr) {
     return ptr.mlet === C.S_VORTEX || ptr === mons[C.PM_AIR_ELEMENTAL];
 }
+
+export function throws_rocks(ptr) {
+    return (ptr.mflags2 & C.M2_ROCKTHROW) !== 0;
+}
+
+export function is_rider(ptr) {
+    return ptr === mons[C.PM_DEATH] || ptr === mons[C.PM_FAMINE] || ptr === mons[C.PM_PESTILENCE];
+}
+
+export function unique_corpstat(ptr) {
+    return (ptr.geno & C.G_UNIQ) !== 0;
+}
+
+export function is_golem(ptr) {
+    return ptr.mlet === C.S_GOLEM;
+}
+
+export function is_vampire(ptr) {
+    return ptr.mlet === C.S_VAMPIRE;
+}
+
+export function is_vampshifter(mtmp) {
+    // not implemented yet
+    return false;
+}
+
+export function haseyes(ptr) {
+    return (ptr.mflags1 & C.M1_NOEYES) === 0;
+}
+
+export function always_peaceful(ptr) {
+    return (ptr.mflags2 & C.M2_PEACEFUL) !== 0;
+}
+
+export function always_hostile(ptr) {
+    return (ptr.mflags2 & C.M2_HOSTILE) !== 0;
+}
+
+export function race_peaceful(ptr) {
+    return (ptr.mflags2 & game.u.urace.lovemask) !== 0;
+}
+
+export function race_hostile(ptr) {
+    return (ptr.mflags2 & game.u.urace.hatemask) !== 0;
+}
+
+export function is_minion(ptr) {
+    return (ptr.mflags2 & C.M2_MINION) !== 0;
+}
+
+export function is_male(ptr) {
+    return (ptr.mflags2 & C.M2_MALE) !== 0;
+}
+export function is_female(ptr) {
+    return (ptr.mflags2 & C.M2_FEMALE) !== 0;
+}
+export function is_neuter(ptr) {
+    return (ptr.mflags2 & C.M2_NEUTER) !== 0;
+}
+import { mons } from './monst.js';
+export function pm_to_cham(mndx) {
+    let mcham = C.NON_PM;
+    let ptr = mons[mndx];
+    if (ptr.mlet === C.S_VAMPIRE) mcham = C.CHAM_VAMPIRE;
+    else if (ptr.mlet === C.S_CHAMELEON) mcham = C.CHAM_CHAMELEON;
+    return mcham;
+}
+export function is_ndemon(ptr) {
+    return is_demon(ptr) && ptr !== mons[C.PM_MAIL_DAEMON];
+}
+export function is_domestic(ptr) {
+    return (ptr.mflags1 & C.M1_DOMESTIC) !== 0;
+}
+export function is_armed(ptr) {
+    return false; // Approximated
+}
