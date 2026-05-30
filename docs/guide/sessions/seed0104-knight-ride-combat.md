@@ -1,4 +1,4 @@
-# seed0104: Sir and the Nameless Pony
+# seed0104-knight-ride-combat
 
 **Subsystem Focus**: Validates the `#ride` success pathways, mounted combat resolution, and the culturally literate dismount subroutines.
 

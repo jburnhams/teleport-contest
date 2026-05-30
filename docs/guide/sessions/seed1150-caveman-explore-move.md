@@ -1,4 +1,4 @@
-# seed1150: Grok and the Sling Shot
+# seed1150-caveman-explore-move
 
 **Subsystem Focus**: Validates pet inventory interactions, the `shoot` command for projectile-launchers, and the associated inventory-state updates.
 

@@ -1,4 +1,4 @@
-# seed0077: Shade's Lock Pick Logic
+# seed0077-rogue-chargen
 
 **Subsystem Focus**: Validates manual character generation menus, the `apply` command logic for tools, and pet inventory interaction.
 

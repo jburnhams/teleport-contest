@@ -1,4 +1,4 @@
-# seed0007: Rogue vs. The Snake Swamp
+# seed0007-rogue-snake-swamp
 
 **Subsystem Focus**: Validates manual character generation menus, fountain effect matrices, and multiple-entity combat resolution.
 

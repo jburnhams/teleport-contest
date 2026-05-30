@@ -1,4 +1,4 @@
-# seed0398: The Polymorph Experiment
+# seed0398-wizard-wandpoly-pile
 
 **Subsystem Focus**: Validates the administrative `#wizwish` and `#wizgenesis` commands, as well as the mechanical resolution of the wand of polymorph on a specific monster target.
 
