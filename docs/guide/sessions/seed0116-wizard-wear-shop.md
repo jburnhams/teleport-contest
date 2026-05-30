@@ -1,4 +1,4 @@
-# seed0116: The Wizard's Wardrobe
+# seed0116-wizard-wear-shop
 
 **Subsystem Focus**: Validates Wizard Mode administrative commands, rapid multi-level teleportation, and the `wear` (`W`) equipment-state subroutines.
 

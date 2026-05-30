@@ -1,4 +1,4 @@
-# seed5002: The Wizard's Arsenal Catastrophe
+# seed5002-wizard-coverage-pair
 
 **Subsystem Focus**: Validates the `#wizwish` administrative wishing, multi-wand zapping, bolt-bounce physics, and the deterministic resolution of self-inflicted elemental damage.
 
