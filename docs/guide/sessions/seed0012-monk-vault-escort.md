@@ -1,4 +1,4 @@
-# seed0012: The Vault Escort
+# seed0012-monk-vault-escort
 
 **Subsystem Focus**: Validates complex character generation navigation and the specialized Vault Guard AI escort subroutine.
 
