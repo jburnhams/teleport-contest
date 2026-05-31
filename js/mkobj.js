@@ -1,12 +1,8 @@
 // C ref: obj.h
 import { game } from './gstate.js';
 import { fobj, set_fobj } from './decl.js';
-import {
-    RANDOM_CLASS, WEAPON_CLASS, ARMOR_CLASS, POTION_CLASS, SCROLL_CLASS,
-    WAND_CLASS, SPBOOK_CLASS, FOOD_CLASS, TOOL_CLASS, GEM_CLASS, RING_CLASS,
-    AMULET_CLASS, COIN_CLASS
-} from './const.js';
-import { BOULDER, GOLD_PIECE, STRANGE_OBJECT, objects } from './objects.js';
+import { RANDOM_CLASS, WEAPON_CLASS, ARMOR_CLASS, POTION_CLASS, SCROLL_CLASS, WAND_CLASS, SPBOOK_CLASS, FOOD_CLASS, TOOL_CLASS, GEM_CLASS, RING_CLASS, AMULET_CLASS, COIN_CLASS, IRON, GLASS, COPPER, WOOD, LIQUID, DRAGON_HIDE, PLASTIC, P_NONE, BALL_CLASS, CHAIN_CLASS, P_SHURIKEN, P_BOW, FIRE_RES } from './const.js';
+import { BOULDER, GOLD_PIECE, STRANGE_OBJECT, objects, TALLOW_CANDLE, WAX_CANDLE, WAN_FIRE, WORM_TOOTH } from './objects.js';
 import { rnd, rn2, rn1 } from './rng.js';
 import { depth, level_difficulty } from './hacklib.js';
 
@@ -346,6 +342,115 @@ export function blessorcurse(otmp, chance) {
         }
     }
     return;
+}
+
+
+// C ref: objclass.h
+export function is_rustprone(otmp) {
+    return objects[otmp.otyp].oc_material === IRON;
+}
+
+export function is_crackable(otmp) {
+    return objects[otmp.otyp].oc_material === GLASS && otmp.oclass === ARMOR_CLASS;
+}
+
+export function is_corrodeable(otmp) {
+    return objects[otmp.otyp].oc_material === COPPER || objects[otmp.otyp].oc_material === IRON;
+}
+
+export function is_rottable(otmp) {
+    const omat = objects[otmp.otyp].oc_material;
+    return (omat <= WOOD && omat !== LIQUID) || omat === DRAGON_HIDE;
+}
+
+export function Is_candle(otmp) {
+    return otmp.otyp === TALLOW_CANDLE || otmp.otyp === WAX_CANDLE;
+}
+
+export function is_flammable(otmp) {
+    const otyp = otmp.otyp;
+    const omat = objects[otyp].oc_material;
+
+    if (Is_candle(otmp)) return false;
+    if (objects[otyp].oc_oprop === FIRE_RES || otyp === WAN_FIRE) return false;
+
+    return (omat <= WOOD && omat !== LIQUID) || omat === PLASTIC;
+}
+
+export function is_damageable(otmp) {
+    return is_rustprone(otmp) || is_flammable(otmp) || is_rottable(otmp) || is_corrodeable(otmp) || is_crackable(otmp);
+}
+
+// C ref: include/obj.h
+export function is_weptool(otmp) {
+    return otmp.oclass === TOOL_CLASS && objects[otmp.otyp].oc_subtyp !== P_NONE;
+}
+
+// C ref: objnam.c
+export function erosion_matters(otmp) {
+    switch (otmp.oclass) {
+        case TOOL_CLASS:
+            return is_weptool(otmp);
+        case WEAPON_CLASS:
+        case ARMOR_CLASS:
+        case BALL_CLASS:
+        case CHAIN_CLASS:
+            return true;
+        default:
+            break;
+    }
+    return false;
+}
+
+// C ref: include/obj.h
+export function is_multigen(otmp) {
+    return otmp.oclass === WEAPON_CLASS && objects[otmp.otyp].oc_subtyp >= -P_SHURIKEN && objects[otmp.otyp].oc_subtyp <= -P_BOW;
+}
+
+
+// C ref: mkobj.c
+export function may_generate_eroded(otmp) {
+    /* initial hero inventory */
+    if (game.moves <= 1 && !game.in_mklev)
+        return false;
+    /* already erodeproof or cannot be eroded */
+    if (otmp.oerodeproof || !erosion_matters(otmp) || !is_damageable(otmp))
+        return false;
+    /* part of a monster's body and produced when it dies */
+    if (objects[otmp.otyp].oc_name === 'worm tooth' || objects[otmp.otyp].oc_name === 'unicorn horn')
+        return false;
+    /* artifacts cannot be generated eroded  */
+    if (otmp.oartifact)
+        return false;
+    return true;
+}
+
+
+// C ref: mkobj.c
+export function mkobj_erosions(otmp) {
+    if (may_generate_eroded(otmp)) {
+        /* A small fraction of non-artifact items will generate eroded or
+         * possibly erodeproof. An item that generates eroded will never be
+         * erodeproof, and vice versa. */
+        if (!rn2(100)) {
+            otmp.oerodeproof = 1;
+        } else {
+            if (!rn2(80) && (is_flammable(otmp) || is_rustprone(otmp) || is_crackable(otmp))) {
+                do {
+                    otmp.oeroded++;
+                } while (otmp.oeroded < 3 && !rn2(9));
+            }
+            if (!rn2(80) && (is_rottable(otmp) || is_corrodeable(otmp))) {
+                do {
+                    otmp.oeroded2++;
+                } while (otmp.oeroded2 < 3 && !rn2(9));
+            }
+        }
+        /* and an extremely small fraction of the time, erodable items
+         * will generate greased */
+        if (!rn2(1000))
+            otmp.greased = 1;
+    }
 }
 
 export function bcsign(otmp) {
