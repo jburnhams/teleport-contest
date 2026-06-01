@@ -238,3 +238,52 @@ export function rndmonnum_adj(minadj, maxadj) {
 
     return i;
 }
+
+import * as teleport from './teleport.js';
+
+export function makemon(ptr, x, y, mmflags) {
+    let mtmp;
+    let fakemon = { data: null };
+    let cc = { x: 0, y: 0 };
+    let mndx, mcham, ct, mitem;
+    let femaleok, maleok,
+        anymon = !ptr,
+        byyou = hacklib.u_at(x, y),
+        allow_minvent = ((mmflags & C.NO_MINVENT) === 0),
+        countbirth = ((mmflags & C.MM_NOCOUNTBIRTH) === 0),
+        allowtail = ((mmflags & C.MM_NOTAIL) === 0);
+    let gpflags = (((mmflags & C.MM_IGNOREWATER) ? C.MM_IGNOREWATER : 0)
+                   | C.GP_CHECKSCARY | C.GP_AVOID_MONPOS);
+
+    if (!game.level.flags.rndmongen && !ptr)
+        return null;
+
+    if (x === 0 && y === 0) {
+        fakemon.data = ptr;
+        if (!teleport.makemon_rnd_goodpos(ptr ? fakemon : null, gpflags, cc))
+            return null;
+        x = cc.x;
+        y = cc.y;
+    } else if (byyou && !game.gi.in_mklev) {
+        if (!teleport.enexto_core(cc, game.u.ux, game.u.uy, ptr, gpflags)
+            && !teleport.enexto_core(cc, game.u.ux, game.u.uy, ptr, gpflags & ~C.GP_CHECKSCARY))
+            return null;
+        x = cc.x;
+        y = cc.y;
+    }
+
+    if (!isok(x, y)) {
+        return null;
+    }
+
+    if (m_at(x, y)) {
+        if (!(mmflags & C.MM_ADJACENTOK)
+            || !teleport.enexto_core(cc, x, y, ptr, gpflags))
+            return null;
+        x = cc.x;
+        y = cc.y;
+    }
+
+    // Stub the rest for now since E3 is big, and return null
+    return null;
+}
