@@ -1,10 +1,12 @@
-# seed0013: Attacking the Architecture
+# seed0013-rogue-friday13-combat
 
 **Subsystem Focus**: Validates environmental datetime flags, forced-combat subroutines, and object dropping mechanics.
 
 This session serves as a peculiar mechanical validation of the engine's forced-combat (`F`) logic. Having been warned of the cosmological dangers of playing on a Friday the 13th with a Full Moon, the user entity—a Rogue named *Sneaky*—chooses to express her frustrations by dropping her weapon and punching a wall.
 
 ### Mechanical Sequence
+
+The initial procedural generation establishes the hero's core attributes (St:14 Dx:16 Co:14 In:10 Wi:12 Ch:9).
 
 **Steps 0–22: The Superstitious Setup**
 The engine performs exactly 3,824 PRNG calls to seed the universe, immediately noticing the local system clock and outputting the twin astrological warnings: *You are lucky! Full moon tonight.* and *Watch out! Bad things can happen on Friday the 13th.* Sneaky wanders around the starting room (`L, l, J, K...`), testing line-of-sight and basic locomotion.

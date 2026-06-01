@@ -1,4 +1,4 @@
-# seed0060: Shade and the Search for Pain
+# seed0060-orc-rogue-kick-search
 
 **Subsystem Focus**: Validates search subroutines, kicking interactions with inanimate objects, and pet AI combat resolution.
 
