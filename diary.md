@@ -235,3 +235,9 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Cleaned up loose test scratchpads and incorporated `test/o_init.test.js` covering `MAXOCLASSES` index initialization.
 - Validated via scoring maintaining exact 100% baseline structural alignment (88/11406 screens pass).
 - Next steps: Proceed to D2.3 (Erosion & Quantity helpers) exploring `may_generate_eroded` functionality.
+
+## 2026-05-16
+- Set up Stream E3 subtask: `goodpos` and `enexto` for valid placement.
+- Ported `collect_coords`, `goodpos_onscary`, `goodpos`, `enexto`, and `makemon_rnd_goodpos` into a new `js/teleport.js` and integrated with `makemon` inside `js/mkmon.js`.
+- Added vitest tests verifying proper rng output counts matching.
+- Pre-commit tasks checked and scores passing with zero regressions (+0) maintaining 88/11406 score.

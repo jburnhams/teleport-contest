@@ -196,3 +196,7 @@ Keep entries detailed; include C references, bitmasks, and specific RNG counts.
 ## Monster System
 - **`rndmonst` / `rndmonnum`**: The PRNG selection (`rndmonst_adj`) implements a weighted reservoir sampling. It consumes `rn2` checks to replace the `selected_mndx` when `rn2(totalweight) < weight`. The upper limit for looping is `PM_LONG_WORM_TAIL`, not `NUMMONS`.
 - **Tests with PRNG**: If testing functions that mutate the PRNG, keep them isolated in unmocked files to prevent global `vi.mock()` hoisting issues (e.g. `vi.mock('../js/rng.js')` breaking the real RNG calls).
+
+## 2026-05-16 - Monster Placement
+- Ported `goodpos` and `enexto` logic from `teleport.c` to `teleport.js`, which includes handling monster placement legality such as checking pools, lava, flying, swimming, walking through walls, and scared states using `sengr_at` ("Elbereth").
+- Implemented `collect_coords` exactly using RNG sequence `rn2(n)` when shuffling elements to preserve bit-exact PRNG parity.
