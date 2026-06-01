@@ -310,7 +310,7 @@ async function main() {
          }
       }
 
-      overallC_rngMatched += matchedCount;
+      overallC_rngMatched += cRng.length;
 
       if (cascade !== false) {
          console.log(`  RNG: 0/${cRng.length} matched (cascade from step ${cascade})`);
@@ -327,7 +327,7 @@ async function main() {
                  cascade = stepGlobalIdx;
              }
           } else {
-             console.log(`  RNG: ${matchedCount}/${cRng.length} matched, first divergence at call #${overallC_rngMatched - matchedCount + divergeIndex + 1}`);
+             console.log(`  RNG: ${matchedCount}/${cRng.length} matched, first divergence at call #${overallC_rngMatched - cRng.length + divergeIndex + 1}`);
              const expected = divergeIndex < cRng.length ? cRng[divergeIndex] : '<none>';
              const expectedNorm = divergeIndex < cRng.length ? normalizeRng(cRng[divergeIndex]) : '<none>';
              const gotNorm = divergeIndex < jsRngSlice.length ? normalizeRng(jsRngSlice[divergeIndex]) : '<none>';
@@ -335,8 +335,8 @@ async function main() {
              const contextMatch = expected.match(/(@.*)$/);
              const context = contextMatch ? contextMatch[1] : '';
 
-             console.log(`    #${overallC_rngMatched - matchedCount + divergeIndex + 1} expected: ${expectedNorm}`);
-             console.log(`    #${overallC_rngMatched - matchedCount + divergeIndex + 1} got:      ${gotNorm}`);
+             console.log(`    #${overallC_rngMatched - cRng.length + divergeIndex + 1} expected: ${expectedNorm}`);
+             console.log(`    #${overallC_rngMatched - cRng.length + divergeIndex + 1} got:      ${gotNorm}`);
              if (context) {
                  console.log(`    Context from C log: ${context.trim()}`);
              }

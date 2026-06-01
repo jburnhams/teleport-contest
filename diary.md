@@ -115,6 +115,22 @@ Analysed the full RNG init sequence by reading:
 ---
 
 ## New Additions
+
+## Baseline Fuzz Results
+
+Baseline pass rate for 20 sessions at 0 moves: 0/20 passed.
+First divergence points in canonical sessions:
+- makelevel: 11
+- lspo_map: 7
+- fill_special_room: 6
+- somex: 3
+- mkobj: 3
+- mkclass_aligned: 2
+- newpw: 1
+- fill_ordinary_room: 1
+- traptype_rnd: 1
+- blessorcurse: 1
+
 <!-- 
 APPEND NEW LOG ENTRIES HERE. 
 The Diary Secretary will periodically merge these into the chronological sections above. 
