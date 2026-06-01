@@ -1,4 +1,4 @@
-# seed0006: Wizard vs. Water Demon
+# seed0006-wizard-water-demon
 
 **Subsystem Focus**: Validates the interactive character generation menus, options configuration, combat calculation matrices, level descent, fountain quaff resolution, and cross-level entity tracking.
 

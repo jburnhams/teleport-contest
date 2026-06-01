@@ -1,4 +1,4 @@
-# seed0106: Padre and the Divine Rebukes
+# seed0106-priest-extcmd-sweep
 
 **Subsystem Focus**: Validates the `#pray` and `#terrain` extended commands, deity-specific dialogue trees, and the permanent attribute-penalty subroutines.
 

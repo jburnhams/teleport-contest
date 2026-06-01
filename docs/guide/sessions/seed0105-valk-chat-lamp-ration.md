@@ -1,4 +1,4 @@
-# seed0105: Astrid and the Wall
+# seed0105-valk-chat-lamp-ration
 
 **Subsystem Focus**: Validates the `#chat` extended command, the `eat` interaction state machine, and the error-handling subroutines for invalid object selection.
 
