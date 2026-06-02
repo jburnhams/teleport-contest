@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from 'vitest';
-import { pline, You, verbalize } from '../js/pline.js';
+import { pline, You, verbalize, putmsghistory } from '../js/pline.js';
 import { game } from '../js/gstate.js';
 import { GameDisplay } from '../js/game_display.js';
 import * as input from '../js/input.js';
@@ -39,5 +39,12 @@ describe('pline', () => {
         } finally {
             getchSpy.mockRestore();
         }
+    });
+
+    it('putmsghistory should push messages without displaying', () => {
+        game.nhDisplay = new GameDisplay(null);
+        putmsghistory('Old saved message');
+        expect(game.nhDisplay.messages).toEqual(['Old saved message']);
+        expect(game.nhDisplay.toplin).toBe(0); // Display untouched
     });
 });
