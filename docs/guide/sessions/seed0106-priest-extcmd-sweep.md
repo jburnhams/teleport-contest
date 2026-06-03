@@ -1,6 +1,8 @@
-# seed0106: Padre and the Divine Rebukes
+# seed0106-priest-extcmd-sweep
 
 **Subsystem Focus**: Validates the `#pray` and `#terrain` extended commands, deity-specific dialogue trees, and the permanent attribute-penalty subroutines.
+
+**Execution Statistics**: 267 steps, 4,194 PRNG calls.
 
 This session serves as a rigorous mechanical validation of the engine's religious and diagnostic subroutines. The user entity—a human Priest named *Padre*—demonstrates the immediate and painful consequences of divine arrogance and the engine's ability to render complex terrain visualisations.
 
