@@ -1,6 +1,8 @@
-# seed0060: Shade and the Search for Pain
+# seed0060-orc-rogue-kick-search
 
 **Subsystem Focus**: Validates search subroutines, kicking interactions with inanimate objects, and pet AI combat resolution.
+
+**Execution Statistics**: 41 steps, 3,626 PRNG calls.
 
 This session serves as a rigorous mechanical validation of the engine's physical interaction subroutines. The user entity—an Orcish Rogue named *Shade*—demonstrates the engine's ability to process search attempts, kicks against various targets, and the secondary combat effects of pet entities.
 
