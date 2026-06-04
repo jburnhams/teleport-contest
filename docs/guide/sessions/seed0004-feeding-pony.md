@@ -1,6 +1,7 @@
-# seed0004: Feeding the Pony
+# seed0004-feeding-pony
 
 **Subsystem Focus**: Validates character generation menus, pet AI pathfinding algorithms, and object consumption logic.
+**Execution Statistics**: 408 steps, 12084 PRNG calls.
 
 This deterministic sequence forces the user entity through the interactive character creation menus before rigorously testing the pet interaction logic. It provides a precise validation of the pathfinding and object consumption subroutines implemented in the monster AI loop, elegantly masked as equestrian care.
 
