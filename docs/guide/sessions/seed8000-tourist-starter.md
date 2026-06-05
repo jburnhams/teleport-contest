@@ -1,6 +1,8 @@
-# seed8000: The Tourist Starter
+# seed8000-tourist-starter
 
 **Subsystem Focus**: Validates the `u_init` pathways, standard cursor event dispatching, and initial procedural generation.
+
+**Execution Statistics**: 22 steps, 2975 PRNG calls.
 
 This session establishes the baseline validation for the core game loop. Rather than engaging in complex combat, it acts as a mechanical shakedown of the engine's initialisation routines (`u_init`, `mklev.c`) and standard input processing. 
 

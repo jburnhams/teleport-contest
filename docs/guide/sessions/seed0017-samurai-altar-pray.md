@@ -1,6 +1,8 @@
-# seed0017: Akira and the Unanswered Prayer
+# seed0017-samurai-altar-pray
 
 **Subsystem Focus**: Validates the `#pray` extended command, the piety/luck resolution engine, deity-specific message strings, and the character-name entry UI.
+
+**Execution Statistics**: 66 steps, 2664 PRNG calls.
 
 This session serves as a focused mechanical shakedown of the engine's prayer subroutines. The user entity—a Samurai named *Akira*—demonstrates the immediate and deterministic consequences of pestering a deity too early in the game.
 

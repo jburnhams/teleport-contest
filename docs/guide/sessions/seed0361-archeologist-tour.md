@@ -1,6 +1,8 @@
-# seed0361: The Archeologist's Debug Tour
+# seed0361-archeologist-tour
 
 **Subsystem Focus**: Validates Wizard Mode administrative navigation (`#levelchange`), role-specific attribute generation, and the mass-level generation subroutines for the Archeologist class.
+
+**Execution Statistics**: 365 steps, 8448 PRNG calls.
 
 This session serves as a rigorous mechanical validation of the engine's debugging infrastructure from the perspective of an Archeologist. The user entity—appropriately named *Wizard*—demonstrates the engine's ability to handle rapid jumps through the dungeon hierarchy while maintaining role-specific state.
 
