@@ -541,3 +541,7 @@ export function init_vision_globals() {
     game.cs_left = null;
     game.cs_right = null;
 }
+
+export function canseemon(mtmp) {
+    return false; // Stub until fully ported
+}

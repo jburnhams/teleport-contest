@@ -235,3 +235,16 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Cleaned up loose test scratchpads and incorporated `test/o_init.test.js` covering `MAXOCLASSES` index initialization.
 - Validated via scoring maintaining exact 100% baseline structural alignment (88/11406 screens pass).
 - Next steps: Proceed to D2.3 (Erosion & Quantity helpers) exploring `may_generate_eroded` functionality.
+## 2023-10-24
+- Ported `makemon`, `makemon_rnd_goodpos`, `goodpos`, `enexto`, `enexto_gpflags`, `enexto_core`, `collect_coords` to `js/mkmon.js`.
+- Ported `throws_rocks` to `js/mondata.js`.
+- Added helpers like `is_lava`, `is_pool`, `is_waterwall`, `is_ice`, etc. to `js/hacklib.js`.
+- Wrote tests to ensure `collect_coords` and `makemon_rnd_goodpos` function correctly using deterministic PRNG.
+- Score tests show parity (0 delta).
+- Next: Move onto level and hp adjustments inside `makemon`.
+
+## Post-Review Followup
+- Fixed the `canseemon` reference in `mkmon.js` (by properly exporting/stubbing it inside `vision.js` and importing it).
+- Corrected the `likes_lava()` implementation to return a safe dummy value `false` to avoid unintended PRNG loops while ensuring safety.
+- Handled `m_in_air()` by stubbing it cleanly in `hacklib.js` so `goodpos` doesn't throw `ReferenceErrors`.
+- Verified no regressions occurred using `score:check`.

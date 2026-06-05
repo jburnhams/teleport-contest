@@ -154,3 +154,7 @@ export function noncorporeal(ptr) {
 export function is_whirly(ptr) {
     return ptr.mlet === C.S_VORTEX || ptr === mons[C.PM_AIR_ELEMENTAL];
 }
+
+export function throws_rocks(ptr) {
+    return (ptr.mflags2 & C.M2_ROCKTHROW) !== 0;
+}
