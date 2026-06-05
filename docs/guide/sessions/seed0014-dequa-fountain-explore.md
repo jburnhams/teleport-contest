@@ -1,6 +1,8 @@
-# seed0014: Dequa and the Fountain Dip
+# seed0014-dequa-fountain-explore
 
 **Subsystem Focus**: Validates the `#dip` extended command, equipment attribute modification, and town watchman AI triggers.
+
+**Execution Statistics**: 713 steps, 4661 PRNG calls.
 
 This session provides a rigorous mechanical shakedown of the object dipping subroutines. The user entity—a Lawful Dwarven Valkyrie named *Dequa*—demonstrates the engine's ability to handle complex item-environment interactions and the resulting legal repercussions in a procedurally generated dungeon.
 

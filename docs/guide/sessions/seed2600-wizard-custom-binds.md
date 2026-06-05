@@ -1,6 +1,8 @@
-# seed2600: The Wizard's Bound Multiverse
+# seed2600-wizard-custom-binds
 
 **Subsystem Focus**: Validates Wizard Mode administrative navigation and the engine's ability to handle custom key-binding states within the input state machine.
+
+**Execution Statistics**: 37 steps, 4379 PRNG calls.
 
 This session serves as a rigorous mechanical validation of the engine's input-handling and level-generation infrastructure. The user entity—a human Wizard named *Wizard*—demonstrates the engine's ability to coordinate rapid administrative jumps across dungeon levels while maintaining a consistent deterministic reality, regardless of the underlying key-binding configuration.
 

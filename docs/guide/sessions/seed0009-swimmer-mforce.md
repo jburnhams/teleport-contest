@@ -1,6 +1,8 @@
-# seed0009: Swimmer and the Lava
+# seed0009-swimmer-mforce
 
 **Subsystem Focus**: Validates tutorial generation, environmental hazard checks, and the `m` (force move) override command.
+
+**Execution Statistics**: 72 steps, 3331 PRNG calls.
 
 This extremely brief session is a textbook validation of the game's environmental hazard protections, immediately followed by a validation of the user's ability to purposefully override those protections. The user entity—a chaotic Elven Ranger—demonstrates exactly how the engine handles deliberate self-immolation.
 
