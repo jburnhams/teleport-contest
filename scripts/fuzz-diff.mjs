@@ -193,8 +193,8 @@ function normalizeScreen(s) {
 // the contestant cannot echo back recorded screens/cursors because
 // they never see them.
 function normalizeRng(entry) {
-  if (typeof entry !== 'string') entry = String(entry);
-  return entry.replace(/\s*@\s.*$/, '').replace(/^\d+\s+/, '').trim();
+    if (typeof entry !== 'string') entry = String(entry);
+    return entry.replace(/\s*@\s.*$/, '').replace(/^\d+\s+/, '').trim();
 }
 
 function isRngCall(s) {

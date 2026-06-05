@@ -154,7 +154,7 @@ Tick items with `[x]` as they are completed.
 
 - [x] **B.4.1** Extract from result JSON: `passed`, `metrics.rngCalls.{matched,total}`, `metrics.screens.{matched,total}`, `error`
 - [x] **B.4.2** If not `--keep-all` and session passed: delete the recorded session file (keep only failures)
-- [x] **B.4.3** Implement `findFirstRngDivergence(sessionPath, jsRngLog)`:
+- [x] **B.4.3** Implement `findFirstRngDivergence` logic embedded in `fuzz-diff.mjs`:
   - Load recorded session JSON
   - Flatten all `step.rng` arrays into one C rng list
   - Apply same normalization as ps_test_runner: `entry.replace(/\s*@\s.*$/, '').replace(/^\d+\s+/, '').trim()`
@@ -162,7 +162,7 @@ Tick items with `[x]` as they are completed.
   - *Note: findFirstRngDivergence is skipped. Relies on fuzz-diff execution instead.*
   - *Note: findFirstRngDivergence is skipped. Relies on fuzz-diff execution instead.*
   - Return `{ index, expected: c[i], got: js[i] }` (keep raw C entry for the `@ location` annotation)
-- [x] **B.4.4** On failure with `--verbose`: call `findFirstRngDivergence`, print divergence detail
+- [x] **B.4.4** On failure with `--verbose`: Use output from `fuzz-diff.mjs` directly for divergence detail
   - *Note: Currently relying on fuzz-diff instead.*
   - *Note: Currently relying on fuzz-diff instead.*
 
@@ -209,8 +209,8 @@ Tick items with `[x]` as they are completed.
 - [x] **C.3.3** Flatten per-step RNG arrays per segment into `{ segIdx, stepIdx, key, rng[], screen }` records
 
 ### C.4 Per-step diff output
-*Note: Implementation fails on exact matching (e.g., rn2(2)=0 vs rn2(2)=0 due to regex bugs). Needs fixing.*
-*Note: Implementation fails on exact matching (e.g., rn2(2)=0 vs rn2(2)=0 due to regex bugs). Needs fixing.*
+- [x] Fixed implementation failing on exact matching
+- [x] Fixed implementation failing on exact matching
 
 - [x] **C.4.1** Print session header: filename, seed, role, race, moves count (parse from nethackrc)
 - [x] **C.4.2** For each step across all segments:
