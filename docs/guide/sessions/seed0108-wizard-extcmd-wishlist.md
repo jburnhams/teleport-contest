@@ -1,6 +1,7 @@
-# seed0108: Wizard Mode and the Multiverse
+# seed0108-wizard-extcmd-wishlist
 
 **Subsystem Focus**: Validates the Wizard Mode (debug) extended commands, specifically `#wizwish` and `#levelport`, along with the resulting mass-level generation subroutines.
+**Execution Statistics**: 303 steps, 16958 PRNG calls.
 
 This session serves as a high-stress mechanical validation of the engine's debugging and level-transition logic. The user entity—appropriately named *Wizard*—demonstrates the engine's ability to process administrative commands and handle rapid, non-linear jumps across multiple procedurally generated dungeon levels.
 
@@ -31,4 +32,4 @@ Unsatisfied with Level 11, Wizard immediately jumps again.
 **Steps 291–302: Final Analytics**
 The session concludes with Wizard methodically reviewing his inventory, known spells, discoveries, and attributes. He confirms his high Intelligence (18) before performing two final searches (`s`) and inspecting the floor (`:`), confirming the presence of the boulder he just landed on.
 
-It is a comprehensive mechanical validation of the engine's debugging infrastructure, proving that it can successfully handle rapid, high-entropy transitions between levels while maintaining perfect state synchronisation. The Wizard Mode commands are a vital part of the engine's diagnostic toolkit, and this session confirms they are working with flawless precision.
+It is a comprehensive mechanical validation of the engine's debugging infrastructure, proving that it can successfully handle rapid, high-entropy transitions between levels while maintaining perfect state synchronisation. Yet one must marvel at the absurdity of it all: a supposedly omnipotent demigod bending the very fabric of space and time with administrative commands, only to unceremoniously materialize upon an obstinate little ASCII '0'.

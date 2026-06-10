@@ -1,6 +1,7 @@
-# seed0013: The Friday the 13th Save & Restore
+# seed0013-friday13-save-then-fullmoon-restore
 
 **Subsystem Focus**: Validates environmental datetime flags, the Virtual File System (VFS), and the state serialization/deserialization routines.
+**Execution Statistics**: 99 steps, 4804 PRNG calls.
 
 This session is fundamentally an infrastructure test disguised as superstitious dungeon crawling. The engine is deliberately fed a specific local datetime (Friday the 13th, during a Full Moon) to validate the datetime logic, before rigorously testing the game's ability to save the entire engine state to disk and successfully restore it in a new segment.
 
@@ -30,4 +31,4 @@ The harness launches a completely new game segment, passing in the serialized VF
 - The message line correctly outputs: *Hello Sneaky, the human Rogue, welcome back to NetHack!* 
 - Confirming that the datetime environmental flags were successfully preserved in the save block, the engine reiterates: *You are lucky! Full moon tonight.*
 
-The mathematical engine proves its flawless ability to pause existence, compress it into a binary file, and unpack it flawlessly, completely unbothered by the astrological warnings.
+The mathematical engine proves its flawless ability to pause existence, compress it into a binary file, and unpack it flawlessly, completely unbothered by the astrological warnings. A glorious triumph of VFS serialization over the whimsical superstitions of a few flickering characters.
