@@ -1,6 +1,8 @@
-# seed8000: The Tourist Starter
+# seed8000-tourist-starter
 
 **Subsystem Focus**: Validates the `u_init` pathways, standard cursor event dispatching, and initial procedural generation.
+
+**Execution Statistics**: 23 steps, 3130 PRNG calls.
 
 This session establishes the baseline validation for the core game loop. Rather than engaging in complex combat, it acts as a mechanical shakedown of the engine's initialisation routines (`u_init`, `mklev.c`) and standard input processing. 
 
@@ -29,4 +31,4 @@ The user returns to the map and issues the `s` command twice, instructing the en
 **Step 22: Tile Inspection (`:`)**
 The user presses `:` to inspect the tile they are currently occupying. The engine evaluates the floor state and outputs: *You see no objects here.* The run concludes gracefully. 
 
-As a validation test, it is flawlessly efficient. As an adventure, it is the story of a tourist who walked in a small circle, checked their pockets, stared at the floor, and immediately ceased to exist.
+As a validation test, it is flawlessly efficient. As an adventure, it is the story of a tourist who walked in a small circle, checked their pockets, stared at the floor, and immediately ceased to exist. The universe hums with the terrifying potential of unseen algorithms, ready to unleash a water demon at a moment's notice.

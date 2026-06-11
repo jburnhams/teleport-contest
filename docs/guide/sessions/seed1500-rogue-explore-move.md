@@ -1,6 +1,8 @@
-# seed1500: Robin and the Reluctant Kitten
+# seed1500-rogue-explore-move
 
 **Subsystem Focus**: Validates pet pathfinding over corpses, trap-trigger resolution for non-player entities, and the boundary checks for the `apply` command.
+
+**Execution Statistics**: 40 steps, 2768 PRNG calls.
 
 This session serves as a rigorous mechanical validation of the engine's background entity AI and environmental interaction subroutines. The user entity—a human Rogue named *Robin*—demonstrates the engine's ability to coordinate complex pet behaviours, including dietary reluctance and independent trap evasion.
 
@@ -30,4 +32,4 @@ Robin attempts to apply his lock pick (e) to a wall or doorway to his right (l).
 **Steps 28–39: Final Analytics**
 Robin methodically reviews his inventory, known spells, discoveries, and attributes. He confirms his Intelligence (12) and Wisdom (11) before performing two final searches (`s`) and inspecting the floor (`:`).
 
-It is a succinct mechanical validation of the engine's pet-AI and trap-resolution logic, proving that the simulation is alive with independent activity even when the player is merely walking down a hallway. Robin may have missed the door, but his kitten didn't miss the dart.
+It is a succinct mechanical validation of the engine's pet-AI and trap-resolution logic, proving that the simulation is alive with independent activity even when the player is merely walking down a hallway. Robin may have missed the door, but his kitten didn't miss the dart. It is a comforting thought that even in a dark, procedurally generated dungeon, a cat will still find a way to play with deadly traps.

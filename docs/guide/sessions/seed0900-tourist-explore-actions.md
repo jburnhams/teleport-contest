@@ -1,6 +1,8 @@
-# seed0900: Touristo's Non-Scoring Adventure
+# seed0900-tourist-explore-actions
 
 **Subsystem Focus**: Validates "Explore Mode" status, the command-count prefix logic, and the resolution of long-duration pet combat.
+
+**Execution Statistics**: 84 steps, 2983 PRNG calls.
 
 This session serves as a rigorous mechanical validation of the engine's administrative and combat-automation subroutines. The user entity—a Tourist named *Touristo*—demonstrates the engine's ability to handle the "non-scoring explore mode" flag, the queuing of repeated commands via count prefixes, and the deterministic resolution of a multi-turn melee between a pet and a monster.
 
@@ -30,4 +32,4 @@ For 60 steps, Touristo stands by as his little dog engages a jackal.
 **Steps 74–83: Final Analytics**
 Touristo reviews his known spells, discoveries, and attributes. He confirms his Intelligence (12) and Wisdom (11) before performing two final searches (`s`) and inspecting the floor (`:`), identifying a doorway.
 
-It is a succinct mechanical validation of the engine's command-accumulator and background combat-resolution logic, proving that it can successfully coordinate queued player actions with independent AI entities over dozens of turns with absolute deterministic precision. Touristo may not be scoring points, but his pet is certainly earning its keep.
+It is a succinct mechanical validation of the engine's command-accumulator and background combat-resolution logic, proving that it can successfully coordinate queued player actions with independent AI entities over dozens of turns with absolute deterministic precision. Touristo may not be scoring points, but his pet is certainly earning its keep. The engine cares not for glory, only for the flawless calculation of a jackal's demise.

@@ -1,6 +1,8 @@
-# seed5006: The Tourist's Self-Inflicted Disaster
+# seed5006-tourist-stress-disaster
 
 **Subsystem Focus**: Validates the administrative wishing system, cursed-item interactions, blindfold state transitions, confused scroll reading, bones-file generation, and cross-segment bones-file retrieval.
+
+**Execution Statistics**: 249 steps, 13923 PRNG calls.
 
 This remarkable two-segment session is a methodical stress test of the engine's most exotic state transitions. In Segment 0, a Tourist named *Wizard* systematically accumulates cursed items, blindfolds herself, drinks a potion of confusion, and then misreads a scroll of teleportation before zapping herself with a wand of death. In Segment 1, a Knight—also named *Wizard*—teleports to the same level, retrieves the Tourist's bones file, prays unsuccessfully, and promptly repeats the self-zapping experiment. It is an exercise in administrative self-destruction of considerable thoroughness.
 
@@ -48,4 +50,4 @@ The Knight invokes `#pray`, confirming the action. *You begin praying to Lugh.* 
 **Steps 24–41: The Repeat Performance**
 Undeterred by divine rebuke, the Knight wishes for another *wand of death* (`i - an aluminum wand`; 5 PRNG calls) and immediately zaps himself: *You irradiate yourself with pure energy! You die.* He accepts death. *Save bones?* He accepts. The engine detects the existing bones file: *Bones file already exists. Replace it? [yn]*
 
-Two lives, two wands of death, one shared grave. The engine's bones-file persistence infrastructure is validated across the complete lifecycle: generation, retrieval, and replacement negotiation. One cannot help but admire the ruthless efficiency of a testing methodology that involves repeatedly zapping oneself in the face.
+Two lives, two wands of death, one shared grave. The engine's bones-file persistence infrastructure is validated across the complete lifecycle: generation, retrieval, and replacement negotiation. One cannot help but admire the ruthless efficiency of a testing methodology that involves repeatedly zapping oneself in the face. A true testament to the engine's cold, uncaring perfection.

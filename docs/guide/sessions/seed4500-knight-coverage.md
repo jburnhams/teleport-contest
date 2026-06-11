@@ -1,6 +1,8 @@
-# seed4500: The Knight's Quest for Coverage
+# seed4500-knight-coverage
 
 **Subsystem Focus**: Validates the `#jump` extended command, the "New Moon" luck penalty, and the generation of Quest-specific branches like the Knight's "Home" levels.
+
+**Execution Statistics**: 1814 steps, 108275 PRNG calls.
 
 This session serves as a comprehensive mechanical coverage test of the engine's movement and branching subroutines. The user entity—a Knight named *Wizard*—demonstrates the engine's ability to handle complex navigational commands like jumping, while also validating the procedural generation of class-specific Quest branches.
 
@@ -28,4 +30,4 @@ Wizard arrives at the entrance to his Quest.
 **Steps 1801–1813: Final Quest Analytics**
 The session concludes with Wizard reviewing his inventory and attributes within the Quest branch. He confirms his Intelligence (7) and Wisdom (14). He attempts to search, but the engine detects a nearby monster, validating the persistent search-suppression logic.
 
-It is a flawless mechanical validation of the engine's branching and mobility infrastructure, proving that it can successfully coordinate complex Quest generation, multi-tile movement (jumping), and long-duration state persistence with absolute precision. The Knight's home levels are perfectly generated, byte for byte.
+It is a flawless mechanical validation of the engine's branching and mobility infrastructure, proving that it can successfully coordinate complex Quest generation, multi-tile movement (jumping), and long-duration state persistence with absolute precision. The Knight's home levels are perfectly generated, byte for byte. One can only imagine his stoic silence as he leapt repeatedly across chasms, guided only by the indifferent geometry of his own home.
