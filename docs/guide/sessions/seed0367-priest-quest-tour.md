@@ -1,6 +1,7 @@
 # seed0367: The Priestess's Quest Tour
 
 **Subsystem Focus**: Validates Wizard Mode administrative navigation (`#levelchange`), role-specific attribute generation for the Priest class, and the bones-level detection subroutines.
+**Execution Statistics**: 324 steps, 50125 PRNG calls.
 
 This session serves as a rigorous mechanical validation of the engine's debugging infrastructure from the perspective of a chaotic Priestess. The user entity—appropriately named *Wizard*—demonstrates the engine's ability to handle rapid jumps through the dungeon hierarchy while maintaining complex role-specific state.
 
