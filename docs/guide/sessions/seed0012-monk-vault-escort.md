@@ -2,6 +2,8 @@
 
 **Subsystem Focus**: Validates complex character generation navigation and the specialized Vault Guard AI escort subroutine.
 
+**Execution Statistics**: 307 steps, 13878 PRNG calls.
+
 This session serves as a rigorous mechanical test of the game's vault security logic. The user entity—a Monk named *Dodeco*—successfully triggers the highly specific AI behaviour of a Croesus vault guard, demonstrating the engine's ability to calculate pathfinding for an escort sequence.
 
 ### Mechanical Sequence
