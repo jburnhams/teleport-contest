@@ -2,6 +2,8 @@
 
 **Subsystem Focus**: Validates pet pathfinding, pit trap resolution, and the deterministic consequences of the `.` (wait) command.
 
+**Execution Statistics**: 43 steps, 8563 PRNG calls.
+
 This session serves as a brief but tragic validation of the engine's trap resolution logic. The user entity—a human Valkyrie named *Astrid*—witnesses the immediate and final resolution of a pit trap as it interacts with her accompanying pet. 
 
 ### Mechanical Sequence
