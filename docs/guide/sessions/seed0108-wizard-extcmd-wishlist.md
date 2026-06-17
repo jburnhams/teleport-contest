@@ -2,12 +2,15 @@
 
 **Subsystem Focus**: Validates the Wizard Mode (debug) extended commands, specifically `#wizwish` and `#levelport`, along with the resulting mass-level generation subroutines.
 
-This session serves as a high-stress mechanical validation of the engine's debugging and level-transition logic. The user entity—appropriately named *Wizard*—demonstrates the engine's ability to process administrative commands and handle rapid, non-linear jumps across multiple procedurally generated dungeon levels.
+**Execution Statistics**: 302 steps, 16958 calls to `rn2()` and its brethren.
+
+
+This session serves as a high-stress mechanical validation of the engine's debugging and level-transition logic. The user entity (a solitary, wandering '@')—appropriately named *Wizard*—demonstrates the engine's ability to process administrative commands and handle rapid, non-linear jumps across multiple procedurally generated dungeon levels.
 
 ### Mechanical Sequence
 
 **Steps 1–3: The Evoker Wizard**
-The engine performs 2,763 PRNG calls to generate the universe and Wizard's attributes (St:8 Dx:18 Co:12 In:18 Wi:10 Ch:9). Wizard begins on Dungeon Level 1 and declines the tutorial.
+The engine performs 2,763 calls to `rn2()` and its brethren to generate the universe and Wizard's attributes (St:8 Dx:18 Co:12 In:18 Wi:10 Ch:9). Wizard begins on Dungeon Level 1 and declines the tutorial.
 
 **Steps 5–13: The Divine Gift (`#wizwish`)**
 Wizard initiates the administrative wishing command `#wizwish`. 
@@ -19,13 +22,13 @@ Wizard initiates the administrative wishing command `#wizwish`.
 Wizard decides to test the non-linear navigation subroutines. He issues the `#levelport` command.
 - The engine prompts for a target level.
 - Step 285: Wizard selects a destination. The engine immediately triggers the generation and transition logic. 
-- A massive **9,054 PRNG calls** are consumed in a single frame to resolve the generation of a new dungeon floor (Level 11).
+- A massive **9,054 calls to `rn2()` and its brethren** are consumed in a single frame to resolve the generation of a new dungeon floor (Level 11).
 - The message line confirms the successful transition: *You materialize on a different level!*
 
 **Steps 286–290: The Rapid Return**
 Unsatisfied with Level 11, Wizard immediately jumps again.
 - Another level-teleport is initiated.
-- Step 290: 4,262 PRNG calls resolve the generation of Level 4.
+- Step 290: 4,262 calls to `rn2()` and its brethren resolve the generation of Level 4.
 - Wizard materialises on top of a boulder: *You materialize on a different level! You see here a boulder.*
 
 **Steps 291–302: Final Analytics**

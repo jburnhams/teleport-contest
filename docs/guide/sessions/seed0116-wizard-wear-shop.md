@@ -2,17 +2,20 @@
 
 **Subsystem Focus**: Validates Wizard Mode administrative commands, rapid multi-level teleportation, and the `wear` (`W`) equipment-state subroutines.
 
-This session serves as a rigorous mechanical validation of the engine's debugging and equipment-state logic. The user entity—a human Wizard named *Wizard*—utilises administrative powers to jump between dungeon levels and test the robust handling of armor and equipment flags.
+**Execution Statistics**: 126 steps, 12562 calls to `rn2()` and its brethren.
+
+
+This session serves as a rigorous mechanical validation of the engine's debugging and equipment-state logic. The user entity (a solitary, wandering '@')—a human Wizard named *Wizard*—utilises administrative powers to jump between dungeon levels and test the robust handling of armor and equipment flags.
 
 ### Mechanical Sequence
 
 **Steps 1–6: The Wizard Mode Setup**
-The engine performs 2,968 PRNG calls to generate the initial state (St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9). Wizard begins on Dungeon Level 1 and, after a brief moment of indecision, declines the tutorial.
+The engine performs 2,968 calls to `rn2()` and its brethren to generate the initial state (St:12 Dx:10 Co:11 In:18 Wi:13 Ch:9). Wizard begins on Dungeon Level 1 and, after a brief moment of indecision, declines the tutorial.
 
 **Steps 8–10: The Level 2 Leap**
 Wizard invokes an administrative level-teleport.
 - At Step 10, the engine resolves the transition to Dungeon Level 2.
-- 2,538 PRNG calls are consumed as the new floor is procedurally generated.
+- 2,538 calls to `rn2()` and its brethren are consumed as the new floor is procedurally generated.
 - The message line confirms the shift: *You materialize on a different level!*
 
 **Step 14: The Wear Subroutine**
@@ -22,9 +25,9 @@ Wizard initiates the `wear` (`W`) command.
 
 **Steps 109–114: The Multiverse Tour**
 Wizard continues his diagnostic tour of the dungeon levels.
-- Step 109: A massive 2,976 PRNG calls resolve a jump to Dungeon Level 10.
+- Step 109: A massive 2,976 calls to `rn2()` and its brethren resolve a jump to Dungeon Level 10.
 - Step 114: Unsatisfied with the lower depths, Wizard jumps back to Level 2. 
-- 3,043 PRNG calls are consumed to re-generate (or re-materialise) the second floor.
+- 3,043 calls to `rn2()` and its brethren are consumed to re-generate (or re-materialise) the second floor.
 
 **Steps 115–126: Final Analytics**
 The session concludes with Wizard methodically reviewing his inventory, known spells, discoveries, and attributes. He confirms his high Intelligence (18) and Wisdom (13) before performing two final searches (`s`) and inspecting the floor (`:`).

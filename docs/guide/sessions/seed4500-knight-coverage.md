@@ -2,12 +2,15 @@
 
 **Subsystem Focus**: Validates the `#jump` extended command, the "New Moon" luck penalty, and the generation of Quest-specific branches like the Knight's "Home" levels.
 
-This session serves as a comprehensive mechanical coverage test of the engine's movement and branching subroutines. The user entity—a Knight named *Wizard*—demonstrates the engine's ability to handle complex navigational commands like jumping, while also validating the procedural generation of class-specific Quest branches.
+**Execution Statistics**: 1813 steps, 108275 calls to `rn2()` and its brethren.
+
+
+This session serves as a comprehensive mechanical coverage test of the engine's movement and branching subroutines. The user entity (a solitary, wandering '@')—a Knight named *Wizard*—demonstrates the engine's ability to handle complex navigational commands like jumping, while also validating the procedural generation of class-specific Quest branches.
 
 ### Mechanical Sequence
 
 **Steps 1–2: The New Moon Penalty**
-The engine performs 2,776 PRNG calls to generate the initial state (St:18/01 Dx:9 Co:12 In:7 Wi:14). The initialisation logic detects the "New Moon" condition from the system clock and applies the deterministic luck penalty: *Be careful! New moon tonight.*
+The engine performs 2,776 calls to `rn2()` and its brethren to generate the initial state (St:18/01 Dx:9 Co:12 In:7 Wi:14). The initialisation logic detects the "New Moon" condition from the system clock and applies the deterministic luck penalty: *Be careful! New moon tonight.*
 
 **Steps 3–16: The Leap of Faith (`#jump`)**
 Wizard immediately tests the Knight's mobility by invoking the `#jump` extended command. 
@@ -21,7 +24,7 @@ For nearly 1,800 steps, Wizard explores the dungeon and its various branches. Th
 
 **Steps 1799–1800: The Quest Entrance**
 Wizard arrives at the entrance to his Quest.
-- Step 1799: 630 PRNG calls resolve the generation of a unique quest entrance: *As you exit the swamps, you see before you a huge, gaping hole...*
+- Step 1799: 630 calls to `rn2()` and its brethren resolve the generation of a unique quest entrance: *As you exit the swamps, you see before you a huge, gaping hole...*
 - Step 1800: The transition to "Home Level 5" is confirmed. Environmental status effects from previous levels are cleared: *The heat and smoke are gone.*
 - The status line reflects the new location: `Home 5`.
 

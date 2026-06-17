@@ -2,12 +2,15 @@
 
 **Subsystem Focus**: Validates Wizard Mode death-prevention subroutines, administrative prayer overrides, and poison-based attribute degradation.
 
-This session serves as a high-precision mechanical validation of the engine's debugging state machine. The user entity—a Wizard named *Wizard*—demonstrates the engine's ability to cheat death itself, along with the associated administrative prompts for deity intervention and immortality.
+**Execution Statistics**: 531 steps, 11409 calls to `rn2()` and its brethren.
+
+
+This session serves as a high-precision mechanical validation of the engine's debugging state machine. The user entity (a solitary, wandering '@')—a Wizard named *Wizard*—demonstrates the engine's ability to cheat death itself, along with the associated administrative prompts for deity intervention and immortality.
 
 ### Mechanical Sequence
 
 **Steps 1–3: The Evoker Setup**
-The engine performs 2,783 PRNG calls to generate the initial state (St:11 Dx:11 Co:12 In:18 Wi:15). Wizard begins on Dungeon Level 1 and declines the tutorial.
+The engine performs 2,783 calls to `rn2()` and its brethren to generate the initial state (St:11 Dx:11 Co:12 In:18 Wi:15). Wizard begins on Dungeon Level 1 and declines the tutorial.
 
 **Steps 506–508: Administrative Prayer**
 Deep in the dungeon (Level 12), Wizard attempts to pray.
@@ -26,7 +29,7 @@ The relentless attacks reduce Wizard's hit points to zero.
 - The engine initiates the standard death sequence: *You die...*
 - Step 523: However, because the simulation is running in Wizard Mode, the engine provides a final administrative prompt: *Die? [yn] (n)*
 - Wizard selects `n`.
-- Step 525: The engine's death-prevention logic triggers. 14 PRNG calls resolve the "resurrection" event: *OK, so you don't die.* 
+- Step 525: The engine's death-prevention logic triggers. 14 calls to `rn2()` and its brethren resolve the "resurrection" event: *OK, so you don't die.*
 - Wizard's HP is restored from 0 to 83.
 
 **Steps 526–531: Final Analytics**

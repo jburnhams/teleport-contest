@@ -2,18 +2,21 @@
 
 **Subsystem Focus**: Validates spellcasting subroutines (`Z`), spellbook-reading interactions (`r`), and the associated Power (Pw) expenditure logic.
 
-This session serves as a rigorous mechanical validation of the engine's magical infrastructure. The user entity—a human Priestess named *Clara*—demonstrates the engine's ability to process spell selection, mana consumption, and the redundant reading of known spellbooks.
+**Execution Statistics**: 27 steps, 2238 calls to `rn2()` and its brethren.
+
+
+This session serves as a rigorous mechanical validation of the engine's magical infrastructure. The user entity (a solitary, wandering '@')—a human Priestess named *Clara*—demonstrates the engine's ability to process spell selection, mana consumption, and the redundant reading of known spellbooks.
 
 ### Mechanical Sequence
 
 **Steps 1–3: The Aspirant Clara**
-The engine performs 2,203 PRNG calls to generate the initial state (St:13 Dx:12 Co:13 In:10 Wi:18). Clara begins on Dungeon Level 1 and declines the tutorial.
+The engine performs 2,203 calls to `rn2()` and its brethren to generate the initial state (St:13 Dx:12 Co:13 In:10 Wi:18). Clara begins on Dungeon Level 1 and declines the tutorial.
 
 **Steps 4–6: Casting the Light (`Z`)**
 Clara decides to test her divine powers immediately. She issues the cast command (`Z`) and selects her healing spell (`a`).
-- Step 5: The engine prompts for a direction. 3 PRNG calls resolve the targeting.
+- Step 5: The engine prompts for a direction. 3 calls to `rn2()` and its brethren resolve the targeting.
 - Clara's Power (Pw) immediately drops from 6 to 1, validating the mana-consumption logic.
-- Step 6: 7 PRNG calls resolve the effect: *You feel better.*
+- Step 6: 7 calls to `rn2()` and its brethren resolve the effect: *You feel better.*
 
 **Steps 7–17: The Redundant Study (`r`)**
 Clara decides to review her starting spellbook of healing (`g`).

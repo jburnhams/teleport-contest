@@ -2,12 +2,15 @@
 
 **Subsystem Focus**: Validates "Explore Mode" status, the command-count prefix logic, and the resolution of long-duration pet combat.
 
-This session serves as a rigorous mechanical validation of the engine's administrative and combat-automation subroutines. The user entity—a Tourist named *Touristo*—demonstrates the engine's ability to handle the "non-scoring explore mode" flag, the queuing of repeated commands via count prefixes, and the deterministic resolution of a multi-turn melee between a pet and a monster.
+**Execution Statistics**: 83 steps, 2983 calls to `rn2()` and its brethren.
+
+
+This session serves as a rigorous mechanical validation of the engine's administrative and combat-automation subroutines. The user entity (a solitary, wandering '@')—a Tourist named *Touristo*—demonstrates the engine's ability to handle the "non-scoring explore mode" flag, the queuing of repeated commands via count prefixes, and the deterministic resolution of a multi-turn melee between a pet and a monster.
 
 ### Mechanical Sequence
 
 **Steps 1–3: The Explore Mode**
-The engine performs 2,471 PRNG calls to generate the universe and Touristo's attributes (St:13 Dx:10 Co:12 In:12 Wi:11). Immediately upon starting, the engine applies the administrative status flag: *You are in non-scoring explore/discovery mode.* This validates the engine's ability to bypass standard scoring logic while maintaining the integrity of the simulation.
+The engine performs 2,471 calls to `rn2()` and its brethren to generate the universe and Touristo's attributes (St:13 Dx:10 Co:12 In:12 Wi:11). Immediately upon starting, the engine applies the administrative status flag: *You are in non-scoring explore/discovery mode.* This validates the engine's ability to bypass standard scoring logic while maintaining the integrity of the simulation.
 
 **Steps 6–7: The Inedible Selection**
 Touristo decides to eat (`e`). He selects an item from his inventory (`a`).
@@ -25,7 +28,7 @@ Touristo demonstrates the engine's command-queuing infrastructure.
 For 60 steps, Touristo stands by as his little dog engages a jackal.
 - The message line continuously updates with the results of the melee: *The little dog misses the jackal. The little dog bites the jackal.*
 - This phase validates the engine's ability to handle background AI combat resolution while the player's queued commands are either being executed or suppressed.
-- Step 73: 354 PRNG calls are consumed as the engine resolves the final fatal blow: *The jackal is killed!*
+- Step 73: 354 calls to `rn2()` and its brethren are consumed as the engine resolves the final fatal blow: *The jackal is killed!*
 
 **Steps 74–83: Final Analytics**
 Touristo reviews his known spells, discoveries, and attributes. He confirms his Intelligence (12) and Wisdom (11) before performing two final searches (`s`) and inspecting the floor (`:`), identifying a doorway.

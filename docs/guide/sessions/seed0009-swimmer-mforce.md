@@ -2,12 +2,15 @@
 
 **Subsystem Focus**: Validates tutorial generation, environmental hazard checks, and the `m` (force move) override command.
 
-This extremely brief session is a textbook validation of the game's environmental hazard protections, immediately followed by a validation of the user's ability to purposefully override those protections. The user entity—a chaotic Elven Ranger—demonstrates exactly how the engine handles deliberate self-immolation.
+**Execution Statistics**: 72 steps, 3713 calls to `rn2()` and its brethren.
+
+
+This extremely brief session is a textbook validation of the game's environmental hazard protections, immediately followed by a validation of the user's ability to purposefully override those protections. The user entity (a solitary, wandering '@')—a chaotic Elven Ranger—demonstrates exactly how the engine handles deliberate self-immolation.
 
 ### Mechanical Sequence
 
 **Steps 1–13: The Tenderfoot**
-The user names their entity `S, w, i, m, m, e, r`. They accept the default chaotic Elven Ranger role, and at Step 13, explicitly answer `y` to the prompt: *Do you want a tutorial?* 165 PRNG calls resolve the transition as the entity is teleported away from the standard dungeon generation and into the tutorial environment. The message line solemnly intones: *Entering the tutorial.*
+The user names their entity `S, w, i, m, m, e, r`. They accept the default chaotic Elven Ranger role, and at Step 13, explicitly answer `y` to the prompt: *Do you want a tutorial?* 165 calls to `rn2()` and its brethren resolve the transition as the entity is teleported away from the standard dungeon generation and into the tutorial environment. The message line solemnly intones: *Entering the tutorial.*
 
 **Steps 14–59: The Approach**
 Swimmer navigates the tutorial space, encountering various engraved instructions. The engine calculates line-of-sight and basic locomotion as she wanders toward a highly dangerous environmental feature. 
