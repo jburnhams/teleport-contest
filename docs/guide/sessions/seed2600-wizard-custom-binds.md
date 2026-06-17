@@ -2,27 +2,30 @@
 
 **Subsystem Focus**: Validates Wizard Mode administrative navigation and the engine's ability to handle custom key-binding states within the input state machine.
 
-This session serves as a rigorous mechanical validation of the engine's input-handling and level-generation infrastructure. The user entity—a human Wizard named *Wizard*—demonstrates the engine's ability to coordinate rapid administrative jumps across dungeon levels while maintaining a consistent deterministic reality, regardless of the underlying key-binding configuration.
+**Execution Statistics**: 37 steps, 11647 calls to `rn2()` and its brethren.
+
+
+This session serves as a rigorous mechanical validation of the engine's input-handling and level-generation infrastructure. The user entity (a solitary, wandering '@')—a human Wizard named *Wizard*—demonstrates the engine's ability to coordinate rapid administrative jumps across dungeon levels while maintaining a consistent deterministic reality, regardless of the underlying key-binding configuration.
 
 ### Mechanical Sequence
 
 **Steps 1–4: The Evoker Setup**
-The engine performs 2,828 PRNG calls to generate the initial state (St:10 Dx:14 Co:14 In:18 Wi:10). Wizard begins on Dungeon Level 1 and declines the tutorial.
+The engine performs 2,828 calls to `rn2()` and its brethren to generate the initial state (St:10 Dx:14 Co:14 In:18 Wi:10). Wizard begins on Dungeon Level 1 and declines the tutorial.
 
 **Steps 11–12: The Feline Swap**
 Wizard begins exploring the initial room, coordinating his movement with his pet kitten.
-- Step 11: 9 PRNG calls resolve the swap.
-- Step 12: 16 PRNG calls resolve the second swap.
+- Step 11: 9 calls to `rn2()` and its brethren resolve the swap.
+- Step 12: 16 calls to `rn2()` and its brethren resolve the second swap.
 - This validates the engine's ability to maintain perfect entity-coordinate synchronisation during basic locomotion.
 
 **Steps 19–20: The Level 12 Jump**
 Wizard invokes an administrative level-teleport.
-- Step 20: A massive **4,152 PRNG calls** are consumed in a single frame as the engine resolves the generation of Dungeon Level 12.
+- Step 20: A massive **4,152 calls to `rn2()` and its brethren** are consumed in a single frame as the engine resolves the generation of Dungeon Level 12.
 - The message line confirms the successful transition: *You materialize on a different level!*
 
 **Steps 21–25: The Level 5 Return**
 Unsatisfied with the depths, Wizard jumps again.
-- Step 25: 4,379 PRNG calls resolve the generation of Dungeon Level 5.
+- Step 25: 4,379 calls to `rn2()` and its brethren resolve the generation of Dungeon Level 5.
 - This validates the engine's ability to handle rapid, high-entropy transitions between levels without losing track of the entity's high Intelligence (18).
 
 **Steps 26–37: Final Analytics**

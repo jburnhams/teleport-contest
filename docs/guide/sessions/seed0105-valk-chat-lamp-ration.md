@@ -2,12 +2,15 @@
 
 **Subsystem Focus**: Validates the `#chat` extended command, the `eat` interaction state machine, and the error-handling subroutines for invalid object selection.
 
-This session serves as a rigorous mechanical validation of the engine's UI state machine and interaction boundary checks. The user entity—a human Valkyrie named *Astrid*—demonstrates the engine's ability to handle conversational failure and the systematic rejection of invalid inventory items.
+**Execution Statistics**: 29 steps, 2499 calls to `rn2()` and its brethren.
+
+
+This session serves as a rigorous mechanical validation of the engine's UI state machine and interaction boundary checks. The user entity (a solitary, wandering '@')—a human Valkyrie named *Astrid*—demonstrates the engine's ability to handle conversational failure and the systematic rejection of invalid inventory linked list items.
 
 ### Mechanical Sequence
 
 **Steps 1–3: The Stripling Astrid**
-The engine performs 2,466 PRNG calls to generate the universe and Astrid's attributes (St:17 Dx:13 Co:18 In:7 Wi:10 Ch:14). Astrid begins on Dungeon Level 1 and declines the tutorial.
+The engine performs 2,466 calls to `rn2()` and its brethren to generate the universe and Astrid's attributes (St:17 Dx:13 Co:18 In:7 Wi:10 Ch:14). Astrid begins on Dungeon Level 1 and declines the tutorial.
 
 **Steps 4–10: The Architectural Conversation**
 Astrid attempts to engage in dialogue using the extended command `#chat`. She specifies the direction of the wall to her upper-right (`y`).
@@ -16,7 +19,7 @@ Astrid attempts to engage in dialogue using the extended command `#chat`. She sp
 - The message line provides the classic mechanical response: *It's like talking to a wall.*
 
 **Steps 14–26: The Eating Dilemma**
-Astrid decides to eat (`e`). The engine prompts for an object selection from her inventory, highlighting her single food ration (`d`).
+Astrid decides to eat (`e`). The engine prompts for an object selection from her inventory linked list, highlighting her single food ration (`d`).
 - Rather than selecting `d`, Astrid enters a flurry of invalid keystrokes: `e, d, i, +, \, SPACE`.
 - For each invalid input, the engine's object-selection subroutine performs a lookup, fails to find the item in her pack, and outputs: *You don't have that object.*
 - The session validates that the engine remains locked in the "What do you want to eat?" sub-state until a valid item is chosen or the command is cancelled.

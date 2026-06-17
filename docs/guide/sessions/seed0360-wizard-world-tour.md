@@ -2,12 +2,15 @@
 
 **Subsystem Focus**: Validates Wizard Mode administrative navigation (`#levelchange`), mass-level generation, and the physical interaction subroutines for heavy object displacement.
 
-This session is a comprehensive mechanical stress test of the engine's debugging and level-generation infrastructure. The user entity—a Wizard named *Wizard*—demonstrates the engine's ability to handle rapid, non-linear jumps through the dungeon hierarchy while maintaining perfect state synchronisation and resolving complex physical interactions with boulders.
+**Execution Statistics**: 832 steps, 120639 calls to `rn2()` and its brethren.
+
+
+This session is a comprehensive mechanical stress test of the engine's debugging and level-generation infrastructure. The user entity (a solitary, wandering '@')—a Wizard named *Wizard*—demonstrates the engine's ability to handle rapid, non-linear jumps through the dungeon hierarchy while maintaining perfect state synchronisation and resolving complex physical interactions with boulders.
 
 ### Mechanical Sequence
 
 **Steps 1–4: The Evoker Setup**
-The engine performs 2,896 PRNG calls to generate the initial state (St:9 Dx:13 Co:16 In:18 Wi:10 Ch:9). Wizard begins on Dungeon Level 1 and declines the tutorial.
+The engine performs 2,896 calls to `rn2()` and its brethren to generate the initial state (St:9 Dx:13 Co:16 In:18 Wi:10 Ch:9). Wizard begins on Dungeon Level 1 and declines the tutorial.
 
 **Steps 5–16: The Teleportation Protocol (`#levelchange`)**
 Wizard immediately invokes the administrative command `#levelchange`.
@@ -20,7 +23,7 @@ For over 800 steps, Wizard jumps across multiple dungeon levels. The engine tire
 **Steps 810–818: The Boulder Challenge**
 Wizard encounters a boulder and attempts to displace it (`b, n, b, h`).
 - Step 810: The engine's physical interaction subroutine calculates the displacement probability. Despite his Strength of 25, the first attempt fails: *You try to move the boulder, but in vain.*
-- Step 815: After several attempts, the engine resolves a success. 43 PRNG calls resolve the movement: *With great effort you move the boulder.*
+- Step 815: After several attempts, the engine resolves a success. 43 calls to `rn2()` and its brethren resolve the movement: *With great effort you move the boulder.*
 - This validates the engine's ability to handle heavy-object displacement and the resulting map updates.
 
 **Steps 821–832: Final Debug Analytics**

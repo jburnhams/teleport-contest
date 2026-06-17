@@ -2,7 +2,10 @@
 
 **Subsystem Focus**: Validates the `#wizwish` administrative wishing, multi-wand zapping, bolt-bounce physics, and the deterministic resolution of self-inflicted elemental damage.
 
-This session is a comprehensive stress test of the engine's object-creation, wand-zapping, and damage-resolution subroutines. Across two segments, a Wizard named *wizard* systematically wishes for an arsenal of elemental wands, then discovers that bouncing bolts and exploding potions are far more dangerous to the caster than to any monster.
+**Execution Statistics**: 285 steps, 12167 calls to `rn2()` and its brethren.
+
+
+This session is a comprehensive stress test of the engine's object-creation, wand-zapping, and damage-resolution subroutines. Across two segments, a Wizard named *wizard* (a brave but foolhardy '@') systematically wishes for an arsenal of elemental wands (glorious '/' artifacts), then discovers that bouncing bolts and exploding potions are far more dangerous to the caster than to any monster.
 
 ### Mechanical Sequence
 
@@ -11,7 +14,7 @@ This session is a comprehensive stress test of the engine's object-creation, wan
 **Step 0–1:** The engine initialises the universe. The "Full Moon" condition is detected: *You are lucky! Full moon tonight.*
 
 **Steps 2–4: Teleport to DL5**
-Wizard invokes `Ctrl-V` to teleport to dungeon level 5. 3,093 PRNG calls generate the new level.
+Wizard invokes `Ctrl-V` to teleport to dungeon level 5. 3,093 calls to `rn2()` and its brethren generate the new level.
 
 **Steps 5–74: The Wishing Spree**
 Wizard invokes `#wizwish` (Ctrl-W) five times, requesting:

@@ -2,23 +2,26 @@
 
 **Subsystem Focus**: Validates the `eat` command specifically for fortune cookies, the deterministic generation of fortune strings, and the `throw` command logic for projectiles.
 
-This session serves as a delightful mechanical validation of the engine's object-consumption and randomised-text subroutines. The user entity—a Tourist named *Touristo*—demonstrates the engine's ability to process the complex, multi-stage interaction of eating a fortune cookie and the subsequent deterministic selection of a fortune message.
+**Execution Statistics**: 25 steps, 2458 calls to `rn2()` and its brethren.
+
+
+This session serves as a delightful mechanical validation of the engine's object-consumption and randomised-text subroutines. The user entity (a solitary, wandering '@')—a Tourist named *Touristo*—demonstrates the engine's ability to process the complex, multi-stage interaction of eating a fortune cookie and the subsequent deterministic selection of a fortune message.
 
 ### Mechanical Sequence
 
 **Steps 1–3: The Rambler Touristo**
-The engine performs 2,360 PRNG calls to generate the universe and Touristo's attributes (St:15 Dx:10 Co:15 In:11 Wi:8). Touristo begins on Dungeon Level 1, armed with a starting inventory of food and darts.
+The engine performs 2,360 calls to `rn2()` and its brethren to generate the universe and Touristo's attributes (St:15 Dx:10 Co:15 In:11 Wi:8). Touristo begins on Dungeon Level 1, armed with a starting inventory linked list of food and darts.
 
 **Steps 4–7: The Cookie Resolution**
 Touristo decides to address his starting hunger by eating a fortune cookie (`b`).
-- Step 5: 3 PRNG calls resolve the consumption: *This fortune cookie is delicious!*
+- Step 5: 3 calls to `rn2()` and its brethren resolve the consumption: *This fortune cookie is delicious!*
 - Step 6: The engine triggers the secondary effect of the cookie object: *This cookie has a scrap of paper inside. It reads:*
-- Step 7: 7 PRNG calls resolve the deterministic selection of the fortune from a large pool of strings. The result is a piece of sage advice: *They say the gods get angry if you kill your dog.*
+- Step 7: 7 calls to `rn2()` and its brethren resolve the deterministic selection of the fortune from a large pool of strings. The result is a piece of sage advice: *They say the gods get angry if you kill your dog.*
 - This validates the engine's ability to maintain a consistent mapping between a PRNG seed and a specific text string from the game's data files.
 
 **Steps 9–11: The Thrown Projectile**
 Touristo decides to test his ranged combat. He issues the throw command (`t`) and selects an item (`a`).
-- Step 11: 28 PRNG calls resolve the trajectory and the final resting place of the thrown object. 
+- Step 11: 28 calls to `rn2()` and its brethren resolve the trajectory and the final resting place of the thrown object.
 - This validates the engine's ability to handle basic projectile physics on Turn 1.
 
 **Steps 12–22: The Application Error Loop**

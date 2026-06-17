@@ -2,22 +2,25 @@
 
 **Subsystem Focus**: Validates the `quaff`, `zap`, and `read` command interactions, specifically the resolution of magic mapping effects and floor-based engraving detection.
 
-This session serves as a rigorous mechanical validation of the engine's consumption and information-retrieval subroutines. The user entity—a human Wizard named *Merlin*—demonstrates the engine's ability to handle the immediate effects of potions, wands, and scrolls, culminating in the detection of the legendary *Elbereth* sigil.
+**Execution Statistics**: 229 steps, 3018 calls to `rn2()` and its brethren.
+
+
+This session serves as a rigorous mechanical validation of the engine's consumption and information-retrieval subroutines. The user entity (a solitary, wandering '@')—a human Wizard named *Merlin*—demonstrates the engine's ability to handle the immediate effects of potions, wands, and scrolls, culminating in the detection of the legendary *Elbereth* sigil.
 
 ### Mechanical Sequence
 
 **Steps 1–3: The Evoker Merlin**
-The engine performs 2,722 PRNG calls to generate the initial state (St:12 Dx:12 Co:13 In:18 Wi:12). Merlin begins on Dungeon Level 1, armed with his starting magical arsenal.
+The engine performs 2,722 calls to `rn2()` and its brethren to generate the initial state (St:12 Dx:12 Co:13 In:18 Wi:12). Merlin begins on Dungeon Level 1, armed with his starting magical arsenal.
 
 **Steps 4–5: The Smooth Quaff**
 Merlin decides to test a potion (`h`).
-- 9 PRNG calls resolve the consumption.
+- 9 calls to `rn2()` and its brethren resolve the consumption.
 - The message line confirms the result: *That was smooth!* 
 - This validates the engine's ability to handle basic potion ingestion and the resulting aesthetic feedback.
 
 **Steps 9–10: The Mental Map**
-Merlin reads a scroll from his starting inventory (`j`).
-- Step 10: 17 PRNG calls resolve the magical effect.
+Merlin reads a scroll from his starting inventory linked list (`j`).
+- Step 10: 17 calls to `rn2()` and its brethren resolve the magical effect.
 - The engine's mapping subroutine activates: *As you read the scroll, it disappears. A map coalesces in your mind!*
 - The terminal grid is updated with a large portion of the floor's layout, validating the engine's ability to reveal procedurally generated map data to the player's internal memory.
 
