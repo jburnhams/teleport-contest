@@ -1,6 +1,7 @@
 # seed0102: Ricky and the Cancelled Name
 
 **Subsystem Focus**: Validates the `#name` extended command, the `cmdassist` directional helper subroutines, and the graceful handling of command cancellation.
+**Execution Statistics**: 24 steps, 4485 PRNG calls.
 
 This session serves as a brief but thorough mechanical validation of the engine's UI state machine. The user entity—a human Ranger named *Ricky*—demonstrates the engine's ability to process and cancel complex naming commands and the robust handling of invalid directional inputs.
 
