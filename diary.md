@@ -235,3 +235,9 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Cleaned up loose test scratchpads and incorporated `test/o_init.test.js` covering `MAXOCLASSES` index initialization.
 - Validated via scoring maintaining exact 100% baseline structural alignment (88/11406 screens pass).
 - Next steps: Proceed to D2.3 (Erosion & Quantity helpers) exploring `may_generate_eroded` functionality.
+
+## 2026-06-19 — Stream C: Message System (C2)
+- Implemented `putmsghistory()` in `js/pline.js` to correctly push messages to the recall buffer (`game.nhDisplay.messages`) without printing them to the screen or artificially capping the array size, mapping perfectly to C's implementation in `topl.c`.
+- Investigated the `game.flags.verbose` mechanism, concluding that NetHack standard checks `flags.verbose` completely inline rather than utilizing a `vpline` wrapper (`vpline` handles `va_list` formatting in C). Thus, `game.flags.verbose` logic requires inline conditional handling where appropriate, and no central message abstraction needed to be constructed for it.
+- Tested and scored perfectly retaining the baseline pass rate.
+- Next step: Stream C3 (Map rendering improvements) or Stream C5 (Window system basics).

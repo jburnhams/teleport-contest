@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from 'vitest';
-import { pline, You, verbalize } from '../js/pline.js';
+import { pline, You, verbalize, putmsghistory } from '../js/pline.js';
 import { game } from '../js/gstate.js';
 import { GameDisplay } from '../js/game_display.js';
 import * as input from '../js/input.js';
@@ -39,5 +39,15 @@ describe('pline', () => {
         } finally {
             getchSpy.mockRestore();
         }
+    });
+
+    it('should push message to history without displaying', () => {
+        game.nhDisplay = new GameDisplay(null);
+        game.nhDisplay.messages = [];
+        putmsghistory('Test historical message');
+
+        expect(game.nhDisplay.messages.length).toBe(1);
+        expect(game.nhDisplay.messages[0]).toBe('Test historical message');
+        expect(game.nhDisplay.topMessage).toBeNull();
     });
 });
