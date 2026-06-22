@@ -11,4 +11,5 @@
 **Document Structure (Per Session):**
 - **Header**: `# [Seed Name]`
 - **Subsystem Focus**: A one-sentence summary of which C codebase subsystems are primarily validated by this run.
+- **Execution Statistics**: `[steps] steps, [calls] PRNG calls.`
 - **Mechanical Sequence**: A concise description of the actions taken by the user process, the resulting RNG calls, and the final state resolution, punctuated by a whimsical observation of the on-screen events.

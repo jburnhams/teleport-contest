@@ -1,6 +1,7 @@
 # seed0101: Ricky's Readiness Error
 
 **Subsystem Focus**: Validates the `quiver` (`Q`) and `travel` (`_`) subroutines, as well as the mechanical distinction between readying a weapon and wielding it.
+**Execution Statistics**: 27 steps, 2,371 PRNG calls.
 
 This session serves as a rigorous mechanical validation of the engine's equipment-state logic. The user entity—a human Ranger named *Ricky*—demonstrates the engine's ability to handle the subtle distinction between "quivering" a projectile-launcher and actually "wielding" it, leading to a predictably suboptimal combat result.
 

@@ -1,6 +1,7 @@
 # seed0077: Shade's Lock Pick Logic
 
 **Subsystem Focus**: Validates manual character generation menus, the `apply` command logic for tools, and pet inventory interaction.
+**Execution Statistics**: 33 steps, 3,242 PRNG calls.
 
 This session provides a rigorous mechanical evaluation of the engine's tool interaction subroutines. The user entity—a human Rogue named *Shade*—demonstrates the engine's ability to process manual character creation selections and the logical boundary checks of the lock pick application code.
 
