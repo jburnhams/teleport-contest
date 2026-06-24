@@ -91,60 +91,6 @@ Analysed the full RNG init sequence by reading:
 
 ---
 
-## 2026-05-15
-
-- Completed Stream A subtasks A3 and A4.
-- Extracted `roles`, `races`, `aligns`, and `genders` into `js/roles.js`.
-- Corrected object class constants (`WEAPON_CLASS`, etc.) in `js/const.js`.
-- Verified `test/roles.test.js` passes and maintained score parity.
-- **Baseline pass rate (chargen+mklev)**: 100% (20/20).
-- **Most frequent first-divergence locations**:
-  - 8: `@ makelevel(mklev.c:1410)`
-  - 6: `@ lspo_map(sp_lev.c:6163)`
-  - 6: `@ fill_special_room(sp_lev.c:2769)`
-  - 3: `@ mkobj(mkobj.c:281)`
-  - 2: `@ somex(mkroom.c:669)`
-  - 2: `@ mkclass_aligned(makemon.c:1946)`
-  - 2: `@ makelevel(mklev.c:1295)`
-  - 1: `@ traptype_rnd(mklev.c:1951)`
-  - 1: `@ newpw(exper.c:52)`
-  - 1: `@ fill_ordinary_room(mklev.c:998)`
-  - 1: `@ blessorcurse(mkobj.c:1848)`
-- **Next steps**: Begin Stream D (Object Creation) investigating `mksobj_init` logic (~200 lines).
-
----
-
-## New Additions
-<!-- 
-APPEND NEW LOG ENTRIES HERE. 
-The Diary Secretary will periodically merge these into the chronological sections above. 
-Keep entries technical; include file names, function names, and specific findings.
-Use ## YYYY-MM-DD for new headers if you know the date.
--->
-
-## 2024-05-15
-- Completed Stream A subtasks A3 and A4.
-- Extracted and formatted `roles`, `races`, `aligns`, and `genders` tables from C source into `js/roles.js`.
-- Confirmed missing object class constants (`WEAPON_CLASS`, etc.) in `js/const.js` and added/corrected them.
-- Verified test `test/roles.test.js` passes and `npm run score:check` maintains parity without regressions.
-- What's next: Begin work on Stream D (Object System) or Stream E (Monster System) since Stream A dependencies are met.
-Baseline pass rate (chargen+mklev): 100% (20/20)
-Most frequent first-divergence locations across 44 canonical sessions:
-      8     Context from C log: @ makelevel(mklev.c:1410)
-      6     Context from C log: @ lspo_map(sp_lev.c:6163)
-      6     Context from C log: @ fill_special_room(sp_lev.c:2769)
-      3     Context from C log: @ mkobj(mkobj.c:281)
-      2     Context from C log: @ somex(mkroom.c:669)
-      2     Context from C log: @ mkclass_aligned(makemon.c:1946)
-      2     Context from C log: @ makelevel(mklev.c:1295)
-      1     Context from C log: @ traptype_rnd(mklev.c:1951)
-      1     Context from C log: @ nh.rn2 src=themerms.lua:1039 parent=room([C]:-1)
-      1     Context from C log: @ newpw(exper.c:52)
-      1     Context from C log: @ fill_ordinary_room(mklev.c:998)
-      1     Context from C log: @ blessorcurse(mkobj.c:1848)
-
-## 2026-05-10 — Stream C: Message System (C2)
-
 - Explored C2: pline.js — Message system.
 - Analyzed `nethack-c/upstream/src/pline.c` and `nethack-c/upstream/win/tty/topl.c` to see how `pline`, `You`, `verbalize` works, and how the TTY window system manages the top line string (`toplin`, `--More--`).
 - Hooked `botl.js` up into `js/display.js`. Verified using custom scripts that `bot1` and `bot2` are matching byte-for-byte in the recorded sessions!
@@ -154,6 +100,7 @@ Most frequent first-divergence locations across 44 canonical sessions:
 - The major gap preventing further score increases is C5: Window system basics, as actions like checking the inventory (`i`) try to pop up menus which we don't handle correctly yet.
 
 Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
+
 ## 2026-05-10
 - Started Stream E.
 - Ported `newmonst()`, `fmon` list initialization, `place_monster()`, and `m_at(x,y)`.
@@ -203,14 +150,8 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Refactored `enermod` correctly using `PM_` constants from `const.js`.
 - Fixed `got_sp1` flag tracking to correctly update state inside `ini_inv`.
 - Replaced fragile hardcoded item class checking with `objects` metadata mapping exactly as directed.
-## 2026-05-15
-- Continued Stream E, ticking subtask E2 (mondata.js — data helpers).
-- Created `js/mondata.js` and ported `monsndx` along with several movement-type macros (`is_flyer`, `is_swimmer`, `amphibious`, `passes_walls`, etc.) and species macros (`is_undead`, `is_demon`, `is_animal`, etc.).
-- Wrote vitest suite (`test/mondata.test.js`) verifying `monsndx` index retrieval and evaluating several bitflags against `mons[0]` (Giant Ant).
-- Achieved +0 regression score (88/11406 screens baseline) in validation.
-- Next step: Stream E3, the `makemon` core monster generation.
 
-## 2024-05-10
+## 2026-05-10
 - Implemented random monster selection logic (`rndmonnum`, `rndmonst`, and `_adj` variants) in `js/mkmon.js`.
 - Moved constants for difficulty alignment logic (`montooweak`, `montoostrong`, `monmin_difficulty`, `monmax_difficulty`) into `js/mondata.js`.
 - Fixed the PRNG seed setup and successfully wrote separate test files (`mkmon.test.js`, `mkmon-rnd.test.js`) to handle unmocked PRNG.
@@ -221,13 +162,43 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 
 - Changed `Math.floor` to `Math.trunc` in `js/mkmon.js` (for `align_shift`) to guarantee bit-exact behavior mirroring C's integer division.
 ## 2026-05-15
+
+- Completed Stream A subtasks A3 and A4.
+- Extracted and formatted `roles`, `races`, `aligns`, and `genders` tables from C source into `js/roles.js`.
+- Corrected missing object class constants (`WEAPON_CLASS`, etc.) in `js/const.js`.
+- Verified `test/roles.test.js` passes and `npm run score:check` maintains score parity without regressions.
+- **Baseline pass rate (chargen+mklev)**: 100% (20/20).
+- **Most frequent first-divergence locations** across 44 canonical sessions:
+  - 8: `@ makelevel(mklev.c:1410)`
+  - 6: `@ lspo_map(sp_lev.c:6163)`
+  - 6: `@ fill_special_room(sp_lev.c:2769)`
+  - 3: `@ mkobj(mkobj.c:281)`
+  - 2: `@ somex(mkroom.c:669)`
+  - 2: `@ mkclass_aligned(makemon.c:1946)`
+  - 2: `@ makelevel(mklev.c:1295)`
+  - 1: `@ traptype_rnd(mklev.c:1951)`
+  - 1: `@ nh.rn2 src=themerms.lua:1039 parent=room([C]:-1)`
+  - 1: `@ newpw(exper.c:52)`
+  - 1: `@ fill_ordinary_room(mklev.c:998)`
+  - 1: `@ blessorcurse(mkobj.c:1848)`
+- **Next steps**: Begin Stream D (Object Creation) investigating `mksobj_init` logic (~200 lines), or Stream E (Monster System) since Stream A dependencies are met.
+
+## 2026-05-15
+- Continued Stream E, ticking subtask E2 (mondata.js — data helpers).
+- Created `js/mondata.js` and ported `monsndx` along with several movement-type macros (`is_flyer`, `is_swimmer`, `amphibious`, `passes_walls`, etc.) and species macros (`is_undead`, `is_demon`, `is_animal`, etc.).
+- Wrote vitest suite (`test/mondata.test.js`) verifying `monsndx` index retrieval and evaluating several bitflags against `mons[0]` (Giant Ant).
+- Achieved +0 regression score (88/11406 screens baseline) in validation.
+- Next step: Stream E3, the `makemon` core monster generation.
+
+## 2026-05-15
 - Continued Stream D by beginning D2.1: BUC assignment logic (`bcsign`, `curse`, `bless`, `blessorcurse`, `uncurse`).
 - Implemented and ported the BUC routines exactly tracking the C structure (including temporarily commenting out light adjustment functionality until `lamplit` logic is implemented).
 - Fixed the `rng.js` import bug in `test/mkobj.buc.test.js` missing `rn2`.
 - Validated via unit testing that `blessorcurse` sequentially consumes the correct `rn2` calls matching PRNG log format correctly.
 - Achieved +0 regression score (88/11406 screens baseline).
 - Next step: D2.2 (Probability helpers / `rnd_class`) or D2.3.
-## 2024-05-16
+## 2026-05-16
+
 - Continued Stream D by completing subtask D2.2 (Probability helpers / `rnd_class`).
 - Defined and exported `bases` and `oclass_prob_totals` in `js/o_init.js` mirroring C's `init_objects()` functionality correctly without disrupting sequence logic.
 - Implemented `rnd_class` in `js/mkobj.js` replicating C `objnam.c` probability proportional picking behavior and zero-sum handling safely using `rn1`.
@@ -235,3 +206,11 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Cleaned up loose test scratchpads and incorporated `test/o_init.test.js` covering `MAXOCLASSES` index initialization.
 - Validated via scoring maintaining exact 100% baseline structural alignment (88/11406 screens pass).
 - Next steps: Proceed to D2.3 (Erosion & Quantity helpers) exploring `may_generate_eroded` functionality.
+
+## New Additions
+<!--
+APPEND NEW LOG ENTRIES HERE.
+The Diary Secretary will periodically merge these into the chronological sections above.
+Keep entries technical; include file names, function names, and specific findings.
+Use ## YYYY-MM-DD for new headers if you know the date.
+-->
