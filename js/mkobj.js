@@ -1,6 +1,7 @@
 // C ref: obj.h
 import { game } from './gstate.js';
 import { fobj, set_fobj } from './decl.js';
+import * as C from "./const.js";
 import {
     RANDOM_CLASS, WEAPON_CLASS, ARMOR_CLASS, POTION_CLASS, SCROLL_CLASS,
     WAND_CLASS, SPBOOK_CLASS, FOOD_CLASS, TOOL_CLASS, GEM_CLASS, RING_CLASS,
@@ -8,6 +9,8 @@ import {
 } from './const.js';
 import { BOULDER, GOLD_PIECE, STRANGE_OBJECT, objects } from './objects.js';
 import { rnd, rn2, rn1 } from './rng.js';
+import { mons } from './monst.js';
+import * as mondata from './mondata.js';
 import { depth, level_difficulty } from './hacklib.js';
 
 export const OBJ_FREE = 0;
@@ -425,4 +428,345 @@ export function mkobj_at(oclass, x, y, artif) {
     const otmp = mkobj(oclass, artif);
     place_object(otmp, x, y);
     return otmp;
+}
+
+
+// C ref: objclass.h
+export function is_damageable(otmp) {
+    return is_rustprone(otmp) || is_flammable(otmp) || is_rottable(otmp) || is_corrodeable(otmp) || is_crackable(otmp);
+}
+
+export function is_rustprone(otmp) {
+    return objects[otmp.otyp].oc_material === C.IRON;
+}
+
+export function is_flammable(otmp) {
+    const otyp = otmp.otyp;
+    const omat = objects[otyp].oc_material;
+
+    // Candles can be burned, but they're not flammable in the sense that they can't get fire damage and it makes no sense for them to be fireproofed.
+    // TODO: Is_candle
+    // if (Is_candle(otmp)) return false;
+
+    if (objects[otyp].oc_oprop === C.FIRE_RES || otyp === C.WAN_FIRE) return false;
+
+    return (omat <= C.WOOD && omat !== C.LIQUID) || omat === C.PLASTIC;
+}
+
+export function is_rottable(otmp) {
+    const otyp = otmp.otyp;
+    const omat = objects[otyp].oc_material;
+    return (omat <= C.WOOD && omat !== C.LIQUID) || omat === C.DRAGON_HIDE;
+}
+
+export function is_corrodeable(otmp) {
+    const omat = objects[otmp.otyp].oc_material;
+    return omat === C.COPPER || omat === C.IRON;
+}
+
+export function is_crackable(otmp) {
+    return objects[otmp.otyp].oc_material === C.GLASS && otmp.oclass === C.ARMOR_CLASS;
+}
+
+export function erosion_matters(otmp) {
+    switch (otmp.oclass) {
+        case C.TOOL_CLASS:
+            return is_weptool(otmp);
+        case C.WEAPON_CLASS:
+        case C.ARMOR_CLASS:
+        case C.BALL_CLASS:
+        case C.CHAIN_CLASS:
+            return true;
+        default:
+            break;
+    }
+    return false;
+}
+
+export function is_weptool(otmp) {
+    return otmp.oclass === C.TOOL_CLASS && objects[otmp.otyp] && objects[otmp.otyp].oc_skill !== C.P_NONE;
+}
+
+// C ref: mkobj.c
+export function may_generate_eroded(otmp) {
+    /* initial hero inventory */
+    if (game.moves <= 1 && (!game.context || !game.context.in_mklev))
+        return false;
+    /* already erodeproof or cannot be eroded */
+    if (otmp.oerodeproof || !erosion_matters(otmp) || !is_damageable(otmp))
+        return false;
+    /* part of a monster's body and produced when it dies */
+    if (otmp.otyp === C.WORM_TOOTH || otmp.otyp === C.UNICORN_HORN)
+        return false;
+    /* artifacts cannot be generated eroded  */
+    if (otmp.oartifact) return false;
+
+    return true;
+}
+
+export function mkobj_erosions(otmp) {
+    if (may_generate_eroded(otmp)) {
+        if (!rn2(100)) {
+            otmp.oerodeproof = 1;
+        } else {
+            if (!rn2(80) && (is_flammable(otmp) || is_rustprone(otmp) || is_crackable(otmp))) {
+                do {
+                    otmp.oeroded++;
+                } while (otmp.oeroded < 3 && !rn2(9));
+            }
+            if (!rn2(80) && (is_rottable(otmp) || is_corrodeable(otmp))) {
+                do {
+                    otmp.oeroded2++;
+                } while (otmp.oeroded2 < 3 && !rn2(9));
+            }
+        }
+    }
+}
+
+export function is_multigen(otmp) {
+    const skill = objects[otmp.otyp] ? objects[otmp.otyp].oc_subtyp : 0;
+    return otmp.oclass === C.WEAPON_CLASS && skill >= -C.P_SHURIKEN && skill <= -C.P_BOW;
+}
+
+
+// C ref: eat.c
+export function set_tin_variety(obj, forcetype) {
+    let r;
+    let mnum = obj.corpsenm;
+
+    if (forcetype === C.SPINACH_TIN || (forcetype === C.HEALTHY_TIN && (mnum === C.NON_PM /* empty or already spinach */ || !mondata.vegetarian(mons[mnum])))) {
+        obj.corpsenm = C.NON_PM;
+        obj.spe = 1; /* spinach */
+        return;
+    } else if (forcetype === C.HEALTHY_TIN) {
+        r = tin_variety(obj, false);
+        if (r < 0 || r >= 15) // TTSZ is 15 (excluding empty string at end)
+            r = C.ROTTEN_TIN; /* shouldn't happen */
+        while ((r === C.ROTTEN_TIN && !obj.cursed) || !tintxts_fodder(r))
+            r = rn2(14); // TTSZ - 1
+    } else if (forcetype >= 0 && forcetype < 15) { // TTSZ-1
+        r = forcetype;
+    } else { /* RANDOM_TIN */
+        r = rn2(14); // TTSZ - 1
+        if (r === C.ROTTEN_TIN && (mnum >= C.LOW_PM && mnum < C.NUMMONS) && nonrotting_corpse(mnum)) {
+            r = C.HOMEMADE_TIN; /* lizards don't rot */
+        }
+    }
+    obj.spe = -(r + 1);
+}
+
+function tintxts_fodder(r) {
+    const fodder = [0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 1];
+    return fodder[r] || 0;
+}
+
+export function tin_variety(obj, displ) {
+    let r;
+    let mnum = obj.corpsenm;
+
+    if (obj.spe === 1) {
+        r = C.SPINACH_TIN;
+    } else if (obj.cursed) {
+        r = C.ROTTEN_TIN; /* always rotten if cursed */
+    } else if (obj.spe < 0) {
+        r = -(obj.spe);
+        r--;
+    } else {
+        r = rn2(14); // TTSZ - 1
+        if (r === C.ROTTEN_TIN && mnum >= C.LOW_PM && mnum < C.NUMMONS && nonrotting_corpse(mnum))
+            r = C.HOMEMADE_TIN; /* lizards don't rot */
+    }
+    return r;
+}
+
+export function nonrotting_corpse(mnum) {
+    return mnum === C.PM_LIZARD || mnum === C.PM_LICHEN || is_rider(mons[mnum]);
+}
+
+export function is_rider(ptr) {
+    return ptr === mons[C.PM_DEATH] || ptr === mons[C.PM_FAMINE] || ptr === mons[C.PM_PESTILENCE];
+}
+
+// C ref: mon.c
+export function dead_species(m_idx, egg) {
+    let alt_idx;
+    if (m_idx < C.LOW_PM) return true;
+    alt_idx = egg ? big_to_little(m_idx) : m_idx;
+    // Real implementation requires tracking G_GENOD in game state mvitals.
+    return ((game.mvitals && game.mvitals[m_idx] && (game.mvitals[m_idx].mvflags & C.G_GENOD) !== 0) ||
+            (game.mvitals && game.mvitals[alt_idx] && (game.mvitals[alt_idx].mvflags & C.G_GENOD) !== 0));
+}
+
+export function big_to_little(montype) {
+    const grownups = [
+        [ C.PM_LITTLE_DOG, C.PM_DOG ],
+        [ C.PM_DOG, C.PM_LARGE_DOG ],
+        [ C.PM_KITTEN, C.PM_HOUSECAT ],
+        [ C.PM_HOUSECAT, C.PM_LARGE_CAT ],
+        [ C.PM_PONY, C.PM_HORSE ],
+        [ C.PM_HORSE, C.PM_WARHORSE ],
+        [ C.PM_KOBOLD, C.PM_LARGE_KOBOLD ],
+        [ C.PM_LARGE_KOBOLD, C.PM_KOBOLD_LORD ],
+        [ C.PM_GNOME, C.PM_GNOME_LORD ],
+        [ C.PM_GNOME_LORD, C.PM_GNOME_KING ],
+        [ C.PM_DWARF, C.PM_DWARF_LORD ],
+        [ C.PM_DWARF_LORD, C.PM_DWARF_KING ],
+        [ C.PM_ORC, C.PM_ORC_CAPTAIN ],
+        [ C.PM_HILL_ORC, C.PM_ORC_CAPTAIN ],
+        [ C.PM_MORDOR_ORC, C.PM_ORC_CAPTAIN ],
+        [ C.PM_URUK_HAI, C.PM_ORC_CAPTAIN ],
+        [ C.PM_ELF, C.PM_ELF_LORD ],
+        [ C.PM_WOOD_ELF, C.PM_ELF_LORD ],
+        [ C.PM_GREEN_ELF, C.PM_ELF_LORD ],
+        [ C.PM_GREY_ELF, C.PM_ELF_LORD ],
+        [ C.PM_ELF_LORD, C.PM_ELVENKING ],
+        [ C.PM_LICH, C.PM_DEMILICH ],
+        [ C.PM_DEMILICH, C.PM_MASTER_LICH ],
+        [ C.PM_MASTER_LICH, C.PM_ARCH_LICH ],
+        [ C.PM_VAMPIRE, C.PM_VAMPIRE_LEADER ],
+        [ C.PM_GARGOYLE, C.PM_WINGED_GARGOYLE ],
+        [ C.PM_CENTIPEDE, C.PM_GIANT_CENTIPEDE ],
+        [ C.PM_CHICKATRICE, C.PM_COCKATRICE ],
+        [ C.PM_BABY_MIMIC, C.PM_SMALL_MIMIC ],
+        [ C.PM_SMALL_MIMIC, C.PM_LARGE_MIMIC ],
+        [ C.PM_LARGE_MIMIC, C.PM_GIANT_MIMIC ],
+        [ C.PM_BABY_LONG_WORM, C.PM_LONG_WORM ],
+        [ C.PM_BABY_PURPLE_WORM, C.PM_PURPLE_WORM ],
+        [ C.PM_BABY_CROCODILE, C.PM_CROCODILE ],
+        [ C.PM_SOLDIER, C.PM_SERGEANT ],
+        [ C.PM_SERGEANT, C.PM_LIEUTENANT ],
+        [ C.PM_LIEUTENANT, C.PM_CAPTAIN ],
+        [ C.PM_WATCHMAN, C.PM_WATCH_CAPTAIN ],
+        [ C.PM_ALIGNED_CLERIC, C.PM_HIGH_CLERIC ],
+        [ C.PM_STUDENT, C.PM_ARCHEOLOGIST ],
+        [ C.PM_ATTENDANT, C.PM_HEALER ],
+        [ C.PM_PAGE, C.PM_KNIGHT ],
+        [ C.PM_ACOLYTE, C.PM_CLERIC ],
+        [ C.PM_APPRENTICE, C.PM_WIZARD ],
+        [ C.PM_MANES, C.PM_LEMURE ],
+        [ C.PM_KEYSTONE_KOP, C.PM_KOP_SERGEANT ],
+        [ C.PM_KOP_SERGEANT, C.PM_KOP_LIEUTENANT ],
+        [ C.PM_KOP_LIEUTENANT, C.PM_KOP_KAPTAIN ],
+        [ C.NON_PM, C.NON_PM ]
+    ];
+    for (let i = 0; grownups[i][0] >= C.LOW_PM; i++) {
+        if (montype === grownups[i][1]) {
+            montype = grownups[i][0];
+            break;
+        }
+    }
+    return montype;
+}
+
+export function can_be_hatched(mnum) {
+    if (mnum === C.PM_SCORPIUS) mnum = C.PM_SCORPION;
+    mnum = little_to_big(mnum);
+
+    if (mnum === C.PM_KILLER_BEE || mnum === C.PM_GARGOYLE || (mondata.lays_eggs(mons[mnum]) && (mnum !== C.PM_QUEEN_BEE && mnum !== C.PM_WINGED_GARGOYLE))) {
+        return mnum;
+    }
+    return C.NON_PM;
+}
+
+export function little_to_big(montype) {
+    const grownups = [
+        [ C.PM_LITTLE_DOG, C.PM_DOG ],
+        [ C.PM_DOG, C.PM_LARGE_DOG ],
+        [ C.PM_KITTEN, C.PM_HOUSECAT ],
+        [ C.PM_HOUSECAT, C.PM_LARGE_CAT ],
+        [ C.PM_PONY, C.PM_HORSE ],
+        [ C.PM_HORSE, C.PM_WARHORSE ],
+        [ C.PM_KOBOLD, C.PM_LARGE_KOBOLD ],
+        [ C.PM_LARGE_KOBOLD, C.PM_KOBOLD_LORD ],
+        [ C.PM_GNOME, C.PM_GNOME_LORD ],
+        [ C.PM_GNOME_LORD, C.PM_GNOME_KING ],
+        [ C.PM_DWARF, C.PM_DWARF_LORD ],
+        [ C.PM_DWARF_LORD, C.PM_DWARF_KING ],
+        [ C.PM_ORC, C.PM_ORC_CAPTAIN ],
+        [ C.PM_HILL_ORC, C.PM_ORC_CAPTAIN ],
+        [ C.PM_MORDOR_ORC, C.PM_ORC_CAPTAIN ],
+        [ C.PM_URUK_HAI, C.PM_ORC_CAPTAIN ],
+        [ C.PM_ELF, C.PM_ELF_LORD ],
+        [ C.PM_WOOD_ELF, C.PM_ELF_LORD ],
+        [ C.PM_GREEN_ELF, C.PM_ELF_LORD ],
+        [ C.PM_GREY_ELF, C.PM_ELF_LORD ],
+        [ C.PM_ELF_LORD, C.PM_ELVENKING ],
+        [ C.PM_LICH, C.PM_DEMILICH ],
+        [ C.PM_DEMILICH, C.PM_MASTER_LICH ],
+        [ C.PM_MASTER_LICH, C.PM_ARCH_LICH ],
+        [ C.PM_VAMPIRE, C.PM_VAMPIRE_LEADER ],
+        [ C.PM_GARGOYLE, C.PM_WINGED_GARGOYLE ],
+        [ C.PM_CENTIPEDE, C.PM_GIANT_CENTIPEDE ],
+        [ C.PM_CHICKATRICE, C.PM_COCKATRICE ],
+        [ C.PM_BABY_MIMIC, C.PM_SMALL_MIMIC ],
+        [ C.PM_SMALL_MIMIC, C.PM_LARGE_MIMIC ],
+        [ C.PM_LARGE_MIMIC, C.PM_GIANT_MIMIC ],
+        [ C.PM_BABY_LONG_WORM, C.PM_LONG_WORM ],
+        [ C.PM_BABY_PURPLE_WORM, C.PM_PURPLE_WORM ],
+        [ C.PM_BABY_CROCODILE, C.PM_CROCODILE ],
+        [ C.PM_SOLDIER, C.PM_SERGEANT ],
+        [ C.PM_SERGEANT, C.PM_LIEUTENANT ],
+        [ C.PM_LIEUTENANT, C.PM_CAPTAIN ],
+        [ C.PM_WATCHMAN, C.PM_WATCH_CAPTAIN ],
+        [ C.PM_ALIGNED_CLERIC, C.PM_HIGH_CLERIC ],
+        [ C.PM_STUDENT, C.PM_ARCHEOLOGIST ],
+        [ C.PM_ATTENDANT, C.PM_HEALER ],
+        [ C.PM_PAGE, C.PM_KNIGHT ],
+        [ C.PM_ACOLYTE, C.PM_CLERIC ],
+        [ C.PM_APPRENTICE, C.PM_WIZARD ],
+        [ C.PM_MANES, C.PM_LEMURE ],
+        [ C.PM_KEYSTONE_KOP, C.PM_KOP_SERGEANT ],
+        [ C.PM_KOP_SERGEANT, C.PM_KOP_LIEUTENANT ],
+        [ C.PM_KOP_LIEUTENANT, C.PM_KOP_KAPTAIN ],
+        [ C.NON_PM, C.NON_PM ]
+    ];
+    for (let i = 0; grownups[i][0] >= C.LOW_PM; i++) {
+        if (montype === grownups[i][0]) {
+            montype = grownups[i][1];
+            break;
+        }
+    }
+    return montype;
+}
+
+export function undead_to_corpse(mndx) {
+    switch (mndx) {
+        case C.PM_KOBOLD_ZOMBIE:
+        case C.PM_KOBOLD_MUMMY:
+            mndx = C.PM_KOBOLD;
+            break;
+        case C.PM_DWARF_ZOMBIE:
+        case C.PM_DWARF_MUMMY:
+            mndx = C.PM_DWARF;
+            break;
+        case C.PM_GNOME_ZOMBIE:
+        case C.PM_GNOME_MUMMY:
+            mndx = C.PM_GNOME;
+            break;
+        case C.PM_ORC_ZOMBIE:
+        case C.PM_ORC_MUMMY:
+            mndx = C.PM_ORC;
+            break;
+        case C.PM_ELF_ZOMBIE:
+        case C.PM_ELF_MUMMY:
+            mndx = C.PM_ELF;
+            break;
+        case C.PM_VAMPIRE:
+        case C.PM_VAMPIRE_LEADER:
+        case C.PM_HUMAN_ZOMBIE:
+        case C.PM_HUMAN_MUMMY:
+            mndx = C.PM_HUMAN;
+            break;
+        case C.PM_GIANT_ZOMBIE:
+        case C.PM_GIANT_MUMMY:
+            mndx = C.PM_GIANT;
+            break;
+        case C.PM_ETTIN_ZOMBIE:
+        case C.PM_ETTIN_MUMMY:
+            mndx = C.PM_ETTIN;
+            break;
+        default:
+            break;
+    }
+    return mndx;
 }
