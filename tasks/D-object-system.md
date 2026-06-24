@@ -21,8 +21,8 @@ Port the object creation and management system. Objects are items in the game â€
 - [ ] Read C `src/mkobj.c` â€” understand the full `mksobj()` function
 - [x] D2.1: Port BUC assignment (`bcsign`, `curse`, `bless`, `blessorcurse`, `uncurse`)
 - [x] D2.2: Port Probability helpers (`rnd_class`)
-- [ ] D2.3: Port Erosion & Quantity helpers (`may_generate_eroded`, `mkobj_erosions`, `is_multigen`)
-- [ ] D2.4: Port Monster & Corpse helpers (`rndmonnum`, `rndmonnum_adj`, `undead_to_corpse`, `set_tin_variety`, `can_be_hatched`, `dead_species`)
+- [x] D2.3: Port Erosion & Quantity helpers (`may_generate_eroded`, `mkobj_erosions`, `is_multigen`)
+- [x] D2.4: Port Monster & Corpse helpers (`rndmonnum`, `rndmonnum_adj`, `undead_to_corpse`, `set_tin_variety`, `can_be_hatched`, `dead_species`)
 - [ ] D2.5: Port `mksobj_init` (class-specific initialisation, enchantment, charges)
 - [ ] D2.6: Port `mksobj` core (create object by type index)
 - [ ] D2.7: Port `mkobj` and probability tables (create random object of a class)

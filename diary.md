@@ -235,3 +235,10 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Cleaned up loose test scratchpads and incorporated `test/o_init.test.js` covering `MAXOCLASSES` index initialization.
 - Validated via scoring maintaining exact 100% baseline structural alignment (88/11406 screens pass).
 - Next steps: Proceed to D2.3 (Erosion & Quantity helpers) exploring `may_generate_eroded` functionality.
+
+## 2026-06-24
+- Ported Stream D (Object System) sub-task D2.3: `may_generate_eroded`, `mkobj_erosions`, `is_multigen`.
+- Ported Stream D sub-task D2.4: `undead_to_corpse`, `set_tin_variety`, `can_be_hatched`, `dead_species`.
+- Wrote vitest verification for `may_generate_eroded`, `is_multigen`, and `undead_to_corpse`.
+- RNG score regression check passed with +0 delta (88/11406 screens).
+- Next: Move onto D2.5 (`mksobj_init`) and D2.6 (`mksobj` core).

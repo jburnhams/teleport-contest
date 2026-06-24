@@ -196,3 +196,6 @@ Keep entries detailed; include C references, bitmasks, and specific RNG counts.
 ## Monster System
 - **`rndmonst` / `rndmonnum`**: The PRNG selection (`rndmonst_adj`) implements a weighted reservoir sampling. It consumes `rn2` checks to replace the `selected_mndx` when `rn2(totalweight) < weight`. The upper limit for looping is `PM_LONG_WORM_TAIL`, not `NUMMONS`.
 - **Tests with PRNG**: If testing functions that mutate the PRNG, keep them isolated in unmocked files to prevent global `vi.mock()` hoisting issues (e.g. `vi.mock('../js/rng.js')` breaking the real RNG calls).
+
+## Object System (Stream D)
+- **is_multigen logic**: `oc_skill` checks against `-P_SHURIKEN` and `-P_BOW`. JS port required negating the constants correctly from `const.js`, or checking against `oc_subtyp` because `oc_skill` is an alias in C that corresponds to the signed subtyp value. We used `objects[otmp.otyp].oc_subtyp` to check this directly without negative values.
