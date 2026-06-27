@@ -1,6 +1,9 @@
-# seed0007: Rogue vs. The Snake Swamp
+# seed0007-rogue-snake-swamp
 
 **Subsystem Focus**: Validates manual character generation menus, fountain effect matrices, and multiple-entity combat resolution.
+
+**Execution Statistics**: 302 steps, 16373 PRNG calls.
+
 
 This session serves as a rigorous evaluation of the manual character creation menus and the brutal efficiency of the engine's area-of-effect spawning logic. The user entity—an Orcish Rogue styled as *Septor the Footpad*—navigates through multiple UI prompts to assert his existence, only to be promptly un-made by a fountain.
 

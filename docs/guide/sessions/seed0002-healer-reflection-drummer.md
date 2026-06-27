@@ -1,6 +1,9 @@
-# seed0002: Healer, Reflection, Drummer
+# seed0002-healer-reflection-drummer
 
 **Subsystem Focus**: Stresses item generation, inventory constraints, spell reflection mechanics, and deterministic line-of-sight calculations.
+
+**Execution Statistics**: 595 steps, 27158 PRNG calls.
+
 
 This execution path stresses item generation and complex object interactions. The initial state configures the user entity as a "Healer" (styled as *David the Rhizotomist*) who begins with an unusually chaotic inventory. Throughout this massive 595-step simulation, the `rn2` engine resolves over 27,000 calls. Let us examine the highlights of this rather erratic lifecycle.
 
