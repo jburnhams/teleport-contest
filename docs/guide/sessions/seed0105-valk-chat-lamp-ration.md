@@ -1,6 +1,9 @@
-# seed0105: Astrid and the Wall
+# seed0105-valk-chat-lamp-ration
 
 **Subsystem Focus**: Validates the `#chat` extended command, the `eat` interaction state machine, and the error-handling subroutines for invalid object selection.
+
+**Execution Statistics**: 30 steps, 2499 PRNG calls.
+
 
 This session serves as a rigorous mechanical validation of the engine's UI state machine and interaction boundary checks. The user entity—a human Valkyrie named *Astrid*—demonstrates the engine's ability to handle conversational failure and the systematic rejection of invalid inventory items.
 

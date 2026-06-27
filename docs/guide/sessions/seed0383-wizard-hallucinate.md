@@ -1,6 +1,9 @@
-# seed0383: The Wizard's Hallucinatory Jaunt
+# seed0383-wizard-hallucinate
 
 **Subsystem Focus**: Validates the "Hallucination" status effect, its impact on entity name rendering, and the persistence of background AI events during sensory distortion.
+
+**Execution Statistics**: 219 steps, 16915 PRNG calls.
+
 
 This session serves as a rigorous mechanical validation of the engine's perception-distortion subroutines. The user entity—a Wizard named *Wizard*—demonstrates the engine's ability to maintain a perfectly deterministic underlying reality while simultaneously rendering a chaotic, randomised overlay of monster names and environmental events.
 
