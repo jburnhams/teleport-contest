@@ -1,8 +1,11 @@
-# seed0373: The Barbarian's Astral Tour
+# seed0373-barbarian-quest-tour
 
 **Subsystem Focus**: Validates Wizard Mode administrative navigation, elemental plane generation subroutines, and the associated environmental status effects.
 
 This session serves as a high-entropy mechanical validation of the engine's endgame infrastructure. The user entity—a Barbarian named *Wizard*—utilises administrative powers to jump directly into the Elemental Planes, forcing the engine to resolve complex environmental flags like extreme heat and lack of gravity.
+
+
+**Execution Statistics**: 123 steps, 35386 PRNG calls.
 
 ### Mechanical Sequence
 

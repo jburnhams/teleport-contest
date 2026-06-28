@@ -1,8 +1,11 @@
-# seed0016: Healix, Apples, and Self-Induced Slumber
+# seed0016-healer-newmoon-eat-zap
 
 **Subsystem Focus**: Validates environmental datetime flags, object consumption (nutrition), and self-targeted projectile interactions with status effect durations.
 
 This session serves as a rigorous mechanical validation of the engine's status effect subroutines. The user entity—a Gnomish Healer named *Healix*—demonstrates the engine's ability to handle nutrition, the "New Moon" luck penalty, and the precise deterministic duration of self-inflicted sleep.
+
+
+**Execution Statistics**: 35 steps, 3656 PRNG calls.
 
 ### Mechanical Sequence
 
