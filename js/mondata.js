@@ -154,3 +154,33 @@ export function noncorporeal(ptr) {
 export function is_whirly(ptr) {
     return ptr.mlet === C.S_VORTEX || ptr === mons[C.PM_AIR_ELEMENTAL];
 }
+
+
+// C ref: mondata.c
+export function set_mon_data(mon, ptr) {
+    let new_speed;
+    let old_speed = mon.data ? mon.data.mmove : 0;
+
+    // In JS, we update the object's properties directly.
+    mon.data = ptr;
+    mon.mnum = monsndx(ptr);
+
+    let is_you = (mon === game.u?.youmonst);
+    let current_movement = is_you ? game.u.umovement : mon.movement;
+
+    if (current_movement) {
+        new_speed = ptr.mmove;
+        if (new_speed < old_speed) {
+            current_movement *= new_speed;
+            if (old_speed > 0) {
+                current_movement = Math.trunc(current_movement / old_speed);
+            }
+        }
+
+        if (is_you) {
+            game.u.umovement = current_movement;
+        } else {
+            mon.movement = current_movement;
+        }
+    }
+}
