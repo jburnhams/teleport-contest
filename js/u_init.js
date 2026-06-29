@@ -1,3 +1,12 @@
+
+const ARM_SHIELD = 1;
+const ARM_HELM = 2;
+const ARM_BOOTS = 3;
+const ARM_GLOVES = 4;
+const ARM_CLOAK = 5;
+const ARM_SHIRT = 6;
+const ARM_SUIT = 0;
+
 // u_init.js — Hero Initialization
 // C ref: u_init.c
 
@@ -31,6 +40,7 @@ import {
 import { init_attr, vary_init_attr, acurrstr } from './attrib.js';
 import { newhp, newpw, adjabil } from './exper.js';
 import { next_ident, mkobj, mksobj } from './mkobj.js';
+import { POT_OIL } from './objects.js';
 
 import {
     BULLWHIP, LEATHER_JACKET, FEDORA, FOOD_RATION,
@@ -645,54 +655,225 @@ export function skill_init(class_skill) {
 
 
 function trquan(trop) {
-    if (!trop.quan_min) return 0;
+    if (trop.quan_min === trop.quan_max) return trop.quan_min;
     return trop.quan_min + rn2(trop.quan_max - trop.quan_min + 1);
+}
+
+export function bimanual(otmp) {
+    return (otmp.oclass === WEAPON_CLASS || otmp.oclass === TOOL_CLASS) && objects[otmp.otyp].oc_bimanual;
+}
+
+export function is_weptool(otmp) {
+    return otmp.oclass === TOOL_CLASS && objects[otmp.otyp].oc_skill !== P_NONE;
+}
+
+export function is_ammo(otmp) {
+    return (otmp.oclass === WEAPON_CLASS || otmp.oclass === GEM_CLASS) &&
+           objects[otmp.otyp].oc_skill >= -P_CROSSBOW &&
+           objects[otmp.otyp].oc_skill <= -P_BOW;
+}
+
+export function is_missile(otmp) {
+    return (otmp.oclass === WEAPON_CLASS || otmp.oclass === TOOL_CLASS) &&
+           objects[otmp.otyp].oc_skill >= -P_BOOMERANG &&
+           objects[otmp.otyp].oc_skill <= -P_DART;
+}
+
+export function is_shield(otmp) {
+    return otmp.oclass === ARMOR_CLASS && objects[otmp.otyp].oc_armcat === ARM_SHIELD;
+}
+
+export function is_helmet(otmp) {
+    return otmp.oclass === ARMOR_CLASS && objects[otmp.otyp].oc_armcat === ARM_HELM;
+}
+
+export function is_boots(otmp) {
+    return otmp.oclass === ARMOR_CLASS && objects[otmp.otyp].oc_armcat === ARM_BOOTS;
+}
+
+export function is_gloves(otmp) {
+    return otmp.oclass === ARMOR_CLASS && objects[otmp.otyp].oc_armcat === ARM_GLOVES;
+}
+
+export function is_cloak(otmp) {
+    return otmp.oclass === ARMOR_CLASS && objects[otmp.otyp].oc_armcat === ARM_CLOAK;
+}
+
+export function is_shirt(otmp) {
+    return otmp.oclass === ARMOR_CLASS && objects[otmp.otyp].oc_armcat === ARM_SHIRT;
+}
+
+export function is_suit(otmp) {
+    return otmp.oclass === ARMOR_CLASS && objects[otmp.otyp].oc_armcat === ARM_SUIT;
+}
+
+export function initialspell(obj) {
+    // Stub
+}
+
+export function setworn(obj, w_mask) {
+    if (w_mask === W_ARMS) game.u.uarms = obj;
+    else if (w_mask === W_ARMH) game.u.uarmh = obj;
+    else if (w_mask === W_ARMG) game.u.uarmg = obj;
+    else if (w_mask === W_ARMU) game.u.uarmu = obj;
+    else if (w_mask === W_ARMC) game.u.uarmc = obj;
+    else if (w_mask === W_ARMF) game.u.uarmf = obj;
+    else if (w_mask === W_ARM) game.u.uarm = obj;
+}
+
+export function setuwep(obj) {
+    game.u.uwep = obj;
+}
+
+export function setuswapwep(obj) {
+    game.u.uswapwep = obj;
+}
+
+export function setuqwep(obj) {
+    game.u.uquiver = obj; // Note: uquiver in C
+}
+
+export function set_twoweap(val) {
+    game.u.twoweap = val ? 1 : 0;
+}
+
+export function discover_object(otyp, known, dknown, bknown) {
+    // Stub
+}
+
+function ini_inv_adjust_obj(trop, obj) {
+    let stop = false;
+    if (trop.trclass === COIN_CLASS) {
+        obj.quan = game.u.umoney0;
+    } else {
+        if (objects[obj.otyp] && objects[obj.otyp].oc_uses_known) obj.known = 1;
+        obj.dknown = obj.bknown = obj.rknown = 1;
+        // if (Is_container(obj) || obj.otyp === STATUE) {
+        //    obj.cknown = obj.lknown = 1;
+        //    obj.otrapped = 0;
+        // }
+        obj.cursed = 0;
+        // if (obj.opoisoned && game.u.ualign.type !== A_CHAOTIC) obj.opoisoned = 0;
+
+        if (obj.oclass === WEAPON_CLASS || obj.oclass === TOOL_CLASS) {
+            obj.quan = trquan(trop);
+            stop = true;
+        } else if (obj.oclass === GEM_CLASS && obj.otyp !== FLINT /* && is_graystone(obj) */) { // stub is_graystone
+            // obj.quan = 1;
+        }
+
+        if (trop.trspe !== 'UNDEF_SPE' && trop.trspe !== 127) { // UNDEF_SPE is 127
+            obj.spe = trop.trspe;
+            if (trop.trotyp === MAGIC_MARKER && obj.spe < 96) {
+                obj.spe += rn2(4);
+            }
+        } else {
+            if (objects[obj.otyp] && objects[obj.otyp].oc_class === RING_CLASS && objects[obj.otyp].oc_charged && obj.spe <= 0) {
+                obj.spe = rne(3);
+            }
+        }
+
+        if (trop.trbless !== 127 /* UNDEF_BLESS */) {
+            obj.blessed = trop.trbless;
+        }
+    }
+    // obj.owt = weight(obj);
+    return stop;
+}
+
+function ini_inv_use_obj(obj) {
+    // if (OBJ_DESCR(objects[obj.otyp]) && obj.known)
+    //     discover_object(obj.otyp, true, true, false);
+    if (obj.otyp === OIL_LAMP) {
+        discover_object(POT_OIL, true, true, false);
+    }
+
+    if (obj.oclass === ARMOR_CLASS) {
+        if (is_shield(obj) && !game.u.uarms && !(game.u.uwep && bimanual(game.u.uwep))) {
+            set_twoweap(false);
+            setworn(obj, W_ARMS);
+        } else if (is_helmet(obj) && !game.u.uarmh) {
+            setworn(obj, W_ARMH);
+        } else if (is_gloves(obj) && !game.u.uarmg) {
+            setworn(obj, W_ARMG);
+        } else if (is_shirt(obj) && !game.u.uarmu) {
+            setworn(obj, W_ARMU);
+        } else if (is_cloak(obj) && !game.u.uarmc) {
+            setworn(obj, W_ARMC);
+        } else if (is_boots(obj) && !game.u.uarmf) {
+            setworn(obj, W_ARMF);
+        } else if (is_suit(obj) && !game.u.uarm) {
+            setworn(obj, W_ARM);
+        }
+    }
+
+    if (obj.oclass === WEAPON_CLASS || is_weptool(obj) || obj.otyp === TIN_OPENER || obj.otyp === FLINT || obj.otyp === ROCK) {
+        if (is_ammo(obj) || is_missile(obj)) {
+            if (!game.u.uquiver) {
+                setuqwep(obj);
+            }
+        } else if (!game.u.uwep && (!game.u.uarms || !bimanual(obj))) {
+            setuwep(obj);
+        } else if (!game.u.uswapwep) {
+            setuswapwep(obj);
+        }
+    }
+
+    if (obj.oclass === SPBOOK_CLASS && obj.otyp !== SPE_BLANK_PAPER) {
+        initialspell(obj);
+    }
+}
+
+function ini_inv_obj_substitution(trop, obj) {
+    // Stub
+    return obj.otyp;
 }
 
 export function ini_inv(trop) {
     if (!trop) return;
 
-    let got_sp1 = false;
+    // if (game.u.uroleplay && game.u.uroleplay.pauper) return;
 
-    // We iterate through the array of items.
-    for (let i = 0; i < trop.length; i++) {
-        let t = trop[i];
+    let got_sp1 = false;
+    let quan = trquan(trop[0]);
+    let trop_idx = 0;
+
+    while (trop_idx < trop.length) {
+        let t = trop[trop_idx];
         if (t.trotyp === 0 && t.trclass === 0 && t.quan_min === 0) break; // null terminator
 
-        let quan = trquan(t);
+        let otyp = t.trotyp;
+        let obj = null;
 
-        while (quan > 0) {
-            let otyp = t.trotyp;
-            let obj = null;
+        if (otyp !== UNDEF_TYP) {
+            obj = mksobj(otyp, true, false);
+        } else {
+            obj = ini_inv_mkobj_filter(t.trclass, got_sp1);
+            otyp = obj.otyp;
+            // gn.nocreate logic skipped
+        }
 
-            if (otyp !== UNDEF_TYP) {
-                // In C: obj = mksobj(otyp, TRUE, FALSE);
-                rnd(2); // next_ident
-                // mksobj_init for scrolls and potions does blessorcurse -> rn2(4)
-                if (objects[otyp]) {
-                    let objClass = objects[otyp].oc_class;
-                    if (objClass === SCROLL_CLASS || objClass === POTION_CLASS) {
-                        rn2(4);
-                    }
-                }
-            } else {
-                // UNDEF_TYP -> randomly generated object class
-                // obj = mkobj(t.trclass, FALSE);
-                let filter_otyp = ini_inv_mkobj_filter(t.trclass, got_sp1);
-                otyp = filter_otyp;
-            }
+        otyp = ini_inv_obj_substitution(t, obj);
+        // nhUse(otyp)
 
-            if (t.trspe !== 'UNDEF_SPE' && t.trotyp === MAGIC_MARKER) {
-                rn2(4); // from adjustment
-            }
+        if (ini_inv_adjust_obj(t, obj)) {
+            quan = 1;
+        }
+        // obj = addinv(obj);
 
-            // we simulate use_obj and adjustment but don't do real logic yet
+        if (obj.oclass === SPBOOK_CLASS && objects[obj.otyp].oc_level === 1) {
+            got_sp1 = true;
+        }
 
-            if (otyp !== UNDEF_TYP && objects[otyp] && objects[otyp].oc_class === SPBOOK_CLASS && objects[otyp].oc_oc2 === 1) {
-                got_sp1 = true;
-            }
+        ini_inv_use_obj(obj);
 
-            quan--;
+        if (--quan > 0) {
+            continue;
+        }
+
+        trop_idx++;
+        if (trop_idx < trop.length) {
+            quan = trquan(trop[trop_idx]);
         }
     }
 }

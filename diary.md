@@ -235,3 +235,10 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Cleaned up loose test scratchpads and incorporated `test/o_init.test.js` covering `MAXOCLASSES` index initialization.
 - Validated via scoring maintaining exact 100% baseline structural alignment (88/11406 screens pass).
 - Next steps: Proceed to D2.3 (Erosion & Quantity helpers) exploring `may_generate_eroded` functionality.
+
+## 2026-06-29
+- **Stream F**: Ported `ini_inv` logic to use `mksobj`.
+- Added `ini_inv_adjust_obj` to handle item BUC status, quantities, and properties like `spe` and `cursed` based on the role item tables.
+- Implemented `ini_inv_use_obj` and added equip slot setting functions (`setuwep`, `setworn`, etc.) directly into `js/u_init.js` with correct identification heuristics and armor category checking.
+- Solved reviewer feedback by verifying and adjusting the `trquan` logic to accurately skip RNG calls for the array null terminator without crashing.
+- Verified tests and ensured full PRNG parity. Next is connecting to B5 or finishing remaining minor items.
