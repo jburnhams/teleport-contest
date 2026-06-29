@@ -114,6 +114,13 @@ Analysed the full RNG init sequence by reading:
 
 ---
 
+## 2026-05-15
+- Began Stream C (Display) updates.
+- Completed subtask C1 to handle the `iflags.statuslines` option.
+- Integrated logic into `js/display.js` to correctly merge the two status lines when `statuslines:1` is provided, acting on `game.iflags.wc2_statuslines`.
+- Updated `js/options.js` to properly parse the `statuslines:x` configuration option matching C's config file parameter behavior.
+- Retained 88/11406 baseline score.
+
 ## New Additions
 <!-- 
 APPEND NEW LOG ENTRIES HERE. 
