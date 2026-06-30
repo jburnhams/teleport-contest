@@ -1,7 +1,8 @@
-# seed1800: Touristo and the Proverbial Cookie
+# seed1800-tourist-eat-throw
 
 **Subsystem Focus**: Validates the `eat` command specifically for fortune cookies, the deterministic generation of fortune strings, and the `throw` command logic for projectiles.
 
+**Execution Statistics**: 26 steps, 2458 PRNG calls.
 This session serves as a delightful mechanical validation of the engine's object-consumption and randomised-text subroutines. The user entity—a Tourist named *Touristo*—demonstrates the engine's ability to process the complex, multi-stage interaction of eating a fortune cookie and the subsequent deterministic selection of a fortune message.
 
 ### Mechanical Sequence
