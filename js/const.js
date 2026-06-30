@@ -3230,3 +3230,22 @@ export const PM_SAMURAI = 9;
 export const PM_TOURIST = 10;
 export const PM_VALKYRIE = 11;
 export const PM_WIZARD = 12;
+
+
+
+export const MS_LEADER = 9;
+export const MS_NEMESIS = 10;
+export const MS_GUARDIAN = 11;
+export const MS_BRIBE = 12;
+
+
+export const STRANGE_OBJECT = 1;
+
+export const ART_EXCALIBUR = 1;
+export const ART_DEMONBANE = 2;
+export const BEC_DE_CORBIN = 1; // dummy for compilation
+export const CANDELABRUM_OF_INVOCATION = 2;
+export const SPE_DIG = 3;
+export const TWO_HANDED_SWORD = 4;
+export const BELL_OF_OPENING = 5;
+export const POT_SICKNESS = 6;
