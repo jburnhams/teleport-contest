@@ -9,3 +9,16 @@
 7. **Bit-Exactness**: The `fuzz-diff.mjs` tool is the most reliable way to trace divergences back to the specific C source line (e.g., `mklev.c:990`).
 8. **Display Parity**: `gen-session.mjs` now uses full alignment names (`lawful`, `neutral`, `chaotic`) to ensure the C binary recognizes them reliably.
 - **`svc.context.ident` initialization**: In C, `svc.context.ident` starts at 0, and gets `rnd(2) + 1` conditionally, then is explicitly set to `2` during `newgame()`. In JavaScript, our initialisation of `game.context` is partially done in `resetGame()`, but we must be careful not to overwrite the `ident` field later during sequence startup (`jsmain.js` `start()`).
+
+## Fuzzer Baseline Statistics
+
+- Successfully fixed the regex parsing bugs for exact matching strings during `isRngCall` sequence evaluations within `scripts/fuzz-diff.mjs`.
+- Validated fuzzer diff accuracy for 0-move simulations running natively against seed loops (Chargen + Mklev only).
+- Recorded baseline pass rate of 0/20 seeds, immediately finding the main divergence locations:
+  1. `@ makelevel(mklev.c:1402)`: 9 occurrences
+  2. `@ fill_special_room(sp_lev.c:2763)`: 4 occurrences
+  3. `@ lspo_map(sp_lev.c:6154)`: 3 occurrences
+  4. `@ mkclass_aligned(makemon.c:1934)`: 1 occurrence
+  5. `@ mkobj(mkobj.c:280)`: 1 occurrence
+  6. `@ create_room(sp_lev.c:1585)`: 1 occurrence
+- These statistics show that early dungeon architecture generation (especially `sp_lev`) holds the highest frequency of immediate failure logic.

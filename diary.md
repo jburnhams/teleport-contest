@@ -235,3 +235,16 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Cleaned up loose test scratchpads and incorporated `test/o_init.test.js` covering `MAXOCLASSES` index initialization.
 - Validated via scoring maintaining exact 100% baseline structural alignment (88/11406 screens pass).
 - Next steps: Proceed to D2.3 (Erosion & Quantity helpers) exploring `may_generate_eroded` functionality.
+
+## 2026-05-16 — Fuzzer Baseline Establishment
+- Implemented and verified the differential-testing harness.
+- Set up a baseline run against 20 independent seeds for 0 moves (Chargen + Mklev only).
+- Recorded a pass rate of 0/20 seeds, successfully finding the immediate RNG divergence paths.
+- Extracted the most frequent first-divergence locations:
+  1. `@ makelevel(mklev.c:1402)`: 9 occurrences
+  2. `@ fill_special_room(sp_lev.c:2763)`: 4 occurrences
+  3. `@ lspo_map(sp_lev.c:6154)`: 3 occurrences
+  4. `@ mkclass_aligned(makemon.c:1934)`: 1 occurrence
+  5. `@ mkobj(mkobj.c:280)`: 1 occurrence
+  6. `@ create_room(sp_lev.c:1585)`: 1 occurrence
+- These stats indicate `mklev` and `sp_lev` routines (like room generation and mapping) are the primary culprits for immediate divergences.
