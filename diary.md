@@ -115,6 +115,16 @@ Analysed the full RNG init sequence by reading:
 ---
 
 ## New Additions
+
+
+## 2024-11-23
+
+- Completed the fuzzer standalone diff tool (`fuzz-diff.mjs`).
+- Fixed regex matching bug in `fuzz-diff.mjs` when parsing PRNG records, allowing the tool to properly identify matching vs non-matching elements and extract the divergence index.
+- Established baselines for 0-move pass rate utilizing `scripts/fuzz.mjs` and 44 canonical sessions.
+- Currently passing: 0/44 canonical sessions (0-moves / full runs) as expected, meaning level generation and other mechanics are a high priority.
+
+
 <!-- 
 APPEND NEW LOG ENTRIES HERE. 
 The Diary Secretary will periodically merge these into the chronological sections above. 

@@ -9,3 +9,5 @@
 7. **Bit-Exactness**: The `fuzz-diff.mjs` tool is the most reliable way to trace divergences back to the specific C source line (e.g., `mklev.c:990`).
 8. **Display Parity**: `gen-session.mjs` now uses full alignment names (`lawful`, `neutral`, `chaotic`) to ensure the C binary recognizes them reliably.
 - **`svc.context.ident` initialization**: In C, `svc.context.ident` starts at 0, and gets `rnd(2) + 1` conditionally, then is explicitly set to `2` during `newgame()`. In JavaScript, our initialisation of `game.context` is partially done in `resetGame()`, but we must be careful not to overwrite the `ident` field later during sequence startup (`jsmain.js` `start()`).
+9. **Fuzzer baseline regex bug:** Fixed a bug in `fuzz-diff.mjs` matching regex for rng values. Without checking for undefined or string converting inputs exactly, comparisons between parsed values would break. `normalizeRng` logic was enhanced to account for string conversions strictly.
+10. **Test running isolation:** Tests for `fuzz-diff.mjs` confirm cascading logic works when the first divergence forces the screen state into a cascade error, rendering subsequent inputs unmatchable.
