@@ -1,6 +1,7 @@
-# seed5002: The Wizard's Arsenal Catastrophe
+# seed5002-wizard-coverage-pair
 
 **Subsystem Focus**: Validates the `#wizwish` administrative wishing, multi-wand zapping, bolt-bounce physics, and the deterministic resolution of self-inflicted elemental damage.
+**Execution Statistics**: 285 steps, 12167 PRNG calls.
 
 This session is a comprehensive stress test of the engine's object-creation, wand-zapping, and damage-resolution subroutines. Across two segments, a Wizard named *wizard* systematically wishes for an arsenal of elemental wands, then discovers that bouncing bolts and exploding potions are far more dangerous to the caster than to any monster.
 
