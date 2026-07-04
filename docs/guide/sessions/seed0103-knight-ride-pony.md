@@ -1,6 +1,8 @@
-# seed0103: Sir's Short-Lived Equestrian Career
+# seed0103-knight-ride-pony
 
 **Subsystem Focus**: Validates the `#ride` extended command, the dexterity-based success checks for mounting, and fall-damage resolution.
+
+**Execution Statistics**: 60 steps, 2640 PRNG calls.
 
 This brief but poignant session serves as a rigorous mechanical validation of the engine's riding subroutines. The user entity—a human Knight appropriately named *Sir*—demonstrates the catastrophic deterministic consequences of attempting to mount a pony with low Dexterity (8).
 
