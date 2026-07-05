@@ -114,6 +114,12 @@ Analysed the full RNG init sequence by reading:
 
 ---
 
+
+## 2026-05-18
+- Completed fuzzer baseline establishment (Task D.2 and D.3).
+- Ran fuzz-diff on all canonical sessions to identify highest priority C functions for porting (makelevel, lspo_map, fill_special_room).
+- Ran baseline 0-move fuzzer on 20 seeds (0/20 passed), setting our current benchmark for chargen+mklev.
+
 ## New Additions
 <!-- 
 APPEND NEW LOG ENTRIES HERE. 
