@@ -1,6 +1,7 @@
-# seed0501: Clara and the Healing Light
+# seed0501-priest-cast-read-turn
 
 **Subsystem Focus**: Validates spellcasting subroutines (`Z`), spellbook-reading interactions (`r`), and the associated Power (Pw) expenditure logic.
+**Execution Statistics**: 28 steps, 2238 PRNG calls.
 
 This session serves as a rigorous mechanical validation of the engine's magical infrastructure. The user entity—a human Priestess named *Clara*—demonstrates the engine's ability to process spell selection, mana consumption, and the redundant reading of known spellbooks.
 

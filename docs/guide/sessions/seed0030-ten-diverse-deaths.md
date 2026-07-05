@@ -1,6 +1,7 @@
-# seed0030: The Ten-Fold Demise
+# seed0030-ten-diverse-deaths
 
 **Subsystem Focus**: Validates the post-mortem UI loops, bones file generation triggers, multi-segment game state reset, and a comprehensive catalogue of combat resolution end-states.
+**Execution Statistics**: 1954 steps, 94382 PRNG calls.
 
 This extraordinary session is a stress test of the engine's mortality subroutines. Across ten distinct game segments, the user entity experiences a mixture of exploration and deterministic deaths. It is a comprehensive validation of the post-mortem UI state machine and input handling, ensuring that the engine maintains perfect synchronisation across multi-segment sessions.
 
