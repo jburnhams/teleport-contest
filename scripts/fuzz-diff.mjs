@@ -199,7 +199,7 @@ function normalizeRng(entry) {
 
 function isRngCall(s) {
   if (typeof s !== 'string') s = String(s);
-  return /^(rn2|rnd|rne|rnz|rn1|d|rnl)\(/.test(normalizeRng(s));
+  return /^(rn2|rnd|rne|rnz|rn1|d|rnl)\([^)]*\)=/.test(normalizeRng(s));
 }
 
 async function main() {
@@ -316,7 +316,7 @@ async function main() {
          console.log(`  RNG: 0/${cRng.length} matched (cascade from step ${cascade})`);
          console.log(`  Screen: FAIL`);
       } else {
-          if (divergeIndex === -1 && cRng.length === jsRngSlice.length) {
+          if (divergeIndex === -1 && cRng.length === maxLen) {
              console.log(`  RNG: ${matchedCount}/${cRng.length} matched`);
              const cScreen = cStep.screen || '';
              const jsScreen = stepIdx < jsScreens.length ? jsScreens[stepIdx] : '';

@@ -9,3 +9,6 @@
 7. **Bit-Exactness**: The `fuzz-diff.mjs` tool is the most reliable way to trace divergences back to the specific C source line (e.g., `mklev.c:990`).
 8. **Display Parity**: `gen-session.mjs` now uses full alignment names (`lawful`, `neutral`, `chaotic`) to ensure the C binary recognizes them reliably.
 - **`svc.context.ident` initialization**: In C, `svc.context.ident` starts at 0, and gets `rnd(2) + 1` conditionally, then is explicitly set to `2` during `newgame()`. In JavaScript, our initialisation of `game.context` is partially done in `resetGame()`, but we must be careful not to overwrite the `ident` field later during sequence startup (`jsmain.js` `start()`).
+
+9. **Baseline Findings**: The top divergence points out of all 44 canonical sessions are `makelevel`, `lspo_map`, and `fill_special_room`.
+10. **Baseline Fuzzer Run**: Running 20 sessions (seeds 100-119) with 0 moves yielded 0 passes, meaning our immediate focus should be addressing the RNG divergences in these first functions (chargen + mklev phase).
