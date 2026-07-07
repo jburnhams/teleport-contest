@@ -235,3 +235,8 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Cleaned up loose test scratchpads and incorporated `test/o_init.test.js` covering `MAXOCLASSES` index initialization.
 - Validated via scoring maintaining exact 100% baseline structural alignment (88/11406 screens pass).
 - Next steps: Proceed to D2.3 (Erosion & Quantity helpers) exploring `may_generate_eroded` functionality.
+
+## 2026-05-20
+- Ran `fuzz.mjs` with 20 seeds (100-119), moves=0 to evaluate baseline chargen and mklev JS/C parity.
+- Baseline pass rate: 0/20 passed.
+- Noted top first divergence points indicating priority C functions to port next (makelevel, lspo_map, fill_special_room).

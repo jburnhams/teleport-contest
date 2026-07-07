@@ -9,3 +9,8 @@
 7. **Bit-Exactness**: The `fuzz-diff.mjs` tool is the most reliable way to trace divergences back to the specific C source line (e.g., `mklev.c:990`).
 8. **Display Parity**: `gen-session.mjs` now uses full alignment names (`lawful`, `neutral`, `chaotic`) to ensure the C binary recognizes them reliably.
 - **`svc.context.ident` initialization**: In C, `svc.context.ident` starts at 0, and gets `rnd(2) + 1` conditionally, then is explicitly set to `2` during `newgame()`. In JavaScript, our initialisation of `game.context` is partially done in `resetGame()`, but we must be careful not to overwrite the `ident` field later during sequence startup (`jsmain.js` `start()`).
+
+## Fuzzer Baseline - Chargen + Mklev
+- The fuzzer infrastructure (orchestrator + diff tool) successfully implemented.
+- Current JS port deviates from C recordings early in `makelevel()` and `fill_special_room()`, highlighting missing RNG loops and unsupported features inside `mklev` map generation.
+- Running `node scripts/fuzz.mjs --count 20 --moves 0 --keep-all --seed-start 100` yields a pass rate of 0/20.
