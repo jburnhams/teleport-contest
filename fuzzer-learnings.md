@@ -9,3 +9,5 @@
 7. **Bit-Exactness**: The `fuzz-diff.mjs` tool is the most reliable way to trace divergences back to the specific C source line (e.g., `mklev.c:990`).
 8. **Display Parity**: `gen-session.mjs` now uses full alignment names (`lawful`, `neutral`, `chaotic`) to ensure the C binary recognizes them reliably.
 - **`svc.context.ident` initialization**: In C, `svc.context.ident` starts at 0, and gets `rnd(2) + 1` conditionally, then is explicitly set to `2` during `newgame()`. In JavaScript, our initialisation of `game.context` is partially done in `resetGame()`, but we must be careful not to overwrite the `ident` field later during sequence startup (`jsmain.js` `start()`).
+
+9. **Regular expressions in RNG checking**: In `fuzz-diff.mjs` and `fuzz.mjs`, the `isRngCall` regex needed to be strictly defined to parse just the left-hand side of the equal sign (e.g., `rn2(100)=25`). Using `/^(?:rn2|rnd|rn1|rnl|rne|rnz|d)\([^)]*\)=/` proved to be the most reliable pattern to accurately filter real PRNG calls while ignoring unrelated C-log artifacts, matching how `ps_test_runner.mjs` normalizes inputs.

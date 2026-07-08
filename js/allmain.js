@@ -71,10 +71,10 @@ export async function newgame() {
     await mklev();
 
     // Fill rooms + mineralize (fastforward — seed8000 only for now)
-    fastforward_fill_mineralize();
+    if (g.seed === 8000) fastforward_fill_mineralize();
 
     // Post-mklev startup (fastforward — seed8000 only for now)
-    fastforward_post_mklev();
+    if (g.seed === 8000) fastforward_post_mklev();
 
     // Hardcoded player state for seed8000 Tourist.
     g._goldCount = 757;
@@ -116,7 +116,7 @@ export async function moveloop_core() {
 
     // Fast-forward per-step RNG (monster movement, regen, sounds, hunger)
     const stepNum = (g.moves || 1) - 1;
-    fastforward_step(stepNum);
+    if (g.seed === 8000) fastforward_step(stepNum);
 
     // Vision + display
     if (g.vision_full_recalc) {
