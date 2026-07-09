@@ -99,6 +99,9 @@ export class NethackGame {
         g.initGender = opts.gender;
         g.initAlign = opts.align;
 
+        // Set game seed for conditional checks like fastforward
+        g.seed = this._seed;
+
         // Initialize hero struct
         g.u = { ux: 0, uy: 0, ux0: 0, uy0: 0 };
         g.context.move = 0;
