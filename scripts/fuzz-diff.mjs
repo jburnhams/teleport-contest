@@ -302,7 +302,7 @@ async function main() {
       for (let i = 0; i < maxLen; i++) {
          const cNorm = i < cRng.length ? normalizeRng(cRng[i]) : undefined;
          const jsNorm = i < jsRngSlice.length ? normalizeRng(jsRngSlice[i]) : undefined;
-         if (cNorm === jsNorm && cNorm !== undefined) {
+         if (String(cNorm) === String(jsNorm) && cNorm !== undefined) {
              matchedCount++;
          } else {
              divergeIndex = i;

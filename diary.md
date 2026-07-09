@@ -114,6 +114,13 @@ Analysed the full RNG init sequence by reading:
 
 ---
 
+### Fuzzer Implementation
+- Fixed regex matching bug in `scripts/fuzz-diff.mjs` that caused valid RNG calls to be incorrectly reported as diverging. The script now casts parameters to strings before comparison to avoid type coercion issues.
+- Fixed an issue in `js/jsmain.js` where the PRNG seed was not assigned to `game.seed`, which caused fastforward logic checks to fail dynamically.
+- Fixed `js/allmain.js` to correctly guard `fastforward_fill_mineralize`, `fastforward_post_mklev`, and `fastforward_step` to only run if `game.seed === 8000`. This prevents generated tests from pulling in mock data that causes RNG desyncs.
+- Executed `fuzz-diff.mjs` over all 44 canonical test sessions, finding that `makelevel` is the most common cause of early RNG desyncs (14 occurrences), followed by `lspo_map` and `fill_special_room` (6 each).
+- Captured a baseline rate for dynamically seeded `chargen+mklev` (0 moves): 0 of 20 random sessions pass.
+
 ## New Additions
 <!-- 
 APPEND NEW LOG ENTRIES HERE. 
