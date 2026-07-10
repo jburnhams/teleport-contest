@@ -193,13 +193,15 @@ function normalizeScreen(s) {
 // the contestant cannot echo back recorded screens/cursors because
 // they never see them.
 function normalizeRng(entry) {
+  if (entry === undefined || entry === null) return undefined;
   if (typeof entry !== 'string') entry = String(entry);
   return entry.replace(/\s*@\s.*$/, '').replace(/^\d+\s+/, '').trim();
 }
 
 function isRngCall(s) {
-  if (typeof s !== 'string') s = String(s);
-  return /^(rn2|rnd|rne|rnz|rn1|d|rnl)\(/.test(normalizeRng(s));
+  if (s === undefined || s === null) return false;
+  let str = String(s);
+  return /^(?:rn2|rnd|rn1|rnl|rne|rnz|d)\((?:[^)]*)\)=/.test(normalizeRng(str));
 }
 
 async function main() {
