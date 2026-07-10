@@ -22,6 +22,7 @@ Key insights discovered during the port. Add entries as discoveries are made.
 ## PRNG & Seeding
 
 ### Contexts & Evaluation
+- **Tests with PRNG**: If testing functions that mutate the PRNG, keep them isolated in unmocked files to prevent global `vi.mock()` hoisting issues (e.g. `vi.mock('../js/rng.js')` breaking the real RNG calls).
 - Three independent PRNG contexts: core (gameplay), Lua (special levels), display (hallucination). All three must be reproduced in the correct interleaved order.
 - JavaScript evaluates function arguments left-to-right, matching clang's behaviour. The C recorder is built with clang for exactly this reason — gcc evaluates right-to-left and produces a completely different RNG sequence.
 - The seed is passed as a 64-bit integer, split into 8 little-endian bytes, and fed to ISAAC64 (`js/rng.js:initRng`).
@@ -165,6 +166,7 @@ Gender indices: 0=male, 1=female. Align indices: 0=chaotic, 1=neutral, 2=lawful.
 ---
 
 ### Monst and ID Generation
+- **`rndmonst` / `rndmonnum`**: The PRNG selection (`rndmonst_adj`) implements a weighted reservoir sampling. It consumes `rn2` checks to replace the `selected_mndx` when `rn2(totalweight) < weight`. The upper limit for looping is `PM_LONG_WORM_TAIL`, not `NUMMONS`.
 - `DEADMONSTER` macro in C translates to `mon.mhp < 1`. Checking whether `mhp` is below 1 is necessary, especially because `DEADMONSTER(mon)` check comes before asserting vault guards in `place_monster()`, hence they can theoretically have 0 HP and trigger impossible states.
 - The `next_ident()` function maintains ID for generated objects and monsters and is statefully shared via `svc.context.ident`. Ported this to `game.context.ident`, initialized on `resetGame()`, to ensure matching PRNG loops with `rnd(2)` calls.
 - `m_at(x, y)` macro directly wraps `svl.level.monsters[x][y]` in C, bypassing `mon.mburied` flag when `mburied` isn't compiled. Handled using simple map checks in JS.
@@ -193,6 +195,3 @@ APPEND NEW LEARNINGS HERE.
 The Librarian will periodically integrate these into the thematic sections above. 
 Keep entries detailed; include C references, bitmasks, and specific RNG counts.
 -->
-## Monster System
-- **`rndmonst` / `rndmonnum`**: The PRNG selection (`rndmonst_adj`) implements a weighted reservoir sampling. It consumes `rn2` checks to replace the `selected_mndx` when `rn2(totalweight) < weight`. The upper limit for looping is `PM_LONG_WORM_TAIL`, not `NUMMONS`.
-- **Tests with PRNG**: If testing functions that mutate the PRNG, keep them isolated in unmocked files to prevent global `vi.mock()` hoisting issues (e.g. `vi.mock('../js/rng.js')` breaking the real RNG calls).
