@@ -15,12 +15,12 @@ Dodeco opts for complete manual character creation. Rather than accepting the de
 Dodeco navigates the dungeon corridors. For several hundred steps, the engine resolves standard locomotion, line-of-sight, and basic monster pathfinding. Eventually, Dodeco breaches the walls of a procedurally generated gold vault. 
 
 **Step 294: The Security Protocol**
-Recognising the unauthorised presence within the vault boundaries, the engine spawns a specialised Vault Guard entity. The combat pathways are explicitly bypassed in favour of the escort subroutine. The guard accosts Dodeco, and the message line sternly outputs: *"Move along!"*
+Recognising the unauthorised presence within the vault boundaries, the engine spawns a specialised Vault Guard entity. The combat pathways are explicitly bypassed in favour of the escort subroutine. The guard—rendered as a menacing but ultimately polite '@'—accosts Dodeco, and the message line sternly outputs: *"Move along!"*
 
 **Steps 295–306: The Escort Sequence**
-The user entity complies with the guard's directive, moving through the dungeon corridors (`k, y, y, ., k, h, ., k, h, h, .`). The engine meticulously calculates the pathfinding for both the player and the guard. Rather than attacking, the guard dynamically mirrors and escorts the player entity, ensuring they leave the restricted area. Each step burns between 12 and 33 PRNG calls as the engine resolves the complex paired-movement logic.
+The user entity complies with the guard's directive, moving through the dungeon corridors (`k, y, y, ., k, h, ., k, h, h, .`). The engine meticulously calculates the pathfinding for both the player and the guard. Rather than attacking, the '@' dynamically mirrors and escorts the player entity, ensuring they leave the restricted area. Each step burns between 12 and 33 PRNG calls as the engine resolves the complex paired-movement logic between two identical characters.
 
 **Step 307: The Dismissal**
-Having successfully escorted Dodeco out of the vault's conceptual boundaries, the guard's operational parameters are fulfilled. The entity is immediately garbage-collected by the engine. 1 PRNG call is consumed to resolve the despawn, and the message line notes: *Suddenly, the guard disappears.*
+Having successfully escorted Dodeco out of the vault's conceptual boundaries, the guard's operational parameters are fulfilled. The '@' is immediately garbage-collected by the engine. 1 PRNG call is consumed to resolve the despawn, and the message line notes: *Suddenly, the guard disappears.*
 
-It is a flawless validation of the vault AI logic, elegantly presented as the surreal experience of a monk being politely but firmly escorted off the premises by an ephemeral security guard who then ceases to exist.
+It is a flawless validation of the vault AI logic, elegantly presented as the surreal experience of a monk being politely but firmly escorted off the premises by an ephemeral ASCII character who then simply ceases to exist.
