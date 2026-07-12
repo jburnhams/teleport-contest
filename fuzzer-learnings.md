@@ -10,3 +10,6 @@
 8. **Display Parity**: `gen-session.mjs` now uses full alignment names (`lawful`, `neutral`, `chaotic`) to ensure the C binary recognizes them reliably.
 - **`svc.context.ident` initialization**: In C, `svc.context.ident` starts at 0, and gets `rnd(2) + 1` conditionally, then is explicitly set to `2` during `newgame()`. In JavaScript, our initialisation of `game.context` is partially done in `resetGame()`, but we must be careful not to overwrite the `ident` field later during sequence startup (`jsmain.js` `start()`).
 9. **isRngCall exact matching**: `normalizeRng` strips off any location tags (like `@ file.c:123`) from RNG outputs, but some variables are missing when we call `test` with a generic check. The regex needs to handle cases properly where `entry` is not formatted correctly, or if `String()` transformation fails or evaluates to 'undefined'. Also `isRngCall` should correctly use a more structured regex `/^(?:rn2|rnd|rn1|rnl|rne|rnz|d)\((?:[^)]*)\)=/` to not erroneously match other function calls.
+
+10. **Baseline pass rate**: We ran 20 seeds with 0 moves (chargen + mklev) and got a 0% pass rate.
+11. **Top divering C functions**: Based on the canonical sessions, the most frequent top diverging C functions are `makelevel` (8 times), `lspo_map` (6 times) and `fill_special_room` (6 times).
