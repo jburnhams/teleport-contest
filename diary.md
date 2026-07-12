@@ -115,6 +115,16 @@ Analysed the full RNG init sequence by reading:
 ---
 
 ## New Additions
+
+### Baseline Fuzzer Run
+- **Condition**: `--moves 0` (chargen + mklev only)
+- **Seeds Tested**: 20 seeds (100-119)
+- **Pass Rate**: 0/20 (0%)
+- **Top Divergences**:
+  - `makelevel(mklev.c:1410)` (8 times)
+  - `lspo_map(sp_lev.c:6163)` (6 times)
+  - `fill_special_room(sp_lev.c:2769)` (6 times)
+
 <!-- 
 APPEND NEW LOG ENTRIES HERE. 
 The Diary Secretary will periodically merge these into the chronological sections above. 
