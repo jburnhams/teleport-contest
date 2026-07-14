@@ -22,7 +22,7 @@ Shade begins testing the physical interaction subroutines by issuing the kick co
 **Steps 22–26: The Search Loop**
 Shade initiates a rigorous search sequence (`s`). The engine's search subroutine is invoked five times in rapid succession. Each attempt consumes between 28 and 55 PRNG calls as the mathematical engine calculates the probability of detecting hidden doors or traps in the adjacent tiles. Nothing is found, validating the engine's ability to maintain a 'no-find' state across multiple rolls.
 
-**Step 28: The Wall Strikes Back**
+**Step 28: The ASCII Wall Strikes Back**
 Disappointed by the lack of hidden features, Shade decides to kick the wall to his left (`l`). The engine resolves the collision between an orcish foot and a procedurally generated wall.
 - 32 PRNG calls resolve the impact.
 - The engine calculates the self-damage/pain effect, outputting the classic message: *Ouch! That hurts!*
@@ -30,4 +30,4 @@ Disappointed by the lack of hidden features, Shade decides to kick the wall to h
 **Steps 29–40: Final Analytics**
 The session concludes with Shade methodically reviewing his inventory, known spells, and attributes. He confirms his Intelligence (10) and Wisdom (11) before performing two final searches and inspecting the floor (`:`), presumably ensuring the wall hasn't moved.
 
-It is a succinct mechanical validation of the engine's physical feedback loops, proving that while searching may be fruitless, kicking a wall will always yield a deterministic result: pain.
+It is a succinct mechanical validation of the engine's physical feedback loops, proving that while searching may be fruitless, kicking a structural hashtag (`#`) will always yield a deterministic result: pain.

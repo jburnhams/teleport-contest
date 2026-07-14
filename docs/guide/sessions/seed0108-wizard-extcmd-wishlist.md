@@ -31,6 +31,6 @@ Unsatisfied with Level 11, Wizard immediately jumps again.
 - Wizard materialises on top of a boulder: *You materialize on a different level! You see here a boulder.*
 
 **Steps 291–302: Final Analytics**
-The session concludes with Wizard methodically reviewing his inventory, known spells, discoveries, and attributes. He confirms his high Intelligence (18) before performing two final searches (`s`) and inspecting the floor (`:`), confirming the presence of the boulder he just landed on.
+The session concludes with Wizard methodically reviewing his inventory, known spells, discoveries, and attributes. He confirms his high Intelligence (18), a sharp mind for navigating ASCII grids, before performing two final searches (`s`) and inspecting the floor (`:`), confirming the presence of the boulder he just landed on.
 
 It is a comprehensive mechanical validation of the engine's debugging infrastructure, proving that it can successfully handle rapid, high-entropy transitions between levels while maintaining perfect state synchronisation. The Wizard Mode commands are a vital part of the engine's diagnostic toolkit, and this session confirms they are working with flawless precision.

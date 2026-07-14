@@ -15,7 +15,7 @@ The engine performs 3,245 PRNG calls to generate the universe and Kira's startin
 Kira explores the initial corridors, testing the basic locomotion and entity-swapping subroutines. At Step 8, she successfully swaps places with her pet dog, validating the engine's ability to manage overlapping mobile entities.
 
 **Steps 20–24: The Ethical Violation**
-Kira encounters a goblin corpse (`%`). In a display of profound spiritual weakness, she issues the pickup command (`,`) and then the eat command (`e`), selecting the goblin corpse (`k`).
+Kira encounters a goblin corpse (a rather unappetizing `%`). In a display of profound spiritual weakness, she issues the pickup command (`,`) and then the eat command (`e`), selecting the goblin corpse (`k`).
 - The engine's nutrition subroutine activates.
 - It identifies the player as a Monk and the food item as "meat".
 - A massive 169 PRNG calls resolve the nutritional gain and the resulting ethical penalties.

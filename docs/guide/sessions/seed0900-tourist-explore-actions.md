@@ -4,7 +4,7 @@
 
 **Execution Statistics**: 84 steps, 2983 PRNG calls.
 
-This session serves as a rigorous mechanical validation of the engine's administrative and combat-automation subroutines. The user entity—a Tourist named *Touristo*—demonstrates the engine's ability to handle the "non-scoring explore mode" flag, the queuing of repeated commands via count prefixes, and the deterministic resolution of a multi-turn melee between a pet and a monster.
+This session serves as a rigorous mechanical validation of the ASCII reality of the engine's administrative and combat-automation subroutines. The user entity—a Tourist named *Touristo*—demonstrates the engine's ability to handle the "non-scoring explore mode" flag, the queuing of repeated commands via count prefixes, and the deterministic resolution of a multi-turn melee between a pet and a monster.
 
 ### Mechanical Sequence
 
@@ -24,7 +24,7 @@ Touristo demonstrates the engine's command-queuing infrastructure.
 - The engine prepares to execute 20 search cycles. However, the simulation is immediately interrupted by a nearby combat event.
 
 **Steps 13–73: The Jackal Melee**
-For 60 steps, Touristo stands by as his little dog engages a jackal.
+For 60 steps, Touristo stands by as his little dog (a brave `d`) engages a jackal (a rather mean `j`).
 - The message line continuously updates with the results of the melee: *The little dog misses the jackal. The little dog bites the jackal.*
 - This phase validates the engine's ability to handle background AI combat resolution while the player's queued commands are either being executed or suppressed.
 - Step 73: 354 PRNG calls are consumed as the engine resolves the final fatal blow: *The jackal is killed!*

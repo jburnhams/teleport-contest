@@ -6,6 +6,8 @@
 
 This session serves as a high-precision mechanical validation of the engine's debugging state machine. The user entity—a Wizard named *Wizard*—demonstrates the engine's ability to cheat death itself, along with the associated administrative prompts for deity intervention and immortality.
 
+The absurd ASCII abstraction continues to represent a brutal reality.
+
 ### Mechanical Sequence
 
 **Steps 1–3: The Evoker Setup**

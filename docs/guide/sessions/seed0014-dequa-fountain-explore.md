@@ -4,7 +4,7 @@
 
 **Execution Statistics**: 714 steps, 59178 PRNG calls.
 
-This session provides a rigorous mechanical shakedown of the object dipping subroutines. The user entity—a Lawful Dwarven Valkyrie named *Dequa*—demonstrates the engine's ability to handle complex item-environment interactions and the resulting legal repercussions in a procedurally generated dungeon.
+This session provides a rigorous mechanical shakedown of the ASCII reality of the object dipping subroutines. The user entity—a Lawful Dwarven Valkyrie named *Dequa*—demonstrates the engine's ability to handle complex item-environment interactions and the resulting legal repercussions in a procedurally generated dungeon.
 
 ### Mechanical Sequence
 
@@ -15,7 +15,7 @@ Dequa is created through a sequence of manual menu selections (`v` for Valkyrie,
 For nearly 700 steps, Dequa explores the dungeon. This phase validates the core locomotion, line-of-sight, and monster movement algorithms. Along the way, she acquires and dons an *orcish helm* with a dismal -4 enchantment, a fact that the mathematical engine tracks with cold, binary precision.
 
 **Steps 701–710: The First Dip Attempt**
-Dequa encounters a fountain and initiates the `#dip` extended command. She selects her orcish helm (`h`) and confirms her desire to submerge it. The engine calculates the probability of various outcomes. In this first instance, 97 PRNG calls are consumed, but the fountain remains largely unresponsive to the presence of orcish headgear.
+Dequa encounters a fountain (a bubbling `{`) and initiates the `#dip` extended command. She selects her orcish helm (`h`) and confirms her desire to submerge it. The engine calculates the probability of various outcomes. In this first instance, 97 PRNG calls are consumed, but the fountain remains largely unresponsive to the presence of orcish headgear.
 
 **Steps 711–713: The Bath and the Law**
 Persistent in her hygiene, Dequa attempts to dip the helm again. This time, the PRNG roll triggers a more dramatic interaction:

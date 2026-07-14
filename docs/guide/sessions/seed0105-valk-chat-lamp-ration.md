@@ -15,7 +15,7 @@ The engine performs 2,466 PRNG calls to generate the universe and Astrid's attri
 Astrid attempts to engage in dialogue using the extended command `#chat`. She specifies the direction of the wall to her upper-right (`y`).
 - The engine's chat subroutine activates.
 - It determines that the wall entity possesses no conversational AI.
-- The message line provides the classic mechanical response: *It's like talking to a wall.*
+- The message line provides the classic mechanical response: *It's like talking to a wall (or rather, a `#`).*
 
 **Steps 14–26: The Eating Dilemma**
 Astrid decides to eat (`e`). The engine prompts for an object selection from her inventory, highlighting her single food ration (`d`).
@@ -25,6 +25,6 @@ Astrid decides to eat (`e`). The engine prompts for an object selection from her
 - Step 26: Astrid finally issues an `ESC` sequence, and the engine correctly transitions back to the main loop: *Never mind.*
 
 **Steps 27–29: Final Analytics**
-Her nutritional needs ignored, Astrid performs two searches (`s`) and inspects the floor (`:`), identifying the staircase up out of the dungeon.
+Her nutritional needs ignored, Astrid performs two searches (`s`) and inspects the floor (`:`), identifying the staircase up (`<`) out of the dungeon.
 
 It is a succinct mechanical validation of the engine's UI flexibility and error-reporting logic, proving that the state machine can successfully handle both conversational rejection from inanimate objects and the persistent attempts of a player to eat things they do not possess. Astrid may be hungry and lonely, but the engine is perfectly synced.

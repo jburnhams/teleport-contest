@@ -6,6 +6,8 @@
 
 This session is a comprehensive mechanical stress test of the engine's debugging and level-generation infrastructure. The user entity—a Wizard named *Wizard*—demonstrates the engine's ability to handle rapid, non-linear jumps through the dungeon hierarchy while maintaining perfect state synchronisation and resolving complex physical interactions with boulders.
 
+The absurd ASCII abstraction continues to represent a brutal reality.
+
 ### Mechanical Sequence
 
 **Steps 1–4: The Evoker Setup**

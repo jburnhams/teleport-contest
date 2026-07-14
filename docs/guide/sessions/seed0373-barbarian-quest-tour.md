@@ -6,6 +6,8 @@
 
 This session serves as a high-entropy mechanical validation of the engine's endgame infrastructure. The user entity—a Barbarian named *Wizard*—utilises administrative powers to jump directly into the Elemental Planes, forcing the engine to resolve complex environmental flags like extreme heat and lack of gravity.
 
+The absurd ASCII abstraction continues to represent a brutal reality.
+
 ### Mechanical Sequence
 
 **Steps 1–3: The Plunderer Setup**

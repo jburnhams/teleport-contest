@@ -4,12 +4,12 @@
 
 **Execution Statistics**: 51 steps, 3230 PRNG calls.
 
-This session serves as a rigorous mechanical validation of the engine's basic exploration and physical interaction subroutines. The user entity—a human Samurai named *Musashi*—demonstrates the engine's ability to coordinate player movement with a pet entity and the deterministic resolution of door-interaction failure.
+This session serves as a rigorous mechanical validation of the ASCII reality of the engine's basic exploration and physical interaction subroutines. The user entity—a human Samurai named *Musashi*—demonstrates the engine's ability to coordinate player movement with a pet entity and the deterministic resolution of door-interaction failure.
 
 ### Mechanical Sequence
 
 **Steps 1–3: The Hatamoto Musashi**
-The engine performs 2,728 PRNG calls to generate the universe and Musashi's attributes (St:18/01 Dx:14 Co:18 In:8 Wi:9). Musashi begins on Dungeon Level 1, armed with his katana and wakizashi, and accompanied by his faithful dog, Hachi.
+The engine performs 2,728 PRNG calls to generate the universe and Musashi's attributes (St:18/01 Dx:14 Co:18 In:8 Wi:9). Musashi begins on Dungeon Level 1, armed with his katana and wakizashi, and accompanied by his faithful dog, Hachi (a rather loyal lowercase "d").
 
 **Steps 4–13: Navigating with Hachi**
 Musashi begins exploring the initial room. 
