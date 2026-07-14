@@ -18,7 +18,7 @@ Wizard invokes an administrative level-teleport.
 - The message line confirms the shift: *You materialize on a different level!*
 
 **Step 14: The Wear Subroutine**
-Wizard initiates the `wear` (`W`) command.
+Wizard initiates the `wear` (`W`) command, dressing his `@` symbol for success.
 - The engine's equipment-state machine transitions to the armor selection sub-state.
 - This validates the engine's ability to filter the inventory for wearable items and handle the resulting UI paginations.
 

@@ -4,7 +4,7 @@
 
 **Execution Statistics**: 27 steps, 2371 PRNG calls.
 
-This session serves as a rigorous mechanical validation of the engine's equipment-state logic. The user entity—a human Ranger named *Ricky*—demonstrates the engine's ability to handle the subtle distinction between "quivering" a projectile-launcher and actually "wielding" it, leading to a predictably suboptimal combat result.
+This session serves as a rigorous mechanical validation of the ASCII reality of the engine's equipment-state logic. The user entity—a human Ranger named *Ricky*—demonstrates the engine's ability to handle the subtle distinction between "quivering" a projectile-launcher and actually "wielding" it, leading to a predictably suboptimal combat result.
 
 ### Mechanical Sequence
 
@@ -31,6 +31,6 @@ Ricky attempts to use the travel command (`_`).
 - Step 15: The engine processes an invalid navigational input (`i`), resulting in: *Unknown direction: 'i' (use 'h', 'j', 'k', 'l' or '.').*
 
 **Steps 17–26: Final Analytics**
-Ricky methodically reviews her inventory, known spells, discoveries, and attributes. She confirms her Intelligence (13) and Wisdom (14) before performing two final searches (`s`) and inspecting the floor (`:`), identifying the staircase up.
+Ricky methodically reviews her inventory, known spells, discoveries, and attributes. She confirms her Intelligence (13) and Wisdom (14) before performing two final searches (`s`) and inspecting the floor (`:`), identifying the staircase up (a comforting `<`).
 
 It is a succinct mechanical validation of the engine's equipment-state matrix, proving that the engine can successfully maintain the complex state of a "readied but not wielded" bow while simultaneously managing failed navigational attempts. Ricky may have thrown her arrow by hand, but the engine resolved the trajectory with absolute deterministic precision.

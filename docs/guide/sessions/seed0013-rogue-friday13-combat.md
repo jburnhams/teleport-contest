@@ -6,6 +6,8 @@
 
 This session serves as a peculiar mechanical validation of the engine's forced-combat (`F`) logic. Having been warned of the cosmological dangers of playing on a Friday the 13th with a Full Moon, the user entity—a Rogue named *Sneaky*—chooses to express her frustrations by dropping her weapon and punching a wall.
 
+The absurd ASCII abstraction continues to represent a brutal reality.
+
 ### Mechanical Sequence
 
 **Steps 0–22: The Superstitious Setup**

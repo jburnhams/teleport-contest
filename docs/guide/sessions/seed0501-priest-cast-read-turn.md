@@ -12,7 +12,7 @@ This session serves as a rigorous mechanical validation of the engine's magical 
 The engine performs 2,203 PRNG calls to generate the initial state (St:13 Dx:12 Co:13 In:10 Wi:18). Clara begins on Dungeon Level 1 and declines the tutorial.
 
 **Steps 4–6: Casting the Light (`Z`)**
-Clara decides to test her divine powers immediately. She issues the cast command (`Z`) and selects her healing spell (`a`).
+Clara decides to test her divine powers immediately, bending the very fabric of the ASCII cosmos. She issues the cast command (`Z`) and selects her healing spell (`a`).
 - Step 5: The engine prompts for a direction. 3 PRNG calls resolve the targeting.
 - Clara's Power (Pw) immediately drops from 6 to 1, validating the mana-consumption logic.
 - Step 6: 7 PRNG calls resolve the effect: *You feel better.*
