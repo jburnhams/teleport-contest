@@ -245,3 +245,7 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Cleaned up loose test scratchpads and incorporated `test/o_init.test.js` covering `MAXOCLASSES` index initialization.
 - Validated via scoring maintaining exact 100% baseline structural alignment (88/11406 screens pass).
 - Next steps: Proceed to D2.3 (Erosion & Quantity helpers) exploring `may_generate_eroded` functionality.
+## 2026-05-16
+- Ran 20 seeds with 0 moves (chargen + mklev) and established a baseline pass rate of 0%.
+- Updated fuzzer-learnings.md with additional observations on the C recorder tool, including required syconf files, bit-exact tracking mechanisms, and top divergent C functions.
+- The fuzzer setup is fully completed and integrated.
