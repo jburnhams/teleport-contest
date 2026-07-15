@@ -4,7 +4,7 @@
 
 **Execution Statistics**: 38 steps, 11647 PRNG calls.
 
-This session serves as a rigorous mechanical validation of the engine's input-handling and level-generation infrastructure. The user entity—a human Wizard named *Wizard*—demonstrates the engine's ability to coordinate rapid administrative jumps across dungeon levels while maintaining a consistent deterministic reality, regardless of the underlying key-binding configuration.
+This session serves as a rigorous mechanical validation of the engine's input-handling and level-generation infrastructure. The user entity (a rebellious `@`)—a human Wizard named *Wizard*—demonstrates the engine's ability to coordinate rapid administrative jumps across dungeon levels while maintaining a consistent deterministic reality, regardless of the underlying key-binding configuration.
 
 ### Mechanical Sequence
 

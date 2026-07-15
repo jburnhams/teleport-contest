@@ -4,7 +4,7 @@
 
 **Execution Statistics**: 833 steps, 120639 PRNG calls.
 
-This session is a comprehensive mechanical stress test of the engine's debugging and level-generation infrastructure. The user entity—a Wizard named *Wizard*—demonstrates the engine's ability to handle rapid, non-linear jumps through the dungeon hierarchy while maintaining perfect state synchronisation and resolving complex physical interactions with boulders.
+This session is a comprehensive mechanical stress test of the engine's debugging and level-generation infrastructure. The user entity (an ambitious `@`)—a Wizard named *Wizard*—demonstrates the engine's ability to handle rapid, non-linear jumps through the dungeon hierarchy while maintaining perfect state synchronisation and resolving complex physical interactions with boulders.
 
 ### Mechanical Sequence
 

@@ -9,7 +9,7 @@ This session serves as a triumphant sequel to the catastrophic equestrian failur
 ### Mechanical Sequence
 
 **Steps 1–3: The Gallant Sir Redux**
-The engine performs 2,620 PRNG calls to generate the universe and Sir's attributes (St:14 Dx:8 Co:12 In:8 Wi:15 Ch:18). Sir begins on Dungeon Level 1, accompanied by a saddled pony, and declines the tutorial.
+The engine performs 2,620 PRNG calls to generate the universe and Sir's attributes (St:14 Dx:8 Co:12 In:8 Wi:15 Ch:18). Sir begins on Dungeon Level 1, accompanied by a saddled pony (a humble `u`), and declines the tutorial.
 
 **Step 11: The Successful Mount**
 Sir immediately attempts to use the extended command `#ride`. Despite his low Dexterity (8), the engine calculates a success.
@@ -19,7 +19,7 @@ Sir immediately attempts to use the extended command `#ride`. Despite his low De
 
 **Steps 12–22: Mounted Justice**
 Sir explores the dungeon while mounted. This validates the engine's ability to coordinate player movement with a riding-steed entity. 
-- Step 22: Sir encounters a goblin. The mounted combat subroutines activate. 
+- Step 22: Sir encounters a goblin (an unfortunate `o`). The mounted combat subroutines activate.
 - 53 PRNG calls are consumed to resolve the attack and damage.
 - The result is final: *You kill the goblin!*
 

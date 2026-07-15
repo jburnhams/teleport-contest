@@ -4,7 +4,7 @@
 
 **Execution Statistics**: 595 steps, 27158 PRNG calls.
 
-This execution path stresses item generation and complex object interactions. The initial state configures the user entity as a "Healer" (styled as *David the Rhizotomist*) who begins with an unusually chaotic inventory. Throughout this massive 595-step simulation, the `rn2` engine resolves over 27,000 calls. Let us examine the highlights of this rather erratic lifecycle.
+This execution path stresses item generation and complex object interactions. The initial state configures the user entity (a resilient `@`) as a "Healer" (styled as *David the Rhizotomist*) who begins with an unusually chaotic inventory. Throughout this massive 595-step simulation, the `rn2` engine resolves over 27,000 calls. Let us examine the highlights of this rather erratic lifecycle.
 
 ### Mechanical Sequence
 
@@ -21,7 +21,7 @@ This sequence elegantly validates the complex projectile and reflection subsyste
 **Steps 568–580: The Deafening Drum**
 Immediately recovering from the bouncing sleep ray, the user selects a *leather drum* from their inventory and applies it (`a`, `o`). 
 - The engine outputs: *You start playing your drum. You beat a deafening row!*
-- The PRNG calculates the area-of-effect audio radius. An adjacent entity (a pet dog) fails a morale check. The engine notes: *The little dog turns to flee.*
+- The PRNG calculates the area-of-effect audio radius. An adjacent entity (a pet dog (a frightened `d`)) fails a morale check. The engine notes: *The little dog turns to flee.*
 - The user entity's status line updates to apply the `Deaf` condition. 
 
 **Steps 581–595: Final State Validation**
