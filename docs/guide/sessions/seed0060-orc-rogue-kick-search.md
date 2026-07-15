@@ -4,7 +4,7 @@
 
 **Execution Statistics**: 41 steps, 3626 PRNG calls.
 
-This session serves as a rigorous mechanical validation of the engine's physical interaction subroutines. The user entity—an Orcish Rogue named *Shade*—demonstrates the engine's ability to process search attempts, kicks against various targets, and the secondary combat effects of pet entities.
+This session serves as a rigorous mechanical validation of the engine's physical interaction subroutines. The user entity—an Orcish Rogue (a lowly `@`) named *Shade*—demonstrates the engine's ability to process search attempts, kicks against various targets, and the secondary combat effects of pet entities.
 
 ### Mechanical Sequence
 

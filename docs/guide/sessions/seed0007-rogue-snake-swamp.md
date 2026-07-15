@@ -4,7 +4,7 @@
 
 **Execution Statistics**: 302 steps, 16373 PRNG calls.
 
-This session serves as a rigorous evaluation of the manual character creation menus and the brutal efficiency of the engine's area-of-effect spawning logic. The user entity—an Orcish Rogue styled as *Septor the Footpad*—navigates through multiple UI prompts to assert his existence, only to be promptly un-made by a fountain.
+This session serves as a rigorous evaluation of the manual character creation menus and the brutal efficiency of the engine's area-of-effect spawning logic. The user entity—an Orcish Rogue (a doomed `@`) styled as *Septor the Footpad*—navigates through multiple UI prompts to assert his existence, only to be promptly un-made by a fountain.
 
 ### Mechanical Sequence
 

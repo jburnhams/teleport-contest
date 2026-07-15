@@ -4,7 +4,7 @@
 
 **Execution Statistics**: 60 steps, 2640 PRNG calls.
 
-This brief but poignant session serves as a rigorous mechanical validation of the engine's riding subroutines. The user entity—a human Knight appropriately named *Sir*—demonstrates the catastrophic deterministic consequences of attempting to mount a pony with low Dexterity (8).
+This brief but poignant session serves as a rigorous mechanical validation of the engine's riding subroutines. The user entity—a human Knight (a glorious `@`) appropriately named *Sir*—demonstrates the catastrophic deterministic consequences of attempting to mount a pony with low Dexterity (8).
 
 ### Mechanical Sequence
 
