@@ -245,3 +245,5 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Cleaned up loose test scratchpads and incorporated `test/o_init.test.js` covering `MAXOCLASSES` index initialization.
 - Validated via scoring maintaining exact 100% baseline structural alignment (88/11406 screens pass).
 - Next steps: Proceed to D2.3 (Erosion & Quantity helpers) exploring `may_generate_eroded` functionality.
+## 2024-05-17
+- Ran fuzzer baseline for D.2 Establish baselines (0 moves chargen+mklev). Pass rate: 0/20 (0%).
