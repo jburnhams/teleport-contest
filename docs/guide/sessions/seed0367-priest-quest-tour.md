@@ -17,7 +17,7 @@ Wizard immediately invokes the administrative command `#levelchange`.
 - This validates the engine's ability to bypass standard navigation restrictions and jump to arbitrary floors.
 
 **Steps 17–301: The Multiverse Leap**
-Wizard jumps across multiple levels. By Step 301, she has reached Dungeon Level 12, with 80 Hit Points and an advanced experience level (Xp:20, status "Canoness").
+Wizard jumps across multiple levels, her solitary '@' vanishing and reappearing across the dungeon layers. By Step 301, she has reached Dungeon Level 12, with 80 Hit Points and an advanced experience level (Xp:20, status "Canoness").
 - The engine flawlessly resolves the generation of the twelfth floor and all associated entity spawns.
 - The message line confirms the successful transition: *You materialize on a different level!*
 
@@ -28,7 +28,7 @@ Wizard continues her diagnostic tour, initiating another level-teleport.
 
 **Steps 309–323: Final Debug Analytics**
 The session concludes with Wizard reviewing her inventory, known spells, and attributes.
-- Step 309: She attempts to move a boulder: *You try to move the boulder, but in vain.*
+- Step 309: She attempts to move a boulder (a sturdy '0'): *You try to move the boulder, but in vain.*
 - Step 319: The engine's diagnostic attributes are checked: *You haven't encountered any bones levels.*
 - This validates the engine's ability to track global state flags (like bones-level encounters) across administrative jumps.
 

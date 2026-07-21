@@ -15,13 +15,13 @@ The engine performs 2,620 PRNG calls to generate the universe and Sir's attribut
 Sir immediately attempts to use the extended command `#ride`. Despite his low Dexterity (8), the engine calculates a success.
 - 17 PRNG calls resolve the mounting attempt.
 - The message line declares: *You mount the saddled pony.*
-- The status line is updated with the `Ride` flag, indicating the state change.
+- The status line is updated with the `Ride` flag, indicating the state change and representing the triumphant union of a lone '@' mounting a diminutive 'u'.
 
 **Steps 12–22: Mounted Justice**
 Sir explores the dungeon while mounted. This validates the engine's ability to coordinate player movement with a riding-steed entity. 
 - Step 22: Sir encounters a goblin. The mounted combat subroutines activate. 
 - 53 PRNG calls are consumed to resolve the attack and damage.
-- The result is final: *You kill the goblin!*
+- The result is final: *You kill the goblin!* The threatening 'o' is swiftly erased from the terminal.
 
 **Step 28: The America Reference**
 Having completed his objective, Sir decides to dismount. He issues the `#ride` command again.
