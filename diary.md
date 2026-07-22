@@ -245,3 +245,21 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Cleaned up loose test scratchpads and incorporated `test/o_init.test.js` covering `MAXOCLASSES` index initialization.
 - Validated via scoring maintaining exact 100% baseline structural alignment (88/11406 screens pass).
 - Next steps: Proceed to D2.3 (Erosion & Quantity helpers) exploring `may_generate_eroded` functionality.
+
+## 2026-07-22
+
+**Stream E:** Started porting monster creation system from `makemon.c`.
+
+*   **Ported:**
+    *   `makemon` (main entry point)
+    *   `makemon_rnd_goodpos` (random coordinate search with complex fallback paths)
+    *   `goodpos` (position safety checks, including water/lava/scary flags)
+    *   `goodpos_onscary`
+    *   `enexto_core`, `enexto`, `enexto_gpflags` and `collect_coords`
+    *   `mbirth_limit`, `propagate` (monster extinction/genocide handling)
+    *   `newmonhp`, `adj_lev` (monster hit point and level initialization)
+    *   `peace_minded`, `set_malign` (monster alignment/attitude toward player)
+    *   `race_peaceful`, `race_hostile`
+*   **Fixes & RNG Constraints:**
+    *   Found issue where passing a dummy monster to `goodpos` with an allocated `m_id` causes it to invoke the real `onscary()` instead of `goodpos_onscary()`, failing strict RNG. Corrected this by using a bare zero-initialized object with `m_id = 0`.
+*   **Next:** Port `m_initweap`, `m_initinv` and `m_initgrp` which remain stubbed inside `makemon`.

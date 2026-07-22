@@ -191,7 +191,9 @@ Gender indices: 0=male, 1=female. Align indices: 0=chaotic, 1=neutral, 2=lawful.
 ## New Additions
 
 <!-- 
-APPEND NEW LEARNINGS HERE. 
+APPEND NEW LEARNINGS HERE.
+- **makemon fakemon**: `makemon()` uses a dummy `fakemon` struct to check valid placement via `goodpos()`. In C, this is stack-allocated so `m_id` is 0. In JS, if `newmonst()` is used to create `fakemon`, it gets a real `m_id` assigned, which breaks RNG inside `goodpos` because `goodpos` will branch into `onscary()` instead of `goodpos_onscary()` when `m_id` is non-zero.
+
 The Librarian will periodically integrate these into the thematic sections above. 
 Keep entries detailed; include C references, bitmasks, and specific RNG counts.
 -->
