@@ -4,20 +4,15 @@ import { game, resetGame } from '../js/gstate.js';
 import { GameMap } from '../js/game.js';
 import { MON_FLOOR } from '../js/const.js';
 
+vi.mock('../js/mkobj.js', () => ({
+    next_ident: () => 1
+}));
+
 describe('mkmon', () => {
     beforeEach(() => {
         resetGame();
         game.level = new GameMap();
         game.context = { ident: 1 };
-
-        // Setup mock rng
-        vi.mock('../js/mkobj.js', () => ({
-            next_ident: () => 1
-        }));
-
-        vi.mock('../js/rng.js', () => ({
-            rnd: () => 1
-        }));
     });
 
     it('newmonst creates a monster matching struct monst shape and allocates id', () => {

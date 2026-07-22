@@ -154,3 +154,33 @@ export function noncorporeal(ptr) {
 export function is_whirly(ptr) {
     return ptr.mlet === C.S_VORTEX || ptr === mons[C.PM_AIR_ELEMENTAL];
 }
+
+export function adj_lev(ptr) {
+    let tmp, tmp2;
+
+    if (ptr === C.mons[C.PM_WIZARD_OF_YENDOR]) {
+        tmp = ptr.mlevel + game.mvitals[C.PM_WIZARD_OF_YENDOR].died;
+        if (tmp > 49)
+            tmp = 49;
+        return tmp;
+    }
+
+    if ((tmp = ptr.mlevel) > 49)
+        return 50;
+
+    tmp2 = (hacklib.level_difficulty() - tmp);
+    if (tmp2 < 0)
+        tmp--;
+    else
+        tmp += Math.floor(tmp2 / 5);
+
+    return tmp;
+}
+
+export function race_peaceful(ptr) {
+    return ((ptr.mflags2 & game.u.urace.lovemask) !== 0);
+}
+
+export function race_hostile(ptr) {
+    return ((ptr.mflags2 & game.u.urace.hatemask) !== 0);
+}
