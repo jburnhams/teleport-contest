@@ -9,12 +9,12 @@ This session serves as a comprehensive mechanical coverage test of the engine's 
 ### Mechanical Sequence
 
 **Steps 1–2: The New Moon Penalty**
-The engine performs 2,776 PRNG calls to generate the initial state (St:18/01 Dx:9 Co:12 In:7 Wi:14). The initialisation logic detects the "New Moon" condition from the system clock and applies the deterministic luck penalty: *Be careful! New moon tonight.*
+The engine performs 2,776 PRNG calls to generate the initial state (St:18/01 Dx:9 Co:12 In:7 Wi:14). The initialisation logic detects the "New Moon" condition from the system clock and applies the deterministic luck penalty: *Be careful! New moon tonight.* The proud Knight Wizard (`@`) stands ready.
 
 **Steps 3–16: The Leap of Faith (`#jump`)**
 Wizard immediately tests the Knight's mobility by invoking the `#jump` extended command. 
 - The engine transitions to the directional/map selection state.
-- This validates the engine's ability to coordinate jumping-trajectory calculations and the associated UI prompts for destination selection.
+- This validates the engine's ability to coordinate jumping-trajectory calculations and the associated UI prompts for destination selection, hurtling the `@` across the terminal.
 
 **Steps 17–1798: The Long Road Home**
 For nearly 1,800 steps, Wizard explores the dungeon and its various branches. The engine proves its stability by maintaining deterministic synchronisation across a long-duration session.
