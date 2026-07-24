@@ -17,7 +17,7 @@ Wizard immediately invokes the administrative command `#levelchange`. This valid
 **Step 100: The Plane of Fire**
 Wizard materialises on the Plane of Fire. 
 - 54 PRNG calls resolve the immediate environmental triggers.
-- Step 101: The engine spawns the final antagonist: *The Wizard of Yendor suddenly appears next to you!*
+- Step 101: The engine spawns the final antagonist, represented by a terrifying `@`: *The Wizard of Yendor suddenly appears next to you!*
 - Step 103: The environmental status flag is set: *It is hot here.*
 - Step 104: The engine's wishing subroutine is triggered by the Amulet: *The Amulet is bestowing a wish upon you!*
 

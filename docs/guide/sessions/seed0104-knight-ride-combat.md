@@ -26,7 +26,7 @@ Sir explores the dungeon while mounted. This validates the engine's ability to c
 **Step 28: The America Reference**
 Having completed his objective, Sir decides to dismount. He issues the `#ride` command again.
 - The engine resolves the dismount without injury.
-- In a display of whimsical flair, the message line outputs: *You've been through the dungeon on a pony with no name.*
+- In a display of whimsical flair, the message line outputs: *You've been through the dungeon on a pony with no name.* (even if that pony is merely represented by a humble ASCII `u`).
 - 1 PRNG call is consumed to trigger this specific string, referencing the 1971 classic by the band America.
 
 **Steps 29–42: Final Analytics**
