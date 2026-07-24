@@ -28,7 +28,7 @@ Wizard continues her diagnostic tour, initiating another level-teleport.
 
 **Steps 309–323: Final Debug Analytics**
 The session concludes with Wizard reviewing her inventory, known spells, and attributes.
-- Step 309: She attempts to move a boulder: *You try to move the boulder, but in vain.*
+- Step 309: She attempts to move a boulder (a stubbornly immobile `0`): *You try to move the boulder, but in vain.*
 - Step 319: The engine's diagnostic attributes are checked: *You haven't encountered any bones levels.*
 - This validates the engine's ability to track global state flags (like bones-level encounters) across administrative jumps.
 

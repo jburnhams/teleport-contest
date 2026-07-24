@@ -24,7 +24,7 @@ Wizard invokes `#wizwish` (Ctrl-W) five times, requesting:
 - (A fifth wish for *wand of death* is typed across steps 98–112 but gets buffered during the chaos that follows)
 
 **Step 75–85: Monster Creation**
-Wizard invokes `Ctrl-G` to create a *gas spore* next to themselves.
+Wizard invokes `Ctrl-G` to create a *gas spore* (a highly combustible `e`) next to themselves.
 
 **Steps 86–120: The Self-Inflicted Inferno**
 Wizard begins zapping wands in rapid succession — fire, cold, lightning, magic missile — each bolt bouncing off walls and striking the caster. The engine resolves each bolt trajectory, bounce angle, and damage calculation. Potions of invisibility and oil in inventory ignite and explode. After cascading damage across 35 steps, the engine reaches the terminal state at step 120: *You die...*

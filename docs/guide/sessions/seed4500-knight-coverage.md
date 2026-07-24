@@ -23,7 +23,7 @@ For nearly 1,800 steps, Wizard explores the dungeon and its various branches. Th
 
 **Steps 1799–1800: The Quest Entrance**
 Wizard arrives at the entrance to his Quest.
-- Step 1799: 630 PRNG calls resolve the generation of a unique quest entrance: *As you exit the swamps, you see before you a huge, gaping hole...*
+- Step 1799: 630 PRNG calls resolve the generation of a unique quest entrance (a perilous `^` or `>` in the terrain matrix): *As you exit the swamps, you see before you a huge, gaping hole...*
 - Step 1800: The transition to "Home Level 5" is confirmed. Environmental status effects from previous levels are cleared: *The heat and smoke are gone.*
 - The status line reflects the new location: `Home 5`.
 
