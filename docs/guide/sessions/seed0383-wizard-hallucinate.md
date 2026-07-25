@@ -4,7 +4,7 @@
 
 **Execution Statistics**: 219 steps, 16915 PRNG calls.
 
-This session serves as a rigorous mechanical validation of the engine's perception-distortion subroutines. The user entity—a Wizard named *Wizard*—demonstrates the engine's ability to maintain a perfectly deterministic underlying reality while simultaneously rendering a chaotic, randomised overlay of monster names and environmental events.
+This session serves as a rigorous mechanical validation of the engine's perception-distortion subroutines. The user entity—a Wizard named *Wizard* ('`@`')—demonstrates the engine's ability to maintain a perfectly deterministic underlying reality while simultaneously rendering a chaotic, randomised overlay of monster names and environmental events.
 
 ### Mechanical Sequence
 

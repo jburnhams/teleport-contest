@@ -4,7 +4,7 @@
 
 **Execution Statistics**: 303 steps, 16958 PRNG calls.
 
-This session serves as a high-stress mechanical validation of the engine's debugging and level-transition logic. The user entity—appropriately named *Wizard*—demonstrates the engine's ability to process administrative commands and handle rapid, non-linear jumps across multiple procedurally generated dungeon levels.
+This session serves as a high-stress mechanical validation of the engine's debugging and level-transition logic. The user entity—appropriately named *Wizard* ('`@`')—demonstrates the engine's ability to process administrative commands and handle rapid, non-linear jumps across multiple procedurally generated dungeon levels.
 
 ### Mechanical Sequence
 

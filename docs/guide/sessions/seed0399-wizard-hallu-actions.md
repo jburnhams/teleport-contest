@@ -4,7 +4,7 @@
 
 **Execution Statistics**: 532 steps, 11409 PRNG calls.
 
-This session serves as a high-precision mechanical validation of the engine's debugging state machine. The user entity—a Wizard named *Wizard*—demonstrates the engine's ability to cheat death itself, along with the associated administrative prompts for deity intervention and immortality.
+This session serves as a high-precision mechanical validation of the engine's debugging state machine. The user entity—a Wizard named *Wizard* ('`@`')—demonstrates the engine's ability to cheat death itself, along with the associated administrative prompts for deity intervention and immortality.
 
 ### Mechanical Sequence
 
