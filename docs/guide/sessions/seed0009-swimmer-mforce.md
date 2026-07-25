@@ -4,7 +4,7 @@
 
 **Execution Statistics**: 73 steps, 3713 PRNG calls.
 
-This extremely brief session is a textbook validation of the game's environmental hazard protections, immediately followed by a validation of the user's ability to purposefully override those protections. The user entity—a chaotic Elven Ranger—demonstrates exactly how the engine handles deliberate self-immolation.
+This extremely brief session is a textbook validation of the game's environmental hazard protections, immediately followed by a validation of the user's ability to purposefully override those protections. The user entity—a chaotic Elven Ranger, embodied by the humble '`@`'—demonstrates exactly how the engine handles deliberate self-immolation.
 
 ### Mechanical Sequence
 

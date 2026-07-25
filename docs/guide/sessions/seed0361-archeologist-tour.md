@@ -4,7 +4,7 @@
 
 **Execution Statistics**: 366 steps, 53865 PRNG calls.
 
-This session serves as a rigorous mechanical validation of the engine's debugging infrastructure from the perspective of an Archeologist. The user entity—appropriately named *Wizard*—demonstrates the engine's ability to handle rapid jumps through the dungeon hierarchy while maintaining role-specific state.
+This session serves as a rigorous mechanical validation of the engine's debugging infrastructure from the perspective of an Archeologist. The user entity—appropriately named *Wizard* ('`@`')—demonstrates the engine's ability to handle rapid jumps through the dungeon hierarchy while maintaining role-specific state.
 
 ### Mechanical Sequence
 

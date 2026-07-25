@@ -4,7 +4,7 @@
 
 **Execution Statistics**: 51 steps, 3230 PRNG calls.
 
-This session serves as a rigorous mechanical validation of the engine's basic exploration and physical interaction subroutines. The user entity—a human Samurai named *Musashi*—demonstrates the engine's ability to coordinate player movement with a pet entity and the deterministic resolution of door-interaction failure.
+This session serves as a rigorous mechanical validation of the engine's basic exploration and physical interaction subroutines. The user entity—a human Samurai named *Musashi* ('`@`')—demonstrates the engine's ability to coordinate player movement with a pet entity and the deterministic resolution of door-interaction failure.
 
 ### Mechanical Sequence
 
