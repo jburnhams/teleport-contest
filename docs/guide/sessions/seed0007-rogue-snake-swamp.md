@@ -1,6 +1,7 @@
 # seed0007-rogue-snake-swamp
 
 **Subsystem Focus**: Validates manual character generation menus, fountain effect matrices, and multiple-entity combat resolution.
+**Execution Statistics**: 302 steps, 16373 PRNG calls.
 
 **Execution Statistics**: 302 steps, 16373 PRNG calls.
 
@@ -24,4 +25,4 @@ Surrounded by newly generated `S` (snake) entities, the combat pathways activate
 - Step 291: A final calculation. *You die...*
 
 **Steps 292–301: The Post-Mortem**
-The user painstakingly pages through the post-mortem screens, confirming (`y`) their desire to see their completely useless attributes and their empty sack. The mathematical engine rests, having flawlessly validated the rule that drinking from strange dungeon fountains is an inherently fatal activity.
+The user painstakingly pages through the post-mortem screens, confirming (`y`) their desire to see their completely useless attributes and their empty sack. The mathematical engine rests, having flawlessly validated the rule that drinking from strange dungeon fountains is an inherently fatal activity. It is a sobering reminder that in this universe, the most terrifying entity is not a fire-breathing dragon, but an endlessly spawning cluster of ASCII 'S' characters summoned by poor hygiene.
