@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from 'vitest';
-import { pline, You, verbalize } from '../js/pline.js';
+import { pline, You, verbalize, putmsghistory } from '../js/pline.js';
 import { game } from '../js/gstate.js';
 import { GameDisplay } from '../js/game_display.js';
 import * as input from '../js/input.js';
@@ -39,5 +39,16 @@ describe('pline', () => {
         } finally {
             getchSpy.mockRestore();
         }
+    });
+
+    it('should push messages without artificial caps in putmsghistory', () => {
+        game.nhDisplay = new GameDisplay(null);
+        game.nhDisplay.messages = [];
+        for (let i = 0; i < 50; i++) {
+            putmsghistory(`msg ${i}`);
+        }
+        expect(game.nhDisplay.messages.length).toBe(50);
+        expect(game.nhDisplay.messages[0]).toBe('msg 0');
+        expect(game.nhDisplay.messages[49]).toBe('msg 49');
     });
 });

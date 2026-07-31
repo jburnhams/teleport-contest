@@ -245,3 +245,10 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Cleaned up loose test scratchpads and incorporated `test/o_init.test.js` covering `MAXOCLASSES` index initialization.
 - Validated via scoring maintaining exact 100% baseline structural alignment (88/11406 screens pass).
 - Next steps: Proceed to D2.3 (Erosion & Quantity helpers) exploring `may_generate_eroded` functionality.
+
+## 2026-05-18 — Stream C: pline message history
+- Implemented `putmsghistory()` in `js/pline.js` directly appending string to `game.nhDisplay.messages`. Did not introduce any artificial caps to simulate the correct C callback-load mechanism.
+- Handled `flags.verbose` tracking: investigated usage and verified that it is expected to be managed explicitly inline at calling sites rather than embedded as a specific check within `pline.js` (per the memory finding that `vpline` means `va_list` pline and not "verbose pline"). Checked off the respective task.
+- Checked off completion for `putmsghistory` and `flags.verbose` in `tasks/C-display.md`.
+- Wrote tests validating message capping expectations correctly (`should push messages without artificial caps in putmsghistory`).
+- Verified zero score regression (+0 delta).
