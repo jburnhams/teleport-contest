@@ -28,6 +28,8 @@ Key insights discovered during the port. Add entries as discoveries are made.
 - The seed is passed as a 64-bit integer, split into 8 little-endian bytes, and fed to ISAAC64 (`js/rng.js:initRng`).
 - If tests throw a TypeError in `isaac64.js` (e.g., 'Cannot read properties of undefined (reading 'n')'), the PRNG context is missing. Ensure `initRng(seed)` is called before executing any function that consumes random numbers.
 
+- **Tests with PRNG**: If testing functions that mutate the PRNG, keep them isolated in unmocked files to prevent global `vi.mock()` hoisting issues (e.g. `vi.mock('../js/rng.js')` breaking the real RNG calls).
+
 ### fastforward.js
 - Hardcoded RNG replay for **seed8000 only**. Never generalizes. Must be replaced function-by-function with real C ports.
 - Covers: pre-mklev startup (o_init shuffles, dungeon init, u_init_misc), post-mklev startup (u_init_role, ini_inv, attributes, moveloop preamble), and per-step monster/regen/sound/hunger calls.
@@ -171,6 +173,8 @@ Gender indices: 0=male, 1=female. Align indices: 0=chaotic, 1=neutral, 2=lawful.
 - The `next_ident()` function maintains ID for generated objects and monsters and is statefully shared via `svc.context.ident`. Ported this to `game.context.ident`, initialized on `resetGame()`, to ensure matching PRNG loops with `rnd(2)` calls.
 - `m_at(x, y)` macro directly wraps `svl.level.monsters[x][y]` in C, bypassing `mon.mburied` flag when `mburied` isn't compiled. Handled using simple map checks in JS.
 - `monsndx()` implementation in C resolves pointer differences (`ptr - mons`). In JS, this maps directly to `mons.indexOf(ptr)` avoiding the need for a separate `.pmidx` field on every monster struct, as Javascript maintains exact object reference identities to the generated constants table array elements.
+
+- **`rndmonst` / `rndmonnum`**: The PRNG selection (`rndmonst_adj`) implements a weighted reservoir sampling. It consumes `rn2` checks to replace the `selected_mndx` when `rn2(totalweight) < weight`. The upper limit for looping is `PM_LONG_WORM_TAIL`, not `NUMMONS`.
 
 ---
 
