@@ -1,6 +1,7 @@
 # seed0012-monk-vault-escort
 
 **Subsystem Focus**: Validates complex character generation navigation and the specialized Vault Guard AI escort subroutine.
+**Execution Statistics**: 307 steps, 13878 PRNG calls.
 
 **Execution Statistics**: 308 steps, 13878 PRNG calls.
 

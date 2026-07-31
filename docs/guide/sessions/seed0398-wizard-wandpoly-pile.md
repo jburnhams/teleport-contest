@@ -1,6 +1,7 @@
 # seed0398-wizard-wandpoly-pile
 
 **Subsystem Focus**: Validates the administrative `#wizwish` and `#wizgenesis` commands, as well as the mechanical resolution of the wand of polymorph on a specific monster target.
+**Execution Statistics**: 86 steps, 3026 PRNG calls.
 
 **Execution Statistics**: 87 steps, 3026 PRNG calls.
 

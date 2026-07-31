@@ -1,6 +1,7 @@
 # seed0108-wizard-extcmd-wishlist
 
 **Subsystem Focus**: Validates the Wizard Mode (debug) extended commands, specifically `#wizwish` and `#levelport`, along with the resulting mass-level generation subroutines.
+**Execution Statistics**: 302 steps, 16958 PRNG calls.
 
 **Execution Statistics**: 303 steps, 16958 PRNG calls.
 

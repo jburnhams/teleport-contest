@@ -1,6 +1,7 @@
 # seed2200-wizard-quaff-zap-read
 
 **Subsystem Focus**: Validates the `quaff`, `zap`, and `read` command interactions, specifically the resolution of magic mapping effects and floor-based engraving detection.
+**Execution Statistics**: 229 steps, 3018 PRNG calls.
 
 **Execution Statistics**: 230 steps, 3018 PRNG calls.
 
