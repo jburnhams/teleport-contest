@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from 'vitest';
-import { pline, You, verbalize } from '../js/pline.js';
+import { pline, You, verbalize, putmsghistory } from '../js/pline.js';
 import { game } from '../js/gstate.js';
 import { GameDisplay } from '../js/game_display.js';
 import * as input from '../js/input.js';
@@ -39,5 +39,16 @@ describe('pline', () => {
         } finally {
             getchSpy.mockRestore();
         }
+    });
+
+    it('should push messages to the message history', async () => {
+        game.nhDisplay = new GameDisplay(null);
+        putmsghistory('hello world');
+        expect(game.nhDisplay.messages.length).toBe(1);
+        expect(game.nhDisplay.messages[0]).toBe('hello world');
+
+        // Falsy messages should not be added
+        putmsghistory('');
+        expect(game.nhDisplay.messages.length).toBe(1);
     });
 });

@@ -245,3 +245,9 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Cleaned up loose test scratchpads and incorporated `test/o_init.test.js` covering `MAXOCLASSES` index initialization.
 - Validated via scoring maintaining exact 100% baseline structural alignment (88/11406 screens pass).
 - Next steps: Proceed to D2.3 (Erosion & Quantity helpers) exploring `may_generate_eroded` functionality.
+
+## 2026-05-16
+- Implemented `putmsghistory()` functionality to appropriately cache messages natively without size limit inside `js/pline.js`.
+- Accounted for `game.flags.verbose` functionality which is effectively checked inline without requiring a standalone wrapped port.
+- Passed full test suite ensuring baseline 88/11406 score validation with no regressions via vitest + frozen scripts validation loop.
+- Ready to further explore C3 features in map rendering enhancements or proceed to C5.
