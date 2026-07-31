@@ -1,6 +1,7 @@
 # seed0107-samurai-twoweapon-enhance
 
 **Subsystem Focus**: Validates the `#twoweapon` and `#sit` extended commands, and the engine's ability to process multiple-weapon equipment states.
+**Execution Statistics**: 98 steps, 2902 PRNG calls.
 
 **Execution Statistics**: 98 steps, 2902 PRNG calls.
 

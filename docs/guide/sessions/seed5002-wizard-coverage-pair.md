@@ -1,6 +1,7 @@
 # seed5002-wizard-coverage-pair
 
 **Subsystem Focus**: Validates the `#wizwish` administrative wishing, multi-wand zapping, bolt-bounce physics, and the deterministic resolution of self-inflicted elemental damage.
+**Execution Statistics**: 286 steps, 12167 PRNG calls.
 
 **Execution Statistics**: 410 steps, 12167 PRNG calls.
 
