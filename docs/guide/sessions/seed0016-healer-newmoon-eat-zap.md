@@ -1,6 +1,7 @@
 # seed0016-healer-newmoon-eat-zap
 
 **Subsystem Focus**: Validates environmental datetime flags, object consumption (nutrition), and self-targeted projectile interactions with status effect durations.
+**Execution Statistics**: 36 steps, 3656 PRNG calls.
 
 **Execution Statistics**: 36 steps, 3656 PRNG calls.
 

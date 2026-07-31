@@ -1,6 +1,7 @@
 # seed0700-samurai-explore-descend
 
 **Subsystem Focus**: Validates standard locomotion, entity-swapping with pets, and the mechanical resistance of closed doors to non-standard entry.
+**Execution Statistics**: 51 steps, 3230 PRNG calls.
 
 **Execution Statistics**: 51 steps, 3230 PRNG calls.
 

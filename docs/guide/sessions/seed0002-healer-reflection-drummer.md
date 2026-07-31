@@ -1,6 +1,7 @@
 # seed0002-healer-reflection-drummer
 
 **Subsystem Focus**: Stresses item generation, inventory constraints, spell reflection mechanics, and deterministic line-of-sight calculations.
+**Execution Statistics**: 595 steps, 27158 PRNG calls.
 
 **Execution Statistics**: 595 steps, 27158 PRNG calls.
 

@@ -1,6 +1,7 @@
 # seed0116-wizard-wear-shop
 
 **Subsystem Focus**: Validates Wizard Mode administrative commands, rapid multi-level teleportation, and the `wear` (`W`) equipment-state subroutines.
+**Execution Statistics**: 127 steps, 12562 PRNG calls.
 
 **Execution Statistics**: 127 steps, 12562 PRNG calls.
 
