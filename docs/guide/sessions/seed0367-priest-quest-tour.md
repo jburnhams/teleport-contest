@@ -1,6 +1,7 @@
 # seed0367-priest-quest-tour
 
 **Subsystem Focus**: Validates Wizard Mode administrative navigation (`#levelchange`), role-specific attribute generation for the Priest class, and the bones-level detection subroutines.
+**Execution Statistics**: 323 steps, 50125 PRNG calls.
 
 **Execution Statistics**: 324 steps, 50125 PRNG calls.
 

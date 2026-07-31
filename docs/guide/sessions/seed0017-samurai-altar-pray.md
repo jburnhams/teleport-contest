@@ -1,6 +1,7 @@
 # seed0017-samurai-altar-pray
 
 **Subsystem Focus**: Validates the `#pray` extended command, the piety/luck resolution engine, deity-specific message strings, and the character-name entry UI.
+**Execution Statistics**: 66 steps, 3465 PRNG calls.
 
 **Execution Statistics**: 67 steps, 3465 PRNG calls.
 

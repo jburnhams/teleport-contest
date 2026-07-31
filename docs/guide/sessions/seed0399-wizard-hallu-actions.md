@@ -1,6 +1,7 @@
 # seed0399-wizard-hallu-actions
 
 **Subsystem Focus**: Validates Wizard Mode death-prevention subroutines, administrative prayer overrides, and poison-based attribute degradation.
+**Execution Statistics**: 531 steps, 11409 PRNG calls.
 
 **Execution Statistics**: 532 steps, 11409 PRNG calls.
 

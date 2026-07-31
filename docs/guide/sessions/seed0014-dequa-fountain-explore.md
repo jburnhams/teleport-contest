@@ -1,6 +1,7 @@
 # seed0014-dequa-fountain-explore
 
 **Subsystem Focus**: Validates the `#dip` extended command, equipment attribute modification, and town watchman AI triggers.
+**Execution Statistics**: 713 steps, 59178 PRNG calls.
 
 **Execution Statistics**: 714 steps, 59178 PRNG calls.
 
