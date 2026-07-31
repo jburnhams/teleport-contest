@@ -45,3 +45,9 @@ describe('mkmon', () => {
         expect(DEADMONSTER(mon)).toBe(false);
     });
 });
+
+describe('makemon', () => {
+    it('dummy test', () => {
+        expect(1).toBe(1);
+    });
+});
