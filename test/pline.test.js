@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from 'vitest';
-import { pline, You, verbalize } from '../js/pline.js';
+import { pline, You, verbalize, putmsghistory, vpline } from '../js/pline.js';
 import { game } from '../js/gstate.js';
 import { GameDisplay } from '../js/game_display.js';
 import * as input from '../js/input.js';
@@ -39,5 +39,23 @@ describe('pline', () => {
         } finally {
             getchSpy.mockRestore();
         }
+    });
+
+    it('should add message to history with putmsghistory', () => {
+        game.nhDisplay = new GameDisplay();
+        putmsghistory("test message 1", false);
+        expect(game.nhDisplay.messages.length).toBe(1);
+        expect(game.nhDisplay.messages[0]).toBe("test message 1");
+    });
+
+    it('vpline should respect game.flags.verbose', async () => {
+        game.nhDisplay = new GameDisplay();
+        game.flags = { verbose: false };
+        await vpline("test msg");
+        expect(game.nhDisplay.topMessage).toBe(null);
+
+        game.flags.verbose = true;
+        await vpline("verbose msg");
+        expect(game.nhDisplay.topMessage).toBe("verbose msg");
     });
 });
