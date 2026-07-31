@@ -44,6 +44,7 @@ export function parseNethackrc(rc) {
                 else if (key === 'symset') result.symset = val;
                 else if (key === 'suppress_alert') result.flags.suppress_alert = val;
                 else if (key === 'msg_window') result.iflags.prevmsg_window = val;
+                else if (key === 'statuslines') result.iflags.wc2_statuslines = parseInt(val, 10);
                 else result.flags[key] = val;
             } else {
                 // Boolean flag

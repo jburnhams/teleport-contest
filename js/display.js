@@ -247,11 +247,17 @@ function _buildScreenOutput() {
         // Status lines
         const s1 = bot1().replace(/\x1b\[[0-9;]*[A-Za-z]/g, m =>
             m.match(/\x1b\[\d+C/) ? ' '.repeat(parseInt(m.slice(2))) : '');
-        for (let c = 0; c < Math.min(s1.length, display.cols); c++)
-            display.setCell(c, 22, s1[c], NO_COLOR, 0);
         const s2 = bot2();
-        for (let c = 0; c < Math.min(s2.length, display.cols); c++)
-            display.setCell(c, 23, s2[c], NO_COLOR, 0);
+        if (game.iflags?.wc2_statuslines === 1) {
+            const combined = s1 + ' ' + s2;
+            for (let c = 0; c < Math.min(combined.length, display.cols); c++)
+                display.setCell(c, 23, combined[c], NO_COLOR, 0);
+        } else {
+            for (let c = 0; c < Math.min(s1.length, display.cols); c++)
+                display.setCell(c, 22, s1[c], NO_COLOR, 0);
+            for (let c = 0; c < Math.min(s2.length, display.cols); c++)
+                display.setCell(c, 23, s2[c], NO_COLOR, 0);
+        }
         // Cursor at hero
         if (game.u?.ux > 0)
             display.setCursor(game.u.ux - 1, game.u.uy + 1);

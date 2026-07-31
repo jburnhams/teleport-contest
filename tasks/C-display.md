@@ -20,7 +20,7 @@ Port the display subsystem — status lines, message handling, map rendering imp
 - [x] Port encumbrance display ("Burdened", "Stressed", etc.)
 - [x] Port condition flags ("Conf", "Blind", "Stun", "Hallu", etc.)
 - [x] Match exact column positions — C uses `curs()` and `putstr()` with specific coordinates
-- [ ] Handle the `iflags.statuslines` option (1 or 2 status lines)
+- [x] Handle the `iflags.statuslines` option (1 or 2 status lines)
 - [x] Wire `bot()` into display.js `flush_screen()`, replacing inline `_statusLine1/2`
 - [x] Verify: compare output against seed8000 status line from session JSON
 
