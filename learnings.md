@@ -21,6 +21,9 @@ Key insights discovered during the port. Add entries as discoveries are made.
 
 ## PRNG & Seeding
 
+### Testing with PRNG
+- **Tests with PRNG**: If testing functions that mutate the PRNG, keep them isolated in unmocked files to prevent global `vi.mock()` hoisting issues (e.g. `vi.mock('../js/rng.js')` breaking the real RNG calls).
+
 ### Contexts & Evaluation
 - **Tests with PRNG**: If testing functions that mutate the PRNG, keep them isolated in unmocked files to prevent global `vi.mock()` hoisting issues (e.g. `vi.mock('../js/rng.js')` breaking the real RNG calls).
 - Three independent PRNG contexts: core (gameplay), Lua (special levels), display (hallucination). All three must be reproduced in the correct interleaved order.
