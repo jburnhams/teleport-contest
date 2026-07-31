@@ -24,7 +24,7 @@ Port hero initialization — stats, starting inventory, skills, attributes. This
 - [ ] Use `mksobj()` from Stream D for item creation
 - [x] Handle quantity, BUC status, enchantment per role
 - [ ] Port `knows_object()` — mark items as identified
-- [ ] Port `uwep`, `uarm`, `uarmh` etc. — equip starting items
+- [x] Port `uwep`, `uarm`, `uarmh` etc. — equip starting items
 
 ## F3. newpw — energy calculation (generalized)
 - [x] Port `newpw()` from exper.c — works for all roles, not just Wizard
