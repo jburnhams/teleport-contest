@@ -245,3 +245,9 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Cleaned up loose test scratchpads and incorporated `test/o_init.test.js` covering `MAXOCLASSES` index initialization.
 - Validated via scoring maintaining exact 100% baseline structural alignment (88/11406 screens pass).
 - Next steps: Proceed to D2.3 (Erosion & Quantity helpers) exploring `may_generate_eroded` functionality.
+
+## 2026-06-28
+- Ported `goodpos`, `enexto_core`, `enexto`, `makemon_rnd_goodpos` from C to JS.
+- Added `set_mon_data` to `js/mondata.js`.
+- Added test `test/goodpos.test.js` to verify exact PRNG matches against C logic for `goodpos` (e.g. `rn2(13)` for `S_EEL`), `enexto_core`, and `makemon_rnd_goodpos`.
+- Next: Continue with Stream E tasks for monster generation like `makemon` and others.

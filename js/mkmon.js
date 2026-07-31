@@ -238,3 +238,229 @@ export function rndmonnum_adj(minadj, maxadj) {
 
     return i;
 }
+
+
+import { cansee } from './vision.js';
+
+// C ref: teleport.c
+export function goodpos_onscary(x, y, mptr) {
+    if (mptr.mlet === C.S_HUMAN || mptr.mlet === C.S_ANGEL)
+        return false;
+
+    // Some simplifications since macro is missing or we just don't have it
+    // IS_ALTAR, is_rider, unique_corpstat omitted for brevity.
+    if (hacklib.sobj_at(C.SCR_SCARE_MONSTER, x, y))
+        return true;
+
+    if (hacklib.Inhell() || C.In_endgame())
+        return false;
+
+    if (mptr === mons[C.PM_MINOTAUR] || !mondata.haseyes(mptr))
+        return false;
+
+    return hacklib.sengr_at("Elbereth", x, y, true) ? true : false;
+}
+
+// C ref: teleport.c
+export function goodpos(x, y, mtmp, gpflags) {
+    let mdat = null;
+    let ignorewater = ((gpflags & C.MM_IGNOREWATER) !== 0);
+    let ignorelava = ((gpflags & C.MM_IGNORELAVA) !== 0);
+    let checkscary = ((gpflags & C.GP_CHECKSCARY) !== 0);
+    let allow_u = ((gpflags & C.GP_ALLOW_U) !== 0);
+    let avoid_monpos = ((gpflags & C.GP_AVOID_MONPOS) !== 0);
+
+    if (!hacklib.isok(x, y))
+        return false;
+
+    if (!allow_u) {
+        if (game.u && game.u.ux === x && game.u.uy === y && mtmp !== game.u?.youmonst) {
+            // Simplification: just return false if u_at(x,y)
+            return false;
+        }
+    }
+
+    if (game.level && game.level.monsters[x] && game.level.monsters[x][y] && avoid_monpos)
+        return false;
+
+    if (mtmp) {
+        let mtmp2 = m_at(x, y);
+
+        if (mtmp2 && (mtmp2 !== mtmp || mtmp.wormno))
+            return false;
+
+        mdat = mtmp.data;
+        if (hacklib.is_pool(x, y) && !ignorewater) {
+            if (mtmp === game.u?.youmonst)
+                return false; // Stub
+            else
+                return (hacklib.is_swimmer(mdat) || (!C.Is_waterlevel() && !hacklib.is_waterwall(x, y) && hacklib.m_in_air(mtmp)));
+        } else if (mdat && mdat.mlet === C.S_EEL && rn2(13) && !ignorewater) {
+            return false;
+        } else if (hacklib.is_lava(x, y) && !ignorelava) {
+            if (mdat === mons[C.PM_FLOATING_EYE])
+                return false;
+            else if (mtmp === game.u?.youmonst)
+                return false; // Stub
+            else
+                return (hacklib.m_in_air(mtmp) || hacklib.likes_lava(mdat));
+        }
+
+        if (hacklib.passes_walls(mdat) && hacklib.may_passwall(x, y))
+            return true;
+        if (hacklib.amorphous(mdat) && hacklib.closed_door(x, y))
+            return true;
+
+        if (checkscary && (mtmp.m_id ? hacklib.onscary(x, y, mtmp) : goodpos_onscary(x, y, mdat)))
+            return false;
+    }
+
+    if (!hacklib.accessible(x, y)) {
+        if (!(hacklib.is_pool(x, y) && ignorewater) && !(hacklib.is_lava(x, y) && ignorelava))
+            return false;
+    }
+
+    if (hacklib.sobj_at(C.BOULDER, x, y) && (!mdat || !hacklib.throws_rocks(mdat)))
+        return false;
+
+    if (avoid_monpos && hacklib.is_exclusion_zone(C.LR_MONGEN, x, y))
+        return false;
+
+    return true;
+}
+
+// C ref: teleport.c
+export function enexto_core(cc, xx, yy, mdat, entflags) {
+    const MAX_GOOD = 15;
+    let good = [];
+    let x, y, range, i;
+    let xmin, xmax, ymin, ymax, rangemax;
+    let fakemon = { data: null }; // simulating cg.zeromonst structure
+    let allow_xx_yy = ((entflags & C.GP_ALLOW_XY) !== 0);
+
+    entflags &= ~C.GP_ALLOW_XY;
+    if (!mdat) {
+        mdat = mons[game.u?.umonster || 0]; // default to player's original monster type if u is defined
+    }
+
+    // set up for goodpos
+    mondata.set_mon_data(fakemon, mdat);
+
+    xmax = Math.max(xx - 1, (C.COLNO - 1) - xx);
+    ymax = Math.max(yy - 0, (C.ROWNO - 1) - yy);
+    rangemax = Math.max(xmax, ymax);
+
+    range = 1;
+    outer_loop: do {
+        xmin = Math.max(1, xx - range);
+        xmax = Math.min(C.COLNO - 1, xx + range);
+        ymin = Math.max(0, yy - range);
+        ymax = Math.min(C.ROWNO - 1, yy + range);
+
+        for (x = xmin; x <= xmax; x++) {
+            if (goodpos(x, ymin, fakemon, entflags)) {
+                good.push({x: x, y: ymin});
+                if (good.length === MAX_GOOD) break outer_loop;
+            }
+            if (goodpos(x, ymax, fakemon, entflags)) {
+                good.push({x: x, y: ymax});
+                if (good.length === MAX_GOOD) break outer_loop;
+            }
+        }
+        for (y = ymin; y < ymax; y++) {
+            if (goodpos(xmin, y, fakemon, entflags)) {
+                good.push({x: xmin, y: y});
+                if (good.length === MAX_GOOD) break outer_loop;
+            }
+            if (goodpos(xmax, y, fakemon, entflags)) {
+                good.push({x: xmax, y: y});
+                if (good.length === MAX_GOOD) break outer_loop;
+            }
+        }
+    } while (++range <= rangemax && good.length === 0);
+
+    if (good.length === 0) {
+        cc.x = xx;
+        cc.y = yy;
+        if (allow_xx_yy && goodpos(xx, yy, fakemon, entflags)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    i = rn2(good.length);
+    cc.x = good[i].x;
+    cc.y = good[i].y;
+    return true;
+}
+
+// C ref: teleport.c
+export function enexto(cc, xx, yy, mdat) {
+    return (enexto_core(cc, xx, yy, mdat, C.GP_CHECKSCARY) || enexto_core(cc, xx, yy, mdat, C.NO_MM_FLAGS));
+}
+
+// C ref: teleport.c
+export function enexto_gpflags(cc, xx, yy, mdat, entflags) {
+    return (enexto_core(cc, xx, yy, mdat, C.GP_CHECKSCARY | entflags) || enexto_core(cc, xx, yy, mdat, entflags));
+}
+
+// C ref: makemon.c
+export function makemon_rnd_goodpos(mon, gpflags, cc) {
+    let tryct = 0;
+    let nx, ny;
+    let good;
+
+    gpflags |= C.GP_AVOID_MONPOS;
+    do {
+        nx = rn1(C.COLNO - 3, 2);
+        ny = rn2(C.ROWNO);
+        good = (!game.gi?.in_mklev && cansee(nx, ny)) ? false : goodpos(nx, ny, mon, gpflags);
+    } while ((++tryct < 50) && !good);
+
+    if (!good) {
+        let xofs = nx;
+        let yofs = ny;
+        let dx, dy;
+        let bl = (game.gi?.in_mklev || (game.u && game.u.uprops?.Blind)) ? 1 : 0;
+
+        for (; bl < 2; bl++) {
+            if (!bl)
+                gpflags &= ~C.GP_CHECKSCARY;
+            for (dx = 0; dx < C.COLNO; dx++) {
+                for (dy = 0; dy < C.ROWNO; dy++) {
+                    nx = ((dx + xofs) % (C.COLNO - 1)) + 1;
+                    ny = ((dy + yofs) % (C.ROWNO - 1)) + 1;
+                    if (bl === 0 && cansee(nx, ny))
+                        continue;
+                    if (goodpos(nx, ny, mon, gpflags)) {
+                        cc.x = nx;
+                        cc.y = ny;
+                        return true;
+                    }
+                }
+            }
+            if (bl === 0 && (!mon || (mon.data && mon.data.mmove))) {
+                let stway = game.stairs;
+                while (stway) {
+                    if (stway.tolev.dnum === game.u.uz.dnum && !rn2(2)) {
+                        nx = stway.sx;
+                        ny = stway.sy;
+                        break;
+                    }
+                    stway = stway.next;
+                }
+                if (goodpos(nx, ny, mon, gpflags)) {
+                    cc.x = nx;
+                    cc.y = ny;
+                    return true;
+                }
+            }
+        }
+    } else {
+        cc.x = nx;
+        cc.y = ny;
+        return true;
+    }
+    return false;
+}

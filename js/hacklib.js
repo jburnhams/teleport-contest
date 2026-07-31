@@ -50,3 +50,25 @@ export function level_difficulty() {
 }
 
 // C ref: rn2(x) already in rng.js — re-export not needed
+
+
+// Stubs for goodpos utilities that don't consume RNG
+export function is_pool(x, y) { return false; }
+export function is_waterwall(x, y) { return false; }
+export function is_swimmer(mdat) { return false; }
+export function m_in_air(mtmp) { return false; }
+export function likes_lava(mdat) { return false; }
+export function passes_walls(mdat) { return false; }
+export function may_passwall(x, y) { return false; }
+export function amorphous(mdat) { return false; }
+export function closed_door(x, y) { return false; }
+export function onscary(x, y, mtmp) { return false; }
+export function throws_rocks(mdat) { return false; }
+export function is_exclusion_zone(zone_type, x, y) { return false; }
+export function sobj_at(otyp, x, y) { return null; }
+export function sengr_at(text, x, y, exact) { return null; }
+export function accessible(x, y) {
+    // basic accessibility check, simplified
+    return true;
+}
+export function is_lava(x, y) { return false; }
