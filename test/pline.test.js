@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from 'vitest';
-import { pline, You, verbalize } from '../js/pline.js';
+import { pline, You, verbalize, vpline, putmsghistory } from '../js/pline.js';
 import { game } from '../js/gstate.js';
 import { GameDisplay } from '../js/game_display.js';
 import * as input from '../js/input.js';
@@ -39,5 +39,28 @@ describe('pline', () => {
         } finally {
             getchSpy.mockRestore();
         }
+    });
+
+    it('vpline should only display message if flags.verbose is true', async () => {
+        game.nhDisplay = new GameDisplay(null);
+        game.flags = { verbose: false };
+
+        await vpline("Hidden message");
+        expect(game.nhDisplay.topMessage).toBeNull(); // Was empty initially
+
+        game.flags.verbose = true;
+        await vpline("Visible message");
+        expect(game.nhDisplay.topMessage).toBe("Visible message");
+    });
+
+    it('putmsghistory should append to messages without displaying', () => {
+        game.nhDisplay = new GameDisplay(null);
+        game.nhDisplay.messages = [];
+
+        putmsghistory("History message 1");
+        expect(game.nhDisplay.topMessage).toBeNull(); // Should not affect display
+        expect(game.nhDisplay.messages.length).toBe(1);
+        expect(game.nhDisplay.messages[0]).toBe("History message 1");
+
     });
 });
