@@ -1,5 +1,8 @@
 import { describe, it, expect, beforeEach } from 'vitest';
-import { newobj, bless, curse, unbless, uncurse, blessorcurse, bcsign } from '../js/mkobj.js';
+import { game, resetGame } from '../js/gstate.js';
+import * as Const from '../js/const.js';
+import { LONG_SWORD, SHURIKEN } from '../js/objects.js';
+import { newobj, bless, curse, unbless, uncurse, blessorcurse, bcsign, may_generate_eroded, mkobj_erosions, is_multigen } from '../js/mkobj.js';
 import { initRng, getRngLog, enableRngLog } from '../js/rng.js';
 import { COIN_CLASS, WEAPON_CLASS } from '../js/const.js';
 
@@ -81,5 +84,41 @@ describe('BUC assignment', () => {
 
         // It should either be blessed or cursed depending on rn2(2) result
         expect(obj.blessed || obj.cursed).toBe(1);
+    });
+});
+
+describe('Erosion and Quantity Helpers', () => {
+    beforeEach(() => {
+        resetGame();
+        initRng(12345);
+        enableRngLog();
+    });
+
+    it('should determine may_generate_eroded correctly', () => {
+        game.in_mklev = true;
+        const otmp = newobj();
+        otmp.otyp = LONG_SWORD;
+        otmp.oclass = Const.WEAPON_CLASS;
+
+        expect(may_generate_eroded(otmp)).toBe(true);
+    });
+
+    it('should correctly consume RNG calls in mkobj_erosions', () => {
+        game.in_mklev = true;
+        const otmp = newobj();
+        otmp.otyp = LONG_SWORD;
+        otmp.oclass = Const.WEAPON_CLASS;
+
+        mkobj_erosions(otmp);
+
+        const log = getRngLog();
+        expect(log.length).toBeGreaterThan(0);
+    });
+
+    it('should identify multigen weapons', () => {
+        const shuriken = newobj();
+        shuriken.otyp = SHURIKEN;
+        shuriken.oclass = Const.WEAPON_CLASS;
+        expect(is_multigen(shuriken)).toBe(true);
     });
 });

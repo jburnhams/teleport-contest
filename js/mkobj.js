@@ -6,7 +6,8 @@ import {
     WAND_CLASS, SPBOOK_CLASS, FOOD_CLASS, TOOL_CLASS, GEM_CLASS, RING_CLASS,
     AMULET_CLASS, COIN_CLASS
 } from './const.js';
-import { BOULDER, GOLD_PIECE, STRANGE_OBJECT, objects } from './objects.js';
+import { BOULDER, GOLD_PIECE, STRANGE_OBJECT, objects, TALLOW_CANDLE, WAX_CANDLE, WAN_FIRE, WORM_TOOTH } from './objects.js';
+import * as Const from './const.js';
 import { rnd, rn2, rn1 } from './rng.js';
 import { depth, level_difficulty } from './hacklib.js';
 
@@ -425,4 +426,62 @@ export function mkobj_at(oclass, x, y, artif) {
     const otmp = mkobj(oclass, artif);
     place_object(otmp, x, y);
     return otmp;
+}
+
+export function is_weptool(otmp) {
+    return otmp.oclass === Const.TOOL_CLASS && objects[otmp.otyp].oc_subtyp !== Const.P_NONE;
+}
+export function erosion_matters(otmp) {
+    switch (otmp.oclass) {
+        case Const.TOOL_CLASS: return is_weptool(otmp);
+        case Const.WEAPON_CLASS:
+        case Const.ARMOR_CLASS:
+        case Const.BALL_CLASS:
+        case Const.CHAIN_CLASS: return true;
+        default: break;
+    }
+    return false;
+}
+export function is_rustprone(otmp) { return objects[otmp.otyp].oc_material === Const.IRON; }
+export function is_flammable(otmp) {
+    const otyp = otmp.otyp;
+    const omat = objects[otyp].oc_material;
+    if (otyp === TALLOW_CANDLE || otyp === WAX_CANDLE) return false;
+    if (objects[otyp].oc_oprop === Const.FIRE_RES || otyp === WAN_FIRE) return false;
+    return (omat <= Const.WOOD && omat !== Const.LIQUID) || omat === Const.PLASTIC;
+}
+export function is_rottable(otmp) {
+    const omat = objects[otmp.otyp].oc_material;
+    return (omat <= Const.WOOD && omat !== Const.LIQUID) || omat === Const.DRAGON_HIDE;
+}
+export function is_corrodeable(otmp) { return objects[otmp.otyp].oc_material === Const.COPPER || objects[otmp.otyp].oc_material === Const.IRON; }
+export function is_crackable(otmp) { return objects[otmp.otyp].oc_material === Const.GLASS && otmp.oclass === Const.ARMOR_CLASS; }
+export function is_damageable(otmp) { return is_rustprone(otmp) || is_flammable(otmp) || is_rottable(otmp) || is_corrodeable(otmp) || is_crackable(otmp); }
+export function is_multigen(otmp) { return otmp.oclass === Const.WEAPON_CLASS && objects[otmp.otyp].oc_subtyp >= -Const.P_SHURIKEN && objects[otmp.otyp].oc_subtyp <= -Const.P_BOW; }
+export function may_generate_eroded(otmp) {
+    if (game.moves <= 1 && !game.in_mklev) return false;
+    if (otmp.oerodeproof || !erosion_matters(otmp) || !is_damageable(otmp)) return false;
+    if (otmp.otyp === WORM_TOOTH || (otmp.oclass === Const.TOOL_CLASS && objects[otmp.otyp].oc_subtyp === Const.P_UNICORN_HORN)) return false;
+    if (otmp.oartifact) return false;
+    return true;
+}
+export function mkobj_erosions(otmp) {
+    if (may_generate_eroded(otmp)) {
+        if (!rn2(100)) {
+            otmp.oerodeproof = 1;
+        } else {
+            if (!rn2(80) && (is_flammable(otmp) || is_rustprone(otmp) || is_crackable(otmp))) {
+                do {
+                    otmp.oeroded++;
+                } while (otmp.oeroded < 3 && !rn2(9));
+            }
+            if (!rn2(80) && (is_rottable(otmp) || is_corrodeable(otmp))) {
+                do {
+                    otmp.oeroded2++;
+                } while (otmp.oeroded2 < 3 && !rn2(9));
+            }
+        }
+        if (!rn2(1000))
+            otmp.greased = 1;
+    }
 }
