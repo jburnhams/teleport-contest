@@ -27,6 +27,7 @@ Key insights discovered during the port. Add entries as discoveries are made.
 - JavaScript evaluates function arguments left-to-right, matching clang's behaviour. The C recorder is built with clang for exactly this reason — gcc evaluates right-to-left and produces a completely different RNG sequence.
 - The seed is passed as a 64-bit integer, split into 8 little-endian bytes, and fed to ISAAC64 (`js/rng.js:initRng`).
 - If tests throw a TypeError in `isaac64.js` (e.g., 'Cannot read properties of undefined (reading 'n')'), the PRNG context is missing. Ensure `initRng(seed)` is called before executing any function that consumes random numbers.
+- **Tests with PRNG**: If testing functions that mutate the PRNG, keep them isolated in unmocked files to prevent global `vi.mock()` hoisting issues (e.g. `vi.mock('../js/rng.js')` breaking the real RNG calls).
 
 ### fastforward.js
 - Hardcoded RNG replay for **seed8000 only**. Never generalizes. Must be replaced function-by-function with real C ports.
