@@ -245,3 +245,10 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Cleaned up loose test scratchpads and incorporated `test/o_init.test.js` covering `MAXOCLASSES` index initialization.
 - Validated via scoring maintaining exact 100% baseline structural alignment (88/11406 screens pass).
 - Next steps: Proceed to D2.3 (Erosion & Quantity helpers) exploring `may_generate_eroded` functionality.
+
+## 2026-05-17
+- Completed Stream D2.3 subtask (Erosion & Quantity helpers).
+- Implemented `is_multigen`, `mkobj_erosions`, `is_damageable`, `is_flammable`, `is_rustprone`, `is_crackable`, `is_rottable`, `is_corrodeable`, `erosion_matters`, and `may_generate_eroded` in `js/mkobj.js` correctly matching C logic and PRNG consumption sequence.
+- Wrote `test/mkobj.erosions.test.js` unit tests verifying the erosion and quantity helpers.
+- Maintained exact 100% baseline structural alignment (+0 regression score).
+- Next step: D2.4 (Monster & Corpse helpers).

@@ -1,3 +1,4 @@
+import * as C from './const.js';
 // C ref: obj.h
 import { game } from './gstate.js';
 import { fobj, set_fobj } from './decl.js';
@@ -425,4 +426,118 @@ export function mkobj_at(oclass, x, y, artif) {
     const otmp = mkobj(oclass, artif);
     place_object(otmp, x, y);
     return otmp;
+}
+
+export function is_multigen(otmp) {
+    if (!otmp) return false;
+    const otyp = otmp.otyp;
+    if (objects[otyp]) {
+        if (otmp.oclass === C.WEAPON_CLASS) {
+            const skill = objects[otyp].oc_subtyp; // stored as -P_SHURIKEN, etc. if negative, mapped to oc_skill
+            if (skill >= -24 && skill <= -20) { // P_SHURIKEN = 24, P_BOW = 20
+                return true;
+            }
+        }
+    }
+    return false;
+}
+
+export function is_flammable(otmp) {
+    if (!otmp) return false;
+    const otyp = otmp.otyp;
+    const omat = objects[otyp].oc_material;
+
+    // Is_candle check
+    if (otyp === 157 || otyp === 158) // TALLOW_CANDLE or WAX_CANDLE
+        return false;
+
+    if (objects[otyp].oc_oprop === C.FIRE_RES || otyp === 339) // WAN_FIRE
+        return false;
+
+    return (omat <= C.WOOD && omat !== C.LIQUID) || omat === C.PLASTIC;
+}
+
+export function is_rottable(otmp) {
+    if (!otmp) return false;
+    const otyp = otmp.otyp;
+
+    return (objects[otyp].oc_material <= C.WOOD
+            && objects[otyp].oc_material !== C.LIQUID)
+           || objects[otyp].oc_material === C.DRAGON_HIDE;
+}
+
+export function is_rustprone(otmp) {
+    if (!otmp) return false;
+    return objects[otmp.otyp].oc_material === C.IRON;
+}
+
+export function is_corrodeable(otmp) {
+    if (!otmp) return false;
+    return objects[otmp.otyp].oc_material === C.COPPER || objects[otmp.otyp].oc_material === C.IRON;
+}
+
+export function is_crackable(otmp) {
+    if (!otmp) return false;
+    return objects[otmp.otyp].oc_material === C.GLASS && otmp.oclass === C.ARMOR_CLASS;
+}
+
+export function is_damageable(otmp) {
+    if (!otmp) return false;
+    return is_rustprone(otmp) || is_flammable(otmp) || is_rottable(otmp) || is_corrodeable(otmp) || is_crackable(otmp);
+}
+
+export function erosion_matters(obj) {
+    if (!obj) return false;
+    switch (obj.oclass) {
+    case C.TOOL_CLASS:
+        // is_weptool
+        return objects[obj.otyp].oc_subtyp !== 0; // P_NONE is 0
+    case C.WEAPON_CLASS:
+    case C.ARMOR_CLASS:
+    case C.BALL_CLASS:
+    case C.CHAIN_CLASS:
+        return true;
+    default:
+        break;
+    }
+    return false;
+}
+
+export function may_generate_eroded(otmp) {
+    // initial hero inventory
+    if (game.moves <= 1 && !game.context.in_mklev)
+        return false;
+    // already erodeproof or cannot be eroded
+    if (otmp.oerodeproof || !erosion_matters(otmp) || !is_damageable(otmp))
+        return false;
+    // part of a monster's body and produced when it dies
+    if (otmp.otyp === 42 || otmp.otyp === 144) // WORM_TOOTH or UNICORN_HORN (144)
+        return false;
+    // artifacts cannot be generated eroded
+    if (otmp.oartifact)
+        return false;
+    return true;
+}
+
+export function mkobj_erosions(otmp) {
+    if (!otmp) return;
+    if (may_generate_eroded(otmp)) {
+        if (!rn2(100)) {
+            otmp.oerodeproof = 1;
+        } else {
+            if (!rn2(80) && (is_flammable(otmp) || is_rustprone(otmp)
+                             || is_crackable(otmp))) {
+                do {
+                    otmp.oeroded = (otmp.oeroded || 0) + 1;
+                } while (otmp.oeroded < 3 && !rn2(9));
+            }
+            if (!rn2(80) && (is_rottable(otmp) || is_corrodeable(otmp))) {
+                do {
+                    otmp.oeroded2 = (otmp.oeroded2 || 0) + 1;
+                } while (otmp.oeroded2 < 3 && !rn2(9));
+            }
+        }
+        if (!rn2(1000))
+            otmp.greased = 1;
+    }
 }
