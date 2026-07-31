@@ -190,6 +190,11 @@ Gender indices: 0=male, 1=female. Align indices: 0=chaotic, 1=neutral, 2=lawful.
 
 ## New Additions
 
+## Object System
+- **is_weptool**: The `WEPTOOL` items (e.g., pick-axe, grappling hook, unicorn horn) are missing from the current `objects.js` extraction. Implementations depending on them should use their `oc_subtyp` skill mappings (e.g., `P_PICK_AXE`, `P_FLAIL`, `P_UNICORN_HORN`) as a workaround instead of relying on exact `otyp` constants.
+- **otyp representation**: In the JS port, an object's `otyp` property (e.g., `otmp.otyp`) is strictly an integer index pointing to the item in the global `objects` array, not an object reference. Attempting to access properties directly on `otyp` (like `obj.otyp.oc_skill`) will return undefined. To access base object properties, you must read from `objects[otmp.otyp]`.
+
+
 <!-- 
 APPEND NEW LEARNINGS HERE. 
 The Librarian will periodically integrate these into the thematic sections above. 
