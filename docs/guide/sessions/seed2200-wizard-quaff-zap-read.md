@@ -34,4 +34,4 @@ Merlin inspects the floor tile beneath him (`:`).
 - The message line renders the specific string: *Something is written here in the dust. You read: "Elbereth".*
 - This validates the engine's ability to maintain and report floor-based engravings with absolute deterministic precision.
 
-It is a succinct mechanical validation of the engine's information-layer subroutines, proving that it can successfully coordinate complex map reveals, static text rendering, and environmental detection with absolute precision. Merlin's mental map and the dusty sigil are perfectly synced within the simulation's reality.
+It is a succinct mechanical validation of the engine's information-layer subroutines, proving that it can successfully coordinate complex map reveals, static text rendering, and environmental detection with absolute precision. Merlin's mental map and the dusty sigil are perfectly synced within the simulation's reality. One can only imagine the sheer terror of witnessing a lone Wizard frantically scratching mystical sigils on the floor.

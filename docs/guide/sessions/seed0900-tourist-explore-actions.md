@@ -32,4 +32,4 @@ For 60 steps, Touristo stands by as his little dog engages a jackal.
 **Steps 74–83: Final Analytics**
 Touristo reviews his known spells, discoveries, and attributes. He confirms his Intelligence (12) and Wisdom (11) before performing two final searches (`s`) and inspecting the floor (`:`), identifying a doorway.
 
-It is a succinct mechanical validation of the engine's command-accumulator and background combat-resolution logic, proving that it can successfully coordinate queued player actions with independent AI entities over dozens of turns with absolute deterministic precision. Touristo may not be scoring points, but his pet is certainly earning its keep.
+It is a succinct mechanical validation of the engine's command-accumulator and background combat-resolution logic, proving that it can successfully coordinate queued player actions with independent AI entities over dozens of turns with absolute deterministic precision. Touristo may not be scoring points, but his pet is certainly earning its keep. The engine cares not for glory, only for the flawless calculation of a jackal's demise.

@@ -32,4 +32,4 @@ Wizard begins zapping wands in rapid succession — fire, cold, lightning, magic
 **Segment 1: The Second Attempt**
 A new wizard arrives and repeats a similar pattern — administrative wishes, exploration, and eventual death at step 132. This segment validates that the full wishing-and-combat pipeline remains deterministically reproducible across fresh game instances with a different PRNG state.
 
-It is a vivid demonstration that the engine's bolt-physics and item-interaction subroutines are perfectly synchronised, even when the player's strategy is to point every available destructive force at themselves.
+It is a vivid demonstration that the engine's bolt-physics and item-interaction subroutines are perfectly synchronised, even when the player's strategy is to point every available destructive force at themselves. The mathematical universe does not care for your intentions, only your ricochet angles.

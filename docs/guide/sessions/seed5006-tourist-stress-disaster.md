@@ -50,4 +50,4 @@ The Knight invokes `#pray`, confirming the action. *You begin praying to Lugh.* 
 **Steps 24–41: The Repeat Performance**
 Undeterred by divine rebuke, the Knight wishes for another *wand of death* (`i - an aluminum wand`; 5 PRNG calls) and immediately zaps himself: *You irradiate yourself with pure energy! You die.* He accepts death. *Save bones?* He accepts. The engine detects the existing bones file: *Bones file already exists. Replace it? [yn]*
 
-Two lives, two wands of death, one shared grave. The engine's bones-file persistence infrastructure is validated across the complete lifecycle: generation, retrieval, and replacement negotiation. One cannot help but admire the ruthless efficiency of a testing methodology that involves repeatedly zapping oneself in the face.
+Two lives, two wands of death, one shared grave. The engine's bones-file persistence infrastructure is validated across the complete lifecycle: generation, retrieval, and replacement negotiation. One cannot help but admire the ruthless efficiency of a testing methodology that involves repeatedly zapping oneself in the face. A true testament to the engine's cold, uncaring perfection.

@@ -32,4 +32,4 @@ Robin attempts to apply his lock pick (e) to a wall or doorway to his right (l).
 **Steps 28–39: Final Analytics**
 Robin methodically reviews his inventory, known spells, discoveries, and attributes. He confirms his Intelligence (12) and Wisdom (11) before performing two final searches (`s`) and inspecting the floor (`:`).
 
-It is a succinct mechanical validation of the engine's pet-AI and trap-resolution logic, proving that the simulation is alive with independent activity even when the player is merely walking down a hallway. Robin may have missed the door, but his kitten didn't miss the dart.
+It is a succinct mechanical validation of the engine's pet-AI and trap-resolution logic, proving that the simulation is alive with independent activity even when the player is merely walking down a hallway. Robin may have missed the door, but his kitten didn't miss the dart. It is a comforting thought that even in a dark, procedurally generated dungeon, a cat will still find a way to play with deadly traps.

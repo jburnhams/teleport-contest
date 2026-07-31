@@ -31,4 +31,4 @@ Grok decides to test his starting equipment. He wields his +2 sling and fires.
 **Steps 39–50: Final Analytics**
 Grok methodically reviews his inventory, known spells, discoveries, and attributes. He confirms his dismal Intelligence (7) and Wisdom (9) before performing two final searches (`s`) and inspecting the floor (`:`).
 
-It is a succinct mechanical validation of the engine's ranged-combat and pet-inventory logic, proving that it can successfully coordinate complex entity-item interactions and multi-projectile launches with absolute deterministic precision. Grok may be a troglodyte, but his sling-work is mathematically flawless.
+It is a succinct mechanical validation of the engine's ranged-combat and pet-inventory logic, proving that it can successfully coordinate complex entity-item interactions and multi-projectile launches with absolute deterministic precision. Grok may be a troglodyte, but his sling-work is mathematically flawless. The universe bows to the arc of a well-calculated flint stone.

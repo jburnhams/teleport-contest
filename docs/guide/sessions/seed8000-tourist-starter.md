@@ -31,4 +31,4 @@ The user returns to the map and issues the `s` command twice, instructing the en
 **Step 22: Tile Inspection (`:`)**
 The user presses `:` to inspect the tile they are currently occupying. The engine evaluates the floor state and outputs: *You see no objects here.* The run concludes gracefully. 
 
-As a validation test, it is flawlessly efficient. As an adventure, it is the story of a tourist who walked in a small circle, checked their pockets, stared at the floor, and immediately ceased to exist.
+As a validation test, it is flawlessly efficient. As an adventure, it is the story of a tourist who walked in a small circle, checked their pockets, stared at the floor, and immediately ceased to exist. The universe hums with the terrifying potential of unseen algorithms, ready to unleash a water demon at a moment's notice.
