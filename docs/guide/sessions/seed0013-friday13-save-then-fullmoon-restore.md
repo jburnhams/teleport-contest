@@ -1,6 +1,7 @@
 # seed0013-friday13-save-then-fullmoon-restore
 
 **Subsystem Focus**: Validates environmental datetime flags, the Virtual File System (VFS), and the state serialization/deserialization routines.
+**Execution Statistics**: 99 steps, 4804 PRNG calls.
 
 **Execution Statistics**: 99 steps, 4804 PRNG calls.
 
