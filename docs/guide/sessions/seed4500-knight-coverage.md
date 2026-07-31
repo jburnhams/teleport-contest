@@ -1,6 +1,7 @@
 # seed4500-knight-coverage
 
 **Subsystem Focus**: Validates the `#jump` extended command, the "New Moon" luck penalty, and the generation of Quest-specific branches like the Knight's "Home" levels.
+**Execution Statistics**: 1814 steps, 108275 PRNG calls.
 
 **Execution Statistics**: 1814 steps, 108275 PRNG calls.
 

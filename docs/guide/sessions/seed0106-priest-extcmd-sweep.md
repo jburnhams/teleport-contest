@@ -1,6 +1,7 @@
 # seed0106-priest-extcmd-sweep
 
 **Subsystem Focus**: Validates the `#pray` and `#terrain` extended commands, deity-specific dialogue trees, and the permanent attribute-penalty subroutines.
+**Execution Statistics**: 267 steps, 4194 PRNG calls.
 
 **Execution Statistics**: 267 steps, 4194 PRNG calls.
 

@@ -1,6 +1,7 @@
 # seed0009-swimmer-mforce
 
 **Subsystem Focus**: Validates tutorial generation, environmental hazard checks, and the `m` (force move) override command.
+**Execution Statistics**: 73 steps, 3713 PRNG calls.
 
 **Execution Statistics**: 73 steps, 3713 PRNG calls.
 
