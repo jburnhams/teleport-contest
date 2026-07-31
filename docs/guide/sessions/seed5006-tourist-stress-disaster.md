@@ -1,6 +1,7 @@
 # seed5006-tourist-stress-disaster
 
 **Subsystem Focus**: Validates the administrative wishing system, cursed-item interactions, blindfold state transitions, confused scroll reading, bones-file generation, and cross-segment bones-file retrieval.
+**Execution Statistics**: 249 steps, 13,923 PRNG calls.
 
 **Execution Statistics**: 249 steps, 13923 PRNG calls.
 

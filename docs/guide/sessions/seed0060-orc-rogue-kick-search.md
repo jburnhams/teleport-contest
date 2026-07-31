@@ -1,6 +1,7 @@
 # seed0060-orc-rogue-kick-search
 
 **Subsystem Focus**: Validates search subroutines, kicking interactions with inanimate objects, and pet AI combat resolution.
+**Execution Statistics**: 41 steps, 3,626 PRNG calls.
 
 **Execution Statistics**: 41 steps, 3626 PRNG calls.
 

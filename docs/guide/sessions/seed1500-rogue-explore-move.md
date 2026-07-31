@@ -1,6 +1,7 @@
 # seed1500-rogue-explore-move
 
 **Subsystem Focus**: Validates pet pathfinding over corpses, trap-trigger resolution for non-player entities, and the boundary checks for the `apply` command.
+**Execution Statistics**: 40 steps, 2,768 PRNG calls.
 
 **Execution Statistics**: 40 steps, 2768 PRNG calls.
 

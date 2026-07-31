@@ -1,6 +1,7 @@
 # seed0383-wizard-hallucinate
 
 **Subsystem Focus**: Validates the "Hallucination" status effect, its impact on entity name rendering, and the persistence of background AI events during sensory distortion.
+**Execution Statistics**: 219 steps, 16,915 PRNG calls.
 
 **Execution Statistics**: 219 steps, 16915 PRNG calls.
 

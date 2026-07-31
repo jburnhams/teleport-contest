@@ -1,6 +1,7 @@
 # seed0007-rogue-snake-swamp
 
 **Subsystem Focus**: Validates manual character generation menus, fountain effect matrices, and multiple-entity combat resolution.
+**Execution Statistics**: 302 steps, 16,373 PRNG calls.
 
 **Execution Statistics**: 302 steps, 16373 PRNG calls.
 

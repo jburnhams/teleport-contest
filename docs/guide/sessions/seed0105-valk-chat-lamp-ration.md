@@ -1,6 +1,7 @@
 # seed0105-valk-chat-lamp-ration
 
 **Subsystem Focus**: Validates the `#chat` extended command, the `eat` interaction state machine, and the error-handling subroutines for invalid object selection.
+**Execution Statistics**: 30 steps, 2,499 PRNG calls.
 
 **Execution Statistics**: 30 steps, 2499 PRNG calls.
 

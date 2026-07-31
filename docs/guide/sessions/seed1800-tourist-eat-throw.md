@@ -1,6 +1,7 @@
 # seed1800-tourist-eat-throw
 
 **Subsystem Focus**: Validates the `eat` command specifically for fortune cookies, the deterministic generation of fortune strings, and the `throw` command logic for projectiles.
+**Execution Statistics**: 26 steps, 2,458 PRNG calls.
 
 **Execution Statistics**: 26 steps, 2458 PRNG calls.
 
