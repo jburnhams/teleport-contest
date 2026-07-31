@@ -13,6 +13,7 @@ Key insights discovered during the port. Add entries as discoveries are made.
 - RNG scoring is positional: for each C position i, both the argument N and return value M of `rn2(N)=M` must match. Even if you consume the right total count, being off by one position fails all subsequent matches.
 
 ### Environment & Tools
+- **Tests with PRNG**: If testing functions that mutate the PRNG, keep them isolated in unmocked files to prevent global `vi.mock()` hoisting issues (e.g. `vi.mock('../js/rng.js')`) breaking the real RNG calls.
 - **CRLF / WSL**: `frozen/score.sh` and `frozen/set-category.sh` shipped with Windows CRLF line endings, breaking bash on WSL (`$'\r': command not found`). Fixed with `sed -i 's/\r//' <file>`.
 - **Screen comparison**: Semantic, not byte-exact. `frozen/screen-decode.mjs` renders cells via `renderCell()` before comparing. DEC line-drawing chars (`\x0e` + 'l') and Unicode box chars ('┌') compare as EQUAL. Map screens can match even though `terminal.serialize()` raw bytes differ from the session JSON.
 - **ANSI Colors**: `display.putstr` defaults to `CLR_GRAY` (7) -> `\x1b[37m`. Must pass `NO_COLOR` (8 -> ANSI 39) explicitly when writing text that should match plain C output.
