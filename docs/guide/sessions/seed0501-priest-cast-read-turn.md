@@ -1,6 +1,8 @@
 # seed0501-priest-cast-read-turn
 
 **Subsystem Focus**: Validates spellcasting subroutines (`Z`), spellbook-reading interactions (`r`), and the associated Power (Pw) expenditure logic.
+**Execution Statistics**: 28 steps, 2238 PRNG calls.
+
 
 **Execution Statistics**: 28 steps, 2238 PRNG calls.
 

@@ -1,6 +1,8 @@
 # seed2600-wizard-custom-binds
 
 **Subsystem Focus**: Validates Wizard Mode administrative navigation and the engine's ability to handle custom key-binding states within the input state machine.
+**Execution Statistics**: 38 steps, 11647 PRNG calls.
+
 
 **Execution Statistics**: 38 steps, 11647 PRNG calls.
 

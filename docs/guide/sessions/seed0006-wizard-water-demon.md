@@ -1,6 +1,8 @@
 # seed0006-wizard-water-demon
 
 **Subsystem Focus**: Validates the interactive character generation menus, options configuration, combat calculation matrices, level descent, fountain quaff resolution, and cross-level entity tracking.
+**Execution Statistics**: 123 steps, 6736 PRNG calls.
+
 
 **Execution Statistics**: 123 steps, 6736 PRNG calls.
 

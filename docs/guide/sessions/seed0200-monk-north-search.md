@@ -1,6 +1,8 @@
 # seed0200-monk-north-search
 
 **Subsystem Focus**: Validates Monk-specific vegetarianism constraints, nutritional status changes, and the ethical-penalty subroutines.
+**Execution Statistics**: 40 steps, 3822 PRNG calls.
+
 
 **Execution Statistics**: 40 steps, 3822 PRNG calls.
 

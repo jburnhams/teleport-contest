@@ -1,6 +1,8 @@
 # seed0004-feeding-pony
 
 **Subsystem Focus**: Validates character generation menus, pet AI pathfinding algorithms, and object consumption logic.
+**Execution Statistics**: 409 steps, 12084 PRNG calls.
+
 
 **Execution Statistics**: 409 steps, 12084 PRNG calls.
 

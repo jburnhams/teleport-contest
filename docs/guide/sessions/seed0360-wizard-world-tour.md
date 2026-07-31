@@ -1,6 +1,8 @@
 # seed0360-wizard-world-tour
 
 **Subsystem Focus**: Validates Wizard Mode administrative navigation (`#levelchange`), mass-level generation, and the physical interaction subroutines for heavy object displacement.
+**Execution Statistics**: 833 steps, 120639 PRNG calls.
+
 
 **Execution Statistics**: 833 steps, 120639 PRNG calls.
 

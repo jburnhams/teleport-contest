@@ -1,6 +1,8 @@
 # seed0900-tourist-explore-actions
 
 **Subsystem Focus**: Validates "Explore Mode" status, the command-count prefix logic, and the resolution of long-duration pet combat.
+**Execution Statistics**: 84 steps, 2983 PRNG calls.
+
 
 **Execution Statistics**: 84 steps, 2983 PRNG calls.
 

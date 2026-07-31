@@ -1,6 +1,8 @@
 # seed0015-valk-level2-pit-dog-wait
 
 **Subsystem Focus**: Validates pet pathfinding, pit trap resolution, and the deterministic consequences of the `.` (wait) command.
+**Execution Statistics**: 44 steps, 8563 PRNG calls.
+
 
 **Execution Statistics**: 44 steps, 8563 PRNG calls.
 

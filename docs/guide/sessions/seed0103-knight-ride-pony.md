@@ -1,6 +1,8 @@
 # seed0103-knight-ride-pony
 
 **Subsystem Focus**: Validates the `#ride` extended command, the dexterity-based success checks for mounting, and fall-damage resolution.
+**Execution Statistics**: 60 steps, 2640 PRNG calls.
+
 
 **Execution Statistics**: 60 steps, 2640 PRNG calls.
 

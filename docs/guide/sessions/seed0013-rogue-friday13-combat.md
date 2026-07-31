@@ -1,6 +1,8 @@
 # seed0013-rogue-friday13-combat
 
 **Subsystem Focus**: Validates environmental datetime flags, forced-combat subroutines, and object dropping mechanics.
+**Execution Statistics**: 59 steps, 4838 PRNG calls.
+
 
 **Execution Statistics**: 59 steps, 4838 PRNG calls.
 

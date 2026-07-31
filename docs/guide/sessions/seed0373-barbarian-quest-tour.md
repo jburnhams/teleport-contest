@@ -1,6 +1,8 @@
 # seed0373-barbarian-quest-tour
 
 **Subsystem Focus**: Validates Wizard Mode administrative navigation, elemental plane generation subroutines, and the associated environmental status effects.
+**Execution Statistics**: 124 steps, 35386 PRNG calls.
+
 
 **Execution Statistics**: 124 steps, 35386 PRNG calls.
 
