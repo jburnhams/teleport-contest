@@ -245,3 +245,9 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Cleaned up loose test scratchpads and incorporated `test/o_init.test.js` covering `MAXOCLASSES` index initialization.
 - Validated via scoring maintaining exact 100% baseline structural alignment (88/11406 screens pass).
 - Next steps: Proceed to D2.3 (Erosion & Quantity helpers) exploring `may_generate_eroded` functionality.
+
+## 2024-06-01
+- Ported `putmsghistory()` in `js/pline.js` to correctly maintain the message recall array without pushing visually.
+- Validated via testing and handled architectural differences concerning the `verbose` flag by removing it since `vpline` means `va_list` pline in C, not verbose pline.
+- The vitest runner has a few warnings about npm engines matching, which I bumped when downloading `vitest`.
+- Next, continue working through Stream C: Map rendering improvements (`C3`).
