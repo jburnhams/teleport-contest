@@ -1,6 +1,7 @@
 # seed1150-caveman-explore-move
 
 **Subsystem Focus**: Validates pet inventory interactions, the `shoot` command for projectile-launchers, and the associated inventory-state updates.
+**Execution Statistics**: 51 steps, 3137 PRNG calls.
 
 **Execution Statistics**: 51 steps, 3137 PRNG calls.
 
