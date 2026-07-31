@@ -245,3 +245,10 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Cleaned up loose test scratchpads and incorporated `test/o_init.test.js` covering `MAXOCLASSES` index initialization.
 - Validated via scoring maintaining exact 100% baseline structural alignment (88/11406 screens pass).
 - Next steps: Proceed to D2.3 (Erosion & Quantity helpers) exploring `may_generate_eroded` functionality.
+
+## 2026-05-16
+- Continued Stream C by partially implementing C2 (`js/pline.js`) features.
+- Implemented `putmsghistory()` exactly as requested by pushing directly to `game.nhDisplay.messages` to simulate C's recall buffers without imposing an artificial limit inside the function.
+- Researched `game.flags.verbose` requirement and confirmed `vpline` natively supports this via varargs rather than needing a specific wrapper. Unchecked `game.flags.verbose` pending inline implementation where required rather than making an inaccurate wrapper in `pline.js`.
+- Verified implementation against vitest tests and baseline using scoring `npm run score:check`.
+- Next steps: Map rendering improvements (`C3. Map rendering improvements`) and terminal matching output (`C4`).

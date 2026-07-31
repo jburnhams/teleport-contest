@@ -31,7 +31,7 @@ Port the display subsystem — status lines, message handling, map rendering imp
 - [x] Port `pline()` — format string handling (like printf but simpler)
 - [x] Port message line display — write to row 0 of terminal
 - [x] Port `--More--` prompt — when message would overwrite previous unread message
-- [ ] Port `putmsghistory()` — message recall
+ - [x] Port `putmsghistory()` — message recall
 - [x] Port `Sprintf`-style format helpers used by pline
 - [ ] Handle `game.flags.verbose` — some messages only show in verbose mode
 - [x] Wire into display.js, replacing simple `game._pending_message` approach

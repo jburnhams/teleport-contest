@@ -64,3 +64,12 @@ export async function verbalize(msgOrFormat, ...args) {
     const msg = (args.length > 0 || msgOrFormat.includes('%')) ? sprintf(msgOrFormat, ...args) : msgOrFormat;
     return await pline(`"${msg}"`);
 }
+
+// C ref: topl.c
+export function putmsghistory(msg, restoring_msghist = false) {
+    if (!msg) return;
+    if (game.nhDisplay) {
+        // Just push to history without displaying, simulating C's recall buffer setup
+        game.nhDisplay.messages.push(msg);
+    }
+}
