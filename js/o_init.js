@@ -32,11 +32,11 @@ export function init_objects() {
 
     for (let oclass = 0; oclass < MAXOCLASSES; ++oclass) {
         let sum = 0;
-        for (let i = bases[oclass]; i < bases[oclass + 1]; ++i) {
+        for (let i = bases[oclass]; i < bases[oclass + 1] && i < NUM_OBJECTS; ++i) {
             sum += objects[i].oc_prob;
         }
         if (sum <= 0 && oclass !== ILLOBJ_CLASS && bases[oclass] !== bases[oclass + 1]) {
-            for (let i = bases[oclass]; i < bases[oclass + 1]; ++i) {
+            for (let i = bases[oclass]; i < bases[oclass + 1] && i < NUM_OBJECTS; ++i) {
                 objects[i].oc_prob = 1;
                 sum++;
             }
