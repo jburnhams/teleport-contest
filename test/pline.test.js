@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from 'vitest';
-import { pline, You, verbalize } from '../js/pline.js';
+import { pline, You, verbalize, putmsghistory } from '../js/pline.js';
 import { game } from '../js/gstate.js';
 import { GameDisplay } from '../js/game_display.js';
 import * as input from '../js/input.js';
@@ -40,4 +40,20 @@ describe('pline', () => {
             getchSpy.mockRestore();
         }
     });
+
+    it('should push message to history without capping size or modifying topMessage', () => {
+        game.nhDisplay = new GameDisplay(null);
+        game.nhDisplay.topMessage = "Initial top message";
+
+        // Add 30 messages to putmsghistory
+        for (let i = 0; i < 30; i++) {
+            putmsghistory("History message " + i, true);
+        }
+
+        expect(game.nhDisplay.messages.length).toBe(30);
+        expect(game.nhDisplay.messages[0]).toBe("History message 0");
+        expect(game.nhDisplay.messages[29]).toBe("History message 29");
+        expect(game.nhDisplay.topMessage).toBe("Initial top message"); // Top message unchanged
+    });
+
 });

@@ -64,3 +64,10 @@ export async function verbalize(msgOrFormat, ...args) {
     const msg = (args.length > 0 || msgOrFormat.includes('%')) ? sprintf(msgOrFormat, ...args) : msgOrFormat;
     return await pline(`"${msg}"`);
 }
+
+
+export function putmsghistory(msg, is_restoring) {
+    if (msg && game.nhDisplay) {
+        game.nhDisplay.messages.push(msg);
+    }
+}

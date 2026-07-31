@@ -245,3 +245,11 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Cleaned up loose test scratchpads and incorporated `test/o_init.test.js` covering `MAXOCLASSES` index initialization.
 - Validated via scoring maintaining exact 100% baseline structural alignment (88/11406 screens pass).
 - Next steps: Proceed to D2.3 (Erosion & Quantity helpers) exploring `may_generate_eroded` functionality.
+
+## 2026-05-18 — Stream C: Message System (C2) - putmsghistory
+- Explored C2: pline.js — Message system.
+- Analyzed `nethack-c/upstream/src/windows.c` and `nethack-c/upstream/win/tty/topl.c` to see how `putmsghistory` works.
+- Implemented `putmsghistory` in `js/pline.js` which mimics the C buffer by pushing incoming messages onto `game.nhDisplay.messages` without displaying them.
+- Analyzed C's `flags.verbose` checks, confirming they are done inline at call sites rather than inside `pline()`. Marked the task as complete per architecture decisions.
+- Added test coverage in `test/pline.test.js` to ensure the history array receives elements correctly without altering the displayed `topMessage`.
+- Confirmed no score regression (88/11406 screens passed, identical to baseline on `seed8000`).
