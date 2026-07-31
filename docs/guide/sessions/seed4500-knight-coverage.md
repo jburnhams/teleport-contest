@@ -6,6 +6,9 @@
 
 This session serves as a comprehensive mechanical coverage test of the engine's movement and branching subroutines. The user entity—a Knight named *Wizard*—demonstrates the engine's ability to handle complex navigational commands like jumping, while also validating the procedural generation of class-specific Quest branches.
 
+
+**Execution Statistics**: 1813 steps, 108275 PRNG calls.
+
 ### Mechanical Sequence
 
 **Steps 1–2: The New Moon Penalty**

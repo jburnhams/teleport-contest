@@ -6,6 +6,9 @@
 
 This session serves as a brief but thorough mechanical validation of the engine's UI state machine. The user entity—a human Ranger named *Ricky*—demonstrates the engine's ability to process and cancel complex naming commands and the robust handling of invalid directional inputs.
 
+
+**Execution Statistics**: 24 steps, 4485 PRNG calls.
+
 ### Mechanical Sequence
 
 **Steps 1–3: The Tenderfoot**

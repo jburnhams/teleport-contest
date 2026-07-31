@@ -6,6 +6,9 @@
 
 This session serves as a delightful mechanical validation of the engine's object-consumption and randomised-text subroutines. The user entity—a Tourist named *Touristo*—demonstrates the engine's ability to process the complex, multi-stage interaction of eating a fortune cookie and the subsequent deterministic selection of a fortune message.
 
+
+**Execution Statistics**: 25 steps, 2458 PRNG calls.
+
 ### Mechanical Sequence
 
 **Steps 1–3: The Rambler Touristo**

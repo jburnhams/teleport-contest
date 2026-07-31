@@ -6,6 +6,9 @@
 
 This session serves as a brief but tragic validation of the engine's trap resolution logic. The user entity—a human Valkyrie named *Astrid*—witnesses the immediate and final resolution of a pit trap as it interacts with her accompanying pet. 
 
+
+**Execution Statistics**: 43 steps, 8563 PRNG calls.
+
 ### Mechanical Sequence
 
 **Steps 1–3: The Stripling Astrid**

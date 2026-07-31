@@ -6,6 +6,9 @@
 
 This session serves as a rigorous mechanical validation of the engine's ranged-combat and pet-AI subroutines. The user entity—a Caveman named *Grok*—demonstrates the engine's ability to handle multi-step pet item interactions and the deterministic resolution of a sling-based projectile launch.
 
+
+**Execution Statistics**: 50 steps, 3137 PRNG calls.
+
 ### Mechanical Sequence
 
 **Steps 1–5: The Troglodyte Grok**

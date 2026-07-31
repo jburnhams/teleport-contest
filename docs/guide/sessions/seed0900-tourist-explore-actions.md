@@ -6,6 +6,9 @@
 
 This session serves as a rigorous mechanical validation of the engine's administrative and combat-automation subroutines. The user entity—a Tourist named *Touristo*—demonstrates the engine's ability to handle the "non-scoring explore mode" flag, the queuing of repeated commands via count prefixes, and the deterministic resolution of a multi-turn melee between a pet and a monster.
 
+
+**Execution Statistics**: 83 steps, 2983 PRNG calls.
+
 ### Mechanical Sequence
 
 **Steps 1–3: The Explore Mode**

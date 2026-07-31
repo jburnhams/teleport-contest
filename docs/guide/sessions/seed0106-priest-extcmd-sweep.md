@@ -6,6 +6,9 @@
 
 This session serves as a rigorous mechanical validation of the engine's religious and diagnostic subroutines. The user entity—a human Priest named *Padre*—demonstrates the immediate and painful consequences of divine arrogance and the engine's ability to render complex terrain visualisations.
 
+
+**Execution Statistics**: 266 steps, 4194 PRNG calls.
+
 ### Mechanical Sequence
 
 **Steps 1–3: The Aspirant Padre**

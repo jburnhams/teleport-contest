@@ -6,6 +6,9 @@
 
 This session serves as a rigorous mechanical validation of the engine's equipment-state logic. The user entity—a human Ranger named *Ricky*—demonstrates the engine's ability to handle the subtle distinction between "quivering" a projectile-launcher and actually "wielding" it, leading to a predictably suboptimal combat result.
 
+
+**Execution Statistics**: 26 steps, 2371 PRNG calls.
+
 ### Mechanical Sequence
 
 **Steps 1–3: The Tenderfoot**

@@ -6,6 +6,9 @@
 
 This session serves as a rigorous mechanical validation of the engine's debugging and equipment-state logic. The user entity—a human Wizard named *Wizard*—utilises administrative powers to jump between dungeon levels and test the robust handling of armor and equipment flags.
 
+
+**Execution Statistics**: 126 steps, 12562 PRNG calls.
+
 ### Mechanical Sequence
 
 **Steps 1–6: The Wizard Mode Setup**

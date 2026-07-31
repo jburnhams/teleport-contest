@@ -6,6 +6,9 @@
 
 This session serves as a rigorous mechanical validation of the engine's debugging infrastructure from the perspective of a chaotic Priestess. The user entity—appropriately named *Wizard*—demonstrates the engine's ability to handle rapid jumps through the dungeon hierarchy while maintaining complex role-specific state.
 
+
+**Execution Statistics**: 323 steps, 50125 PRNG calls.
+
 ### Mechanical Sequence
 
 **Steps 1–3: The Aspirant Priestess**

@@ -6,6 +6,9 @@
 
 This session serves as a rigorous mechanical validation of the engine's role-based ethical constraints. The user entity—a human Monk named *Kira*—demonstrates the engine's ability to calculate nutritional state changes while simultaneously applying the psychological and luck penalties associated with violating a monastic vow of vegetarianism.
 
+
+**Execution Statistics**: 39 steps, 3822 PRNG calls.
+
 ### Mechanical Sequence
 
 **Steps 1–3: The Candidate Kira**

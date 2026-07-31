@@ -6,6 +6,9 @@
 
 This session serves as a high-precision mechanical validation of the engine's object-generation and monster-transformation subroutines. The user entity—a Wizard appropriately named *Wizard*—demonstrates the engine's ability to create specific items and entities via administrative commands and then resolves a complex state-change interaction between them.
 
+
+**Execution Statistics**: 86 steps, 3026 PRNG calls.
+
 ### Mechanical Sequence
 
 **Steps 1–39: The Wish for Change**

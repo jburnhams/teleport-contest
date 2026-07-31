@@ -6,6 +6,9 @@
 
 This session serves as a rigorous mechanical validation of the engine's equipment and posture subroutines. The user entity—a human Samurai named *Bushi*—demonstrates the engine's ability to handle the specialised "two-weapon" combat state and the environmental interactions of the "sit" command.
 
+
+**Execution Statistics**: 97 steps, 2902 PRNG calls.
+
 ### Mechanical Sequence
 
 **Steps 1–3: The Hatamoto Bushi**

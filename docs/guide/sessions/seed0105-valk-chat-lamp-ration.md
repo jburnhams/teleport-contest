@@ -6,6 +6,9 @@
 
 This session serves as a rigorous mechanical validation of the engine's UI state machine and interaction boundary checks. The user entity—a human Valkyrie named *Astrid*—demonstrates the engine's ability to handle conversational failure and the systematic rejection of invalid inventory items.
 
+
+**Execution Statistics**: 29 steps, 2499 PRNG calls.
+
 ### Mechanical Sequence
 
 **Steps 1–3: The Stripling Astrid**

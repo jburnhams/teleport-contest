@@ -6,6 +6,9 @@
 
 This session is fundamentally an infrastructure test disguised as superstitious dungeon crawling. The engine is deliberately fed a specific local datetime (Friday the 13th, during a Full Moon) to validate the datetime logic, before rigorously testing the game's ability to save the entire engine state to disk and successfully restore it in a new segment.
 
+
+**Execution Statistics**: 49 steps, 4804 PRNG calls.
+
 ### Mechanical Sequence
 
 #### Segment 0: The Superstitious Setup

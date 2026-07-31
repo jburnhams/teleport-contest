@@ -6,6 +6,9 @@
 
 This session serves as a focused mechanical shakedown of the engine's prayer subroutines. The user entity—a Samurai named *Akira*—demonstrates the immediate and deterministic consequences of pestering a deity too early in the game.
 
+
+**Execution Statistics**: 66 steps, 3465 PRNG calls.
+
 ### Mechanical Sequence
 
 **Steps 0–8: Character Name Entry**

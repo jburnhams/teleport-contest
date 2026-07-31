@@ -6,6 +6,9 @@
 
 This session provides a rigorous mechanical shakedown of the object dipping subroutines. The user entity—a Lawful Dwarven Valkyrie named *Dequa*—demonstrates the engine's ability to handle complex item-environment interactions and the resulting legal repercussions in a procedurally generated dungeon.
 
+
+**Execution Statistics**: 713 steps, 59178 PRNG calls.
+
 ### Mechanical Sequence
 
 **Steps 1–13: The Stripling Valkyrie**

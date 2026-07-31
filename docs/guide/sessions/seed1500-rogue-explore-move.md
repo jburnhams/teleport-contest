@@ -6,6 +6,9 @@
 
 This session serves as a rigorous mechanical validation of the engine's background entity AI and environmental interaction subroutines. The user entity—a human Rogue named *Robin*—demonstrates the engine's ability to coordinate complex pet behaviours, including dietary reluctance and independent trap evasion.
 
+
+**Execution Statistics**: 39 steps, 2768 PRNG calls.
+
 ### Mechanical Sequence
 
 **Steps 1–3: The Footpad Robin**

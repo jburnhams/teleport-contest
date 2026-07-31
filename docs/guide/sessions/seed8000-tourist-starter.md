@@ -8,6 +8,9 @@ This session establishes the baseline validation for the core game loop. Rather 
 
 The entity generated is a "Tourist"—a purportedly human female named Contestant who arrives in the dungeon with a camera, a Hawaiian shirt, and exactly $757. On screen, she is represented by a single `@`. Let us review her short, deterministic life frame by frame.
 
+
+**Execution Statistics**: 22 steps, 3130 PRNG calls.
+
 ### Mechanical Sequence
 
 **Step 0: Initialisation (NULL key)**

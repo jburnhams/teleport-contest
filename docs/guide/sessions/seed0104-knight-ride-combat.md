@@ -6,6 +6,9 @@
 
 This session serves as a triumphant sequel to the catastrophic equestrian failure of `seed0103`. The user entity—a Knight once again named *Sir*—successfully demonstrates the engine's mounted combat logic and the developers' penchant for classic rock references.
 
+
+**Execution Statistics**: 42 steps, 3223 PRNG calls.
+
 ### Mechanical Sequence
 
 **Steps 1–3: The Gallant Sir Redux**

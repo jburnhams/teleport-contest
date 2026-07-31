@@ -6,6 +6,9 @@
 
 This session serves as a rigorous mechanical validation of the engine's magical infrastructure. The user entity—a human Priestess named *Clara*—demonstrates the engine's ability to process spell selection, mana consumption, and the redundant reading of known spellbooks.
 
+
+**Execution Statistics**: 27 steps, 2238 PRNG calls.
+
 ### Mechanical Sequence
 
 **Steps 1–3: The Aspirant Clara**
