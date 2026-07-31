@@ -32,4 +32,4 @@ The harness launches a completely new game segment, passing in the serialized VF
 - The message line correctly outputs: *Hello Sneaky, the human Rogue, welcome back to NetHack!* 
 - Confirming that the datetime environmental flags were successfully preserved in the save block, the engine reiterates: *You are lucky! Full moon tonight.*
 
-The mathematical engine proves its flawless ability to pause existence, compress it into a binary file, and unpack it flawlessly, completely unbothered by the astrological warnings.
+The mathematical engine proves its flawless ability to pause existence, compress it into a binary file, and unpack it flawlessly, completely unbothered by the astrological warnings—a rather ridiculous triumph of cold memory management over celestial superstition.
