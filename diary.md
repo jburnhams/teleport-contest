@@ -245,3 +245,11 @@ Next step: Proceed with C5 or C3 to render menus and full map glyphs correctly.
 - Cleaned up loose test scratchpads and incorporated `test/o_init.test.js` covering `MAXOCLASSES` index initialization.
 - Validated via scoring maintaining exact 100% baseline structural alignment (88/11406 screens pass).
 - Next steps: Proceed to D2.3 (Erosion & Quantity helpers) exploring `may_generate_eroded` functionality.
+
+## 2026-05-16
+- Continued Stream C, porting `putmsghistory`, `Sprintf`, and `raw_printf` to `js/pline.js`.
+- Implemented `vpline` wrapper to conditionally check `game.flags.verbose` allowing proper execution in JS structure mimicking C logic efficiently.
+- Checked off all remaining items in `tasks/C-display.md` under C1 and C2.
+- Verified test coverage in `test/pline.test.js` validating the verbose handling, formatting, and history append features.
+- Baseline maintained completely stable at 88/11406 (+0 delta).
+- Next steps: Proceed to Stream C3 (`newsym` full map rendering) or C5 (`window system basics`).
