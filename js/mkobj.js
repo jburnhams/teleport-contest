@@ -1,5 +1,4 @@
 // C ref: obj.h
-import { game } from './gstate.js';
 import { fobj, set_fobj } from './decl.js';
 import {
     RANDOM_CLASS, WEAPON_CLASS, ARMOR_CLASS, POTION_CLASS, SCROLL_CLASS,
@@ -8,6 +7,11 @@ import {
 } from './const.js';
 import { BOULDER, GOLD_PIECE, STRANGE_OBJECT, objects } from './objects.js';
 import { rnd, rn2, rn1 } from './rng.js';
+import { erosion_matters } from './objnam.js';
+import * as Const from './const.js';
+import { game } from './gstate.js';
+
+
 import { depth, level_difficulty } from './hacklib.js';
 
 export const OBJ_FREE = 0;
@@ -425,4 +429,89 @@ export function mkobj_at(oclass, x, y, artif) {
     const otmp = mkobj(oclass, artif);
     place_object(otmp, x, y);
     return otmp;
+}
+
+
+export function is_flammable(otmp) {
+    let otyp = otmp.otyp;
+    let omat = objects[otyp].oc_material;
+
+    /* Candles can be burned, but they're not flammable in the sense that
+     * they can't get fire damage and it makes no sense for them to be
+     * fireproofed.
+     */
+    if (otmp.otyp === Const.TALLOW_CANDLE || otmp.otyp === Const.WAX_CANDLE) // Is_candle stub
+        return false;
+
+    if (objects[otyp].oc_oprop === Const.FIRE_RES || otyp === Const.WAN_FIRE)
+        return false;
+
+    return (omat <= Const.WOOD && omat !== Const.LIQUID) || omat === Const.PLASTIC;
+}
+
+export function is_rottable(otmp) {
+    let otyp = otmp.otyp;
+    return ((objects[otyp].oc_material <= Const.WOOD && objects[otyp].oc_material !== Const.LIQUID) || objects[otyp].oc_material === Const.DRAGON_HIDE);
+}
+
+export function is_rustprone(otmp) {
+    return objects[otmp.otyp].oc_material === Const.IRON;
+}
+
+export function is_corrodeable(otmp) {
+    return (objects[otmp.otyp].oc_material === Const.COPPER || objects[otmp.otyp].oc_material === Const.IRON);
+}
+
+export function is_crackable(otmp) {
+    return (objects[otmp.otyp].oc_material === Const.GLASS && otmp.oclass === Const.ARMOR_CLASS);
+}
+
+export function is_damageable(otmp) {
+    return (is_rustprone(otmp) || is_flammable(otmp) || is_rottable(otmp) || is_corrodeable(otmp) || is_crackable(otmp));
+}
+
+export function may_generate_eroded(otmp) {
+    /* initial hero inventory */
+    if (game.moves <= 1 && !game.in_mklev)
+        return false;
+    /* already erodeproof or cannot be eroded */
+    if (otmp.oerodeproof || !erosion_matters(otmp) || !is_damageable(otmp))
+        return false;
+    /* part of a monster's body and produced when it dies */
+    if (otmp.otyp === Const.WORM_TOOTH || otmp.otyp === Const.UNICORN_HORN)
+        return false;
+    /* artifacts cannot be generated eroded  */
+    if (otmp.oartifact)
+        return false;
+    return true;
+}
+
+export function mkobj_erosions(otmp) {
+    if (may_generate_eroded(otmp)) {
+        /* A small fraction of non-artifact items will generate eroded or
+         * possibly erodeproof. An item that generates eroded will never be
+         * erodeproof, and vice versa. */
+        if (!rn2(100)) {
+            otmp.oerodeproof = 1;
+        } else {
+            if (!rn2(80) && (is_flammable(otmp) || is_rustprone(otmp) || is_crackable(otmp))) {
+                do {
+                    otmp.oeroded++;
+                } while (otmp.oeroded < 3 && !rn2(9));
+            }
+            if (!rn2(80) && (is_rottable(otmp) || is_corrodeable(otmp))) {
+                do {
+                    otmp.oeroded2++;
+                } while (otmp.oeroded2 < 3 && !rn2(9));
+            }
+        }
+        /* and an extremely small fraction of the time, erodable items
+         * will generate greased */
+        if (!rn2(1000))
+            otmp.greased = 1;
+    }
+}
+
+export function is_multigen(otmp) {
+    return (otmp.oclass === Const.WEAPON_CLASS && objects[otmp.otyp].oc_skill >= -Const.P_SHURIKEN && objects[otmp.otyp].oc_skill <= -Const.P_BOW);
 }

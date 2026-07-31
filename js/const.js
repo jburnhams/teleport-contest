@@ -3230,3 +3230,6 @@ export const PM_SAMURAI = 9;
 export const PM_TOURIST = 10;
 export const PM_VALKYRIE = 11;
 export const PM_WIZARD = 12;
+export const TALLOW_CANDLE = 157;
+export const WAX_CANDLE = 158;
+export const WAN_FIRE = 339;
