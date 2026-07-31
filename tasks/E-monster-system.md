@@ -20,7 +20,7 @@ Port the monster creation and movement system. Monsters are placed during mklev 
 ## E3. makemon — monster creation (CRITICAL for mklev RNG)
 - [ ] Port `makemon(ptr, x, y, mmflags)` from makemon.c
 - [x] Port `rndmonst()` / `rndmonnum()` — random monster selection
-- [ ] Port `goodpos()` / `enexto()` — valid placement
+- [x] Port `goodpos()` / `enexto()` — valid placement
 - [ ] Port monster HP, speed, level adjustment
 - [ ] Port `m_initweap()` / `m_initinv()` — monster starting items (depends on D2)
 - [ ] Port `m_initgrp()` — monster groups
