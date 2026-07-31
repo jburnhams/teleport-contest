@@ -1,6 +1,7 @@
 # seed0101-ranger-quiver-throw-travel-engrave
 
 **Subsystem Focus**: Validates the `quiver` (`Q`) and `travel` (`_`) subroutines, as well as the mechanical distinction between readying a weapon and wielding it.
+**Execution Statistics**: 26 steps, 2371 PRNG calls.
 
 **Execution Statistics**: 27 steps, 2371 PRNG calls.
 

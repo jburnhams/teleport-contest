@@ -1,6 +1,7 @@
 # seed0104-knight-ride-combat
 
 **Subsystem Focus**: Validates the `#ride` success pathways, mounted combat resolution, and the culturally literate dismount subroutines.
+**Execution Statistics**: 42 steps, 3223 PRNG calls.
 
 **Execution Statistics**: 43 steps, 3223 PRNG calls.
 

@@ -1,6 +1,7 @@
 # seed8000-tourist-starter
 
 **Subsystem Focus**: Validates the `u_init` pathways, standard cursor event dispatching, and initial procedural generation.
+**Execution Statistics**: 22 steps, 3130 PRNG calls.
 
 **Execution Statistics**: 23 steps, 3130 PRNG calls.
 

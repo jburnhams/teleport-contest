@@ -1,6 +1,7 @@
 # seed0077-rogue-chargen
 
 **Subsystem Focus**: Validates manual character generation menus, the `apply` command logic for tools, and pet inventory interaction.
+**Execution Statistics**: 32 steps, 3242 PRNG calls.
 
 **Execution Statistics**: 33 steps, 3242 PRNG calls.
 

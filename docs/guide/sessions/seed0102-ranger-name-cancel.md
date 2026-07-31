@@ -1,6 +1,7 @@
 # seed0102-ranger-name-cancel
 
 **Subsystem Focus**: Validates the `#name` extended command, the `cmdassist` directional helper subroutines, and the graceful handling of command cancellation.
+**Execution Statistics**: 24 steps, 4485 PRNG calls.
 
 **Execution Statistics**: 25 steps, 4485 PRNG calls.
 
