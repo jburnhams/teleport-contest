@@ -31,3 +31,5 @@ Unsatisfied with the heat, Wizard jump-teleports again, targeting Level -2.
 The session concludes with Wizard reviewing his inventory, known spells, and attributes. He confirms his high Strength (18/02) and low Wisdom (7). He attempts to search at Step 121, but the engine identifies a nearby monster, outputting: *You already found a monster. Use 'm' prefix to force another search.*
 
 It is a flawless mechanical validation of the engine's endgame state machine, proving that it can successfully transition between complex environmental planes and manage the associated NPC spawns and status effects with absolute deterministic precision. The Barbarian's tour proves that the engine's most advanced features are as robust as its earliest corridors.
+
+*(And thus, the lone `@` prevailed—or perished—amidst the absurd ASCII geometry.)*

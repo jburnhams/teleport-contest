@@ -29,3 +29,5 @@ Wizard encounters a boulder and attempts to displace it (`b, n, b, h`).
 The session concludes with Wizard reviewing his inventory, known spells, and attributes. He confirms his "debug mode" status and his peak Intelligence (18). He performs two final searches (`s`) and inspects the floor (`:`), ensuring the universe is still deterministic.
 
 It is a flawless mechanical validation of the engine's administrative infrastructure, proving that it can successfully coordinate rapid-fire level generation, massive attribute shifts, and complex physics-based environmental interactions with absolute precision. The Wizard's world tour is a testament to the engine's stability in even the most unrealistic of scenarios.
+
+*(And thus, the lone `@` prevailed—or perished—amidst the absurd ASCII geometry, interacting with entities such as `0`.)*

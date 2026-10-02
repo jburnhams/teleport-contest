@@ -31,3 +31,5 @@ Ricky attempts to interact with her inventory or the environment, but issues a s
 Ricky methodically reviews her discoveries and attributes. She confirms her Intelligence (13) and Wisdom (14) before performing two final searches (`s`) and inspecting the floor (`:`), identifying the staircase up.
 
 It is a succinct mechanical validation of the engine's UI flexibility, proving that the state machine can successfully navigate into and back out of specialised sub-menus (like naming) and handle nonsensical directional inputs with absolute deterministic grace. Ricky may have been indecisive about her names, but the engine was perfectly clear about its directional requirements.
+
+*(And thus, the lone `@` prevailed—or perished—amidst the absurd ASCII geometry.)*

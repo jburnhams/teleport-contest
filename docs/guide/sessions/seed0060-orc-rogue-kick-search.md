@@ -31,3 +31,5 @@ Disappointed by the lack of hidden features, Shade decides to kick the wall to h
 The session concludes with Shade methodically reviewing his inventory, known spells, and attributes. He confirms his Intelligence (10) and Wisdom (11) before performing two final searches and inspecting the floor (`:`), presumably ensuring the wall hasn't moved.
 
 It is a succinct mechanical validation of the engine's physical feedback loops, proving that while searching may be fruitless, kicking a wall will always yield a deterministic result: pain.
+
+*(And thus, the lone `@` prevailed—or perished—amidst the absurd ASCII geometry, interacting with entities such as `f`, `o`, `|`.)*

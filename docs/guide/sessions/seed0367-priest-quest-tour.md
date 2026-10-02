@@ -33,3 +33,5 @@ The session concludes with Wizard reviewing her inventory, known spells, and att
 - This validates the engine's ability to track global state flags (like bones-level encounters) across administrative jumps.
 
 It is a flawless mechanical validation of the engine's administrative infrastructure, proving that it can successfully coordinate rapid-fire level generation and complex role-specific state management with absolute precision. The Wizard's tour demonstrates the engine's robust handling of even the most unconventional navigational patterns.
+
+*(And thus, the lone `@` prevailed—or perished—amidst the absurd ASCII geometry, interacting with entities such as `0`.)*

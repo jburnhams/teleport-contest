@@ -33,3 +33,5 @@ Wizard begins zapping wands in rapid succession — fire, cold, lightning, magic
 A new wizard arrives and repeats a similar pattern — administrative wishes, exploration, and eventual death at step 132. This segment validates that the full wishing-and-combat pipeline remains deterministically reproducible across fresh game instances with a different PRNG state.
 
 It is a vivid demonstration that the engine's bolt-physics and item-interaction subroutines are perfectly synchronised, even when the player's strategy is to point every available destructive force at themselves.
+
+*(And thus, the lone `@` prevailed—or perished—amidst the absurd ASCII geometry, interacting with entities such as `/`.)*

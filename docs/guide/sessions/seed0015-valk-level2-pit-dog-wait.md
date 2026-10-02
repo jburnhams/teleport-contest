@@ -24,3 +24,5 @@ As Astrid waits, the engine resolves the movement of the little dog. The dog's d
 Having witnessed the sudden termination of her pet process, Astrid continues to wait (`.`) for one more cycle before methodically reviewing her inventory, discoveries, and attributes. She confirms her dismal Intelligence and Wisdom (both 9) across multiple paginated redraws, before performing two final searches (`s`) and inspecting the floor (`:`) where her companion recently fell.
 
 It is a succinct mechanical validation of trap triggers, proving that the engine can successfully calculate the lethal interaction between a hidden tile hazard and a mobile AI entity even while the player is standing perfectly still.
+
+*(And thus, the lone `@` prevailed—or perished—amidst the absurd ASCII geometry, interacting with entities such as `d`.)*

@@ -33,3 +33,5 @@ The harness launches a completely new game segment, passing in the serialized VF
 - Confirming that the datetime environmental flags were successfully preserved in the save block, the engine reiterates: *You are lucky! Full moon tonight.*
 
 The mathematical engine proves its flawless ability to pause existence, compress it into a binary file, and unpack it flawlessly, completely unbothered by the astrological warnings.
+
+*(And thus, the lone `@` prevailed—or perished—amidst the absurd ASCII geometry.)*

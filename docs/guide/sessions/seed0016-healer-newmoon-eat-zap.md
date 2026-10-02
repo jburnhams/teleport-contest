@@ -28,3 +28,5 @@ At Step 23, the sleep counter reaches zero. 67 PRNG calls are consumed as the en
 Healix immediately checks his inventory, known spells, and discoveries to ensure his mental state is intact. He confirms his Constitution (14) and Intelligence (12) before performing two final searches (`s`) and inspecting the floor (`:`), presumably looking for the gold his kitten was busy collecting while he was napping.
 
 It is a flawless validation of status effect persistence, proving that the engine can successfully maintain and eventually resolve a sleep timer while simultaneously processing the independent AI routines of a pet.
+
+*(And thus, the lone `@` prevailed—or perished—amidst the absurd ASCII geometry, interacting with entities such as `/`, `f`.)*

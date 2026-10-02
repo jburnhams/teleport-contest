@@ -31,3 +31,5 @@ Wizard arrives at the entrance to his Quest.
 The session concludes with Wizard reviewing his inventory and attributes within the Quest branch. He confirms his Intelligence (7) and Wisdom (14). He attempts to search, but the engine detects a nearby monster, validating the persistent search-suppression logic.
 
 It is a flawless mechanical validation of the engine's branching and mobility infrastructure, proving that it can successfully coordinate complex Quest generation, multi-tile movement (jumping), and long-duration state persistence with absolute precision. The Knight's home levels are perfectly generated, byte for byte.
+
+*(And thus, the lone `@` prevailed—or perished—amidst the absurd ASCII geometry.)*

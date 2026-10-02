@@ -32,3 +32,5 @@ In a narrow corridor, Musashi and Hachi overlap again.
 The session concludes with Musashi methodically reviewing his inventory, discoveries, and attributes. He confirms his high Strength (18/01) and Wisdom (9) before performing two final searches (`s`) and inspecting the floor (`:`). 
 
 It is a succinct mechanical validation of the engine's fundamental exploration loops, proving that the state machine can successfully coordinate pet movement and door physics with absolute deterministic precision. Musashi may be stuck behind a resistant door, but the engine's locomotion logic is working flawlessly.
+
+*(And thus, the lone `@` prevailed—or perished—amidst the absurd ASCII geometry, interacting with entities such as `d`.)*

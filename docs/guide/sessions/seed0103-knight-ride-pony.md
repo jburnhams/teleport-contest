@@ -41,3 +41,5 @@ The engine resolves the final state change. *You die...*
 It is a succinct mechanical validation of the riding interaction matrix, proving that the engine can successfully calculate lethal fall damage from a stationary animal. Sir's grand adventure lasted exactly 58 steps, ended not by a dragon or a demon, but by the relentless mathematics of a saddle he was too clumsy to reach.
 
 One cannot help but admire his persistence, even as the engine meticulously calculated his demise.
+
+*(And thus, the lone `@` prevailed—or perished—amidst the absurd ASCII geometry, interacting with entities such as `u`.)*

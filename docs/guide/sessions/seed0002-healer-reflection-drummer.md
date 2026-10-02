@@ -28,3 +28,5 @@ Immediately recovering from the bouncing sleep ray, the user selects a *leather 
 The now-deafened user entity attempts to go up stairs (`<`) where none exist, checks their inventory one last time (triggering 0 PRNG calls as the simulation pauses for UI rendering), and finally searches the floor (`s`) before the session terminates.
 
 It is a rigorous validation of the memory structures and state flags, played out via the high-stakes drama of a lone healer bouncing sleep rays off a shield and frantically banging a drum in a dark cavern until their dog runs away.
+
+*(And thus, the lone `@` prevailed—or perished—amidst the absurd ASCII geometry, interacting with entities such as `/`, `d`.)*

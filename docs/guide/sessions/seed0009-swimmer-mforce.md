@@ -27,3 +27,5 @@ Refusing to be told what to do by a procedural safety check, the user presses `m
 The session concludes with the user process systematically reviewing their character attributes, confirming their 14 Intelligence, and reading the final status line: *You were level 1 with a maximum of 14 hit points when you burned.*
 
 It is a flawless mechanical test of the `m` command, presented as the rather ironic tale of an elf named Swimmer who demanded a tutorial on how to dive into molten rock.
+
+*(And thus, the lone `@` prevailed—or perished—amidst the absurd ASCII geometry, interacting with entities such as `|`.)*

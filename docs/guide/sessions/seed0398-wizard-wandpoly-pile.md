@@ -32,3 +32,5 @@ His experiment concluded, Wizard decides to terminate the simulation. He issues 
 - The engine's shutdown procedure is validated, culminating in a prompt for a core dump, which Wizard cancels before the final state-clean.
 
 It is a succinct mechanical validation of the engine's administrative toolkit, proving that it can successfully coordinate the creation of specific items and entities and their subsequent interaction in a controlled environment. The jackal's fate was determined by the Wizard's will, and the engine executed every step with absolute deterministic precision.
+
+*(And thus, the lone `@` prevailed—or perished—amidst the absurd ASCII geometry, interacting with entities such as `/`.)*

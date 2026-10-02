@@ -30,3 +30,5 @@ Humiliated but persistent, Padre wanders the dungeon. He experiments with variou
 Padre methodically reviews his inventory, known spells, discoveries, and attributes. He confirms his diminished Wisdom (17, noting the peak was 18) before performing two final searches (`s`) and inspecting the floor (`:`), identifying a fountain.
 
 It is a flawless mechanical validation of the engine's piety system, proving that the state machine can successfully handle permanent attribute degradation and complex diagnostic UI states with absolute deterministic precision. Padre has learned his lesson: Amaterasu Omikami does not appreciate being pestered before the first search.
+
+*(And thus, the lone `@` prevailed—or perished—amidst the absurd ASCII geometry.)*

@@ -33,3 +33,5 @@ Having completed his objective, Sir decides to dismount. He issues the `#ride` c
 Sir methodically reviews his inventory, known spells, discoveries, and attributes. He confirms his Intelligence (8) and Wisdom (15) before performing two final searches and inspecting the floor (`:`), presumably making sure the nameless pony is still nearby.
 
 It is a flawless mechanical validation of the riding state machine, proving that the engine can successfully transition from mounted combat to a pop-culture-infused dismount with absolute deterministic precision. Sir has finally mastered the art of sitting on a horse.
+
+*(And thus, the lone `@` prevailed—or perished—amidst the absurd ASCII geometry, interacting with entities such as `u`, `o`.)*

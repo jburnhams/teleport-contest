@@ -31,3 +31,5 @@ Unsatisfied with the depths, Wizard jumps again.
 The session concludes with Wizard reviewing his inventory, known spells, discoveries, and attributes. He confirms his Intelligence (18) and Wisdom (10) before performing two final searches (`s`) and inspecting the floor (`:`). 
 
 It is a succinct mechanical validation of the engine's administrative and input infrastructure, proving that it can successfully handle rapid-fire level generation and complex UI states with absolute precision. Whether the user is using standard keys or custom binds, the engine resolves the underlying simulation with absolute deterministic grace.
+
+*(And thus, the lone `@` prevailed—or perished—amidst the absurd ASCII geometry, interacting with entities such as `f`.)*

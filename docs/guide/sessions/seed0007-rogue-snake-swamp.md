@@ -25,3 +25,5 @@ Surrounded by newly generated `S` (snake) entities, the combat pathways activate
 
 **Steps 292–301: The Post-Mortem**
 The user painstakingly pages through the post-mortem screens, confirming (`y`) their desire to see their completely useless attributes and their empty sack. The mathematical engine rests, having flawlessly validated the rule that drinking from strange dungeon fountains is an inherently fatal activity.
+
+*(And thus, the lone `@` prevailed—or perished—amidst the absurd ASCII geometry, interacting with entities such as `S`.)*
