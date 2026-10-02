@@ -29,3 +29,5 @@ The engine activates the prayer resolution logic. It checks Akira's current turn
 Undeterred by the celestial snub, Akira waits for several turns (`.`), checks his inventory, and reviews his discoveries (identifying his Katana). He confirms his Intelligence (8) and Wisdom (9) before performing two final searches (`s`) and inspecting the floor (`:`). 
 
 It is a succinct mechanical validation of the prayer interaction matrix, proving that the engine can successfully manage the transition from "mortal request" to "divine annoyance" while maintaining perfect deterministic synchronisation. It also confirms that Samurai deities have very little patience for those who pray before they've even found a single gold piece.
+
+*(And thus, the lone `@` prevailed—or perished—amidst the absurd ASCII geometry, interacting with entities such as `d`.)*

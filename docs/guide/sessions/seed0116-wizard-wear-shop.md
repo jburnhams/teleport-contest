@@ -32,3 +32,5 @@ Wizard continues his diagnostic tour of the dungeon levels.
 The session concludes with Wizard methodically reviewing his inventory, known spells, discoveries, and attributes. He confirms his high Intelligence (18) and Wisdom (13) before performing two final searches (`s`) and inspecting the floor (`:`).
 
 It is a succinct mechanical validation of the engine's diagnostic infrastructure, proving that it can successfully handle rapid, high-entropy transitions between levels while simultaneously managing the complex state transitions of the equipment and inventory systems. The Wizard's wardrobe is perfectly synced, even across the multiverse.
+
+*(And thus, the lone `@` prevailed—or perished—amidst the absurd ASCII geometry.)*

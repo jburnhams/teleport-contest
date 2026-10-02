@@ -28,3 +28,5 @@ Bushi wanders the dungeon, eventually standing over a lichen corpse. He decides 
 Bushi methodically reviews his inventory, known spells, discoveries, and attributes. He confirms his Intelligence (9) and Wisdom (8) before performing two final searches (`s`) and inspecting the floor (`:`), identifying the lichen corpse he just sat on.
 
 It is a succinct mechanical validation of the engine's state machine, proving that it can successfully coordinate complex equipment flags like "two-weapon" while also handling the whimsical environmental feedback of sitting on deceased dungeon flora. Bushi may have an uncomfortable seat, but the engine is in a state of perfect deterministic comfort.
+
+*(And thus, the lone `@` prevailed—or perished—amidst the absurd ASCII geometry.)*

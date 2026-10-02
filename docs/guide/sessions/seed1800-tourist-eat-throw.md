@@ -33,3 +33,5 @@ Touristo attempts to apply an item using the `a` command.
 Touristo performs two final searches (`s`) and inspects the floor (`:`), identifying the staircase up out of the dungeon.
 
 It is a succinct mechanical validation of the engine's item-interaction and message-rendering logic, proving that even a single cookie can provide a wealth of deterministic data. Touristo may have only learned a simple proverb, but the engine resolved every byte of that message with absolute precision.
+
+*(And thus, the lone `@` prevailed—or perished—amidst the absurd ASCII geometry, interacting with entities such as `d`.)*

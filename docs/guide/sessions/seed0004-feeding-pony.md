@@ -27,3 +27,5 @@ Determined to win the affection of this hostile letter 'u', the user entity init
 Having thrown all their percent signs at the vowel, the user entity attempts to eat (`e`) and frantically cycles through their inventory trying to consume items they do not possess. This generates a comical string of *You don't have that object* errors before the session mercifully concludes.
 
 It is a rigorous boundary test of the pet interaction logic, presented as the rather poignant spectacle of a knight aggressively throwing punctuation marks at a hostile letter 'u' until they run out of food.
+
+*(And thus, the lone `@` prevailed—or perished—amidst the absurd ASCII geometry, interacting with entities such as `u`, `o`, `0`.)*

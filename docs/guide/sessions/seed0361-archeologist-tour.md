@@ -30,3 +30,5 @@ Wizard continues his diagnostic tour, initiating another level-teleport.
 The session concludes with Wizard reviewing his inventory, known spells, and attributes. He confirms his "debug mode" status and his peak Wisdom (18). He performs two final searches (`s`) and inspects the floor (`:`), ensuring the Archeologist's reality remains deterministic.
 
 It is a flawless mechanical validation of the engine's administrative infrastructure, proving that it can successfully coordinate rapid-fire level generation and complex role-specific attribute management with absolute precision. The Wizard's tour continues to demonstrate the engine's stability across different classes.
+
+*(And thus, the lone `@` prevailed—or perished—amidst the absurd ASCII geometry.)*

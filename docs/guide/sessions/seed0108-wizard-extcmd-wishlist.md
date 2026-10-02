@@ -34,3 +34,5 @@ Unsatisfied with Level 11, Wizard immediately jumps again.
 The session concludes with Wizard methodically reviewing his inventory, known spells, discoveries, and attributes. He confirms his high Intelligence (18) before performing two final searches (`s`) and inspecting the floor (`:`), confirming the presence of the boulder he just landed on.
 
 It is a comprehensive mechanical validation of the engine's debugging infrastructure, proving that it can successfully handle rapid, high-entropy transitions between levels while maintaining perfect state synchronisation. The Wizard Mode commands are a vital part of the engine's diagnostic toolkit, and this session confirms they are working with flawless precision.
+
+*(And thus, the lone `@` prevailed—or perished—amidst the absurd ASCII geometry, interacting with entities such as `0`.)*

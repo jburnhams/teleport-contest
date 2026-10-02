@@ -35,3 +35,5 @@ The relentless attacks reduce Wizard's hit points to zero.
 The session concludes with Wizard enduring further attacks before performing a final review of his attributes. He confirms his Intelligence (18) and diminished Wisdom (14) before attempting a search and inspecting the floor (`:`). 
 
 It is a flawless mechanical validation of the engine's immortality subroutines, proving that the state machine can successfully roll back a terminal state change and restore the entity to an active, playable condition with absolute deterministic precision. Wizard may have been stung, poisoned, and killed, but in the eyes of the engine, he was merely testing the limits of existence.
+
+*(And thus, the lone `@` prevailed—or perished—amidst the absurd ASCII geometry.)*

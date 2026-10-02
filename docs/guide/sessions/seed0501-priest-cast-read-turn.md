@@ -29,3 +29,5 @@ Clara decides to review her starting spellbook of healing (`g`).
 The session concludes with Clara reviewing her known spells, discoveries, and attributes. She confirms her high Wisdom (18) and Intelligence (10) before performing two final searches (`s`) and inspecting the floor (`:`), identifying the staircase up.
 
 It is a succinct mechanical validation of the engine's magical state machine, proving that it can successfully coordinate mana expenditure, spell-effect resolution, and complex study-logic boundary checks with absolute deterministic precision. Clara's memory is perfectly intact, and the engine's Power counter is perfectly synced.
+
+*(And thus, the lone `@` prevailed—or perished—amidst the absurd ASCII geometry.)*

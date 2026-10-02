@@ -36,3 +36,5 @@ At Step 162, a combat death at the hands of Swidnica. The engine validates the i
 The final two segments complete the experiment with extended exploration runs, each testing the engine's state-persistence validation across segment boundaries. The transition between segments proves that cross-session state (bones, save files) is maintained correctly.
 
 It is a poignant, algorithmic symphony of failure across 1,953 screens, proving that while there are many ways to die in the Dungeons of Doom, every single one of them is meticulously tracked by the mathematical engine. The cumulative PRNG load across ten lifetimes and ten deaths is staggering, making this the most demanding session in the public corpus for state management validation.
+
+*(And thus, the lone `@` prevailed—or perished—amidst the absurd ASCII geometry, interacting with entities such as `/`, `f`, `o`.)*

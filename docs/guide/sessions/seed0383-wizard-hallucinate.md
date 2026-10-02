@@ -27,3 +27,5 @@ Even in a state of sensory distortion, the engine continues to resolve global ev
 Wizard reviews his attributes, confirming his Intelligence (15) and Wisdom (12). He performs two final searches (`s`) and inspects the floor (`:`). Throughout these final steps, the map continues to refresh with randomised ASCII symbols, a visual representation of his distorted mental state.
 
 It is a flawless mechanical validation of the engine's perception layer, proving that it can successfully maintain a deterministic simulation of "truth" while simultaneously generating a consistent but randomised "lie" for the user interface. The basement cat may have a sword, but the engine knows exactly how many PRNG calls were required to give it to him.
+
+*(And thus, the lone `@` prevailed—or perished—amidst the absurd ASCII geometry.)*
